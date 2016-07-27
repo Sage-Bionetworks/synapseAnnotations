@@ -1,0 +1,150 @@
+#YAML
+# EDAM Data
+assay:
+    - RNAseq
+    - exomeSeq
+    - CHiPSeq
+    - arrayRNA
+    - arraySNP
+    - arrayMethylation
+    - arrayMiRNA
+    - bisulfiteSeq
+    - ATACseq
+    - NOMeSeq
+    - HI-C
+    - errBisulfiteSeq
+    - ISOseq
+    - MRI
+    - westernBlot
+    - drugViabilityAssay
+    - drugCombinationAssay
+
+dataType:
+    - genomicVariants
+    - image
+    - geneExpression
+    - proteomics
+    - kinomics
+    - drugScreen
+
+dataSubtype:
+    - dataMatrix
+    - raw
+    - processed
+    - metadata
+
+# EDAM Format
+fileFormat:
+    - idx
+	- BAM
+	- BAI
+	- excel
+	- powerpoint
+	- TIF
+	- PNG
+	- doc
+	- PDF
+	- hdf
+	- FASTA
+	- FASTQ
+	- SAM
+	- VCF
+	- BCF
+	- MAF
+	- BED
+	- chp
+	- cel
+	- sif
+	- tsv
+	- csv
+	- txt
+	- plink
+	- idat
+	- bigwig
+	- wiggle
+	- gct
+
+# MESH
+species:
+    - Human
+    - Mouse
+    - Drosophila melanogaster
+
+disease:
+    - Neurofibromatosis 1
+    - Neurofibromatosis 2
+    - Bipolar Disorder
+    - Alzheimer Disease
+    - Schizophrenia
+    - Autism Spectrum Disorder
+    
+tumorType: #if applicable, only for cancer
+    - Neurofibroma
+    - Optic Nerve Glioma
+    - Glioma
+    - Astrocytoma
+    - Neurofibroma, Plexiform
+    - Malignant Peripheral Nerve Sheath Tumor
+
+cellType: #(if applicable, often mixed if from tissue)
+    - B-lymphocytes
+    - induced pluripotent stem cells
+    - GABAergic neurons
+    - monocytes
+    - microglia
+    - macrophages
+    - astrocytes
+
+cellLine:
+    - True
+    - False
+
+organ: #if not a cell line
+    - skin
+    - nerves
+    - brain
+    - blood
+
+tissue: #(if applicable)
+    - cerebral cortex
+    - frontal lobe
+    - hippocampus
+    - nerve tissue
+    - dorsolateral prefrontal cortex
+    - anterior cingulate cortex
+    - temporal cortex
+
+# Sage
+study:
+    - Baltimore Longitudinal Study of Aging
+    - pnfCellCulture
+    - Synodos NF1
+    - Synodos NF2
+    - Synodos LGG
+    - DHART SPORE
+    - Dermal NF
+    - EpiMap
+    - MouseHAL
+    - WGBS Pilot
+    - lncRNA Pilot
+
+PI:
+    - name 1
+
+consortium:
+    - CommonMind
+    - PsychENCODE
+    - AcceleratingMedicinesPartnership-AD
+    - Synodos
+
+grant:
+    - U01MH103339
+    - U01MH103392
+
+dataContact:
+
+fundingAgency:
+    - Children's Tumor Foundation
+    - National Cancer Institute
+    - NTAP
+    - National Institute of Aging
