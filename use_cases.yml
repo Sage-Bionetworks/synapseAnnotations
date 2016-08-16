@@ -1,0 +1,56 @@
+#YAML
+# Use cases
+
+# psychENCODE BAM
+assay: CHiPSeq
+dataType: ?
+dataSubType: raw
+fileFormat: BAM
+species: Human
+disease: Autism Spectrum Disorder
+cellType: GABAergic neurons
+cellLine: True
+organ: brain
+tissue: frontal lobe
+study: EpiMap
+PI: some name
+consortium: PsychENCODE
+grant: some number
+dataContact: person@university.edu
+fundingAgency: National Institute of Mental Health
+
+
+# CommonMind genotypes
+assay: arraySNP
+dataType: genomicVariants
+dataSubtype: processed
+fileFormat: plink
+species: Human
+disease: Schizophrenia
+cellLine: False
+organ: brain
+tissue: dorsolateral prefrontal cortex
+study: CommonMind
+PI: name
+consortium: CommonMind
+grant: ?
+dataContact: info@commonmind.org
+fundingAgency: ?
+
+
+# AMP-AD mouse model gene counts syn5053499
+assay: RNAseq
+dataType: geneExpression
+dataSubType: dataMatrix
+fileFormat: txt / tsv
+species: Mouse
+disease: ?
+cellLine: False
+organ: brain
+tissue: dentate gyrus
+study: Mount Sinai Mouse Models
+PI: Eric Schadt
+consortium: Accelerating Medicines Partnership - Alzheimer's Disease
+grant: some number
+dataContact: ?
+fundingAgency: National Institute of Aging
