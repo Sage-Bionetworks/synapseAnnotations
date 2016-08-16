@@ -1,0 +1,147 @@
+{
+    "assay": [
+        "RNAseq",
+        "exomeSeq",
+        "CHiPSeq",
+        "arrayRNA",
+        "arraySNP",
+        "arrayMethylation",
+        "arrayMiRNA",
+        "bisulfiteSeq",
+        "ATACseq",
+        "NOMeSeq",
+        "HI-C",
+        "errBisulfiteSeq",
+        "ISOseq",
+        "MRI",
+        "westernBlot",
+        "drugViabilityAssay",
+        "drugCombinationAssay"
+    ],
+    "dataType": [
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "proteomics",
+        "kinomics",
+        "drugScreen"
+    ],
+    "dataSubtype": [
+        "dataMatrix",
+        "raw",
+        "processed",
+        "metadata"
+    ],
+    "fileFormat": [
+        "idx",
+        "BAM",
+        "BAI",
+        "excel",
+        "powerpoint",
+        "TIF",
+        "PNG",
+        "doc",
+        "PDF",
+        "hdf",
+        "FASTA",
+        "FASTQ",
+        "SAM",
+        "VCF",
+        "BCF",
+        "MAF",
+        "BED",
+        "chp",
+        "cel",
+        "sif",
+        "tsv",
+        "csv",
+        "txt",
+        "plink",
+        "idat",
+        "bigwig",
+        "wiggle",
+        "gct"
+    ],
+    "species": [
+        "Human",
+        "Mouse",
+        "Drosophila melanogaster"
+    ],
+    "disease": [
+        "Neurofibromatosis 1",
+        "Neurofibromatosis 2",
+        "Bipolar Disorder",
+        "Alzheimer Disease",
+        "Schizophrenia",
+        "Autism Spectrum Disorder"
+    ],
+    "tumorType": [
+        "Neurofibroma",
+        "Optic Nerve Glioma",
+        "Glioma",
+        "Astrocytoma",
+        "Neurofibroma, Plexiform",
+        "Malignant Peripheral Nerve Sheath Tumor"
+    ],
+    "cellType": [
+        "B-lymphocytes",
+        "induced pluripotent stem cells",
+        "GABAergic neurons",
+        "monocytes",
+        "microglia",
+        "macrophages",
+        "astrocytes"
+    ],
+    "cellLine": [
+        true,
+        false
+    ],
+    "organ": [
+        "skin",
+        "nerves",
+        "brain",
+        "blood"
+    ],
+    "tissue": [
+        "cerebral cortex",
+        "frontal lobe",
+        "hippocampus",
+        "nerve tissue",
+        "dorsolateral prefrontal cortex",
+        "anterior cingulate cortex",
+        "temporal cortex"
+    ],
+    "study": [
+        "Baltimore Longitudinal Study of Aging",
+        "pnfCellCulture",
+        "Synodos NF1",
+        "Synodos NF2",
+        "Synodos LGG",
+        "DHART SPORE",
+        "Dermal NF",
+        "EpiMap",
+        "MouseHAL",
+        "WGBS Pilot",
+        "lncRNA Pilot"
+    ],
+    "PI": [
+        "name 1"
+    ],
+    "consortium": [
+        "CommonMind",
+        "PsychENCODE",
+        "AcceleratingMedicinesPartnership-AD",
+        "Synodos"
+    ],
+    "grant": [
+        "U01MH103339",
+        "U01MH103392"
+    ],
+    "dataContact": null,
+    "fundingAgency": [
+        "Children's Tumor Foundation",
+        "National Cancer Institute",
+        "NTAP",
+        "National Institute of Aging"
+    ]
+}
