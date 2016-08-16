@@ -36,33 +36,33 @@ dataSubtype:
 # EDAM Format
 fileFormat:
     - idx
-	- BAM
-	- BAI
-	- excel
-	- powerpoint
-	- TIF
-	- PNG
-	- doc
-	- PDF
-	- hdf
-	- FASTA
-	- FASTQ
-	- SAM
-	- VCF
-	- BCF
-	- MAF
-	- BED
-	- chp
-	- cel
-	- sif
-	- tsv
-	- csv
-	- txt
-	- plink
-	- idat
-	- bigwig
-	- wiggle
-	- gct
+    - BAM
+    - BAI
+    - excel
+    - powerpoint
+    - TIF
+    - PNG
+    - doc
+    - PDF
+    - hdf
+    - FASTA
+    - FASTQ
+    - SAM
+    - VCF
+    - BCF
+    - MAF
+    - BED
+    - chp
+    - cel
+    - sif
+    - tsv
+    - csv
+    - txt
+    - plink
+    - idat
+    - bigwig
+    - wiggle
+    - gct
 
 # MESH
 species:
