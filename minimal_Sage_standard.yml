@@ -77,7 +77,8 @@ disease:
     - Alzheimer Disease
     - Schizophrenia
     - Autism Spectrum Disorder
-    
+    #add in TCGA cancer names, but without the abbreviations?
+
 tumorType: #if applicable, only for cancer
     - Neurofibroma
     - Optic Nerve Glioma
@@ -94,16 +95,29 @@ cellType: #(if applicable, often mixed if from tissue)
     - microglia
     - macrophages
     - astrocytes
+    #These are inhrerited from the PSON merge
+    - epithelial
+    - fibroblast
+    - epithelial-like
+    - lymphoblast
+    - polygonal
 
-cellLine:
+isCellLine:
     - True
     - False
 
-organ: #if not a cell line
+organ: #if not a cell line, or if represented by cell line?
     - skin
     - nerves
     - brain
     - blood
+    #added from PSON cell line merge
+    - breast
+    - colon
+    - prostate
+    - pancreas
+    - lung
+    - ovary
 
 tissue: #(if applicable)
     - cerebral cortex
@@ -114,37 +128,36 @@ tissue: #(if applicable)
     - anterior cingulate cortex
     - temporal cortex
 
-# Sage
+# Sage-specific
 study:
     - Baltimore Longitudinal Study of Aging
-    - pnfCellCulture
+    ##NTAP specific
+    - Cell Culture
+    - Unsolicited
+    - PRO
+    - Francis Collins
+    ##CTF specific
     - Synodos NF1
     - Synodos NF2
     - Synodos LGG
-    - DHART SPORE
     - Dermal NF
+    - DHART SPORE
+    #psychENCODE
     - EpiMap
     - MouseHAL
     - WGBS Pilot
     - lncRNA Pilot
-
-PI:
-    - name 1
 
 consortium:
     - CommonMind
     - PsychENCODE
     - AcceleratingMedicinesPartnership-AD
     - Synodos
-
-grant:
-    - U01MH103339
-    - U01MH103392
-
-dataContact:
+    - CSBC
+    - PSON
 
 fundingAgency:
     - Children's Tumor Foundation
     - National Cancer Institute
-    - NTAP
+    - Neurofibromatosis Therapeutics Acceleration Program
     - National Institute of Aging
