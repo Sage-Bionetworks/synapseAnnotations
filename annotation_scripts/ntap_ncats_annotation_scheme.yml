@@ -1,0 +1,212 @@
+##This is an example of an annotation scheme applied to a specific project
+##Designed to be applied to the minified annotations as well as extra files
+
+
+##Step 1: specify annotation file to use - script should check to ensure that all required terms are used
+minifiedFilePath: minimal_Sage_standard.yml
+extraFilePath: #these files don't exist yet
+  - NF_annotations.yml
+
+#Step 2: specify project ID, and any project-wide annotations
+projectSynapseId: syn4939906  ##NCATS drug screening
+    recurseToAllFiles: True
+    annotations:
+      - fundingAgency: NTAP
+      - consortium:
+      - study: Cell Culture
+      - isCellLine: True
+      - nf2Genotype: +/+
+
+#Step 3a: can specify annotations by synapse ID
+---
+entitySynapseId: syn5611797, syn5611796
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+       - assay: drugCombinationAssay
+       - dataType: drugScreen
+       - species: human
+       - fileFormat: csv
+     ##this will match all files and annotate only the matching ones
+     patternToMatch: 'calc'
+        annotations:
+          - dataSubtype: processed
+     patternToMatch: 'metadata'
+        annotations:
+          - dataSubtype: metadata
+     patternToMatch: 'responses'
+        annotations:
+          - dataSubtype: processed
+
+##Step 3b: alternatively,  can specify annotations by project/file path combination (in case upload isn't complete)
+filePath: '10x10 Combination Screens/HFF'  ##this is an alternate way of referencing an entity
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+       - organ: foreskin
+       - disease: None
+       - tumorType: None
+       - cellType: fibroblast
+       - sampleIdentifier: HFF
+       - nf1Genotype: +/+
+
+synapseId: syn5614434,syn5614429
+    entityType: folder
+    recurseToAllFiles: True
+    annotations:
+      - organ: nerves
+      - tumorType: Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - sampleIdentifier: ipNF05.5 (mixed clone)
+      - tissue: nerve tissue
+      - nf1Genotype: -/-
+---
+synapseId: syn5614435, syn5614430
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+      - organ: nerves
+      - tumorType: Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - sampleIdentifier: ipNF05.5 (single clone)
+      - tissue: nerve tissue
+      - nf1Genotype: -/-
+
+synapseId: syn5614436, syn5614432
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+      - organ: nerves
+      - tumorType: Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - sampleIdentifier: ipNF95.6
+      - tissue: nerve tissue
+      - nf1Genotype: -/-
+
+synapseId: syn5614428
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+      - organ: nerves
+      - tumorType: Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - sampleIdentifier: ipn02.3
+      - tissue: nerve tissue
+      - nf1Genotype: +/+
+
+synapseId: syn5614431
+     entityType: folder
+     recurseToAllFiles: True
+     annotations:
+      - organ: nerves
+      - tumorType: None
+      - disease: Neurofibromatosis 1
+      - sampleIdentifier: ipnNF95.11c
+      - tissue: nerve tissue
+      - nf1Genotype: +/-
+
+##now do the single agent screens
+synapseId: syn5522627
+    entityType: folder
+    recurseToallFiles: True
+    annotations:
+      - assay: drugViabilityAssay
+      - dataType: drugScreen
+
+      
+##have to do each file individually
+synapseId: syn5522642
+    entityType: file
+    annotations:
+      - sampleIdentifier: ipn02.3
+      - nf1Genotype: +/+
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType: None
+      - disease: None
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5522643
+    entityType: file
+    annotations:
+      - sampleIdentifier: ipn02.8
+      - nf1Genotype: +/+
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType: None
+      - disease: None
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5522644
+     entityType: file
+     annotations:
+      - sampleIdentifier: ipNF05.5 (mixed clone)
+      - nf1Genotype: -/-
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType:  Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5522645
+     entityType: file
+     annotations:
+      - sampleIdentifier: ipNF05.5 (mixed clone)
+      - nf1Genotype: -/-
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType:  Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5522646
+     entityType: file
+     annotations:
+      - sampleIdentifier:  ipnNF95.11c
+      - nf1Genotype: +/-
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType:  None
+      - disease: Neurofibromatosis 1
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5522649
+     entityType: file
+     annotations:
+      - sampleIdentifier: ipNF95.6
+      - nf1Genotype: -/-
+      - fileFormat: csv
+      - organ: nerves
+      - tumorType:  Neurofibroma, Plexiform
+      - disease: Neurofibromatosis 1
+      - tissue: nerve tissue
+      - species: Human
+
+synapseId: syn5917344
+    entityType: file
+    annotations:
+      - sampleIdentifier: HFF
+      - nf1Genotype: +/+
+      - organ: foreskin
+      - disease: None
+      - tumorType: None
+      - cellType: fibroblast
+      - species: Human
+      - fileFormat: csv
+
+synapseId: syn5917348
+   entityType: file
+   annotations:
+     - sampleIdentifier: MTC
+     - nf1Genotype: +/+
+     - organ: thyroid
+     - disease: None
+     - tumorType: None
+     - cellType: epithelial
+     - species: Mouse
+     - fileFormat: csbv
