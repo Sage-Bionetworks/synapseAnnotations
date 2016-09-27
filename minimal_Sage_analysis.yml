@@ -70,3 +70,25 @@ regressionModel:
   - fixedEffect
   - randomEffect
   - mixedEffect
+
+visualisation:
+  - scatterPlot
+  - heatMap
+  - barChart
+
+validationMethod:
+  - sequenceValidation
+  - targetValidation
+  - CRISPR-CAS9
+  - RNAi
+  - shRNA
+
+alignmentMethod:
+  - SNAPR
+  - topHat
+
+assemblyMethod:
+  - velvet
+
+enrichmentMethod:
+  - fishersExactTest
