@@ -1,19 +1,23 @@
 {
     "assay": [
         "RNAseq",
+        "miRNAseq",
+        "wholeGenomeSeq",
         "exomeSeq",
-        "CHiPSeq",
+        "ChIPSeq",
         "arrayRNA",
         "arraySNP",
         "arrayMethylation",
         "arrayMiRNA",
+        "arrayReveresePhaseProtein",
         "bisulfiteSeq",
         "ATACseq",
         "NOMeSeq",
         "HI-C",
         "errBisulfiteSeq",
-        "ISOseq",
+        "IsoSeq",
         "MRI",
+        "PET",
         "westernBlot",
         "drugViabilityAssay",
         "drugCombinationAssay"
@@ -24,13 +28,20 @@
         "geneExpression",
         "proteomics",
         "kinomics",
-        "drugScreen"
+        "drugScreen",
+        "metadata",
+        "epigenomics"
+        
     ],
     "dataSubtype": [
         "dataMatrix",
         "raw",
         "processed",
-        "metadata"
+        "metadata",
+        "geneCounts",
+        "imputed",
+        "fpkm",
+        "ChIPpeaks",
     ],
     "fileFormat": [
         "idx",
@@ -73,7 +84,17 @@
         "Bipolar Disorder",
         "Alzheimer Disease",
         "Schizophrenia",
-        "Autism Spectrum Disorder"
+        "Autism Spectrum Disorder",
+        "Major Depressive Disorder",
+        "Tourette Syndrome",
+        "Affective Disorder",
+        "Frontotemporal Dementia"'
+        "Mild Cognitive Impairment"'
+        "Parkinson Disease",
+        "Control",
+        "Progressive Supranuclear Palsy",
+        "Amyotrophic Lateral Sclerosis"
+
     ],
     "tumorType": [
         "Neurofibroma",
@@ -85,12 +106,18 @@
     ],
     "cellType": [
         "B-lymphocytes",
-        "induced pluripotent stem cells",
+        "iPSC",
         "GABAergic neurons",
         "monocytes",
         "microglia",
         "macrophages",
-        "astrocytes"
+        "astrocytes",
+        "NeUN+",
+        "NeUN-",
+        "CNON",
+        "A549",
+        "SH-SY5Y"
+       
     ],
     "cellLine": [
         true,
@@ -112,7 +139,7 @@
         "temporal cortex"
     ],
     "study": [
-        "Baltimore Longitudinal Study of Aging",
+        "BLSA",
         "pnfCellCulture",
         "Synodos NF1",
         "Synodos NF2",
@@ -122,20 +149,41 @@
         "EpiMap",
         "MouseHAL",
         "WGBS Pilot",
-        "lncRNA Pilot"
+        "lncRNA Pilot",
+        "CNON",
+        "BrainGVEX",
+        "UCLA-ASD",
+        "iPSC",
+        "HumanFC",
+        "EpiGABA",
+        "NHP",
+        "Yale-ASD",
+        "BipSeq"
+        
     ],
     "PI": [
         "name 1"
     ],
     "consortium": [
-        "CommonMind",
-        "PsychENCODE",
-        "AcceleratingMedicinesPartnership-AD",
-        "Synodos"
+        "CMC",
+        "PEC",
+        "AMP-AD",
+        "Synodos",
+        "BSMN"
     ],
     "grant": [
         "U01MH103339",
-        "U01MH103392"
+        "U01MH103392",
+        "U01MH103346", 
+        "U01MH103340",
+        "U01MH103365,
+        "R01MH094714",
+        "R21MH105881", 
+        "R01MH105472", 
+        "R21MH102791", 
+        "R21MH103877",
+        "R01MH105898",
+        "P50MH106934"
     ],
     "dataContact": null,
     "fundingAgency": [
