@@ -20,7 +20,7 @@ projectSynapseId: syn4939906  ##NCATS drug screening
 
 #Step 3a: can specify annotations by synapse ID
 ---
-entitySynapseId: syn5611797, syn5611796
+entityId1: syn5611797, syn5611796
      annotations:
        - assay: drugCombinationAssay
        - dataType: drugScreen
@@ -38,7 +38,7 @@ entitySynapseId: syn5611797, syn5611796
           - dataSubtype: processed
 
 ##Step 3b: alternatively,  can specify annotations by project/file path combination (in case upload isn't complete)
-filePath: '10x10 Combination Screens/HFF'  ##this is an alternate way of referencing an entity if localOrRemote is remote, than file path refers to head of synapse project.
+filePath1: '10x10 Combination Screens/HFF'  ##this is an alternate way of referencing an entity if localOrRemote is remote, than file path refers to head of synapse project.
      annotations:
        - organ: foreskin
        - disease: None
@@ -47,7 +47,7 @@ filePath: '10x10 Combination Screens/HFF'  ##this is an alternate way of referen
        - sampleIdentifier: HFF
        - nf1Genotype: +/+
 
-synapseId: syn5614434,syn5614429
+entityId2: syn5614434, syn5614429
     annotations:
       - organ: nerves
       - tumorType: Neurofibroma, Plexiform
@@ -56,7 +56,7 @@ synapseId: syn5614434,syn5614429
       - tissue: nerve tissue
       - nf1Genotype: -/-
 ---
-synapseId: syn5614435, syn5614430
+entityId3: syn5614435, syn5614430
      annotations:
       - organ: nerves
       - tumorType: Neurofibroma, Plexiform
@@ -65,7 +65,7 @@ synapseId: syn5614435, syn5614430
       - tissue: nerve tissue
       - nf1Genotype: -/-
 
-synapseId: syn5614436, syn5614432
+entityId4: syn5614436, syn5614432
      annotations:
       - organ: nerves
       - tumorType: Neurofibroma, Plexiform
@@ -74,7 +74,7 @@ synapseId: syn5614436, syn5614432
       - tissue: nerve tissue
       - nf1Genotype: -/-
 
-synapseId: syn5614428
+entityId5: syn5614428
      annotations:
       - organ: nerves
       - tumorType: Neurofibroma, Plexiform
@@ -83,7 +83,7 @@ synapseId: syn5614428
       - tissue: nerve tissue
       - nf1Genotype: +/+
 
-synapseId: syn5614431
+entityId6: syn5614431
      annotations:
       - organ: nerves
       - tumorType: None
@@ -93,14 +93,14 @@ synapseId: syn5614431
       - nf1Genotype: +/-
 
 ##now do the single agent screens
-synapseId: syn5522627
+entityId7: syn5522627
     annotations:
       - assay: drugViabilityAssay
       - dataType: drugScreen
 
 
 ##have to do each file individually
-synapseId: syn5522642
+entityId8: syn5522642
     annotations:
       - sampleIdentifier: ipn02.3
       - nf1Genotype: +/+
@@ -111,7 +111,7 @@ synapseId: syn5522642
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5522643
+entityId9: syn5522643
     annotations:
       - sampleIdentifier: ipn02.8
       - nf1Genotype: +/+
@@ -122,7 +122,7 @@ synapseId: syn5522643
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5522644
+entityId10: syn5522644
      annotations:
       - sampleIdentifier: ipNF05.5 (mixed clone)
       - nf1Genotype: -/-
@@ -133,7 +133,7 @@ synapseId: syn5522644
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5522645
+entityId11: syn5522645
      annotations:
       - sampleIdentifier: ipNF05.5 (mixed clone)
       - nf1Genotype: -/-
@@ -144,7 +144,7 @@ synapseId: syn5522645
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5522646
+entityId12: syn5522646
      annotations:
       - sampleIdentifier:  ipnNF95.11c
       - nf1Genotype: +/-
@@ -155,7 +155,7 @@ synapseId: syn5522646
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5522649
+entityId13: syn5522649
      annotations:
       - sampleIdentifier: ipNF95.6
       - nf1Genotype: -/-
@@ -166,7 +166,7 @@ synapseId: syn5522649
       - tissue: nerve tissue
       - species: Human
 
-synapseId: syn5917344
+entityId14: syn5917344
     annotations:
       - sampleIdentifier: HFF
       - nf1Genotype: +/+
@@ -177,7 +177,7 @@ synapseId: syn5917344
       - species: Human
       - fileFormat: csv
 
-synapseId: syn5917348
+entityId15: syn5917348
    annotations:
      - sampleIdentifier: MTC
      - nf1Genotype: +/+
