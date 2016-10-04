@@ -111,6 +111,10 @@
         "anterior cingulate cortex",
         "temporal cortex"
     ],
+    "sex": [
+        "male",
+        "female"
+    ]
     "study": [
         "Baltimore Longitudinal Study of Aging",
         "pnfCellCulture",
