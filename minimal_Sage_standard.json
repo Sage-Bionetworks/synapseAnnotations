@@ -92,7 +92,7 @@
         "macrophages",
         "astrocytes"
     ],
-    "cellLine": [
+    "isCellLine": [
         true,
         false
     ],
