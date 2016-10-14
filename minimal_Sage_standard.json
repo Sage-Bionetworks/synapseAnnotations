@@ -111,22 +111,6 @@
         "anterior cingulate cortex",
         "temporal cortex"
     ],
-    "study": [
-        "Baltimore Longitudinal Study of Aging",
-        "pnfCellCulture",
-        "Synodos NF1",
-        "Synodos NF2",
-        "Synodos LGG",
-        "DHART SPORE",
-        "Dermal NF",
-        "EpiMap",
-        "MouseHAL",
-        "WGBS Pilot",
-        "lncRNA Pilot"
-    ],
-    "PI": [
-        "name 1"
-    ],
     "consortium": [
         "CommonMind",
         "PsychENCODE",
@@ -137,7 +121,6 @@
         "U01MH103339",
         "U01MH103392"
     ],
-    "dataContact": null,
     "fundingAgency": [
         "Children's Tumor Foundation",
         "National Cancer Institute",
