@@ -3,6 +3,7 @@ language: python
 # command to run tests
 script: nosetests
 
+# only run on this branch
 branches:
   only:
   - master
