@@ -11,3 +11,24 @@ nf2Genotype:
   - -/-
   - +/-
   - +/+
+
+
+#added for sample tracking
+patientIdentifier:
+sampleIdentifier:
+
+# NF-specific
+study:
+    - Baltimore Longitudinal Study of Aging
+    ##NTAP specific
+    - Cell Culture
+    - Unsolicited
+    - PRO
+    - Francis Collins
+    ##CTF specific
+    - Synodos NF1
+    - Synodos NF2
+    - Synodos LGG
+    - Dermal NF
+    - DHART SPORE
+    #psychENCODE
