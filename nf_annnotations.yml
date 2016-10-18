@@ -19,7 +19,6 @@ sampleIdentifier:
 
 # NF-specific
 study:
-    - Baltimore Longitudinal Study of Aging
     ##NTAP specific
     - Cell Culture
     - Unsolicited
