@@ -1,6 +1,7 @@
 {
     "assay": [
         "rnaSeq",
+        "mirnaSeq",
         "exomeSeq",
         "CHiPSeq",
         "arrayRNA",
