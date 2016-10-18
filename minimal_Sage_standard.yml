@@ -77,6 +77,7 @@ disease:
     - Alzheimer Disease
     - Schizophrenia
     - Autism Spectrum Disorder
+    - None ##added this to label controls?
     #add in TCGA cancer names, but without the abbreviations?
 
 tumorType: #if applicable, only for cancer
@@ -128,26 +129,6 @@ tissue: #(if applicable)
     - anterior cingulate cortex
     - temporal cortex
 
-# Sage-specific
-study:
-    - Baltimore Longitudinal Study of Aging
-    ##NTAP specific
-    - Cell Culture
-    - Unsolicited
-    - PRO
-    - Francis Collins
-    ##CTF specific
-    - Synodos NF1
-    - Synodos NF2
-    - Synodos LGG
-    - Dermal NF
-    - DHART SPORE
-    #psychENCODE
-    - EpiMap
-    - MouseHAL
-    - WGBS Pilot
-    - lncRNA Pilot
-
 consortium:
     - CommonMind
     - PsychENCODE
@@ -161,7 +142,3 @@ fundingAgency:
     - National Cancer Institute
     - Neurofibromatosis Therapeutics Acceleration Program
     - National Institute of Aging
-
-#added for sample tracking
-patientIdentifier:
-sampleIdentifier:

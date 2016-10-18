@@ -12,21 +12,22 @@ nf2Genotype:
   - +/-
   - +/+
 
-sampleName: #this already has a few keys....
-  #start with wallace cell lines
-  - HFF
-  - ipn02.3
-  - ipn02.8
-  - ipNF05.5 (mixed clone)
-  - ipNF05.5 (single clone)
-  - ipNF06.2A
-  - ipNF95.11bC
-  - ipNF95.6
-  - ipnNF95.11c
-  - MTC
-  - pn02.3
-  - pNF05.5
-  - pNF95.11bC
-  - pNF95.6
-  - pnNF95.11c
-  - whole blood
+
+#added for sample tracking
+patientIdentifier:
+sampleIdentifier:
+
+# NF-specific
+study:
+    ##NTAP specific
+    - Cell Culture
+    - Unsolicited
+    - PRO
+    - Francis Collins
+    ##CTF specific
+    - Synodos NF1
+    - Synodos NF2
+    - Synodos LGG
+    - Dermal NF
+    - DHART SPORE
+    #psychENCODE
