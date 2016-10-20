@@ -41,8 +41,8 @@ entityId1: syn5611797, syn5611796
 filePath1: '10x10 Combination Screens/HFF'  ##this is an alternate way of referencing an entity if localOrRemote is remote, than file path refers to head of synapse project.
      annotations:
        - organ: foreskin
-       - disease: None
-       - tumorType: None
+       - disease: Control
+       - tumorType: Not Applicable
        - cellType: fibroblast
        - sampleIdentifier: HFF
        - nf1Genotype: +/+
@@ -86,7 +86,7 @@ entityId5: syn5614428
 entityId6: syn5614431
      annotations:
       - organ: nerves
-      - tumorType: None
+      - tumorType: Not Applicable
       - disease: Neurofibromatosis 1
       - sampleIdentifier: ipnNF95.11c
       - tissue: nerve tissue
@@ -106,8 +106,8 @@ entityId8: syn5522642
       - nf1Genotype: +/+
       - fileFormat: csv
       - organ: nerves
-      - tumorType: None
-      - disease: None
+      - tumorType: Not Applicable
+      - disease: Control
       - tissue: nerve tissue
       - species: Human
 
@@ -117,8 +117,8 @@ entityId9: syn5522643
       - nf1Genotype: +/+
       - fileFormat: csv
       - organ: nerves
-      - tumorType: None
-      - disease: None
+      - tumorType: Not Applicable
+      - disease: Control
       - tissue: nerve tissue
       - species: Human
 
@@ -150,7 +150,7 @@ entityId12: syn5522646
       - nf1Genotype: +/-
       - fileFormat: csv
       - organ: nerves
-      - tumorType:  None
+      - tumorType:  Not Applicable
       - disease: Neurofibromatosis 1
       - tissue: nerve tissue
       - species: Human
@@ -171,8 +171,8 @@ entityId14: syn5917344
       - sampleIdentifier: HFF
       - nf1Genotype: +/+
       - organ: foreskin
-      - disease: None
-      - tumorType: None
+      - disease: Control
+      - tumorType: Not Applicable
       - cellType: fibroblast
       - species: Human
       - fileFormat: csv
@@ -182,8 +182,8 @@ entityId15: syn5917348
      - sampleIdentifier: MTC
      - nf1Genotype: +/+
      - organ: thyroid
-     - disease: None
-     - tumorType: None
+     - disease: Control
+     - tumorType: Not Applicable
      - cellType: epithelial
      - species: Mouse
      - fileFormat: csbv
