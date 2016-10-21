@@ -95,7 +95,7 @@ cellType:
   - monocytes
   - microglia
   - macrophages
-- astrocytes
+  - astrocytes
 isCellLine:
   - true
   - false
