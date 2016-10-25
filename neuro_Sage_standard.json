@@ -81,6 +81,12 @@
         "Harvard-MIT", 
         "Duke"
     ],
+    "lifeStage": [
+        "adult",
+        "fetal",
+        "child",
+        "unknown"      
+    ],
     "sampleName": [
         "free text" 
     ],
@@ -95,7 +101,7 @@
         "H3K27ac",
         "H3K36me3",
         "H3K27me3",
-        "H3K9ac',
+        "H3K9ac",
         "REST",
         "CTCF",
         "input"
