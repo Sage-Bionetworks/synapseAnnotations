@@ -81,6 +81,9 @@
         "Harvard-MIT", 
         "Duke"
     ],
+    "sampleName": [
+        "free text" 
+    ],
     "treatmentType": [
         "haloperidol",
         "placebo"
@@ -148,7 +151,20 @@
     ],
     "runType": [  
         "singleEnd", 
-        "pairedEnd"       
-                   	
+        "pairedEnd",
+        "unknown"
+    ],
+    "readLength": [
+        "free text"
+    ],
+    "libraryPrep": [ 
+        "stranded",
+        "unstranded",
+        "rRNAdepletion",
+        "polyAselection",
+        "lncRNAenrichment",
+        "totalRNA",
+        "miRNA",
+        "DNA"
     ]
 }
