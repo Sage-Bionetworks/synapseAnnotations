@@ -1,0 +1,84 @@
+{
+	"cellLine":[
+		"NCI-PBCF-1000",
+		"NCI-PBCF-1001",
+		"NCI-PBCF-CCL227",
+		"NCI-PBCF-CCL228",
+		"NCI-PBCF-CCL229",
+		"NCI-PBCF-CCL247",
+		"NCI-PBCF-CCL256.1",
+		"NCI-PBCF-CCL256",
+		"NCI-PBCF-CRL-2336",
+		"NCI-PBCF-CRL11609",
+		"NCI-PBCF-CRL1435",
+		"NCI-PBCF-CRL1469",
+		"NCI-PBCF-CRL1500",
+		"NCI-PBCF-CRL1619",
+		"NCI-PBCF-CRL1676",
+		"NCI-PBCF-CRL1690",
+		"NCI-PBCF-CRL1740",
+		"NCI-PBCF-CRL2503",
+		"NCI-PBCF-CRL2505",
+		"NCI-PBCF-CRL2876",
+		"NCI-PBCF-CRL4010",
+		"NCI-PBCF-CRL4023",
+		"NCI-PBCF-CRL5922",
+		"NCI-PBCF-CRL5965",
+		"NCI-PBCF-HTB123",
+		"NCI-PBCF-HTB132",
+		"NCI-PBCF-HTB133",
+		"NCI-PBCF-HTB14",
+		"NCI-PBCF-HTB161",
+		"NCI-PBCF-HTB22",
+		"NCI-PBCF-HTB26",
+		"NCI-PBCF-HTB37",
+		"NCI-PBCF-HTB38",
+		"NCI-PBCF-HTB65",
+		"NCI-PBCF-HTB68",
+		"NCI-PBCF-HTB75",
+		"NCI-PBCF-HTB77",
+		"NCI-PBCF-HTB79",
+		"NCI-PBCF-HTB81"
+	],
+
+	"oncoTreeCode":[
+		"BFN",
+		"BRCA",
+		"COAD",
+		"LUAD",
+		"DCIS",
+		"PRAD",
+		"MEL",
+		"GBM",
+		"LAIS",
+		"GSARC,ASTR",
+		"OVT",
+		"PAAD"
+	],
+	
+	"experimentalCondition":[
+		"30 kPa polyacrylamide Collagen",
+ 		"30 kPa polyacrylamide Fibronectin",
+ 		"500 Pa polyacrylamide Collagen",
+ 		"500 Pa polyacrylamide Fibronectin",
+ 		"Glass",
+ 		"Hyaluronic Acid Collagen",
+ 		"Hyaluronic Acid Fibronectin",
+ 		"VARIOUS_SUBSTRATES"
+	],
+	
+	"study":[
+		"cellLineGenomics",
+		"Motillity",
+		"Morphology",
+		"Atomic Force Microscopy",
+		"Traction force and Volume"
+	],
+	
+	"diseaseStage":[
+		"GRADE IV",
+		"TNM STAGE IIB GRADE 3",
+		"STAGE 1"
+	]
+}
+
