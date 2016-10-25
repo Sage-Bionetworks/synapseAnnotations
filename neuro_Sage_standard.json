@@ -88,7 +88,7 @@
         "unknown"      
     ],
     "sampleName": [
-        "free text" 
+        "" 
     ],
     "treatmentType": [
         "haloperidol",
@@ -106,7 +106,10 @@
         "CTCF",
         "input"
     ],
-    "mouseModel": [ 
+    "modelSystemName": [  
+        "TREM2", 
+        "TYROBP", 
+        "AB42",
         "CRND8", 
         "APPPS1", 
         "MAPT-P301K", 
@@ -119,14 +122,9 @@
         "TYROBP_WT.KO", 
         "TYROBP_KO.KO",
     ],
-    "drosophilaModel": [  
-        "TREM2", 
-        "TYROBP", 
-        "AB42"
-    ],
-    "modelSystem": [ 
-        "TRUE", 
-        "FALSE"        
+    "isModelSystem": [ 
+        TRUE, 
+        FALSE        
     ],
     "platform": [ 
         "HiSeq2500",
@@ -161,14 +159,14 @@
         "unknown"
     ],
     "readLength": [
-        "free text"
+        ""
     ],
     "libraryPrep": [ 
         "stranded",
         "unstranded",
-        "rRNAdepletion",
-        "polyAselection",
-        "lncRNAenrichment",
+        "rRNADepletion",
+        "polyASelection",
+        "lncRNAEnrichment",
         "totalRNA",
         "miRNA",
         "DNA"
