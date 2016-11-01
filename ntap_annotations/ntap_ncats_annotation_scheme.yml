@@ -186,4 +186,4 @@ entityId15: syn5917348
      - tumorType: Not Applicable
      - cellType: epithelial
      - species: Mouse
-     - fileFormat: csbv
+     - fileFormat: csv
