@@ -1,144 +1,130 @@
 #YAML
 # EDAM Data
+---
 assay:
-    - RNAseq
-    - exomeSeq
-    - CHiPSeq
-    - arrayRNA
-    - arraySNP
-    - arrayMethylation
-    - arrayMiRNA
-    - bisulfiteSeq
-    - ATACseq
-    - NOMeSeq
-    - HI-C
-    - errBisulfiteSeq
-    - ISOseq
-    - MRI
-    - westernBlot
-    - drugViabilityAssay
-    - drugCombinationAssay
-
+  - rnaSeq
+  - mirnaSeq
+  - lncrnaSeq
+  - exomeSeq
+  - CHiPSeq
+  - rnaArray
+  - snpArray
+  - methylationArray
+  - mirnaArray
+  - bisulfiteSeq
+  - ATACSeq
+  - NOMeSeq
+  - HI-C
+  - errBisulfiteSeq
+  - ISOSeq
+  - MRI
+  - westernBlot
+  - drugViabilityAssay
+  - drugCombinationAssay
 dataType:
-    - genomicVariants
-    - image
-    - geneExpression
-    - proteomics
-    - kinomics
-    - drugScreen
-
+  - genomicVariants
+  - image
+  - geneExpression
+  - proteomics
+  - kinomics
+  - drugScreen
 dataSubtype:
-    - dataMatrix
-    - raw
-    - processed
-    - metadata
+  - dataMatrix
+  - raw
+  - processed
+  - metadata
 
 # EDAM Format
 fileFormat:
-    - idx
-    - BAM
-    - BAI
-    - excel
-    - powerpoint
-    - TIF
-    - PNG
-    - doc
-    - PDF
-    - hdf
-    - FASTA
-    - FASTQ
-    - SAM
-    - VCF
-    - BCF
-    - MAF
-    - BED
-    - chp
-    - cel
-    - sif
-    - tsv
-    - csv
-    - txt
-    - plink
-    - idat
-    - bigwig
-    - wiggle
-    - gct
+  - idx
+  - bam
+  - bai
+  - excel
+  - powerpoint
+  - tif
+  - png
+  - doc
+  - pdf
+  - hdf
+  - fasta
+  - fastq
+  - sam
+  - vcf
+  - bcf
+  - maf
+  - bed
+  - chp
+  - cel
+  - sif
+  - tsv
+  - csv
+  - txt
+  - plink
+  - idat
+  - bigwig
+  - wiggle
+  - gct
+
 
 # MESH
 species:
-    - Human
-    - Mouse
-    - Drosophila melanogaster
-
+  - Human
+  - Mouse
+  - Drosophila melanogaster
 disease:
-    - Neurofibromatosis 1
-    - Neurofibromatosis 2
-    - Bipolar Disorder
-    - Alzheimer Disease
-    - Schizophrenia
-    - Autism Spectrum Disorder
-    - None ##added this to label controls?
-    #add in TCGA cancer names, but without the abbreviations?
-
-tumorType: #if applicable, only for cancer
-    - Neurofibroma
-    - Optic Nerve Glioma
-    - Glioma
-    - Astrocytoma
-    - Neurofibroma, Plexiform
-    - Malignant Peripheral Nerve Sheath Tumor
-
-cellType: #(if applicable, often mixed if from tissue)
-    - B-lymphocytes
-    - induced pluripotent stem cells
-    - GABAergic neurons
-    - monocytes
-    - microglia
-    - macrophages
-    - astrocytes
-    #These are inhrerited from the PSON merge
-    - epithelial
-    - fibroblast
-    - epithelial-like
-    - lymphoblast
-    - polygonal
-
+  - Neurofibromatosis 1
+  - Neurofibromatosis 2
+  - Bipolar Disorder
+  - Alzheimer Disease
+  - Schizophrenia
+  - Autism Spectrum Disorder
+  - Control
+  - Not Applicable
+tumorType:
+  - Neurofibroma
+  - Optic Nerve Glioma
+  - Glioma
+  - Astrocytoma
+  - Neurofibroma, Plexiform
+  - Malignant Peripheral Nerve Sheath Tumor
+  - Not Applicable
+cellType:
+  - B-lymphocytes
+  - induced pluripotent stem cells
+  - GABAergic neurons
+  - monocytes
+  - microglia
+  - macrophages
+  - astrocytes
 isCellLine:
-    - True
-    - False
-
-organ: #if not a cell line, or if represented by cell line?
-    - skin
-    - nerves
-    - brain
-    - blood
-    #added from PSON cell line merge
-    - breast
-    - colon
-    - prostate
-    - pancreas
-    - lung
-    - ovary
-
-tissue: #(if applicable)
-    - cerebral cortex
-    - frontal lobe
-    - hippocampus
-    - nerve tissue
-    - dorsolateral prefrontal cortex
-    - anterior cingulate cortex
-    - temporal cortex
-
+  - true
+  - false
+organ:
+  - skin
+  - nerves
+  - brain
+  - blood
+tissue:
+  - cerebral cortex
+  - frontal lobe
+  - hippocampus
+  - nerve tissue
+  - dorsolateral prefrontal cortex
+  - anterior cingulate cortex
+  - temporal cortex
+  - Not Applicable
 consortium:
-    - CommonMind
-    - PsychENCODE
-    - AcceleratingMedicinesPartnership-AD
-    - Synodos
-    - CSBC
-    - PSON
-
+  - CommonMind
+  - PsychENCODE
+  - AcceleratingMedicinesPartnership-AD
+  - Synodos
+  - CSBC
+  - PSON
+grant:
+  - U01MH103339
+  - U01MH103392
 fundingAgency:
-    - Children's Tumor Foundation
-    - National Cancer Institute
-    - Neurofibromatosis Therapeutics Acceleration Program
-    - National Institute of Aging
+  - Children's Tumor Foundation
+  - National Cancer Institute
+  - NTAP
+  - National Institute of Aging
