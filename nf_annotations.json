@@ -1,0 +1,25 @@
+{
+  "nf1Genotype": [
+    "-/-",
+    "+/-",
+    "+/+"
+  ],
+  "nf2Genotype": [
+    "-/-",
+    "+/-",
+    "+/+"
+  ],
+  "patientIdentifier": null,
+  "sampleIdentifier": null,
+  "study": [
+    "Cell Culture",
+    "Unsolicited",
+    "PRO",
+    "Francis Collins",
+    "Synodos NF1",
+    "Synodos NF2",
+    "Synodos LGG",
+    "Dermal NF",
+    "DHART SPORE"
+  ]
+}

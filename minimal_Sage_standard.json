@@ -75,7 +75,9 @@
         "Bipolar Disorder",
         "Alzheimer Disease",
         "Schizophrenia",
-        "Autism Spectrum Disorder"
+        "Autism Spectrum Disorder",
+        "Control",
+        "Not Applicable"
     ],
     "tumorType": [
         "Neurofibroma",
@@ -83,7 +85,9 @@
         "Glioma",
         "Astrocytoma",
         "Neurofibroma, Plexiform",
-        "Malignant Peripheral Nerve Sheath Tumor"
+        "Malignant Peripheral Nerve Sheath Tumor",
+        "Not Applicable"
+
     ],
     "cellType": [
         "B-lymphocytes",
@@ -111,13 +115,16 @@
         "nerve tissue",
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
-        "temporal cortex"
+        "temporal cortex",
+        "Not Applicable"
     ],
     "consortium": [
         "CommonMind",
         "PsychENCODE",
         "AcceleratingMedicinesPartnership-AD",
-        "Synodos"
+        "Synodos",
+        "CSBC",
+        "PSON"
     ],
     "grant": [
         "U01MH103339",
