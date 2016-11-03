@@ -21,6 +21,7 @@ assay:
   - westernBlot
   - drugViabilityAssay
   - drugCombinationAssay
+  - genotyping
 dataType:
   - genomicVariants
   - image
@@ -28,12 +29,14 @@ dataType:
   - proteomics
   - kinomics
   - drugScreen
+  - report  
+  - Not Applicable
 dataSubtype:
   - dataMatrix
   - raw
   - processed
   - metadata
-
+  - Not Applicable
 # EDAM Format
 fileFormat:
   - idx
