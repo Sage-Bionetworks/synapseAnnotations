@@ -99,6 +99,7 @@ cellType:
   - microglia
   - macrophages
   - astrocytes
+  - schwann cells
 isCellLine:
   - true
   - false
