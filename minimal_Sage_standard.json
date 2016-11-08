@@ -1,18 +1,20 @@
 {
     "assay": [
-        "RNAseq",
+        "rnaSeq",
+        "mirnaSeq",
+        "lncrnaSeq",
         "exomeSeq",
         "CHiPSeq",
-        "arrayRNA",
-        "arraySNP",
-        "arrayMethylation",
-        "arrayMiRNA",
+        "rnaArray",
+        "snpArray",
+        "methylationArray",
+        "mirnaArray",
         "bisulfiteSeq",
-        "ATACseq",
+        "ATACSeq",
         "NOMeSeq",
         "HI-C",
         "errBisulfiteSeq",
-        "ISOseq",
+        "ISOSeq",
         "MRI",
         "westernBlot",
         "drugViabilityAssay",
@@ -34,22 +36,22 @@
     ],
     "fileFormat": [
         "idx",
-        "BAM",
-        "BAI",
+        "bam",
+        "bai",
         "excel",
         "powerpoint",
-        "TIF",
-        "PNG",
+        "tif",
+        "png",
         "doc",
-        "PDF",
+        "pdf",
         "hdf",
-        "FASTA",
-        "FASTQ",
-        "SAM",
-        "VCF",
-        "BCF",
-        "MAF",
-        "BED",
+        "fasta",
+        "fastq",
+        "sam",
+        "vcf",
+        "bcf",
+        "maf",
+        "bed",
         "chp",
         "cel",
         "sif",
@@ -73,7 +75,9 @@
         "Bipolar Disorder",
         "Alzheimer Disease",
         "Schizophrenia",
-        "Autism Spectrum Disorder"
+        "Autism Spectrum Disorder",
+        "Control",
+        "Not Applicable"
     ],
     "tumorType": [
         "Neurofibroma",
@@ -81,7 +85,9 @@
         "Glioma",
         "Astrocytoma",
         "Neurofibroma, Plexiform",
-        "Malignant Peripheral Nerve Sheath Tumor"
+        "Malignant Peripheral Nerve Sheath Tumor",
+        "Not Applicable"
+
     ],
     "cellType": [
         "B-lymphocytes",
@@ -109,39 +115,25 @@
         "nerve tissue",
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
-        "temporal cortex"
+        "temporal cortex",
+        "Not Applicable"
     ],
     "sex": [
         "male",
         "female"
     ],
-    "study": [
-        "Baltimore Longitudinal Study of Aging",
-        "pnfCellCulture",
-        "Synodos NF1",
-        "Synodos NF2",
-        "Synodos LGG",
-        "DHART SPORE",
-        "Dermal NF",
-        "EpiMap",
-        "MouseHAL",
-        "WGBS Pilot",
-        "lncRNA Pilot"
-    ],
-    "PI": [
-        "name 1"
-    ],
     "consortium": [
         "CommonMind",
         "PsychENCODE",
         "AcceleratingMedicinesPartnership-AD",
-        "Synodos"
+        "Synodos",
+        "CSBC",
+        "PSON"
     ],
     "grant": [
         "U01MH103339",
         "U01MH103392"
     ],
-    "dataContact": null,
     "fundingAgency": [
         "Children's Tumor Foundation",
         "National Cancer Institute",
