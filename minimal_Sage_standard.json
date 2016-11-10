@@ -118,6 +118,10 @@
         "temporal cortex",
         "Not Applicable"
     ],
+    "sex": [
+        "male",
+        "female"
+    ],
     "consortium": [
         "CommonMind",
         "PsychENCODE",
