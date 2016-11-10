@@ -18,16 +18,9 @@ analysisType:
   - anova
   - variancePartition
   - moduleIdentification
+  - visualization
 
-analysisMethod:
-  - networkReconstruction
-  - clustering
-  - batchEffectAdjustment
-  - supervisedLearning
-  - multipleTestingAdjustment
-  - regression
-
-networkReconstructionMethod:
+statisticalNetworkReconstructionMethod:
   - WGCNA
   - sparrow
   - lasso
@@ -45,7 +38,7 @@ clusteringMethod:
   - WGCNA
   - principalComponentAnalysis
 
-batchEffectAdjustmentMethod:
+batchEffectCorrectionMethod:
   - COMBAT
   - SVA
   - PCA
@@ -66,12 +59,12 @@ multipleTestingAdjustmentMethod:
   - Bonferroni
   - BenjaminiYekutieli
 
-regressionModel:
+regressionMethod:
   - fixedEffect
   - randomEffect
   - mixedEffect
 
-visualisation:
+visualisationMethod:
   - scatterPlot
   - heatMap
   - barChart
