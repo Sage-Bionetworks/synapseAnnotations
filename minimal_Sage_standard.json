@@ -62,7 +62,8 @@
         "idat",
         "bigwig",
         "wiggle",
-        "gct"
+        "gct",
+        "bgzip"
     ],
     "species": [
         "Human",
@@ -96,7 +97,8 @@
         "monocytes",
         "microglia",
         "macrophages",
-        "astrocytes"
+        "astrocytes",
+        "cultured cell"
     ],
     "isCellLine": [
         true,
@@ -128,7 +130,8 @@
         "AcceleratingMedicinesPartnership-AD",
         "Synodos",
         "CSBC",
-        "PSON"
+        "PSON",
+        "Not Applicable"
     ],
     "grant": [
         "U01MH103339",
