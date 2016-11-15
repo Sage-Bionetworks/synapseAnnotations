@@ -88,6 +88,7 @@ rnaAlignmentMethod:
   - topHat
   - mosaic
   - novoAlign
+  - olego
 
 assemblyMethod:
   - velvet
