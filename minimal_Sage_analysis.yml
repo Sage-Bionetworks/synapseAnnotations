@@ -76,8 +76,15 @@ validationMethod:
   - RNAi
   - shRNA
 
-alignmentMethod:
+dnaAlignmentMethod:
+  - BWA
+  - bowtie
+  - bowtie2
+
+rnaAlignmentMethod:
   - SNAPR
+  - STAR
+  - GSNAP
   - topHat
 
 assemblyMethod:
