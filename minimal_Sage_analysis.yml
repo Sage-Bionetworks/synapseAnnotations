@@ -19,6 +19,24 @@ analysisType:
   - variancePartition
   - moduleIdentification
   - visualization
+  - transcriptQuantification
+  - somaticMutationCalling
+  
+somaticMutationCallingMethod:
+  - varDict
+  - varDict2
+  - mutect
+  - varScan
+
+transcriptQuantificationMethod:
+  - kallisto
+  - RSEM
+  - featureCounts
+
+differentialExpressionMethod:
+  - limma
+  - sleuth
+  - cuffDiff
 
 statisticalNetworkReconstructionMethod:
   - WGCNA
