@@ -86,6 +86,8 @@ rnaAlignmentMethod:
   - STAR
   - GSNAP
   - topHat
+  - mosaic
+  - novoAlign
 
 assemblyMethod:
   - velvet
