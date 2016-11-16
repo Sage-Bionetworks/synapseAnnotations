@@ -123,8 +123,8 @@
         "TYROBP_KO.KO",
     ],
     "isModelSystem": [ 
-        TRUE, 
-        FALSE        
+        true, 
+        false        
     ],
     "platform": [ 
         "HiSeq2500",
