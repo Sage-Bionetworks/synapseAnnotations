@@ -1,5 +1,5 @@
 {
-	"cellLine":[
+	"catelogNumber":[
 		"NCI-PBCF-1000",
 		"NCI-PBCF-1001",
 		"NCI-PBCF-CCL227",
@@ -40,7 +40,47 @@
 		"NCI-PBCF-HTB79",
 		"NCI-PBCF-HTB81"
 	],
-
+	"cellLine":[
+		 "U-87",
+		 "T98G",
+		 "hTERT-HME1",
+		 "MCF-7",
+		 "MCF7-B7-TS",
+		 "MCF10A-JSB",
+		 "T-47D",
+		 "ZR-75-1",
+		 "MDA-MB-231",
+		 "DU4475",
+		 "HCC1937",
+		 "MDA-MB-468",
+		 "HT-29",
+		 "SW480",
+		 "HCT116",
+		 "Caco-2",
+		 "LoVo",
+		 "SW620",
+		 "SKOV-3",
+		 "NIH: OVCAR-3",
+		 "Caov-3",
+		 "NCI-H2087",
+		 "NCI-BL2087",
+		 "NL20",
+		 "NCI-H2126",
+		 "NCI-BL2126",
+		 "Panc-1",
+		 "Capan-1",
+		 "hTERT-HPNE",
+		 "LNCaP clone FG",
+		 "PC-3",
+		 "DU 145",
+		 "VCaP",
+		 "RWPE-1",
+		 "22Rv1",
+		 "A375",
+		 "WM266-4",
+		 "MeWo",
+		 "SK-MEL-2"
+	],
 	"oncoTreeCode":[
 		"BFN",
 		"BRCA",
@@ -55,7 +95,6 @@
 		"OVT",
 		"PAAD"
 	],
-	
 	"experimentalCondition":[
 		"30 kPa polyacrylamide Collagen",
  		"30 kPa polyacrylamide Fibronectin",
@@ -64,21 +103,14 @@
  		"Glass",
  		"Hyaluronic Acid Collagen",
  		"Hyaluronic Acid Fibronectin",
- 		"VARIOUS_SUBSTRATES"
+ 		"Various Substrates"
 	],
-	
 	"study":[
-		"cellLineGenomics",
+		"Cell Line Genomics",
 		"Motillity",
 		"Morphology",
 		"Atomic Force Microscopy",
-		"Traction force and Volume"
-	],
-	
-	"diseaseStage":[
-		"GRADE IV",
-		"TNM STAGE IIB GRADE 3",
-		"STAGE 1"
+		"Traction Force and Volume"
 	]
 }
 
