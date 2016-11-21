@@ -18,7 +18,10 @@
         "MRI",
         "westernBlot",
         "drugViabilityAssay",
-        "drugCombinationAssay"
+        "drugCombinationAssay",
+        "atomicForceMicroscopy",
+        "brightfieldMicroscopy",
+        "tractionForceMicroscopy"
     ],
     "dataType": [
         "genomicVariants",
@@ -26,7 +29,8 @@
         "geneExpression",
         "proteomics",
         "kinomics",
-        "drugScreen"
+        "drugScreen",
+        "cellularPhysiology"
     ],
     "dataSubtype": [
         "dataMatrix",
