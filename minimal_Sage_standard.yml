@@ -29,7 +29,7 @@ dataType:
   - proteomics
   - kinomics
   - drugScreen
-  - report  
+  - report
   - Not Applicable
 dataSubtype:
   - dataMatrix
@@ -67,6 +67,7 @@ fileFormat:
   - bigwig
   - wiggle
   - gct
+  - bgzip
 
 
 # MESH
@@ -100,6 +101,7 @@ cellType:
   - macrophages
   - astrocytes
   - schwann cells
+  - cultured cell
 isCellLine:
   - true
   - false
@@ -124,6 +126,7 @@ consortium:
   - Synodos
   - CSBC
   - PSON
+  - Not Applicable
 grant:
   - U01MH103339
   - U01MH103392
