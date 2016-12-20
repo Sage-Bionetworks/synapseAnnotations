@@ -129,22 +129,22 @@
         "female"
     ],
     "consortium": [
-        "CommonMind",
-        "PsychENCODE",
-        "AcceleratingMedicinesPartnership-AD",
+        "CommonMind Consortium",
+        "PsychENCODE Consortium",
+        "AMP-AD",
+        "MODEL-AD",
+        "M2OVE-AD",
         "Synodos",
+        "BSMN",
         "CSBC",
         "PSON",
         "Not Applicable"
     ],
-    "grant": [
-        "U01MH103339",
-        "U01MH103392"
-    ],
     "fundingAgency": [
         "Children's Tumor Foundation",
-        "National Cancer Institute",
+        "NCI",
         "NTAP",
-        "National Institute of Aging"
+        "NIA",
+        "NIMH"
     ]
 }
