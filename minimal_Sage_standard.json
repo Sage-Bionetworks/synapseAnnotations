@@ -72,6 +72,7 @@
     "species": [
         "Human",
         "Mouse",
+        "Rat",
         "Drosophila melanogaster"
     ],
     "diagnosis": [
@@ -102,7 +103,11 @@
         "microglia",
         "macrophages",
         "astrocytes",
-        "cultured cell"
+        "cultured cell",
+        "SH-SY5Y",
+        "GLUtamatergic neurons",
+        "NeuN+",
+        "NeuN-"
     ],
     "isCellLine": [
         true,
@@ -112,7 +117,7 @@
         "skin",
         "nerves",
         "brain",
-        "blood"
+        "blood",
     ],
     "tissue": [
         "cerebral cortex",
@@ -122,6 +127,7 @@
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
         "temporal cortex",
+        "serum",
         "Not Applicable"
     ],
     "sex": [
