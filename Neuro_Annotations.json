@@ -13,7 +13,7 @@
         "EpiGABA",
         "NHP",
         "Yale-ASD",
-        "BipSeq"
+        "BipSeq",
         "ACT", 
         "BLSA", 
         "HBTRC", 
@@ -120,7 +120,7 @@
         "APPKM670-671NL-PSEN1deltaexon9", 
         "TYROBP_WT", 
         "TYROBP_WT.KO", 
-        "TYROBP_KO.KO",
+        "TYROBP_KO.KO"
     ],
     "isModelSystem": [ 
         true, 
