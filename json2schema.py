@@ -1,3 +1,14 @@
+"""Convert an annotations JSON file to a Synapse Table Schema.
+
+This script takes a JSON-formatted annotation definition file (annotation name and allowed values)
+converts them it a Synapse Table Schema, and stores it to a Synapse Table.
+
+It is naive in terms of type discovery, using the following hierarchy:
+
+null (string) > boolean > integer > double > string
+
+"""
+
 import json
 import urllib
 import urlparse
@@ -6,6 +17,9 @@ import os
 import synapseclient
 
 def path2url(path):
+    """Convert path to URL, even if it already is a URL.
+
+    """
 
     if path.startswith("/"):
         new_path = urlparse.urljoin('file:', urllib.pathname2url(path))
@@ -39,6 +53,7 @@ def main():
 
     for k, v in data.iteritems():
 
+        # Handle null values, assume that they will be strings
         if not v:
             column_type = "STRING"
         elif bool in map(type, v):
