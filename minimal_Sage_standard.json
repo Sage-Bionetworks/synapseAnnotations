@@ -18,7 +18,10 @@
         "MRI",
         "westernBlot",
         "drugViabilityAssay",
-        "drugCombinationAssay"
+        "drugCombinationAssay",
+        "atomicForceMicroscopy",
+        "brightfieldMicroscopy",
+        "tractionForceMicroscopy"
     ],
     "dataType": [
         "genomicVariants",
@@ -26,7 +29,8 @@
         "geneExpression",
         "proteomics",
         "kinomics",
-        "drugScreen"
+        "drugScreen",
+        "cellularPhysiology"
     ],
     "dataSubtype": [
         "dataMatrix",
@@ -62,14 +66,15 @@
         "idat",
         "bigwig",
         "wiggle",
-        "gct"
+        "gct",
+        "bgzip"
     ],
     "species": [
         "Human",
         "Mouse",
         "Drosophila melanogaster"
     ],
-    "disease": [
+    "diagnosis": [
         "Neurofibromatosis 1",
         "Neurofibromatosis 2",
         "Bipolar Disorder",
@@ -96,7 +101,8 @@
         "monocytes",
         "microglia",
         "macrophages",
-        "astrocytes"
+        "astrocytes",
+        "cultured cell"
     ],
     "isCellLine": [
         true,
@@ -118,13 +124,18 @@
         "temporal cortex",
         "Not Applicable"
     ],
+    "sex": [
+        "male",
+        "female"
+    ],
     "consortium": [
         "CommonMind",
         "PsychENCODE",
         "AcceleratingMedicinesPartnership-AD",
         "Synodos",
         "CSBC",
-        "PSON"
+        "PSON",
+        "Not Applicable"
     ],
     "grant": [
         "U01MH103339",

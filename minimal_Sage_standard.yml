@@ -21,6 +21,7 @@ assay:
   - westernBlot
   - drugViabilityAssay
   - drugCombinationAssay
+  - genotyping
 dataType:
   - genomicVariants
   - image
@@ -28,12 +29,14 @@ dataType:
   - proteomics
   - kinomics
   - drugScreen
+  - report
+  - Not Applicable
 dataSubtype:
   - dataMatrix
   - raw
   - processed
   - metadata
-
+  - Not Applicable
 # EDAM Format
 fileFormat:
   - idx
@@ -64,6 +67,7 @@ fileFormat:
   - bigwig
   - wiggle
   - gct
+  - bgzip
 
 
 # MESH
@@ -96,6 +100,8 @@ cellType:
   - microglia
   - macrophages
   - astrocytes
+  - schwann cells
+  - cultured cell
 isCellLine:
   - true
   - false
@@ -120,6 +126,7 @@ consortium:
   - Synodos
   - CSBC
   - PSON
+  - Not Applicable
 grant:
   - U01MH103339
   - U01MH103392
