@@ -42,7 +42,7 @@ def main():
 
     project = syn.get(args.projectId)
 
-    f = urllib.urlopen(args.url)
+    f = urllib.urlopen(path2url(args.url))
     data = json.load(f)
 
     url_path = urllib.splittype(args.url)[1]
