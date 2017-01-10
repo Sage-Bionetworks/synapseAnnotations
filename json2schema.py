@@ -22,7 +22,7 @@ def path2url(path):
     """
 
     if path.startswith("/"):
-        new_path = urlparse.urljoin('file:', urllib.pathname2url(path))
+        new_path = urlparse.urljoin('file:', urllib.pathname2url(os.path.abspath(path)))
     else:
         new_path = path
 
@@ -35,7 +35,7 @@ def main():
     parser.add_argument('url', type=str, help='URL to JSON file')
     parser.add_argument('--projectId', type=str, help='Synapse Project ID to store schema')
     parser.add_argument('-n', '--dry_run', action="store_true", default=False, help='Dry run')
-
+    parser.add_argument('--synapseJSONSchema', action="store_true", default=False, help="JSON is already in Synapse Table Schema format")
     args = parser.parse_args()
 
     syn = synapseclient.login(silent=True)
@@ -49,26 +49,30 @@ def main():
     filename = os.path.split(url_path)[1]
     schema_name = os.path.splitext(filename)[0]
 
-    cols = []
+    if args.synapseJSONSchema:
+        schema = synapseclient.Schema(name=schema_name, parent=project)
+        schema.columns_to_store = data
+    else:
+        cols = []
 
-    for k, v in data.iteritems():
+        for k, v in data.iteritems():
 
-        # Handle null values, assume that they will be strings
-        if not v:
-            column_type = "STRING"
-        elif bool in map(type, v):
-            column_type = "BOOLEAN"
-        elif int in map(type, v):
-            column_type = "INTEGER"
-        elif float in map(type, v):
-            column_type = "DOUBLE"
-        else:
-            column_type = "STRING"
+            # Handle null values, assume that they will be strings
+            if not v:
+                column_type = "STRING"
+            elif bool in map(type, v):
+                column_type = "BOOLEAN"
+            elif int in map(type, v):
+                column_type = "INTEGER"
+            elif float in map(type, v):
+                column_type = "DOUBLE"
+            else:
+                column_type = "STRING"
 
-        cols.append(synapseclient.Column(name=k, columnType=column_type,
-                                         enumValues=v, maximumSize=500))
+            cols.append(synapseclient.Column(name=k, columnType=column_type,
+                                             enumValues=v, maximumSize=500))
 
-    schema = synapseclient.Schema(name=schema_name, columns=cols, parent=project)
+        schema = synapseclient.Schema(name=schema_name, columns=cols, parent=project)
 
     if args.dry_run:
         print json.dumps(schema.columns_to_store, indent=2,
