@@ -17,6 +17,8 @@
         "ISOSeq",
         "MRI",
         "westernBlot",
+        "wholeGenomeSeq",
+        "polymeraseChainReaction",
         "drugViabilityAssay",
         "drugCombinationAssay",
         "atomicForceMicroscopy",

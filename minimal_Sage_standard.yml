@@ -17,6 +17,8 @@ assay:
   - HI-C
   - errBisulfiteSeq
   - ISOSeq
+  - wholeGenomeSeq
+  - polymeraseChainReaction
   - MRI
   - westernBlot
   - drugViabilityAssay
