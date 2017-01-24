@@ -1,0 +1,24 @@
+{
+  "tissueSource": [
+    "Blood",
+    "Solid Tumor"
+  ],
+  "center": [
+    "NKI",
+    "DFCI",
+    "GRCC",
+    "JHU",
+    "MSK",
+    "UHN",
+    "VICC",
+    "MDA"
+  ],
+  "platform": [
+    "Iontorrent",
+    "Miseq",
+    "Agilent180k",
+    "IlluminaHiSeq2000",
+    "IlluminaHiSeq2500"
+  ]
+
+}
