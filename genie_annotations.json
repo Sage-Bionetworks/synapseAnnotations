@@ -1,8 +1,4 @@
 {
-  "tissueSource": [
-    "Blood",
-    "Solid Tumor"
-  ],
   "center": [
     "NKI",
     "DFCI",
@@ -14,11 +10,11 @@
     "MDA"
   ],
   "platform": [
-    "Iontorrent",
-    "Miseq",
+    "IonTorrent",
+    "MiSeq",
     "Agilent180k",
-    "IlluminaHiSeq2000",
-    "IlluminaHiSeq2500"
+    "HiSeq2000",
+    "HiSeq2500"
   ]
 
 }

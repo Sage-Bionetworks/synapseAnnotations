@@ -23,7 +23,8 @@
         "drugCombinationAssay",
         "atomicForceMicroscopy",
         "brightfieldMicroscopy",
-        "tractionForceMicroscopy"
+        "tractionForceMicroscopy",
+        "targetedGeneSeq"
     ],
     "dataType": [
         "genomicVariants",
