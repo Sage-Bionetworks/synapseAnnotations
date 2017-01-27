@@ -15,6 +15,11 @@
     "Agilent180k",
     "HiSeq2000",
     "HiSeq2500"
+  ],
+  "cBioFileFormat": [
+    "clinical",
+    "CNA",
+    "fusions"
   ]
 
 }
