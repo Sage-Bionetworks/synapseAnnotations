@@ -87,12 +87,18 @@ disease:
   - Control
   - Not Applicable
 tumorType:
-  - Neurofibroma
-  - Optic Nerve Glioma
-  - Glioma
-  - Astrocytoma
+  - Neurofibroma, Cutaneous
+  - Neurofibroma, Subcutaneous
   - Neurofibroma, Plexiform
+  - Neurofibroma, Atypical
   - Malignant Peripheral Nerve Sheath Tumor
+  - Optic Nerve Glioma
+  - Low Grade Glioma
+  - Diffuse Astrocytoma
+  - Anaplastic Astrocytoma
+  - Glioblastoma
+  - Schwannoma
+  - Meningioma
   - Not Applicable
 cellType:
   - B-lymphocytes
