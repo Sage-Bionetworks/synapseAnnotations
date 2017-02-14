@@ -3,17 +3,18 @@
 ## Edited by Xindi Guo 10/04/2016
 
 #Step 1: specify project information, including project Synapse ID and any project-wide annotations
-projectInfo: 
+projectInfo:
     synId: syn4939906  ##NCATS drug screening
     annotations:
         fundingAgency: NTAP
-        consortium:
+        consortium: Not Applicable
         study: Cell Culture
         isCellLine: True
         nf2Genotype: +/+
+        cellType: cultured cell
 
 #Step 2a: can specify annotations by synapse ID
-entityId1: 
+entityId1:
     synId:
         - syn5611797
         - syn5611796
@@ -23,7 +24,7 @@ entityId1:
         species: Human
         fileFormat: csv
      ##this will match all files and annotate only the matching ones
-    patternToMatch: 
+    patternToMatch:
         'calc':
             dataSubtype: processed
         'metadata':
@@ -31,10 +32,10 @@ entityId1:
         'responses':
             dataSubtype: processed
 
-##Step 2b: alternatively,  can specify annotations by project/file path combination 
-filePath1: 
+##Step 2b: alternatively,  can specify annotations by project/file path combination
+filePath1:
     path:
-        - 'NTAP Drug Screening of pNF Cell Lines/10x10 Combination Screens/HFF'  
+        - 'NTAP Drug Screening of pNF Cell Lines/10x10 Combination Screens/HFF'
     annotations:
         organ: foreskin
         disease: None
@@ -43,7 +44,7 @@ filePath1:
         sampleIdentifier: HFF
         nf1Genotype: +/+
 
-entityId2: 
+entityId2:
     synId:
         - syn5614434
         - syn5614429
@@ -56,7 +57,7 @@ entityId2:
         nf1Genotype: -/-
 
 entityId3:
-    synId: 
+    synId:
         - syn5614435
         - syn5614430
     annotations:
@@ -67,7 +68,7 @@ entityId3:
         tissue: nerve tissue
         nf1Genotype: -/-
 
-entityId4: 
+entityId4:
     synId:
          - syn5614436
          - syn5614432
@@ -79,7 +80,7 @@ entityId4:
         tissue: nerve tissue
         nf1Genotype: -/-
 
-entityId5: 
+entityId5:
     synId:
         - syn5614428
     annotations:
@@ -90,8 +91,8 @@ entityId5:
         tissue: nerve tissue
         nf1Genotype: +/+
 
-entityId6: 
-    synId: 
+entityId6:
+    synId:
         - syn5614431
     annotations:
         organ: nerves
@@ -102,7 +103,7 @@ entityId6:
         nf1Genotype: +/-
 
 ##now do the single agent screens
-entityId7: 
+entityId7:
     synId:
         - syn5522627
     annotations:
@@ -124,7 +125,7 @@ entityId8:
         tissue: nerve tissue
         species: Human
 
-entityId9: 
+entityId9:
     synId:
         - syn5522643
     annotations:
@@ -137,7 +138,7 @@ entityId9:
         tissue: nerve tissue
         species: Human
 
-entityId10: 
+entityId10:
     synId:
         - syn5522644
     annotations:
@@ -150,8 +151,8 @@ entityId10:
         tissue: nerve tissue
         species: Human
 
-entityId11: 
-    synId: 
+entityId11:
+    synId:
         - syn5522645
     annotations:
         sampleIdentifier: ipNF05.5 (mixed clone)
@@ -163,7 +164,7 @@ entityId11:
         tissue: nerve tissue
         species: Human
 
-entityId12: 
+entityId12:
      synId:
         - syn5522646
      annotations:
@@ -176,8 +177,8 @@ entityId12:
         tissue: nerve tissue
         species: Human
 
-entityId13: 
-    synId: 
+entityId13:
+    synId:
         - syn5522649
     annotations:
         sampleIdentifier: ipNF95.6
@@ -189,7 +190,7 @@ entityId13:
         tissue: nerve tissue
         species: Human
 
-entityId14: 
+entityId14:
     synId:
         - syn5917344
     annotations:
@@ -202,7 +203,7 @@ entityId14:
         species: Human
         fileFormat: csv
 
-entityId15: 
+entityId15:
     synId:
         - syn5917348
     annotations:
@@ -214,4 +215,3 @@ entityId15:
         cellType: epithelial
         species: Mouse
         fileFormat: csv
-            

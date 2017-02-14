@@ -17,6 +17,8 @@
         "ISOSeq",
         "MRI",
         "westernBlot",
+        "wholeGenomeSeq",
+        "polymeraseChainReaction",
         "drugViabilityAssay",
         "drugCombinationAssay",
         "atomicForceMicroscopy",
@@ -66,11 +68,13 @@
         "idat",
         "bigwig",
         "wiggle",
-        "gct"
+        "gct",
+        "bgzip"
     ],
     "species": [
         "Human",
         "Mouse",
+        "Rat",
         "Drosophila melanogaster"
     ],
     "diagnosis": [
@@ -100,7 +104,12 @@
         "monocytes",
         "microglia",
         "macrophages",
-        "astrocytes"
+        "astrocytes",
+        "cultured cell",
+        "SH-SY5Y",
+        "GLUtamatergic neurons",
+        "NeuN+",
+        "NeuN-"
     ],
     "isCellLine": [
         true,
@@ -120,6 +129,7 @@
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
         "temporal cortex",
+        "serum",
         "Not Applicable"
     ],
     "sex": [
@@ -127,21 +137,23 @@
         "female"
     ],
     "consortium": [
-        "CommonMind",
-        "PsychENCODE",
-        "AcceleratingMedicinesPartnership-AD",
+        "CommonMind Consortium",
+        "PsychENCODE Consortium",
+        "AMP-AD",
+        "MODEL-AD",
+        "M2OVE-AD",
         "Synodos",
+        "BSMN",
         "CSBC",
-        "PSON"
-    ],
-    "grant": [
-        "U01MH103339",
-        "U01MH103392"
+        "PSON",
+        "Not Applicable"
     ],
     "fundingAgency": [
-        "Children's Tumor Foundation",
-        "National Cancer Institute",
+        "CTF",
+        "NIH-NCI",
         "NTAP",
-        "National Institute of Aging"
+        "NIH-NIA",
+        "NIH-NIMH",
+        "AACR"
     ]
 }
