@@ -69,7 +69,8 @@
         "bigwig",
         "wiggle",
         "gct",
-        "bgzip"
+        "bgzip",
+        "md"
     ],
     "species": [
         "Human",
