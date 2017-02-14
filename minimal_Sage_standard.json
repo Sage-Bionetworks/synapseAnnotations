@@ -69,7 +69,8 @@
         "bigwig",
         "wiggle",
         "gct",
-        "bgzip"
+        "bgzip",
+        "html"
     ],
     "species": [
         "Human",
@@ -84,6 +85,15 @@
         "Alzheimer Disease",
         "Schizophrenia",
         "Autism Spectrum Disorder",
+        "Fibrocystic Breast Disease",
+        "breast cancer",
+        "colon cancer",
+        "lung cancer",
+        "prostate cancer",
+        "pancreas cancer",
+        "skin cancer",
+        "brain cancer",
+        "ovary cancer",
         "Control",
         "Not Applicable"
     ],
@@ -92,8 +102,17 @@
         "Optic Nerve Glioma",
         "Glioma",
         "Astrocytoma",
-        "Neurofibroma, Plexiform",
+        "Plexiform Neurofibroma",
         "Malignant Peripheral Nerve Sheath Tumor",
+        "Adenocarcinoma",
+        "Carcinoma",
+        "Primary Ductal Carcinoma",
+        "Epithelioid Carcinoma",
+        "Ductal Carcinoma",
+        "Malignant Melanoma",
+        "Melanoma",
+        "Glioblastoma Multiforme",
+        "Glioblastoma",
         "Not Applicable"
 
     ],
@@ -109,7 +128,13 @@
         "SH-SY5Y",
         "GLUtamatergic neurons",
         "NeuN+",
-        "NeuN-"
+        "NeuN-",
+        "epithelial",
+        "epithelial-like",
+        "fibroblast",
+        "round",
+        "lymphoblast",
+        "polygonal"
     ],
     "isCellLine": [
         true,
@@ -119,7 +144,13 @@
         "skin",
         "nerves",
         "brain",
-        "blood"
+        "blood",
+        "breast",
+        "colon",
+        "lung",
+        "prostate",
+        "pancreas",
+        "ovary"
     ],
     "tissue": [
         "cerebral cortex",
