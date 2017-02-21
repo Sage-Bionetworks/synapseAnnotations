@@ -84,8 +84,7 @@
     "lifeStage": [
         "adult",
         "fetal",
-        "child",
-        "unknown"      
+        "child"      
     ],
     "sampleName": [
         
@@ -163,12 +162,19 @@
     ],
     "libraryPrep": [ 
         "stranded",
-        "unstranded",
-        "rRNADepletion",
-        "polyASelection",
-        "lncRNAEnrichment",
-        "totalRNA",
+        "unstranded"
+    
+    ],        
+    "libraryDepletedIn": [         
+        "rRNA",
+        "polyadenylated-mRNA"
+         
+    ],        
+    "libraryMadeFrom": [ 
+        "lncRNA",
+        "RNA",
         "miRNA",
+        "polyadenylated-mRNA",
         "DNA"
     ]
 }
