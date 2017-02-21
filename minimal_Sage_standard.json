@@ -86,7 +86,8 @@
         "Schizophrenia",
         "Autism Spectrum Disorder",
         "Control",
-        "Not Applicable"
+        "nan",
+        "Affective Disorder"
     ],
     "tumorType": [
         "Neurofibroma",
@@ -110,7 +111,8 @@
         "SH-SY5Y",
         "GLUtamatergic neurons",
         "NeuN+",
-        "NeuN-"
+        "NeuN-",
+        "nan"
     ],
     "isCellLine": [
         true,
@@ -130,8 +132,43 @@
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
         "temporal cortex",
-        "serum",
-        "Not Applicable"
+        "orbitofrontal cortex",
+        "ventrolateral prefrontal cortex",
+        "medial frontal cortex",
+        "primary motor cortex",
+        "primary somatosensory cortex",
+        "posteroinferior parietal cortex",
+        "primary auditory cortex",
+        "posterior superior temporal cortex",
+        "inferolateral temporal cortex",
+        "primary visual cortex",
+        "hippocampus",
+        "amygdaloid complex",
+        "striatum",
+        "mediodorsal nucleus of thalamus",
+        "cerebellar cortex",
+        "cerebellum",
+        "serum"
+        
+    ],
+    "BrodmannArea": [
+        "46",
+        "9"
+        
+    ],
+    "hemisphere": [
+        "Left",
+        "Right"
+    ],
+    "RIN": [
+        
+    ],
+    "PMI": [
+        
+   ],
+    "pH": [ 
+        
+          
     ],
     "sex": [
         "male",
@@ -146,8 +183,7 @@
         "Synodos",
         "BSMN",
         "CSBC",
-        "PSON",
-        "Not Applicable"
+        "PSON"
     ],
     "fundingAgency": [
         "CTF",
