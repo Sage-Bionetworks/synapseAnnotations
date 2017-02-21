@@ -70,7 +70,8 @@
         "wiggle",
         "gct",
         "bgzip",
-        "md"
+        "md",
+        "flagstat"
     ],
     "species": [
         "Human",
