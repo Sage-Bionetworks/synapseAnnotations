@@ -89,6 +89,9 @@
     "sampleName": [
         
     ],
+    "individual": [
+        
+    ],
     "treatmentType": [
         "haloperidol",
         "placebo"
@@ -176,5 +179,17 @@
         "miRNA",
         "polyadenylated-mRNA",
         "DNA"
-    ]
+    ],
+    "PMI": [
+         
+    ],
+    "pH": [
+   
+    ],
+    "hemisphere": [
+        "Left",
+        "Right"
+        
+    ],
+    "BrodmannArea": [
 }
