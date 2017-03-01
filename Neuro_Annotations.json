@@ -88,6 +88,9 @@
     "individualIdSource": [
         
     ],
+    "individualID": [
+        
+    ],
     "treatmentType": [
         "haloperidol",
         "placebo"
@@ -170,5 +173,23 @@
     "fileSubFormat": [ 
         "TranscriptomeSAM",
         "SortedByCoordinate"
+    ],
+    "libraryPrep": [ 
+        "stranded",
+        "unstranded"
+    
+    ],        
+    "PMI": [
+         
+    ],
+    "pH": [
+   
+    ],
+    "hemisphere": [
+        "left",
+        "right"
+    ],
+    "BrodmannArea": [
+    
     ]
 }
