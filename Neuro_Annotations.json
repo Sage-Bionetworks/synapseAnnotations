@@ -89,7 +89,7 @@
     "sampleName": [
         
     ],
-    "individual": [
+    "individualID": [
         
     ],
     "treatmentType": [
@@ -190,5 +190,7 @@
         "left",
         "right"
     ],
-    "BrodmannArea": []
+    "BrodmannArea": [
+    
+    ]
 }
