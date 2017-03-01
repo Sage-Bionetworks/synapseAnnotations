@@ -173,10 +173,6 @@
     "fileSubFormat": [ 
         "TranscriptomeSAM",
         "SortedByCoordinate"
-    ],
-    "libraryPrep": [ 
-        "stranded",
-        "unstranded"
     
     ],        
     "PMI": [
