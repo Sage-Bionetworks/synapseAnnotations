@@ -187,9 +187,8 @@
    
     ],
     "hemisphere": [
-        "Left",
-        "Right"
-        
+        "left",
+        "right"
     ],
     "BrodmannArea": []
 }
