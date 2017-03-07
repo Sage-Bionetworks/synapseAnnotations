@@ -87,10 +87,10 @@ disease:
   - Control
   - Not Applicable
 tumorType:
-  - Neurofibroma, Cutaneous
-  - Neurofibroma, Subcutaneous
-  - Neurofibroma, Plexiform
-  - Neurofibroma, Atypical
+  - Neurofibroma Cutaneous
+  - Neurofibroma Subcutaneous
+  - Neurofibroma Plexiform
+  - Neurofibroma Atypical
   - Malignant Peripheral Nerve Sheath Tumor
   - Optic Nerve Glioma
   - Low Grade Glioma
