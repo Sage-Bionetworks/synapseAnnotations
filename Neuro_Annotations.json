@@ -80,15 +80,6 @@
         "Myers-NIAGADS", 
         "Harvard-MIT", 
         "Duke"
-      
-    ],
-    "specimenID": [
-        
-    ],
-    "individualIdSource": [
-        
-    ],
-    "individualID": [
         
     ],
     "treatmentType": [
@@ -150,33 +141,6 @@
         "confocalImaging", 
         "IlluminaHumanHT-12_V3_0_R1", 
         "SequenomMultiplex" 
-    ],
-    "runType": [  
-        "singleEnd", 
-        "pairedEnd"
-        
-    ],
-    "readLength": [
-           
-    ],
-    "isStranded": [ 
-        true, 
-        false 
-       
-    ],
-    "libraryPrep": [
-        "rRNAdepletion",
-        "polyAselection",
-        "lncRNAenrichment",
-        "miRNAenrichment"
-    ],
-    "fileSubFormat": [ 
-        "TranscriptomeSAM",
-        "SortedByCoordinate"
-    ],
-    "libraryPrep": [ 
-        "stranded",
-        "unstranded"
     
     ],        
     "PMI": [
