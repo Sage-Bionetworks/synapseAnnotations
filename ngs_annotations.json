@@ -1,0 +1,45 @@
+{
+    "assay": [
+        "rnaSeq",
+        "mirnaSeq",
+        "lncrnaSeq",
+        "exomeSeq",
+        "CHiPSeq",
+        "bisulfiteSeq",
+        "ATACSeq",
+        "NOMeSeq",
+        "HI-C",
+        "errBisulfiteSeq",
+        "ISOSeq",
+        "wholeGenomeSeq"
+                 
+    ],
+    "runType": [  
+        "singleEnd", 
+        "pairedEnd"
+        
+    ],
+    "readLength": [
+           
+    ],
+    "isStranded": [ 
+        true, 
+        false 
+       
+    ],
+    "libraryPrep": [
+        "rRNAdepletion",
+        "polyAselection",
+        "lncRNAenrichment",
+        "miRNAenrichment"
+    ],
+    "fileSubFormat": [ 
+        "TranscriptomeSAM",
+        "SortedByCoordinate"
+    ],
+    "libraryPrep": [ 
+        "stranded",
+        "unstranded"
+     
+    ]
+}
