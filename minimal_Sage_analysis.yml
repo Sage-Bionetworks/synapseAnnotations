@@ -21,6 +21,7 @@ analysisType:
   - visualization
   - transcriptQuantification
   - somaticMutationCalling
+  - peakCalling
   
 somaticMutationCallingMethod:
   - varDict
@@ -107,6 +108,12 @@ rnaAlignmentMethod:
   - mosaic
   - novoAlign
   - olego
+
+peakCallingMethod:
+  - MACS
+  - MACS2
+  - GPS
+  - GEM
 
 assemblyMethod:
   - velvet
