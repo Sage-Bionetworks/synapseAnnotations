@@ -21,6 +21,7 @@ analysisType:
   - visualization
   - transcriptQuantification
   - somaticMutationCalling
+  - peakCalling
   
 somaticMutationCallingMethod:
   - varDict
@@ -113,3 +114,8 @@ assemblyMethod:
 
 enrichmentMethod:
   - fishersExactTest
+
+peakCallingMethod:
+  - MACS
+  - MACS2
+  - GEM
