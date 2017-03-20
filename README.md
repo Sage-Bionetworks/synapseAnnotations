@@ -4,3 +4,6 @@
 
 Sage Bionetworks derived standards for annotating content in Synapse.
 
+# Schemas
+
+Schemas are stored in Synapse Table Schemas at https://www.synapse.org/annotation.

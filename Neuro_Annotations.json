@@ -80,14 +80,6 @@
         "Myers-NIAGADS", 
         "Harvard-MIT", 
         "Duke"
-    ],
-    "lifeStage": [
-        "adult",
-        "fetal",
-        "child",
-        "unknown"      
-    ],
-    "sampleName": [
         
     ],
     "treatmentType": [
@@ -121,10 +113,7 @@
         "TYROBP_WT", 
         "TYROBP_WT.KO", 
         "TYROBP_KO.KO"
-    ],
-    "isModelSystem": [ 
-        true, 
-        false        
+        
     ],
     "platform": [ 
         "HiSeq2500",
@@ -152,23 +141,19 @@
         "confocalImaging", 
         "IlluminaHumanHT-12_V3_0_R1", 
         "SequenomMultiplex" 
+    
+    ],        
+    "PMI": [
+         
     ],
-    "runType": [  
-        "singleEnd", 
-        "pairedEnd",
-        "unknown"
+    "pH": [
+   
     ],
-    "readLength": [
-       
+    "hemisphere": [
+        "left",
+        "right"
     ],
-    "libraryPrep": [ 
-        "stranded",
-        "unstranded",
-        "rRNADepletion",
-        "polyASelection",
-        "lncRNAEnrichment",
-        "totalRNA",
-        "miRNA",
-        "DNA"
+    "BrodmannArea": [
+    
     ]
 }

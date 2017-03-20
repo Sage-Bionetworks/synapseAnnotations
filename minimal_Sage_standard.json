@@ -29,6 +29,7 @@
         "genomicVariants",
         "image",
         "geneExpression",
+        "isoformExpression",
         "proteomics",
         "kinomics",
         "drugScreen",
@@ -70,7 +71,9 @@
         "wiggle",
         "gct",
         "bgzip",
-        "html"
+        "html",
+        "md",
+        "flagstat"
     ],
     "species": [
         "Human",
@@ -98,23 +101,23 @@
         "Not Applicable"
     ],
     "tumorType": [
-        "Neurofibroma",
-        "Optic Nerve Glioma",
-        "Glioma",
-        "Astrocytoma",
-        "Neurofibroma, Plexiform",
+        "Neurofibroma Cutaneous",
+        "Neurofibroma Subcutaneous",
+        "Neurofibroma Plexiform",
+        "Neurofibroma Atypical",
         "Malignant Peripheral Nerve Sheath Tumor",
         "Adenocarcinoma",
         "Carcinoma",
-        "Primary Ductal Carcinoma",
-        "Epithelioid Carcinoma",
         "Ductal Carcinoma",
-        "Malignant Melanoma",
         "Melanoma",
-        "Glioblastoma Multiforme",
+        "Optic Nerve Glioma",
+        "Low Grade Glioma",
+        "Diffuse Astrocytoma,"
+        "Anaplastic Astrocytoma",
         "Glioblastoma",
+        "Schwannoma",
+        "Meningioma",
         "Not Applicable"
-
     ],
     "cellType": [
         "B-lymphocytes",
@@ -185,6 +188,15 @@
         "NTAP",
         "NIH-NIA",
         "NIH-NIMH",
-        "AACR"
+        "AACR"  
+           
+    ],
+    "specimenID": [
+        
+    ],
+    "individualIdSource": [
+        
+    ],
+    "individualID": [
     ]
 }
