@@ -23,7 +23,8 @@
         "drugCombinationAssay",
         "atomicForceMicroscopy",
         "brightfieldMicroscopy",
-        "tractionForceMicroscopy"
+        "tractionForceMicroscopy",
+        "targetedGeneSeq"
     ],
     "dataType": [
         "genomicVariants",
@@ -69,7 +70,8 @@
         "bigwig",
         "wiggle",
         "gct",
-        "bgzip"
+        "bgzip",
+        "seg"
     ],
     "species": [
         "Human",
@@ -146,6 +148,7 @@
         "BSMN",
         "CSBC",
         "PSON",
+        "GENIE",
         "Not Applicable"
     ],
     "fundingAgency": [
