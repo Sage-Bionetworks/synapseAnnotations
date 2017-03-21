@@ -33,6 +33,7 @@ transcriptQuantificationMethod:
   - kallisto
   - RSEM
   - featureCounts
+  - DESeq2
 
 differentialExpressionMethod:
   - limma
@@ -120,3 +121,8 @@ assemblyMethod:
 
 enrichmentMethod:
   - fishersExactTest
+
+peakCallingMethod:
+  - MACS
+  - MACS2
+  - GEM
