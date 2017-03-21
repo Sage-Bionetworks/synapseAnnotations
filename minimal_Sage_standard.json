@@ -25,6 +25,33 @@
         "brightfieldMicroscopy",
         "tractionForceMicroscopy"
     ],
+    "platform": [
+        "HiSeq2500",
+        "HiSeq2000",
+        "MiSeq",
+        "PsychChip",
+        "Affy5.0",
+        "Affy6.0",
+        "PacBioRSII",
+        "GAIIx",
+        "Illumina_HumanOmni1-Quadv1.0",
+        "Illumina_1M",
+        "Illumina_h650",
+        "Illumina_Omni2pt5M",
+        "Illumina_Omni5M",
+        "Perlegen300Karray",
+        "Agilent44Karray",
+        "IlluminaWholeGenomeDASL",
+        "IlluminaHumanHap300",
+        "NanostringnCounter",
+        "LTQOrbitrapXL",
+        "IlluminaHumanMethylation450",
+        "AffymetrixU133AB",
+        "AffymetrixU133Plus2",
+        "confocalImaging",
+        "IlluminaHumanHT-12_V3_0_R1",
+        "SequenomMultiplex"
+    ],        
     "dataType": [
         "genomicVariants",
         "image",
@@ -33,7 +60,7 @@
         "proteomics",
         "kinomics",
         "drugScreen",
-        "cellularPhysiology", 
+        "cellularPhysiology",
         "chromatinActivity"
     ],
     "dataSubtype": [
@@ -210,7 +237,7 @@
         "NTAP",
         "NIH-NIA",
         "NIH-NIMH",
-        "AACR"           
+        "AACR"
     ],
     "specimenID": [],
     "specimenIdSource": [],
