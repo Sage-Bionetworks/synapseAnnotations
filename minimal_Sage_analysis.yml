@@ -33,7 +33,7 @@ transcriptQuantificationMethod:
   - kallisto
   - RSEM
   - featureCounts
-  - DeSeq2
+  - DESeq2
 
 differentialExpressionMethod:
   - limma
