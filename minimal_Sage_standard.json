@@ -33,7 +33,8 @@
         "proteomics",
         "kinomics",
         "drugScreen",
-        "cellularPhysiology"
+        "cellularPhysiology", 
+        "chromatinActivity"
     ],
     "dataSubtype": [
         "dataMatrix",
@@ -117,7 +118,8 @@
         "SH-SY5Y",
         "GLUtamatergic neurons",
         "NeuN+",
-        "NeuN-"
+        "NeuN-",
+        "CD8+ T-Cells"
     ],
     "isCellLine": [
         true,
@@ -127,7 +129,8 @@
         "skin",
         "nerves",
         "brain",
-        "blood"
+        "blood",
+        "spleen"
     ],
     "tissue": [
         "cerebral cortex",
@@ -138,6 +141,7 @@
         "anterior cingulate cortex",
         "temporal cortex",
         "serum",
+        "spleenocyte"
         "Not Applicable"
     ],
     "sex": [
@@ -167,6 +171,8 @@
     ],
     "specimenID": [
         
+    ],
+    "specimenIdSource":[
     ],
     "individualIdSource": [
         
