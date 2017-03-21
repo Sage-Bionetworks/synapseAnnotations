@@ -72,6 +72,7 @@
         "wiggle",
         "gct",
         "bgzip",
+        "html",
         "md",
         "flagstat"
     ],
@@ -88,6 +89,15 @@
         "Alzheimer Disease",
         "Schizophrenia",
         "Autism Spectrum Disorder",
+        "Fibrocystic Breast Disease",
+        "Breast Cancer",
+        "Colon Cancer",
+        "Lung Cancer",
+        "Prostate Cancer",
+        "Pancreas Cancer",
+        "Skin Cancer",
+        "Brain Cancer",
+        "Ovary Cancer",
         "Control",
         "Not Applicable"
     ],
@@ -97,6 +107,10 @@
         "Neurofibroma Plexiform",
         "Neurofibroma Atypical",
         "Malignant Peripheral Nerve Sheath Tumor",
+        "Adenocarcinoma",
+        "Carcinoma",
+        "Ductal Carcinoma",
+        "Melanoma",
         "Optic Nerve Glioma",
         "Low Grade Glioma",
         "Diffuse Astrocytoma,"
@@ -119,6 +133,12 @@
         "GLUtamatergic neurons",
         "NeuN+",
         "NeuN-",
+        "epithelial",
+        "epithelial-like",
+        "fibroblast",
+        "round",
+        "lymphoblast",
+        "polygonal",
         "CD8+ T-Cells"
     ],
     "isCellLine": [
@@ -130,6 +150,12 @@
         "nerves",
         "brain",
         "blood",
+        "breast",
+        "colon",
+        "lung",
+        "prostate",
+        "pancreas",
+        "ovary",
         "spleen"
     ],
     "tissue": [
@@ -166,17 +192,10 @@
         "NTAP",
         "NIH-NIA",
         "NIH-NIMH",
-        "AACR"  
-           
+        "AACR"           
     ],
-    "specimenID": [
-        
-    ],
-    "specimenIdSource":[
-    ],
-    "individualIdSource": [
-        
-    ],
-    "individualID": [
-    ]
+    "specimenID": [],
+    "specimenIdSource": [],
+    "individualIdSource": [],
+    "individualID": []
 }
