@@ -23,7 +23,8 @@
         "drugCombinationAssay",
         "atomicForceMicroscopy",
         "brightfieldMicroscopy",
-        "tractionForceMicroscopy"
+        "tractionForceMicroscopy",
+        "targetedGeneSeq"
     ],
     "platform": [
         "HiSeq2500",
@@ -99,6 +100,7 @@
         "wiggle",
         "gct",
         "bgzip",
+        "seg",
         "html",
         "md",
         "flagstat"
@@ -229,6 +231,7 @@
         "BSMN",
         "CSBC",
         "PSON",
+        "GENIE",
         "Not Applicable"
     ],
     "fundingAgency": [
