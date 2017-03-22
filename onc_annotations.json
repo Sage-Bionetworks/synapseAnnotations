@@ -1,0 +1,26 @@
+##hoping to capture all onc-specific annotations here. is it possible?
+{
+#CSBC specific terms
+    "modelSystem":[
+    ],
+    "cellSubType":[
+    ],
+    "transplantationType":[
+    ],
+    "transplantationDonorSpecies":[
+        "Human",
+        "Mouse"
+    ],
+    "transplantationDonorTissue":[
+    ],
+    "transplantationRecipientTissue":[
+    ],
+    "experimentalCondition":[
+    ],
+    "experimentalTimePoint":[
+    ],
+    "timePointUnit":[
+        "hours",
+        "days"
+    ]
+}
