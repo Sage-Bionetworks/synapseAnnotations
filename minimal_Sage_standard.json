@@ -86,7 +86,6 @@
         "Schizophrenia",
         "Autism Spectrum Disorder",
         "Control",
-        "nan",
         "Affective Disorder"
     ],
     "tumorType": [
@@ -95,9 +94,7 @@
         "Glioma",
         "Astrocytoma",
         "Neurofibroma, Plexiform",
-        "Malignant Peripheral Nerve Sheath Tumor",
-        "Not Applicable"
-
+        "Malignant Peripheral Nerve Sheath Tumor"
     ],
     "cellType": [
         "B-lymphocytes",
@@ -111,8 +108,7 @@
         "SH-SY5Y",
         "GLUtamatergic neurons",
         "NeuN+",
-        "NeuN-",
-        "nan"
+        "NeuN-"
     ],
     "isCellLine": [
         true,
@@ -149,27 +145,7 @@
         "cerebellar cortex",
         "cerebellum",
         "serum"
-        
-    ],
-    "BrodmannArea": [
-        "46",
-        "9"
-        
-    ],
-    "hemisphere": [
-        "Left",
-        "Right"
-    ],
-    "RIN": [
-        
-    ],
-    "PMI": [
-        
-   ],
-    "pH": [ 
-        
-          
-    ],
+    ]
     "sex": [
         "male",
         "female"
