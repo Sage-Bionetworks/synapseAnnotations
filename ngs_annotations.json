@@ -1,19 +1,4 @@
 {
-    "assay": [
-        "rnaSeq",
-        "mirnaSeq",
-        "lncrnaSeq",
-        "exomeSeq",
-        "CHiPSeq",
-        "bisulfiteSeq",
-        "ATACSeq",
-        "NOMeSeq",
-        "HI-C",
-        "errBisulfiteSeq",
-        "ISOSeq",
-        "wholeGenomeSeq"
-                 
-    ],
     "runType": [  
         "singleEnd", 
         "pairedEnd"
