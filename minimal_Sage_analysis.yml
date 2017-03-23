@@ -21,6 +21,7 @@ analysisType:
   - visualization
   - transcriptQuantification
   - somaticMutationCalling
+  - peakCalling
   
 somaticMutationCallingMethod:
   - varDict
@@ -32,6 +33,7 @@ transcriptQuantificationMethod:
   - kallisto
   - RSEM
   - featureCounts
+  - DESeq2
 
 differentialExpressionMethod:
   - limma
@@ -108,8 +110,19 @@ rnaAlignmentMethod:
   - novoAlign
   - olego
 
+peakCallingMethod:
+  - MACS
+  - MACS2
+  - GPS
+  - GEM
+
 assemblyMethod:
   - velvet
 
 enrichmentMethod:
   - fishersExactTest
+
+peakCallingMethod:
+  - MACS
+  - MACS2
+  - GEM
