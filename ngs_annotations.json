@@ -1,25 +1,21 @@
 {
-    "runType": [  
-        "singleEnd", 
+    "runType": [
+        "singleEnd",
         "pairedEnd"
-        
+
     ],
     "readLength": [
-           
+
     ],
-    "isStranded": [ 
-        true, 
-        false 
-       
+    "isStranded": [
+        true,
+        false
+
     ],
     "libraryPrep": [
         "rRNAdepletion",
         "polyAselection",
         "lncRNAenrichment",
         "miRNAenrichment"
-    ],
-    "fileSubFormat": [ 
-        "TranscriptomeSAM",
-        "SortedByCoordinate"
     ]
 }
