@@ -86,7 +86,8 @@
         "Schizophrenia",
         "Autism Spectrum Disorder",
         "Control",
-        "Affective Disorder"
+        "Affective Disorder",
+        "Not Applicable"
     ],
     "tumorType": [
         "Neurofibroma",
@@ -94,7 +95,8 @@
         "Glioma",
         "Astrocytoma",
         "Neurofibroma, Plexiform",
-        "Malignant Peripheral Nerve Sheath Tumor"
+        "Malignant Peripheral Nerve Sheath Tumor",
+        "Not Applicable"
     ],
     "cellType": [
         "B-lymphocytes",
@@ -144,7 +146,8 @@
         "mediodorsal nucleus of thalamus",
         "cerebellar cortex",
         "cerebellum",
-        "serum"
+        "serum",
+        "Not Applicable"
     ]
     "sex": [
         "male",
@@ -159,7 +162,8 @@
         "Synodos",
         "BSMN",
         "CSBC",
-        "PSON"
+        "PSON",
+        "Not Applicable"
     ],
     "fundingAgency": [
         "CTF",
