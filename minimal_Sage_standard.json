@@ -23,16 +23,46 @@
         "drugCombinationAssay",
         "atomicForceMicroscopy",
         "brightfieldMicroscopy",
-        "tractionForceMicroscopy"
+        "tractionForceMicroscopy",
+        "targetedGeneSeq"
     ],
+    "platform": [
+        "HiSeq2500",
+        "HiSeq2000",
+        "MiSeq",
+        "PsychChip",
+        "Affy5.0",
+        "Affy6.0",
+        "PacBioRSII",
+        "GAIIx",
+        "Illumina_HumanOmni1-Quadv1.0",
+        "Illumina_1M",
+        "Illumina_h650",
+        "Illumina_Omni2pt5M",
+        "Illumina_Omni5M",
+        "Perlegen300Karray",
+        "Agilent44Karray",
+        "IlluminaWholeGenomeDASL",
+        "IlluminaHumanHap300",
+        "NanostringnCounter",
+        "LTQOrbitrapXL",
+        "IlluminaHumanMethylation450",
+        "AffymetrixU133AB",
+        "AffymetrixU133Plus2",
+        "confocalImaging",
+        "IlluminaHumanHT-12_V3_0_R1",
+        "SequenomMultiplex"
+    ],        
     "dataType": [
         "genomicVariants",
         "image",
         "geneExpression",
+        "isoformExpression",
         "proteomics",
         "kinomics",
         "drugScreen",
-        "cellularPhysiology"
+        "cellularPhysiology",
+        "chromatinActivity"
     ],
     "dataSubtype": [
         "dataMatrix",
@@ -70,7 +100,10 @@
         "wiggle",
         "gct",
         "bgzip",
-        "md"
+        "seg",
+        "html",
+        "md",
+        "flagstat"
     ],
     "species": [
         "Human",
@@ -85,17 +118,36 @@
         "Alzheimer Disease",
         "Schizophrenia",
         "Autism Spectrum Disorder",
+        "Fibrocystic Breast Disease",
+        "Breast Cancer",
+        "Colon Cancer",
+        "Lung Cancer",
+        "Prostate Cancer",
+        "Pancreas Cancer",
+        "Skin Cancer",
+        "Brain Cancer",
+        "Ovary Cancer",
         "Control",
         "Affective Disorder",
         "Not Applicable"
     ],
     "tumorType": [
-        "Neurofibroma",
-        "Optic Nerve Glioma",
-        "Glioma",
-        "Astrocytoma",
-        "Neurofibroma, Plexiform",
+        "Neurofibroma Cutaneous",
+        "Neurofibroma Subcutaneous",
+        "Neurofibroma Plexiform",
+        "Neurofibroma Atypical",
         "Malignant Peripheral Nerve Sheath Tumor",
+        "Adenocarcinoma",
+        "Carcinoma",
+        "Ductal Carcinoma",
+        "Melanoma",
+        "Optic Nerve Glioma",
+        "Low Grade Glioma",
+        "Diffuse Astrocytoma,"
+        "Anaplastic Astrocytoma",
+        "Glioblastoma",
+        "Schwannoma",
+        "Meningioma",
         "Not Applicable"
     ],
     "cellType": [
@@ -110,7 +162,14 @@
         "SH-SY5Y",
         "GLUtamatergic neurons",
         "NeuN+",
-        "NeuN-"
+        "NeuN-",
+        "epithelial",
+        "epithelial-like",
+        "fibroblast",
+        "round",
+        "lymphoblast",
+        "polygonal",
+        "CD8+ T-Cells"
     ],
     "isCellLine": [
         true,
@@ -120,7 +179,14 @@
         "skin",
         "nerves",
         "brain",
-        "blood"
+        "blood",
+        "breast",
+        "colon",
+        "lung",
+        "prostate",
+        "pancreas",
+        "ovary",
+        "spleen"
     ],
     "tissue": [
         "cerebral cortex",
@@ -129,6 +195,24 @@
         "nerve tissue",
         "dorsolateral prefrontal cortex",
         "anterior cingulate cortex",
+        "frontal pole",
+        "parahippocampal gyrus",
+        "superior temporal gyrus",
+        "inferior frontal gyrus",
+        "cerebellum",
+        "occipital visual cortex",
+        "inferior temporal gyrus",
+        "middle temporal gyrus",
+        "posterior cingulate cortex",
+        "temporal pole",
+        "precentral gyrus",
+        "superior parietal lobe",
+        "prefrontal cortex",
+        "amygdala",
+        "caudate nucleus",
+        "hippocampus",
+        "nucleus accumbens",
+        "putamen",
         "temporal cortex",
         "orbitofrontal cortex",
         "ventrolateral prefrontal cortex",
@@ -147,6 +231,7 @@
         "cerebellar cortex",
         "cerebellum",
         "serum",
+        "spleenocyte"
         "Not Applicable"
     ],
     "sex": [
@@ -163,6 +248,7 @@
         "BSMN",
         "CSBC",
         "PSON",
+        "GENIE",
         "Not Applicable"
     ],
     "fundingAgency": [
@@ -172,5 +258,9 @@
         "NIH-NIA",
         "NIH-NIMH",
         "AACR"
-    ]
+    ],
+    "specimenID": [],
+    "specimenIdSource": [],
+    "individualIdSource": [],
+    "individualID": []
 }

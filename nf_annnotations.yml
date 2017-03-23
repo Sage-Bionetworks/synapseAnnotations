@@ -13,10 +13,6 @@ nf2Genotype:
   - +/+
 
 
-#added for sample tracking
-patientIdentifier:
-sampleIdentifier:
-
 # NF-specific
 study:
     ##NTAP specific
