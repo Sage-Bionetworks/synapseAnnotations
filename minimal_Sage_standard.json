@@ -231,7 +231,9 @@
         "cerebellar cortex",
         "cerebellum",
         "serum",
-        "spleenocyte"
+        "spleenocyte",
+        "blood",
+        "primaryTumor"
         "Not Applicable"
     ],
     "sex": [
