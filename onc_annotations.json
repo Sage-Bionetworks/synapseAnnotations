@@ -22,5 +22,17 @@
     "timePointUnit":[
         "hours",
         "days"
+    ],
+    "functionalScreenType":[
+         "overexpression",
+         "knockdown",
+         "knockout"
+    ],
+    "geneScreened":[
+    ],
+    "screenType":[
+        "shRNA",
+        "CRISPR",
+        "mutant"
     ]
 }
