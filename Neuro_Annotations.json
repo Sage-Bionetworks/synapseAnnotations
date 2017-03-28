@@ -127,5 +127,9 @@
     ],
     "BrodmannArea": [
 
+    ],
+    "fileSubFormat": [
+        "TranscriptomeSAM",
+        "SortedByCoordinate"
     ]
 }
