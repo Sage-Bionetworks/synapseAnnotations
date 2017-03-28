@@ -13,6 +13,9 @@
     "clinical",
     "CNA",
     "fusions"
+  ],
+  "fileStage" : [
+    "staging",
+    "release"
   ]
-
 }
