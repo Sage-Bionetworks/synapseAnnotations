@@ -128,6 +128,7 @@
         "Brain Cancer",
         "Ovary Cancer",
         "Control",
+        "Affective Disorder",
         "Not Applicable"
     ],
     "tumorType": [
@@ -213,6 +214,22 @@
         "nucleus accumbens",
         "putamen",
         "temporal cortex",
+        "orbitofrontal cortex",
+        "ventrolateral prefrontal cortex",
+        "medial frontal cortex",
+        "primary motor cortex",
+        "primary somatosensory cortex",
+        "posteroinferior parietal cortex",
+        "primary auditory cortex",
+        "posterior superior temporal cortex",
+        "inferolateral temporal cortex",
+        "primary visual cortex",
+        "hippocampus",
+        "amygdaloid complex",
+        "striatum",
+        "mediodorsal nucleus of thalamus",
+        "cerebellar cortex",
+        "cerebellum",
         "serum",
         "spleenocyte"
         "Not Applicable"
