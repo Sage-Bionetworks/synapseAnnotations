@@ -143,7 +143,7 @@
         "Melanoma",
         "Optic Nerve Glioma",
         "Low Grade Glioma",
-        "Diffuse Astrocytoma,"
+        "Diffuse Astrocytoma",
         "Anaplastic Astrocytoma",
         "Glioblastoma",
         "Schwannoma",
@@ -231,7 +231,7 @@
         "cerebellar cortex",
         "cerebellum",
         "serum",
-        "spleenocyte"
+        "spleenocyte",
         "Not Applicable"
     ],
     "sex": [
