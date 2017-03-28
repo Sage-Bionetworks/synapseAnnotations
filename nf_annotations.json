@@ -9,8 +9,6 @@
     "+/-",
     "+/+"
   ],
-  "patientIdentifier": null,
-  "sampleIdentifier": null,
   "study": [
     "Cell Culture",
     "Unsolicited",
@@ -19,7 +17,8 @@
     "Synodos NF1",
     "Synodos NF2",
     "Synodos LGG",
-    "Dermal NF",
+    "Cutaneous NF",
     "DHART SPORE"
   ]
+  
 }

@@ -14,31 +14,31 @@
         "NHP",
         "Yale-ASD",
         "BipSeq",
-        "ACT", 
-        "BLSA", 
-        "HBTRC", 
-        "MSBB", 
-        "ROSMAP", 
-        "MayoLOADGwas", 
-        "MayoEGWAS", 
-        "MayoPilot", 
-        "IL10", 
-        "Emory", 
-        "TAUAPPms", 
-        "sampleSwap", 
-        "MayoRNAseq", 
-        "BroadMDMi", 
-        "BroadiPSC", 
-        "MSDM", 
-        "OFMM", 
-        "Lilly_microgliaRNAseq", 
-        "UPenn", 
-        "SY5Y_REST", 
-        "MSSMiPSC", 
-        "TyrobpKO", 
-        "MSSMiPSCMicroglia", 
-        "BroadAstrom109", 
-        "Banner", 
+        "ACT",
+        "BLSA",
+        "HBTRC",
+        "MSBB",
+        "ROSMAP",
+        "MayoLOADGwas",
+        "MayoEGWAS",
+        "MayoPilot",
+        "IL10",
+        "Emory",
+        "TAUAPPms",
+        "sampleSwap",
+        "MayoRNAseq",
+        "BroadMDMi",
+        "BroadiPSC",
+        "MSDM",
+        "OFMM",
+        "Lilly_microgliaRNAseq",
+        "UPenn",
+        "SY5Y_REST",
+        "MSSMiPSC",
+        "TyrobpKO",
+        "MSSMiPSCMicroglia",
+        "BroadAstrom109",
+        "Banner",
         "EmoryDrosophilaTau"
     ],
     "grant": [
@@ -73,22 +73,14 @@
         "USC",
         "GIS",
         "JHU",
-        "MSSM", 
-        "Emory", 
-        "Broad-Rush", 
-        "UFL-Mayo-ISB", 
-        "Myers-NIAGADS", 
-        "Harvard-MIT", 
+        "MSSM",
+        "Emory",
+        "Broad-Rush",
+        "UFL-Mayo-ISB",
+        "Myers-NIAGADS",
+        "Harvard-MIT",
         "Duke"
-    ],
-    "lifeStage": [
-        "adult",
-        "fetal",
-        "child",
-        "unknown"      
-    ],
-    "sampleName": [
-        
+
     ],
     "treatmentType": [
         "haloperidol",
@@ -106,69 +98,38 @@
         "CTCF",
         "input"
     ],
-    "modelSystemName": [  
-        "TREM2", 
-        "TYROBP", 
+    "modelSystemName": [
+        "TREM2",
+        "TYROBP",
         "AB42",
-        "CRND8", 
-        "APPPS1", 
-        "MAPT-P301K", 
-        "rTg4510", 
-        "APPE693Q", 
-        "APPKM650", 
-        "APPKM670", 
-        "APPKM670-671NL-PSEN1deltaexon9", 
-        "TYROBP_WT", 
-        "TYROBP_WT.KO", 
+        "CRND8",
+        "APPPS1",
+        "MAPT-P301K",
+        "rTg4510",
+        "APPE693Q",
+        "APPKM650",
+        "APPKM670",
+        "APPKM670-671NL-PSEN1deltaexon9",
+        "TYROBP_WT",
+        "TYROBP_WT.KO",
         "TYROBP_KO.KO"
+
     ],
-    "isModelSystem": [ 
-        true, 
-        false        
+    "PMI": [
+
     ],
-    "platform": [ 
-        "HiSeq2500",
-        "HiSeq2000",
-        "MiSeq",
-        "PsychChip",
-        "Affy5.0",
-        "Affy6.0",
-        "PacBioRSII",
-        "GAIIx",
-        "Illumina_HumanOmni1-Quadv1.0",
-        "Illumina_1M",
-        "Illumina_h650",
-        "Illumina_Omni2pt5M",
-        "Illumina_Omni5M",
-        "Perlegen300Karray", 
-        "Agilent44Karray", 
-        "IlluminaWholeGenomeDASL", 
-        "IlluminaHumanHap300",
-        "NanostringnCounter", 
-        "LTQOrbitrapXL",  
-        "IlluminaHumanMethylation450",
-        "AffymetrixU133AB", 
-        "AffymetrixU133Plus2", 
-        "confocalImaging", 
-        "IlluminaHumanHT-12_V3_0_R1", 
-        "SequenomMultiplex" 
+    "pH": [
+
     ],
-    "runType": [  
-        "singleEnd", 
-        "pairedEnd",
-        "unknown"
+    "hemisphere": [
+        "left",
+        "right"
     ],
-    "readLength": [
-       
+    "BrodmannArea": [
+
     ],
-    "libraryPrep": [ 
-        "stranded",
-        "unstranded",
-        "rRNADepletion",
-        "polyASelection",
-        "lncRNAEnrichment",
-        "totalRNA",
-        "miRNA",
-        "DNA"
+    "fileSubFormat": [
+        "TranscriptomeSAM",
+        "SortedByCoordinate"
     ]
 }
