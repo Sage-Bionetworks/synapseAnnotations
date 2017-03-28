@@ -1,0 +1,36 @@
+{
+    "modelSystem":[
+    ],
+    "cellSubType":[
+    ],
+    "transplantationType":[
+    ],
+    "transplantationDonorSpecies":[
+        "Human",
+        "Mouse"
+    ],
+    "transplantationDonorTissue":[
+    ],
+    "transplantationRecipientTissue":[
+    ],
+    "experimentalCondition":[
+    ],
+    "experimentalTimePoint":[
+    ],
+    "timePointUnit":[
+        "hours",
+        "days"
+    ],
+    "functionalScreenType":[
+         "overexpression",
+         "knockdown",
+         "knockout"
+    ],
+    "geneScreened":[
+    ],
+    "screenType":[
+        "shRNA",
+        "CRISPR",
+        "mutant"
+    ]
+}
