@@ -1,0 +1,21 @@
+{
+    "runType": [
+        "singleEnd",
+        "pairedEnd"
+
+    ],
+    "readLength": [
+
+    ],
+    "isStranded": [
+        true,
+        false
+
+    ],
+    "libraryPrep": [
+        "rRNAdepletion",
+        "polyAselection",
+        "lncRNAenrichment",
+        "miRNAenrichment"
+    ]
+}
