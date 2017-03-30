@@ -3,5 +3,5 @@ language: python
 # command to run tests
 install: pip install -r requirements.txt
 script:
-  - jsonlint *.json
+  - jsonlint $(find . -name "*.json")
   - nosetests tests/
