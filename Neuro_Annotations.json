@@ -73,14 +73,11 @@
         "USC",
         "GIS",
         "JHU",
-        "MSSM",
         "Emory",
         "Broad-Rush",
         "UFL-Mayo-ISB",
         "Myers-NIAGADS",
-        "Harvard-MIT",
-        "Duke"
-
+        "Harvard-MIT"
     ],
     "treatmentType": [
         "haloperidol",
