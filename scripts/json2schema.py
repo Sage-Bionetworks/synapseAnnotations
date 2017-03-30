@@ -85,12 +85,13 @@ def main():
         schema_as_list = map(dict, schema.columns_to_store)
         new_schema_as_list = []
 
-        _key_order = ['name', 'description', 'columnType', 'maximumSize', 'enumValues']
+        _key_order = ['name', 'description', 'columnType', 'maximumSize', 'enumValues', 'defaultValue']
 
         for col in schema_as_list:
             col['description'] = ""
             col['source'] = ""
-
+            col['defaultValue'] = ""
+            
             new_enum_values = []
 
             for v in col['enumValues']:
