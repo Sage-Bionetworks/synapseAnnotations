@@ -15,6 +15,7 @@ import json
 import urllib
 import urlparse
 import os
+import collections
 
 import synapseclient
 
@@ -80,8 +81,37 @@ def main():
         schema = synapseclient.Schema(name=schema_name, columns=cols, parent=project)
 
     if args.dry_run:
-        print json.dumps(schema.columns_to_store, indent=2,
-                         sort_keys=True)
+
+        schema_as_list = map(dict, schema.columns_to_store)
+        new_schema_as_list = []
+
+        _key_order = ['name', 'description', 'columnType', 'maximumSize', 'enumValues']
+
+        for col in schema_as_list:
+            col['description'] = ""
+            col['source'] = ""
+
+            new_enum_values = []
+
+            for v in col['enumValues']:
+
+                new_value_ordered_dict = collections.OrderedDict()
+
+                new_value_ordered_dict['value'] = v
+                new_value_ordered_dict['description'] = ""
+                new_value_ordered_dict['source'] = ""
+
+                new_enum_values.append(new_value_ordered_dict)
+
+            col['enumValues'] = new_enum_values
+
+            new_ordered_dict = collections.OrderedDict()
+            for k in _key_order:
+                new_ordered_dict[k] = col[k]
+
+            new_schema_as_list.append(new_ordered_dict)
+
+        print json.dumps(new_schema_as_list, indent=2)
     else:
         schema = syn.store(schema)
 
