@@ -1,0 +1,123 @@
+{
+  "analysisType": [
+    "statisticalNetworkReconstruction",
+    "differentialExpression",
+    "expressionQuantitativeTraitLociDetection",
+    "outlierDetection",
+    "covariateAssociation",
+    "hiddenConfounderDetection",
+    "differentialNetwork",
+    "methylationQuantitativeTraitLociDetection",
+    "networkDriverDetection",
+    "principalComponents",
+    "genomeWideAssociation",
+    "clustering",
+    "supervisedLearning",
+    "batchEffectCorrection",
+    "anova",
+    "variancePartition",
+    "moduleIdentification",
+    "visualization",
+    "transcriptQuantification",
+    "somaticMutationCalling",
+    "peakCalling"
+  ],
+  "somaticMutationCallingMethod": [
+    "varDict",
+    "varDict2",
+    "mutect",
+    "varScan"
+  ],
+  "transcriptQuantificationMethod": [
+    "kallisto",
+    "RSEM",
+    "featureCounts",
+    "DESeq2"
+  ],
+  "differentialExpressionMethod": [
+    "limma",
+    "sleuth",
+    "cuffDiff"
+  ],
+  "statisticalNetworkReconstructionMethod": [
+    "WGCNA",
+    "sparrow",
+    "lasso",
+    "ridge",
+    "genie3",
+    "tigress",
+    "aracne",
+    "mrnet",
+    "c3net",
+    "MEGENA"
+  ],
+  "clusteringMethod": [
+    "hierarchicalClustering",
+    "kMeans",
+    "WGCNA",
+    "principalComponentAnalysis"
+  ],
+  "batchEffectCorrectionMethod": [
+    "COMBAT",
+    "SVA",
+    "PCA"
+  ],
+  "supervisedLearningMethod": [
+    "penalizedLogisticRegression",
+    "penalizedLinearRegression",
+    "randomForest",
+    "supportVectorMachine",
+    "deepLearning",
+    "boosting",
+    "bagging",
+    "naiveBayes",
+    "GaussianProcessRegression"
+  ],
+  "multipleTestingAdjustmentMethod": [
+    "BenjaminiHochberg",
+    "Bonferroni",
+    "BenjaminiYekutieli"
+  ],
+  "regressionMethod": [
+    "fixedEffect",
+    "randomEffect",
+    "mixedEffect"
+  ],
+  "visualisationMethod": [
+    "scatterPlot",
+    "heatMap",
+    "barChart"
+  ],
+  "validationMethod": [
+    "sequenceValidation",
+    "targetValidation",
+    "CRISPR-CAS9",
+    "RNAi",
+    "shRNA"
+  ],
+  "dnaAlignmentMethod": [
+    "BWA",
+    "bowtie",
+    "bowtie2"
+  ],
+  "rnaAlignmentMethod": [
+    "SNAPR",
+    "STAR",
+    "GSNAP",
+    "topHat",
+    "mosaic",
+    "novoAlign",
+    "olego"
+  ],
+  "peakCallingMethod": [
+    "MACS",
+    "MACS2",
+    "GEM"
+  ],
+  "assemblyMethod": [
+    "velvet"
+  ],
+  "enrichmentMethod": [
+    "fishersExactTest"
+  ]
+}
