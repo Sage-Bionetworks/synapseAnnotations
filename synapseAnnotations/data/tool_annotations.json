@@ -1,0 +1,59 @@
+{
+    "softwareName": [],
+    "softwareURL": [],
+    "softwareVersion": [],
+    "softwareTag": [],
+    "softwareType": [
+        "script",
+        "packageLibrary",
+        "packageBinary",
+        "container",
+        "workflow",
+        "containerTool"
+    ],
+    "softwareLanguage": [
+        "R",
+        "Python",
+        "Matlab",
+        "Java",
+        "Shell"
+    ],
+    "softwareLanguageVersion": [],
+    "containerType": [
+        "Docker",
+        "Singularity"
+    ],
+    "containerTag": [],
+    "workflowType": [
+        "Nextflow",
+        "Galaxy",
+        "Snakemake",
+        "Rufus",
+        "CWL",
+        "WDL"
+    ],
+    "containerToolType": [
+        "Docker-CWL",
+        "Docker-WDL"
+    ],
+    "containerToolTag": [],
+    "repositoryName": [
+        "Synapse",
+        "GitHub",
+        "GitLab",
+        "BitBucket",
+        "CRAN",
+        "BioConductor",
+        "Biocontainers",
+        "DockerHub",
+        "Quay",
+        "Dockstore"
+    ],
+    "repositoryType": [
+        "fileStore",
+        "sourceCode",
+        "packageManager",
+        "containerRegistry",
+        "containerToolRegistry"
+    ],
+}
