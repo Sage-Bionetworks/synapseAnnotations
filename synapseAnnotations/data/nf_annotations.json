@@ -1,13 +1,13 @@
 [
   {
     "name": "study", 
-    "description": "NF-related study", 
+    "description": "This key represents a way to divide up research projects within or across consoritia", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "Cell Culture", 
-        "description": "NTAP-funded cell culture initiative related information", 
+        "description": "NTAP-funded cell culture initiative related data", 
         "source": "http://www.n-tap.org/initiatives/cell-culture-models/"
       }, 
       {
@@ -17,37 +17,17 @@
       }, 
       {
         "value": "PRO", 
-        "description": "", 
-        "source": ""
+        "description": "NTAP-funded patient-related outcome program data", 
+        "source": "http://www.n-tap.org/initiatives/patient-reported-outcomes/"
       }, 
       {
         "value": "Francis Collins", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Synodos NF1", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Synodos NF2", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Synodos LGG", 
-        "description": "", 
-        "source": ""
+        "description": "NTAP-funded Francis Collins scholar program data", 
+        "source": "http://www.n-tap.org/initiatives/collins-scholars/"
       }, 
       {
         "value": "Cutaneous NF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "DHART SPORE", 
-        "description": "", 
+        "description": "Data derived from the CTF-funded cNF efforts", 
         "source": ""
       }
     ]
