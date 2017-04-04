@@ -654,9 +654,9 @@
       },
       {
         "value": "tif",
-        "description": "",
-        "source": ""
-      }, 
+        "description": "Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images",
+        "source": "https://en.wikipedia.org/wiki/TIFF"
+      },
       {
         "value": "png",
         "description": "PNG is a file format for image compression",
@@ -674,18 +674,18 @@
       },
       {
         "value": "hdf",
-        "description": "",
-        "source": ""
+        "description": "Hierarchical Data Format (HDF) is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of data",
+        "source": "https://en.wikipedia.org/wiki/Hierarchical_Data_Format"
       },
       {
         "value": "fasta",
-        "description": "",
-        "source": ""
+        "description": "FASTA format is a text-based format for representing either nucleotide sequences or peptide sequences, in which nucleotides or amino acids are represented using single-letter codes",
+        "source": "https://en.wikipedia.org/wiki/FASTA_format"
       },
       {
         "value": "fastq",
-        "description": "",
-        "source": ""
+        "description": "FASTQ format is a text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores. Both the sequence letter and quality score are each encoded with a single ASCII character for brevity",
+        "source": "https://en.wikipedia.org/wiki/FASTQ_format"
       },
       {
         "value": "sam",
@@ -714,7 +714,7 @@
       },
       {
         "value": "chp",
-        "description": "",
+        "description": "CHP file contains probe set analysis results generated from Affymetrix software",
         "source": ""
       },
       {
@@ -739,13 +739,13 @@
       },
       {
         "value": "txt",
-        "description": "",
-        "source": ""
+        "description": "Textual format",
+        "source": "http://edamontology.org/format_2330"
       },
       {
         "value": "plink",
         "description": "Any Plink file format (MAP/PED/BED)",
-        "source": "http://saragosline.com"
+        "source": ""
       },
       {
         "value": "idat",
@@ -774,8 +774,8 @@
       },
       {
         "value": "seg",
-        "description": "",
-        "source": ""
+        "description": "SEG file (segmented data; .seg or .cbs) is a tab-delimited text file that lists loci and associated numeric values",
+        "source": "https://software.broadinstitute.org/software/igv/SEG"
       },
       {
         "value": "html",
@@ -784,12 +784,12 @@
       },
       {
         "value": "md",
-        "description": "",
-        "source": ""
+        "description": "Markdown (MD) is a lightweight markup language with plain text formatting syntax",
+        "source": "https://en.wikipedia.org/wiki/Markdown"
       },
       {
         "value": "flagstat",
-        "description": "",
+        "description": "Output of samtools flagstat tool",
         "source": ""
       }
     ]
