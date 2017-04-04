@@ -1,36 +1,140 @@
-{
-    "modelSystem":[
-    ],
-    "cellSubType":[
-    ],
-    "transplantationType":[
-    ],
-    "transplantationDonorSpecies":[
-        "Human",
-        "Mouse"
-    ],
-    "transplantationDonorTissue":[
-    ],
-    "transplantationRecipientTissue":[
-    ],
-    "experimentalCondition":[
-    ],
-    "experimentalTimePoint":[
-    ],
-    "timePointUnit":[
-        "hours",
-        "days"
-    ],
-    "functionalScreenType":[
-         "overexpression",
-         "knockdown",
-         "knockout"
-    ],
-    "geneScreened":[
-    ],
-    "screenType":[
-        "shRNA",
-        "CRISPR",
-        "mutant"
+[
+  {
+    "name": "cellSubType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "transplantationRecipientTissue", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "transplantationType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "functionalScreenType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "overexpression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "knockdown", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "knockout", 
+        "description": "", 
+        "source": ""
+      }
     ]
-}
+  }, 
+  {
+    "name": "screenType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "shRNA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CRISPR", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mutant", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "timePointUnit", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "hours", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "days", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "transplantationDonorSpecies", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Human", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Mouse", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "experimentalCondition", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "modelSystem", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "experimentalTimePoint", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "geneScreened", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "transplantationDonorTissue", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }
+]
