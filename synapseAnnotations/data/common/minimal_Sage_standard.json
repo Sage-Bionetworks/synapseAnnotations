@@ -802,18 +802,18 @@
     "enumValues": [
       {
         "value": "HiSeq2500", 
-        "description": "", 
-        "source": ""
+        "description": "Illumina HiSeq 2500 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
       }, 
       {
         "value": "HiSeq2000", 
-        "description": "", 
-        "source": ""
+        "description": "Illumina HiSeq 2000 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
       }, 
       {
         "value": "MiSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Illumina MiSeq (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
       }, 
       {
         "value": "PsychChip", 
@@ -822,18 +822,18 @@
       }, 
       {
         "value": "Affy5.0", 
-        "description": "", 
-        "source": ""
+        "description": "Affymetrix Genome-Wide Human SNP 5.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
       }, 
       {
         "value": "Affy6.0", 
-        "description": "", 
-        "source": ""
+        "description": "Affymetrix Genome-Wide Human SNP 6.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
       }, 
       {
         "value": "PacBioRSII", 
-        "description": "", 
-        "source": ""
+        "description": "PacBio RS II (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
       }, 
       {
         "value": "GAIIx", 
@@ -877,8 +877,8 @@
       }, 
       {
         "value": "IlluminaWholeGenomeDASL", 
-        "description": "", 
-        "source": ""
+        "description": "Illumina Human Whole-Genome DASL HT", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
       }, 
       {
         "value": "IlluminaHumanHap300", 
@@ -892,23 +892,23 @@
       }, 
       {
         "value": "LTQOrbitrapXL", 
-        "description": "", 
-        "source": ""
+        "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer", 
+        "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
       }, 
       {
         "value": "IlluminaHumanMethylation450", 
-        "description": "", 
-        "source": ""
+        "description": "Illumina HumanMethylation450 BeadChip ", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
       }, 
       {
         "value": "AffymetrixU133AB", 
-        "description": "", 
+        "description": "Affymetrix Human Genome U133 Plus", 
         "source": ""
       }, 
       {
         "value": "AffymetrixU133Plus2", 
-        "description": "", 
-        "source": ""
+        "description": "Affymetrix Human Genome U133 Plus", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
       }, 
       {
         "value": "confocalImaging", 
@@ -1266,29 +1266,29 @@
   }, 
   {
     "name": "species", 
-    "description": "", 
+    "description": "The name of a species (typically a taxonomic group) of organism.", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "Human", 
-        "description": "", 
-        "source": ""
+        "description": "Homo sapiens", 
+        "source": "https://meshb.nlm.nih.gov/record/ui?ui=D006801"
       }, 
       {
         "value": "Mouse", 
-        "description": "", 
-        "source": ""
+        "description": "The common name for the genus Mus", 
+        "source": "https://meshb.nlm.nih.gov/record/ui?ui=D051379"
       }, 
       {
         "value": "Rat", 
-        "description": "", 
-        "source": ""
+        "description": "The common name for the genus Rattus", 
+        "source": "https://meshb.nlm.nih.gov/record/ui?ui=D051381"
       }, 
       {
         "value": "Drosophila melanogaster", 
-        "description": "", 
-        "source": ""
+        "description": "A species of fruit fly much used in genetics because of the large size of its chromosomes", 
+        "source": "https://meshb.nlm.nih.gov/record/ui?ui=D004331"
       }
     ]
   }
