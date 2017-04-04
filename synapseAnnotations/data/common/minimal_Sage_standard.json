@@ -169,64 +169,64 @@
   }, 
   {
     "name": "organ", 
-    "description": "", 
+    "description": "The organ from which the tissue is derived", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "skin", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0001253"
       }, 
       {
         "value": "nerves", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000925"
       }, 
       {
         "value": "brain", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000142"
       }, 
       {
         "value": "blood", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000089"
       }, 
       {
         "value": "breast", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000149"
       }, 
       {
         "value": "colon", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000269"
       }, 
       {
         "value": "lung", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000763"
       }, 
       {
         "value": "prostate", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/FMA_9600"
       }, 
       {
         "value": "pancreas", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000988"
       }, 
       {
         "value": "ovary", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0000975"
       }, 
       {
         "value": "spleen", 
         "description": "", 
-        "source": ""
+        "source": "http://purl.obolibrary.org/obo/BTO_0001281"
       }
     ]
   }, 
