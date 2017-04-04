@@ -1,12 +1,37 @@
-{
-      "caseNumber": [
-      ],
-      "studySite": [
-      ],
-      "projectNumber": [
-      ],
-      "collectionDate":[
-      ],
-      "specimenQuantity":[
-      ]
-}
+[
+  {
+    "name": "specimenQuantity", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "studySite", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "caseNumber", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "collectionDate", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "projectNumber", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }
+]
