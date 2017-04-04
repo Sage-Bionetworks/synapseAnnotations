@@ -105,38 +105,38 @@
       }, 
       {
         "value": "polymeraseChainReaction", 
-        "description": "", 
-        "source": ""
+        "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning", 
+        "source": "http://purl.obolibrary.org/obo/MMO_0000459"
       }, 
       {
         "value": "drugViabilityAssay", 
-        "description": "", 
-        "source": ""
+        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
+        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
       }, 
       {
         "value": "drugCombinationAssay", 
-        "description": "", 
-        "source": ""
+        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
+        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
       }, 
       {
         "value": "atomicForceMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen", 
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000113"
       }, 
       {
         "value": "brightfieldMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective", 
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000104"
       }, 
       {
         "value": "tractionForceMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM)", 
+        "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       }, 
       {
         "value": "targetedGeneSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods", 
+        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
       }
     ]
   }, 
