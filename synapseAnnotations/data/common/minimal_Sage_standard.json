@@ -25,7 +25,7 @@
       {
         "value": "lncrnaSeq", 
         "description": "Long non-coding RNA measurements collected from RNA-Seq experiments", 
-        "source": "None"
+        "source": ""
       }, 
       {
         "value": "exomeSeq", 
