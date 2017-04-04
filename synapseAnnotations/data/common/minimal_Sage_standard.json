@@ -608,6 +608,26 @@
         "source": ""
       }, 
       {
+        "value": "Synodos NF1", 
+        "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos NF2", 
+        "description": "Data derived from the CTF-funded NF2 Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos LGG", 
+        "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "DHART SPORE", 
+        "description": "Data from the D-HART SPORE", 
+        "source": ""
+      },
+      {
         "value": "Not Applicable", 
         "description": "", 
         "source": ""
