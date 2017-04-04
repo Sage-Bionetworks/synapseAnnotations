@@ -141,28 +141,28 @@
   }, 
   {
     "name": "dataSubtype", 
-    "description": "", 
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "dataMatrix", 
-        "description": "", 
+        "description": "Generally a file of data containing multiple values for multiple samples.", 
         "source": ""
       }, 
       {
         "value": "raw", 
-        "description": "", 
+        "description": "Generally a data file produced by an instrument, or one with very little subsequent processing.", 
         "source": ""
       }, 
       {
         "value": "processed", 
-        "description": "", 
+        "description": "Generally a file of data generated from running one or more bioinformatics methods on a raw file.", 
         "source": ""
       }, 
       {
         "value": "metadata", 
-        "description": "", 
+        "description": "Generally a file of clinical, technical, or other parameters that describe a dataset.", 
         "source": ""
       }
     ]
