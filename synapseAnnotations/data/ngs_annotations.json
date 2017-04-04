@@ -1,21 +1,73 @@
-{
-    "runType": [
-        "singleEnd",
-        "pairedEnd"
-
-    ],
-    "readLength": [
-
-    ],
-    "isStranded": [
-        true,
-        false
-
-    ],
-    "libraryPrep": [
-        "rRNAdepletion",
-        "polyAselection",
-        "lncRNAenrichment",
-        "miRNAenrichment"
+[
+  {
+    "name": "runType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "singleEnd", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "pairedEnd", 
+        "description": "", 
+        "source": ""
+      }
     ]
-}
+  }, 
+  {
+    "name": "isStranded", 
+    "description": "", 
+    "columnType": "BOOLEAN", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": true, 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": false, 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "readLength", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "libraryPrep", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "rRNAdepletion", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "polyAselection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "lncRNAenrichment", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "miRNAenrichment", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }
+]
