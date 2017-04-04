@@ -1,6 +1,5 @@
 {
     "softwareName": [],
-    "softwareURL": [],
     "softwareVersion": [],
     "softwareTag": [],
     "softwareType": [
@@ -37,7 +36,7 @@
         "Docker-WDL"
     ],
     "containerToolTag": [],
-    "repositoryName": [
+    "softwareRepository": [
         "Synapse",
         "GitHub",
         "GitLab",
@@ -55,5 +54,5 @@
         "packageManager",
         "containerRegistry",
         "containerToolRegistry"
-    ],
+    ]
 }
