@@ -1,132 +1,607 @@
-{
-    "study": [
-        "CMC",
-        "EpiMap",
-        "CNON",
-        "MouseHAL",
-        "WGBS Pilot",
-        "lncRNA Pilot",
-        "BrainGVEX",
-        "UCLA-ASD",
-        "iPSC",
-        "HumanFC",
-        "EpiGABA",
-        "NHP",
-        "Yale-ASD",
-        "BipSeq",
-        "ACT",
-        "BLSA",
-        "HBTRC",
-        "MSBB",
-        "ROSMAP",
-        "MayoLOADGwas",
-        "MayoEGWAS",
-        "MayoPilot",
-        "IL10",
-        "Emory",
-        "TAUAPPms",
-        "sampleSwap",
-        "MayoRNAseq",
-        "BroadMDMi",
-        "BroadiPSC",
-        "MSDM",
-        "OFMM",
-        "Lilly_microgliaRNAseq",
-        "UPenn",
-        "SY5Y_REST",
-        "MSSMiPSC",
-        "TyrobpKO",
-        "MSSMiPSCMicroglia",
-        "BroadAstrom109",
-        "Banner",
-        "EmoryDrosophilaTau"
-    ],
-    "grant": [
-    	"U01MH103339",
-    	"U01MH103392",
-    	"U01MH103346",
-    	"U01MH103340",
-    	"U01MH103365",
-    	"R01MH094714",
-    	"R21MH105881",
-    	"R01MH105472",
-    	"R21MH102791",
-    	"R21MH103877",
-    	"R01MH105898",
-    	"P50MH106934",
-    	"U01AG046152",
-    	"U01AG046170",
-    	"U01AG046139",
-    	"U01AG046161",
-    	"5R01AG046174",
-    	"R01AG046171"
-    ],
-    "group": [
-        "MSSM",
-        "Yale",
-        "LIBD",
-        "UCLA",
-        "UIC-UChicago",
-        "Duke",
-        "UNC",
-        "UCSF",
-        "USC",
-        "GIS",
-        "JHU",
-        "Emory",
-        "Broad-Rush",
-        "UFL-Mayo-ISB",
-        "Myers-NIAGADS",
-        "Harvard-MIT"
-    ],
-    "treatmentType": [
-        "haloperidol",
-        "placebo"
-    ],
-    "assayTarget": [
-        "H3K9me3",
-        "H3K4me3",
-        "H3K4me1",
-        "H3K27ac",
-        "H3K36me3",
-        "H3K27me3",
-        "H3K9ac",
-        "REST",
-        "CTCF",
-        "input"
-    ],
-    "modelSystemName": [
-        "TREM2",
-        "TYROBP",
-        "AB42",
-        "CRND8",
-        "APPPS1",
-        "MAPT-P301K",
-        "rTg4510",
-        "APPE693Q",
-        "APPKM650",
-        "APPKM670",
-        "APPKM670-671NL-PSEN1deltaexon9",
-        "TYROBP_WT",
-        "TYROBP_WT.KO",
-        "TYROBP_KO.KO"
-
-    ],
-    "PMI": [
-
-    ],
-    "pH": [
-
-    ],
-    "hemisphere": [
-        "left",
-        "right"
-    ],
-    "BrodmannArea": [
-
-    ],
-    "fileSubFormat": [
-        "TranscriptomeSAM",
-        "SortedByCoordinate"
+[
+  {
+    "name": "BrodmannArea", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "group", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "MSSM", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Yale", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LIBD", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UCLA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UIC-UChicago", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Duke", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UNC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UCSF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "USC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GIS", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "JHU", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Emory", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Broad-Rush", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UFL-Mayo-ISB", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Myers-NIAGADS", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Harvard-MIT", 
+        "description": "", 
+        "source": ""
+      }
     ]
-}
+  }, 
+  {
+    "name": "grant", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "U01MH103339", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01MH103392", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01MH103346", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01MH103340", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01MH103365", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R01MH094714", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R21MH105881", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R01MH105472", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R21MH102791", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R21MH103877", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R01MH105898", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "P50MH106934", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01AG046152", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01AG046170", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01AG046139", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "U01AG046161", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "5R01AG046174", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "R01AG046171", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "assayTarget", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "H3K9me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K36me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K9ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CTCF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "input", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "study", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "CMC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "EpiMap", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CNON", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MouseHAL", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "WGBS Pilot", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "lncRNA Pilot", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BrainGVEX", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UCLA-ASD", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "iPSC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HumanFC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "EpiGABA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "NHP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Yale-ASD", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BipSeq", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "ACT", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BLSA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HBTRC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MSBB", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "ROSMAP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MayoLOADGwas", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MayoEGWAS", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MayoPilot", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "IL10", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Emory", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TAUAPPms", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "sampleSwap", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MayoRNAseq", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BroadMDMi", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BroadiPSC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MSDM", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "OFMM", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Lilly_microgliaRNAseq", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "UPenn", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SY5Y_REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MSSMiPSC", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TyrobpKO", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MSSMiPSCMicroglia", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BroadAstrom109", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Banner", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "EmoryDrosophilaTau", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "PMI", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "fileSubFormat", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "TranscriptomeSAM", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SortedByCoordinate", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "hemisphere", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "left", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "right", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "treatmentType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "haloperidol", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "placebo", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "pH", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "modelSystemName", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "TREM2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TYROBP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "AB42", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CRND8", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "APPPS1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MAPT-P301K", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "rTg4510", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "APPE693Q", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "APPKM650", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "APPKM670", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "APPKM670-671NL-PSEN1deltaexon9", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TYROBP_WT", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TYROBP_WT.KO", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TYROBP_KO.KO", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }
+]
