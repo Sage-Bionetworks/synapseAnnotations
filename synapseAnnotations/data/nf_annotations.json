@@ -1,19 +1,19 @@
 [
   {
     "name": "study", 
-    "description": "", 
+    "description": "NF-related study", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "Cell Culture", 
-        "description": "", 
-        "source": ""
+        "description": "NTAP-funded cell culture initiative related information", 
+        "source": "http://www.n-tap.org/initiatives/cell-culture-models/"
       }, 
       {
         "value": "Unsolicited", 
-        "description": "", 
-        "source": ""
+        "description": "NTAP-funded unsolicited efforts", 
+        "source": "http://www.n-tap.org/initiatives/open-proposal-program/"
       }, 
       {
         "value": "PRO", 
@@ -54,46 +54,46 @@
   }, 
   {
     "name": "nf2Genotype", 
-    "description": "", 
+    "description": "Genotype of NF2 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "", 
+        "description": "Homozygous deletion or mutation", 
         "source": ""
       }, 
       {
         "value": "+/-", 
-        "description": "", 
+        "description": "Heterozygous deletion or mutation", 
         "source": ""
       }, 
       {
         "value": "+/+", 
-        "description": "", 
+        "description": "Homozygous wild type", 
         "source": ""
       }
     ]
   }, 
   {
     "name": "nf1Genotype", 
-    "description": "", 
+    "description": "Genotype of NF1 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "", 
+        "description": "Homozygous deletion or mutation", 
         "source": ""
       }, 
       {
         "value": "+/-", 
-        "description": "", 
+        "description": "Heterozygous deletion or mutation", 
         "source": ""
       }, 
       {
         "value": "+/+", 
-        "description": "", 
+        "description": "Homozygous wildtype", 
         "source": ""
       }
     ]
