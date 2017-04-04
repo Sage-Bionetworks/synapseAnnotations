@@ -1,24 +1,101 @@
-{
-  "nf1Genotype": [
-    "-/-",
-    "+/-",
-    "+/+"
-  ],
-  "nf2Genotype": [
-    "-/-",
-    "+/-",
-    "+/+"
-  ],
-  "study": [
-    "Cell Culture",
-    "Unsolicited",
-    "PRO",
-    "Francis Collins",
-    "Synodos NF1",
-    "Synodos NF2",
-    "Synodos LGG",
-    "Cutaneous NF",
-    "DHART SPORE"
-  ]
-  
-}
+[
+  {
+    "name": "study", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Cell Culture", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Unsolicited", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "PRO", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Francis Collins", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos NF1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos NF2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos LGG", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Cutaneous NF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "DHART SPORE", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "nf2Genotype", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "-/-", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "+/-", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "+/+", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "nf1Genotype", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "-/-", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "+/-", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "+/+", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }
+]
