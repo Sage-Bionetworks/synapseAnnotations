@@ -323,7 +323,7 @@
   }, 
   {
     "name": "individualIdSource", 
-    "description": "", 
+    "description": "Database or repository to which individual ID maps", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
@@ -929,7 +929,7 @@
   }, 
   {
     "name": "isCellLine", 
-    "description": "", 
+    "description": "Boolean flag indicating whether or not sample source is a cell line", 
     "columnType": "BOOLEAN", 
     "maximumSize": 250, 
     "enumValues": [
