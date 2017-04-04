@@ -60,8 +60,7 @@
       {
         "value": "bisulfiteSeq", 
         "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process", 
-        "source": "http://purl.obolibrary.org/obo/OBI_0000748
-"
+        "source": "http://purl.obolibrary.org/obo/OBI_0000748"
       }, 
       {
         "value": "ATACSeq", 
