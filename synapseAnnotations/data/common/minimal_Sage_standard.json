@@ -1,1295 +1,154 @@
-[
-  {
-    "name": "specimenID", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "assay", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "rnaSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "mirnaSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "lncrnaSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "exomeSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "CHiPSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "rnaArray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "snpArray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "methylationArray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "mirnaArray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bisulfiteSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ATACSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NOMeSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "HI-C", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "errBisulfiteSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ISOSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MRI", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "westernBlot", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "wholeGenomeSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "polymeraseChainReaction", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "drugViabilityAssay", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "drugCombinationAssay", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "atomicForceMicroscopy", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "brightfieldMicroscopy", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "tractionForceMicroscopy", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "targetedGeneSeq", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "dataSubtype", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "dataMatrix", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "raw", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "processed", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "metadata", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "organ", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "skin", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "nerves", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "brain", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "blood", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "breast", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "colon", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "lung", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "prostate", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "pancreas", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ovary", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "spleen", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "fundingAgency", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "CTF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NIH-NCI", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NTAP", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NIH-NIA", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NIH-NIMH", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "AACR", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "dataType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "genomicVariants", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "image", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "geneExpression", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "isoformExpression", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "proteomics", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "kinomics", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "drugScreen", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cellularPhysiology", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "chromatinActivity", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "individualIdSource", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "tissue", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "cerebral cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "frontal lobe", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "hippocampus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "nerve tissue", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "dorsolateral prefrontal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "anterior cingulate cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "frontal pole", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "parahippocampal gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "superior temporal gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "inferior frontal gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cerebellum", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "occipital visual cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "inferior temporal gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "middle temporal gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "posterior cingulate cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "temporal pole", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "precentral gyrus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "superior parietal lobe", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "prefrontal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "amygdala", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "caudate nucleus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "nucleus accumbens", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "putamen", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "temporal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "orbitofrontal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "ventrolateral prefrontal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "medial frontal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "primary motor cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "primary somatosensory cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "posteroinferior parietal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "primary auditory cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "posterior superior temporal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "inferolateral temporal cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "primary visual cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "amygdaloid complex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "striatum", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "mediodorsal nucleus of thalamus", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cerebellar cortex", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "serum", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "spleenocyte", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "blood", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "primary tumor", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Not Applicable", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "consortium", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "CommonMind Consortium", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "PsychENCODE Consortium", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "AMP-AD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MODEL-AD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "M2OVE-AD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Synodos", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "BSMN", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "CSBC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "PSON", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GENIE", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Not Applicable", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "individualID", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "fileFormat", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "idx", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bam", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bai", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "excel", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "powerpoint", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "tif", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "png", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "doc", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "pdf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "hdf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "fasta", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "fastq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "sam", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "vcf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bcf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "maf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bed", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "chp", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cel", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "sif", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "tsv", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "csv", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "txt", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "plink", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "idat", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bigwig", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "wiggle", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "gct", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bgzip", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "seg", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "html", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "md", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "flagstat", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "platform", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "HiSeq2500", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "HiSeq2000", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "MiSeq", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "PsychChip", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Affy5.0", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Affy6.0", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "PacBioRSII", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GAIIx", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Illumina_HumanOmni1-Quadv1.0", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Illumina_1M", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Illumina_h650", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Illumina_Omni2pt5M", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Illumina_Omni5M", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Perlegen300Karray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Agilent44Karray", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IlluminaWholeGenomeDASL", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IlluminaHumanHap300", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NanostringnCounter", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "LTQOrbitrapXL", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IlluminaHumanMethylation450", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "AffymetrixU133AB", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "AffymetrixU133Plus2", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "confocalImaging", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IlluminaHumanHT-12_V3_0_R1", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "SequenomMultiplex", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "isCellLine", 
-    "description": "", 
-    "columnType": "BOOLEAN", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": true, 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": false, 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "cellType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "B-lymphocytes", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "induced pluripotent stem cells", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GABAergic neurons", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "monocytes", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "microglia", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "macrophages", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "astrocytes", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cultured cell", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "SH-SY5Y", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GLUtamatergic neurons", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NeuN+", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "NeuN-", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "epithelial", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "epithelial-like", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "fibroblast", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "round", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "lymphoblast", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "polygonal", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "CD8+ T-Cells", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "diagnosis", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "Neurofibromatosis 1", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Neurofibromatosis 2", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Bipolar Disorder", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Alzheimer Disease", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Schizophrenia", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Autism Spectrum Disorder", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Fibrocystic Breast Disease", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Breast Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Colon Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Lung Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Prostate Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Pancreas Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Skin Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Brain Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Ovary Cancer", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Control", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Affective Disorder", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Not Applicable", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "tumorType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "Neurofibroma Cutaneous", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Neurofibroma Subcutaneous", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Neurofibroma Plexiform", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Neurofibroma Atypical", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Malignant Peripheral Nerve Sheath Tumor", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Adenocarcinoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Carcinoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Ductal Carcinoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Melanoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Optic Nerve Glioma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Low Grade Glioma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Diffuse Astrocytoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Anaplastic Astrocytoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Glioblastoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Schwannoma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Meningioma", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Not Applicable", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "specimenIdSource", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  }, 
-  {
-    "name": "sex", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "male", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "female", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "species", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "Human", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Mouse", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Rat", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Drosophila melanogaster", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }
-]
+{
+   "assay": [
+      "rnaSeq",
+      "mirnaSeq",
+      "lncrnaSeq",
+      "exomeSeq",
+      "CHiPSeq",
+      "rnaArray",
+      "snpArray",
+      "methylationArray",
+      "mirnaArray",
+      "bisulfiteSeq",
+      "ATACSeq",
+      "NOMeSeq",
+      "HI-C",
+      "errBisulfiteSeq",
+      "ISOSeq",
+      "wholeGenomeSeq",
+      "polymeraseChainReaction",
+      "MRI",
+      "westernBlot",
+      "drugViabilityAssay",
+      "drugCombinationAssay",
+      "genotyping"
+   ],
+   "dataType": [
+      "genomicVariants",
+      "image",
+      "geneExpression",
+      "proteomics",
+      "kinomics",
+      "drugScreen",
+      "report",
+      "Not Applicable"
+   ],
+   "dataSubtype": [
+      "dataMatrix",
+      "raw",
+      "processed",
+      "metadata",
+      "Not Applicable"
+   ],
+   "fileFormat": [
+      "idx",
+      "bam",
+      "bai",
+      "excel",
+      "powerpoint",
+      "tif",
+      "png",
+      "doc",
+      "pdf",
+      "hdf",
+      "fasta",
+      "fastq",
+      "sam",
+      "vcf",
+      "bcf",
+      "maf",
+      "bed",
+      "chp",
+      "cel",
+      "sif",
+      "tsv",
+      "csv",
+      "txt",
+      "plink",
+      "idat",
+      "bigwig",
+      "wiggle",
+      "gct",
+      "bgzip"
+   ],
+   "species": [
+      "Human",
+      "Mouse",
+      "Drosophila melanogaster"
+   ],
+   "disease": [
+      "Neurofibromatosis 1",
+      "Neurofibromatosis 2",
+      "Bipolar Disorder",
+      "Alzheimer Disease",
+      "Schizophrenia",
+      "Autism Spectrum Disorder",
+      "Control",
+      "Not Applicable"
+   ],
+   "tumorType": [
+      "Neurofibroma Cutaneous",
+      "Neurofibroma Subcutaneous",
+      "Neurofibroma Plexiform",
+      "Neurofibroma Atypical",
+      "Malignant Peripheral Nerve Sheath Tumor",
+      "Optic Nerve Glioma",
+      "Low Grade Glioma",
+      "Diffuse Astrocytoma",
+      "Anaplastic Astrocytoma",
+      "Glioblastoma",
+      "Schwannoma",
+      "Meningioma",
+      "Not Applicable"
+   ],
+   "cellType": [
+      "B-lymphocytes",
+      "induced pluripotent stem cells",
+      "GABAergic neurons",
+      "monocytes",
+      "microglia",
+      "macrophages",
+      "astrocytes",
+      "schwann cells",
+      "cultured cell"
+   ],
+   "isCellLine": [
+      true,
+      false
+   ],
+   "organ": [
+      "skin",
+      "nerves",
+      "brain",
+      "blood"
+   ],
+   "tissue": [
+      "cerebral cortex",
+      "frontal lobe",
+      "hippocampus",
+      "nerve tissue",
+      "dorsolateral prefrontal cortex",
+      "anterior cingulate cortex",
+      "temporal cortex",
+      "Not Applicable"
+   ],
+   "consortium": [
+      "CommonMind",
+      "PsychENCODE",
+      "AcceleratingMedicinesPartnership-AD",
+      "Synodos",
+      "CSBC",
+      "PSON",
+      "Not Applicable"
+   ],
+   "grant": [
+      "U01MH103339",
+      "U01MH103392"
+   ],
+   "fundingAgency": [
+      "Children's Tumor Foundation",
+      "National Cancer Institute",
+      "NTAP",
+      "National Institute of Aging"
+   ]
+}
