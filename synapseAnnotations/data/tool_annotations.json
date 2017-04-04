@@ -1,5 +1,6 @@
 {
     "softwareName": [],
+    "softwareAuthor": [],
     "softwareVersion": [],
     "softwareTag": [],
     "softwareType": [
@@ -10,20 +11,33 @@
         "workflow",
         "containerTool"
     ],
-    "softwareLanguage": [
+    "scriptPlatform": [
         "R",
         "Python",
         "Matlab",
-        "Java",
         "Shell"
     ],
-    "softwareLanguageVersion": [],
-    "containerType": [
+    "scriptPlatformVersion": [],
+    "packageLibraryPlatform": [
+        "R",
+        "Python",
+        "Java",
+        "Perl"
+    ],
+    "packageLibraryPlatformVersion": [],
+    "packageBinaryPlatform": [
+        "Windows",
+        "OSX",
+        "Linux"
+    ],
+    "packageBinaryPlatformVersion": [],
+    "containerPlatform": [
         "Docker",
         "Singularity"
     ],
+    "containerPlatformVersion": [],
     "containerTag": [],
-    "workflowType": [
+    "workflowPlatform": [
         "Nextflow",
         "Galaxy",
         "Snakemake",
@@ -31,7 +45,8 @@
         "CWL",
         "WDL"
     ],
-    "containerToolType": [
+    "workflowPlatformVersion": [],
+    "containerToolPlatform": [
         "Docker-CWL",
         "Docker-WDL"
     ],
@@ -48,7 +63,7 @@
         "Quay",
         "Dockstore"
     ],
-    "repositoryType": [
+    "softwareRepositoryType": [
         "fileStore",
         "sourceCode",
         "packageManager",
