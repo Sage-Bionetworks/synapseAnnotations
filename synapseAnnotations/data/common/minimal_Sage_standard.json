@@ -553,59 +553,59 @@
   }, 
   {
     "name": "consortium", 
-    "description": "", 
+    "description": "The name of the consortium", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "CommonMind Consortium", 
         "description": "", 
-        "source": ""
+        "source": "https://www.synapse.org//#!Synapse:syn2759792/wiki/69613"
       }, 
       {
         "value": "PsychENCODE Consortium", 
         "description": "", 
-        "source": ""
+        "source": "https://www.synapse.org//#!Synapse:syn4921369/wiki/235539"
       }, 
       {
         "value": "AMP-AD", 
-        "description": "", 
-        "source": ""
+        "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
+        "source": "https://www.nia.nih.gov/alzheimers/amp-ad"
       }, 
       {
         "value": "MODEL-AD", 
-        "description": "", 
-        "source": ""
+        "description": "Model Development and Evaluation for Late Onset AD", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=32257886&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
       }, 
       {
         "value": "M2OVE-AD", 
-        "description": "", 
-        "source": ""
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
+        "source": "https://www.nih.gov/news-events/news-releases/decoding-molecular-ties-between-vascular-disease-alzheimers"
       }, 
       {
         "value": "Synodos", 
         "description": "", 
-        "source": ""
+        "source": "http://www.ctf.org/research/synodos"
       }, 
       {
         "value": "BSMN", 
-        "description": "", 
-        "source": ""
+        "description": "Brain Somatic Mosaicism Network", 
+        "source": "https://www.synapse.org/#!Synapse:syn7344947/wiki/407304"
       }, 
       {
         "value": "CSBC", 
-        "description": "", 
-        "source": ""
+        "description": "Cancer Systems Biology Consortium", 
+        "source": "https://csbconsortium.org/"
       }, 
       {
         "value": "PSON", 
-        "description": "", 
-        "source": ""
+        "description": "Physical Science in Oncology", 
+        "source": "https://physics.cancer.gov/"
       }, 
       {
         "value": "GENIE", 
-        "description": "", 
-        "source": ""
+        "description": "Genomics Evidence Neoplasia Information Exchange", 
+        "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
       }, 
       {
         "value": "Not Applicable", 
