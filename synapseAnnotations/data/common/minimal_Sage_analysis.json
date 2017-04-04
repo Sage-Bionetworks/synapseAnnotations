@@ -1,123 +1,573 @@
-{
-  "analysisType": [
-    "statisticalNetworkReconstruction",
-    "differentialExpression",
-    "expressionQuantitativeTraitLociDetection",
-    "outlierDetection",
-    "covariateAssociation",
-    "hiddenConfounderDetection",
-    "differentialNetwork",
-    "methylationQuantitativeTraitLociDetection",
-    "networkDriverDetection",
-    "principalComponents",
-    "genomeWideAssociation",
-    "clustering",
-    "supervisedLearning",
-    "batchEffectCorrection",
-    "anova",
-    "variancePartition",
-    "moduleIdentification",
-    "visualization",
-    "transcriptQuantification",
-    "somaticMutationCalling",
-    "peakCalling"
-  ],
-  "somaticMutationCallingMethod": [
-    "varDict",
-    "varDict2",
-    "mutect",
-    "varScan"
-  ],
-  "transcriptQuantificationMethod": [
-    "kallisto",
-    "RSEM",
-    "featureCounts",
-    "DESeq2"
-  ],
-  "differentialExpressionMethod": [
-    "limma",
-    "sleuth",
-    "cuffDiff"
-  ],
-  "statisticalNetworkReconstructionMethod": [
-    "WGCNA",
-    "sparrow",
-    "lasso",
-    "ridge",
-    "genie3",
-    "tigress",
-    "aracne",
-    "mrnet",
-    "c3net",
-    "MEGENA"
-  ],
-  "clusteringMethod": [
-    "hierarchicalClustering",
-    "kMeans",
-    "WGCNA",
-    "principalComponentAnalysis"
-  ],
-  "batchEffectCorrectionMethod": [
-    "COMBAT",
-    "SVA",
-    "PCA"
-  ],
-  "supervisedLearningMethod": [
-    "penalizedLogisticRegression",
-    "penalizedLinearRegression",
-    "randomForest",
-    "supportVectorMachine",
-    "deepLearning",
-    "boosting",
-    "bagging",
-    "naiveBayes",
-    "GaussianProcessRegression"
-  ],
-  "multipleTestingAdjustmentMethod": [
-    "BenjaminiHochberg",
-    "Bonferroni",
-    "BenjaminiYekutieli"
-  ],
-  "regressionMethod": [
-    "fixedEffect",
-    "randomEffect",
-    "mixedEffect"
-  ],
-  "visualisationMethod": [
-    "scatterPlot",
-    "heatMap",
-    "barChart"
-  ],
-  "validationMethod": [
-    "sequenceValidation",
-    "targetValidation",
-    "CRISPR-CAS9",
-    "RNAi",
-    "shRNA"
-  ],
-  "dnaAlignmentMethod": [
-    "BWA",
-    "bowtie",
-    "bowtie2"
-  ],
-  "rnaAlignmentMethod": [
-    "SNAPR",
-    "STAR",
-    "GSNAP",
-    "topHat",
-    "mosaic",
-    "novoAlign",
-    "olego"
-  ],
-  "peakCallingMethod": [
-    "MACS",
-    "MACS2",
-    "GEM"
-  ],
-  "assemblyMethod": [
-    "velvet"
-  ],
-  "enrichmentMethod": [
-    "fishersExactTest"
-  ]
-}
+[
+  {
+    "name": "assemblyMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "velvet", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "regressionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "fixedEffect", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "randomEffect", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mixedEffect", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "batchEffectCorrectionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "COMBAT", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SVA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "PCA", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "clusteringMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "hierarchicalClustering", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "kMeans", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "WGCNA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "principalComponentAnalysis", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "somaticMutationCallingMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "varDict", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "varDict2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mutect", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "varScan", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "multipleTestingAdjustmentMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "BenjaminiHochberg", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Bonferroni", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "BenjaminiYekutieli", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "peakCallingMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "MACS", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MACS2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GEM", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "transcriptQuantificationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "kallisto", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "RSEM", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "featureCounts", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "DESeq2", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "statisticalNetworkReconstructionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "WGCNA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "sparrow", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "lasso", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "ridge", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "genie3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "tigress", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "aracne", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mrnet", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "c3net", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MEGENA", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "differentialExpressionMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "limma", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "sleuth", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "cuffDiff", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "dnaAlignmentMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "BWA", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bowtie", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bowtie2", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "validationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "sequenceValidation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "targetValidation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CRISPR-CAS9", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "RNAi", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "shRNA", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "enrichmentMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "fishersExactTest", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "analysisType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "statisticalNetworkReconstruction", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "differentialExpression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "expressionQuantitativeTraitLociDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "outlierDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "covariateAssociation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hiddenConfounderDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "differentialNetwork", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "methylationQuantitativeTraitLociDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "networkDriverDetection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "principalComponents", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "genomeWideAssociation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "clustering", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "supervisedLearning", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "batchEffectCorrection", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "anova", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "variancePartition", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "moduleIdentification", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "visualization", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "transcriptQuantification", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "somaticMutationCalling", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "peakCalling", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "visualisationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "scatterPlot", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "heatMap", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "barChart", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "rnaAlignmentMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "SNAPR", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "STAR", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GSNAP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "topHat", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mosaic", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "novoAlign", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "olego", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "supervisedLearningMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "penalizedLogisticRegression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "penalizedLinearRegression", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "randomForest", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "supportVectorMachine", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "deepLearning", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "boosting", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "bagging", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "naiveBayes", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GaussianProcessRegression", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }
+]
