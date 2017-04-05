@@ -8,134 +8,134 @@
   }, 
   {
     "name": "assay", 
-    "description": "", 
+    "description": "The technology used to generate the data in this file", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "rnaSeq", 
-        "description": "", 
-        "source": ""
+        "description": "RNA Sequencing measurements", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001271"
       }, 
       {
         "value": "mirnaSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Small RNA measurements collected from RNA-Seq experiments", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0002112"
       }, 
       {
         "value": "lncrnaSeq", 
-        "description": "", 
+        "description": "Long non-coding RNA measurements collected from RNA-Seq experiments", 
         "source": ""
       }, 
       {
         "value": "exomeSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Data derived from exome sequencing", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0002118"
       }, 
       {
         "value": "CHiPSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Chromatin immuno-precipitation followed by sequencing", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0000716"
       }, 
       {
         "value": "rnaArray", 
-        "description": "", 
-        "source": ""
+        "description": "RNA measurements captured by array technology", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001463"
       }, 
       {
         "value": "snpArray", 
-        "description": "", 
-        "source": ""
+        "description": "SNP measurements captured by array technology", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001204"
       }, 
       {
         "value": "methylationArray", 
-        "description": "", 
-        "source": ""
+        "description": "Methylation data captured by array technology", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001332"
       }, 
       {
         "value": "mirnaArray", 
-        "description": "", 
-        "source": ""
+        "description": "microRNA measurements captured by array technology", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001335"
       }, 
       {
         "value": "bisulfiteSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0000748"
       }, 
       {
         "value": "ATACSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0002039"
       }, 
       {
         "value": "NOMeSeq", 
-        "description": "", 
+        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing", 
         "source": ""
       }, 
       {
         "value": "HI-C", 
-        "description": "", 
-        "source": ""
+        "description": "Chromatin interactions detected by HI-C protocol", 
+        "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
       }, 
       {
         "value": "errBisulfiteSeq", 
-        "description": "", 
+        "description": "Data for enriched reduced representation bisulfite sequencing data", 
         "source": ""
       }, 
       {
         "value": "ISOSeq", 
-        "description": "", 
+        "description": "Full isoform sequencing", 
         "source": ""
       }, 
       {
         "value": "MRI", 
-        "description": "", 
-        "source": ""
+        "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.", 
+        "source": "http://edamontology.org/topic_3444"
       }, 
       {
         "value": "westernBlot", 
-        "description": "", 
-        "source": ""
+        "description": "A multistep process in which a mixture of proteins is separated by gel electrophoresis", 
+        "source": "http://purl.obolibrary.org/obo/MMO_0000338"
       }, 
       {
         "value": "wholeGenomeSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time", 
+        "source": "http://edamontology.org/topic_3673"
       }, 
       {
         "value": "polymeraseChainReaction", 
-        "description": "", 
-        "source": ""
+        "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning", 
+        "source": "http://purl.obolibrary.org/obo/MMO_0000459"
       }, 
       {
         "value": "drugViabilityAssay", 
-        "description": "", 
-        "source": ""
+        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
+        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
       }, 
       {
         "value": "drugCombinationAssay", 
-        "description": "", 
-        "source": ""
+        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
+        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
       }, 
       {
         "value": "atomicForceMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen", 
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000113"
       }, 
       {
         "value": "brightfieldMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective", 
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000104"
       }, 
       {
         "value": "tractionForceMicroscopy", 
-        "description": "", 
-        "source": ""
+        "description": "An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM)", 
+        "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       }, 
       {
         "value": "targetedGeneSeq", 
-        "description": "", 
-        "source": ""
+        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods", 
+        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
       }
     ]
   }, 
