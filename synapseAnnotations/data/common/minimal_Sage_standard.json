@@ -1,11 +1,11 @@
 [
   {
-    "name": "specimenID", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "specimenID",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": []
-  }, 
+  },
   {
     "name": "assay", 
     "description": "The technology used to generate the data in this file", 
@@ -26,7 +26,7 @@
         "value": "lncrnaSeq", 
         "description": "Long non-coding RNA measurements collected from RNA-Seq experiments", 
         "source": ""
-      }, 
+      },
       {
         "value": "exomeSeq", 
         "description": "Data derived from exome sequencing", 
@@ -71,7 +71,7 @@
         "value": "NOMeSeq", 
         "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing", 
         "source": ""
-      }, 
+      },
       {
         "value": "HI-C", 
         "description": "Chromatin interactions detected by HI-C protocol", 
@@ -81,12 +81,12 @@
         "value": "errBisulfiteSeq", 
         "description": "Data for enriched reduced representation bisulfite sequencing data", 
         "source": ""
-      }, 
+      },
       {
         "value": "ISOSeq", 
         "description": "Full isoform sequencing", 
         "source": ""
-      }, 
+      },
       {
         "value": "MRI", 
         "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.", 
@@ -138,795 +138,795 @@
         "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
       }
     ]
-  }, 
+  },
   {
-    "name": "dataSubtype", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "dataSubtype",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "dataMatrix", 
-        "description": "", 
+        "value": "dataMatrix",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "raw", 
-        "description": "", 
+        "value": "raw",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "processed", 
-        "description": "", 
+        "value": "processed",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "metadata", 
-        "description": "", 
+        "value": "metadata",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "organ", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "organ",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "skin", 
-        "description": "", 
+        "value": "skin",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "nerves", 
-        "description": "", 
+        "value": "nerves",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "brain", 
-        "description": "", 
+        "value": "brain",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "blood", 
-        "description": "", 
+        "value": "blood",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "breast", 
-        "description": "", 
+        "value": "breast",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "colon", 
-        "description": "", 
+        "value": "colon",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "lung", 
-        "description": "", 
+        "value": "lung",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "prostate", 
-        "description": "", 
+        "value": "prostate",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "pancreas", 
-        "description": "", 
+        "value": "pancreas",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "ovary", 
-        "description": "", 
+        "value": "ovary",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "spleen", 
-        "description": "", 
+        "value": "spleen",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "fundingAgency", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "fundingAgency",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "CTF", 
-        "description": "", 
+        "value": "CTF",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NIH-NCI", 
-        "description": "", 
+        "value": "NIH-NCI",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NTAP", 
-        "description": "", 
+        "value": "NTAP",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NIH-NIA", 
-        "description": "", 
+        "value": "NIH-NIA",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NIH-NIMH", 
-        "description": "", 
+        "value": "NIH-NIMH",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "AACR", 
-        "description": "", 
+        "value": "AACR",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "dataType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "dataType",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "genomicVariants", 
-        "description": "", 
+        "value": "genomicVariants",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "image", 
-        "description": "", 
+        "value": "image",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "geneExpression", 
-        "description": "", 
+        "value": "geneExpression",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "isoformExpression", 
-        "description": "", 
+        "value": "isoformExpression",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "proteomics", 
-        "description": "", 
+        "value": "proteomics",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "kinomics", 
-        "description": "", 
+        "value": "kinomics",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "drugScreen", 
-        "description": "", 
+        "value": "drugScreen",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "cellularPhysiology", 
-        "description": "", 
+        "value": "cellularPhysiology",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "chromatinActivity", 
-        "description": "", 
+        "value": "chromatinActivity",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
     "name": "individualIdSource", 
     "description": "Database or repository to which individual ID maps", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
-  }, 
+  },
   {
-    "name": "tissue", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "tissue",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "cerebral cortex", 
-        "description": "", 
+        "value": "cerebral cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "frontal lobe", 
-        "description": "", 
+        "value": "frontal lobe",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "hippocampus", 
-        "description": "", 
+        "value": "hippocampus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "nerve tissue", 
-        "description": "", 
+        "value": "nerve tissue",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "dorsolateral prefrontal cortex", 
-        "description": "", 
+        "value": "dorsolateral prefrontal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "anterior cingulate cortex", 
-        "description": "", 
+        "value": "anterior cingulate cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "frontal pole", 
-        "description": "", 
+        "value": "frontal pole",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "parahippocampal gyrus", 
-        "description": "", 
+        "value": "parahippocampal gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "superior temporal gyrus", 
-        "description": "", 
+        "value": "superior temporal gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "inferior frontal gyrus", 
-        "description": "", 
+        "value": "inferior frontal gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "cerebellum", 
-        "description": "", 
+        "value": "cerebellum",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "occipital visual cortex", 
-        "description": "", 
+        "value": "occipital visual cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "inferior temporal gyrus", 
-        "description": "", 
+        "value": "inferior temporal gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "middle temporal gyrus", 
-        "description": "", 
+        "value": "middle temporal gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "posterior cingulate cortex", 
-        "description": "", 
+        "value": "posterior cingulate cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "temporal pole", 
-        "description": "", 
+        "value": "temporal pole",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "precentral gyrus", 
-        "description": "", 
+        "value": "precentral gyrus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "superior parietal lobe", 
-        "description": "", 
+        "value": "superior parietal lobe",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "prefrontal cortex", 
-        "description": "", 
+        "value": "prefrontal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "amygdala", 
-        "description": "", 
+        "value": "amygdala",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "caudate nucleus", 
-        "description": "", 
+        "value": "caudate nucleus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "nucleus accumbens", 
-        "description": "", 
+        "value": "nucleus accumbens",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "putamen", 
-        "description": "", 
+        "value": "putamen",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "temporal cortex", 
-        "description": "", 
+        "value": "temporal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "orbitofrontal cortex", 
-        "description": "", 
+        "value": "orbitofrontal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "ventrolateral prefrontal cortex", 
-        "description": "", 
+        "value": "ventrolateral prefrontal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "medial frontal cortex", 
-        "description": "", 
+        "value": "medial frontal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "primary motor cortex", 
-        "description": "", 
+        "value": "primary motor cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "primary somatosensory cortex", 
-        "description": "", 
+        "value": "primary somatosensory cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "posteroinferior parietal cortex", 
-        "description": "", 
+        "value": "posteroinferior parietal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "primary auditory cortex", 
-        "description": "", 
+        "value": "primary auditory cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "posterior superior temporal cortex", 
-        "description": "", 
+        "value": "posterior superior temporal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "inferolateral temporal cortex", 
-        "description": "", 
+        "value": "inferolateral temporal cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "primary visual cortex", 
-        "description": "", 
+        "value": "primary visual cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "amygdaloid complex", 
-        "description": "", 
+        "value": "amygdaloid complex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "striatum", 
-        "description": "", 
+        "value": "striatum",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "mediodorsal nucleus of thalamus", 
-        "description": "", 
+        "value": "mediodorsal nucleus of thalamus",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "cerebellar cortex", 
-        "description": "", 
+        "value": "cerebellar cortex",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "serum", 
-        "description": "", 
+        "value": "serum",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "spleenocyte", 
-        "description": "", 
+        "value": "spleenocyte",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "blood", 
-        "description": "", 
+        "value": "blood",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "primary tumor", 
-        "description": "", 
+        "value": "primary tumor",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Not Applicable", 
-        "description": "", 
+        "value": "Not Applicable",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "consortium", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "consortium",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "CommonMind Consortium", 
-        "description": "", 
+        "value": "CommonMind Consortium",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "PsychENCODE Consortium", 
-        "description": "", 
+        "value": "PsychENCODE Consortium",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "AMP-AD", 
-        "description": "", 
+        "value": "AMP-AD",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "MODEL-AD", 
-        "description": "", 
+        "value": "MODEL-AD",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "M2OVE-AD", 
-        "description": "", 
+        "value": "M2OVE-AD",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Synodos", 
-        "description": "", 
+        "value": "Synodos",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "BSMN", 
-        "description": "", 
+        "value": "BSMN",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "CSBC", 
-        "description": "", 
+        "value": "CSBC",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "PSON", 
-        "description": "", 
+        "value": "PSON",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "GENIE", 
-        "description": "", 
+        "value": "GENIE",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Not Applicable", 
-        "description": "", 
+        "value": "Not Applicable",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "individualID", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "individualID",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": []
-  }, 
+  },
   {
-    "name": "fileFormat", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "fileFormat",
+    "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "idx", 
-        "description": "", 
+        "value": "idx",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "bam", 
-        "description": "", 
+        "value": "bam",
+        "description": "BAM format, the binary, BGZF-formatted compressed version of SAM format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",
+        "source": "http://edamontology.org/format_2572"
+      },
+      {
+        "value": "bai",
+        "description": "BAM indexing format",
+        "source": "http://edamontology.org/format_3327"
+      },
+      {
+        "value": "excel",
+        "description": "Microsoft Excel spreadsheet format",
         "source": ""
-      }, 
+      },
       {
-        "value": "bai", 
-        "description": "", 
+        "value": "powerpoint",
+        "description": "Microsoft Powerpoint slide format",
         "source": ""
-      }, 
+      },
       {
-        "value": "excel", 
-        "description": "", 
+        "value": "tif",
+        "description": "Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images",
+        "source": "https://en.wikipedia.org/wiki/TIFF"
+      },
+      {
+        "value": "png",
+        "description": "PNG is a file format for image compression",
+        "source": "http://edamontology.org/format_3603"
+      },
+      {
+        "value": "doc",
+        "description": "Microsoft Word document format",
         "source": ""
-      }, 
+      },
       {
-        "value": "powerpoint", 
-        "description": "", 
+        "value": "pdf",
+        "description": "Portable Document Format",
+        "source": "http://edamontology.org/format_3508"
+      },
+      {
+        "value": "hdf",
+        "description": "Hierarchical Data Format (HDF) is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of data",
+        "source": "https://en.wikipedia.org/wiki/Hierarchical_Data_Format"
+      },
+      {
+        "value": "fasta",
+        "description": "FASTA format is a text-based format for representing either nucleotide sequences or peptide sequences, in which nucleotides or amino acids are represented using single-letter codes",
+        "source": "https://en.wikipedia.org/wiki/FASTA_format"
+      },
+      {
+        "value": "fastq",
+        "description": "FASTQ format is a text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores. Both the sequence letter and quality score are each encoded with a single ASCII character for brevity",
+        "source": "https://en.wikipedia.org/wiki/FASTQ_format"
+      },
+      {
+        "value": "sam",
+        "description": "Sequence Alignment/Map (SAM) format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",
+        "source": "http://edamontology.org/format_2573"
+      },
+      {
+        "value": "vcf",
+        "description": "Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",
+        "source": "http://edamontology.org/format_3016"
+      },
+      {
+        "value": "bcf",
+        "description": "BCF, the binary version of Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",
+        "source": "http://edamontology.org/format_3016"
+      },
+      {
+        "value": "maf",
+        "description": "Multiple Alignment Format (MAF) supporting alignments of whole genomes with rearrangements, directions, multiple pieces to the alignment, and so forth",
+        "source": "http://edamontology.org/format_3008"
+      },
+      {
+        "value": "bed",
+        "description": "Browser Extensible Data (BED) format of sequence annotation track, typically to be displayed in a genome browser",
+        "source": "http://edamontology.org/format_3003"
+      },
+      {
+        "value": "chp",
+        "description": "CHP file contains probe set analysis results generated from Affymetrix software",
         "source": ""
-      }, 
+      },
       {
-        "value": "tif", 
-        "description": "", 
+        "value": "cel",
+        "description": "Format of Affymetrix data file of information about (raw) expression levels of the individual probes",
+        "source": "http://edamontology.org/format_1638"
+      },
+      {
+        "value": "sif",
+        "description": "SIF (simple interaction file) Format - a network/pathway format used for instance in cytoscape",
+        "source": "http://edamontology.org/format_3619"
+      },
+      {
+        "value": "tsv",
+        "description": "Tabular data represented as tab-separated values in a text file",
+        "source": "http://edamontology.org/format_3475"
+      },
+      {
+        "value": "csv",
+        "description": "Tabular data represented as comma-separated values in a text file",
+        "source": "http://edamontology.org/format_3752"
+      },
+      {
+        "value": "txt",
+        "description": "Textual format",
+        "source": "http://edamontology.org/format_2330"
+      },
+      {
+        "value": "plink",
+        "description": "Any Plink file format (MAP/PED/BED)",
         "source": ""
-      }, 
+      },
       {
-        "value": "png", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "idat",
+        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc",
+        "source": "http://edamontology.org/format_3578"
+      },
       {
-        "value": "doc", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "bigwig",
+        "description": "bigWig format for large sequence annotation tracks that consist of a value for each sequence position",
+        "source": "http://edamontology.org/format_3006"
+      },
       {
-        "value": "pdf", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "wiggle",
+        "description": "Wiggle format (WIG) of a sequence annotation track that consists of a value for each sequence position",
+        "source": "http://edamontology.org/format_3005"
+      },
       {
-        "value": "hdf", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "gct",
+        "description": "Tab-delimited text files of GenePattern that contain a column for each sample, a row for each gene, and an expression value for each gene in each sample",
+        "source": "http://edamontology.org/format_3709"
+      },
       {
-        "value": "fasta", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "bgzip",
+        "description": "Blocked GNU Zip format",
+        "source": "http://edamontology.org/format_3615"
+      },
       {
-        "value": "fastq", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "seg",
+        "description": "SEG file (segmented data; .seg or .cbs) is a tab-delimited text file that lists loci and associated numeric values",
+        "source": "https://software.broadinstitute.org/software/igv/SEG"
+      },
       {
-        "value": "sam", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "html",
+        "description": "HTML format",
+        "source": "http://edamontology.org/format_2331"
+      },
       {
-        "value": "vcf", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "md",
+        "description": "Markdown (MD) is a lightweight markup language with plain text formatting syntax",
+        "source": "https://en.wikipedia.org/wiki/Markdown"
+      },
       {
-        "value": "bcf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "maf", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bed", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "chp", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "cel", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "sif", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "tsv", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "csv", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "txt", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "plink", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "idat", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bigwig", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "wiggle", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "gct", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "bgzip", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "seg", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "html", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "md", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "flagstat", 
-        "description": "", 
+        "value": "flagstat",
+        "description": "Output of samtools flagstat tool",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "platform", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "platform",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "HiSeq2500", 
-        "description": "", 
+        "value": "HiSeq2500",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "HiSeq2000", 
-        "description": "", 
+        "value": "HiSeq2000",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "MiSeq", 
-        "description": "", 
+        "value": "MiSeq",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "PsychChip", 
-        "description": "", 
+        "value": "PsychChip",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Affy5.0", 
-        "description": "", 
+        "value": "Affy5.0",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Affy6.0", 
-        "description": "", 
+        "value": "Affy6.0",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "PacBioRSII", 
-        "description": "", 
+        "value": "PacBioRSII",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "GAIIx", 
-        "description": "", 
+        "value": "GAIIx",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Illumina_HumanOmni1-Quadv1.0", 
-        "description": "", 
+        "value": "Illumina_HumanOmni1-Quadv1.0",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Illumina_1M", 
-        "description": "", 
+        "value": "Illumina_1M",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Illumina_h650", 
-        "description": "", 
+        "value": "Illumina_h650",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Illumina_Omni2pt5M", 
-        "description": "", 
+        "value": "Illumina_Omni2pt5M",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Illumina_Omni5M", 
-        "description": "", 
+        "value": "Illumina_Omni5M",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Perlegen300Karray", 
-        "description": "", 
+        "value": "Perlegen300Karray",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Agilent44Karray", 
-        "description": "", 
+        "value": "Agilent44Karray",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "IlluminaWholeGenomeDASL", 
-        "description": "", 
+        "value": "IlluminaWholeGenomeDASL",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "IlluminaHumanHap300", 
-        "description": "", 
+        "value": "IlluminaHumanHap300",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NanostringnCounter", 
-        "description": "", 
+        "value": "NanostringnCounter",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "LTQOrbitrapXL", 
-        "description": "", 
+        "value": "LTQOrbitrapXL",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "IlluminaHumanMethylation450", 
-        "description": "", 
+        "value": "IlluminaHumanMethylation450",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "AffymetrixU133AB", 
-        "description": "", 
+        "value": "AffymetrixU133AB",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "AffymetrixU133Plus2", 
-        "description": "", 
+        "value": "AffymetrixU133Plus2",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "confocalImaging", 
-        "description": "", 
+        "value": "confocalImaging",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "IlluminaHumanHT-12_V3_0_R1", 
-        "description": "", 
+        "value": "IlluminaHumanHT-12_V3_0_R1",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "SequenomMultiplex", 
-        "description": "", 
+        "value": "SequenomMultiplex",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
     "name": "isCellLine", 
     "description": "Boolean flag indicating whether or not sample source is a cell line", 
@@ -934,360 +934,360 @@
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": true, 
-        "description": "", 
+        "value": true,
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": false, 
-        "description": "", 
+        "value": false,
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "cellType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "cellType",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "B-lymphocytes", 
-        "description": "", 
+        "value": "B-lymphocytes",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "induced pluripotent stem cells", 
-        "description": "", 
+        "value": "induced pluripotent stem cells",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "GABAergic neurons", 
-        "description": "", 
+        "value": "GABAergic neurons",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "monocytes", 
-        "description": "", 
+        "value": "monocytes",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "microglia", 
-        "description": "", 
+        "value": "microglia",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "macrophages", 
-        "description": "", 
+        "value": "macrophages",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "astrocytes", 
-        "description": "", 
+        "value": "astrocytes",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "cultured cell", 
-        "description": "", 
+        "value": "cultured cell",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "SH-SY5Y", 
-        "description": "", 
+        "value": "SH-SY5Y",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "GLUtamatergic neurons", 
-        "description": "", 
+        "value": "GLUtamatergic neurons",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NeuN+", 
-        "description": "", 
+        "value": "NeuN+",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "NeuN-", 
-        "description": "", 
+        "value": "NeuN-",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "epithelial", 
-        "description": "", 
+        "value": "epithelial",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "epithelial-like", 
-        "description": "", 
+        "value": "epithelial-like",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "fibroblast", 
-        "description": "", 
+        "value": "fibroblast",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "round", 
-        "description": "", 
+        "value": "round",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "lymphoblast", 
-        "description": "", 
+        "value": "lymphoblast",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "polygonal", 
-        "description": "", 
+        "value": "polygonal",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "CD8+ T-Cells", 
-        "description": "", 
+        "value": "CD8+ T-Cells",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "diagnosis", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "diagnosis",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "Neurofibromatosis 1", 
-        "description": "", 
+        "value": "Neurofibromatosis 1",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Neurofibromatosis 2", 
-        "description": "", 
+        "value": "Neurofibromatosis 2",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Bipolar Disorder", 
-        "description": "", 
+        "value": "Bipolar Disorder",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Alzheimer Disease", 
-        "description": "", 
+        "value": "Alzheimer Disease",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Schizophrenia", 
-        "description": "", 
+        "value": "Schizophrenia",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Autism Spectrum Disorder", 
-        "description": "", 
+        "value": "Autism Spectrum Disorder",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Fibrocystic Breast Disease", 
-        "description": "", 
+        "value": "Fibrocystic Breast Disease",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Breast Cancer", 
-        "description": "", 
+        "value": "Breast Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Colon Cancer", 
-        "description": "", 
+        "value": "Colon Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Lung Cancer", 
-        "description": "", 
+        "value": "Lung Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Prostate Cancer", 
-        "description": "", 
+        "value": "Prostate Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Pancreas Cancer", 
-        "description": "", 
+        "value": "Pancreas Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Skin Cancer", 
-        "description": "", 
+        "value": "Skin Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Brain Cancer", 
-        "description": "", 
+        "value": "Brain Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Ovary Cancer", 
-        "description": "", 
+        "value": "Ovary Cancer",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Control", 
-        "description": "", 
+        "value": "Control",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Affective Disorder", 
-        "description": "", 
+        "value": "Affective Disorder",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Not Applicable", 
-        "description": "", 
+        "value": "Not Applicable",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "tumorType", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "tumorType",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "Neurofibroma Cutaneous", 
-        "description": "", 
+        "value": "Neurofibroma Cutaneous",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Neurofibroma Subcutaneous", 
-        "description": "", 
+        "value": "Neurofibroma Subcutaneous",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Neurofibroma Plexiform", 
-        "description": "", 
+        "value": "Neurofibroma Plexiform",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Neurofibroma Atypical", 
-        "description": "", 
+        "value": "Neurofibroma Atypical",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Malignant Peripheral Nerve Sheath Tumor", 
-        "description": "", 
+        "value": "Malignant Peripheral Nerve Sheath Tumor",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Adenocarcinoma", 
-        "description": "", 
+        "value": "Adenocarcinoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Carcinoma", 
-        "description": "", 
+        "value": "Carcinoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Ductal Carcinoma", 
-        "description": "", 
+        "value": "Ductal Carcinoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Melanoma", 
-        "description": "", 
+        "value": "Melanoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Optic Nerve Glioma", 
-        "description": "", 
+        "value": "Optic Nerve Glioma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Low Grade Glioma", 
-        "description": "", 
+        "value": "Low Grade Glioma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Diffuse Astrocytoma", 
-        "description": "", 
+        "value": "Diffuse Astrocytoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Anaplastic Astrocytoma", 
-        "description": "", 
+        "value": "Anaplastic Astrocytoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Glioblastoma", 
-        "description": "", 
+        "value": "Glioblastoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Schwannoma", 
-        "description": "", 
+        "value": "Schwannoma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Meningioma", 
-        "description": "", 
+        "value": "Meningioma",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Not Applicable", 
-        "description": "", 
+        "value": "Not Applicable",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "specimenIdSource", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "specimenIdSource",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": []
-  }, 
+  },
   {
-    "name": "sex", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "sex",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "male", 
-        "description": "", 
+        "value": "male",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "female", 
-        "description": "", 
+        "value": "female",
+        "description": "",
         "source": ""
       }
     ]
-  }, 
+  },
   {
-    "name": "species", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "species",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "Human", 
-        "description": "", 
+        "value": "Human",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Mouse", 
-        "description": "", 
+        "value": "Mouse",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Rat", 
-        "description": "", 
+        "value": "Rat",
+        "description": "",
         "source": ""
-      }, 
+      },
       {
-        "value": "Drosophila melanogaster", 
-        "description": "", 
+        "value": "Drosophila melanogaster",
+        "description": "",
         "source": ""
       }
     ]
