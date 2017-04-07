@@ -69,5 +69,25 @@
         "packageManager",
         "containerRegistry",
         "containerToolRegistry"
+    ], 
+    "inputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
+    ],
+    "outputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
     ]
 }
