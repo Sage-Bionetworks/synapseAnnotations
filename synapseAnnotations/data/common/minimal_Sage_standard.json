@@ -902,12 +902,12 @@
       }, 
       {
         "value": "AffymetrixU133AB", 
-        "description": "Affymetrix Human Genome U133 Plus", 
+        "description": "", 
         "source": ""
       }, 
       {
         "value": "AffymetrixU133Plus2", 
-        "description": "Affymetrix Human Genome U133 Plus", 
+        "description": "Affymetrix Human Genome U133 Plus 2.0 Array", 
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
       }, 
       {
