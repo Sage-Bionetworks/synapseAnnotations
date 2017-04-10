@@ -20,30 +20,30 @@
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "allograft"
+        "value": "allograft",
         "description": "Tissues, cells, or organs transplanted between genetically different individuals of the same species",
         "source": "https://www.ncbi.nlm.nih.gov/mesh/68064591"
       },
       {
-        "value": "xenograft"
+        "value": "xenograft",
         "description": "Tissues, cells or organs transplanted between animals of different species",
         "source": "https://www.ncbi.nlm.nih.gov/mesh/68064593"
       },
       {
-        "value": "autograft"
+        "value": "autograft",
         "description": "Transplant comprised of an individual's own tissue, transferred from one part of the body to another.",
         "source": "https://www.ncbi.nlm.nih.gov/mesh/68064592"
       },
       {
-        "value": "isograft"
+        "value": "isograft",
         "description": "Tissues, cells or organs transplanted between genetically identical individuals",
         "source": "https://www.ncbi.nlm.nih.gov/mesh/68064596"
       },
     ]
   }, 
   {
-    "name": "functionalScreenType", 
-    "description": "There are numerous types of functional screens", 
+    "name": "genePerturbationType", 
+    "description": "Specific way in which a single gene was perturbed in a sample", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
@@ -65,8 +65,8 @@
     ]
   }, 
   {
-    "name": "functionalScreenTechnology", 
-    "description": "Technology used to perform functional screen", 
+    "name": "genePerturbationTechnology", 
+    "description": "Technology used to perform gene perturbation", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
@@ -77,11 +77,6 @@
       }, 
       {
         "value": "CRISPR", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "mutant", 
         "description": "", 
         "source": ""
       }
