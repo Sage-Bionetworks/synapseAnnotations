@@ -136,6 +136,16 @@
         "value": "targetedGeneSeq", 
         "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods", 
         "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+      },
+      {
+        "value": “jumpingLibrary”, 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": “MIB/MS”, 
+        "description": “Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)”, 
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
       }
     ]
   },
@@ -548,6 +558,11 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": “meninges",
+        "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
       }
     ]
   },
@@ -791,6 +806,11 @@
         "value": "flagstat",
         "description": "Output of samtools flagstat tool",
         "source": ""
+      },
+      {
+        "value": “rsem”,
+        "description": "RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.",
+        "source": "http://deweylab.biostat.wisc.edu/rsem/README.html"
       }
     ]
   },
@@ -987,11 +1007,6 @@
         "source": ""
       },
       {
-        "value": "cultured cell",
-        "description": "",
-        "source": ""
-      },
-      {
         "value": "SH-SY5Y",
         "description": "",
         "source": ""
@@ -1043,6 +1058,41 @@
       },
       {
         "value": "CD8+ T-Cells",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “CRISPR arachnoid“,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “primary arachnoid“,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “arachnoid“,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “primary meningioma“,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “meningioma“,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “schwannoma”,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": “schwann”,
         "description": "",
         "source": ""
       }
