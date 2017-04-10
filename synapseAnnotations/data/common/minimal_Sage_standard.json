@@ -1,7 +1,7 @@
 [
   {
     "name": "specimenID",
-    "description": "",
+    "description": "Identifying string linked to a particular sample or specimen",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
@@ -108,15 +108,10 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000459"
       }, 
       {
-        "value": "drugViabilityAssay", 
+        "value": "cellViabilityAssay", 
         "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
         "source": "http://www.bioassayontology.org/bao#BAO_0003009"
-      }, 
-      {
-        "value": "drugCombinationAssay", 
-        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
-        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
-      }, 
+      },
       {
         "value": "atomicForceMicroscopy", 
         "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen", 
@@ -983,11 +978,6 @@
       },
       {
         "value": "astrocytes",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "cultured cell",
         "description": "",
         "source": ""
       },
