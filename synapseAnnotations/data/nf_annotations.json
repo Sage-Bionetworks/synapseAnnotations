@@ -52,6 +52,11 @@
         "value": "+/+", 
         "description": "Homozygous wild type", 
         "source": ""
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
+        "source": ""
       }
     ]
   }, 
@@ -74,6 +79,11 @@
       {
         "value": "+/+", 
         "description": "Homozygous wildtype", 
+        "source": ""
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
         "source": ""
       }
     ]
