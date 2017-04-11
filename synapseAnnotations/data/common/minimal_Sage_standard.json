@@ -816,40 +816,40 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "HiSeq2500",
-        "description": "",
-        "source": ""
-      },
+        "value": "HiSeq2500", 
+        "description": "Illumina HiSeq 2500 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
+      }, 
       {
-        "value": "HiSeq2000",
-        "description": "",
-        "source": ""
-      },
+        "value": "HiSeq2000", 
+        "description": "Illumina HiSeq 2000 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
+      }, 
       {
-        "value": "MiSeq",
-        "description": "",
-        "source": ""
-      },
+        "value": "MiSeq", 
+        "description": "Illumina MiSeq (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
+      }, 
       {
         "value": "PsychChip",
         "description": "",
         "source": ""
       },
       {
-        "value": "Affy5.0",
-        "description": "",
-        "source": ""
-      },
+        "value": "Affy5.0", 
+        "description": "Affymetrix Genome-Wide Human SNP 5.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
+      }, 
       {
-        "value": "Affy6.0",
-        "description": "",
-        "source": ""
-      },
+        "value": "Affy6.0", 
+        "description": "Affymetrix Genome-Wide Human SNP 6.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
+      }, 
       {
-        "value": "PacBioRSII",
-        "description": "",
-        "source": ""
-      },
+        "value": "PacBioRSII", 
+        "description": "PacBio RS II (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
+      }, 
       {
         "value": "GAIIx",
         "description": "",
@@ -891,10 +891,10 @@
         "source": ""
       },
       {
-        "value": "IlluminaWholeGenomeDASL",
-        "description": "",
-        "source": ""
-      },
+        "value": "IlluminaWholeGenomeDASL", 
+        "description": "Illumina Human Whole-Genome DASL HT", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
+      }, 
       {
         "value": "IlluminaHumanHap300",
         "description": "",
@@ -906,25 +906,25 @@
         "source": ""
       },
       {
-        "value": "LTQOrbitrapXL",
-        "description": "",
-        "source": ""
-      },
+        "value": "LTQOrbitrapXL", 
+        "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer", 
+        "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
+      }, 
       {
-        "value": "IlluminaHumanMethylation450",
-        "description": "",
-        "source": ""
-      },
+        "value": "IlluminaHumanMethylation450", 
+        "description": "Illumina HumanMethylation450 BeadChip ", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
+      }, 
       {
         "value": "AffymetrixU133AB",
         "description": "",
         "source": ""
       },
       {
-        "value": "AffymetrixU133Plus2",
-        "description": "",
-        "source": ""
-      },
+        "value": "AffymetrixU133Plus2", 
+        "description": "Affymetrix Human Genome U133 Plus 2.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
+      }, 
       {
         "value": "confocalImaging",
         "description": "",
@@ -1305,30 +1305,30 @@
     ]
   },
   {
-    "name": "species",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "species", 
+    "description": "The name of a species (typically a taxonomic group) of organism.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "Human",
-        "description": "",
-        "source": ""
-      },
+        "value": "Human", 
+        "description": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Mouse",
-        "description": "",
-        "source": ""
-      },
+        "value": "Mouse", 
+        "description": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Rat",
-        "description": "",
-        "source": ""
-      },
+        "value": "Rat", 
+        "description": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10114&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Drosophila melanogaster",
-        "description": "",
-        "source": ""
+        "value": "Drosophila melanogaster", 
+        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
       }
     ]
   }
