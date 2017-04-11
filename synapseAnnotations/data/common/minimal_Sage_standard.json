@@ -163,65 +163,65 @@
     ]
   },
   {
-    "name": "organ",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "organ", 
+    "description": "The organ from which the tissue is derived", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "skin",
-        "description": "",
-        "source": ""
-      },
+        "value": "skin", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0001253"
+      }, 
       {
-        "value": "nerves",
-        "description": "",
-        "source": ""
-      },
+        "value": "nerves", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000925"
+      }, 
       {
-        "value": "brain",
-        "description": "",
-        "source": ""
-      },
+        "value": "brain", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000142"
+      }, 
       {
-        "value": "blood",
-        "description": "",
-        "source": ""
-      },
+        "value": "blood", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000089"
+      }, 
       {
-        "value": "breast",
-        "description": "",
-        "source": ""
-      },
+        "value": "breast", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000149"
+      }, 
       {
-        "value": "colon",
-        "description": "",
-        "source": ""
-      },
+        "value": "colon", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000269"
+      }, 
       {
-        "value": "lung",
-        "description": "",
-        "source": ""
-      },
+        "value": "lung", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000763"
+      }, 
       {
-        "value": "prostate",
-        "description": "",
-        "source": ""
-      },
+        "value": "prostate", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/FMA_9600"
+      }, 
       {
-        "value": "pancreas",
-        "description": "",
-        "source": ""
-      },
+        "value": "pancreas", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000988"
+      }, 
       {
-        "value": "ovary",
-        "description": "",
-        "source": ""
-      },
+        "value": "ovary", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0000975"
+      }, 
       {
-        "value": "spleen",
-        "description": "",
-        "source": ""
+        "value": "spleen", 
+        "description": "", 
+        "source": "http://purl.obolibrary.org/obo/BTO_0001281"
       }
     ]
   },
@@ -547,61 +547,61 @@
     ]
   },
   {
-    "name": "consortium",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "consortium", 
+    "description": "The name of the consortium", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "CommonMind Consortium",
-        "description": "",
-        "source": ""
-      },
+        "value": "CommonMind Consortium", 
+        "description": "", 
+        "source": "https://www.synapse.org//#!Synapse:syn2759792/wiki/69613"
+      }, 
       {
-        "value": "PsychENCODE Consortium",
-        "description": "",
-        "source": ""
-      },
+        "value": "PsychENCODE Consortium", 
+        "description": "", 
+        "source": "https://www.synapse.org//#!Synapse:syn4921369/wiki/235539"
+      }, 
       {
-        "value": "AMP-AD",
-        "description": "",
-        "source": ""
-      },
+        "value": "AMP-AD", 
+        "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
+        "source": "https://www.nia.nih.gov/alzheimers/amp-ad"
+      }, 
       {
-        "value": "MODEL-AD",
-        "description": "",
-        "source": ""
-      },
+        "value": "MODEL-AD", 
+        "description": "Model Development and Evaluation for Late Onset AD", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=32257886&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+      }, 
       {
-        "value": "M2OVE-AD",
-        "description": "",
-        "source": ""
-      },
+        "value": "M2OVE-AD", 
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
+        "source": "https://www.nih.gov/news-events/news-releases/decoding-molecular-ties-between-vascular-disease-alzheimers"
+      }, 
       {
-        "value": "Synodos",
-        "description": "",
-        "source": ""
-      },
+        "value": "Synodos", 
+        "description": "", 
+        "source": "http://www.ctf.org/research/synodos"
+      }, 
       {
-        "value": "BSMN",
-        "description": "",
-        "source": ""
-      },
+        "value": "BSMN", 
+        "description": "Brain Somatic Mosaicism Network", 
+        "source": "https://www.synapse.org/#!Synapse:syn7344947/wiki/407304"
+      }, 
       {
-        "value": "CSBC",
-        "description": "",
-        "source": ""
-      },
+        "value": "CSBC", 
+        "description": "Cancer Systems Biology Consortium", 
+        "source": "https://csbconsortium.org/"
+      }, 
       {
-        "value": "PSON",
-        "description": "",
-        "source": ""
-      },
+        "value": "PSON", 
+        "description": "Physical Science in Oncology", 
+        "source": "https://physics.cancer.gov/"
+      }, 
       {
-        "value": "GENIE",
-        "description": "",
-        "source": ""
-      },
+        "value": "GENIE", 
+        "description": "Genomics Evidence Neoplasia Information Exchange", 
+        "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
+      }, 
       {
         "value": "Not Applicable",
         "description": "",
