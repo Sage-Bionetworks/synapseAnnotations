@@ -138,13 +138,13 @@
         "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
       },
       {
-        "value": “jumpingLibrary”, 
+        "value": "jumpingLibrary", 
         "description": "", 
         "source": ""
       },
       {
-        "value": “MIB/MS”, 
-        "description": “Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)”, 
+        "value": "MIB/MS", 
+        "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)", 
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
       }
     ]
@@ -560,7 +560,7 @@
         "source": ""
       },
       {
-        "value": “meninges",
+        "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
       }
@@ -806,11 +806,6 @@
         "value": "flagstat",
         "description": "Output of samtools flagstat tool",
         "source": ""
-      },
-      {
-        "value": “rsem”,
-        "description": "RSEM is a software package for estimating gene and isoform expression levels from RNA-Seq data.",
-        "source": "http://deweylab.biostat.wisc.edu/rsem/README.html"
       }
     ]
   },
@@ -1062,37 +1057,37 @@
         "source": ""
       },
       {
-        "value": “CRISPR arachnoid“,
+        "value": "CRISPR arachnoid",
         "description": "",
         "source": ""
       },
       {
-        "value": “primary arachnoid“,
+        "value": "primary arachnoid",
         "description": "",
         "source": ""
       },
       {
-        "value": “arachnoid“,
+        "value": "arachnoid",
         "description": "",
         "source": ""
       },
       {
-        "value": “primary meningioma“,
+        "value": "primary meningioma",
         "description": "",
         "source": ""
       },
       {
-        "value": “meningioma“,
+        "value": "meningioma",
         "description": "",
         "source": ""
       },
       {
-        "value": “schwannoma”,
+        "value": "schwannoma",
         "description": "",
         "source": ""
       },
       {
-        "value": “schwann”,
+        "value": "schwann",
         "description": "",
         "source": ""
       }

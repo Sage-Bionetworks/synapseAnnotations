@@ -72,6 +72,11 @@
         "value": "+/+", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
+        "source": ""
       }
     ]
   }, 
@@ -95,21 +100,12 @@
         "value": "+/+", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
+        "source": ""
       }
     ]
-  },
-  {
-    "name": “treatmentConcentration”, 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
-  },
-  {
-    "name": “treatmentDuration”, 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": []
   }
 ]
