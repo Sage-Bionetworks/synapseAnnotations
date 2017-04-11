@@ -95,12 +95,12 @@
       },
       {
         "value": "smallMoleculeLibraryScreen",
-        "description": "High throughput sample analysis of small molecules for purpose such as drug discovery, or biochemical, genetic or pharmacological tests."
+        "description": "High throughput sample analysis of small molecules for purpose such as drug discovery, or biochemical, genetic or pharmacological tests.",
         "source": " http://purl.obolibrary.org/obo/ERO_0001726"
       },
       {
         "value":"compoundLibraryScreen",
-        "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets."
+        "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.",
         "source":"http://purl.obolibrary.org/obo/ERO_0001686"
       }
     ]
