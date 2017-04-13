@@ -147,22 +147,22 @@
     "enumValues": [
       {
         "value": "dataMatrix", 
-        "description": "Generally a file of data containing multiple values for multiple samples.", 
+        "description": "A file of data containing multiple values for multiple samples.", 
         "source": ""
       }, 
       {
         "value": "raw", 
-        "description": "Generally a data file produced by an instrument, or one with very little subsequent processing.", 
+        "description": "A data file produced by an instrument, or one with very little subsequent processing.", 
         "source": ""
       }, 
       {
         "value": "processed", 
-        "description": "Generally a file of data generated from running one or more bioinformatics methods on a raw file.", 
+        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.", 
         "source": ""
       }, 
       {
         "value": "metadata", 
-        "description": "Generally a file of clinical, technical, or other parameters that describe a dataset.", 
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.", 
         "source": ""
       }
     ]
