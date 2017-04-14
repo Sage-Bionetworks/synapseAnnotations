@@ -340,144 +340,144 @@
   },
   {
     "name": "tissue",
-    "description": "",
+    "description": "A tissue is a mereologically maximal collection of cells that together perform some function.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "cerebral cortex",
-        "description": "",
-        "source": ""
+        "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
       },
       {
         "value": "frontal lobe",
-        "description": "",
-        "source": ""
+        "description": "Frontal lobe is the anterior-most of five lobes of the cerebral hemisphere. It is bounded by the central sulcus on its posterior border and by the longitudinal cerebral fissure on its medial border.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016525"
       },
       {
         "value": "hippocampus",
-        "description": "",
-        "source": ""
+        "description": "A curved elongated ridge that extends over the floor of the descending horn of each lateral ventricle of the brain and consists of gray matter covered on the ventricular surface with white matter.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000601"
       },
       {
         "value": "nerve tissue",
-        "description": "",
-        "source": ""
+        "description": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714"
       },
       {
         "value": "dorsolateral prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Broadly-defined, consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0009834"
       },
       {
         "value": "anterior cingulate cortex",
-        "description": "",
-        "source": ""
+        "description": "That portion of the cingulate cortex which is located within the frontal lobe (the remainder being in the parietal lobe).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004249"
       },
       {
         "value": "frontal pole",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002795"
       },
       {
         "value": "parahippocampal gyrus",
-        "description": "",
-        "source": ""
+        "description": "A long convolution on the medial surface of the temporal lobe, forming the lower part of the fornicate gyrus, extending from behind the splenium corporis callosi forward along the dentate gyrus of the hippocampus from which it is demarcated by the hippocampal fissure.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004380"
       },
       {
         "value": "superior temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the ssuperior temporal sulcus. The caudal boundary is the cauday portion of the superior temporal gyrus (posterior to becoming continuous with the supramarginal gyrus).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002769"
       },
       {
         "value": "inferior frontal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002998"
       },
       {
         "value": "cerebellum",
-        "description": "",
-        "source": ""
+        "description": "Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002037"
       },
       {
         "value": "occipital visual cortex",
-        "description": "",
-        "source": ""
+        "description": "The area of the occipital lobe of the cerebral cortex concerned with vision.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001857"
       },
       {
         "value": "inferior temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002751"
       },
       {
         "value": "middle temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002771"
       },
       {
         "value": "posterior cingulate cortex",
-        "description": "",
-        "source": ""
+        "description": "Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022353"
       },
       {
         "value": "temporal pole",
-        "description": "",
-        "source": ""
+        "description": "Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002576"
       },
       {
         "value": "precentral gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe. The appearance and disappearance of the central sulcus is the rostral and caudal boundaries of the precentral gyrus respectively.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002703"
       },
       {
         "value": "superior parietal lobe",
-        "description": "",
-        "source": ""
+        "description": "A superficial feature of the parietal lobe that extends from the dorsal surface of the superior parietal lobule across the margin of the parietal lobe into the precuneus.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0026724"
       },
       {
         "value": "prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "The prefrontal cortex is the anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0002807"
       },
       {
         "value": "amygdala",
-        "description": "",
-        "source": ""
+        "description": "The one of the four basal ganglia in each cerebral hemisphere that is part of the limbic system and consists of an almond-shaped mass of gray matter in the anterior extremity of the temporal lobe.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001042"
       },
       {
         "value": "caudate nucleus",
-        "description": "",
-        "source": ""
+        "description": "Subcortical nucleus of telecephalic origin consisting of an elongated gray mass lying lateral to and bordering the lateral ventricle.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001873"
       },
       {
         "value": "nucleus accumbens",
-        "description": "",
-        "source": ""
+        "description": "A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001882"
       },
       {
         "value": "putamen",
-        "description": "",
-        "source": ""
+        "description": "Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001874"
       },
       {
         "value": "temporal cortex",
-        "description": "",
-        "source": ""
+        "description": "Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016538"
       },
       {
         "value": "orbitofrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "The region of the cerebral cortex covering the basal surface of the frontal lobes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004167"
       },
       {
         "value": "ventrolateral prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Is part of the prefrontal cortex, located on the inferior frontal gyrus, bounded superiorly by the inferior frontal sulcus and inferiorly by the lateral sulcus.",
+        "source": "https://en.wikipedia.org/wiki/Ventrolateral_prefrontal_cortex"
       },
       {
         "value": "medial frontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
       },
       {
         "value": "primary motor cortex",
@@ -486,18 +486,18 @@
       },
       {
         "value": "primary somatosensory cortex",
-        "description": "",
-        "source": ""
+        "description": "The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001384"
       },
       {
         "value": "posteroinferior parietal cortex",
-        "description": "",
-        "source": ""
+        "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016530"
       },
       {
         "value": "primary auditory cortex",
-        "description": "",
-        "source": ""
+        "description": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0034751"
       },
       {
         "value": "posterior superior temporal cortex",
@@ -511,8 +511,8 @@
       },
       {
         "value": "primary visual cortex",
-        "description": "",
-        "source": ""
+        "description": "A subdivision of the cytoarchitecturally defined occipital region of cerebral cortex in the human.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002436"
       },
       {
         "value": "amygdaloid complex",
@@ -521,8 +521,8 @@
       },
       {
         "value": "striatum",
-        "description": "",
-        "source": ""
+        "description": "A region of the forebrain consisting of the caudate nucleus, putamen and fundus striati.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435"
       },
       {
         "value": "mediodorsal nucleus of thalamus",
@@ -531,28 +531,28 @@
       },
       {
         "value": "cerebellar cortex",
-        "description": "",
-        "source": ""
+        "description": "The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000043"
       },
       {
         "value": "serum",
-        "description": "",
-        "source": ""
+        "description": "Liquid derived from blood plasma that has clotting factors removed.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001977"
       },
       {
-        "value": "spleenocyte",
-        "description": "",
-        "source": ""
+        "value": "splenocyte",
+        "description": "Any leukocyte that is part of a spleen.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_2000074"
       },
       {
         "value": "blood",
-        "description": "",
-        "source": ""
+        "description": "A fluid that is composed of blood plasma and erythrocytes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000178"
       },
       {
         "value": "primary tumor",
-        "description": "",
-        "source": ""
+        "description": "A primary tumor is the tumor at the initial site of cancer, not where the cancer may have spread or metastasized, called the secondary tumor.",
+        "source": "https://cancergenome.nih.gov/cancersselected/biospeccriteria"
       },
       {
         "value": "Not Applicable",
