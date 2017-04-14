@@ -280,54 +280,54 @@
   },
   {
     "name": "dataType",
-    "description": "",
+    "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "genomicVariants",
-        "description": "",
-        "source": ""
+        "description": "genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
       },
       {
         "value": "image",
-        "description": "",
-        "source": ""
+        "description": "Biological or biomedical data that has been rendered into an image, typically used for diagnosis.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_2968"
       },
       {
         "value": "geneExpression",
-        "description": "",
-        "source": ""
+        "description": "The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0203"
       },
       {
         "value": "isoformExpression",
-        "description": "",
-        "source": ""
+        "description": "expression of isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms",
+        "source": "https://en.wikipedia.org/wiki/Protein_isoform"
       },
       {
         "value": "proteomics",
-        "description": "",
-        "source": ""
+        "description": "Protein and peptide identification, especially in the study of whole proteomes of organisms.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0121"
       },
       {
         "value": "kinomics",
-        "description": "",
-        "source": ""
+        "description": "Kinomics is the study of the kinome, a global description of kinases and kinase signaling. ",
+        "source": "http://www.kinomecore.com/what-is-kinomics/"
       },
       {
         "value": "drugScreen",
-        "description": "",
-        "source": ""
+        "description": "Information on drug sensitivity and molecular markers of drug response",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531057/"
       },
       {
         "value": "cellularPhysiology",
-        "description": "",
-        "source": ""
+        "description": "Information on molecular mechanisms that investigate cell structure and function",
+        "source": "https://www.ncbi.nlm.nih.gov/books/NBK26818/"
       },
       {
         "value": "chromatinActivity",
-        "description": "",
-        "source": ""
+        "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
+        "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
       }
     ]
   },
