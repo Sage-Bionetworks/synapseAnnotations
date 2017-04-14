@@ -1,12 +1,17 @@
 import json
 import pandas as pd
 import os
+import urlparse
+import urllib
 
 def conver2excel(dicts, outputFile):
     key_des = pd.DataFrame()
     value_des = pd.DataFrame()
     for di in dicts:
-        jfile = open(di,'r')
+        if urlparse.urlparse(di).scheme != '':
+            jfile = urllib.urlopen(di)
+        else:
+            jfile = open(di,'r')
         base,ext=os.path.splitext(os.path.basename(di))
         if ext=='.json':
             data=json.load(jfile)
