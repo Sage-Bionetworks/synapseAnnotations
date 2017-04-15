@@ -982,49 +982,49 @@
   },
   {
     "name": "cellType",
-    "description": "",
+    "description": "A cell type is a distinct morphological or functional form of cell.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "B-lymphocytes",
-        "description": "",
-        "source": ""
+        "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
       },
       {
         "value": "induced pluripotent stem cells",
-        "description": "",
-        "source": ""
+        "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
       },
       {
         "value": "GABAergic neurons",
-        "description": "",
-        "source": ""
+        "description": "A neuron that uses GABA as a vesicular neurotransmitter.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/zfa/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FZFA_0009276"
       },
       {
         "value": "monocytes",
-        "description": "",
-        "source": ""
+        "description": "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000576"
       },
       {
         "value": "microglia",
-        "description": "",
-        "source": ""
+        "description": "The small, non-neural, interstitial cells of mesodermal origin that form part of the supporting structure of the central nervous system.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000078"
       },
       {
         "value": "macrophages",
-        "description": "",
-        "source": ""
+        "description": "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000235"
       },
       {
         "value": "astrocytes",
-        "description": "",
-        "source": ""
+        "description": "Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127"
       },
       {
         "value": "SH-SY5Y",
-        "description": "",
-        "source": ""
+        "description": "Human neuroblastoma clonal subline of the neuroepithelioma cell line SK-N-SH that had been established in 1970 from the bone marrow biopsy of a 4-year-old girl with metastatic neuroblastoma.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000793"
       },
       {
         "value": "GLUtamatergic neurons",
