@@ -1110,94 +1110,94 @@
   },
   {
     "name": "diagnosis",
-    "description": "",
+    "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "Neurofibromatosis 1",
-        "description": "",
+        "description": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
         "source": ""
       },
       {
         "value": "Neurofibromatosis 2",
-        "description": "",
-        "source": ""
+        "description": "(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F101000"
       },
       {
         "value": "Bipolar Disorder",
-        "description": "",
-        "source": ""
+        "description": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258"
       },
       {
         "value": "Alzheimer Disease",
-        "description": "",
-        "source": ""
+        "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
       },
       {
         "value": "Schizophrenia",
-        "description": "",
-        "source": ""
+        "description": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692"
       },
       {
         "value": "Autism Spectrum Disorder",
-        "description": "",
-        "source": ""
+        "description": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756"
       },
       {
         "value": "Fibrocystic Breast Disease",
-        "description": "",
-        "source": ""
+        "description": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014"
       },
       {
         "value": "Breast Cancer",
-        "description": "",
-        "source": ""
+        "description": "(BC) - A common malignancy originating from breast epithelial tissue.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480"
       },
       {
         "value": "Colon Cancer",
-        "description": "",
-        "source": ""
+        "description": "A colorectal cancer that is located_in the colon.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219"
       },
       {
         "value": "Lung Cancer",
-        "description": "",
-        "source": ""
+        "description": "A respiratory system cancer that is located_in the lung.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324"
       },
       {
         "value": "Prostate Cancer",
-        "description": "",
-        "source": ""
+        "description": "A male reproductive organ cancer that is located_in the prostate.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
       },
       {
         "value": "Pancreas Cancer",
-        "description": "",
-        "source": ""
+        "description": "An endocrine gland cancer located_in the pancreas.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
       },
       {
         "value": "Skin Cancer",
-        "description": "",
-        "source": ""
+        "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
       },
       {
         "value": "Brain Cancer",
-        "description": "",
-        "source": ""
+        "description": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319"
       },
       {
         "value": "Ovary Cancer",
-        "description": "",
-        "source": ""
+        "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
       },
       {
         "value": "Control",
-        "description": "",
-        "source": ""
+        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
       },
       {
         "value": "Affective Disorder",
-        "description": "",
-        "source": ""
+        "description": "Change in mood is the main underlying feature of these disorders.",
+        "source": "Sage"
       },
       {
         "value": "Not Applicable",
