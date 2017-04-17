@@ -1028,83 +1028,83 @@
       },
       {
         "value": "GLUtamatergic neurons",
-        "description": "",
-        "source": ""
+        "description": "Have Glutamate receptors, which are synaptic receptors located primarily on the membranes of neuronal cells. Glutamate (the conjugate base of glutamic acid) is abundant in the human body, but particularly in the nervous system and especially prominent in the human brain.",
+        "source": "https://en.wikipedia.org/wiki/Glutamate_receptor"
       },
       {
         "value": "NeuN+",
-        "description": "",
-        "source": ""
+        "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+        "source": "https://en.wikipedia.org/wiki/NeuN"
       },
       {
         "value": "NeuN-",
-        "description": "",
-        "source": ""
+        "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+        "source": "https://en.wikipedia.org/wiki/NeuN"
       },
       {
         "value": "epithelial",
-        "description": "",
-        "source": ""
+        "description": "Somatic cells that cover the surface of the body and line its cavities.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000066"
       },
       {
         "value": "epithelial-like",
-        "description": "",
-        "source": ""
+        "description": "In cell morphology, epithelial-like cells are polygonal in shape with more regular dimensions, and grow attached to a substrate in discrete patches.",
+        "source": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-morphology.html"
       },
       {
         "value": "fibroblast",
-        "description": "",
-        "source": ""
+        "description": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000057"
       },
       {
         "value": "round",
-        "description": "",
-        "source": ""
+        "description": "A phenotype observation at the level of the cell shape where the cell is round",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cmpo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fcmpo%2FCMPO_0000118"
       },
       {
         "value": "lymphoblast",
-        "description": "",
-        "source": ""
+        "description": "Often referred to as a blast cell. Unlike other usages of the suffix -blast a lymphoblast is a further differentiation of a lymphocyte, T- or B-, occasioned by an antigenic stimulus. The lymphoblast usually develops by enlargement of a lymphocyte, active re-entry to the S phase of the cell cycle, mitogenesis and production of much m-RNA and ribosomes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000772"
       },
       {
         "value": "polygonal",
-        "description": "",
-        "source": ""
+        "description": "A polygonal face is a polygon bounded by a circuit of polygon edges, and includes the flat (plane) region inside the boundary.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/sio/terms?iri=http%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_000503"
       },
       {
         "value": "CD8+ T-Cells",
-        "description": "",
-        "source": ""
+        "description": " Is a T lymphocyte (a type of white blood cell) that kills cancer cells, cells that are infected (particularly with viruses), or cells that are damaged in other ways.",
+        "source": "https://en.wikipedia.org/wiki/Cytotoxic_T_cell"
       },
       {
         "value": "primary arachnoid",
-        "description": "",
-        "source": ""
+        "description": "An arachnoid cyst is an extra-parenchymal and intra-arachnoidal collection of fluid with a composition similar to that of cerebrospinal fluid.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/hp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0100702"
       },
       {
         "value": "arachnoid",
-        "description": "",
-        "source": ""
+        "description": "An arachnoid mater is a delicate membrane that encloses the spinal cord and brain and lies between the pia mater and dura mater.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001636"
       },
       {
         "value": "primary meningioma",
-        "description": "",
-        "source": ""
+        "description": "Is the non-metastasized tissue of the central nervous system cancer, manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565"
       },
       {
         "value": "meningioma",
-        "description": "",
-        "source": ""
+        "description": "A central nervous system cancer tissue that are manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565"
       },
       {
         "value": "schwannoma",
-        "description": "",
-        "source": ""
+        "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
         "value": "schwann",
-        "description": "",
-        "source": ""
+        "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
       }
     ]
   },
