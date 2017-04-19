@@ -150,29 +150,29 @@
     ]
   },
   {
-    "name": "dataSubtype",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "dataSubtype", 
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "dataMatrix",
-        "description": "",
+        "value": "dataMatrix", 
+        "description": "A file of data containing multiple values for multiple samples.", 
         "source": ""
       },
       {
-        "value": "raw",
-        "description": "",
+        "value": "raw", 
+        "description": "A data file produced by an instrument, or one with very little subsequent processing.", 
         "source": ""
       },
       {
-        "value": "processed",
-        "description": "",
+        "value": "processed", 
+        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.", 
         "source": ""
       },
       {
-        "value": "metadata",
-        "description": "",
+        "value": "metadata", 
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.", 
         "source": ""
       }
     ]
@@ -241,40 +241,40 @@
     ]
   },
   {
-    "name": "fundingAgency",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "fundingAgency", 
+    "description": "The organization providing financial support for generation of this data.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "CTF",
-        "description": "",
-        "source": ""
-      },
+        "value": "CTF", 
+        "description": "Childrens' Tumor Foundation", 
+        "source": "http://www.ctf.org"
+      }, 
       {
-        "value": "NIH-NCI",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NCI", 
+        "description": "National Institutes of Health - National Cancer Institute", 
+        "source": "https://www.cancer.gov"
+      }, 
       {
-        "value": "NTAP",
-        "description": "",
-        "source": ""
-      },
+        "value": "NTAP", 
+        "description": "Neurofibromatosis Therapeutic Acceleration Program", 
+        "source": "http://www.n-tap.org"
+      }, 
       {
-        "value": "NIH-NIA",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIA", 
+        "description": "National Institutes of Health - National Institute of Aging", 
+        "source": "https://www.nia.nih.gov"
+      }, 
       {
-        "value": "NIH-NIMH",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIMH", 
+        "description": "National Institutes of Health - National Institute of Mental Health", 
+        "source": "https://www.nimh.nih.gov"
+      }, 
       {
-        "value": "AACR",
-        "description": "",
-        "source": ""
+        "value": "AACR", 
+        "description": "American Association for Cancer Research", 
+        "source": "http://www.aacr.org"
       }
     ]
   },
