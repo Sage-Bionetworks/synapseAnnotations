@@ -831,6 +831,16 @@
         "value": "gtf",
         "description": "Gene transfer format (GTF) is a file format used to hold information about gene structure",
         "source": "https://en.wikipedia.org/wiki/Gene_transfer_format"
+      },
+      {
+        "value": "raw",
+        "description": "Proprietary file format for mass spectrometry data from Thermo Scientific",
+        "source": "http://edamontology.org/format_3712"
+      },
+      {
+        "value": "msf",
+        "description": "Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software",
+        "source": "http://edamontology.org/format_3702"
       }
     ]
   },
