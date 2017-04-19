@@ -340,7 +340,7 @@
   },
   {
     "name": "tissue",
-    "description": "A tissue is a mereologically maximal collection of cells that together perform some function.",
+    "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
