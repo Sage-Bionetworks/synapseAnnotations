@@ -964,6 +964,11 @@
         "value": "SequenomMultiplex",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "HiSeqX",
+        "description": "A whole-genome sequencing platform",
+        "source": ""
       }
     ]
   },
