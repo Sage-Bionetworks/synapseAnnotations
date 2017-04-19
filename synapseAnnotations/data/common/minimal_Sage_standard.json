@@ -286,12 +286,12 @@
     "enumValues": [
       {
         "value": "genomicVariants",
-        "description": "genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+        "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
       },
       {
         "value": "image",
-        "description": "Biological or biomedical data that has been rendered into an image, typically used for diagnosis.",
+        "description": "Biological or biomedical data that has been rendered into an image.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_2968"
       },
       {
@@ -301,7 +301,7 @@
       },
       {
         "value": "isoformExpression",
-        "description": "Expression of isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
+        "description": "Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
         "source": "https://en.wikipedia.org/wiki/Protein_isoform"
       },
       {
@@ -311,7 +311,7 @@
       },
       {
         "value": "kinomics",
-        "description": "Kinomics is the study of the kinome, a global description of kinases and kinase signaling.",
+        "description": "Kinomics is the study of protein kinases and protein kinase signaling.",
         "source": "http://www.kinomecore.com/what-is-kinomics/"
       },
       {
@@ -321,8 +321,8 @@
       },
       {
         "value": "cellularPhysiology",
-        "description": "Information on molecular mechanisms that investigate cell structure and function.",
-        "source": "https://www.ncbi.nlm.nih.gov/books/NBK26818/"
+        "description": "",
+        "source": ""
       },
       {
         "value": "chromatinActivity",
@@ -1077,19 +1077,9 @@
         "source": "https://en.wikipedia.org/wiki/Cytotoxic_T_cell"
       },
       {
-        "value": "primary arachnoid",
-        "description": "An arachnoid cyst is an extra-parenchymal and intra-arachnoidal collection of fluid with a composition similar to that of cerebrospinal fluid.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/hp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FHP_0100702"
-      },
-      {
         "value": "arachnoid",
         "description": "An arachnoid mater is a delicate membrane that encloses the spinal cord and brain and lies between the pia mater and dura mater.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001636"
-      },
-      {
-        "value": "primary meningioma",
-        "description": "Is the non-metastasized tissue of the central nervous system cancer, manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565"
       },
       {
         "value": "meningioma",
