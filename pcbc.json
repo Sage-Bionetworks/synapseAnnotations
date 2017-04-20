@@ -1,0 +1,158 @@
+{
+  "Cell_Type_of_Origin": [
+    "BJ fibroblast",
+    "cardiac myocyte",
+    "cardiac endothelial cell",
+    "CD34+ cells",
+    "epithelial",
+    "fibroblast",
+    "inner cell mass",
+    "keratinocyte",
+    "lung fibroblast",
+    "mesenchymal stem cell",
+    "mononuclear",
+    "pulmonary artery endothelium",
+    "smooth muscle",
+    "unknown",
+    "N/A"
+  ],
+  "Cell_Type": [
+    "PSC",
+    "somatic"
+  ],
+  "Karyotype_Result": [
+    "normal",
+    "abnormal",
+    "unknown"
+  ],
+  "Gene_Names": [
+    "c-MYC",
+    "l-MYC",
+    "KLF4",
+    "Lin28",
+    "Nanog",
+    "OCT3",
+    "OCT4",
+    "p53shRNA",
+    "SOX2",
+    "SV40 large T Antigen"
+  ],
+  "Cell_Line_Type": [
+    "bronchial epithelial",
+    "bronchial smooth muscle",
+    "cardiac myocyte",
+    "endothelial",
+    "ESC",
+    "iPSC",
+    "lung fibroblast",
+    "small airway epithelial"
+  ],
+  "Disease": [
+    "ARVC cardiomyopathy",
+    "blood disease",
+    "cardiovascular disease",
+    "cystic fibrosis",
+    "Diamond-Blackfan anemia",
+    "Down's syndrome",
+    "heart disease",
+    "hypertrophic cardiomyopathy",
+    "Li-Fraumeni syndrome",
+    "lung disease",
+    "MDS-AML",
+    "myeloblastic syndrome",
+    "acute myeloid leukemia",
+    "vascular disease",
+    "none"
+  ],
+  "Culture_Conditions": [
+    "Stromal primed",
+    "Stromal non-primed",
+    "Cre-excised",
+    "Feeder and KOSR",
+    "TESR1 + Matrigel or KOSR + MEFs",
+    "EB",
+    "DMEM-F12/KOSR/0.1 mM BME/0.1mM NEAA/0.1mM L-gluatime/20ng/ml bFGF",
+    "Pluriton Reprogramming Medium",
+    "MEF KSR + TESRI",
+    "unknown"
+  ],
+  "Reprogramming_Vector_Type": [
+    "Adenovirus vector",
+    "cell permeant protein",
+    "Epstein-Barr virus vector",
+    "lentivirus",
+    "mRNA",
+    "plasmid",
+    "retrovirus",
+    "Sendai virus",
+    "small interfering RNA",
+    "NotApp"
+  ],
+  "Race": [
+    "American Indian/Alaska Native",
+    "Asian",
+    "Black/African American",
+    "Japanese",
+    "Native Hawaiian/Other Pacific Islander",
+    "White",
+    "unknown"
+  ],
+  "Tissue_of_Origin": [
+    "adipose tissue",
+    "amniotic fluid",
+    "aorta",
+    "blastocyst",
+    "blood",
+    "bone",
+    "bone marrow",
+    "bronchus",
+    "bronchiole",
+    "foreskin",
+    "heart",
+    "hematopoietic tissue",
+    "left anterior descending coronary artery",
+    "lung",
+    "muscle tissue",
+    "ovary",
+    "skin",
+    "testes",
+    "thoracic artery",
+    "umbilical cord blood"
+  ],
+  "Host_Species": [
+    "human",
+    "mouse"
+  ],
+  "Donor_Life_Stage": [
+    "adult",
+    "blastocyst",
+    "childhood",
+    "embryo",
+    "fetal",
+    "infant",
+    "newborn",
+    "prenatal",
+    "unknown"
+  ],
+  "Gender": [
+    "male",
+    "female",
+    "unknown"
+  ],
+  "Donor_Phenotype": [
+    "normal"
+  ],
+  "Reprogramming_Gene_Combination": [
+    "OS-NL",
+    "OSKM",
+    "OSKM-L",
+    "OSKM-NLT",
+    "OSK-L-l-p53KD",
+    "NotApp"
+  ],
+  "Ethnicity": [
+    "Hispanic or Latino",
+    "Not Hispanic or Latino",
+    "unknown"
+  ]
+}
