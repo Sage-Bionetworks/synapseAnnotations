@@ -1,0 +1,8 @@
+{
+    "assay": [
+        "rnaArray",
+        "snpArray",
+        "methylationArray",
+        "mirnaArray"
+        
+        
