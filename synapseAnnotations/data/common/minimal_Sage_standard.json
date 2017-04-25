@@ -148,7 +148,7 @@
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
       },
       {
-        "value": "MudPIT-massSpec", 
+        "value": "MudPIT", 
         "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry", 
         "source": "http://purl.obolibrary.org/obo/MI_0658"
       }
