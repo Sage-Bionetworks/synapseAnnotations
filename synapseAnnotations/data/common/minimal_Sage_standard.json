@@ -575,37 +575,32 @@
       {
         "value": "CommonMind Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn2759792"
+        "source": "https://www.synapse.org/cmc"
       }, 
       {
         "value": "PsychENCODE Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn4921369"
+        "source": "https://www.synapse.org/pec"
       }, 
       {
         "value": "AMP-AD", 
         "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
-        "source": "https://www.nia.nih.gov/alzheimers/amp-ad"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "MODEL-AD", 
         "description": "Model Development and Evaluation for Late Onset AD", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=32257886&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "M2OVE-AD", 
         "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
-        "source": "https://www.nih.gov/news-events/news-releases/decoding-molecular-ties-between-vascular-disease-alzheimers"
-      }, 
-      {
-        "value": "Synodos", 
-        "description": "", 
-        "source": "http://www.ctf.org/research/synodos"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "BSMN", 
         "description": "Brain Somatic Mosaicism Network", 
-        "source": "https://www.synapse.org/#!Synapse:syn7344947/wiki/407304"
+        "source": "https://www.synapse.org/bsmn"
       }, 
       {
         "value": "CSBC", 
@@ -625,22 +620,22 @@
       {
         "value": "Synodos NF1", 
         "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/ctf"
       }, 
       {
         "value": "Synodos NF2", 
         "description": "Data derived from the CTF-funded NF2 Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/syndosnf2"
       }, 
       {
         "value": "Synodos LGG", 
         "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
-        "source": ""
+        "source": "http://www.synapse.org/nf1lgg"
       }, 
       {
         "value": "DHART SPORE", 
         "description": "Data from the D-HART SPORE", 
-        "source": ""
+        "source": "http://www.synapse.org/dhart"
       },
       {
         "value": "Not Applicable", 
