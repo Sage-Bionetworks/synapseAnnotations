@@ -131,33 +131,43 @@
         "value": "targetedGeneSeq", 
         "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods", 
         "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+      },
+      {
+        "value": "jumpingLibrary", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "MIB/MS", 
+        "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)", 
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
       }
     ]
   },
   {
-    "name": "dataSubtype",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "dataSubtype", 
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "dataMatrix",
-        "description": "",
+        "value": "dataMatrix", 
+        "description": "A file of data containing multiple values for multiple samples.", 
         "source": ""
       },
       {
-        "value": "raw",
-        "description": "",
+        "value": "raw", 
+        "description": "A data file produced by an instrument, or one with very little subsequent processing.", 
         "source": ""
       },
       {
-        "value": "processed",
-        "description": "",
+        "value": "processed", 
+        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.", 
         "source": ""
       },
       {
-        "value": "metadata",
-        "description": "",
+        "value": "metadata", 
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.", 
         "source": ""
       }
     ]
@@ -226,40 +236,40 @@
     ]
   },
   {
-    "name": "fundingAgency",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "fundingAgency", 
+    "description": "The organization providing financial support for generation of this data.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "CTF",
-        "description": "",
-        "source": ""
-      },
+        "value": "CTF", 
+        "description": "Childrens' Tumor Foundation", 
+        "source": "http://www.ctf.org"
+      }, 
       {
-        "value": "NIH-NCI",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NCI", 
+        "description": "National Institutes of Health - National Cancer Institute", 
+        "source": "https://www.cancer.gov"
+      }, 
       {
-        "value": "NTAP",
-        "description": "",
-        "source": ""
-      },
+        "value": "NTAP", 
+        "description": "Neurofibromatosis Therapeutic Acceleration Program", 
+        "source": "http://www.n-tap.org"
+      }, 
       {
-        "value": "NIH-NIA",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIA", 
+        "description": "National Institutes of Health - National Institute of Aging", 
+        "source": "https://www.nia.nih.gov"
+      }, 
       {
-        "value": "NIH-NIMH",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIMH", 
+        "description": "National Institutes of Health - National Institute of Mental Health", 
+        "source": "https://www.nimh.nih.gov"
+      }, 
       {
-        "value": "AACR",
-        "description": "",
-        "source": ""
+        "value": "AACR", 
+        "description": "American Association for Cancer Research", 
+        "source": "http://www.aacr.org"
       }
     ]
   },
@@ -543,6 +553,11 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "meninges",
+        "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
       }
     ]
   },
@@ -603,8 +618,28 @@
         "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
       }, 
       {
-        "value": "Not Applicable",
-        "description": "",
+        "value": "Synodos NF1", 
+        "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos NF2", 
+        "description": "Data derived from the CTF-funded NF2 Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "Synodos LGG", 
+        "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
+        "source": ""
+      }, 
+      {
+        "value": "DHART SPORE", 
+        "description": "Data from the D-HART SPORE", 
+        "source": ""
+      },
+      {
+        "value": "Not Applicable", 
+        "description": "", 
         "source": ""
       }
     ]
@@ -796,40 +831,40 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "HiSeq2500",
-        "description": "",
-        "source": ""
-      },
+        "value": "HiSeq2500", 
+        "description": "Illumina HiSeq 2500 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
+      }, 
       {
-        "value": "HiSeq2000",
-        "description": "",
-        "source": ""
-      },
+        "value": "HiSeq2000", 
+        "description": "Illumina HiSeq 2000 (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
+      }, 
       {
-        "value": "MiSeq",
-        "description": "",
-        "source": ""
-      },
+        "value": "MiSeq", 
+        "description": "Illumina MiSeq (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
+      }, 
       {
         "value": "PsychChip",
         "description": "",
         "source": ""
       },
       {
-        "value": "Affy5.0",
-        "description": "",
-        "source": ""
-      },
+        "value": "Affy5.0", 
+        "description": "Affymetrix Genome-Wide Human SNP 5.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
+      }, 
       {
-        "value": "Affy6.0",
-        "description": "",
-        "source": ""
-      },
+        "value": "Affy6.0", 
+        "description": "Affymetrix Genome-Wide Human SNP 6.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
+      }, 
       {
-        "value": "PacBioRSII",
-        "description": "",
-        "source": ""
-      },
+        "value": "PacBioRSII", 
+        "description": "PacBio RS II (Homo sapiens)", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
+      }, 
       {
         "value": "GAIIx",
         "description": "",
@@ -871,10 +906,10 @@
         "source": ""
       },
       {
-        "value": "IlluminaWholeGenomeDASL",
-        "description": "",
-        "source": ""
-      },
+        "value": "IlluminaWholeGenomeDASL", 
+        "description": "Illumina Human Whole-Genome DASL HT", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
+      }, 
       {
         "value": "IlluminaHumanHap300",
         "description": "",
@@ -886,25 +921,25 @@
         "source": ""
       },
       {
-        "value": "LTQOrbitrapXL",
-        "description": "",
-        "source": ""
-      },
+        "value": "LTQOrbitrapXL", 
+        "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer", 
+        "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
+      }, 
       {
-        "value": "IlluminaHumanMethylation450",
-        "description": "",
-        "source": ""
-      },
+        "value": "IlluminaHumanMethylation450", 
+        "description": "Illumina HumanMethylation450 BeadChip ", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
+      }, 
       {
         "value": "AffymetrixU133AB",
         "description": "",
         "source": ""
       },
       {
-        "value": "AffymetrixU133Plus2",
-        "description": "",
-        "source": ""
-      },
+        "value": "AffymetrixU133Plus2", 
+        "description": "Affymetrix Human Genome U133 Plus 2.0 Array", 
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
+      }, 
       {
         "value": "confocalImaging",
         "description": "",
@@ -1033,6 +1068,36 @@
       },
       {
         "value": "CD8+ T-Cells",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "primary arachnoid",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "arachnoid",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "primary meningioma",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "meningioma",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "schwannoma",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "schwann",
         "description": "",
         "source": ""
       }
@@ -1255,30 +1320,30 @@
     ]
   },
   {
-    "name": "species",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "species", 
+    "description": "The name of a species (typically a taxonomic group) of organism.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "Human",
-        "description": "",
-        "source": ""
-      },
+        "value": "Human", 
+        "description": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Mouse",
-        "description": "",
-        "source": ""
-      },
+        "value": "Mouse", 
+        "description": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Rat",
-        "description": "",
-        "source": ""
-      },
+        "value": "Rat", 
+        "description": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10114&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      }, 
       {
-        "value": "Drosophila melanogaster",
-        "description": "",
-        "source": ""
+        "value": "Drosophila melanogaster", 
+        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly", 
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
       }
     ]
   }
