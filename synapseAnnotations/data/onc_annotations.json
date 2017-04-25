@@ -99,7 +99,7 @@
         "source": " http://purl.obolibrary.org/obo/ERO_0001726"
       },
       {
-        "value":"compoundLibraryScreen",
+        "value":"combinationLibraryScreen",
         "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.",
         "source":"http://purl.obolibrary.org/obo/ERO_0001686"
       }
@@ -164,7 +164,7 @@
     "enumValues": []
   }, 
   {
-    "name": "geneScreened", 
+    "name": "genePerturbed", 
     "description": "In the case of gene modulation, this describes the gene or genes that were modulated", 
     "columnType": "STRING", 
     "maximumSize": 250, 
