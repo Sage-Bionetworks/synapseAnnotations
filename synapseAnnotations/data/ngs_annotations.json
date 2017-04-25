@@ -1,21 +1,114 @@
-{
-    "runType": [
-        "singleEnd",
-        "pairedEnd"
-
-    ],
-    "readLength": [
-
-    ],
-    "isStranded": [
-        true,
-        false
-
-    ],
-    "libraryPrep": [
-        "rRNAdepletion",
-        "polyAselection",
-        "lncRNAenrichment",
-        "miRNAenrichment"
+[
+  {
+    "name": "runType",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "singleEnd",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "pairedEnd",
+        "description": "",
+        "source": ""
+      }
     ]
-}
+  },
+  {
+    "name": "isStranded",
+    "description": "",
+    "columnType": "BOOLEAN",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": true,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": false,
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "readPairOrientation",
+    "description": "the relative orientation of the reads in a paired-end protocol",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "inward",
+        "description": "reads face each other",
+        "source": ""
+      },
+      {
+        "value": "outward",
+        "description": "reads face away from each other",
+        "source": ""
+      },
+      {
+        "value": "matching",
+        "description": "reads face the same direction",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "readStrandOrigin",
+    "description": "the strand from which the read originates in a strand-specific protocol",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "forward",
+        "description": "read 1 (or unpaired read) comes from the forward strand and read 2 (if applicable) comes from the reverse strand; equivalent to Tophat 'fr-secondstrand' type",
+        "source": ""
+      },
+      {
+        "value": "reverse",
+        "description": "read 1 (or unpaired read) comes from the reverse strand and read 2 (if applicable) comes from the forward strand; equivalent to Tophat 'fr-firststrand' type",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "readLength",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "libraryPrep",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "rRNAdepletion",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "polyAselection",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "lncRNAenrichment",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "miRNAenrichment",
+        "description": "",
+        "source": ""
+      }
+    ]
+  }
+]
