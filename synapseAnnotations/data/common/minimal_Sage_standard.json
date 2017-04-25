@@ -174,63 +174,63 @@
   },
   {
     "name": "organ", 
-    "description": "The organ from which the tissue is derived", 
+    "description": "The organ from which the sample is derived", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "skin", 
-        "description": "", 
+        "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
       }, 
       {
         "value": "nerves", 
-        "description": "", 
+        "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000925"
       }, 
       {
         "value": "brain", 
-        "description": "", 
+        "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000142"
       }, 
       {
         "value": "blood", 
-        "description": "", 
+        "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000089"
       }, 
       {
         "value": "breast", 
-        "description": "", 
+        "description": "The fore or ventral part of the body between the neck and the abdomen.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000149"
       }, 
       {
         "value": "colon", 
-        "description": "", 
+        "description": "The part of the large intestine that extends from the cecum to the rectum.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000269"
       }, 
       {
         "value": "lung", 
-        "description": "", 
+        "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000763"
       }, 
       {
         "value": "prostate", 
-        "description": "", 
+        "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.", 
         "source": "http://purl.obolibrary.org/obo/FMA_9600"
       }, 
       {
         "value": "pancreas", 
-        "description": "", 
+        "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000988"
       }, 
       {
         "value": "ovary", 
-        "description": "", 
+        "description": "One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000975"
       }, 
       {
         "value": "spleen", 
-        "description": "", 
+        "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
       }
     ]
@@ -570,37 +570,32 @@
       {
         "value": "CommonMind Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn2759792/wiki/69613"
+        "source": "https://www.synapse.org/cmc"
       }, 
       {
         "value": "PsychENCODE Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn4921369/wiki/235539"
+        "source": "https://www.synapse.org/pec"
       }, 
       {
         "value": "AMP-AD", 
         "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
-        "source": "https://www.nia.nih.gov/alzheimers/amp-ad"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "MODEL-AD", 
         "description": "Model Development and Evaluation for Late Onset AD", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=32257886&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "M2OVE-AD", 
         "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
-        "source": "https://www.nih.gov/news-events/news-releases/decoding-molecular-ties-between-vascular-disease-alzheimers"
-      }, 
-      {
-        "value": "Synodos", 
-        "description": "", 
-        "source": "http://www.ctf.org/research/synodos"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "BSMN", 
         "description": "Brain Somatic Mosaicism Network", 
-        "source": "https://www.synapse.org/#!Synapse:syn7344947/wiki/407304"
+        "source": "https://www.synapse.org/bsmn"
       }, 
       {
         "value": "CSBC", 
@@ -620,22 +615,22 @@
       {
         "value": "Synodos NF1", 
         "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/ctf"
       }, 
       {
         "value": "Synodos NF2", 
         "description": "Data derived from the CTF-funded NF2 Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/syndosnf2"
       }, 
       {
         "value": "Synodos LGG", 
         "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
-        "source": ""
+        "source": "http://www.synapse.org/nf1lgg"
       }, 
       {
         "value": "DHART SPORE", 
         "description": "Data from the D-HART SPORE", 
-        "source": ""
+        "source": "http://www.synapse.org/dhart"
       },
       {
         "value": "Not Applicable", 
