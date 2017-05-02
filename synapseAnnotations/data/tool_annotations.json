@@ -4,72 +4,25 @@
     "softwareVersion": [],
     "softwareTag": [],
     "softwareType": [
-        "script",
-        "packageLibrary",
-        "packageBinary",
-        "container",
-        "workflow",
-        "containerTool"
+        "script"
     ],
-    "scriptPlatform": [
+    "scriptLanguage": [
         "R",
         "Python",
         "Matlab",
         "Shell"
     ],
-    "scriptPlatformVersion": [],
-    "packageLibraryPlatform": [
-        "R",
-        "Python",
-        "Java",
-        "Perl"
-    ],
-    "packageLibraryPlatformVersion": [],
-    "packageBinaryPlatform": [
-        "Windows",
-        "OSX",
-        "Linux"
-    ],
-    "packageBinaryPlatformVersion": [],
-    "containerPlatform": [
-        "Docker",
-        "Singularity"
-    ],
-    "containerPlatformVersion": [],
-    "containerTag": [],
-    "workflowPlatform": [
-        "Nextflow",
-        "Galaxy",
-        "Snakemake",
-        "Rufus",
-        "CWL",
-        "WDL"
-    ],
-    "workflowPlatformVersion": [],
-    "containerToolPlatform": [
-        "Docker-CWL",
-        "Docker-WDL"
-    ],
-    "containerToolTag": [],
+    "scriptLanguageVersion": [],
     "softwareRepository": [
         "Synapse",
         "GitHub",
         "GitLab",
-        "BitBucket",
-        "CRAN",
-        "BioConductor",
-        "Biocontainers",
-        "DockerHub",
-        "Quay",
-        "Dockstore"
+        "BitBucket"
     ],
     "softwareRepositoryType": [
         "fileStore",
-        "sourceCode",
-        "packageManager",
-        "containerRegistry",
-        "containerToolRegistry"
-    ], 
+        "sourceCode"
+    ],
     "inputDataType":[
         "genomicVariants",
         "image",

@@ -1,0 +1,93 @@
+{
+    "softwareName": [],
+    "softwareAuthor": [],
+    "softwareVersion": [],
+    "softwareTag": [],
+    "softwareType": [
+        "script",
+        "packageLibrary",
+        "packageBinary",
+        "container",
+        "workflow",
+        "containerTool"
+    ],
+    "scriptPlatform": [
+        "R",
+        "Python",
+        "Matlab",
+        "Shell"
+    ],
+    "scriptPlatformVersion": [],
+    "packageLibraryPlatform": [
+        "R",
+        "Python",
+        "Java",
+        "Perl"
+    ],
+    "packageLibraryPlatformVersion": [],
+    "packageBinaryPlatform": [
+        "Windows",
+        "OSX",
+        "Linux"
+    ],
+    "packageBinaryPlatformVersion": [],
+    "containerPlatform": [
+        "Docker",
+        "Singularity"
+    ],
+    "containerPlatformVersion": [],
+    "containerTag": [],
+    "workflowPlatform": [
+        "Nextflow",
+        "Galaxy",
+        "Snakemake",
+        "Rufus",
+        "CWL",
+        "WDL"
+    ],
+    "workflowPlatformVersion": [],
+    "containerToolPlatform": [
+        "Docker-CWL",
+        "Docker-WDL"
+    ],
+    "containerToolTag": [],
+    "softwareRepository": [
+        "Synapse",
+        "GitHub",
+        "GitLab",
+        "BitBucket",
+        "CRAN",
+        "BioConductor",
+        "Biocontainers",
+        "DockerHub",
+        "Quay",
+        "Dockstore"
+    ],
+    "softwareRepositoryType": [
+        "fileStore",
+        "sourceCode",
+        "packageManager",
+        "containerRegistry",
+        "containerToolRegistry"
+    ],
+    "inputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
+    ],
+    "outputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
+    ]
+}
