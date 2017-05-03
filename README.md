@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations.svg?branch=master)](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations)
+ branch  | build status
+ --------|--------------
+master | [![Build Status](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations.svg?branch=master)](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations)
 
 # Introduction
 
@@ -6,7 +8,27 @@ Sage Bionetworks derived standards for annotating content in Synapse.
 
 # Schemas
 
-Schemas are stored here in [Synapse Table Schema](http://docs.synapse.org/articles/tables.html) format. A schema is a list of [`Column Model`s](http://docs.synapse.org/rest/org/sagebionetworks/repo/model/table/ColumnModel.html) in JSON format.
+Schemas are stored here in an extension of the [Synapse Table Schema](http://docs.synapse.org/articles/tables.html) format. A schema is a list of [`Column Model`s](http://docs.synapse.org/rest/org/sagebionetworks/repo/model/table/ColumnModel.html) in JSON format. A valid record looks like:
+
+```json
+{
+    "name": "mykey", 
+    "description": "A description of this key in one complete sentence.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "myValue1", 
+        "description": "A description of myValue1", 
+        "source": "http://...."
+      }, 
+      {
+        "value": "myValue2", 
+        "description": "A description of myValue2.", 
+        "source": "http://..."
+      }]
+}
+```
 
 Column types are required, and the valid types can be found [here](http://docs.synapse.org/rest/org/sagebionetworks/repo/model/table/ColumnType.html).
 
