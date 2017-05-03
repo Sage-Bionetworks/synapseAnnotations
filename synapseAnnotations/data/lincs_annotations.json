@@ -1,0 +1,634 @@
+[
+  {
+    "name": "rawDataVersion", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "CellLine", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "MCF10A", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC240L", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC122L", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Level", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Metadata", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Analysis", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "QA_Cell", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "QA_SpotMEP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SSC", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "DataType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Metadata", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "ImageID", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Quantitative Imaging", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Study", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "mcf10a_ss2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MCF10A_SS2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec240l_ss4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec240l_ss1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec122l_ss1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec122l_ss4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mcf10a_ss1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mcf10a_ss3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MCF10A_SS1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "MCF10A_SS3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC240L_SS1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC240L_SS4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC122L_SS1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC122L_SS4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec122l_ssc", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "hmec240l_ssc", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mcf10a_ssc", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Barcode", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "LI8X00528", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00651", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00652", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00653", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00654", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00655", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00656", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00657", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00658", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00611", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00612", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00613", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00614", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00615", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00616", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00617", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00618", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00641", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00642", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00643", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00644", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00645", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00646", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00647", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00648", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00631", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00632", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00633", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00634", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00635", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00636", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00637", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00638", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00519", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00520", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00521", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00522", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00523", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00524", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00525", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00526", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00529", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00530", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00531", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00532", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00533", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00534", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00535", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00510", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00511", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00512", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00513", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00514", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00515", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00516", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "LI8X00517", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Well", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "Segmentation", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "v2", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Drug", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "none", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "StainingSet", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "SS2", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SS4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SS1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SS3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SS2noH3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "SSC", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "StudyName", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "HMEC240L_SS4", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "HMEC240L_SS1", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Location", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "Activity", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Analyze Replicates", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "QA Cell Level", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "QA Spot and MEP Level", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Preprocess", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "v1.8", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "Consortia", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "MEP-LINCS", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }
+]
