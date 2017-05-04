@@ -13,7 +13,7 @@ Schemas are stored here in an extension of the [Synapse Table Schema](http://doc
 ```json
 {
     "name": "mykey", 
-    "description": "A description of this key in one complete sentence.", 
+    "description": "A description of this key in one sentence or clause.", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
@@ -24,7 +24,7 @@ Schemas are stored here in an extension of the [Synapse Table Schema](http://doc
       }, 
       {
         "value": "myValue2", 
-        "description": "A description of myValue2.", 
+        "description": "A description of myValue2", 
         "source": "http://..."
       }]
 }
