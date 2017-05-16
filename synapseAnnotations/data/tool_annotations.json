@@ -3,7 +3,10 @@
     "softwareAuthor": [],
     "softwareVersion": [],
     "softwareType": [
-        "script"
+        "script",
+        "packageLibrary",
+        "packageBinary",
+        "container"
     ],
     "scriptLanguage": [
         "R",
@@ -16,11 +19,20 @@
         "Synapse",
         "GitHub",
         "GitLab",
-        "BitBucket"
+        "BitBucket",
+        "CRAN",
+        "BioConductor",
+        "Biocontainers",
+        "DockerHub",
+        "Quay",
+        "Dockstore"
     ],
     "softwareRepositoryType": [
         "fileStore",
-        "sourceCode"
+        "sourceCode",
+        "packageManager",
+        "containerRegistry",
+        "containerToolRegistry"
     ],
     "inputDataType":[
         "genomicVariants",
