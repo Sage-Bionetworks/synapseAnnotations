@@ -151,7 +151,7 @@
         "value": "questionnaire", 
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.", 
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
-      },
+      }
     ]
   },
   {
