@@ -34,7 +34,7 @@
     "name": "keyName3",
     "description": "Key description",
     "columnType": "STRING",
-    "maximumSize": 250
+    "maximumSize": 250,
     "enumValues": []
   }
 ]
