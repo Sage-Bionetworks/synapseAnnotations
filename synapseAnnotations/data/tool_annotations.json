@@ -1,0 +1,57 @@
+{
+    "softwareName": [],
+    "softwareAuthor": [],
+    "softwareVersion": [],
+    "softwareType": [
+        "script",
+        "packageLibrary",
+        "packageBinary",
+        "container"
+    ],
+    "scriptLanguage": [
+        "R",
+        "Python",
+        "Matlab",
+        "Shell"
+    ],
+    "scriptLanguageVersion": [],
+    "softwareRepository": [
+        "Synapse",
+        "GitHub",
+        "GitLab",
+        "BitBucket",
+        "CRAN",
+        "BioConductor",
+        "Biocontainers",
+        "DockerHub",
+        "Quay",
+        "Dockstore"
+    ],
+    "softwareRepositoryType": [
+        "fileStore",
+        "sourceCode",
+        "packageManager",
+        "containerRegistry",
+        "containerToolRegistry"
+    ],
+    "inputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
+    ],
+    "outputDataType":[
+        "genomicVariants",
+        "image",
+        "geneExpression",
+        "isoformExpression",
+        "proteomics",
+        "drugScreen",
+        "cellularPhysiology",
+        "chromatinActivity"
+    ]
+}
