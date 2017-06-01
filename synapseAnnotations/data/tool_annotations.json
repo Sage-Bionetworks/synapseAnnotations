@@ -8,13 +8,13 @@
         "packageBinary",
         "container"
     ],
-    "scriptLanguage": [
+    "softwareLanguage": [
         "R",
         "Python",
         "Matlab",
         "Shell"
     ],
-    "scriptLanguageVersion": [],
+    "softwareLanguageVersion": [],
     "softwareRepository": [
         "Synapse",
         "GitHub",
