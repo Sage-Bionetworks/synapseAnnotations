@@ -275,7 +275,7 @@
     ]
   }, 
   {
-    "name": "dnaAlignmentMethod", 
+    "name": "AlignmentMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -292,6 +292,36 @@
       }, 
       {
         "value": "bowtie2", 
+        "description": "", 
+        "source": ""
+      }
+      {
+        "value": "SNAPR", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "GSNAP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "topHat", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "mosaic", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "novoAlign", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "olego", 
         "description": "", 
         "source": ""
       }
@@ -474,49 +504,6 @@
       }, 
       {
         "value": "barChart", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
-    "name": "rnaAlignmentMethod", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "SNAPR", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "STAR", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GSNAP", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "topHat", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "mosaic", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "novoAlign", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "olego", 
         "description": "", 
         "source": ""
       }
