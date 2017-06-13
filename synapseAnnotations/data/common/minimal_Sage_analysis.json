@@ -275,7 +275,7 @@
     ]
   }, 
   {
-    "name": "AlignmentMethod", 
+    "name": "alignmentMethod", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -294,7 +294,7 @@
         "value": "bowtie2", 
         "description": "", 
         "source": ""
-      }
+      },
       {
         "value": "SNAPR", 
         "description": "", 
