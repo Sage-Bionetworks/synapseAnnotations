@@ -176,8 +176,7 @@
         "value": "LC_MS/MS", 
         "description": "", 
         "source": ""
-        }, 
-      }
+        }
     ]
   },
   {
@@ -639,7 +638,6 @@
         "value": "entorhinal cortex",
         "description": "",
          "source": ""
-        "source": ""
          },
       {
         "value": "forebrain",
