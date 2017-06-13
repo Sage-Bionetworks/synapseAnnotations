@@ -73,7 +73,7 @@
         "source": ""
       }, 
       {
-        "value": "Broad-Rush", 
+        "value": "Columbia-Broad-Rush", 
         "description": "", 
         "source": ""
       }, 
@@ -88,6 +88,31 @@
         "source": ""
       }, 
       {
+        "value": "IU-JAX", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "Columbia-SUNY", 
+        "description": "", 
+        "source": ""
+         }, 
+      {
+        "value": "Mayo", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "Lilly", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "GSK", 
+        "description": "", 
+        "source": ""
+      }, 
+      { 
         "value": "Harvard-MIT", 
         "description": "", 
         "source": ""
@@ -367,7 +392,7 @@
         "source": ""
       }, 
       {
-        "value": "IL10", 
+        "value": "IL10_APPmouse", 
         "description": "", 
         "source": ""
       }, 
@@ -412,7 +437,7 @@
         "source": ""
       }, 
       {
-        "value": "Lilly_microgliaRNAseq", 
+        "value": "LillyMicroglia", 
         "description": "", 
         "source": ""
       }, 
@@ -453,6 +478,46 @@
       }, 
       {
         "value": "EmoryDrosophilaTau", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "HDAC1-cKOBrain", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "U1-70_PrimaryCellCulture", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "MSMM", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "TauD35", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "APOE-TR", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "JAX_APPPS1", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "SY5Y_Emory", 
+        "description": "", 
+        "source": ""
+         }, 
+      {
+        "value": "iPSCMicroglia", 
         "description": "", 
         "source": ""
       }, 
@@ -605,6 +670,24 @@
       {
         "value": "TYROBP_KO.KO", 
         "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "isModelSystem",
+    "description": "",
+    "columnType": "BOOLEAN",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": true,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": false,
+        "description": "",
         "source": ""
       }
     ]
