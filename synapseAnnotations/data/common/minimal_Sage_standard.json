@@ -151,7 +151,32 @@
         "value": "questionnaire", 
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.", 
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
-      }
+        }, 
+      {
+        "value": "ELISA", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "activePlaceAvoidanceTest", 
+        "description": "", 
+        "source": ""
+         }, 
+      {
+        "value": "longTermPotentiation", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "spontaneousLocalFieldPotentials", 
+        "description": "", 
+        "source": ""
+        }, 
+      {
+        "value": "LC_MS/MS", 
+        "description": "", 
+        "source": ""
+        }
     ]
   },
   {
@@ -242,6 +267,16 @@
         "value": "spleen", 
         "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
+        }, 
+      {
+        "value": "CSF", 
+        "description": "", 
+        "source": ""
+         }, 
+      {
+        "value": "spinal cord", 
+        "description": "", 
+        "source": ""
       }
     ]
   },
@@ -338,6 +373,26 @@
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
+         },
+      {
+        "value": "behavioralAnalysis",
+        "description": "",
+        "source": ""
+        },
+      {
+        "value": "clinical",
+        "description": "",
+        "source": ""
+         },
+      {
+        "value": "assayCovariates",
+        "description": "",
+        "source": ""
+         },
+      {
+        "value": "electrophysiology",
+        "description": "",
+        "source": ""
       }
     ]
   },
@@ -573,6 +628,21 @@
         "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
+         },
+      {
+        "value": "dentate gyrus",
+        "description": "",
+         "source": ""
+         },
+      {
+        "value": "entorhinal cortex",
+        "description": "",
+         "source": ""
+         },
+      {
+        "value": "forebrain",
+        "description": "",
+         "source": ""
       }
     ]
   },
@@ -1035,7 +1105,7 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
       },
       {
-        "value": "induced pluripotent stem cells",
+        "value": "iPSCs",
         "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
       },
@@ -1138,6 +1208,31 @@
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+        },
+      {
+        "value": "monocyte derived macrophages",
+        "description": "",
+        "source": ""
+        },
+      {
+        "value": "monocyte derived microglia",
+        "description": "",
+        "source": ""
+        },
+      {
+        "value": "iPSC derived neurons",
+        "description": "",
+        "source": ""
+        },
+      {
+        "value": "iPSC derived neural progenitor cells",
+        "description": "",
+        "source": ""
+        },
+      {
+        "value": "iPSC derived microglia",
+        "description": "",
+        "source": ""
       }
     ]
   },
