@@ -574,5 +574,18 @@
         "source": ""
       }
     ]
-  }
+  },
+    {
+    "name": "transcriptNormalizationMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "fpkm", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  } 
 ]
