@@ -1389,23 +1389,5 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
       }
     ]
-  },
-  {
-    "name": "isGenomewideNetwork", 
-    "description": "Boolean flag indicating whether or not it is a full network or single module(s)", 
-    "columnType": "BOOLEAN", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
   }
 ]
