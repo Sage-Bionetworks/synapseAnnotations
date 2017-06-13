@@ -522,6 +522,7 @@
       }
     ]
   }, 
+  {
       "name": "transcriptAssemblyMethod", 
     "description": "", 
     "columnType": "STRING", 
