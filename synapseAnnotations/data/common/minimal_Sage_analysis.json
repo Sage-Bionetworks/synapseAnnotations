@@ -585,6 +585,11 @@
         "value": "fpkm", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "TMM", 
+        "description": "", 
+        "source": ""
       }
     ]
   } 
