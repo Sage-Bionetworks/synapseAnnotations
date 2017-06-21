@@ -46,7 +46,7 @@ def json2flatten(path, project):
             flatten_df = rows
         else:
             df = pandas.io.json.json_normalize(json_record['enumValues'][i])
-            # re-name columns to match table on synapse schema (syn9817606)
+            # re-name columns to match table on synapse schema
             df = df.rename(columns={'value': 'enumValues_value', 'description': 'enumValues_description',
                                     'source': 'enumValues_source'})
 
