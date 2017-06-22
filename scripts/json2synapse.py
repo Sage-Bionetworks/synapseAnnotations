@@ -147,19 +147,19 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     if not changedSchema.empty or not changedKeysRows.empty:
 
         if not changedSchema.empty and changedKeysRows.empty:
-            print("not updatedRows.empty")
+            print("Deleting rows with updated schema")
             changedSchema.set_index('index', inplace=True, drop=True)
             toDelete = changedSchema
             deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
 
         if not changedKeysRows.empty and changedSchema.empty:
-            print("not changedKeysRows.empty")
+            print("Deleting rows with updated keys")
             changedKeysRows.set_index('index', inplace=True, drop=True)
             toDelete = changedKeysRows
             deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
 
         if not changedSchema.empty and not changedKeysRows.empty:
-            print("not updatedRows.empty and not changedKeysRows.empty")
+            print("Deleting rows with updated keys and schema")
             changedSchema.set_index('index', inplace=True, drop=True)
             changedKeysRows.set_index('index', inplace=True, drop=True)
             toDelete = pandas.concat([changedKeysRows, changedSchema])
