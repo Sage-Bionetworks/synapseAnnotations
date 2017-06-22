@@ -31,16 +31,16 @@ pip install -r requirements.txt
 synapseAnnotations release version tags structure **v0.0.0** fits within [semantic versioning](http://semver.org/) guidelines. 
 The tags release numbering scheme is defined as: 
 
-Major version increments the version number **v0** by:
+Major version **v0** increments by:
 1. Changes in data structure (ex. yaml to json or json to mongodb)
 2. Changes in keys 
 3. Changes in values 
 
-Minor version **.0.** increments by 
+Minor version **.0.** increments by: 
 1. Adding keys
 2. Adding values 
 
-Patch version **.0** increments by 
+Patch version **.0** increments by: 
 1. Errors that don't break the API 
 
 To optimize usability, the release tags will be placed on 2 required and 1 optional locations: 
