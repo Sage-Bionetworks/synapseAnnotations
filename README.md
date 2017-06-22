@@ -40,7 +40,7 @@ Minor version **.0.** increments by
 1. Adding keys
 2. Adding values 
 
-PATCH version **.0** increments by 
+Patch version **.0** increments by 
 1. Errors that don't break the API 
 
 To optimize usability, the release tags will be placed on 2 required and 1 optional locations: 
