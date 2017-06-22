@@ -27,3 +27,23 @@ or use the provided [requirements.txt](requirements.txt) file provided in this r
 ```
 pip install -r requirements.txt
 ```
+# Release Versioning Annotations  
+synapseAnnotations release version tags structure **v0.0.0** fits within [semantic versioning](http://semver.org/) guidelines. 
+The tags release numbering scheme is defined as: 
+
+Major version increments the version number **v0** by:
+1. Changes in data structure (ex. yaml to json or json to mongodb)
+2. Changes in keys 
+3. Changes in values 
+
+Minor version **.0.** increments by 
+1. Adding keys
+2. Adding values 
+
+PATCH version **.0** increments by 
+1. Errors that don't break the API 
+
+To optimize usability, the release tags of will be placed on 2 required and 1 optional locations: 
+1. A Synapse project's entity annotation as a single value vs. list of versions and defined by the key **annotationVersion** uniformly throug synapse projects. 
+2. [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI) **title** 
+3. OPTIONAL: **Project's wiki** 
