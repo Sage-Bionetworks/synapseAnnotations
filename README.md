@@ -47,3 +47,7 @@ To optimize usability, the release tags will be placed on 2 required and 1 optio
 1. A Synapse project's entity annotation as a single value vs. list of versions and defined by the key **annotationVersion** uniformly throug synapse projects. 
 2. [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI) **title** 
 3. OPTIONAL: **Project's wiki** 
+
+**Note:** _Git Commit messages including the words **added** or **changed** would facilitate the release version incrementation process_ 
+
+
