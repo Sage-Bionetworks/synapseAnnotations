@@ -44,7 +44,7 @@ Patch version **.0** increments by:
 1. Errors that don't break the API 
 
 To optimize usability, the release tags will be placed on 2 required and 1 optional locations: 
-1. A Synapse project's entity annotation as a single value vs. list of versions and defined by the key **annotationVersion** uniformly throug synapse projects. 
+1. A Synapse project's entity annotation as a single value vs. list of versions and defined by the key **annotationVersion** uniformly through synapse projects. 
 2. [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI) **title** 
 3. OPTIONAL: **Project's wiki** 
 
