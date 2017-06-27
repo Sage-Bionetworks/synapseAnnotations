@@ -700,8 +700,8 @@
     "enumValues": [
       {
         "value": "APP/PS1", 
-        "description": "", 
-        "source": ""
+        "description": "Double transgenic mice express a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9) both directed to CNS neurons. ", 
+        "source": "https://www.jax.org/strain/004462"
       }
     ]
   }, 
