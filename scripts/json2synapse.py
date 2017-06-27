@@ -66,7 +66,7 @@ def json2flatten(path, project):
 
 
 def rightJoin(df1, df2, key, suffixes):
-    # rows in df2 that are not in df1 based on unique keys (can be a list) of both dataframes
+    # rows in df2 that are not in df1 based on unique keys (can be a list) 
     df3 = pandas.merge(df1, df2, on=key, how='right', indicator='Exist', suffixes=suffixes)
     df3['Exist'] = numpy.where(df3.Exist == 'both', True, False)
     return df3
@@ -105,7 +105,7 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     else:
         print("Unique keys in schema exist and pursuing")
 
-    # Test cases: change in a non-key column cell and change in value one of unique keys
+    # Test cases: change a non-key column cell (valuesDescription) and change a unique key cell (value)
     # newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing'
     # newTable.iloc[1, newTable.columns.get_loc('value')] = 'miRNASEQ'
 
@@ -197,7 +197,8 @@ def main():
 
     all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
                                "source", "project"]
-
+    
+    # save the table as a csv file 
     # all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
     # all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
 
