@@ -1,0 +1,40 @@
+[
+  {
+    "name": "keyName1", 
+    "description": "Key description", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "keyValue1", 
+        "description": "value description", 
+        "source": "link to source"
+      }
+    ]
+  }, 
+  {
+    "name": "keyName2", 
+    "description": "Key 2 description", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "keyValue1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "keyValue2", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "keyName3",
+    "description": "Key description",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  }
+]

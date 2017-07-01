@@ -1,7 +1,7 @@
 [
   {
     "name": "specimenID",
-    "description": "",
+    "description": "Identifying string linked to a particular sample or specimen",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
@@ -108,15 +108,10 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000459"
       }, 
       {
-        "value": "drugViabilityAssay", 
+        "value": "cellViabilityAssay", 
         "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
         "source": "http://www.bioassayontology.org/bao#BAO_0003009"
-      }, 
-      {
-        "value": "drugCombinationAssay", 
-        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
-        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
-      }, 
+      },
       {
         "value": "atomicForceMicroscopy", 
         "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen", 
@@ -146,178 +141,188 @@
         "value": "MIB/MS", 
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)", 
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "MudPIT", 
+        "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry", 
+        "source": "http://purl.obolibrary.org/obo/MI_0658"
+      }, 
+      {
+        "value": "questionnaire", 
+        "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0001000"
       }
     ]
   },
   {
-    "name": "dataSubtype",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "dataSubtype", 
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "dataMatrix",
-        "description": "",
+        "value": "dataMatrix", 
+        "description": "A file of data containing multiple values for multiple samples.", 
         "source": ""
       },
       {
-        "value": "raw",
-        "description": "",
+        "value": "raw", 
+        "description": "A data file produced by an instrument, or one with very little subsequent processing.", 
         "source": ""
       },
       {
-        "value": "processed",
-        "description": "",
+        "value": "processed", 
+        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.", 
         "source": ""
       },
       {
-        "value": "metadata",
-        "description": "",
+        "value": "metadata", 
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.", 
         "source": ""
       }
     ]
   },
   {
     "name": "organ", 
-    "description": "The organ from which the tissue is derived", 
+    "description": "The organ from which the sample is derived", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "skin", 
-        "description": "", 
+        "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
       }, 
       {
         "value": "nerves", 
-        "description": "", 
+        "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000925"
       }, 
       {
         "value": "brain", 
-        "description": "", 
+        "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000142"
       }, 
       {
         "value": "blood", 
-        "description": "", 
+        "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000089"
       }, 
       {
         "value": "breast", 
-        "description": "", 
+        "description": "The fore or ventral part of the body between the neck and the abdomen.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000149"
       }, 
       {
         "value": "colon", 
-        "description": "", 
+        "description": "The part of the large intestine that extends from the cecum to the rectum.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000269"
       }, 
       {
         "value": "lung", 
-        "description": "", 
+        "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000763"
       }, 
       {
         "value": "prostate", 
-        "description": "", 
+        "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.", 
         "source": "http://purl.obolibrary.org/obo/FMA_9600"
       }, 
       {
         "value": "pancreas", 
-        "description": "", 
+        "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000988"
       }, 
       {
         "value": "ovary", 
-        "description": "", 
+        "description": "One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0000975"
       }, 
       {
         "value": "spleen", 
-        "description": "", 
+        "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.", 
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
       }
     ]
   },
   {
-    "name": "fundingAgency",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "fundingAgency", 
+    "description": "The organization providing financial support for generation of this data.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "CTF",
-        "description": "",
-        "source": ""
-      },
+        "value": "CTF", 
+        "description": "Childrens' Tumor Foundation", 
+        "source": "http://www.ctf.org"
+      }, 
       {
-        "value": "NIH-NCI",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NCI", 
+        "description": "National Institutes of Health - National Cancer Institute", 
+        "source": "https://www.cancer.gov"
+      }, 
       {
-        "value": "NTAP",
-        "description": "",
-        "source": ""
-      },
+        "value": "NTAP", 
+        "description": "Neurofibromatosis Therapeutic Acceleration Program", 
+        "source": "http://www.n-tap.org"
+      }, 
       {
-        "value": "NIH-NIA",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIA", 
+        "description": "National Institutes of Health - National Institute of Aging", 
+        "source": "https://www.nia.nih.gov"
+      }, 
       {
-        "value": "NIH-NIMH",
-        "description": "",
-        "source": ""
-      },
+        "value": "NIH-NIMH", 
+        "description": "National Institutes of Health - National Institute of Mental Health", 
+        "source": "https://www.nimh.nih.gov"
+      }, 
       {
-        "value": "AACR",
-        "description": "",
-        "source": ""
+        "value": "AACR", 
+        "description": "American Association for Cancer Research", 
+        "source": "http://www.aacr.org"
       }
     ]
   },
   {
     "name": "dataType",
-    "description": "",
+    "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "genomicVariants",
-        "description": "",
-        "source": ""
+        "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
       },
       {
         "value": "image",
-        "description": "",
-        "source": ""
+        "description": "Biological or biomedical data that has been rendered into an image.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_2968"
       },
       {
         "value": "geneExpression",
-        "description": "",
-        "source": ""
+        "description": "The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0203"
       },
       {
         "value": "isoformExpression",
-        "description": "",
-        "source": ""
+        "description": "Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
+        "source": "https://en.wikipedia.org/wiki/Protein_isoform"
       },
       {
         "value": "proteomics",
-        "description": "",
-        "source": ""
+        "description": "Protein and peptide identification, especially in the study of whole proteomes of organisms.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0121"
       },
       {
         "value": "kinomics",
-        "description": "",
-        "source": ""
+        "description": "Kinomics is the study of protein kinases and protein kinase signaling.",
+        "source": "http://www.kinomecore.com/what-is-kinomics/"
       },
       {
         "value": "drugScreen",
-        "description": "",
-        "source": ""
+        "description": "Information on drug sensitivity and molecular markers of drug response",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531057/"
       },
       {
         "value": "cellularPhysiology",
@@ -326,8 +331,13 @@
       },
       {
         "value": "chromatinActivity",
-        "description": "",
-        "source": ""
+        "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
+        "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
+      },
+      {
+        "value": "surveyData",
+        "description": "A data set that contains the outcome of a survey.",
+        "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       }
     ]
   },
@@ -340,144 +350,144 @@
   },
   {
     "name": "tissue",
-    "description": "",
+    "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "cerebral cortex",
-        "description": "",
-        "source": ""
+        "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
       },
       {
         "value": "frontal lobe",
-        "description": "",
-        "source": ""
+        "description": "Frontal lobe is the anterior-most of five lobes of the cerebral hemisphere. It is bounded by the central sulcus on its posterior border and by the longitudinal cerebral fissure on its medial border.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016525"
       },
       {
         "value": "hippocampus",
-        "description": "",
-        "source": ""
+        "description": "A curved elongated ridge that extends over the floor of the descending horn of each lateral ventricle of the brain and consists of gray matter covered on the ventricular surface with white matter.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000601"
       },
       {
         "value": "nerve tissue",
-        "description": "",
-        "source": ""
+        "description": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714"
       },
       {
         "value": "dorsolateral prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Broadly-defined, consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0009834"
       },
       {
         "value": "anterior cingulate cortex",
-        "description": "",
-        "source": ""
+        "description": "That portion of the cingulate cortex which is located within the frontal lobe (the remainder being in the parietal lobe).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004249"
       },
       {
         "value": "frontal pole",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002795"
       },
       {
         "value": "parahippocampal gyrus",
-        "description": "",
-        "source": ""
+        "description": "A long convolution on the medial surface of the temporal lobe, forming the lower part of the fornicate gyrus, extending from behind the splenium corporis callosi forward along the dentate gyrus of the hippocampus from which it is demarcated by the hippocampal fissure.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004380"
       },
       {
         "value": "superior temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the ssuperior temporal sulcus. The caudal boundary is the cauday portion of the superior temporal gyrus (posterior to becoming continuous with the supramarginal gyrus).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002769"
       },
       {
         "value": "inferior frontal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002998"
       },
       {
         "value": "cerebellum",
-        "description": "",
-        "source": ""
+        "description": "Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002037"
       },
       {
         "value": "occipital visual cortex",
-        "description": "",
-        "source": ""
+        "description": "The area of the occipital lobe of the cerebral cortex concerned with vision.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001857"
       },
       {
         "value": "inferior temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002751"
       },
       {
         "value": "middle temporal gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002771"
       },
       {
         "value": "posterior cingulate cortex",
-        "description": "",
-        "source": ""
+        "description": "Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022353"
       },
       {
         "value": "temporal pole",
-        "description": "",
-        "source": ""
+        "description": "Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002576"
       },
       {
         "value": "precentral gyrus",
-        "description": "",
-        "source": ""
+        "description": "Component of the frontal lobe. The appearance and disappearance of the central sulcus is the rostral and caudal boundaries of the precentral gyrus respectively.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002703"
       },
       {
         "value": "superior parietal lobe",
-        "description": "",
-        "source": ""
+        "description": "A superficial feature of the parietal lobe that extends from the dorsal surface of the superior parietal lobule across the margin of the parietal lobe into the precuneus.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0026724"
       },
       {
         "value": "prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "The prefrontal cortex is the anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0002807"
       },
       {
         "value": "amygdala",
-        "description": "",
-        "source": ""
+        "description": "The one of the four basal ganglia in each cerebral hemisphere that is part of the limbic system and consists of an almond-shaped mass of gray matter in the anterior extremity of the temporal lobe.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001042"
       },
       {
         "value": "caudate nucleus",
-        "description": "",
-        "source": ""
+        "description": "Subcortical nucleus of telecephalic origin consisting of an elongated gray mass lying lateral to and bordering the lateral ventricle.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001873"
       },
       {
         "value": "nucleus accumbens",
-        "description": "",
-        "source": ""
+        "description": "A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001882"
       },
       {
         "value": "putamen",
-        "description": "",
-        "source": ""
+        "description": "Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001874"
       },
       {
         "value": "temporal cortex",
-        "description": "",
-        "source": ""
+        "description": "Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016538"
       },
       {
         "value": "orbitofrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "The region of the cerebral cortex covering the basal surface of the frontal lobes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004167"
       },
       {
         "value": "ventrolateral prefrontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Is part of the prefrontal cortex, located on the inferior frontal gyrus, bounded superiorly by the inferior frontal sulcus and inferiorly by the lateral sulcus.",
+        "source": "https://en.wikipedia.org/wiki/Ventrolateral_prefrontal_cortex"
       },
       {
         "value": "medial frontal cortex",
-        "description": "",
-        "source": ""
+        "description": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
       },
       {
         "value": "primary motor cortex",
@@ -486,18 +496,18 @@
       },
       {
         "value": "primary somatosensory cortex",
-        "description": "",
-        "source": ""
+        "description": "The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001384"
       },
       {
         "value": "posteroinferior parietal cortex",
-        "description": "",
-        "source": ""
+        "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016530"
       },
       {
         "value": "primary auditory cortex",
-        "description": "",
-        "source": ""
+        "description": "The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0034751"
       },
       {
         "value": "posterior superior temporal cortex",
@@ -511,8 +521,8 @@
       },
       {
         "value": "primary visual cortex",
-        "description": "",
-        "source": ""
+        "description": "A subdivision of the cytoarchitecturally defined occipital region of cerebral cortex in the human.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002436"
       },
       {
         "value": "amygdaloid complex",
@@ -521,8 +531,8 @@
       },
       {
         "value": "striatum",
-        "description": "",
-        "source": ""
+        "description": "A region of the forebrain consisting of the caudate nucleus, putamen and fundus striati.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435"
       },
       {
         "value": "mediodorsal nucleus of thalamus",
@@ -531,28 +541,28 @@
       },
       {
         "value": "cerebellar cortex",
-        "description": "",
-        "source": ""
+        "description": "The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000043"
       },
       {
         "value": "serum",
-        "description": "",
-        "source": ""
+        "description": "Liquid derived from blood plasma that has clotting factors removed.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001977"
       },
       {
-        "value": "spleenocyte",
-        "description": "",
-        "source": ""
+        "value": "splenocyte",
+        "description": "Any leukocyte that is part of a spleen.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_2000074"
       },
       {
         "value": "blood",
-        "description": "",
-        "source": ""
+        "description": "A fluid that is composed of blood plasma and erythrocytes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000178"
       },
       {
         "value": "primary tumor",
-        "description": "",
-        "source": ""
+        "description": "A primary tumor is the tumor at the initial site of cancer, not where the cancer may have spread or metastasized, called the secondary tumor.",
+        "source": "https://cancergenome.nih.gov/cancersselected/biospeccriteria"
       },
       {
         "value": "Not Applicable",
@@ -563,6 +573,11 @@
         "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
+      },
+      {
+        "value": "forebrain",
+        "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
       }
     ]
   },
@@ -575,37 +590,32 @@
       {
         "value": "CommonMind Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn2759792/wiki/69613"
+        "source": "https://www.synapse.org/cmc"
       }, 
       {
         "value": "PsychENCODE Consortium", 
         "description": "", 
-        "source": "https://www.synapse.org//#!Synapse:syn4921369/wiki/235539"
+        "source": "https://www.synapse.org/pec"
       }, 
       {
         "value": "AMP-AD", 
         "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
-        "source": "https://www.nia.nih.gov/alzheimers/amp-ad"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "MODEL-AD", 
         "description": "Model Development and Evaluation for Late Onset AD", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=32257886&ddparam=&ddvalue=&ddsub=&cr=3&csb=default&cs=ASC"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "M2OVE-AD", 
         "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
-        "source": "https://www.nih.gov/news-events/news-releases/decoding-molecular-ties-between-vascular-disease-alzheimers"
-      }, 
-      {
-        "value": "Synodos", 
-        "description": "", 
-        "source": "http://www.ctf.org/research/synodos"
+        "source": "https://www.synapse.org/ampad"
       }, 
       {
         "value": "BSMN", 
         "description": "Brain Somatic Mosaicism Network", 
-        "source": "https://www.synapse.org/#!Synapse:syn7344947/wiki/407304"
+        "source": "https://www.synapse.org/bsmn"
       }, 
       {
         "value": "CSBC", 
@@ -625,22 +635,22 @@
       {
         "value": "Synodos NF1", 
         "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/ctf"
       }, 
       {
         "value": "Synodos NF2", 
         "description": "Data derived from the CTF-funded NF2 Synodos project", 
-        "source": ""
+        "source": "https://www.synapse.org/syndosnf2"
       }, 
       {
         "value": "Synodos LGG", 
         "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
-        "source": ""
+        "source": "http://www.synapse.org/nf1lgg"
       }, 
       {
         "value": "DHART SPORE", 
         "description": "Data from the D-HART SPORE", 
-        "source": ""
+        "source": "http://www.synapse.org/dhart"
       },
       {
         "value": "Not Applicable", 
@@ -826,6 +836,21 @@
         "value": "flagstat",
         "description": "Output of samtools flagstat tool",
         "source": ""
+      },
+      {
+        "value": "gtf",
+        "description": "Gene transfer format (GTF) is a file format used to hold information about gene structure",
+        "source": "https://en.wikipedia.org/wiki/Gene_transfer_format"
+      },
+      {
+        "value": "raw",
+        "description": "Proprietary file format for mass spectrometry data from Thermo Scientific",
+        "source": "http://edamontology.org/format_3712"
+      },
+      {
+        "value": "msf",
+        "description": "Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software",
+        "source": "http://edamontology.org/format_3702"
       }
     ]
   },
@@ -959,6 +984,11 @@
         "value": "SequenomMultiplex",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "HiSeqX",
+        "description": "A whole-genome sequencing platform",
+        "source": ""
       }
     ]
   },
@@ -981,223 +1011,231 @@
     ]
   },
   {
-    "name": "cellType",
-    "description": "",
-    "columnType": "STRING",
-    "maximumSize": 250,
+    "name": "isPrimaryCell", 
+    "description": "Boolean flag indicating whether or not cellType is primary", 
+    "columnType": "BOOLEAN", 
+    "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "B-lymphocytes",
-        "description": "",
-        "source": ""
+        "value": true,
+        "description": "A cell taken directly from a living organism, which is not immortalized",
+        "source": "http://purl.obolibrary.org/obo/BTO_0001413"
       },
       {
-        "value": "induced pluripotent stem cells",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "GABAergic neurons",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "monocytes",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "microglia",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "macrophages",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "astrocytes",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "SH-SY5Y",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "GLUtamatergic neurons",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "NeuN+",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "NeuN-",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "epithelial",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "epithelial-like",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "fibroblast",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "round",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "lymphoblast",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "polygonal",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "CD8+ T-Cells",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "primary arachnoid",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "arachnoid",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "primary meningioma",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "meningioma",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "schwannoma",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "schwann",
+        "value": false,
         "description": "",
         "source": ""
       }
     ]
   },
   {
+    "name": "cellType",
+    "description": "A cell type is a distinct morphological or functional form of cell.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "B-lymphocytes",
+        "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
+      },
+      {
+        "value": "induced pluripotent stem cells",
+        "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
+      },
+      {
+        "value": "GABAergic neurons",
+        "description": "A neuron that uses GABA as a vesicular neurotransmitter.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/zfa/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FZFA_0009276"
+      },
+      {
+        "value": "monocytes",
+        "description": "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000576"
+      },
+      {
+        "value": "microglia",
+        "description": "The small, non-neural, interstitial cells of mesodermal origin that form part of the supporting structure of the central nervous system.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000078"
+      },
+      {
+        "value": "macrophages",
+        "description": "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000235"
+      },
+      {
+        "value": "astrocytes",
+        "description": "Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127"
+      },
+      {
+        "value": "SH-SY5Y",
+        "description": "Human neuroblastoma clonal subline of the neuroepithelioma cell line SK-N-SH that had been established in 1970 from the bone marrow biopsy of a 4-year-old girl with metastatic neuroblastoma.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000793"
+      },
+      {
+        "value": "GLUtamatergic neurons",
+        "description": "Have Glutamate receptors, which are synaptic receptors located primarily on the membranes of neuronal cells. Glutamate (the conjugate base of glutamic acid) is abundant in the human body, but particularly in the nervous system and especially prominent in the human brain.",
+        "source": "https://en.wikipedia.org/wiki/Glutamate_receptor"
+      },
+      {
+        "value": "NeuN+",
+        "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+        "source": "https://en.wikipedia.org/wiki/NeuN"
+      },
+      {
+        "value": "NeuN-",
+        "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+        "source": "https://en.wikipedia.org/wiki/NeuN"
+      },
+      {
+        "value": "epithelial",
+        "description": "Somatic cells that cover the surface of the body and line its cavities.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000066"
+      },
+      {
+        "value": "epithelial-like",
+        "description": "In cell morphology, epithelial-like cells are polygonal in shape with more regular dimensions, and grow attached to a substrate in discrete patches.",
+        "source": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-morphology.html"
+      },
+      {
+        "value": "fibroblast",
+        "description": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000057"
+      },
+      {
+        "value": "round",
+        "description": "A phenotype observation at the level of the cell shape where the cell is round",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cmpo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fcmpo%2FCMPO_0000118"
+      },
+      {
+        "value": "lymphoblast",
+        "description": "Often referred to as a blast cell. Unlike other usages of the suffix -blast a lymphoblast is a further differentiation of a lymphocyte, T- or B-, occasioned by an antigenic stimulus. The lymphoblast usually develops by enlargement of a lymphocyte, active re-entry to the S phase of the cell cycle, mitogenesis and production of much m-RNA and ribosomes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000772"
+      },
+      {
+        "value": "polygonal",
+        "description": "A polygonal face is a polygon bounded by a circuit of polygon edges, and includes the flat (plane) region inside the boundary.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/sio/terms?iri=http%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_000503"
+      },
+      {
+        "value": "CD8+ T-Cells",
+        "description": " Is a T lymphocyte (a type of white blood cell) that kills cancer cells, cells that are infected (particularly with viruses), or cells that are damaged in other ways.",
+        "source": "https://en.wikipedia.org/wiki/Cytotoxic_T_cell"
+      },
+      {
+        "value": "arachnoid",
+        "description": "An arachnoid mater is a delicate membrane that encloses the spinal cord and brain and lies between the pia mater and dura mater.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001636"
+      },
+      {
+        "value": "meningioma",
+        "description": "A central nervous system cancer tissue that are manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565"
+      },
+      {
+        "value": "schwannoma",
+        "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
+      },
+      {
+        "value": "schwann",
+        "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+      }
+    ]
+  },
+  {
     "name": "diagnosis",
-    "description": "",
+    "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "Neurofibromatosis 1",
-        "description": "",
+        "description": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
         "source": ""
       },
       {
         "value": "Neurofibromatosis 2",
-        "description": "",
-        "source": ""
+        "description": "(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F101000"
       },
       {
         "value": "Bipolar Disorder",
-        "description": "",
-        "source": ""
+        "description": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258"
       },
       {
         "value": "Alzheimer Disease",
-        "description": "",
-        "source": ""
+        "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
       },
       {
         "value": "Schizophrenia",
-        "description": "",
-        "source": ""
+        "description": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692"
       },
       {
         "value": "Autism Spectrum Disorder",
-        "description": "",
-        "source": ""
+        "description": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756"
       },
       {
         "value": "Fibrocystic Breast Disease",
-        "description": "",
-        "source": ""
+        "description": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014"
       },
       {
         "value": "Breast Cancer",
-        "description": "",
-        "source": ""
+        "description": "(BC) - A common malignancy originating from breast epithelial tissue.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480"
       },
       {
         "value": "Colon Cancer",
-        "description": "",
-        "source": ""
+        "description": "A colorectal cancer that is located_in the colon.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219"
       },
       {
         "value": "Lung Cancer",
-        "description": "",
-        "source": ""
+        "description": "A respiratory system cancer that is located_in the lung.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324"
       },
       {
         "value": "Prostate Cancer",
-        "description": "",
-        "source": ""
+        "description": "A male reproductive organ cancer that is located_in the prostate.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
       },
       {
         "value": "Pancreas Cancer",
-        "description": "",
-        "source": ""
+        "description": "An endocrine gland cancer located_in the pancreas.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
       },
       {
         "value": "Skin Cancer",
-        "description": "",
-        "source": ""
+        "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
       },
       {
         "value": "Brain Cancer",
-        "description": "",
-        "source": ""
+        "description": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319"
       },
       {
         "value": "Ovary Cancer",
-        "description": "",
-        "source": ""
+        "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
       },
       {
         "value": "Control",
-        "description": "",
-        "source": ""
+        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
       },
       {
         "value": "Affective Disorder",
-        "description": "",
-        "source": ""
+        "description": "Change in mood is the main underlying feature of these disorders.",
+        "source": "Sage"
       },
       {
         "value": "Not Applicable",
@@ -1208,89 +1246,89 @@
   },
   {
     "name": "tumorType",
-    "description": "",
+    "description": "The type of cells that carcinoma arises from.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "Neurofibroma Cutaneous",
-        "description": "",
-        "source": ""
+        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths of skin.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
       },
       {
         "value": "Neurofibroma Subcutaneous",
-        "description": "",
-        "source": ""
+        "description": "An intraneural neoplasm arising from nerve tissues and neural sheaths laying under the skin.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
       },
       {
         "value": "Neurofibroma Plexiform",
-        "description": "",
-        "source": ""
+        "description": "Plexiform neurofibromas are larger, more extensive tumors that grow from nerves anywhere in the body.",
+        "source": "https://nfcenter.wustl.edu/what-is-nf/neurofibromatosis-type-1/nerve-tumors/"
       },
       {
         "value": "Neurofibroma Atypical",
-        "description": "",
-        "source": ""
+        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths that does not belong to a known subtype.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
       },
       {
         "value": "Malignant Peripheral Nerve Sheath Tumor",
-        "description": "",
-        "source": ""
+        "description": "The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
       },
       {
         "value": "Adenocarcinoma",
-        "description": "",
-        "source": ""
+        "description": "A common cancer characterized by the presence of malignant glandular cells. Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C2852"
       },
       {
         "value": "Carcinoma",
-        "description": "",
-        "source": ""
+        "description": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_305"
       },
       {
         "value": "Ductal Carcinoma",
-        "description": "",
-        "source": ""
+        "description": "Invasive ductal carcinoma (IDC), an infiltrating, malignant and abnormal proliferation of neoplastic cells in the breast tissue, or ductal carcinoma in situ (DCIS), a noninvasive, possibly malignant, neoplasm that is still confined to the milk ducts (lactiferous ducts), where breast cancer most often originates.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004851"
       },
       {
         "value": "Melanoma",
-        "description": "",
-        "source": ""
+        "description": "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3224"
       },
       {
         "value": "Optic Nerve Glioma",
-        "description": "",
-        "source": ""
+        "description": "Optic pathway glioma (OPG) is a benign tumor that develop along the optic nerve (chiasm, tracts, and radiations) characterized by impairment or loss of vision and may be accompanied by diencephalic symptoms such as reduced growth and alteration in sleeping patterns. OPG are often linked to neurofibromatosis type 1.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http%3A%2F%2Fwww.orpha.net%2FORDO%2FOrphanet_2086"
       },
       {
         "value": "Low Grade Glioma",
-        "description": "",
-        "source": ""
+        "description": "Low grade gliomas are brain tumors that come from two different types of brain cells known as astrocytes and oligodendrocytes.",
+        "source": "https://www.urmc.rochester.edu/neurosurgery/specialties/neurooncology/conditions/low-grade-glioma.aspx"
       },
       {
         "value": "Diffuse Astrocytoma",
-        "description": "",
-        "source": ""
+        "description": "Also called Low-Grade or Astrocytoma Grade II is a subtype of glial tumor of the brain or spinal cord showing astrocytic differentiation.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000272"
       },
       {
         "value": "Anaplastic Astrocytoma",
-        "description": "",
-        "source": ""
+        "description": "A diffusely infiltrating, WHO grade III astrocytoma with focal or dispersed anaplasia, and a marked proliferative potential. It may arise from a low-grade astrocytoma, but it can also be diagnosed at first biopsy, without indication of a less malignant precursor lesion. It has an intrinsic tendency for malignant progression to glioblastoma.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002499"
       },
       {
         "value": "Glioblastoma",
-        "description": "",
-        "source": ""
+        "description": "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mpath/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMPATH_564"
       },
       {
         "value": "Schwannoma",
-        "description": "",
-        "source": ""
+        "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
         "value": "Meningioma",
-        "description": "",
-        "source": ""
+        "description": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3230"
       },
       {
         "value": "Not Applicable",

@@ -1,0 +1,27 @@
+{
+    "packageLibraryPlatformVersion": [],
+    "packageBinaryPlatform": [
+        "Windows",
+        "OSX",
+        "Linux"
+    ],
+    "packageBinaryPlatformVersion": [],
+    "containerPlatform": [
+        "Docker",
+        "Singularity"
+    ],
+    "containerPlatformVersion": [],
+    "workflowPlatform": [
+        "Nextflow",
+        "Galaxy",
+        "Snakemake",
+        "Rufus",
+        "CWL",
+        "WDL"
+    ],
+    "workflowPlatformVersion": [],
+    "containerToolPlatform": [
+        "Docker-CWL",
+        "Docker-WDL"
+    ]
+}
