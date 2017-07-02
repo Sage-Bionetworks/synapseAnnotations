@@ -1,6 +1,6 @@
 [
   {
-      "name:" "resourceType",
+      "name": "resourceType",
       "description": "The type of resource being stored and annotated"
       "columnType": "STRING",
       "maximumSize" : 250,
