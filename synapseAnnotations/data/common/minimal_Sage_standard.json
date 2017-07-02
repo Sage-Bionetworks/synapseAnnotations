@@ -1,7 +1,7 @@
 [
   {
       "name": "resourceType",
-      "description": "The type of resource being stored and annotated"
+      "description": "The type of resource being stored and annotated",
       "columnType": "STRING",
       "maximumSize" : 250,
       "enumValues" : [
