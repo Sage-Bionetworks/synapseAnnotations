@@ -7,9 +7,8 @@ from pandas.io.json import json_normalize
 import logging
 
 syn = synapseclient.login()
-logger = logging.getLogger(__name__)
 
-# TODO: replace with auto download of raw files in repo and replace print with logger 
+# TODO: replace with auto download of raw files in repo
 standard_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/common/minimal_Sage_standard.json'
 analysis_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/common/minimal_Sage_analysis.json'
 dhart_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/dhart_annotations.json'
@@ -103,7 +102,7 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     elif sum(pandas.Series(key).isin(currentTable.columns)) == 1:
         sys.exit("One of unique keys in schema don't exist")
     else:
-        print("Unique keys in schema exist and pursuing")
+        logging.info("Unique keys in schema exist and pursuing")
 
     # Test cases: change a non-key column cell (valuesDescription) and change a unique key cell (value)
     # newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing'
@@ -147,32 +146,32 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     if not changedSchema.empty or not changedKeysRows.empty:
 
         if not changedSchema.empty and changedKeysRows.empty:
-            print("Deleting rows with updated schema")
+            logging.info("Deleting rows with updated schema")
             changedSchema.set_index('index', inplace=True, drop=True)
             toDelete = changedSchema
             deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
 
         if not changedKeysRows.empty and changedSchema.empty:
-            print("Deleting rows with updated keys")
+            logging.info("Deleting rows with updated keys")
             changedKeysRows.set_index('index', inplace=True, drop=True)
             toDelete = changedKeysRows
             deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
 
         if not changedSchema.empty and not changedKeysRows.empty:
-            print("Deleting rows with updated keys and schema")
+            logging.info("Deleting rows with updated keys and schema")
             changedSchema.set_index('index', inplace=True, drop=True)
             changedKeysRows.set_index('index', inplace=True, drop=True)
             toDelete = pandas.concat([changedKeysRows, changedSchema])
             deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
 
         else:
-            print("No rows to delete in current table")
+            logging.info("No rows to delete in current table")
 
     # Case 1,2,3: All new or updated rows to be added to table
     newOrUpdated = outerJoin(newTable, currentTable)
     newOrUpdated = newOrUpdated[schema]
     if not newOrUpdated.empty:
-        print("Storing new and updated changes")
+        logging.info("Storing new and updated changes")
         table = syn.store(Table(syn.get(tableSynId), newOrUpdated))
 
 
