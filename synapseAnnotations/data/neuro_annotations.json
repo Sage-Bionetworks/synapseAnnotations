@@ -730,6 +730,11 @@
         "value": "rTg(tauP301L)4510",
         "description": "The mice express a repressible form of human tau containing the P301L mutation that has been linked with familial frontotemporal dementia.",
         "source": "http://www.alzforum.org/research-models/rtgtaup301l4510"
+      },
+      {
+        "value":"B6.129P2-Tyrobptm1lll",
+        "description":"Deletion of exons 3 and 4 should result in loss of function of the Tyrobp gene by deleting the transmembrane region and part of the cytoplasmic region.",
+        "source":"https://www.taconic.com/mouse-model/tyrobp-ko-12665"
       }
     ]
   }
