@@ -707,6 +707,11 @@
         "value" : "Tau",
         "description": "",
         "source": ""
+      }, 
+      {
+        "value":"Tyrobp KO",
+        "description":"",
+        "source":""
       }
     ]
   }, 
