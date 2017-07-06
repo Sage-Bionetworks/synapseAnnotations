@@ -704,7 +704,7 @@
         "source": "https://www.jax.org/strain/004462"
       },
       {
-        "value" : "Tau",
+        "value" : "TAU",
         "description": "",
         "source": ""
       }, 
@@ -712,11 +712,16 @@
         "value":"Tyrobp KO",
         "description":"",
         "source":""
+      },
+      {
+        "value":"APP",
+        "description":"",
+        "source":""
       }
     ]
   }, 
   {
-    "name": "modelsSystemStrainNomenclature", 
+    "name": "modelSystemStrainNomenclature", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -740,6 +745,21 @@
         "value":"B6.129P2-Tyrobptm1lll",
         "description":"Deletion of exons 3 and 4 should result in loss of function of the Tyrobp gene by deleting the transmembrane region and part of the cytoplasmic region.",
         "source":"https://www.taconic.com/mouse-model/tyrobp-ko-12665"
+      },
+      {
+        "value":"Tg(Camk2a-tTA)1Mmay Tg(tetO-MAPT*P301L)#Kha/J",
+        "description":"These bitransgenic mice have tauP301L expression in the forebrain, and that expression can be greatly reduced by administration of the tetracycline analog, doxycycline.",
+        "source":"https://www.jax.org/strain/024854"
+      },
+      {
+        "value":"Tg(Prnp-MAPT*P301L)JNPL3Hlmc",
+        "description":"The mouse prion protein promoter was used to drive expression of human microtubule-associated protein tau with a P301L substitution. Hemizygous mice mice expressed the protein at levels roughly equivalent to that of endogenous tau.",
+        "source":"http://www.informatics.jax.org/allele/MGI:3604148"
+      },
+      {
+        "value":"B6C3-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax",
+        "description":"Double transgenic mice express a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9) both directed to CNS neurons. ",
+        "source":"https://www.jax.org/strain/004462"
       }
     ]
   }
