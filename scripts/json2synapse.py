@@ -29,37 +29,41 @@ key = ["key", "value"]
 
 
 def json2flatten(path, project):
-    # fetch and read raw json objects from its github url and decode the json object to its raw format
+    # fetch and read raw json objects from its' github url and decode the json object to its raw format
     json_record = pandas.read_json(path)
+
+    # grab annotations with empty enumValue lists i.e. don't require normalization and structure their schema
+    empty_vals = json_record.loc[json_record.enumValues.str.len() == 0]
+    empty_vals = empty_vals.drop('enumValues', axis=1)
+
+    empty_vals['enumValues_description'] = ""
+    empty_vals['enumValues_source'] = ""
+    empty_vals['enumValues_value'] = ""
+    empty_vals['project'] = project
 
     # for each value list object
     flatten_vals = []
 
     for i, jsn in enumerate(json_record['enumValues']):
-        if not json_record['enumValues'][i]:
-            # replace NAN / NA with enumvalue objects with an uniform schema holding empty strings
-            rows = json_record.loc[i:i, json_record.columns != 'enumValues']
-            rows["values_description"] = ""
-            rows["source"] = ""
-            rows["value"] = ""
-            flatten_df = rows
-        else:
-            df = pandas.io.json.json_normalize(json_record['enumValues'][i])
-            # re-name columns to match table on synapse schema
-            df = df.rename(columns={'value': 'enumValues_value', 'description': 'enumValues_description',
-                                    'source': 'enumValues_source'})
 
-            # grab key information in its row, expand it by values dimention and append its key-columns to flattened values
-            rows = json_record.loc[i:i, json_record.columns != 'enumValues']
-            repeats = pandas.concat([rows] * len(df.index))
-            repeats.set_index(df.index, inplace=True)
-            flatten_df = pandas.concat([repeats, df], axis=1)
+        df = pandas.io.json.json_normalize(json_record['enumValues'][i])
+        # re-name columns to match table on synapse schema
+        df = df.rename(columns={'value': 'enumValues_value', 'description': 'enumValues_description',
+                                'source': 'enumValues_source'})
 
-            # append project category / annotating the annotations for project filtering
-            flatten_df['project'] = project
-            flatten_df.set_index(flatten_df['name'], inplace=True)
+        # grab key information in its row, expand it by values dimention and append its key-columns to flattened values
+        rows = json_record.loc[i:i, json_record.columns != 'enumValues']
+        repeats = pandas.concat([rows] * len(df.index))
+        repeats.set_index(df.index, inplace=True)
+        flatten_df = pandas.concat([repeats, df], axis=1)
 
-            flatten_vals.append(flatten_df)
+        # append project category / annotating the annotations for project filtering
+        flatten_df['project'] = project
+        flatten_df.set_index(flatten_df['name'], inplace=True)
+
+        flatten_vals.append(flatten_df)
+
+    flatten_vals.append(empty_vals)
 
     return flatten_vals
 
