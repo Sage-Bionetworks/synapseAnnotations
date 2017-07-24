@@ -370,6 +370,11 @@
         "value": "fishersExactTest", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "DAVID", 
+        "description": "All tools in the DAVID Bioinformatics Resources aim to provide functional interpretation of large lists of genes derived from genomic studies.", 
+        "source": "https://david.ncifcrf.gov"
       }
     ]
   }, 
@@ -558,6 +563,24 @@
       {
         "value": "GaussianProcessRegression", 
         "description": "", 
+        "source": ""
+      }
+    ]
+  },
+    {
+    "name": "isGenomewideNetwork", 
+    "description": "Boolean flag indicating whether or not it is a full network or single module(s)", 
+    "columnType": "BOOLEAN", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": true,
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": false,
+        "description": "",
         "source": ""
       }
     ]

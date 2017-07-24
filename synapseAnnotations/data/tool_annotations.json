@@ -1,57 +1,273 @@
-{
-    "softwareName": [],
-    "softwareAuthor": [],
-    "softwareVersion": [],
-    "softwareType": [
-        "script",
-        "packageLibrary",
-        "packageBinary",
-        "container"
-    ],
-    "scriptLanguage": [
-        "R",
-        "Python",
-        "Matlab",
-        "Shell"
-    ],
-    "scriptLanguageVersion": [],
-    "softwareRepository": [
-        "Synapse",
-        "GitHub",
-        "GitLab",
-        "BitBucket",
-        "CRAN",
-        "BioConductor",
-        "Biocontainers",
-        "DockerHub",
-        "Quay",
-        "Dockstore"
-    ],
-    "softwareRepositoryType": [
-        "fileStore",
-        "sourceCode",
-        "packageManager",
-        "containerRegistry",
-        "containerToolRegistry"
-    ],
-    "inputDataType":[
-        "genomicVariants",
-        "image",
-        "geneExpression",
-        "isoformExpression",
-        "proteomics",
-        "drugScreen",
-        "cellularPhysiology",
-        "chromatinActivity"
-    ],
-    "outputDataType":[
-        "genomicVariants",
-        "image",
-        "geneExpression",
-        "isoformExpression",
-        "proteomics",
-        "drugScreen",
-        "cellularPhysiology",
-        "chromatinActivity"
+[
+  {
+    "name": "softwareName", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  },
+  {
+    "name": "softwareAuthor", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  },
+  {
+    "name": "softwareVersion", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  },
+  {
+    "name": "softwareType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "script",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "packageLibrary",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "packageBinary",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "container",
+        "description": "",
+        "source": ""
+      }
     ]
-}
+  },
+  {
+    "name": "softwareLanguage", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "R",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Python",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Matlab",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Shell",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "softwareLanguageVersion", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  },
+  {
+    "name": "softwareRepository", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Synapse",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "GitHub",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "GitLab",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "BitBucket",
+        "description": "",
+        "source": ""
+      }, 
+      {
+        "value": "CRAN",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "BioConductor",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Biocontainers",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "DockerHub",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Quay",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Dockstore",
+        "description": "",
+        "source": ""
+      }     
+    ]
+  },
+  {
+    "name": "softwareRepositoryType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "fileStore",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "sourceCode",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "packageManager",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "containerRegistry",
+        "description": "",
+        "source": ""
+      }, 
+      {
+        "value": "containerToolRegistry",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "inputDataType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "genomicVariants",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "image",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "geneExpression",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "isoformExpression",
+        "description": "",
+        "source": ""
+      }, 
+      {
+        "value": "proteomics",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "drugScreen",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "cellularPhysiology",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "chromatinActivity",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "outputDataType", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "genomicVariants",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "image",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "geneExpression",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "isoformExpression",
+        "description": "",
+        "source": ""
+      }, 
+      {
+        "value": "proteomics",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "drugScreen",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "cellularPhysiology",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "chromatinActivity",
+        "description": "",
+        "source": ""
+      }
+    ]
+  }
+]
