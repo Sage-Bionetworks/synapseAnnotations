@@ -43,6 +43,8 @@ def json2flatten(path, project):
 
     # for each value list object
     flatten_vals = []
+    json_record = json_record.loc[json_record.enumValues.str.len() > 0]
+    json_record.reset_index(inplace=True)
 
     for i, jsn in enumerate(json_record['enumValues']):
 
@@ -206,6 +208,7 @@ def main():
     # all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
 
     updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
+    #print(all_projects_df)
 
 
 if '__main__' == __name__:
