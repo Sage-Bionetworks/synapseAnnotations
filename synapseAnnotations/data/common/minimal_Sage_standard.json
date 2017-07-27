@@ -679,8 +679,8 @@
       },
       {
         "value": "idat",
-        "description": "raw Intensity Data files",
-        "source": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/technotes/technote_array_analysis_workflows.pdf"
+        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.",
+        "source": "http://edamontology.org/format_3578"
       },
       {
         "value": "bam",
