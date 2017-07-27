@@ -116,11 +116,6 @@
         "value": "Harvard-MIT", 
         "description": "", 
         "source": ""
-      },
-      { 
-        "value": "ADMC", 
-        "description": "", 
-        "source": ""
       }
     ]
   }, 
@@ -532,7 +527,7 @@
         "source": ""
       },
       {
-        "value": "ADNI1", 
+        "value": "ADMC_ADNI1", 
         "description": "", 
         "source": ""
       }
