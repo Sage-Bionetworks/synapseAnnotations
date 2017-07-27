@@ -36,6 +36,24 @@
     ]
   },
   {
+    "name": "channel",
+    "description": "indicates the number of samples that can be profiled on one microarray",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": red,
+        "description": "Cy5",
+        "source": "dye used for red channel in microarray analysis"
+      },
+      {
+        "value": green,
+        "description": "Cy3",
+        "source": "dye used for green channel in microarray analysis"
+      }
+    ]
+  },
+  {
     "name": "readPairOrientation",
     "description": "the relative orientation of the reads in a paired-end protocol",
     "columnType": "STRING",
