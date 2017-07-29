@@ -18,7 +18,7 @@ toolExtended_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseA
 paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path, toolExtended_path]
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 
-tableSynId = "syn10005388"
+tableSynId = "syn10242801"
 
 currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 currentTable = currentTable.asDataFrame()
@@ -33,5 +33,7 @@ def check_keys():
         table_key_set = set(currentTable[currentTable['project'] == names[i]].key.unique())
         json_record = pandas.read_json(p)
         json_key_set = set(json_record['name'])
+        #print("json_key_set", len(json_key_set), json_key_set)
+        #print("table_key_set", len(table_key_set), table_key_set)
         assert_equals(len(json_key_set), len(table_key_set))
 

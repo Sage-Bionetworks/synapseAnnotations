@@ -24,7 +24,7 @@ paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_pa
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 all_projects = []
 
-tableSynId = "syn10005388"
+tableSynId = "syn10242802"
 key = ["key", "value"]
 
 
@@ -204,10 +204,10 @@ def main():
                                "source", "project"]
     
     # save the table as a csv file 
-    # all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
+    all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
     # all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
 
-    updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
+    #updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
     #print(all_projects_df)
 
 
