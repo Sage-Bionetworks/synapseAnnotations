@@ -26,7 +26,7 @@ currentTable = currentTable.asDataFrame()
 
 def check_keys():
     """
-    Example: nosetests -vs tests/integration/test_json2synapse.py:check_keys
+    Example: nosetests -vs tests/unit/test_json2synapse.py:check_keys
     :return: None or Error
     """
     for i, p in enumerate(paths):
