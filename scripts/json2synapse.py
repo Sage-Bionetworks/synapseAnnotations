@@ -1,3 +1,4 @@
+import os
 import sys
 import pandas
 import numpy
@@ -24,7 +25,7 @@ paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_pa
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 all_projects = []
 
-tableSynId = "syn10242802"
+tableSynId = "syn10242922"
 key = ["key", "value"]
 
 
@@ -40,6 +41,8 @@ def json2flatten(path, project):
     empty_vals['enumValues_source'] = ""
     empty_vals['enumValues_value'] = ""
     empty_vals['project'] = project
+
+    empty_vals.set_index(empty_vals['name'], inplace=True)
 
     # for each value list object
     flatten_vals = []
@@ -58,7 +61,6 @@ def json2flatten(path, project):
         repeats = pandas.concat([rows] * len(df.index))
         repeats.set_index(df.index, inplace=True)
         flatten_df = pandas.concat([repeats, df], axis=1)
-
         # append project category / annotating the annotations for project filtering
         flatten_df['project'] = project
         flatten_df.set_index(flatten_df['name'], inplace=True)
@@ -196,16 +198,17 @@ def main():
          "enumValues_source", "project"]]
 
     # html sources requires to be in utf-8 encode format
-    all_projects_df.enumValues_description = all_projects_df.enumValues_description.str.encode("utf-8")
-    all_projects_df.enumValues_source = all_projects_df.enumValues_source.str.encode("utf-8")
-    all_projects_df.enumValues_value = all_projects_df.enumValues_value.str.encode("utf-8")
+    #all_projects_df.enumValues_description = all_projects_df.enumValues_description.str.encode("utf-8")
+    #all_projects_df.enumValues_source = all_projects_df.enumValues_source.str.encode("utf-8")
+    #all_projects_df.enumValues_value = all_projects_df.enumValues_value.str.encode("utf-8")
 
     all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
                                "source", "project"]
     
-    # save the table as a csv file 
+    # save the table as a csv file
     all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
-    # all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
+    all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
+    #os.remove("annot.csv")
 
     #updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
     #print(all_projects_df)

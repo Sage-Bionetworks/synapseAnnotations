@@ -18,7 +18,7 @@ toolExtended_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseA
 paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path, toolExtended_path]
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 
-tableSynId = "syn10242801"
+tableSynId = "syn10242922"
 
 currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 currentTable = currentTable.asDataFrame()
