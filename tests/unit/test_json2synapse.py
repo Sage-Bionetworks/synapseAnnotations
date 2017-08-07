@@ -15,10 +15,12 @@ onc_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotation
 tool_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/tool_annotations.json'
 toolExtended_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/toolExtended_annotations.json'
 
-paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path, toolExtended_path]
+paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path,
+         toolExtended_path]
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 
-tableSynId = "syn10242922"
+# tableSynId = "syn10242922"
+tableSynId = "syn10262915"
 
 currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 currentTable = currentTable.asDataFrame()
@@ -27,13 +29,18 @@ currentTable = currentTable.asDataFrame()
 def check_keys():
     """
     Example: nosetests -vs tests/unit/test_json2synapse.py:check_keys
-    :return: None or Error
+    :return: None or assert_equals Error message
     """
     for i, p in enumerate(paths):
         table_key_set = set(currentTable[currentTable['project'] == names[i]].key.unique())
         json_record = pandas.read_json(p)
         json_key_set = set(json_record['name'])
-        #print("json_key_set", len(json_key_set), json_key_set)
-        #print("table_key_set", len(table_key_set), table_key_set)
-        assert_equals(len(json_key_set), len(table_key_set))
-
+        # print("json_key_set", len(json_key_set), json_key_set)
+        # print("table_key_set", len(table_key_set), table_key_set)
+        assert_equals(len(json_key_set), len(table_key_set), ' '.join(["module name:", names[i], "synapseAnnotations "
+                                                                                                 "github repo keys "
+                                                                                                 "length",
+                                                                       str(len(json_key_set)), "don't match synapse "
+                                                                                               "table "
+                                                                                               "length",
+                                                                       str(len(table_key_set))]))

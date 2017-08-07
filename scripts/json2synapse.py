@@ -21,11 +21,13 @@ onc_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotation
 tool_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/tool_annotations.json'
 toolExtended_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/toolExtended_annotations.json'
 
-paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path, toolExtended_path]
+paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path,
+         toolExtended_path]
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 all_projects = []
 
-tableSynId = "syn10242922"
+# tableSynId = "syn10242922"
+tableSynId = "syn10262915"
 key = ["key", "value"]
 
 
@@ -50,7 +52,6 @@ def json2flatten(path, project):
     json_record.reset_index(inplace=True)
 
     for i, jsn in enumerate(json_record['enumValues']):
-
         df = pandas.io.json.json_normalize(json_record['enumValues'][i])
         # re-name columns to match table on synapse schema
         df = df.rename(columns={'value': 'enumValues_value', 'description': 'enumValues_description',
@@ -106,15 +107,15 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     currentTable = currentTable.asDataFrame()
 
     if sum(pandas.Series(key).isin(currentTable.columns)) == 0:
-        sys.exit("All unique keys in schema don't exist")
+        sys.exit("All of the unique keys (key | value) in schema don't exist")
     elif sum(pandas.Series(key).isin(currentTable.columns)) == 1:
-        sys.exit("One of unique keys in schema don't exist")
+        sys.exit("One of the unique keys (key | value) in schema don't exist")
     else:
         logging.info("Unique keys in schema exist and pursuing")
 
     # Test cases: change a non-key column cell (valuesDescription) and change a unique key cell (value)
-    # newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing'
-    # newTable.iloc[1, newTable.columns.get_loc('value')] = 'miRNASEQ'
+    #newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing nasim'
+    #newTable.iloc[1, newTable.columns.get_loc('value')] = 'miRNASEQNasim'
 
     # standardize na/NAN in data by replacing it with an empty string for match comparisons
     currentTable = currentTable.fillna("")
@@ -197,21 +198,20 @@ def main():
         ["name", "description", "columnType", "maximumSize", "enumValues_value", "enumValues_description",
          "enumValues_source", "project"]]
 
-    # html sources requires to be in utf-8 encode format
-    #all_projects_df.enumValues_description = all_projects_df.enumValues_description.str.encode("utf-8")
-    #all_projects_df.enumValues_source = all_projects_df.enumValues_source.str.encode("utf-8")
-    #all_projects_df.enumValues_value = all_projects_df.enumValues_value.str.encode("utf-8")
+    # html sources requires to be in utf-8 encode format. NOTE: pandas .str.encode("utf-8") removes boolean types
+    # all_projects_df.enumValues_description = all_projects_df.enumValues_description.str.encode("utf-8")
+    # all_projects_df.enumValues_source = all_projects_df.enumValues_source.str.encode("utf-8")
+    # all_projects_df.enumValues_value = all_projects_df.enumValues_value.str.encode("utf-8")
 
     all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
                                "source", "project"]
-    
+
     # save the table as a csv file
     all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
     all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
-    #os.remove("annot.csv")
+    # os.remove("annot.csv")
 
-    #updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
-    #print(all_projects_df)
+    updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
 
 
 if '__main__' == __name__:
