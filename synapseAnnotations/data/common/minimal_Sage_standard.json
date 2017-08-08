@@ -678,6 +678,11 @@
         "source": ""
       },
       {
+        "value": "idat",
+        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.",
+        "source": "http://edamontology.org/format_3578"
+      },
+      {
         "value": "bam",
         "description": "BAM format, the binary, BGZF-formatted compressed version of SAM format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",
         "source": "http://edamontology.org/format_2572"
