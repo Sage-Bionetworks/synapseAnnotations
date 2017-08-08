@@ -1352,7 +1352,13 @@
     "description": "",
     "columnType": "STRING",
     "maximumSize": 250,
-    "enumValues": []
+    "enumValues": [
+      {
+        "value": "UConn Stem Cell Core",
+        "description": "",
+        "source": ""
+      }
+    ]
   },
   {
     "name": "sex",
