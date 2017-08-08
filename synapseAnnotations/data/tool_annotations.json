@@ -73,6 +73,11 @@
         "value": "Shell",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "REST",
+        "description": "",
+        "source": ""
       }
     ]
   },
@@ -169,6 +174,11 @@
       }, 
       {
         "value": "containerToolRegistry",
+        "description": "",
+        "source": ""
+      }, 
+      {
+        "value": "API",
         "description": "",
         "source": ""
       }
