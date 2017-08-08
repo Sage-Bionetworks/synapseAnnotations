@@ -22,14 +22,15 @@ paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_pa
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 
 # test table synID
-tableSynId = "syn10265158"
+# tableSynId = "syn10265158"
+tableSynId = "syn10242922"
 
-all_projects = []
+all_modules = []
 
 currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 currentTable = currentTable.asDataFrame()
 
-def json2flatten(path, project):
+def json2flatten(path, module):
     # fetch and read raw json objects from its' github url and decode the json object to its raw format
     json_record = pandas.read_json(path)
 
@@ -40,7 +41,7 @@ def json2flatten(path, project):
     empty_vals['enumValues_description'] = ""
     empty_vals['enumValues_source'] = ""
     empty_vals['enumValues_value'] = ""
-    empty_vals['project'] = project
+    empty_vals['module'] = module
 
     empty_vals.set_index(empty_vals['name'], inplace=True)
 
@@ -60,8 +61,8 @@ def json2flatten(path, project):
         repeats = pandas.concat([rows] * len(df.index))
         repeats.set_index(df.index, inplace=True)
         flatten_df = pandas.concat([repeats, df], axis=1)
-        # append project category / annotating the annotations for project filtering
-        flatten_df['project'] = project
+        # append module category / annotating the annotations for module filtering
+        flatten_df['module'] = module
         flatten_df.set_index(flatten_df['name'], inplace=True)
 
         flatten_vals.append(flatten_df)
@@ -72,23 +73,23 @@ def json2flatten(path, project):
 
 for i, p in enumerate(paths):
     data = json2flatten(p, names[i])
-    project_df = pandas.concat(data)
-    all_projects.append(project_df)
+    module_df = pandas.concat(data)
+    all_modules.append(module_df)
 
 # append/concat/collapse all normalized dataframe annotations into one dataframe
-all_projects_df = pandas.concat(all_projects)
+all_modules_df = pandas.concat(all_modules)
 
 # re-arrange columns/fields
-all_projects_df = all_projects_df[
+all_modules_df = all_modules_df[
     ["name", "description", "columnType", "maximumSize", "enumValues_value", "enumValues_description",
-     "enumValues_source", "project"]]
+     "enumValues_source", "module"]]
 
-all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
-                           "source", "project"]
+all_modules_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
+                           "source", "module"]
 
 # save the table as a csv file
-all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
-all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
+all_modules_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
+all_modules_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
 os.remove("annot.csv")
 
 
@@ -98,7 +99,7 @@ def check_keys():
     :return: None or assert_equals Error message
     """
     for i, p in enumerate(paths):
-        table_key_set = set(currentTable[currentTable['project'] == names[i]].key.unique())
+        table_key_set = set(currentTable[currentTable['module'] == names[i]].key.unique())
         json_record = pandas.read_json(p)
         json_key_set = set(json_record['name'])
         # print("json_key_set", len(json_key_set), json_key_set)
@@ -124,7 +125,7 @@ def compare_key_values():
     # subset dataframe to only compare the unique keys (key-value)
 
     synapse_df = currentTable.loc[:, ('key', 'value')]
-    github_df = all_projects_df.loc[:, ('key', 'value')]
+    github_df = all_modules_df.loc[:, ('key', 'value')]
 
     # sort by key (key-value pair)
     synapse_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)

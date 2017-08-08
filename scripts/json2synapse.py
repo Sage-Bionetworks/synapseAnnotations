@@ -24,14 +24,13 @@ toolExtended_path = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseA
 paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_path, ngs_path, onc_path, tool_path,
          toolExtended_path]
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
-all_projects = []
+all_modules = []
 
-# TODO: change to the most updated current table on synapse
 tableSynId = "syn10242922"
 key = ["key", "value"]
 
 
-def json2flatten(path, project):
+def json2flatten(path, module):
     # fetch and read raw json objects from its' github url and decode the json object to its raw format
     json_record = pandas.read_json(path)
 
@@ -42,7 +41,7 @@ def json2flatten(path, project):
     empty_vals['enumValues_description'] = ""
     empty_vals['enumValues_source'] = ""
     empty_vals['enumValues_value'] = ""
-    empty_vals['project'] = project
+    empty_vals['module'] = module
 
     empty_vals.set_index(empty_vals['name'], inplace=True)
 
@@ -62,8 +61,8 @@ def json2flatten(path, project):
         repeats = pandas.concat([rows] * len(df.index))
         repeats.set_index(df.index, inplace=True)
         flatten_df = pandas.concat([repeats, df], axis=1)
-        # append project category / annotating the annotations for project filtering
-        flatten_df['project'] = project
+        # append module category / annotating the annotations for module filtering
+        flatten_df['module'] = module
         flatten_df.set_index(flatten_df['name'], inplace=True)
 
         flatten_vals.append(flatten_df)
@@ -188,31 +187,27 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
 def main():
     for i, p in enumerate(paths):
         data = json2flatten(p, names[i])
-        project_df = pandas.concat(data)
-        all_projects.append(project_df)
+        module_df = pandas.concat(data)
+        all_modules.append(module_df)
 
     # append/concat/collapse all normalized dataframe annotations into one dataframe
-    all_projects_df = pandas.concat(all_projects)
+    all_modules_df = pandas.concat(all_modules)
 
     # re-arrange columns/fields
-    all_projects_df = all_projects_df[
+    all_modules_df = all_modules_df[
         ["name", "description", "columnType", "maximumSize", "enumValues_value", "enumValues_description",
-         "enumValues_source", "project"]]
+         "enumValues_source", "module"]]
 
-    all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
-                               "source", "project"]
-
-    # TODO: remove after pull request has been approved for this change
-    all_projects_df.loc[all_projects_df.value == 'AMP-AD', 'valuesDescription'] = "Accelerating Medicines Partnership-Alzheimer's Disease"
-    all_projects_df.loc[all_projects_df.value == 'M2OVE-AD', 'valuesDescription'] = "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease"
+    all_modules_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
+                               "source", "module"]
 
     # save the table as a csv file
-    all_projects_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
-    all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
-    all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
+    all_modules_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
+    all_modules_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
+    all_modules_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
     os.remove("annot.csv")
 
-    updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
+    updateTable(tableSynId=tableSynId, newTable=all_modules_df, key=key, delta=False, whereClause=False)
 
 
 if '__main__' == __name__:
