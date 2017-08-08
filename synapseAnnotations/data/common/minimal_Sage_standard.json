@@ -151,6 +151,11 @@
         "value": "questionnaire", 
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.", 
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+      },
+      {
+        "value": "confocalMicroscopy", 
+        "description": "Microscopy where visible light coming from the specimen is collected and guided through a pinhole before it is detected. The pinhole allows only light from the focal point to pass to the detector, reducing background interference.", 
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000103"
       }
     ]
   },
@@ -599,7 +604,7 @@
       }, 
       {
         "value": "AMP-AD", 
-        "description": "Accelerating Medicines Partnership-Alzheimer’s Disease", 
+        "description": "Accelerating Medicines Partnership-Alzheimer's Disease", 
         "source": "https://www.synapse.org/ampad"
       }, 
       {
@@ -609,7 +614,7 @@
       }, 
       {
         "value": "M2OVE-AD", 
-        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ", 
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ", 
         "source": "https://www.synapse.org/ampad"
       }, 
       {
@@ -676,6 +681,11 @@
         "value": "idx",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "idat",
+        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.",
+        "source": "http://edamontology.org/format_3578"
       },
       {
         "value": "bam",
