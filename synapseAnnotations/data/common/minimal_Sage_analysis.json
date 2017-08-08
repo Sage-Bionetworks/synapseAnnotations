@@ -528,6 +528,19 @@
     ]
   }, 
   {
+      "name": "transcriptAssemblyMethod", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "cufflinks", 
+        "description": "", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
     "name": "supervisedLearningMethod", 
     "description": "", 
     "columnType": "STRING", 
