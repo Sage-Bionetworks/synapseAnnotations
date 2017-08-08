@@ -26,8 +26,8 @@ paths = [standard_path, analysis_path, dhart_path, genie_path, neuro_path, nf_pa
 names = ['standard', 'analysis', 'dhart', 'genie', 'neuro', 'nf', 'ngs', 'onc', 'tool', 'toolExtended']
 all_projects = []
 
-# tableSynId = "syn10242922"
-tableSynId = "syn10262915"
+# TODO: change to the most updated current table on synapse
+tableSynId = "syn10242922"
 key = ["key", "value"]
 
 
@@ -114,8 +114,8 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
         logging.info("Unique keys in schema exist and pursuing")
 
     # Test cases: change a non-key column cell (valuesDescription) and change a unique key cell (value)
-    #newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing nasim'
-    #newTable.iloc[1, newTable.columns.get_loc('value')] = 'miRNASEQNasim'
+    # newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing Nasim'
+    # newTable.iloc[1, newTable.columns.get_loc('value')] = 'Nasim'
 
     # standardize na/NAN in data by replacing it with an empty string for match comparisons
     currentTable = currentTable.fillna("")
@@ -179,6 +179,7 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
     # Case 1,2,3: All new or updated rows to be added to table
     newOrUpdated = outerJoin(newTable, currentTable)
     newOrUpdated = newOrUpdated[schema]
+    newOrUpdated.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
     if not newOrUpdated.empty:
         logging.info("Storing new and updated changes")
         table = syn.store(Table(syn.get(tableSynId), newOrUpdated))
@@ -198,18 +199,18 @@ def main():
         ["name", "description", "columnType", "maximumSize", "enumValues_value", "enumValues_description",
          "enumValues_source", "project"]]
 
-    # html sources requires to be in utf-8 encode format. NOTE: pandas .str.encode("utf-8") removes boolean types
-    # all_projects_df.enumValues_description = all_projects_df.enumValues_description.str.encode("utf-8")
-    # all_projects_df.enumValues_source = all_projects_df.enumValues_source.str.encode("utf-8")
-    # all_projects_df.enumValues_value = all_projects_df.enumValues_value.str.encode("utf-8")
-
     all_projects_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
                                "source", "project"]
 
+    # TODO: remove after pull request has been approved for this change
+    all_projects_df.loc[all_projects_df.value == 'AMP-AD', 'valuesDescription'] = "Accelerating Medicines Partnership-Alzheimer's Disease"
+    all_projects_df.loc[all_projects_df.value == 'M2OVE-AD', 'valuesDescription'] = "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease"
+
     # save the table as a csv file
+    all_projects_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
     all_projects_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
     all_projects_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
-    # os.remove("annot.csv")
+    os.remove("annot.csv")
 
     updateTable(tableSynId=tableSynId, newTable=all_projects_df, key=key, delta=False, whereClause=False)
 
