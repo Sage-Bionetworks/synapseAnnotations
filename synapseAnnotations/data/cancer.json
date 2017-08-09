@@ -1,0 +1,273 @@
+[
+  {
+    "name": "cellSubType",
+    "description": "This term is to be used when cell type is not specific enough, such as certain classes of T cells",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "transplantationRecipientTissue",
+    "description": "In the case of a transplate, this describes the transplant destination",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "transplantationType",
+    "description": "Type of transplantation involved in the experiment, derived from MESH",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "allograft",
+        "description": "Tissues, cells, or organs transplanted between genetically different individuals of the same species",
+        "source": "https://www.ncbi.nlm.nih.gov/mesh/68064591"
+      },
+      {
+        "value": "xenograft",
+        "description": "Tissues, cells or organs transplanted between animals of different species",
+        "source": "https://www.ncbi.nlm.nih.gov/mesh/68064593"
+      },
+      {
+        "value": "autograft",
+        "description": "Transplant comprised of an individual's own tissue, transferred from one part of the body to another.",
+        "source": "https://www.ncbi.nlm.nih.gov/mesh/68064592"
+      },
+      {
+        "value": "isograft",
+        "description": "Tissues, cells or organs transplanted between genetically identical individuals",
+        "source": "https://www.ncbi.nlm.nih.gov/mesh/68064596"
+      }
+    ]
+  },
+  {
+    "name": "genePerturbationType",
+    "description": "Specific way in which a single gene was perturbed in a sample",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "overexpression",
+        "description": "Gene overexpression refers to genetic techniques in which an organism or cell line is engineered to express increased levels of a gene.",
+        "source": "http://www.bioassayontology.org/bao#BAO_0002442"
+      },
+      {
+        "value": "knockdown",
+        "description": "Gene knockdown refers to techniques by which the expression of one or more of an organism's genes is reduced, either through genetic modification (a change in the DNA of one of the organism's chromosomes) or by treatment with a reagent such as a short DNA or RNA oligonucleotide with a sequence complementary to either an mRNA transcript or a gene.",
+        "source": "http://www.bioassayontology.org/bao#BAO_0002433"
+      },
+      {
+        "value": "knockout",
+        "description": "A gene knockout is a genetic technique in which an organism is engineered to carry genes that have been made inoperative (have been 'knocked out' of the organism).",
+        "source": "http://www.bioassayontology.org/bao#BAO_0002441"
+      }
+    ]
+  },
+  {
+    "name": "genePerturbationTechnology",
+    "description": "Technology used to perform gene perturbation",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "RNAi",
+        "description": "High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes",
+        "source": "http://purl.obolibrary.org/obo/ERO_0001688"
+      },
+      {
+        "value": "CRISPR",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+    {
+    "name": "drugScreenType",
+    "description": "String describing general class of drug screen",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues":[
+      {
+        "value": "singleMolecule",
+        "description": "An experiment in which a single molecule was used in an assay",
+        "source": ""
+      },
+      {
+        "value": "smallMoleculeLibraryScreen",
+        "description": "High throughput sample analysis of small molecules for purpose such as drug discovery, or biochemical, genetic or pharmacological tests.",
+        "source": " http://purl.obolibrary.org/obo/ERO_0001726"
+      },
+      {
+        "value":"combinationLibraryScreen",
+        "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.",
+        "source":"http://purl.obolibrary.org/obo/ERO_0001686"
+      }
+    ]
+  },
+  {
+    "name": "timePointUnit",
+    "description": "For timed experiments this represents the unit of time measured",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "hours",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "days",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "transplantationDonorSpecies",
+    "description": "Species from which donor tissue originated",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "Human",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Mouse",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "experimentalCondition",
+    "description": "This describes the condition under which the data were collected, designed to be free form, extra things that do not fit in pre-defined terms",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+
+  {
+    "name": "modelSystem",
+    "description": "Name of model system",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "experimentalTimePoint",
+    "description": "Number describing time point at which data was collected",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "genePerturbed",
+    "description": "In the case of gene modulation, this describes the gene or genes that were modulated",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
+    "name": "transplantationDonorTissue",
+    "description": "",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+     {
+    "name": "tumorType",
+    "description": "The type of cells that carcinoma arises from.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "Neurofibroma Cutaneous",
+        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths of skin.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+      },
+      {
+        "value": "Neurofibroma Subcutaneous",
+        "description": "An intraneural neoplasm arising from nerve tissues and neural sheaths laying under the skin.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+      },
+      {
+        "value": "Neurofibroma Plexiform",
+        "description": "Plexiform neurofibromas are larger, more extensive tumors that grow from nerves anywhere in the body.",
+        "source": "https://nfcenter.wustl.edu/what-is-nf/neurofibromatosis-type-1/nerve-tumors/"
+      },
+      {
+        "value": "Neurofibroma Atypical",
+        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths that does not belong to a known subtype.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+      },
+      {
+        "value": "Malignant Peripheral Nerve Sheath Tumor",
+        "description": "The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+      },
+      {
+        "value": "Adenocarcinoma",
+        "description": "A common cancer characterized by the presence of malignant glandular cells. Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C2852"
+      },
+      {
+        "value": "Carcinoma",
+        "description": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_305"
+      },
+      {
+        "value": "Ductal Carcinoma",
+        "description": "Invasive ductal carcinoma (IDC), an infiltrating, malignant and abnormal proliferation of neoplastic cells in the breast tissue, or ductal carcinoma in situ (DCIS), a noninvasive, possibly malignant, neoplasm that is still confined to the milk ducts (lactiferous ducts), where breast cancer most often originates.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004851"
+      },
+      {
+        "value": "Melanoma",
+        "description": "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3224"
+      },
+      {
+        "value": "Optic Nerve Glioma",
+        "description": "Optic pathway glioma (OPG) is a benign tumor that develop along the optic nerve (chiasm, tracts, and radiations) characterized by impairment or loss of vision and may be accompanied by diencephalic symptoms such as reduced growth and alteration in sleeping patterns. OPG are often linked to neurofibromatosis type 1.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http%3A%2F%2Fwww.orpha.net%2FORDO%2FOrphanet_2086"
+      },
+      {
+        "value": "Low Grade Glioma",
+        "description": "Low grade gliomas are brain tumors that come from two different types of brain cells known as astrocytes and oligodendrocytes.",
+        "source": "https://www.urmc.rochester.edu/neurosurgery/specialties/neurooncology/conditions/low-grade-glioma.aspx"
+      },
+      {
+        "value": "Diffuse Astrocytoma",
+        "description": "Also called Low-Grade or Astrocytoma Grade II is a subtype of glial tumor of the brain or spinal cord showing astrocytic differentiation.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000272"
+      },
+      {
+        "value": "Anaplastic Astrocytoma",
+        "description": "A diffusely infiltrating, WHO grade III astrocytoma with focal or dispersed anaplasia, and a marked proliferative potential. It may arise from a low-grade astrocytoma, but it can also be diagnosed at first biopsy, without indication of a less malignant precursor lesion. It has an intrinsic tendency for malignant progression to glioblastoma.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002499"
+      },
+      {
+        "value": "Glioblastoma",
+        "description": "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mpath/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMPATH_564"
+      },
+      {
+        "value": "Schwannoma",
+        "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
+      },
+      {
+        "value": "Meningioma",
+        "description": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3230"
+      },
+      {
+        "value": "Not Applicable",
+        "description": "",
+        "source": ""
+      }
+    ]
+  }
+]

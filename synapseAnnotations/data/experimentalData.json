@@ -7,288 +7,245 @@
     "enumValues": []
   },
   {
-    "name": "assay", 
-    "description": "The technology used to generate the data in this file", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "assay",
+    "description": "The technology used to generate the data in this file",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "rnaSeq", 
-        "description": "RNA Sequencing measurements", 
+        "value": "rnaSeq",
+        "description": "RNA Sequencing measurements",
         "source": "http://purl.obolibrary.org/obo/OBI_0001271"
-      }, 
+      },
       {
-        "value": "mirnaSeq", 
-        "description": "Small RNA measurements collected from RNA-Seq experiments", 
+        "value": "mirnaSeq",
+        "description": "Small RNA measurements collected from RNA-Seq experiments",
         "source": "http://purl.obolibrary.org/obo/OBI_0002112"
-      }, 
+      },
       {
-        "value": "lncrnaSeq", 
-        "description": "Long non-coding RNA measurements collected from RNA-Seq experiments", 
+        "value": "lncrnaSeq",
+        "description": "Long non-coding RNA measurements collected from RNA-Seq experiments",
         "source": ""
       },
       {
-        "value": "exomeSeq", 
-        "description": "Data derived from exome sequencing", 
+        "value": "exomeSeq",
+        "description": "Data derived from exome sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
-      }, 
+      },
       {
-        "value": "CHiPSeq", 
-        "description": "Chromatin immuno-precipitation followed by sequencing", 
+        "value": "CHiPSeq",
+        "description": "Chromatin immuno-precipitation followed by sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0000716"
-      }, 
+      },
       {
-        "value": "rnaArray", 
-        "description": "RNA measurements captured by array technology", 
+        "value": "rnaArray",
+        "description": "RNA measurements captured by array technology",
         "source": "http://purl.obolibrary.org/obo/OBI_0001463"
-      }, 
+      },
       {
-        "value": "snpArray", 
-        "description": "SNP measurements captured by array technology", 
+        "value": "snpArray",
+        "description": "SNP measurements captured by array technology",
         "source": "http://purl.obolibrary.org/obo/OBI_0001204"
-      }, 
+      },
       {
-        "value": "methylationArray", 
-        "description": "Methylation data captured by array technology", 
+        "value": "methylationArray",
+        "description": "Methylation data captured by array technology",
         "source": "http://purl.obolibrary.org/obo/OBI_0001332"
-      }, 
+      },
       {
-        "value": "mirnaArray", 
-        "description": "microRNA measurements captured by array technology", 
+        "value": "mirnaArray",
+        "description": "microRNA measurements captured by array technology",
         "source": "http://purl.obolibrary.org/obo/OBI_0001335"
-      }, 
+      },
       {
-        "value": "bisulfiteSeq", 
-        "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process", 
+        "value": "bisulfiteSeq",
+        "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process",
         "source": "http://purl.obolibrary.org/obo/OBI_0000748"
-      }, 
+      },
       {
-        "value": "ATACSeq", 
-        "description": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment", 
+        "value": "ATACSeq",
+        "description": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment",
         "source": "http://purl.obolibrary.org/obo/OBI_0002039"
-      }, 
+      },
       {
-        "value": "NOMeSeq", 
-        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing", 
+        "value": "NOMeSeq",
+        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing",
         "source": ""
       },
       {
-        "value": "HI-C", 
-        "description": "Chromatin interactions detected by HI-C protocol", 
+        "value": "HI-C",
+        "description": "Chromatin interactions detected by HI-C protocol",
         "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
-      }, 
+      },
       {
-        "value": "errBisulfiteSeq", 
-        "description": "Data for enriched reduced representation bisulfite sequencing data", 
+        "value": "errBisulfiteSeq",
+        "description": "Data for enriched reduced representation bisulfite sequencing data",
         "source": ""
       },
       {
-        "value": "ISOSeq", 
-        "description": "Full isoform sequencing", 
+        "value": "ISOSeq",
+        "description": "Full isoform sequencing",
         "source": ""
       },
       {
-        "value": "MRI", 
-        "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.", 
+        "value": "MRI",
+        "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.",
         "source": "http://edamontology.org/topic_3444"
-      }, 
+      },
       {
-        "value": "westernBlot", 
-        "description": "A multistep process in which a mixture of proteins is separated by gel electrophoresis", 
+        "value": "westernBlot",
+        "description": "A multistep process in which a mixture of proteins is separated by gel electrophoresis",
         "source": "http://purl.obolibrary.org/obo/MMO_0000338"
-      }, 
+      },
       {
-        "value": "wholeGenomeSeq", 
-        "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time", 
+        "value": "wholeGenomeSeq",
+        "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time",
         "source": "http://edamontology.org/topic_3673"
-      }, 
+      },
       {
-        "value": "polymeraseChainReaction", 
-        "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning", 
+        "value": "polymeraseChainReaction",
+        "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning",
         "source": "http://purl.obolibrary.org/obo/MMO_0000459"
-      }, 
+      },
       {
-        "value": "cellViabilityAssay", 
-        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death", 
+        "value": "cellViabilityAssay",
+        "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death",
         "source": "http://www.bioassayontology.org/bao#BAO_0003009"
       },
       {
-        "value": "atomicForceMicroscopy", 
-        "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen", 
+        "value": "atomicForceMicroscopy",
+        "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000113"
-      }, 
+      },
       {
-        "value": "brightfieldMicroscopy", 
-        "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective", 
+        "value": "brightfieldMicroscopy",
+        "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000104"
-      }, 
+      },
       {
-        "value": "tractionForceMicroscopy", 
-        "description": "An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM)", 
+        "value": "tractionForceMicroscopy",
+        "description": "An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM)",
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
-      }, 
+      },
       {
-        "value": "targetedGeneSeq", 
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods", 
+        "value": "targetedGeneSeq",
+        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
         "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
       },
       {
-        "value": "jumpingLibrary", 
-        "description": "", 
+        "value": "jumpingLibrary",
+        "description": "",
         "source": ""
       },
       {
-        "value": "MIB/MS", 
-        "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)", 
+        "value": "MIB/MS",
+        "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
       },
       {
-        "value": "MudPIT", 
-        "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry", 
+        "value": "MudPIT",
+        "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry",
         "source": "http://purl.obolibrary.org/obo/MI_0658"
-      }, 
+      },
       {
-        "value": "questionnaire", 
-        "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.", 
+        "value": "questionnaire",
+        "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
-      },
-      {
-        "value": "confocalMicroscopy", 
-        "description": "Microscopy where visible light coming from the specimen is collected and guided through a pinhole before it is detected. The pinhole allows only light from the focal point to pass to the detector, reducing background interference.", 
-        "source": "http://purl.obolibrary.org/obo/CHMO_0000103"
       }
     ]
   },
   {
-    "name": "dataSubtype", 
-    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "dataSubtype",
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "dataMatrix", 
-        "description": "A file of data containing multiple values for multiple samples.", 
+        "value": "dataMatrix",
+        "description": "A file of data containing multiple values for multiple samples.",
         "source": ""
       },
       {
-        "value": "raw", 
-        "description": "A data file produced by an instrument, or one with very little subsequent processing.", 
+        "value": "raw",
+        "description": "A data file produced by an instrument, or one with very little subsequent processing.",
         "source": ""
       },
       {
-        "value": "processed", 
-        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.", 
+        "value": "processed",
+        "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
         "source": ""
       },
       {
-        "value": "metadata", 
-        "description": "A file of clinical, technical, or other parameters that describe a dataset.", 
+        "value": "metadata",
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.",
         "source": ""
       }
     ]
   },
   {
-    "name": "organ", 
-    "description": "The organ from which the sample is derived", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "organ",
+    "description": "The organ from which the sample is derived",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "skin", 
-        "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.", 
+        "value": "skin",
+        "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
-      }, 
+      },
       {
-        "value": "nerves", 
-        "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.", 
+        "value": "nerves",
+        "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000925"
-      }, 
+      },
       {
-        "value": "brain", 
-        "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.", 
+        "value": "brain",
+        "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000142"
-      }, 
+      },
       {
-        "value": "blood", 
-        "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.", 
+        "value": "blood",
+        "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000089"
-      }, 
+      },
       {
-        "value": "breast", 
-        "description": "The fore or ventral part of the body between the neck and the abdomen.", 
+        "value": "breast",
+        "description": "The fore or ventral part of the body between the neck and the abdomen.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000149"
-      }, 
+      },
       {
-        "value": "colon", 
-        "description": "The part of the large intestine that extends from the cecum to the rectum.", 
+        "value": "colon",
+        "description": "The part of the large intestine that extends from the cecum to the rectum.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000269"
-      }, 
+      },
       {
-        "value": "lung", 
-        "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.", 
+        "value": "lung",
+        "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000763"
-      }, 
+      },
       {
-        "value": "prostate", 
-        "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.", 
+        "value": "prostate",
+        "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.",
         "source": "http://purl.obolibrary.org/obo/FMA_9600"
-      }, 
+      },
       {
-        "value": "pancreas", 
-        "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.", 
+        "value": "pancreas",
+        "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000988"
-      }, 
+      },
       {
-        "value": "ovary", 
-        "description": "One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.", 
+        "value": "ovary",
+        "description": "One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000975"
-      }, 
+      },
       {
-        "value": "spleen", 
-        "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.", 
+        "value": "spleen",
+        "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
       }
     ]
   },
-  {
-    "name": "fundingAgency", 
-    "description": "The organization providing financial support for generation of this data.", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "CTF", 
-        "description": "Childrens' Tumor Foundation", 
-        "source": "http://www.ctf.org"
-      }, 
-      {
-        "value": "NIH-NCI", 
-        "description": "National Institutes of Health - National Cancer Institute", 
-        "source": "https://www.cancer.gov"
-      }, 
-      {
-        "value": "NTAP", 
-        "description": "Neurofibromatosis Therapeutic Acceleration Program", 
-        "source": "http://www.n-tap.org"
-      }, 
-      {
-        "value": "NIH-NIA", 
-        "description": "National Institutes of Health - National Institute of Aging", 
-        "source": "https://www.nia.nih.gov"
-      }, 
-      {
-        "value": "NIH-NIMH", 
-        "description": "National Institutes of Health - National Institute of Mental Health", 
-        "source": "https://www.nimh.nih.gov"
-      }, 
-      {
-        "value": "AACR", 
-        "description": "American Association for Cancer Research", 
-        "source": "http://www.aacr.org"
-      }
-    ]
-  },
-  {
+     {
     "name": "dataType",
     "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
@@ -347,10 +304,10 @@
     ]
   },
   {
-    "name": "individualIdSource", 
-    "description": "Database or repository to which individual ID maps", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "individualIdSource",
+    "description": "Database or repository to which individual ID maps",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": []
   },
   {
@@ -586,325 +543,54 @@
       }
     ]
   },
-  {
-    "name": "consortium", 
-    "description": "The name of the consortium", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "CommonMind Consortium", 
-        "description": "", 
-        "source": "https://www.synapse.org/cmc"
-      }, 
-      {
-        "value": "PsychENCODE Consortium", 
-        "description": "", 
-        "source": "https://www.synapse.org/pec"
-      }, 
-      {
-        "value": "AMP-AD", 
-        "description": "Accelerating Medicines Partnership-Alzheimer's Disease", 
-        "source": "https://www.synapse.org/ampad"
-      }, 
-      {
-        "value": "MODEL-AD", 
-        "description": "Model Development and Evaluation for Late Onset AD", 
-        "source": "https://www.synapse.org/ampad"
-      }, 
-      {
-        "value": "M2OVE-AD", 
-        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ", 
-        "source": "https://www.synapse.org/ampad"
-      }, 
-      {
-        "value": "BSMN", 
-        "description": "Brain Somatic Mosaicism Network", 
-        "source": "https://www.synapse.org/bsmn"
-      }, 
-      {
-        "value": "CSBC", 
-        "description": "Cancer Systems Biology Consortium", 
-        "source": "https://csbconsortium.org/"
-      }, 
-      {
-        "value": "PSON", 
-        "description": "Physical Science in Oncology", 
-        "source": "https://physics.cancer.gov/"
-      }, 
-      {
-        "value": "GENIE", 
-        "description": "Genomics Evidence Neoplasia Information Exchange", 
-        "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
-      }, 
-      {
-        "value": "Synodos NF1", 
-        "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project", 
-        "source": "https://www.synapse.org/ctf"
-      }, 
-      {
-        "value": "Synodos NF2", 
-        "description": "Data derived from the CTF-funded NF2 Synodos project", 
-        "source": "https://www.synapse.org/syndosnf2"
-      }, 
-      {
-        "value": "Synodos LGG", 
-        "description": "Data derived from the CTF-funded NF1 LGG Synodos project", 
-        "source": "http://www.synapse.org/nf1lgg"
-      }, 
-      {
-        "value": "DHART SPORE", 
-        "description": "Data from the D-HART SPORE", 
-        "source": "http://www.synapse.org/dhart"
-      },
-      {
-        "value": "Not Applicable", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  },
-  {
+   {
     "name": "individualID",
     "description": "",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
   },
-  {
-    "name": "fileFormat",
-    "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
-    "columnType": "STRING",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": "idx",
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": "idat",
-        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.",
-        "source": "http://edamontology.org/format_3578"
-      },
-      {
-        "value": "bam",
-        "description": "BAM format, the binary, BGZF-formatted compressed version of SAM format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",
-        "source": "http://edamontology.org/format_2572"
-      },
-      {
-        "value": "bai",
-        "description": "BAM indexing format",
-        "source": "http://edamontology.org/format_3327"
-      },
-      {
-        "value": "excel",
-        "description": "Microsoft Excel spreadsheet format",
-        "source": ""
-      },
-      {
-        "value": "powerpoint",
-        "description": "Microsoft Powerpoint slide format",
-        "source": ""
-      },
-      {
-        "value": "tif",
-        "description": "Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images",
-        "source": "https://en.wikipedia.org/wiki/TIFF"
-      },
-      {
-        "value": "png",
-        "description": "PNG is a file format for image compression",
-        "source": "http://edamontology.org/format_3603"
-      },
-      {
-        "value": "doc",
-        "description": "Microsoft Word document format",
-        "source": ""
-      },
-      {
-        "value": "pdf",
-        "description": "Portable Document Format",
-        "source": "http://edamontology.org/format_3508"
-      },
-      {
-        "value": "hdf",
-        "description": "Hierarchical Data Format (HDF) is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of data",
-        "source": "https://en.wikipedia.org/wiki/Hierarchical_Data_Format"
-      },
-      {
-        "value": "fasta",
-        "description": "FASTA format is a text-based format for representing either nucleotide sequences or peptide sequences, in which nucleotides or amino acids are represented using single-letter codes",
-        "source": "https://en.wikipedia.org/wiki/FASTA_format"
-      },
-      {
-        "value": "fastq",
-        "description": "FASTQ format is a text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores. Both the sequence letter and quality score are each encoded with a single ASCII character for brevity",
-        "source": "https://en.wikipedia.org/wiki/FASTQ_format"
-      },
-      {
-        "value": "sam",
-        "description": "Sequence Alignment/Map (SAM) format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",
-        "source": "http://edamontology.org/format_2573"
-      },
-      {
-        "value": "vcf",
-        "description": "Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",
-        "source": "http://edamontology.org/format_3016"
-      },
-      {
-        "value": "bcf",
-        "description": "BCF, the binary version of Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",
-        "source": "http://edamontology.org/format_3016"
-      },
-      {
-        "value": "maf",
-        "description": "Multiple Alignment Format (MAF) supporting alignments of whole genomes with rearrangements, directions, multiple pieces to the alignment, and so forth",
-        "source": "http://edamontology.org/format_3008"
-      },
-      {
-        "value": "bed",
-        "description": "Browser Extensible Data (BED) format of sequence annotation track, typically to be displayed in a genome browser",
-        "source": "http://edamontology.org/format_3003"
-      },
-      {
-        "value": "chp",
-        "description": "CHP file contains probe set analysis results generated from Affymetrix software",
-        "source": ""
-      },
-      {
-        "value": "cel",
-        "description": "Format of Affymetrix data file of information about (raw) expression levels of the individual probes",
-        "source": "http://edamontology.org/format_1638"
-      },
-      {
-        "value": "sif",
-        "description": "SIF (simple interaction file) Format - a network/pathway format used for instance in cytoscape",
-        "source": "http://edamontology.org/format_3619"
-      },
-      {
-        "value": "tsv",
-        "description": "Tabular data represented as tab-separated values in a text file",
-        "source": "http://edamontology.org/format_3475"
-      },
-      {
-        "value": "csv",
-        "description": "Tabular data represented as comma-separated values in a text file",
-        "source": "http://edamontology.org/format_3752"
-      },
-      {
-        "value": "txt",
-        "description": "Textual format",
-        "source": "http://edamontology.org/format_2330"
-      },
-      {
-        "value": "plink",
-        "description": "Any Plink file format (MAP/PED/BED)",
-        "source": ""
-      },
-      {
-        "value": "idat",
-        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc",
-        "source": "http://edamontology.org/format_3578"
-      },
-      {
-        "value": "bigwig",
-        "description": "bigWig format for large sequence annotation tracks that consist of a value for each sequence position",
-        "source": "http://edamontology.org/format_3006"
-      },
-      {
-        "value": "wiggle",
-        "description": "Wiggle format (WIG) of a sequence annotation track that consists of a value for each sequence position",
-        "source": "http://edamontology.org/format_3005"
-      },
-      {
-        "value": "gct",
-        "description": "Tab-delimited text files of GenePattern that contain a column for each sample, a row for each gene, and an expression value for each gene in each sample",
-        "source": "http://edamontology.org/format_3709"
-      },
-      {
-        "value": "bgzip",
-        "description": "Blocked GNU Zip format",
-        "source": "http://edamontology.org/format_3615"
-      },
-      {
-        "value": "seg",
-        "description": "SEG file (segmented data; .seg or .cbs) is a tab-delimited text file that lists loci and associated numeric values",
-        "source": "https://software.broadinstitute.org/software/igv/SEG"
-      },
-      {
-        "value": "html",
-        "description": "HTML format",
-        "source": "http://edamontology.org/format_2331"
-      },
-      {
-        "value": "md",
-        "description": "Markdown (MD) is a lightweight markup language with plain text formatting syntax",
-        "source": "https://en.wikipedia.org/wiki/Markdown"
-      },
-      {
-        "value": "flagstat",
-        "description": "Output of samtools flagstat tool",
-        "source": ""
-      },
-      {
-        "value": "gtf",
-        "description": "Gene transfer format (GTF) is a file format used to hold information about gene structure",
-        "source": "https://en.wikipedia.org/wiki/Gene_transfer_format"
-      },
-      {
-        "value": "raw",
-        "description": "Proprietary file format for mass spectrometry data from Thermo Scientific",
-        "source": "http://edamontology.org/format_3712"
-      },
-      {
-        "value": "msf",
-        "description": "Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software",
-        "source": "http://edamontology.org/format_3702"
-      }
-    ]
-  },
-  {
+     {
     "name": "platform",
     "description": "",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "HiSeq2500", 
-        "description": "Illumina HiSeq 2500 (Homo sapiens)", 
+        "value": "HiSeq2500",
+        "description": "Illumina HiSeq 2500 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
-      }, 
+      },
       {
-        "value": "HiSeq2000", 
-        "description": "Illumina HiSeq 2000 (Homo sapiens)", 
+        "value": "HiSeq2000",
+        "description": "Illumina HiSeq 2000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
-      }, 
+      },
       {
-        "value": "MiSeq", 
-        "description": "Illumina MiSeq (Homo sapiens)", 
+        "value": "MiSeq",
+        "description": "Illumina MiSeq (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
-      }, 
+      },
       {
         "value": "PsychChip",
         "description": "",
         "source": ""
       },
       {
-        "value": "Affy5.0", 
-        "description": "Affymetrix Genome-Wide Human SNP 5.0 Array", 
+        "value": "Affy5.0",
+        "description": "Affymetrix Genome-Wide Human SNP 5.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
-      }, 
+      },
       {
-        "value": "Affy6.0", 
-        "description": "Affymetrix Genome-Wide Human SNP 6.0 Array", 
+        "value": "Affy6.0",
+        "description": "Affymetrix Genome-Wide Human SNP 6.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
-      }, 
+      },
       {
-        "value": "PacBioRSII", 
-        "description": "PacBio RS II (Homo sapiens)", 
+        "value": "PacBioRSII",
+        "description": "PacBio RS II (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
-      }, 
+      },
       {
         "value": "GAIIx",
         "description": "",
@@ -946,10 +632,10 @@
         "source": ""
       },
       {
-        "value": "IlluminaWholeGenomeDASL", 
-        "description": "Illumina Human Whole-Genome DASL HT", 
+        "value": "IlluminaWholeGenomeDASL",
+        "description": "Illumina Human Whole-Genome DASL HT",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
-      }, 
+      },
       {
         "value": "IlluminaHumanHap300",
         "description": "",
@@ -961,25 +647,25 @@
         "source": ""
       },
       {
-        "value": "LTQOrbitrapXL", 
-        "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer", 
+        "value": "LTQOrbitrapXL",
+        "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
         "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
-      }, 
+      },
       {
-        "value": "IlluminaHumanMethylation450", 
-        "description": "Illumina HumanMethylation450 BeadChip ", 
+        "value": "IlluminaHumanMethylation450",
+        "description": "Illumina HumanMethylation450 BeadChip ",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
-      }, 
+      },
       {
         "value": "AffymetrixU133AB",
         "description": "",
         "source": ""
       },
       {
-        "value": "AffymetrixU133Plus2", 
-        "description": "Affymetrix Human Genome U133 Plus 2.0 Array", 
+        "value": "AffymetrixU133Plus2",
+        "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
-      }, 
+      },
       {
         "value": "confocalImaging",
         "description": "",
@@ -1003,10 +689,10 @@
     ]
   },
   {
-    "name": "isCellLine", 
-    "description": "Boolean flag indicating whether or not sample source is a cell line", 
-    "columnType": "BOOLEAN", 
-    "maximumSize": 250, 
+    "name": "isCellLine",
+    "description": "Boolean flag indicating whether or not sample source is a cell line",
+    "columnType": "BOOLEAN",
+    "maximumSize": 250,
     "enumValues": [
       {
         "value": true,
@@ -1021,10 +707,10 @@
     ]
   },
   {
-    "name": "isPrimaryCell", 
-    "description": "Boolean flag indicating whether or not cellType is primary", 
-    "columnType": "BOOLEAN", 
-    "maximumSize": 250, 
+    "name": "isPrimaryCell",
+    "description": "Boolean flag indicating whether or not cellType is primary",
+    "columnType": "BOOLEAN",
+    "maximumSize": 250,
     "enumValues": [
       {
         "value": true,
@@ -1254,100 +940,7 @@
       }
     ]
   },
-  {
-    "name": "tumorType",
-    "description": "The type of cells that carcinoma arises from.",
-    "columnType": "STRING",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": "Neurofibroma Cutaneous",
-        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths of skin.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
-      },
-      {
-        "value": "Neurofibroma Subcutaneous",
-        "description": "An intraneural neoplasm arising from nerve tissues and neural sheaths laying under the skin.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
-      },
-      {
-        "value": "Neurofibroma Plexiform",
-        "description": "Plexiform neurofibromas are larger, more extensive tumors that grow from nerves anywhere in the body.",
-        "source": "https://nfcenter.wustl.edu/what-is-nf/neurofibromatosis-type-1/nerve-tumors/"
-      },
-      {
-        "value": "Neurofibroma Atypical",
-        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths that does not belong to a known subtype.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
-      },
-      {
-        "value": "Malignant Peripheral Nerve Sheath Tumor",
-        "description": "The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
-      },
-      {
-        "value": "Adenocarcinoma",
-        "description": "A common cancer characterized by the presence of malignant glandular cells. Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C2852"
-      },
-      {
-        "value": "Carcinoma",
-        "description": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_305"
-      },
-      {
-        "value": "Ductal Carcinoma",
-        "description": "Invasive ductal carcinoma (IDC), an infiltrating, malignant and abnormal proliferation of neoplastic cells in the breast tissue, or ductal carcinoma in situ (DCIS), a noninvasive, possibly malignant, neoplasm that is still confined to the milk ducts (lactiferous ducts), where breast cancer most often originates.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004851"
-      },
-      {
-        "value": "Melanoma",
-        "description": "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3224"
-      },
-      {
-        "value": "Optic Nerve Glioma",
-        "description": "Optic pathway glioma (OPG) is a benign tumor that develop along the optic nerve (chiasm, tracts, and radiations) characterized by impairment or loss of vision and may be accompanied by diencephalic symptoms such as reduced growth and alteration in sleeping patterns. OPG are often linked to neurofibromatosis type 1.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http%3A%2F%2Fwww.orpha.net%2FORDO%2FOrphanet_2086"
-      },
-      {
-        "value": "Low Grade Glioma",
-        "description": "Low grade gliomas are brain tumors that come from two different types of brain cells known as astrocytes and oligodendrocytes.",
-        "source": "https://www.urmc.rochester.edu/neurosurgery/specialties/neurooncology/conditions/low-grade-glioma.aspx"
-      },
-      {
-        "value": "Diffuse Astrocytoma",
-        "description": "Also called Low-Grade or Astrocytoma Grade II is a subtype of glial tumor of the brain or spinal cord showing astrocytic differentiation.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000272"
-      },
-      {
-        "value": "Anaplastic Astrocytoma",
-        "description": "A diffusely infiltrating, WHO grade III astrocytoma with focal or dispersed anaplasia, and a marked proliferative potential. It may arise from a low-grade astrocytoma, but it can also be diagnosed at first biopsy, without indication of a less malignant precursor lesion. It has an intrinsic tendency for malignant progression to glioblastoma.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002499"
-      },
-      {
-        "value": "Glioblastoma",
-        "description": "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/mpath/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMPATH_564"
-      },
-      {
-        "value": "Schwannoma",
-        "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves. ",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
-      },
-      {
-        "value": "Meningioma",
-        "description": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3230"
-      },
-      {
-        "value": "Not Applicable",
-        "description": "",
-        "source": ""
-      }
-    ]
-  },
-  {
+    {
     "name": "specimenIdSource",
     "description": "",
     "columnType": "STRING",
@@ -1373,31 +966,31 @@
     ]
   },
   {
-    "name": "species", 
-    "description": "The name of a species (typically a taxonomic group) of organism.", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
+    "name": "species",
+    "description": "The name of a species (typically a taxonomic group) of organism.",
+    "columnType": "STRING",
+    "maximumSize": 250,
     "enumValues": [
       {
-        "value": "Human", 
-        "description": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human", 
+        "value": "Human",
+        "description": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock"
-      }, 
+      },
       {
-        "value": "Mouse", 
-        "description": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse", 
+        "value": "Mouse",
+        "description": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock"
-      }, 
+      },
       {
-        "value": "Rat", 
-        "description": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents", 
+        "value": "Rat",
+        "description": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10114&lvl=3&lin=f&keep=1&srchmode=1&unlock"
-      }, 
+      },
       {
-        "value": "Drosophila melanogaster", 
-        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly", 
+        "value": "Drosophila melanogaster",
+        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
       }
     ]
   }
-]
+    ]
