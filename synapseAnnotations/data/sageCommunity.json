@@ -7,18 +7,18 @@
       "enumValues" : [
           {
               "value": "experimentalData",
-              "description": "Any file derived from or pertaining to a scientific experiment. Requires experiment annotations, possibly disease-related",
-              "source": ""
+              "description": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
+              "source": "Sage"
           },
           {
-              "value": "experimentalAnalysis",
-              "description": "Any file derived from analysis such that it requires the analysis annotations, possibly disease-related",
-              "source" : ""
+              "value": "analysis",
+              "description": "Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",
+              "source": "Sage"
           },
           {
-              "value": "toolOrAlgorithm",
-              "description": "Any file or site that represents a tool, requiring the tool annotations",
-              "source":""
+              "value": "tool",
+              "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
+              "source": "Sage"
           }
          ]
   },
