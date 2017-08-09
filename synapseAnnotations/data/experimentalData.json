@@ -562,6 +562,11 @@
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
       },
       {
+        "value": "HiSeq4000",
+        "description": "Illumina HiSeq 4000 (Homo sapiens)",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
+      },
+      {
         "value": "HiSeq2000",
         "description": "Illumina HiSeq 2000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
@@ -683,8 +688,8 @@
       },
       {
         "value": "HiSeqX",
-        "description": "A whole-genome sequencing platform",
-        "source": ""
+        "description": "Illumina HiSeq X Platform for whole-genome sequencing",
+        "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
       }
     ]
   },
