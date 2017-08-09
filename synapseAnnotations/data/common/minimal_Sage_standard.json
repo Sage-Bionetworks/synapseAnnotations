@@ -78,8 +78,8 @@
         "source": "https://www.synapse.org/pec"
       },
       {
-        "value": "AMP-AD",
-        "description": "Accelerating Medicines Partnership-Alzheimer’s Disease",
+        "value": "AMP-AD", 
+        "description": "Accelerating Medicines Partnership-Alzheimer's Disease", 
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -88,8 +88,8 @@
         "source": "https://www.synapse.org/ampad"
       },
       {
-        "value": "M2OVE-AD",
-        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer’s Disease ",
+        "value": "M2OVE-AD", 
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ", 
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -149,6 +149,11 @@
         "value": "idx",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "idat",
+        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.",
+        "source": "http://edamontology.org/format_3578"
       },
       {
         "value": "bam",
