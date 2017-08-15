@@ -105,37 +105,3 @@ def check_keys():
                                                                                                "table "
                                                                                                "length",
                                                                        str(len(table_key_set))]))
-
-
-def compare_key_values():
-    """
-    Example: nosetests -vs tests/unit/test_json2synapse.py:compare_key_values
-
-    :return: If the synapse table key-value columns data frame matches exactly with the normalized
-    json key-value columns data frame it returns None otherwise it generates an error with the % mismatch.
-
-    It is required for both data frames to be sorted exactly the same, otherwise a small % mismatch is reported.
-    """
-    # subset dataframe to only compare the unique keys (key-value)
-    key = ['key', 'value']
-    synapse_df = currentTable.loc[:, ('key', 'value')]
-    github_df = all_modules_df.loc[:, ('key', 'value')]
-
-    # sort by key (key-value pair)
-    synapse_df.sort_values(key, ascending=[True, True], inplace=True)
-    github_df.sort_values(key, ascending=[True, True], inplace=True)
-
-    # set the columns as index (may not be needed)
-    synapse_df.set_index(key, inplace=True, drop=False)
-    github_df.set_index(key, inplace=True, drop=False)
-
-    # reset the index (pandas assigns unique labels per each multi-key value)
-    synapse_df.reset_index(inplace=True, level=None, drop=True)
-    github_df.reset_index(inplace=True, level=None, drop=True)
-
-    #synapse_df.to_csv("df1.csv")
-    #github_df.to_csv("df2.csv")
-
-    # compare the dataframes
-    assert_frame_equal(github_df, synapse_df, check_names=False)
-
