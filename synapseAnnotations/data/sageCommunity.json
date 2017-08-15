@@ -333,7 +333,7 @@
       {
         "value": "rmd",
         "description": "markdown document specific to r analyses",
-        "source": "http://rmarkdown.rstudio.com/developer_document_templates.html?version=0.99.1273"
+        "source": "http://rmarkdown.rstudio.com/developer_document_templates.html"
       }
     ]
   }
