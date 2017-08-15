@@ -36,8 +36,10 @@ pip install -r requirements.txt
 1. Finalize merge into the `master` branch.
 1. Update the version and make a versioned release (with assistance from @teslajoy)
 
-# Release Versioning Annotations  
-The release version tags structure **v0.0.0** fits within [semantic versioning](http://semver.org/) guidelines. The tags release numbering scheme is defined as:
+# Release Versioning Annotations
+Releases are made through Github tags and are available on the [Releases](https://github.com/Sage-Bionetworks/synapseAnnotations/releases) page.
+
+The release version structure **v0.0.0** follows [semantic versioning](http://semver.org/) guidelines. New releases are made using the following rules:
 
 Major version **v0** increments by:
 1. Changes in data structure (ex. yaml to json or json to mongodb)
