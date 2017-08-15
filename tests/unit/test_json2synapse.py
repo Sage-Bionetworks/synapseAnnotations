@@ -1,4 +1,7 @@
 import os
+import sys
+import requests
+import json
 import pandas
 import synapseclient
 from nose.tools import assert_equals
@@ -6,41 +9,23 @@ from pandas.util.testing import assert_frame_equal
 
 syn = synapseclient.login()
 
-analysis = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/analysis.json'
-sageCommunity = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/sageCommunity.json'
-array = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/array.json'
-cancer = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/cancer.json'
-dhart = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/dhart.json'
-experimentalData = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/experimentalData.json'
-genie = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/genie.json'
-neuro = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/neuro.json'
-neurofibromatosis = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/neurofibromatosis.json'
-ngs = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/ngs.json'
-tool = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/tool.json'
-toolExtended = 'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/toolExtended.json'
-
-tableSynId = "syn10242922"
-
-paths = [analysis, sageCommunity, array, cancer, dhart, experimentalData, genie, neuro, neurofibromatosis, ngs, tool, toolExtended]
-names = ['analysis', 'sageCommunity', 'array', 'cancer', 'dhart', 'experimentalData', 'genie', 'neuro', 'neurofibromatosis', 'ngs', 'tool', 'toolExtended']
-
+tableSynId = "syn10265158"
 
 all_modules = []
-
-currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
-currentTable = currentTable.asDataFrame()
+key = ["key", "value", "module"]
+annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
+                     "source", "module"]
 
 def json2flatten(path, module):
-    # fetch and read raw json objects from its' github url and decode the json object to its raw format
+    """fetch and read raw json objects from its' github url path and decode the json object to its raw format"""
     json_record = pandas.read_json(path)
 
     # grab annotations with empty enumValue lists i.e. don't require normalization and structure their schema
     empty_vals = json_record.loc[json_record.enumValues.str.len() == 0]
     empty_vals = empty_vals.drop('enumValues', axis=1)
-
-    empty_vals['enumValues_description'] = ""
-    empty_vals['enumValues_source'] = ""
-    empty_vals['enumValues_value'] = ""
+    empty_vals['valueDescription'] = ""
+    empty_vals['source'] = ""
+    empty_vals['value'] = ""
     empty_vals['module'] = module
 
     empty_vals.set_index(empty_vals['name'], inplace=True)
@@ -51,46 +36,55 @@ def json2flatten(path, module):
     json_record.reset_index(inplace=True)
 
     for i, jsn in enumerate(json_record['enumValues']):
-        df = pandas.io.json.json_normalize(json_record['enumValues'][i])
-        # re-name columns to match table on synapse schema
-        df = df.rename(columns={'value': 'enumValues_value', 'description': 'enumValues_description',
-                                'source': 'enumValues_source'})
+        normalized_values_df = pandas.io.json.json_normalize(jsn)
 
-        # grab key information in its row, expand it by values dimention and append its key-columns to flattened values
-        rows = json_record.loc[i:i, json_record.columns != 'enumValues']
-        repeats = pandas.concat([rows] * len(df.index))
-        repeats.set_index(df.index, inplace=True)
-        flatten_df = pandas.concat([repeats, df], axis=1)
-        # append module category / annotating the annotations for module filtering
+        # re-name 'description' defined in dictionary to valuesDescription to match table on synapse schema
+        normalized_values_df = normalized_values_df.rename(columns={'description': 'valuesDescription'})
+
+        # grab key information in its row, expand it by values dimension and append its key-columns to flattened values
+        rows = json_record.loc[[i], json_record.columns != 'enumValues']
+        repeats = pandas.concat([rows] * len(normalized_values_df.index))
+        repeats.set_index(normalized_values_df.index, inplace=True)
+        flatten_df = pandas.concat([repeats, normalized_values_df], axis=1)
+        # add column module for annotating the annotations
         flatten_df['module'] = module
         flatten_df.set_index(flatten_df['name'], inplace=True)
 
         flatten_vals.append(flatten_df)
 
     flatten_vals.append(empty_vals)
+    module_df = pandas.concat(flatten_vals)
+    module_df = module_df.rename(columns={'name': 'key'})
 
-    return flatten_vals
+    return module_df
 
-for i, p in enumerate(paths):
-    data = json2flatten(p, names[i])
-    module_df = pandas.concat(data)
+# get and load the list of json files from data folder (given the api endpoint url - ref master - latest vesion)
+# then construct a dictionary of module names and its associated raw data github url endpoints.
+# example {u'analysis':
+#          u'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/analysis.json',
+#          ... } @kenny++
+# there is code for fetching a specific release version if needed in future.
+# https://github.com/teslajoy/synapseRAUtils/blob/master/githubfiles.py
+req = requests.get(
+    'https://api.github.com/repos/Sage-Bionetworks/synapseAnnotations/contents/synapseAnnotations/data/?ref=master')
+file_list = json.loads(req.content)
+names = {os.path.splitext(x['name'])[0]: x['download_url'] for x in file_list}
+
+for module, path in names.iteritems():
+    module_df = json2flatten(path, module)
     all_modules.append(module_df)
 
-# append/concat/collapse all normalized dataframe annotations into one dataframe
+# concat the list of all normalized dataframes into one annotation dataframe
 all_modules_df = pandas.concat(all_modules)
 
-# re-arrange columns/fields
-all_modules_df = all_modules_df[
-    ["name", "description", "columnType", "maximumSize", "enumValues_value", "enumValues_description",
-     "enumValues_source", "module"]]
+# re-arrange columns/fields and sort data.
+# this step is important for testing (compare_key_values()) where we diff two data frames
+all_modules_df = all_modules_df[annotation_schema]
+all_modules_df.sort_values(key, ascending=[True, True, True], inplace=True)
 
-all_modules_df.columns = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
-                           "source", "module"]
+currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
+currentTable = currentTable.asDataFrame()
 
-# save the table as a csv file
-all_modules_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
-all_modules_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
-os.remove("annot.csv")
 
 
 def check_keys():
@@ -98,13 +92,13 @@ def check_keys():
     Example: nosetests -vs tests/unit/test_json2synapse.py:check_keys
     :return: None or assert_equals Error message
     """
-    for i, p in enumerate(paths):
-        table_key_set = set(currentTable[currentTable['module'] == names[i]].key.unique())
-        json_record = pandas.read_json(p)
+    for module, path in names.iteritems():
+        table_key_set = set(currentTable[currentTable['module'] == module].key.unique())
+        json_record = pandas.read_json(path)
         json_key_set = set(json_record['name'])
         # print("json_key_set", len(json_key_set), json_key_set)
         # print("table_key_set", len(table_key_set), table_key_set)
-        assert_equals(len(json_key_set), len(table_key_set), ' '.join(["module name:", names[i], "synapseAnnotations "
+        assert_equals(len(json_key_set), len(table_key_set), ' '.join(["module name:", module, "synapseAnnotations "
                                                                                                  "github repo keys "
                                                                                                  "length",
                                                                        str(len(json_key_set)), "don't match synapse "
@@ -123,17 +117,17 @@ def compare_key_values():
     It is required for both data frames to be sorted exactly the same, otherwise a small % mismatch is reported.
     """
     # subset dataframe to only compare the unique keys (key-value)
-
+    key = ['key', 'value']
     synapse_df = currentTable.loc[:, ('key', 'value')]
     github_df = all_modules_df.loc[:, ('key', 'value')]
 
     # sort by key (key-value pair)
-    synapse_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
-    github_df.sort_values(['key', 'value'], ascending=[True, True], inplace=True)
+    synapse_df.sort_values(key, ascending=[True, True], inplace=True)
+    github_df.sort_values(key, ascending=[True, True], inplace=True)
 
     # set the columns as index (may not be needed)
-    synapse_df.set_index(['key', 'value'], inplace=True, drop=False)
-    github_df.set_index(['key', 'value'], inplace=True, drop=False)
+    synapse_df.set_index(key, inplace=True, drop=False)
+    github_df.set_index(key, inplace=True, drop=False)
 
     # reset the index (pandas assigns unique labels per each multi-key value)
     synapse_df.reset_index(inplace=True, level=None, drop=True)
