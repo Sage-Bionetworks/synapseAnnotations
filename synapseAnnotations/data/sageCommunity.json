@@ -78,8 +78,8 @@
         "source": "https://www.synapse.org/pec"
       },
       {
-        "value": "AMP-AD", 
-        "description": "Accelerating Medicines Partnership-Alzheimer's Disease", 
+        "value": "AMP-AD",
+        "description": "Accelerating Medicines Partnership-Alzheimer's Disease",
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -88,8 +88,8 @@
         "source": "https://www.synapse.org/ampad"
       },
       {
-        "value": "M2OVE-AD", 
-        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ", 
+        "value": "M2OVE-AD",
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ",
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -329,6 +329,11 @@
         "value": "msf",
         "description": "Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software",
         "source": "http://edamontology.org/format_3702"
+      },
+      {
+        "value": "rmd",
+        "description": "markdown document specific to r analyses",
+        "source": "http://rmarkdown.rstudio.com/developer_document_templates.html"
       }
     ]
   }
