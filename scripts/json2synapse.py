@@ -66,7 +66,7 @@ def updateTable(tableSynId, newTable, releaseVersion):
 
     # get table schema and set it's release version annotation
     schema = syn.get(tableSynId)
-    schema.annotations = {"releaseVersion": str(releaseVersion)}
+    schema.annotations = {"annotationReleaseVersion": str(releaseVersion)}
     updated_schema_release = syn.store(schema)
 
     # store the new table on synapse
@@ -125,7 +125,7 @@ def main():
     # there is code for fetching a specific release version if needed in future.
     # https://github.com/teslajoy/synapseRAUtils/blob/master/githubfiles.py
     req = requests.get(
-        'https://api.github.com/repos/Sage-Bionetworks/synapseAnnotations/contents/synapseAnnotations/data/?ref=master')
+        'https://api.github.com/repos/Sage-Bionetworks/synapseAnnotations/contents/synapseAnnotations/data/?ref=%s' %releaseVersion)
     file_list = json.loads(req.content)
     names = {os.path.splitext(x['name'])[0]: x['download_url'] for x in file_list}
 
