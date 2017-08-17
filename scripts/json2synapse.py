@@ -60,7 +60,7 @@ def updateTable(tableSynId, newTable, releaseVersion):
 
     currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 
-    # If current table has rows, delete all the rows of them
+    # If current table has rows, delete all the rows
     if currentTable.asRowSet().rows:
         deletedRows = syn.delete(currentTable.asRowSet())
 
@@ -122,8 +122,6 @@ def main():
     # example {u'analysis':
     #          u'https://raw.githubusercontent.com/Sage-Bionetworks/synapseAnnotations/master/synapseAnnotations/data/analysis.json',
     #          ... } @kenny++
-    # there is code for fetching a specific release version if needed in future.
-    # https://github.com/teslajoy/synapseRAUtils/blob/master/githubfiles.py
     req = requests.get(
         'https://api.github.com/repos/Sage-Bionetworks/synapseAnnotations/contents/synapseAnnotations/data/?ref=%s' %releaseVersion)
     file_list = json.loads(req.content)
