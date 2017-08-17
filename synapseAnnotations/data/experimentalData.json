@@ -950,7 +950,33 @@
       }
     ]
   },
-    {
+  {
+    "name": "isMultiIndividual",
+    "description": "Boolean flag indicating whether or not a file has data for multiple individuals",
+    "columnType": "BOOLEAN",
+    "enumValues": [
+      {"value": true,
+       "description": "",
+       "source": ""},
+      {"value": false,
+       "description": "",
+       "source": ""}
+     ]
+  },
+  {
+    "name": "isMultiSpecimen",
+    "description": "Boolean flag indicating whether or not a file has data for multiple specimens",
+    "columnType": "BOOLEAN",
+    "enumValues": [
+      {"value": true,
+       "description": "",
+       "source": ""},
+      {"value": false,
+       "description": "",
+       "source": ""}
+     ]
+  },
+  {
     "name": "specimenIdSource",
     "description": "",
     "columnType": "STRING",

@@ -12,7 +12,7 @@ Column types are required, and the valid types can be found [here](http://docs.s
 
 # Development
 
-Internal development can be performed by branching from `master` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the master branch require a review before merging.
+Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the master branch require a review before merging.
 
 All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
 
