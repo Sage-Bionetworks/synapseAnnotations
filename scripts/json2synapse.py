@@ -1,11 +1,8 @@
 import os
-import sys
 import requests
 import json
-import logging
 import argparse
 import pandas
-import numpy
 import synapseclient
 from synapseclient import Table
 
@@ -55,120 +52,25 @@ def json2flatten(path, module):
     return module_df
 
 
-def rightJoin(df1, df2, key, suffixes):
-    """Identify rows in df2 that are not in df1 based on unique keys ["key", "value", "module"] (can be a list: one-to many args).
-       After merging the two data frames, columns will be added with suffixes append to it's columns (not defined as key)"""
-    df3 = pandas.merge(df1, df2, on=key, how='right', indicator='Exist', suffixes=suffixes)
-    df3['Exist'] = numpy.where(df3.Exist == 'both', True, False)
-    return df3
-
-
-def outerJoin(df1, df2):
-    """ Identify rows in df1 that are not in df2 and return as a data frame"""
-    df3 = pandas.merge(df1, df2, how='outer', indicator=True).query('_merge == "left_only"').drop(['_merge'], axis=1)
-    return df3
-
-
-def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
+def updateTable(tableSynId, newTable, releaseVersion):
     """
-    A table may have one-many key(s) in a table schema predefined by the user
-    There are three cases where changes can be done to a table:
-
-        Case 1: The unique keys have been changed but the remaining schema values are the same
-        Case 2: The schema values have been changed but the keys are the same
-        Case 3: New rows that have been added to table
-
-    :param tableSynId: the synapse table Id
-    :param newTable: synapseAnnotations normalized and melted json files into a new dataframe
-    :param key: the unique identifiers of the schema in our case the tuple (key-value)
-    :param delta: if previous version of changes should not be deleted
-    :param whereClause: synapse table query where clause that follows a SQL language syntax
-    :return: None and table on synapse identified by tableSynId should be updated
+    Gets the current annotation table, deletes all it's rows, then updates the table with new content generated
+    from all the json files on synapseAnnotations. In the process also updates the table annotation to the latest release version.
     """
 
     currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
-    currentTable = currentTable.asDataFrame()
 
-    if sum(pandas.Series(key).isin(currentTable.columns)) == 0:
-        sys.exit("None of the unique keys (key | value | module) exists in this tables schema. "
-                 "Please add the columns key,  value, and module to your table.")
-    elif sum(pandas.Series(key).isin(currentTable.columns)) == 1:
-        sys.exit("One of the unique keys columns (key | value | module) doesn't exist. Please make sure "
-                 "that the columns key | value | module exists in your table.")
-    else:
-        logging.info("Unique keys key | value | module exists in schema and pursuing")
+    # If current table has rows, delete all the rows of them
+    if currentTable.asRowSet().rows:
+        deletedRows = syn.delete(currentTable.asRowSet())
 
-    # Test cases: change a non-key column cell (valuesDescription) and change a unique key cell (value)
-    # newTable.iloc[3, newTable.columns.get_loc('valuesDescription')] = 'exome sequencing Nasim'
-    # newTable.iloc[1, newTable.columns.get_loc('value')] = 'Nasim'
+    # get table schema and set it's release version annotation
+    schema = syn.get(tableSynId)
+    schema.annotations = {"releaseVersion": str(releaseVersion)}
+    updated_schema_release = syn.store(schema)
 
-    # standardize na/NAN in data by replacing it with an empty string for match comparisons
-    currentTable = currentTable.fillna("")
-    newTable = newTable.fillna("")
-
-    # Match schema in current and new tables
-    schema = currentTable.columns
-    newTable = newTable[currentTable.columns]
-
-    # Keep row id/version that a row index (this is due to merge procedures)
-    currentTable['index'] = currentTable.index
-
-    ## Case 1: find the rows where the unique keys have been changed but the remaining schema values are the same
-    resultDF = rightJoin(df1=currentTable, df2=newTable, key=key, suffixes=('_cur', '_new'))
-
-    newCol = key + [s + '_new' for s in [col for col in newTable.columns if col not in key]]
-    changedRows = resultDF.loc[resultDF.Exist == False, newCol].drop_duplicates()
-
-    newCol = [c.replace('_new', '') for c in newCol]
-    changedRows.columns = newCol
-
-    # column names in schema and not in keys
-    notKey = [col for col in newTable.columns if col not in key]
-    # standardize na/NAN in data by replacing it with an empty string for match comparisons
-    changedRows = changedRows.fillna("")
-
-    changedKeys = rightJoin(df1=changedRows, df2=currentTable, key=notKey, suffixes=('_new', '_cur'))
-
-    changedKeys.columns = [c.replace('_cur', '') for c in changedKeys.columns]
-    changedKeysRows = changedKeys.loc[changedKeys.Exist == True, currentTable.columns]
-
-    ## Case 2: The schema values has changed but the keys are the same
-    currentUpdated = outerJoin(currentTable, newTable)
-    # only grab the rows with changed schema values and not changed keys
-    changedSchemaValues = outerJoin(currentUpdated, changedKeysRows)
-
-    ##  Case 1 or 2: Remove changed rows in current table
-    if not changedSchemaValues.empty or not changedKeysRows.empty:
-
-        if not changedSchemaValues.empty and changedKeysRows.empty:
-            logging.info("Deleting rows with updated schema values")
-            changedSchemaValues.set_index('index', inplace=True, drop=True)
-            toDelete = changedSchemaValues
-            deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
-
-        if not changedKeysRows.empty and changedSchemaValues.empty:
-            logging.info("Deleting rows with updated keys")
-            changedKeysRows.set_index('index', inplace=True, drop=True)
-            toDelete = changedKeysRows
-            deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
-
-        if not changedSchemaValues.empty and not changedKeysRows.empty:
-            logging.info("Deleting rows with updated keys and schema values")
-            changedSchemaValues.set_index('index', inplace=True, drop=True)
-            changedKeysRows.set_index('index', inplace=True, drop=True)
-            toDelete = pandas.concat([changedKeysRows, changedSchemaValues])
-            deleteRows = syn.delete(Table(syn.get(tableSynId), toDelete))
-
-        else:
-            logging.info("No rows to delete in current table")
-
-    # Case 1,2,3: All new or updated rows to be added to table
-    newOrUpdated = outerJoin(newTable, currentTable)
-    newOrUpdated = newOrUpdated[schema]
-    newOrUpdated.sort_values(['key', 'value', 'module'], ascending=[True, True, True], inplace=True)
-    if not newOrUpdated.empty:
-        logging.info("Storing new and updated changes")
-        table = syn.store(Table(syn.get(tableSynId), newOrUpdated))
+    # store the new table on synapse
+    table = syn.store(Table(schema, newTable))
 
 
 def main():
@@ -178,21 +80,22 @@ def main():
                          "source", "module"]
     get the most updated release version annotations json files from github Sage-Bionetworks/synapseAnnotations
     normalize the json files per module and create a melted data frame by concatenating all the modules data.
-    then upload the melted data frame to the synapse table and update the tables content by checking for rows
-    that have been changed.
+    then upload the melted data frame to the synapse table by completely deleting all rows then replacing content.
+    This process also updates the synapse table annotations with the latest release version.
+
 
     This code was built under
     Python 2.7.13 :: Anaconda 4.4.0 (x86_64)
     pandas 0.19.2
 
-    Here is a link to pandas documentation on merge, join, and concatenation of data frames pandas
-    documentation on https://pandas.pydata.org/pandas-docs/stable/merging.html
-
     Example run:
-        python scripts/json2synapse.py --tableId  syn1234
+        python scripts/json2synapse.py --tableId  syn1234 --releaseVersion 'v2.1.1'
     """
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser('Creates a flattened synapse table from json files located on '
+                                     'Sage-Bionetworks/synapseAnnotations/data.')
     parser.add_argument('--tableId', help='A table synapse id containing the annotations',
+                        required=False, type=str)
+    parser.add_argument('--releaseVersion', help='Sage-Bionetworks/synapseAnnotations release version tag name',
                         required=False, type=str)
 
     # assign tableSynId from user-input if it exists
@@ -201,6 +104,13 @@ def main():
         tableSynId = args.tableId
     else:
         tableSynId = "syn10242922"
+
+    if args.releaseVersion is not None:
+        releaseVersion = args.releaseVersion
+    else:
+        # get the latest release version
+        reqRelease = requests.get("https://api.github.com/repos/Sage-Bionetworks/synapseAnnotations/releases")
+        releaseVersion = reqRelease.json()[0]['tag_name']
 
     all_modules = []
     key = ["key", "value", "module"]
@@ -239,7 +149,7 @@ def main():
     # all_modules_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
     # os.remove("annot.csv")
 
-    updateTable(tableSynId=tableSynId, newTable=all_modules_df, key=key, delta=False, whereClause=False)
+    updateTable(tableSynId=tableSynId, newTable=all_modules_df, releaseVersion=releaseVersion)
 
 
 if '__main__' == __name__:
