@@ -9,7 +9,7 @@ from pandas.util.testing import assert_frame_equal
 
 syn = synapseclient.login()
 
-tableSynId = "syn10265158"
+tableSynId = "syn10242922"
 
 all_modules = []
 key = ["key", "value", "module"]
@@ -84,7 +84,6 @@ all_modules_df.sort_values(key, ascending=[True, True, True], inplace=True)
 
 currentTable = syn.tableQuery("SELECT * FROM %s" % tableSynId)
 currentTable = currentTable.asDataFrame()
-
 
 
 def check_keys():

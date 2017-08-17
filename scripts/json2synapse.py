@@ -64,7 +64,7 @@ def rightJoin(df1, df2, key, suffixes):
 
 
 def outerJoin(df1, df2):
-    """ Identify rows in df1 that are not in df2 and return then as a data frame"""
+    """ Identify rows in df1 that are not in df2 and return as a data frame"""
     df3 = pandas.merge(df1, df2, how='outer', indicator=True).query('_merge == "left_only"').drop(['_merge'], axis=1)
     return df3
 
@@ -173,7 +173,7 @@ def updateTable(tableSynId, newTable, key, delta=False, whereClause=False):
 
 def main():
     """
-    Given a synapse table is with the schema
+    Given a synapse table id with the schema
         annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
                          "source", "module"]
     get the most updated release version annotations json files from github Sage-Bionetworks/synapseAnnotations
