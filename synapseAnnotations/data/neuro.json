@@ -79,7 +79,7 @@
       }, 
       {
         "value": "UFL-Mayo-ISB", 
-        "description": "University of Florida-Mayo Clinic- Institute for Systems Biology", 
+        "description": "University of Florida-Mayo Clinic-Institute for Systems Biology", 
         "source": "http://www.ufl.edu, http://www.mayoclinic.org, https://www.systemsbiology.org"
       }, 
       {
@@ -90,12 +90,12 @@
       {
         "value": "IU-JAX", 
         "description": "Indiana University-Jackson Laboratory", 
-        "source": "https://twitter.com/IUBloomington?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor, https://www.jax.org"
+        "source": "https://www.iub.edu, https://www.jax.org"
       }, 
       {
         "value": "Columbia-SUNY", 
         "description": "Columbia-State University of New York", 
-        "source": "http://www.columbia.edu, http://www.suny.edu/about/campuses/"
+        "source": "http://www.columbia.edu, http://www.suny.edu"
          }, 
       {
         "value": "Mayo", 
