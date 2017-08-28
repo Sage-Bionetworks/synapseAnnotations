@@ -31,8 +31,8 @@ def json2flatten(path, module):
     for i, jsn in enumerate(json_record['enumValues']):
         normalized_values_df = pandas.io.json.json_normalize(jsn)
 
-        # re-name 'description' defined in dictionary to valuesDescription to match table on synapse schema
-        normalized_values_df = normalized_values_df.rename(columns={'description': 'valuesDescription'})
+        # re-name 'description' defined in dictionary to valueDescription to match table on synapse schema
+        normalized_values_df = normalized_values_df.rename(columns={'description': 'valueDescription'})
 
         # grab key information in its row, expand it by values dimension and append its key-columns to flattened values
         rows = json_record.loc[[i], json_record.columns != 'enumValues']
@@ -76,7 +76,7 @@ def updateTable(tableSynId, newTable, releaseVersion):
 def main():
     """
     Given a synapse table id with the schema
-        annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
+        annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valueDescription",
                          "source", "module"]
     get the most updated release version annotations json files from github Sage-Bionetworks/synapseAnnotations
     normalize the json files per module and create a melted data frame by concatenating all the modules data.
@@ -114,7 +114,7 @@ def main():
 
     all_modules = []
     key = ["key", "value", "module"]
-    annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valuesDescription",
+    annotation_schema = ["key", "description", "columnType", "maximumSize", "value", "valueDescription",
                          "source", "module"]
 
     # get and load the list of json files from data folder (given the api endpoint url - ref master - latest vesion)
