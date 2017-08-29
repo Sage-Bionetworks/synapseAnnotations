@@ -24,7 +24,7 @@
         },
       {
         "value": "LC-MSMS",
-        "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series"
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
       },
       {
