@@ -308,7 +308,7 @@
     "description": "Database or repository to which individual ID maps",
     "columnType": "STRING",
     "maximumSize": 250,
-    "enumValues": []
+    "enumValues": [
     {
         "value": "NIMH-HBCC",
         "description": "The NIH Human Brain Collection Core",
@@ -320,16 +320,6 @@
         "source": "http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking"
       },
       {
-        "value": "MSSM",
-        "description": "Mount Sinai NIH Brain and Tissue Repository",
-        "source": "http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking"
-      },
-      {
-        "value": "Penn",
-        "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
-        "source": "http://www.med.upenn.edu/cndr/biosamples-brainbank.html"
-      },
-      {
         "value": "Penn",
         "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
         "source": "http://www.med.upenn.edu/cndr/biosamples-brainbank.html"
@@ -338,6 +328,8 @@
         "value": "Pitt",
         "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
         "source": "https://neurobiobank.nih.gov/"
+      }
+      ]
   },
   {
     "name": "tissue",
