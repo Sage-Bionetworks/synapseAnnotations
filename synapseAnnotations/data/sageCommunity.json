@@ -68,12 +68,12 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "CommonMind Consortium",
+        "value": "CMC",
         "description": "",
         "source": "https://www.synapse.org/cmc"
       },
       {
-        "value": "PsychENCODE Consortium",
+        "value": "PEC",
         "description": "",
         "source": "https://www.synapse.org/pec"
       },
