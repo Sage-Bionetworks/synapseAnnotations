@@ -334,6 +334,21 @@
         "value": "rmd",
         "description": "markdown document specific to r analyses",
         "source": "http://rmarkdown.rstudio.com/developer_document_templates.html"
+      },
+      {
+        "value": "narrowPeak",
+        "description": "This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format12"
+      },
+      {
+        "value": "broadPeak",
+        "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data. It is a BED 6+3 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format13"
+      },
+      {
+        "value": "gappedPeak",
+        "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format14"
       }
     ]
   }
