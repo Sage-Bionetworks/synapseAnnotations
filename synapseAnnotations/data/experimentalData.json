@@ -15,12 +15,12 @@
       {
         "value": "rnaSeq",
         "description": "RNA Sequencing measurements",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001271"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/enm/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001271"
       },
       {
         "value": "mirnaSeq",
         "description": "Small RNA measurements collected from RNA-Seq experiments",
-        "source": "http://purl.obolibrary.org/obo/OBI_0002112"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0002112"
       },
       {
         "value": "lncrnaSeq",
@@ -30,42 +30,42 @@
       {
         "value": "exomeSeq",
         "description": "Data derived from exome sequencing",
-        "source": "http://purl.obolibrary.org/obo/OBI_0002118"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0002118"
       },
       {
         "value": "CHiPSeq",
         "description": "Chromatin immuno-precipitation followed by sequencing",
-        "source": "http://purl.obolibrary.org/obo/OBI_0000716"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0000716"
       },
       {
         "value": "rnaArray",
         "description": "RNA measurements captured by array technology",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001463"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/enm/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001463"
       },
       {
         "value": "snpArray",
         "description": "SNP measurements captured by array technology",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001204"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001204"
       },
       {
         "value": "methylationArray",
         "description": "Methylation data captured by array technology",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001332"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001332"
       },
       {
         "value": "mirnaArray",
         "description": "microRNA measurements captured by array technology",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001335"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001335"
       },
       {
         "value": "bisulfiteSeq",
         "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process",
-        "source": "http://purl.obolibrary.org/obo/OBI_0000748"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0000748"
       },
       {
         "value": "ATACSeq",
         "description": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment",
-        "source": "http://purl.obolibrary.org/obo/OBI_0002039"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0002039"
       },
       {
         "value": "NOMeSeq",
@@ -75,7 +75,7 @@
       {
         "value": "HI-C",
         "description": "Chromatin interactions detected by HI-C protocol",
-        "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
+        "source": "https://www.ebi.ac.uk/efo/EFO_0007693"
       },
       {
         "value": "errBisulfiteSeq",
@@ -90,37 +90,37 @@
       {
         "value": "MRI",
         "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.",
-        "source": "http://edamontology.org/topic_3444"
+        "source": "https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=topic_3444"
       },
       {
         "value": "westernBlot",
         "description": "A multistep process in which a mixture of proteins is separated by gel electrophoresis",
-        "source": "http://purl.obolibrary.org/obo/MMO_0000338"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMMO_0000338"
       },
       {
         "value": "wholeGenomeSeq",
         "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time",
-        "source": "http://edamontology.org/topic_3673"
+        "source": "https://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=topic_3673"
       },
       {
         "value": "polymeraseChainReaction",
         "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning",
-        "source": "http://purl.obolibrary.org/obo/MMO_0000459"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMMO_0000459"
       },
       {
         "value": "cellViabilityAssay",
         "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death",
-        "source": "http://www.bioassayontology.org/bao#BAO_0003009"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/enm/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0003009"
       },
       {
         "value": "atomicForceMicroscopy",
         "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen",
-        "source": "http://purl.obolibrary.org/obo/CHMO_0000113"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_0000113"
       },
       {
         "value": "brightfieldMicroscopy",
         "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective",
-        "source": "http://purl.obolibrary.org/obo/CHMO_0000104"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/chmo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCHMO_0000104"
       },
       {
         "value": "tractionForceMicroscopy",
@@ -145,12 +145,12 @@
       {
         "value": "MudPIT",
         "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry",
-        "source": "http://purl.obolibrary.org/obo/MI_0658"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/mi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FMI_0658"
       },
       {
         "value": "questionnaire",
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
-        "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/obi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOBI_0001000"
       }
     ]
   },
@@ -191,57 +191,57 @@
       {
         "value": "skin",
         "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001253"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001253"
       },
       {
         "value": "nerves",
         "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000925"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000925"
       },
       {
         "value": "brain",
         "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000142"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000142"
       },
       {
         "value": "blood",
         "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000089"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000089"
       },
       {
         "value": "breast",
         "description": "The fore or ventral part of the body between the neck and the abdomen.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000149"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000149"
       },
       {
         "value": "colon",
         "description": "The part of the large intestine that extends from the cecum to the rectum.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000269"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000269"
       },
       {
         "value": "lung",
         "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000763"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000763"
       },
       {
         "value": "prostate",
         "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.",
-        "source": "http://purl.obolibrary.org/obo/FMA_9600"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/fma/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FFMA_9600"
       },
       {
         "value": "pancreas",
         "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000988"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000988"
       },
       {
         "value": "ovary",
         "description": "One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0000975"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000975"
       },
       {
         "value": "spleen",
         "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001281"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001281"
       }
     ]
   },
@@ -279,7 +279,7 @@
       {
         "value": "kinomics",
         "description": "Kinomics is the study of protein kinases and protein kinase signaling.",
-        "source": "http://www.kinomecore.com/what-is-kinomics/"
+        "source": "https://www.kinomecore.com/what-is-kinomics/"
       },
       {
         "value": "drugScreen",
@@ -299,7 +299,7 @@
       {
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
-        "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/omiabis/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FOMIABIS_0000060"
       }
     ]
   },
@@ -725,7 +725,7 @@
       {
         "value": true,
         "description": "A cell taken directly from a living organism, which is not immortalized",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001413"
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001413"
       },
       {
         "value": false,

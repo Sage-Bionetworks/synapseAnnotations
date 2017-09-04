@@ -125,12 +125,12 @@
       {
         "value": "Synodos LGG",
         "description": "Data derived from the CTF-funded NF1 LGG Synodos project",
-        "source": "http://www.synapse.org/nf1lgg"
+        "source": "https://www.synapse.org/nf1lgg"
       },
       {
         "value": "DHART SPORE",
         "description": "Data from the D-HART SPORE",
-        "source": "http://www.synapse.org/dhart"
+        "source": "https://www.synapse.org/dhart"
       },
       {
         "value": "Not Applicable",
