@@ -7,12 +7,12 @@
     {
       "value": "Cy5",
       "description": "Fluorescent dye used for the red channel on an array",
-      "source": "http://purl.obolibrary.org/obo/FBbi_00000450"
+      "source": "https://www.ebi.ac.uk/ols/ontologies/fbbi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FFBbi_00000450"
     },
     {
       "value": "Cy3",
       "description": "Fluorescent dye used for the green channel on an array",
-      "source": "http://purl.obolibrary.org/obo/FBbi_00000449"
+      "source": "https://www.ebi.ac.uk/ols/ontologies/fbbi/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FFBbi_00000449"
     }
   ]
 }
