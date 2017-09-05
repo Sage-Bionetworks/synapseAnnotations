@@ -69,12 +69,12 @@
     "enumValues": [
       {
         "value": "CMC",
-        "description": "",
+        "description": "CommonMind Consortium",
         "source": "https://www.synapse.org/cmc"
       },
       {
         "value": "PEC",
-        "description": "",
+        "description": "PsychENCODE Consortium",
         "source": "https://www.synapse.org/pec"
       },
       {
