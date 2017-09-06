@@ -846,6 +846,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
+        "value": "oligodendrocytes",
+        "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/aeo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000128"
+      },
+      {
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
