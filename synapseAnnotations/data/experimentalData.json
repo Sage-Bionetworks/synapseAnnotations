@@ -700,6 +700,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "BionanoIrys",
+        "description": "Provides whole-genome maps at single-molecule resolution ideal for plant and animal research applications",
+        "source": "https://bionanogenomics.com/products/irys/"
       }
     ]
   },
