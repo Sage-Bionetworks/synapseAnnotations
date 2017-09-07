@@ -525,6 +525,11 @@
         "value": "WallOfTargets", 
         "description": "", 
         "source": ""
+      },
+            {
+        "value": "CMC_HBCC", 
+        "description": "", 
+        "source": ""
       }
     ]
   }, 
