@@ -848,7 +848,7 @@
       {
         "value": "oligodendrocytes",
         "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/aeo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000128"
+        "source": "http://purl.obolibrary.org/obo/CL_0000128"
       },
       {
         "value": "schwann",
