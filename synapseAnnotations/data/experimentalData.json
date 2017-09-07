@@ -846,7 +846,7 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
-        "value": "oligodendrocytes",
+        "value": "oligodendrocyte",
         "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
         "source": "http://purl.obolibrary.org/obo/CL_0000128"
       },
