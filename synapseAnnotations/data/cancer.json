@@ -81,9 +81,9 @@
         "source": ""
       },
       {
-        "value": "creRecombinase",
-        "description": "Sequence change induced by a site specific recombination event catalyzed by the tyrosine recombinase cre. ",
-        "source": "http://purl.obolibrary.org/obo/FBcv_0000481"
+        "value": "CRE Recombinase",
+        "description": "CRE Recombinase catalyses site-specific recombination between two 34 base pair loxp sites and maintains the phage genome as a monomeric unit-copy plasmid in the lysogenic state.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17285"
       }
     ]
   },
