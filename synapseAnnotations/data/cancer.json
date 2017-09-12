@@ -79,6 +79,11 @@
         "value": "CRISPR",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "creRecombinase",
+        "description": "Sequence change induced by a site specific recombination event catalyzed by the tyrosine recombinase cre. ",
+        "source": "http://purl.obolibrary.org/obo/FBcv_0000481"
       }
     ]
   },
