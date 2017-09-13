@@ -317,6 +317,31 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "posterior inferior parietal cortex",
+        "description": "",
+        "source": ""
+      },
+      {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
