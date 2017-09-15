@@ -146,6 +146,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "sh",
+        "description": "Bash Shell Script",
+        "source": "https://www.reviversoft.com/file-extensions/sh"
+      },
+      {
         "value": "idx",
         "description": "",
         "source": ""
