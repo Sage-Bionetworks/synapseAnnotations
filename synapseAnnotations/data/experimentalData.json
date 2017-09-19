@@ -900,6 +900,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Tourette Syndrome",
+        "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
+        "source": "http://identifiers.org/omim/137580"
+      },
+      {
         "value": "Neurofibromatosis 1",
         "description": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
         "source": ""
