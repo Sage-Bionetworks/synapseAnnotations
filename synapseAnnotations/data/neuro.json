@@ -328,153 +328,153 @@
     "enumValues": [
       {
         "value": "CMC", 
-        "description": "", 
-        "source": ""
+        "description": "CommonMind Consortium", 
+        "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
       }, 
       {
         "value": "EpiMap", 
-        "description": "", 
-        "source": ""
+        "description": "Epigenetic Map in neuropsychiatric control tissue", 
+        "source": "https://www.synapse.org/#!Synapse:syn4566010"
       }, 
       {
         "value": "CNON", 
-        "description": "", 
-        "source": ""
+        "description": "Cultured Neurnal cells derived from Olfactory Neuroepithelium ", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }, 
       {
         "value": "MouseHAL", 
-        "description": "", 
-        "source": ""
+        "description": "Chronic Haloperidol Effects on Gene Expression and Chromatin Accessibility in Mouse Brain", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590850"
       }, 
       {
         "value": "WGBS Pilot", 
-        "description": "", 
-        "source": ""
+        "description": "Whole Genome Bisulfite Sequencing pilot", 
+        "source": "https://www.synapse.org/#!Synapse:syn4586517"
       }, 
       {
         "value": "lncRNA Pilot", 
-        "description": "", 
-        "source": ""
+        "description": "long non-coding RNA pilot", 
+        "source": "https://www.synapse.org/#!Synapse:syn4588462"
       }, 
       {
         "value": "BrainGVEX", 
-        "description": "", 
-        "source": ""
+        "description": "Genetic Variants effect on Brain Gene eXpression", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590909"
       }, 
       {
         "value": "UCLA-ASD", 
-        "description": "", 
-        "source": ""
+        "description": "A study of samples from the Autism Tissue Program", 
+        "source": "https://www.synapse.org/#!Synapse:syn4587609"
       }, 
       {
         "value": "iPSC", 
-        "description": "", 
-        "source": ""
+        "description": "Gene regulatory elements and transcriptome in iPSCs and postmortem human cortex ", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590910"
       }, 
       {
         "value": "HumanFC", 
-        "description": "", 
-        "source": ""
+        "description": "Decoding schizophrenia-From GWAS to functional regulatory variants", 
+        "source": "https://www.synapse.org/#!Synapse:syn5321694"
       }, 
       {
         "value": "EpiGABA", 
-        "description": "", 
-        "source": ""
+        "description": "GABA Epigenomes in Autism", 
+        "source": "https://www.synapse.org/#!Synapse:syn4588488"
       }, 
       {
-        "value": "NHP", 
-        "description": "", 
+        "value": "NHP-Macaque", 
+        "description": "A transcription atlas of the rhesus monkey brain", 
         "source": ""
       }, 
       {
         "value": "Yale-ASD", 
-        "description": "", 
-        "source": ""
+        "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism-", 
+        "source": "https://www.synapse.org/#!Synapse:syn4566141"
       }, 
       {
         "value": "BipSeq", 
-        "description": "", 
-        "source": ""
+        "description": "RNA Sequencing of the limbic system in bipolar disorder", 
+        "source": "https://www.synapse.org/#!Synapse:syn5844980"
       }, 
       {
         "value": "ACT", 
-        "description": "", 
-        "source": ""
+        "description": "Adult Changes in Thought ", 
+        "source": "https://www.synapse.org/#!Synapse:syn5759376"
       }, 
       {
         "value": "BLSA", 
-        "description": "", 
-        "source": ""
+        "description": "Baltimore Longitudinal Study on Aging", 
+        "source": "https://www.synapse.org/#!Synapse:syn3606086"
       }, 
       {
         "value": "HBTRC", 
-        "description": "", 
-        "source": ""
+        "description": "Harvard Brain Tissue Resource Center", 
+        "source": "https://www.synapse.org/#!Synapse:syn3159435"
       }, 
       {
         "value": "MSBB", 
-        "description": "", 
-        "source": ""
+        "description": "Mount Sinai Brain Bank AD Cohort", 
+        "source": "https://www.synapse.org/#!Synapse:syn3159438"
       }, 
       {
         "value": "ROSMAP", 
-        "description": "", 
-        "source": ""
+        "description": "Religious Orders Study and Memory and Aging Project", 
+        "source": "https://www.synapse.org/#!Synapse:syn3219045"
       }, 
       {
         "value": "MayoLOADGwas", 
-        "description": "", 
-        "source": ""
+        "description": "Mayo Clinic LOAD genome-wide association and brain gene expression studies", 
+        "source": "https://www.synapse.org/#!Synapse:syn2910256"
       }, 
       {
         "value": "MayoEGWAS", 
-        "description": "", 
-        "source": ""
+        "description": "Gene expression from the Illumina Whole Genome DASL array", 
+        "source": "https://www.synapse.org/#!Synapse:syn3157225"
       }, 
       {
-        "value": "MayoPilot", 
-        "description": "", 
-        "source": ""
+        "value": "MayoPilotRNAseq", 
+        "description": "RNAseq on a subset of MayoEGWAS", 
+        "source": "https://www.synapse.org/#!Synapse:syn3157268"
       }, 
       {
         "value": "IL10_APPmouse", 
-        "description": "", 
-        "source": ""
+        "description": "IL10 overexpression in APP mouse", 
+        "source": "https://www.synapse.org/#!Synapse:syn3157175"
       }, 
       {
-        "value": "Emory", 
-        "description": "", 
-        "source": ""
+        "value": "Emory_ADRC", 
+        "description": "Emory Alzheimer’s Disease Research Center", 
+        "source": "https://www.synapse.org/#!Synapse:syn3218563"
       }, 
       {
         "value": "TAUAPPms", 
-        "description": "", 
-        "source": ""
+        "description": "Tau and APP mouse model", 
+        "source": "https://www.synapse.org/#!Synapse:syn3157182"
       }, 
       {
-        "value": "sampleSwap", 
-        "description": "", 
-        "source": ""
+        "value": "RNAseq_SampleSwap", 
+        "description": "RNAseq from sapmples swapped between 3 groups", 
+        "source": "https://www.synapse.org/#!Synapse:syn5550419"
       }, 
       {
         "value": "MayoRNAseq", 
-        "description": "", 
-        "source": ""
+        "description": "Mayo RNAseq study", 
+        "source": "https://www.synapse.org/#!Synapse:syn5550404"
       }, 
       {
         "value": "BroadMDMi", 
-        "description": "", 
-        "source": ""
+        "description": "A novel human in vitro microglia-like model", 
+        "source": "https://www.synapse.org/#!Synapse:syn3607404"
       }, 
       {
         "value": "BroadiPSC", 
-        "description": "", 
-        "source": ""
+        "description": "iPSC derived forebrain neurons", 
+        "source": "https://www.synapse.org/#!Synapse:syn3607401"
       }, 
       {
         "value": "MSDM", 
-        "description": "", 
-        "source": ""
+        "description": "Mount Sinai Drosophila Melanogaster", 
+        "source": "https://www.synapse.org/#!Synapse:syn4587607"
       }, 
       {
         "value": "OFMM", 
@@ -483,88 +483,83 @@
       }, 
       {
         "value": "LillyMicroglia", 
-        "description": "", 
-        "source": ""
+        "description": "Microglia gene profiling in the rTg4510 tauopathy mouse model", 
+        "source": "https://www.synapse.org/#!Synapse:syn5478323"
       }, 
       {
         "value": "UPenn", 
-        "description": "", 
-        "source": ""
+        "description": "Center for Neurodegenerative Disease Research at the Perelman School of Medicine of the University of Pennsylvania", 
+        "source": "https://www.synapse.org/#!Synapse:syn5477237"
       }, 
       {
         "value": "SY5Y_REST", 
-        "description": "", 
-        "source": ""
+        "description": "LiCl treated SH-SY5Y cells", 
+        "source": "https://www.synapse.org/#!Synapse:syn5987497"
       }, 
       {
         "value": "MSSMiPSC", 
-        "description": "", 
-        "source": ""
+        "description": "iPSC derived hiPSC forebrain neurons and NPCs", 
+        "source": "https://www.synapse.org/#!Synapse:syn5986884"
       }, 
       {
         "value": "TyrobpKO", 
-        "description": "", 
-        "source": ""
+        "description": "Mouse Tyrobp KO model", 
+        "source": "https://www.synapse.org/#!Synapse:syn7123287"
       }, 
       {
-        "value": "MSSMiPSCMicroglia", 
-        "description": "", 
-        "source": ""
+        "value": "iPSCMicroglia", 
+        "description": "iPSC derived microglia", 
+        "source": "https://www.synapse.org/#!Synapse:syn7203233"
       }, 
       {
         "value": "BroadAstrom109", 
-        "description": "", 
-        "source": ""
+        "description": "Primary astrocytes and iPSC derived neurons", 
+        "source": "https://www.synapse.org/#!Synapse:syn7204912"
       }, 
       {
         "value": "Banner", 
-        "description": "", 
-        "source": ""
+        "description": "Banner Sun Health Research Institute's Brain and Body Donation Program", 
+        "source": "https://www.synapse.org/#!Synapse:syn7170616"
       }, 
       {
         "value": "EmoryDrosophilaTau", 
-        "description": "", 
-        "source": ""
+        "description": "Emory Drosophila Tau model ", 
+        "source": "https://www.synapse.org/#!Synapse:syn7274101"
         }, 
       {
         "value": "HDAC1-cKOBrain", 
-        "description": "", 
-        "source": ""
+        "description": "HDAC1 expression in the brain", 
+        "source": "https://www.synapse.org/#!Synapse:syn5987310"
         }, 
       {
         "value": "U1-70_PrimaryCellCulture", 
-        "description": "", 
-        "source": ""
+        "description": "APP.PS1 and U1-70 transduced neurons", 
+        "source": "https://www.synapse.org/#!Synapse:syn5820226"
         }, 
       {
         "value": "MSMM", 
-        "description": "", 
-        "source": ""
+        "description": "Mount Sinai Mouse Models", 
+        "source": "https://www.synapse.org/#!Synapse:syn5477220"
         }, 
       {
         "value": "TauD35", 
-        "description": "", 
-        "source": ""
+        "description": "Mouse tauopathy model", 
+        "source": "https://www.synapse.org/#!Synapse:syn5714308"
         }, 
       {
         "value": "APOE-TR", 
-        "description": "", 
-        "source": ""
+        "description": "APOE Targeted Replacement", 
+        "source": "https://www.synapse.org/#!Synapse:syn8391648"
         }, 
       {
         "value": "JAX_APPPS1", 
-        "description": "", 
-        "source": ""
+        "description": "APP/PS1 double transgenic mice", 
+        "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
         "value": "SY5Y_Emory", 
-        "description": "", 
-        "source": ""
-         }, 
-      {
-        "value": "iPSCMicroglia", 
-        "description": "", 
-        "source": ""
+        "description": "APP/TAU transduced SY5Y cells", 
+        "source": "https://www.synapse.org/#!Synapse:syn8513284"
       }, 
       {
         "value": "WallOfTargets", 
@@ -573,7 +568,7 @@
       },
             {
         "value": "CMC_HBCC", 
-        "description": "", 
+        "description": "The CommonMind Consortium Human Brain Collection Core Cohort", 
         "source": ""
       }
     ]
