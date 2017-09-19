@@ -274,7 +274,7 @@
         "source": ""
       },
       {
-        "value": "proteinInteractionNetwork",
+        "value": "proteinProteinInteractionNetwork",
         "description": "",
         "source": ""
       }
