@@ -13,6 +13,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "FIA-MSMS",
+        "description": "Flow injection analysis - tandem mass spectrometer",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
+      },
+      {
+        "value": "UPLC-MSMS",
+        "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
+        "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+      },
+      {
         "value": "rnaSeq",
         "description": "RNA Sequencing measurements",
         "source": "http://purl.obolibrary.org/obo/OBI_0001271"
