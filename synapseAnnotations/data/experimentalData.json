@@ -861,7 +861,7 @@
       {
         "value": "Tourette Syndrome",
         "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F137580"
+        "source": "http://identifiers.org/omim/137580"
       },
       {
         "value": "Neurofibromatosis 1",
