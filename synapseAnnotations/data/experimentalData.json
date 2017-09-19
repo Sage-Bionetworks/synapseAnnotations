@@ -21,6 +21,11 @@
         "value": "mirnaSeq",
         "description": "Small RNA measurements collected from RNA-Seq experiments",
         "source": "http://purl.obolibrary.org/obo/OBI_0002112"
+        },
+      {
+        "value": "LC-MSMS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
       },
       {
         "value": "lncrnaSeq",
@@ -865,6 +870,11 @@
         "value": "schwannoma",
         "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
+      },
+      {
+        "value": "oligodendrocyte",
+        "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
+        "source": "http://purl.obolibrary.org/obo/CL_0000128"
       },
       {
         "value": "schwann",
