@@ -955,7 +955,7 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
       },
       {
-        "value": "Pancreas Cancer",
+        "value": "Pancreatic Cancer",
         "description": "An endocrine gland cancer located_in the pancreas.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
       },
