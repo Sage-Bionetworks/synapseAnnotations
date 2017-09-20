@@ -146,7 +146,7 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "sh",
+        "value": "bash script",
         "description": "Bash Shell Script",
         "source": "https://www.reviversoft.com/file-extensions/sh"
       },
