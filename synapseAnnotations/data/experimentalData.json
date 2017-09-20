@@ -13,6 +13,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "FIA-MSMS",
+        "description": "Flow injection analysis - tandem mass spectrometer",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
+      },
+      {
+        "value": "UPLC-MSMS",
+        "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
+        "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+      },
+      {
         "value": "rnaSeq",
         "description": "RNA Sequencing measurements",
         "source": "http://purl.obolibrary.org/obo/OBI_0001271"
@@ -21,6 +31,11 @@
         "value": "mirnaSeq",
         "description": "Small RNA measurements collected from RNA-Seq experiments",
         "source": "http://purl.obolibrary.org/obo/OBI_0002112"
+        },
+      {
+        "value": "LC-MSMS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
       },
       {
         "value": "lncrnaSeq",
@@ -313,7 +328,28 @@
     "description": "Database or repository to which individual ID maps",
     "columnType": "STRING",
     "maximumSize": 250,
-    "enumValues": []
+    "enumValues": [
+    {
+        "value": "NIMH-HBCC",
+        "description": "The NIH Human Brain Collection Core",
+        "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
+      },
+      {
+        "value": "MSSM",
+        "description": "Mount Sinai NIH Brain and Tissue Repository",
+        "source": "http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking"
+      },
+      {
+        "value": "Penn",
+        "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
+        "source": "http://www.med.upenn.edu/cndr/biosamples-brainbank.html"
+      },
+      {
+        "value": "Pitt",
+        "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
+        "source": "https://neurobiobank.nih.gov/"
+      }
+      ]
   },
   {
     "name": "tissue",
@@ -851,6 +887,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
+        "value": "oligodendrocyte",
+        "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
+        "source": "http://purl.obolibrary.org/obo/CL_0000128"
+      },
+      {
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
@@ -863,6 +904,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "Tourette Syndrome",
+        "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
+        "source": "http://identifiers.org/omim/137580"
+      },
       {
         "value": "Neurofibromatosis 1",
         "description": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
@@ -919,7 +965,7 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
       },
       {
-        "value": "Pancreas Cancer",
+        "value": "Pancreatic Cancer",
         "description": "An endocrine gland cancer located_in the pancreas.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
       },
