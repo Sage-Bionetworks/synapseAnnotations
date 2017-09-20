@@ -146,6 +146,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "bash script",
+        "description": "Bash Shell Script",
+        "source": "https://en.wikipedia.org/wiki/Shell_script"
+      },
+      {
         "value": "idx",
         "description": "",
         "source": ""
