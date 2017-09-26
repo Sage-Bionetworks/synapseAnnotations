@@ -1071,7 +1071,7 @@
       {
         "value": "Drosophila melanogaster",
         "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
-        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       },
       {
         "value": "Rhesus macaque",
