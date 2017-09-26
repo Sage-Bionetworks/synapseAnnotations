@@ -782,9 +782,14 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
       },
       {
-        "value": "induced pluripotent stem cells",
+        "value": "iPSC",
         "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
+        },
+      {
+        "value": "iPSC-derived telencephalic organoids",
+        "description": "three-dimensional neural cultures (organoids) derived from induced pluripotent stem cells.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4519016/"
       },
       {
         "value": "GABAergic neurons",
