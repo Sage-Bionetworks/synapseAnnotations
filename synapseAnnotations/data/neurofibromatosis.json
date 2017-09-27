@@ -33,14 +33,14 @@
     ]
   }, 
   {
-    "name": "nf2Genotype", 
+    "name": "nf2Status", 
     "description": "Genotype of NF2 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion or mutation", 
+        "description": "Homozygous deletion, mutation or other form of NF2 deficiency (eg shRNA knockdown of NF2)", 
         "source": ""
       }, 
       {
@@ -61,14 +61,14 @@
     ]
   }, 
   {
-    "name": "nf1Genotype", 
+    "name": "nf1Status", 
     "description": "Genotype of NF1 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion or mutation", 
+        "description": "Homozygous deletion, mutation, or other form of NF1 deficiency (eg shRNA knockdown of NF1)", 
         "source": ""
       }, 
       {
