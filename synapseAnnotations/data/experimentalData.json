@@ -736,6 +736,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "Infinium HumanOmniExpressExome",
+        "description": "Infinium HumanOmniExpressExome BeadChip",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
       }
     ]
   },
