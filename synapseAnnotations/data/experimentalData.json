@@ -315,6 +315,11 @@
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
+      },
+      {
+        "value": "protein-protein interaction network",
+        "description": "A data set that represents a set of physical interactions between proteins",
+        "source": "http://identifiers.org/mamo/MAMO_0000202"
       }
     ]
   },
