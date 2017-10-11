@@ -60,4 +60,10 @@ To optimize usability, the release tags should be placed on two required and one
 
 **Note:** _Git Commit messages including the words **added** or **changed** would facilitate the release version incrementation process_ 
 
+## Update `CHANGELOG.md` and release notes
+
+After drafting a release, use this [Ruby package](https://github.com/skywinder/github-changelog-generator) to autogenerate a `CHANGELOG.md` locally that can be committed to the repository. It requires a Github Personal Access Token.
+
+```
+
 
