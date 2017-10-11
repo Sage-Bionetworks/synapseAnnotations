@@ -390,6 +390,11 @@
         "source": ""
       }, 
       {
+        "value": "DNAmethylationImputation", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
         "value": "statisticalNetworkReconstruction", 
         "description": "", 
         "source": ""
