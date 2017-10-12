@@ -354,8 +354,27 @@
         "value": "bed gappedPeak",
         "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",
         "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format14"
+      },
+      {
+        "value": "avi",
+        "description": "AVI files can contain both audio and video data in a file container that allows synchronous audio-with-video playback.",
+        "source":"https://en.wikipedia.org/wiki/Audio_Video_Interleave"
+      },
+      {
+        "value": "pzfx",
+        "description": "A PZFX file is a Prism project created by GraphPad Prism, a scientific application used to analyze and graph data. It contains project data including graphs and layouts, notes, and tables.",
+        "source":"https://fileinfo.com/extension/pzfx"
+      },
+      {
+        "value": "fig",
+        "description": "Line drawing saved in the Xfig format; stored as a vector image that may include lines, shapes, arcs, splines, arrows, and text objects; may also include images, colors, and patterns.",
+        "source":"https://fileinfo.com/extension/fig"
+      },
+      {
+        "value": "xml",
+        "description": "eXtensible Markup Language (XML) format.",
+        "source":"http://edamontology.org/format_2332"
       }
-
     ]
   }
 ]
