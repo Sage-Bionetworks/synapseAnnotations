@@ -1,10 +1,10 @@
 import os
+import csv
 import requests
 import json
 import argparse
 import pandas
 import synapseclient
-from synapseclient import Table
 
 syn = synapseclient.login()
 
@@ -70,7 +70,7 @@ def updateTable(tableSynId, newTable, releaseVersion):
     updated_schema_release = syn.store(schema)
 
     # store the new table on synapse
-    table = syn.store(Table(schema, newTable))
+    table = syn.store(synapseclient.Table(schema, newTable))
 
 
 def main():
@@ -146,6 +146,13 @@ def main():
     # all_modules_df.to_csv("annot.csv", sep=',', index=False, encoding="utf-8")
     # all_modules_df = pandas.read_csv('annot.csv', delimiter=',', encoding="utf-8")
     # os.remove("annot.csv")
+
+    # Ensure python 2.7 skips or converts special chars such as \u2019 to utf-8.
+    # Seems like pandas library does not resolve this issue:
+    # UnicodeEncodeError: 'ascii' codec can't encode character u'\u2019' in position x: ordinal not in range(y)
+    # Also see: https://docs.python.org/2/howto/unicode.html
+    # all_modules_df.valueDescription = all_modules_df.valueDescription.str.encode('ascii', 'ignore')
+    all_modules_df.valueDescription = all_modules_df.valueDescription.str.encode('utf-8')
 
     updateTable(tableSynId=tableSynId, newTable=all_modules_df, releaseVersion=releaseVersion)
 
