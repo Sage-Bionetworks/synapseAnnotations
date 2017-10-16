@@ -153,7 +153,7 @@
       {
         "value": "bedgraph",
         "description": "Holds a tab-delimited chromosome /start /end / datavalue dataset. The bedGraph format allows display of continuous-valued data in track format. This display type is useful for probability scores and transcriptome data",
-        "source": "http://bioportal.bioontology.org/ontologies/EDAM/?p=classes&conceptid=http%3A%2F%2Fedamontology.org%2Fformat_3583"
+        "source": "http://edamontology.org/format_3583"
       },
       {
         "value": "idx",
