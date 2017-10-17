@@ -48,7 +48,7 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
       },
       {
-        "value": "CHiPSeq",
+        "value": "ChIPSeq",
         "description": "Chromatin immuno-precipitation followed by sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0000716"
       },
