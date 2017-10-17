@@ -8,17 +8,17 @@
           {
               "value": "experimentalData",
               "description": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           },
           {
               "value": "analysis",
               "description": "Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           },
           {
               "value": "tool",
               "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           }
          ]
   },
