@@ -189,11 +189,6 @@
         "value": "processed",
         "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
         "source": ""
-      },
-      {
-        "value": "metadata",
-        "description": "A file of clinical, technical, or other parameters that describe a dataset.",
-        "source": ""
       }
     ]
   },
@@ -320,6 +315,11 @@
         "value": "protein-protein interaction network",
         "description": "A data set that represents a set of physical interactions between proteins",
         "source": "http://identifiers.org/mamo/MAMO_0000202"
+      },
+      {
+        "value": "metadata",
+        "description": "A file of clinical, technical, or other parameters that describe a dataset.",
+        "source": ""
       }
     ]
   },
@@ -606,8 +606,8 @@
         "value": "HiSeq4000",
         "description": "Illumina HiSeq 4000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
-      }, 
-      { 
+      },
+      {
         "value": "NextSeq500",
         "description": "Illumina NextSeq 500 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
