@@ -342,6 +342,11 @@
         "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
       }, 
       {
+        "value": "rnaSeqReprocessing", 
+        "description": "AMP-AD consortium reprocessing of rnaSeq data from the ROSMAP, MayoRNAseq, MSBB studies", 
+        "source": "https://www.synapse.org/#!Synapse:syn9702085"
+      }, 
+      {
         "value": "EpiMap", 
         "description": "Epigenetic Map in neuropsychiatric control tissue", 
         "source": "https://www.synapse.org/#!Synapse:syn4566010"
@@ -462,8 +467,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn3157182"
       }, 
       {
-        "value": "RNAseq_SampleSwap", 
-        "description": "RNAseq from sapmples swapped between 3 groups", 
+        "value": "rnaSeqSampleSwap", 
+        "description": "AMP-AD consortium rnaSeq data generated from sapmples swapped between 3 groups", 
         "source": "https://www.synapse.org/#!Synapse:syn5550419"
       }, 
       {
