@@ -359,7 +359,12 @@
         "value": "bed gappedPeak",
         "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",
         "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format14"
-      }
+      },
+      {
+        "value": "tar",
+        "description": "tape archive",
+        "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
+      },
 
     ]
   }
