@@ -1,5 +1,22 @@
 # Change Log
 
+## [v5.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v5.0.0) (2017-10-17)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v4.1.1...v5.0.0)
+
+**Implemented enhancements:**
+
+- Automate changelog for releases [\#237](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/237)
+- change all source = "Sage" to "Sage Bionetworks" [\#234](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/234)
+- Update sageCommunity.json [\#241](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/241) ([kdaily](https://github.com/kdaily))
+- added fileFormat - bedgraph [\#240](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/240) ([amapeters](https://github.com/amapeters))
+
+**Merged pull requests:**
+
+- Add in changelog.md [\#246](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/246) ([kdaily](https://github.com/kdaily))
+- Change source 'Sage' to 'Sage Bionetworks' [\#245](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/245) ([kdaily](https://github.com/kdaily))
+- correcting ChIPseq spelling  [\#243](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/243) ([allaway](https://github.com/allaway))
+- Script to normalize json files into a melted dataframe then merge by row checking to a synapse table  [\#141](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/141) ([teslajoy](https://github.com/teslajoy))
+
 ## [v4.1.1](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v4.1.1) (2017-10-11)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v3.1.0...v4.1.1)
 
