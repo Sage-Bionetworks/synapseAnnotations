@@ -363,6 +363,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
       },
       {
+        "value": "precuneus cortex",
+        "description": "Component of the pareital lobe. The rostral boundary was the posterior extent of the paracentral lobule whereas the caudal boundary was the lingual gyrus. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0006093"
+      },
+      {
         "value": "frontal lobe",
         "description": "Frontal lobe is the anterior-most of five lobes of the cerebral hemisphere. It is bounded by the central sulcus on its posterior border and by the longitudinal cerebral fissure on its medial border.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016525"
