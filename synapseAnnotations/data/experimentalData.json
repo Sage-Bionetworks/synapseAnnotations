@@ -792,6 +792,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
       },
       {
+        "value": "neuron",
+        "description": "A grayish or reddish granular cell with specialized processes that is the fundamental functional unit of nervous tissue.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000540"
+      },
+      {
         "value": "iPSC",
         "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
