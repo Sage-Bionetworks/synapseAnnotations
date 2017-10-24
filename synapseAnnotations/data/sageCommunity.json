@@ -364,7 +364,7 @@
         "value": "tar",
         "description": "tape archive",
         "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
-      },
+      }
 
     ]
   }
