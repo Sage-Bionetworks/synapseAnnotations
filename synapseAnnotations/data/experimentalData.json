@@ -365,7 +365,7 @@
       {
         "value": "middle frontal gyrus",
         "description": "Component of the frontal lobe, lateral aspect",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002702"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       },
       {
         "value": "frontal lobe",
