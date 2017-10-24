@@ -364,6 +364,11 @@
         "value": "tar",
         "description": "tape archive",
         "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
+      },
+      {
+        "value": "R script",
+        "description": "R Script",
+        "source": "Sage Bionetworks"
       }
 
     ]
