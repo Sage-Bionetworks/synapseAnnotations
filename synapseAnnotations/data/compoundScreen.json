@@ -1,0 +1,72 @@
+[
+  {
+    "name": "compoundName",
+      "description": "",
+      "columnType": "STRING",
+      "maximumSize": 250,
+      "enumValues": []
+  },
+  {
+    "name": "secondCompoundName"
+    "description": ""
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+     {
+    "name": "drugScreenType",
+    "description": "String describing general class of drug screen",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues":[
+      {
+        "value": "singleMolecule",
+        "description": "An experiment in which a single molecule was used in an assay",
+        "source": ""
+      },
+      {
+        "value": "smallMoleculeLibraryScreen",
+        "description": "High throughput sample analysis of small molecules for purpose such as drug discovery, or biochemical, genetic or pharmacological tests.",
+        "source": " http://purl.obolibrary.org/obo/ERO_0001726"
+      },
+      {
+        "value":"combinationLibraryScreen",
+        "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.",
+        "source":"http://purl.obolibrary.org/obo/ERO_0001686"
+      },
+        {
+            "value": "combinationScreen",
+            "description":"",
+            "source":""
+        }
+    ]
+  },
+  {
+      "name": "compoundDose",
+      "description": "",
+      "columnType": "",
+      "maximumSize": ,
+      "enumValues": []
+  },
+    {
+        "name":"compoundDoseUnit",
+        "description":"",
+        "columnType":"",
+      "maximumSize": ,
+      "enumValues": []
+    },
+    {
+        "name":"secondCompoundDose",
+        "description":"",
+        "columnType":""
+        "maximumSize":"",
+        "enumValues":[]
+    },
+    {
+        "name":"secondCompoundDoseUnit",
+        "description":"",
+        "columnType":"",
+      "maximumSize": ,
+      "enumValues": []
+    }
+  ]

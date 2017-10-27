@@ -8,7 +8,7 @@
   },
   {
     "name": "assay",
-    "description": "The technology used to generate the data in this file",
+    "description": "The technology useddr to generate the data in this file",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -300,7 +300,12 @@
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
-      }
+      },
+        {
+            "value":"doseResponseCurve",
+            "description":"A data item of paired values, one indicating the dose of a material, the other quantitating a measured effect at that dose. The dosing intervals are chosen so that effect values be interpolated by a plotting a curve.",
+            "source":"http://purl.obolibrary.org/obo/OBI_0001172"
+        }
     ]
   },
   {
