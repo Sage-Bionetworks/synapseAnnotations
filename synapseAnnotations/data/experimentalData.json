@@ -8,7 +8,7 @@
   },
   {
     "name": "assay",
-    "description": "The technology useddr to generate the data in this file",
+    "description": "The technology used to generate the data in this file",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
