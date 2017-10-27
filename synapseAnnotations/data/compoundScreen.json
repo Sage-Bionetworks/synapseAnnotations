@@ -44,29 +44,27 @@
   {
       "name": "compoundDose",
       "description": "",
-      "columnType": "",
-      "maximumSize": ,
+      "columnType": "DOUBLE",
       "enumValues": []
   },
     {
         "name":"compoundDoseUnit",
         "description":"",
-        "columnType":"",
-      "maximumSize": ,
+        "columnType":"STRING",
+      "maximumSize": 250,
       "enumValues": []
     },
     {
         "name":"secondCompoundDose",
         "description":"",
-        "columnType":"",
-        "maximumSize":"",
+        "columnType":"DOUBLE",
         "enumValues":[]
     },
     {
         "name":"secondCompoundDoseUnit",
         "description":"",
-        "columnType":"",
-        "maximumSize": ,
+        "columnType":"STRING",
+        "maximumSize": 250,
         "enumValues": []
     }
   ]
