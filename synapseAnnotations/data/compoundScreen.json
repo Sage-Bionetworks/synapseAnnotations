@@ -7,8 +7,8 @@
       "enumValues": []
   },
   {
-    "name": "secondCompoundName"
-    "description": ""
+    "name": "secondCompoundName",
+    "description": "",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
