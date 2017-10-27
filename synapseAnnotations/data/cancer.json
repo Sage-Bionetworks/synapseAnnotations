@@ -79,6 +79,11 @@
         "value": "CRISPR",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "CRE Recombinase",
+        "description": "CRE Recombinase catalyses site-specific recombination between two 34 base pair loxp sites and maintains the phage genome as a monomeric unit-copy plasmid in the lysogenic state.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17285"
       }
     ]
   },

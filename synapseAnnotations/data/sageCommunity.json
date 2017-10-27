@@ -8,17 +8,17 @@
           {
               "value": "experimentalData",
               "description": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           },
           {
               "value": "analysis",
               "description": "Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           },
           {
               "value": "tool",
               "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
-              "source": "Sage"
+              "source": "Sage Bionetworks"
           }
          ]
   },
@@ -68,18 +68,18 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "CommonMind Consortium",
-        "description": "",
+        "value": "CMC",
+        "description": "CommonMind Consortium",
         "source": "https://www.synapse.org/cmc"
       },
       {
-        "value": "PsychENCODE Consortium",
-        "description": "",
+        "value": "PEC",
+        "description": "PsychENCODE Consortium",
         "source": "https://www.synapse.org/pec"
       },
       {
-        "value": "AMP-AD", 
-        "description": "Accelerating Medicines Partnership-Alzheimer's Disease", 
+        "value": "AMP-AD",
+        "description": "Accelerating Medicines Partnership-Alzheimer's Disease",
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -88,8 +88,8 @@
         "source": "https://www.synapse.org/ampad"
       },
       {
-        "value": "M2OVE-AD", 
-        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ", 
+        "value": "M2OVE-AD",
+        "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ",
         "source": "https://www.synapse.org/ampad"
       },
       {
@@ -145,6 +145,16 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "bash script",
+        "description": "Bash Shell Script",
+        "source": "https://en.wikipedia.org/wiki/Shell_script"
+      },
+      {
+        "value": "bedgraph",
+        "description": "Holds a tab-delimited chromosome /start /end / datavalue dataset. The bedGraph format allows display of continuous-valued data in track format. This display type is useful for probability scores and transcriptome data",
+        "source": "http://edamontology.org/format_3583"
+      },
       {
         "value": "idx",
         "description": "",
@@ -329,7 +339,28 @@
         "value": "msf",
         "description": "Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software",
         "source": "http://edamontology.org/format_3702"
+      },
+      {
+        "value": "rmd",
+        "description": "markdown document specific to r analyses",
+        "source": "http://rmarkdown.rstudio.com/developer_document_templates.html"
+      },
+      {
+        "value": "bed narrowPeak",
+        "description": "This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format12"
+      },
+      {
+        "value": "bed broadPeak",
+        "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data. It is a BED 6+3 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format13"
+      },
+      {
+        "value": "bed gappedPeak",
+        "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",
+        "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format14"
       }
+
     ]
   }
 ]
