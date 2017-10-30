@@ -369,8 +369,12 @@
         "value": "R script",
         "description": "R Script",
         "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "abf",
+        "description": "The Axon™ Binary File format (ABF) was created for the storage of binary experimental data.",
+        "source": "https://mdc.custhelp.com/euf/assets/content/ABFHelp.pdf"
       }
-
     ]
   }
 ]
