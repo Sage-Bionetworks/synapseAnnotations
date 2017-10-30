@@ -38,6 +38,11 @@
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
       },
       {
+        "value": "LC-MS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance"
+        "source": "http://www.ontobee.org/ontology/CHMO?iri=http://purl.obolibrary.org/obo/CHMO_0000524"
+      },
+      {
         "value": "lncrnaSeq",
         "description": "Long non-coding RNA measurements collected from RNA-Seq experiments",
         "source": ""
