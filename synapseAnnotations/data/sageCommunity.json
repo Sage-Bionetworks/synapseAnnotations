@@ -379,6 +379,11 @@
         "value": "bpm",
         "description": "A beead pool manifest. Describe the SNP or probe content on a BeadChip or in an assay pool.",
         "source": "https://support.illumina.com/datafiles.html"
+      },
+            {
+        "value": "dat",
+        "description": "Format of Affymetrix data file of raw image data.",
+        "source": "http://edamontology.org/format_1637"
       }
     ]
   }
