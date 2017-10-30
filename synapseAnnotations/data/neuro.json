@@ -563,7 +563,6 @@
         }, 
       {
         "value": "JAX_APPPS1", 
-        "description": "APP/PS1 double transgenic mice", 
         "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
@@ -678,7 +677,7 @@
         "source": ""
       }, 
       {
-        "value": "APP/PS1", 
+        "value": "APPPS1", 
         "description": "", 
         "source": "Sage Bionetworks"
       }, 
