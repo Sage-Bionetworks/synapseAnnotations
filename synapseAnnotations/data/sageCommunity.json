@@ -374,6 +374,11 @@
         "value": "abf",
         "description": "The Axon™ Binary File format (ABF) was created for the storage of binary experimental data.",
         "source": "https://mdc.custhelp.com/euf/assets/content/ABFHelp.pdf"
+      },
+      {
+        "value": "bpm",
+        "description": "A beead pool manifest. Describe the SNP or probe content on a BeadChip or in an assay pool.",
+        "source": "https://support.illumina.com/datafiles.html"
       }
     ]
   }
