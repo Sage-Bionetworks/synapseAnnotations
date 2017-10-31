@@ -384,6 +384,11 @@
         "value": "jpg",
         "description": "Joint Picture Group file format for lossy graphics file.",
         "source": "http://edamontology.org/format_3579"
+      },
+      {
+        "value": "locs",
+        "description": "Illumina iScan bead location file.",
+        "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/iscan/iscan-system-guide-11313539-01.pdf"
       }
     ]
   }
