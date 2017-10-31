@@ -389,6 +389,11 @@
         "value": "locs",
         "description": "Illumina iScan bead location file.",
         "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/iscan/iscan-system-guide-11313539-01.pdf"
+      },
+      {
+        "value": "Python script",
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
+        "source": "https://www.python.org/doc/essays/blurb/"
       }
     ]
   }
