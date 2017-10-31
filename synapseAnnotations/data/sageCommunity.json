@@ -394,6 +394,11 @@
         "value": "Python script",
         "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
         "source": "https://www.python.org/doc/essays/blurb/"
+      },
+      {
+        "value": "sav",
+        "description": "The SPSS Statistics File Format is a proprietary binary format, developed and maintained as the native format for the SPSS statistical software application.",
+        "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000469.shtml"
       }
     ]
   }
