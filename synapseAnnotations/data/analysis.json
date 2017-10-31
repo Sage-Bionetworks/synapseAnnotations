@@ -390,6 +390,11 @@
         "source": ""
       }, 
       {
+        "value": "enrichmentAnalysis", 
+        "description": "Over-representation analysis", 
+        "source": "http://edamontology.org/operation_3501"
+      }, 
+      {
         "value": "statisticalNetworkReconstruction", 
         "description": "", 
         "source": ""
