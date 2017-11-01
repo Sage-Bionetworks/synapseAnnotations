@@ -274,7 +274,7 @@
       {
         "value": "metabolomics",
         "description": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_3172"
+        "source": "http://edamontology.org/topic_3172"
       },
       {
         "value": "image",
