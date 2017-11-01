@@ -11,10 +11,10 @@
      "description": "", 
      "columnType": "BOOLEAN", 
      "maximumSize": 250, 
-     "enumValues": []
+     "enumValues": [
          {
           "value": "True", 
-          "description": "Collaborate consortium analysis", 
+          "description": "Collaborative consortium analysis", 
           "source": "Sage Bionetworks"
       }
     ]
