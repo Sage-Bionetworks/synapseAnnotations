@@ -1,5 +1,29 @@
 # Change Log
 
+## [v6.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.0.0) (2017-11-07)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v5.0.0...v6.0.0)
+
+**Implemented enhancements:**
+
+- added r script to file format [\#256](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/256) ([kdaily](https://github.com/kdaily))
+- Add annotations for PSON Moffitt [\#239](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/239) ([xindiguo](https://github.com/xindiguo))
+
+**Closed issues:**
+
+- dataType for idats [\#268](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/268)
+- CHiP-seq is spelled wrong [\#242](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/242)
+
+**Merged pull requests:**
+
+- Merge develop into master  [\#287](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/287) ([teslajoy](https://github.com/teslajoy))
+- deleted scripts that were moved to annotation utils repo [\#285](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/285) ([teslajoy](https://github.com/teslajoy))
+- revert NF1/NF2Status change [\#284](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/284) ([allaway](https://github.com/allaway))
+- added dataType metabolomics [\#278](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/278) ([amapeters](https://github.com/amapeters))
+- added fileFormat - abf [\#277](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/277) ([ychae](https://github.com/ychae))
+- New drug terms [\#271](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/271) ([sgosline](https://github.com/sgosline))
+- change source URL directly to UBERON for 'middle frontal gyrus' [\#267](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/267) ([kdaily](https://github.com/kdaily))
+- added tar archive to fileFormat [\#255](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/255) ([kdaily](https://github.com/kdaily))
+
 ## [v5.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v5.0.0) (2017-10-17)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v4.1.1...v5.0.0)
 
