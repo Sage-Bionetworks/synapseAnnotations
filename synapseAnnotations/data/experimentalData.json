@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "immunohistochemistry",
+        "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001986"
+      },
+      {
         "value": "FIA-MSMS",
         "description": "Flow injection analysis - tandem mass spectrometer",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
