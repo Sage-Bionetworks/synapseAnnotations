@@ -368,6 +368,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "midbrain",
+        "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
+      },
+      {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956"
