@@ -408,6 +408,11 @@
         "value": "locs",
         "description": "Illumina iScan bead location file.",
         "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/iscan/iscan-system-guide-11313539-01.pdf"
+      },
+      {
+        "value": "Sentrix descriptor file",
+        "description": "A BeadScan specific file needed to perform scan setting checks for different array formats and assay type.",
+        "source": "https://support.illumina.com/content/dam/illumina-support/documents/myillumina/dd0aff11-2664-481b-a8ce-26831a907cae/beadscan_3.0_software_addendum.pdf"
       }
     ]
   }
