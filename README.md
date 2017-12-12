@@ -32,6 +32,7 @@ pip install -r requirements.txt
 
 1. Make changes on your feature branch.
 1. Request and complete a review from someone on the team.
+1. Note that you can use [keywords](https://help.github.com/articles/closing-issues-using-keywords/) to close issues via your pull request 
 1. When review is completed, note it to be reviewed and merged at the weekly meeting.
 1. Finalize merge into the `master` branch.
 1. Update the version and make a versioned release (with assistance from @teslajoy)
