@@ -62,8 +62,8 @@
       },
       {
         "value": "BI2536",
-        "description": "https://www.ncbi.nlm.nih.gov/mesh/67518477",
-        "source": "Polo-like kinase 1 inhibitor."
+        "description": "Polo-like kinase 1 inhibitor.",
+        "source": "https://www.ncbi.nlm.nih.gov/mesh/67518477"
       },
       {
         "value": "BORTEZOMIB",

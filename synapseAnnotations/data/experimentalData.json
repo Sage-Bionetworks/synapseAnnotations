@@ -199,7 +199,7 @@
   },
   {
     "name": "organ",
-    "description": "The organ from which the sample is derived",
+    "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -367,6 +367,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "midbrain",
+        "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
+      },
       {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
