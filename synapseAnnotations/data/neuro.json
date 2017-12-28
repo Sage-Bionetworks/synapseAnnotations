@@ -7,6 +7,31 @@
     "enumValues": []
   }, 
   {
+    "name": "release", 
+    "description": "CommonMind Consortium specific data release number", 
+    "columnType": "DOUBLE", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
+  {
+    "name": "accessType", 
+    "description": "Conditions for data use", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+    {
+        "value": "controlled", 
+        "description": "Data access requires a data request application", 
+        "source": ""
+      }, 
+      {
+        "value": "open", 
+        "description": "Data can be accessed without a data request application", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
     "name": "group", 
     "description": "", 
     "columnType": "STRING", 
