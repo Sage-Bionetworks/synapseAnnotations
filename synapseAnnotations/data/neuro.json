@@ -126,6 +126,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "R01AG051556", 
+        "description": "INTERDISCIPLINARY RESEARCH TO UNDERSTAND THE INTERPLAY OF DIABETES, CEREBROVASCULAR DISEASE AND ALZHEIMERS DISEASE", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+      }, 
+      {
         "value": "U01MH103339", 
         "description": "", 
         "source": ""
@@ -337,9 +342,19 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "TyrobpKO_AppPs1", 
+        "description": "TyrobpKO mice crossed with APP/PS1 tg", 
+        "source": "https://www.synapse.org/#!Synapse:syn10378730"
+      }, 
+      {
         "value": "CMC", 
         "description": "CommonMind Consortium", 
         "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
+      }, 
+      {
+        "value": "DiCAD", 
+        "description": "Interdisciplinary Research to Understand the Interplay of Diabetes, Cerebrovascular disease and Alzheimer’s disease", 
+        "source": "https://www.synapse.org/#!Synapse:syn9944859"
       }, 
       {
         "value": "EpiMap", 
