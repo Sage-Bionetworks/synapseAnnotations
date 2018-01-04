@@ -8,16 +8,9 @@
   }, 
   {
      "name": "isConsortiumAnalysis", 
-     "description": "", 
+     "description": "Collaborative consortium analysis", 
      "columnType": "BOOLEAN", 
-     "maximumSize": 250, 
-     "enumValues": [
-         {
-          "value": "True", 
-          "description": "Collaborative consortium analysis", 
-          "source": "Sage Bionetworks"
-      }
-    ]
+     "enumValues": []
   }, 
   {
     "name": "group", 
