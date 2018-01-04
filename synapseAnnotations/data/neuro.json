@@ -9,8 +9,7 @@
   {
      "name": "isConsortiumAnalysis", 
      "description": "Collaborative consortium analysis", 
-     "columnType": "BOOLEAN", 
-     "enumValues": []
+     "columnType": "BOOLEAN"
   }, 
   {
     "name": "group", 
