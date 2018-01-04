@@ -342,6 +342,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "TyrobpKO_AppPs1", 
+        "description": "TyrobpKO mice crossed with APP/PS1 tg", 
+        "source": "https://www.synapse.org/#!Synapse:syn10378730"
+      }, 
+      {
         "value": "CMC", 
         "description": "CommonMind Consortium", 
         "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
