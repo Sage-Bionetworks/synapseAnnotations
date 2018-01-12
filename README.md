@@ -54,7 +54,7 @@ Patch version **.0** increments by:
 1. Errors or corrections that don't break the API
 
 To optimize usability, the release tags should be placed on two required and one optional locations: 
-1. A Synapse Project annotation as a single value vs. list of versions and defined by the key **`annotationVersion`**. 
+1. A Synapse Project annotation as a single value vs. list of versions and defined by the key **`annotationReleaseVersion`**. 
 2. The Shiny application [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI)'s **title** 
 3. OPTIONAL: Documented in a Synapse Project wiki.
 
