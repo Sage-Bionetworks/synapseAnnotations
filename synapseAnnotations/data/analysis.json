@@ -513,6 +513,16 @@
         "value":"correlation",
         "description":"",
         "source":"http://purl.obolibrary.org/obo/NCIT_C48834"
+      },
+      {
+        "value":"network analysis",
+        "description":"",
+        "source":"http://purl.obolibrary.org/obo/OBI_0200080"
+      },
+      {
+        "value":"deconvolution",
+        "description":"",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C47929"
       }
     ]
   }, 
