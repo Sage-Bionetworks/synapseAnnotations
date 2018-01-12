@@ -660,6 +660,11 @@
         "value": "placebo", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "clozapine",
+        "description": "",
+        "source": ""
       }
     ]
   }, 
