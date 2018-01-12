@@ -1,5 +1,27 @@
 # Change Log
 
+## [v6.1.1](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.1.1) (2017-12-19)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v6.0.0...v6.1.1)
+
+**Closed issues:**
+
+- fileFormat - sdf [\#283](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/283)
+- Create annotations to cover drug/compound screens [\#272](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/272)
+- add value 'precuneus' to key 'tissue' \(Brodmann area 7\) [\#259](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/259)
+- add R \(script\) as fileFormat [\#254](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/254)
+- add tar as fileFormat [\#253](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/253)
+- Resolve dataType for methylation and ChIPSeq [\#252](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/252)
+- what dataType to go with assay=CHiP-seq? [\#244](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/244)
+
+**Merged pull requests:**
+
+- Merge Develop to Master  [\#304](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/304) ([teslajoy](https://github.com/teslajoy))
+- fixed organ definition [\#302](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/302) ([allaway](https://github.com/allaway))
+- Allaway patch 2 [\#297](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/297) ([allaway](https://github.com/allaway))
+- Added tissue-midbrain [\#295](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/295) ([amapeters](https://github.com/amapeters))
+- Added new grant and study [\#294](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/294) ([amapeters](https://github.com/amapeters))
+- Update to Develop [\#289](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/289) ([xindiguo](https://github.com/xindiguo))
+
 ## [v6.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.0.0) (2017-11-07)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v5.0.0...v6.0.0)
 
