@@ -7,6 +7,11 @@
     "enumValues": []
   }, 
   {
+     "name": "isConsortiumAnalysis", 
+     "description": "Collaborative consortium analysis", 
+     "columnType": "BOOLEAN"
+  }, 
+  {
     "name": "group", 
     "description": "", 
     "columnType": "STRING", 
@@ -342,6 +347,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "TyrobpKO_AppPs1", 
+        "description": "TyrobpKO mice crossed with APP/PS1 tg", 
+        "source": "https://www.synapse.org/#!Synapse:syn10378730"
+      }, 
+      {
         "value": "CMC", 
         "description": "CommonMind Consortium", 
         "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
@@ -573,7 +583,6 @@
         }, 
       {
         "value": "JAX_APPPS1", 
-        "description": "APP/PS1 double transgenic mice", 
         "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
@@ -690,7 +699,7 @@
       {
         "value": "APPPS1", 
         "description": "", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "MAPT-P301K", 
@@ -757,19 +766,6 @@
       }
     ]
   },
-  {
-    "name": "modelSystemNameCommon", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "APP/PS1", 
-        "description": "Double transgenic mice express a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9) both directed to CNS neurons. ", 
-        "source": "https://www.jax.org/strain/004462"
-      }
-    ]
-  }, 
   {
     "name": "modelSystemStrainNomenclature", 
     "description": "", 
