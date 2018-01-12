@@ -493,6 +493,26 @@
         "value": "peakCalling", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "Copy number estimation",
+        "description": "",
+        "source": "http://edamontology.org/operation_3233"
+      },
+      {
+        "value": "Gene expression profile comparison",
+        "description": "",
+        "source": "http://edamontology.org/operation_0315"
+      },
+      {
+        "value":"de-novo assembly",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/GENEPIO_0001628"
+      },
+      {
+        "value":"correlation",
+        "description":"",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C48834"
       }
     ]
   }, 
