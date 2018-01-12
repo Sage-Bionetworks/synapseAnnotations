@@ -1,5 +1,68 @@
 # Change Log
 
+## [v6.1.1](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.1.1) (2017-12-19)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v6.0.0...v6.1.1)
+
+**Closed issues:**
+
+- fileFormat - sdf [\#283](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/283)
+- Create annotations to cover drug/compound screens [\#272](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/272)
+- add value 'precuneus' to key 'tissue' \(Brodmann area 7\) [\#259](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/259)
+- add R \(script\) as fileFormat [\#254](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/254)
+- add tar as fileFormat [\#253](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/253)
+- Resolve dataType for methylation and ChIPSeq [\#252](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/252)
+- what dataType to go with assay=CHiP-seq? [\#244](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/244)
+
+**Merged pull requests:**
+
+- Merge Develop to Master  [\#304](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/304) ([teslajoy](https://github.com/teslajoy))
+- fixed organ definition [\#302](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/302) ([allaway](https://github.com/allaway))
+- Allaway patch 2 [\#297](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/297) ([allaway](https://github.com/allaway))
+- Added tissue-midbrain [\#295](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/295) ([amapeters](https://github.com/amapeters))
+- Added new grant and study [\#294](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/294) ([amapeters](https://github.com/amapeters))
+- Update to Develop [\#289](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/289) ([xindiguo](https://github.com/xindiguo))
+
+## [v6.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.0.0) (2017-11-07)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v5.0.0...v6.0.0)
+
+**Implemented enhancements:**
+
+- added r script to file format [\#256](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/256) ([kdaily](https://github.com/kdaily))
+- Add annotations for PSON Moffitt [\#239](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/239) ([xindiguo](https://github.com/xindiguo))
+
+**Closed issues:**
+
+- dataType for idats [\#268](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/268)
+- CHiP-seq is spelled wrong [\#242](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/242)
+
+**Merged pull requests:**
+
+- Merge develop into master  [\#287](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/287) ([teslajoy](https://github.com/teslajoy))
+- deleted scripts that were moved to annotation utils repo [\#285](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/285) ([teslajoy](https://github.com/teslajoy))
+- revert NF1/NF2Status change [\#284](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/284) ([allaway](https://github.com/allaway))
+- added dataType metabolomics [\#278](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/278) ([amapeters](https://github.com/amapeters))
+- added fileFormat - abf [\#277](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/277) ([ychae](https://github.com/ychae))
+- New drug terms [\#271](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/271) ([sgosline](https://github.com/sgosline))
+- change source URL directly to UBERON for 'middle frontal gyrus' [\#267](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/267) ([kdaily](https://github.com/kdaily))
+- added tar archive to fileFormat [\#255](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/255) ([kdaily](https://github.com/kdaily))
+
+## [v5.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v5.0.0) (2017-10-17)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v4.1.1...v5.0.0)
+
+**Implemented enhancements:**
+
+- Automate changelog for releases [\#237](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/237)
+- change all source = "Sage" to "Sage Bionetworks" [\#234](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/234)
+- Update sageCommunity.json [\#241](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/241) ([kdaily](https://github.com/kdaily))
+- added fileFormat - bedgraph [\#240](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/240) ([amapeters](https://github.com/amapeters))
+
+**Merged pull requests:**
+
+- Add in changelog.md [\#246](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/246) ([kdaily](https://github.com/kdaily))
+- Change source 'Sage' to 'Sage Bionetworks' [\#245](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/245) ([kdaily](https://github.com/kdaily))
+- correcting ChIPseq spelling  [\#243](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/243) ([allaway](https://github.com/allaway))
+- Script to normalize json files into a melted dataframe then merge by row checking to a synapse table  [\#141](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/141) ([teslajoy](https://github.com/teslajoy))
+
 ## [v4.1.1](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v4.1.1) (2017-10-11)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v3.1.0...v4.1.1)
 
