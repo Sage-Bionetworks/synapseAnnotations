@@ -543,11 +543,6 @@
         "value":"comparison",
         "description":"The examination of two or more people or things in order to detect similarities and differences.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C49156"
-      },
-      {
-        "value":"regression analysis",
-        "description":"A statistical calculation to estimate the relationships among variables.",
-        "source":"http://edamontology.org/operation_3659"
       }
     ]
   }, 
@@ -624,6 +619,11 @@
         "value": "GaussianProcessRegression", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "elastic net",
+        "description": "Elastic net is a shrinkage and selection regression method that linearly combines the L1 and L2 penalties of the lasso and ridge methods.",
+        "source": "http://purl.enanomapper.org/onto/ENM_8000083"
       }
     ]
   },
