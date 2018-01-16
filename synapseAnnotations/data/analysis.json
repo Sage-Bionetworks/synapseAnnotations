@@ -525,11 +525,6 @@
         "source":"http://purl.obolibrary.org/obo/NCIT_C62352"
       },
       {
-        "value":"machine learning",
-        "description":"A topic concerning the application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only.",
-        "source":"http://edamontology.org/topic_3474"
-      },
-      {
         "value":"dose response study",
         "description":"A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C127803"
