@@ -660,6 +660,11 @@
         "value": "placebo", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "clozapine",
+        "description": "A second generation antipsychotic used in the treatment of psychiatric disorders like schizophrenia.",
+        "source": "http://purl.obolibrary.org/obo/CHEBI_3766"
       }
     ]
   }, 

@@ -276,7 +276,7 @@
   }, 
   {
     "name": "alignmentMethod", 
-    "description": "DNA or RNA sequence alignement method", 
+    "description": "DNA or RNA sequence alignment method", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
