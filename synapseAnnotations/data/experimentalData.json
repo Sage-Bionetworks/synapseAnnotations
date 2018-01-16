@@ -199,7 +199,7 @@
   },
   {
     "name": "organ",
-    "description": "The organ from which the sample is derived",
+    "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -596,6 +596,11 @@
         "value": "forebrain",
         "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
+      },
+      {
+        "value": "middle frontal gyrus",
+        "description": "Component of the frontal lobe, lateral aspect",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       }
     ]
   },
