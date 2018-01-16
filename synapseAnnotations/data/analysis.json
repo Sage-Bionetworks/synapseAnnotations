@@ -496,12 +496,12 @@
       },
       {
         "value": "Copy number estimation",
-        "description": "",
+        "description": "Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.",
         "source": "http://edamontology.org/operation_3233"
       },
       {
         "value": "Gene expression profile comparison",
-        "description": "",
+        "description": "Comparison of gene expression profiles.",
         "source": "http://edamontology.org/operation_0315"
       },
       {
@@ -511,18 +511,43 @@
       },
       {
         "value":"correlation",
-        "description":"",
+        "description":"The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C48834"
       },
       {
         "value":"network analysis",
-        "description":"",
+        "description":"A  data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",
         "source":"http://purl.obolibrary.org/obo/OBI_0200080"
       },
       {
-        "value":"deconvolution",
-        "description":"",
-        "source":"http://purl.obolibrary.org/obo/NCIT_C47929"
+        "value":"purity",
+        "description":"A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C62352"
+      },
+      {
+        "value":"machine learning",
+        "description":"A topic concerning the application of artificial intelligence methods to algorithms, in order to create methods that can learn from data in order to generate an ouput, rather than relying on explicitly encoded information only.",
+        "source":"http://edamontology.org/topic_3474"
+      },
+      {
+        "value":"dose response study",
+        "description":"A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C127803"
+      },
+      {
+        "value":"assessment",
+        "description":"The final result of a determination of the value, significance, or extent of.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C25217"
+      },
+      {
+        "value":"quality control",
+        "description":"A technique used to ensure a certain level of quality in a product or service.",
+        "source":"http://purl.obolibrary.org/obo/ERO_0001219"
+      },
+      {
+        "value":"comparison",
+        "description":"The examination of two or more people or things in order to detect similarities and differences.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C49156"
       }
     ]
   }, 
