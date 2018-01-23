@@ -385,6 +385,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "Sequence alignment",
+        "description": "Alignment of reads to a reference genome",
+        "source": "http://edamontology.org/operation_0292"
+      },
+      {
         "value": "genotypeImputation", 
         "description": "The statistical inference of unobserved genotypes", 
         "source": ""
