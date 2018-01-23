@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "NOMeSeq",
+        "description": "Nucleosome Occupancy and Methylome Sequencing",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
+      },
+      {
         "value": "FIA-MSMS",
         "description": "Flow injection analysis - tandem mass spectrometer",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
