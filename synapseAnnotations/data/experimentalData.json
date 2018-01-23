@@ -13,7 +13,7 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "NOMeSeq",
+        "value": "NOMe-Seq",
         "description": "Nucleosome Occupancy and Methylome Sequencing",
         "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
       },
