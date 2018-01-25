@@ -385,6 +385,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "Variant calling",
+        "description": "Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+        "source": "http://edamontology.org/operation_3227"
+      },
+      {
         "value": "Sequence alignment",
         "description": "Alignment of reads to a reference genome",
         "source": "http://edamontology.org/operation_0292"
