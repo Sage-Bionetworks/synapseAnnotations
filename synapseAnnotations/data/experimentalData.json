@@ -1020,11 +1020,6 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
       },
       {
-        "value": "Control",
-        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
-      },
-      {
         "value": "Affective Disorder",
         "description": "Change in mood is the main underlying feature of these disorders.",
         "source": "Sage Bionetworks"
