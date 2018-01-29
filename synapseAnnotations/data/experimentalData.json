@@ -143,9 +143,9 @@
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       },
       {
-        "value": "targetedGeneSeq",
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
-        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+        "value": "nextGenerationTargetedSequencing",
+        "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
       },
       {
         "value": "jumpingLibrary",
