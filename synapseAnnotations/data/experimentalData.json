@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "NOMe-Seq",
+        "description": "Nucleosome Occupancy and Methylome Sequencing",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
+      },
+      {
         "value": "FIA-MSMS",
         "description": "Flow injection analysis - tandem mass spectrometer",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
@@ -143,9 +148,9 @@
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       },
       {
-        "value": "targetedGeneSeq",
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
-        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+        "value": "nextGenerationTargetedSequencing",
+        "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
       },
       {
         "value": "jumpingLibrary",
@@ -199,7 +204,7 @@
   },
   {
     "name": "organ",
-    "description": "The organ from which the sample is derived",
+    "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -367,6 +372,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "midbrain",
+        "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
+      },
       {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
@@ -591,6 +601,11 @@
         "value": "forebrain",
         "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
+      },
+      {
+        "value": "middle frontal gyrus",
+        "description": "Component of the frontal lobe, lateral aspect",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       }
     ]
   },
@@ -1008,11 +1023,6 @@
         "value": "Ovary Cancer",
         "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
-      },
-      {
-        "value": "Control",
-        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
       },
       {
         "value": "Affective Disorder",
