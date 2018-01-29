@@ -281,11 +281,6 @@
         "source": ""
       },
       {
-        "value": "idat",
-        "description": "Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc",
-        "source": "http://edamontology.org/format_3578"
-      },
-      {
         "value": "bigwig",
         "description": "bigWig format for large sequence annotation tracks that consist of a value for each sequence position",
         "source": "http://edamontology.org/format_3006"
@@ -359,8 +354,76 @@
         "value": "bed gappedPeak",
         "description": "This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",
         "source": "http://genome.ucsc.edu/FAQ/FAQformat.html#format14"
+      },
+      {
+        "value": "avi",
+        "description": "AVI files can contain both audio and video data in a file container that allows synchronous audio-with-video playback.",
+        "source":"https://en.wikipedia.org/wiki/Audio_Video_Interleave"
+      },
+      {
+        "value": "pzfx",
+        "description": "A PZFX file is a Prism project created by GraphPad Prism, a scientific application used to analyze and graph data. It contains project data including graphs and layouts, notes, and tables.",
+        "source":"https://fileinfo.com/extension/pzfx"
+      },
+      {
+        "value": "fig",
+        "description": "Line drawing saved in the Xfig format; stored as a vector image that may include lines, shapes, arcs, splines, arrows, and text objects; may also include images, colors, and patterns.",
+        "source":"https://fileinfo.com/extension/fig"
+      },
+      {
+        "value": "xml",
+        "description": "eXtensible Markup Language (XML) format.",
+        "source":"http://edamontology.org/format_2332"
+      },
+      {  "value": "tar",
+        "description": "tape archive",
+        "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
+      },
+      {
+        "value": "R script",
+        "description": "R Script",
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "abf",
+        "description": "The Axon™ Binary File format (ABF) was created for the storage of binary experimental data.",
+        "source": "https://mdc.custhelp.com/euf/assets/content/ABFHelp.pdf"
+      },
+      {
+        "value": "bpm",
+        "description": "A beaded pool manifest. Describe the SNP or probe content on a BeadChip or in an assay pool.",
+        "source": "https://support.illumina.com/datafiles.html"
+      },
+      {
+        "value": "dat",
+        "description": "Format of Affymetrix data file of raw image data.",
+        "source": "http://edamontology.org/format_1637"
+      },
+      {
+        "value": "jpg",
+        "description": "Joint Picture Group file format for lossy graphics file.",
+        "source": "http://edamontology.org/format_3579"
+      },
+      {
+        "value": "locs",
+        "description": "Illumina iScan bead location file.",
+        "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/iscan/iscan-system-guide-11313539-01.pdf"
+      },
+      {
+        "value": "Python script",
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",
+        "source": "https://www.python.org/doc/essays/blurb/"
+      },
+      {
+        "value": "sav",
+        "description": "The SPSS Statistics File Format is a proprietary binary format, developed and maintained as the native format for the SPSS statistical software application.",
+        "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000469.shtml"
+      },
+      {
+        "value": "xml",
+        "description": "eXtensible Markup Language (XML) format.",
+        "source": "http://edamontology.org/format_2332"
       }
-
     ]
   }
 ]
