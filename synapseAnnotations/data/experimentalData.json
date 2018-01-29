@@ -143,9 +143,9 @@
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       },
       {
-        "value": "targetedGeneSeq",
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
-        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+        "value": "nextGenerationTargetedSequencing",
+        "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
       },
       {
         "value": "jumpingLibrary",
@@ -596,6 +596,11 @@
         "value": "forebrain",
         "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
+      },
+      {
+        "value": "middle frontal gyrus",
+        "description": "Component of the frontal lobe, lateral aspect",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       }
     ]
   },
