@@ -13,6 +13,15 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "immunohistochemistry",
+        "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
+      {
+        "value": "NOMe-Seq",
+        "description": "Nucleosome Occupancy and Methylome Sequencing",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
+      },
+      {
         "value": "FIA-MSMS",
         "description": "Flow injection analysis - tandem mass spectrometer",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
@@ -38,6 +47,11 @@
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
       },
       {
+        "value": "LC-MS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000524"
+      },
+      {
         "value": "lncrnaSeq",
         "description": "Long non-coding RNA measurements collected from RNA-Seq experiments",
         "source": ""
@@ -48,7 +62,7 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
       },
       {
-        "value": "CHiPSeq",
+        "value": "ChIPSeq",
         "description": "Chromatin immuno-precipitation followed by sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0000716"
       },
@@ -143,9 +157,9 @@
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       },
       {
-        "value": "targetedGeneSeq",
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
-        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+        "value": "nextGenerationTargetedSequencing",
+        "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
       },
       {
         "value": "jumpingLibrary",
@@ -199,7 +213,7 @@
   },
   {
     "name": "organ",
-    "description": "The organ from which the sample is derived",
+    "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -257,6 +271,11 @@
         "value": "spleen",
         "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
+      },
+      {
+        "value": "bone marrow",
+        "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000141"
       }
     ]
   },
@@ -270,6 +289,11 @@
         "value": "genomicVariants",
         "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
+      },
+      {
+        "value": "metabolomics",
+        "description": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
+        "source": "http://edamontology.org/topic_3172"
       },
       {
         "value": "image",
@@ -315,6 +339,11 @@
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
+      },
+      {
+        "value": "protein-protein interaction network",
+        "description": "A data set that represents a set of physical interactions between proteins",
+        "source": "http://identifiers.org/mamo/MAMO_0000202"
       }
     ]
   },
@@ -352,6 +381,35 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "posterior inferior parietal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"},
+      {
+        "value": "midbrain",
+        "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
+      },
       {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
@@ -601,6 +659,11 @@
         "value": "posterior inferior parietal cortex",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "middle frontal gyrus",
+        "description": "Component of the frontal lobe, lateral aspect",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       }
     ]
   },
@@ -626,8 +689,8 @@
         "value": "HiSeq4000",
         "description": "Illumina HiSeq 4000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
-      }, 
-      { 
+      },
+      {
         "value": "NextSeq500",
         "description": "Illumina NextSeq 500 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
@@ -756,6 +819,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "Infinium HumanOmniExpressExome",
+        "description": "Infinium HumanOmniExpressExome BeadChip",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
       }
     ]
   },
@@ -807,9 +875,14 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
       },
       {
-        "value": "induced pluripotent stem cells",
+        "value": "iPSC",
         "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
+        },
+      {
+        "value": "iPSC-derived telencephalic organoids",
+        "description": "three-dimensional neural cultures (organoids) derived from induced pluripotent stem cells.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4519016/"
       },
       {
         "value": "GABAergic neurons",
@@ -915,6 +988,26 @@
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+      },
+      {
+        "value": "iPSC-derived neuron",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "monocyte-derived microglia",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "iPSC-derived neuronal progenitor cell",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "CD138+",
+        "description": "",
+        "source": ""
       }
     ]
   },
@@ -1005,14 +1098,9 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
       },
       {
-        "value": "Control",
-        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
-      },
-      {
         "value": "Affective Disorder",
         "description": "Change in mood is the main underlying feature of these disorders.",
-        "source": "Sage"
+        "source": "Sage Bionetworks"
       },
       {
         "value": "Not Applicable",
@@ -1096,7 +1184,12 @@
       {
         "value": "Drosophila melanogaster",
         "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
-        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi"
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Rhesus macaque",
+        "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       }
     ]
   }

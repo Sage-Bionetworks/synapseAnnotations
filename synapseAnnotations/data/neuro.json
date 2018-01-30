@@ -7,6 +7,11 @@
     "enumValues": []
   }, 
   {
+     "name": "isConsortiumAnalysis", 
+     "description": "Collaborative consortium analysis", 
+     "columnType": "BOOLEAN"
+  }, 
+  {
     "name": "group", 
     "description": "", 
     "columnType": "STRING", 
@@ -126,6 +131,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "R01AG051556", 
+        "description": "INTERDISCIPLINARY RESEARCH TO UNDERSTAND THE INTERPLAY OF DIABETES, CEREBROVASCULAR DISEASE AND ALZHEIMERS DISEASE", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+      }, 
+      {
         "value": "U01MH103339", 
         "description": "", 
         "source": ""
@@ -187,33 +197,33 @@
       }, 
       {
         "value": "U01AG046152", 
-        "description": "", 
-        "source": ""
+        "description": "Pathway discovery, validation and compound identification for Alzheimer's Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336775&icde=36348440&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
       }, 
       {
         "value": "U01AG046170", 
-        "description": "", 
-        "source": ""
+        "description": "Integrative biology approach to complexity of Alzheimer's Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9338117&icde=36348751&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
       }, 
       {
         "value": "U01AG046139", 
-        "description": "", 
-        "source": ""
+        "description": "A system approach to targeting innate immunity in AD", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336765&icde=36348787&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
       }, 
       {
         "value": "U01AG046161", 
-        "description": "", 
-        "source": ""
+        "description": "Discovery of novel proteomic targets for treatment of Alzheimer's Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336770&icde=36348585&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
       }, 
       {
-        "value": "5R01AG046174", 
-        "description": "", 
-        "source": ""
+        "value": "R01AG046174", 
+        "description": "Targeting a novel regulator of brain aging and Alzheimer's Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9321469&icde=36348628&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
       }, 
       {
         "value": "R01AG046171", 
-        "description": "", 
-        "source": ""
+        "description": "Metabolic networks and pathways in Alzheimer's Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=8605398&icde=36348546&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC&pball="
       },
       {
         "value": "U01MH106883", 
@@ -259,6 +269,16 @@
         "value": "U01MH106884", 
         "description": "BSMN Jonathan Pevsner", 
         "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9147012&icde=31374293"
+      },
+      {
+        "value": "1RF1AG051504", 
+        "description": "Integrative translational discovery of vascular risk factors in aging and dementia", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9001610&icde=26663490&ddparam=&ddvalue=&ddsub=&cr=19&csb=default&cs=ASC"
+      },
+      {
+        "value": "1RF1AG051556", 
+        "description": "Interdisciplinary research to understand the interplay of diabetes, cerebrovascular disease and Alzheimers Disease", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
       }
     ]
   }, 
@@ -327,9 +347,19 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "TyrobpKO_AppPs1", 
+        "description": "TyrobpKO mice crossed with APP/PS1 tg", 
+        "source": "https://www.synapse.org/#!Synapse:syn10378730"
+      }, 
+      {
         "value": "CMC", 
         "description": "CommonMind Consortium", 
         "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
+      }, 
+      {
+        "value": "DiCAD", 
+        "description": "Interdisciplinary Research to Understand the Interplay of Diabetes, Cerebrovascular disease and Alzheimer’s disease", 
+        "source": "https://www.synapse.org/#!Synapse:syn9944859"
       }, 
       {
         "value": "EpiMap", 
@@ -553,7 +583,6 @@
         }, 
       {
         "value": "JAX_APPPS1", 
-        "description": "APP/PS1 double transgenic mice", 
         "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
@@ -631,6 +660,11 @@
         "value": "placebo", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "clozapine",
+        "description": "A second generation antipsychotic used in the treatment of psychiatric disorders like schizophrenia.",
+        "source": "http://purl.obolibrary.org/obo/CHEBI_3766"
       }
     ]
   }, 
@@ -670,7 +704,7 @@
       {
         "value": "APPPS1", 
         "description": "", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "MAPT-P301K", 
@@ -737,19 +771,6 @@
       }
     ]
   },
-  {
-    "name": "modelSystemNameCommon", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "APP/PS1", 
-        "description": "Double transgenic mice express a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9) both directed to CNS neurons. ", 
-        "source": "https://www.jax.org/strain/004462"
-      }
-    ]
-  }, 
   {
     "name": "modelSystemStrainNomenclature", 
     "description": "", 

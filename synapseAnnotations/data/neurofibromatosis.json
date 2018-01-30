@@ -40,23 +40,23 @@
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion or mutation", 
-        "source": ""
+        "description": "Homozygous deletion or mutation of NF2.", 
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "+/-", 
         "description": "Heterozygous deletion or mutation", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "+/+", 
         "description": "Homozygous wild type", 
-        "source": ""
+        "source": "Sage Bionetworks"
       },
       {
         "value": "unknown", 
         "description": "", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }
     ]
   }, 
@@ -68,23 +68,23 @@
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion or mutation", 
-        "source": ""
+        "description": "Homozygous deletion or mutation of NF1.", 
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "+/-", 
         "description": "Heterozygous deletion or mutation", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }, 
       {
         "value": "+/+", 
         "description": "Homozygous wildtype", 
-        "source": ""
+        "source": "Sage Bionetworks"
       },
       {
         "value": "unknown", 
         "description": "", 
-        "source": ""
+        "source": "Sage Bionetworks"
       }
     ]
   }
