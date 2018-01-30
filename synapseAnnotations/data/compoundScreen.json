@@ -518,5 +518,12 @@
         "columnType":"STRING",
         "maximumSize": 250,
         "enumValues": []
-    }
+    },
+    {
+      "name": "compoundDoseRange",
+      "description": "The minimum and maximum values of a treatment range; e.g. 1-25",
+      "columnType": "STRING",
+      "maximumSize": 250,
+      "enumValues": []
+  },
   ]
