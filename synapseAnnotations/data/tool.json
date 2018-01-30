@@ -234,6 +234,11 @@
         "value": "chromatinActivity",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "pathway or network",
+        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
+        "source": "http://edamontology.org/data_2600"
       }
     ]
   },
@@ -287,6 +292,11 @@
         "value": "protein-protein interaction network",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "pathway or network",
+        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
+        "source": "http://edamontology.org/data_2600"
       }
     ]
   }
