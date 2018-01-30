@@ -970,6 +970,16 @@
         "source": "Sage Bionetworks"
       },
       {
+        "value": "monocyte-derived microglia",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "iPSC-derived neuronal progenitor cell",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "CD138+",
         "description": "",
         "source": ""
