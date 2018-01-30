@@ -13,6 +13,10 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "immunohistochemistry",
+        "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
+      {
         "value": "NOMe-Seq",
         "description": "Nucleosome Occupancy and Methylome Sequencing",
         "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
@@ -41,6 +45,11 @@
         "value": "LC-MSMS",
         "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
+      },
+      {
+        "value": "LC-MS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000524"
       },
       {
         "value": "lncrnaSeq",
