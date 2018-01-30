@@ -965,6 +965,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
       },
       {
+        "value": "monocyte-derived microglia",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "iPSC-derived neuronal progenitor cell",
         "description": "",
         "source": "Sage Bionetworks"
