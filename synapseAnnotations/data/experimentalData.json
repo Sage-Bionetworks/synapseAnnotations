@@ -13,6 +13,10 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "immunohistochemistry",
+        "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
+      {
         "value": "NOMe-Seq",
         "description": "Nucleosome Occupancy and Methylome Sequencing",
         "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
@@ -41,6 +45,11 @@
         "value": "LC-MSMS",
         "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
+      },
+      {
+        "value": "LC-MS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000524"
       },
       {
         "value": "lncrnaSeq",
@@ -373,6 +382,30 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "posterior inferior parietal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"},
+      {
         "value": "midbrain",
         "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
         "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
@@ -631,8 +664,8 @@
         "value": "HiSeq4000",
         "description": "Illumina HiSeq 4000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
-      }, 
-      { 
+      },
+      {
         "value": "NextSeq500",
         "description": "Illumina NextSeq 500 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
@@ -930,6 +963,11 @@
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+      },
+      {
+        "value": "iPSC-derived neuronal progenitor cell",
+        "description": "",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "CD138+",
