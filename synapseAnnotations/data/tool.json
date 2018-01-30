@@ -234,6 +234,11 @@
         "value": "chromatinActivity",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "gene list",
+        "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000118"
       }
     ]
   },
@@ -287,6 +292,11 @@
         "value": "protein-protein interaction network",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "gene list",
+        "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000118"
       }
     ]
   }
