@@ -234,6 +234,11 @@
         "value": "chromatinActivity",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
       }
     ]
   },
@@ -287,6 +292,11 @@
         "value": "protein-protein interaction network",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
       }
     ]
   }
