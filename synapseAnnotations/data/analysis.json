@@ -395,6 +395,16 @@
         "source": ""
       }, 
       {
+        "value": "polygenicRiskScore",
+        "description": "A sample level estimate of the genetic component of disease risk based on genome-wide association studies",
+        "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348"
+      },
+      {
+        "value": "Enrichment Analysis", 
+        "description": "Over-representation analysis", 
+        "source": "http://edamontology.org/operation_3501"
+      }, 
+      {
         "value": "statisticalNetworkReconstruction", 
         "description": "", 
         "source": ""
