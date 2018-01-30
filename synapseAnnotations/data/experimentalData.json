@@ -382,6 +382,30 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "posterior inferior parietal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"},
+      {
         "value": "midbrain",
         "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
         "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
