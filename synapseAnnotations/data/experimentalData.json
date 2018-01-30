@@ -664,8 +664,8 @@
         "value": "HiSeq4000",
         "description": "Illumina HiSeq 4000 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
-      }, 
-      { 
+      },
+      {
         "value": "NextSeq500",
         "description": "Illumina NextSeq 500 (Homo sapiens)",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
@@ -963,6 +963,11 @@
         "value": "schwann",
         "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+      },
+      {
+        "value": "iPSC-derived neuronal progenitor cell",
+        "description": "",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "CD138+",
