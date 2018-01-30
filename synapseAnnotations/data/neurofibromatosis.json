@@ -33,14 +33,14 @@
     ]
   }, 
   {
-    "name": "nf2Status", 
+    "name": "nf2Genotype", 
     "description": "Genotype of NF2 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion, mutation or other form of NF2 deficiency (eg shRNA knockdown of NF2)", 
+        "description": "Homozygous deletion or mutation of NF2.", 
         "source": "Sage Bionetworks"
       }, 
       {
@@ -61,14 +61,14 @@
     ]
   }, 
   {
-    "name": "nf1Status", 
+    "name": "nf1Genotype", 
     "description": "Genotype of NF1 gene, if known", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
       {
         "value": "-/-", 
-        "description": "Homozygous deletion, mutation, or other form of NF1 deficiency (eg shRNA knockdown of NF1)", 
+        "description": "Homozygous deletion or mutation of NF1.", 
         "source": "Sage Bionetworks"
       }, 
       {
