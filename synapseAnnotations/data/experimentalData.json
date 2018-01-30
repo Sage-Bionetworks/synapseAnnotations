@@ -13,6 +13,15 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "immunohistochemistry",
+        "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
+      {
+        "value": "NOMe-Seq",
+        "description": "Nucleosome Occupancy and Methylome Sequencing",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
+      },
+      {
         "value": "FIA-MSMS",
         "description": "Flow injection analysis - tandem mass spectrometer",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
@@ -36,6 +45,11 @@
         "value": "LC-MSMS",
         "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
         "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
+      },
+      {
+        "value": "LC-MS",
+        "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0000524"
       },
       {
         "value": "lncrnaSeq",
@@ -143,9 +157,9 @@
         "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
       },
       {
-        "value": "targetedGeneSeq",
-        "description": "Sequencing of a small set of genes at a generally greater depth than typical WGS methods",
-        "source": "https://www.illumina.com/techniques/sequencing/dna-sequencing/targeted-resequencing/targeted-panels.html"
+        "value": "nextGenerationTargetedSequencing",
+        "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
       },
       {
         "value": "jumpingLibrary",
@@ -199,7 +213,7 @@
   },
   {
     "name": "organ",
-    "description": "The organ from which the sample is derived",
+    "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -257,6 +271,11 @@
         "value": "spleen",
         "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001281"
+      },
+      {
+        "value": "bone marrow",
+        "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000141"
       }
     ]
   },
@@ -270,6 +289,11 @@
         "value": "genomicVariants",
         "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
+      },
+      {
+        "value": "metabolomics",
+        "description": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
+        "source": "http://edamontology.org/topic_3172"
       },
       {
         "value": "image",
@@ -357,6 +381,35 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "posterior inferior parietal cortex",
+        "description": "",
+        "source": "Sage Bionetworks"},
+      {
+        "value": "midbrain",
+        "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001891"
+      },
       {
         "value": "cerebral cortex",
         "description": "The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.",
@@ -581,6 +634,11 @@
         "value": "forebrain",
         "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
+      },
+      {
+        "value": "middle frontal gyrus",
+        "description": "Component of the frontal lobe, lateral aspect",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       }
     ]
   },
@@ -910,6 +968,10 @@
         "value": "iPSC-derived neuron",
         "description": "",
         "source": "Sage Bionetworks"
+      },
+        "value": "CD138+",
+        "description": "",
+        "source": ""
       }
     ]
   },
@@ -998,11 +1060,6 @@
         "value": "Ovary Cancer",
         "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
-      },
-      {
-        "value": "Control",
-        "description": "The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0001461"
       },
       {
         "value": "Affective Disorder",
