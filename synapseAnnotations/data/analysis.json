@@ -337,7 +337,12 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "sequence alignment",
+        "value": "Variant calling",
+        "description": "Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+        "source": "http://edamontology.org/operation_3227"
+      },
+      {
+        "value": "Sequence alignment",
         "description": "Alignment of reads to a reference genome",
         "source": "http://edamontology.org/operation_0292"
       },
@@ -510,6 +515,11 @@
         "value":"comparison",
         "description":"The examination of two or more people or things in order to detect similarities and differences.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C49156"
+      },
+      {
+        "value": "data normalization",
+        "description": "",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015"
       }
     ]
   },
