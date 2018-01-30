@@ -657,27 +657,27 @@
     "enumValues": [
       {
         "value": "HiSeq2500",
-        "description": "Illumina HiSeq 2500 (Homo sapiens)",
+        "description": "Illumina HiSeq 2500",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
       },
       {
         "value": "HiSeq4000",
-        "description": "Illumina HiSeq 4000 (Homo sapiens)",
+        "description": "Illumina HiSeq 4000",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
       },
       {
         "value": "NextSeq500",
-        "description": "Illumina NextSeq 500 (Homo sapiens)",
+        "description": "Illumina NextSeq 500",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
       },
       {
         "value": "HiSeq2000",
-        "description": "Illumina HiSeq 2000 (Homo sapiens)",
+        "description": "Illumina HiSeq 2000",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
       },
       {
         "value": "MiSeq",
-        "description": "Illumina MiSeq (Homo sapiens)",
+        "description": "Illumina MiSeq",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
       },
       {
@@ -697,7 +697,7 @@
       },
       {
         "value": "PacBioRSII",
-        "description": "PacBio RS II (Homo sapiens)",
+        "description": "PacBio RS II",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
       },
       {
