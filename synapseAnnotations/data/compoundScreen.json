@@ -525,5 +525,5 @@
       "columnType": "STRING",
       "maximumSize": 250,
       "enumValues": []
-  },
+  }
   ]
