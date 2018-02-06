@@ -246,6 +246,11 @@
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
       },
       {
+        "value": "functional screen",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "ontology",
         "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
         "source": "http://edamontology.org/data_0582"
