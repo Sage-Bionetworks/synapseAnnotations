@@ -252,6 +252,16 @@
         "source": "http://edamontology.org/data_2600"
              },
       {
+        "value": "functional screen",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
+      },
+      {
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
@@ -338,6 +348,11 @@
         "value": "pathway or network",
         "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
         "source": "http://edamontology.org/data_2600"
+      },
+      {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
       }
     ]
   }
