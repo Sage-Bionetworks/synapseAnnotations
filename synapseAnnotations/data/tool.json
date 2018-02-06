@@ -257,6 +257,12 @@
         "source": "Sage Bionetworks"
       },
       {
+        "value": "gene list",
+        "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000118"
+
+      },
+      {
         "value": "ontology",
         "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
         "source": "http://edamontology.org/data_0582"
@@ -338,6 +344,11 @@
         "value": "protein-protein interaction network",
         "description": "A data set that represents a set of physical interactions between proteins",
         "source": "http://identifiers.org/mamo/MAMO_0000202"
+      },
+      {
+        "value": "gene list",
+        "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000118"
       },
       {
         "value": "imputed drug response",
