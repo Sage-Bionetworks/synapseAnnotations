@@ -244,7 +244,13 @@
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
+
       },
+      {
+        "value": "pathway or network",
+        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
+        "source": "http://edamontology.org/data_2600"
+             },
       {
         "value": "functional screen",
         "description": "",
@@ -337,6 +343,11 @@
         "value": "imputed drug response",
         "description": "Predicted response to a drug",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "pathway or network",
+        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
+        "source": "http://edamontology.org/data_2600"
       },
       {
         "value": "ontology",
