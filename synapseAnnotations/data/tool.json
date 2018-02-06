@@ -246,6 +246,11 @@
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
       },
       {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
+      },
+      {
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
@@ -325,8 +330,13 @@
       },
       {
         "value": "imputed drug response",
-        "description": "",
+        "description": "Predicted response to a drug",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "ontology",
+        "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+        "source": "http://edamontology.org/data_0582"
       }
     ]
   }
