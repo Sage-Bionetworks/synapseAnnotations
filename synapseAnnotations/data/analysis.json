@@ -6,7 +6,7 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "velvet",
+        "value": "Velvet",
         "description": "Velvet: An algorithm for de novo short read assembly using de Bruijn graphs",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2336801/"
       }
@@ -29,7 +29,7 @@
         "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161"
       },
       {
-        "value": "principal component analysis",
+        "value": "Principal Component Analysis",
         "description": "Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.",
         "source": "http://purl.bioontology.org/ontology/MESH/D025341"
       }
@@ -52,7 +52,7 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0200041"
       },
       {
-        "value": "WGCNA",
+        "value": "Weighted correlation network analysis",
         "description": "A data mining method typically used for studying biological networks based on pairwise correlations between variables.",
         "source": "http://edamontology.org/operation_3766"
       },
@@ -70,17 +70,17 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "varDict",
+        "value": "VarDict",
         "description": "A DNA and RNA seq variant caller in cancer research.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/27060149"
       },
       {
-        "value": "mutect",
+        "value": "MuTect",
         "description": "A method to detect DNA point mutations in heterogeneous and impure cancer samples.",
         "source": "https://www.nature.com/articles/nbt.2514"
       },
       {
-        "value": "varScan",
+        "value": "VarScan",
         "description": "A method to detect variants from short read DNA sequencing in individual and pooled samples.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/19542151"
       }
@@ -152,17 +152,17 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "WGCNA",
+        "value": "Weighted correlation network analysis",
         "description": "A data mining method typically used for studying biological networks based on pairwise correlations between variables.",
         "source": "http://edamontology.org/operation_3766"
       },
       {
-        "value": "sparrow",
+        "value": "SPARROW",
         "description": "Sparse conditional independence graph construction from gene expression data using a variational Bayes spike regression neighorhood selection method.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/?term=25583238"
       },
       {
-        "value": "lasso",
+        "value": "Lasso",
         "description": "Sparse conditional independence graph construction from gene expression data using an L1 penalized regression neighborhood selection method.",
         "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-384"
       },
@@ -172,27 +172,27 @@
         "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-384"
       },
       {
-        "value": "genie3",
+        "value": "GENIE3",
         "description": "Gene expression network reconstruction using random forests.",
         "source": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012776"
       },
       {
-        "value": "tigress",
+        "value": "TIGRESS",
         "description": "Gene expression network reconstruction using stability selection.",
         "source": "https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-6-145"
       },
       {
-        "value": "aracne",
+        "value": "ARACNE",
         "description": "Gene expression network reconstruction using mutual information.",
         "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-S1-S7"
       },
       {
-        "value": "mrnet",
+        "value": "MRNET",
         "description": "An information theoretic method to infer gene expression networks.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/18354736"
       },
       {
-        "value": "c3net",
+        "value": "C3NET",
         "description": "Method to infer causal relationships in gene expression networks with mutual information.",
         "source": "https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-4-132"
       },
@@ -225,7 +225,7 @@
         "source": "https://www.nature.com/articles/nmeth.4324"
       },
       {
-        "value": "cuffDiff",
+        "value": "Cuffdiff 2",
         "description": "Differential expression analysis of transcripts.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869392/"
       }
@@ -238,17 +238,17 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "BWA",
+        "value": "Burrows-Wheeler technique",
         "description": "Burrows Wheeler Alignment algorithm.",
         "source": "http://purl.obolibrary.org/obo/ERO_0100332"
       },
       {
-        "value": "bowtie",
+        "value": "Bowtie",
         "description": "A memory efficient short read alignment algorithm.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/19261174"
       },
       {
-        "value": "bowtie2",
+        "value": "Bowtie 2",
         "description": "A memory efficient short read alignment algorithm.",
         "source": "https://www.nature.com/articles/nmeth.1923"
       },
@@ -263,22 +263,22 @@
         "source": "https://academic.oup.com/bioinformatics/article/26/7/873/212606"
       },
       {
-        "value": "topHat",
+        "value": "TopHat",
         "description": "Method to align short read sequencing for outputs such as splice junction detection.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2672628/"
       },
       {
-        "value": "mosaic",
+        "value": "MOSAIC",
         "description": "Segmentation alignment method for DNA alignment.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/11238079"
       },
       {
-        "value": "novoAlign",
+        "value": "NovoAlign",
         "description": "Short read sequencing alignment method.",
         "source": "http://www.novocraft.com/products/novoalign/"
       },
       {
-        "value": "olego",
+        "value": "OLego",
         "description": "Alignment method to detect de novo mapping of spliced mRNA-Seq reads.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/23571760"
       }
@@ -291,7 +291,7 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "CRISPR-CAS9",
+        "value": "CRISPR-Cas9",
         "description": "Genome manipulation technique to incorporate or delete arbitrary sequence features into germline cells.",
         "source": "http://science.sciencemag.org/content/346/6213/1258096.full"
       },
@@ -314,7 +314,7 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "fishers exact test",
+        "value": "Fisher's exact test",
         "description": "Fisher's exact test is a data transformation used to determine if there are nonrandom associations between two Fisher's exact test is a statistical significance test used in the analysis of contingency tables where sample sizes are small where the significance of the deviation from a null hypothesis can be calculated exactly, rather than relying on an approximation that becomes exact in the limit as the sample size grows to infinity, as with many statistical tests.",
         "source": "http://purl.obolibrary.org/obo/OBI_0200176"
       },
@@ -357,12 +357,12 @@
         "source": "https://dx.doi.org/10.1534/genetics.115.185967"
       },
       {
-        "value": "polygenic risk score",
+        "value": "Polygenic Risk Scores",
         "description": "A sample level estimate of the genetic component of disease risk based on genome-wide association studies.",
         "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348"
       },
       {
-        "value": "enrichment analysis",
+        "value": "Enrichment analysis",
         "description": "Over-representation analysis.",
         "source": "http://edamontology.org/operation_3501"
       },
@@ -387,7 +387,7 @@
         "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79083"
       },
       {
-        "value": "covariate association",
+        "value": "covariate specification",
         "description": "A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",
         "source": "http://purl.obolibrary.org/obo/OBCS_0000040"
       },
@@ -417,17 +417,17 @@
         "source": "http://purl.bioontology.org/ontology/MESH/D025341"
       },
       {
-        "value": "genome wide association",
+        "value": "Genome-Wide Association",
         "description": "An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",
         "source": "http://purl.bioontology.org/ontology/MESH/D055106"
       },
       {
-        "value": "clustering",
+        "value": "Clustering",
         "description": "Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).",
         "source": "http://edamontology.org/operation_3432"
       },
       {
-        "value": "supervised learning",
+        "value": "Supervised Machine Learning",
         "description": "A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.",
         "source": "http://purl.bioontology.org/ontology/MESH/D000069553"
       },
@@ -437,12 +437,12 @@
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/16632515"
       },
       {
-        "value": "anova",
+        "value": "ANOVA",
         "description": "ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.",
         "source": "http://purl.obolibrary.org/obo/OBI_0200201"
       },
       {
-        "value": "variance partition",
+        "value": "variancePartition",
         "description": "Identification of percentage variance explained of a dependent variable by multiple classes of independent variables.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123296/"
       },
@@ -467,12 +467,12 @@
         "source": "http://purl.obolibrary.org/obo/OBCS_0000167"
       },
       {
-        "value": "copy number estimation",
+        "value": "Copy number estimation",
         "description": "Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.",
         "source": "http://edamontology.org/operation_3233"
       },
       {
-        "value": "gene expression profile comparison",
+        "value": "Gene expression comparison",
         "description": "Comparison of gene expression profiles.",
         "source": "http://edamontology.org/operation_0315"
       },
