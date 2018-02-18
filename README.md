@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations.svg?branch=master)](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations)
 
-> Use our [Annotation UI](shiny.synapse.org/users/nsanati/annotationUI/) application to easily view and search our existing annotation definitions:
+> Use our [Annotation UI](https://shiny.synapse.org/users/nsanati/annotationUI/) application to easily view and search our existing annotation definitions:
 >
 
 # Introduction
