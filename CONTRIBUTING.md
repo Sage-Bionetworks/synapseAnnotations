@@ -22,7 +22,7 @@ In some situations (e.g. drug names), terms are not always well-captured by the 
 
 ### Contribution of drug terms
 
-The preferred first-pass strategy for chemical name annotation is to search the EMBL-EBI ontology lookup service to find names, descriptions, and sources. Typically, the NCI Thesaurus will provide a suitable description for drugs and other biologically active molecules. In situations where the query molecule is not found in [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols), [MeSH](https://meshb.nlm.nih.gov/) is a helpful secondary location to find chemical descriptions.
+The preferred first-pass strategy for chemical name annotation is to search the EMBL-EBI ontology lookup service to find names, descriptions, and sources. Typically, the NCI Thesaurus will provide a suitable description for drugs and other biologically active molecules. In situations where the query molecule is not found in [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols), a helpful secondary location to find chemical descriptions is [MeSH](https://meshb.nlm.nih.gov/).
 
 Example: 
 
