@@ -180,6 +180,16 @@
         "value": "questionnaire",
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+      },
+      {
+        "value": "novelObjectRecognition",
+        "description": "A commonly used behavioral assay for the investigation of various aspects of learning and memory in mice.",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28892027"
+      },
+      {
+        "value": "activePlaceAvoidance",
+        "description": "The active place avoidance task is a dry-arena task used to assess spatial navigation and memory in rodents.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4582953/"
       }
     ]
   },
