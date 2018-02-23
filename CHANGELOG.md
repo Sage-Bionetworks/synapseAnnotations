@@ -1,5 +1,16 @@
 # Change Log
 
+## [v8.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v8.0.0) (2018-02-23)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v7.0.0...v8.0.0)
+
+**Implemented enhancements:**
+
+- updated analysis annotations [\#321](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/321) ([blogsdon](https://github.com/blogsdon))
+
+**Merged pull requests:**
+
+- Develop [\#345](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/345) ([kdaily](https://github.com/kdaily))
+
 ## [v7.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v7.0.0) (2018-02-23)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v6.1.1...v7.0.0)
 
