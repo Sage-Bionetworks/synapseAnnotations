@@ -1,5 +1,69 @@
 # Change Log
 
+## [Unreleased](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/HEAD)
+
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v6.1.1...HEAD)
+
+**Implemented enhancements:**
+
+- create a CONTRIBUTING.md [\#290](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/290)
+- clarify capitalization/style guide for keys and values [\#206](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/206)
+- Contributing [\#313](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/313) ([kdaily](https://github.com/kdaily))
+- Added analysisType - DNAmethylationImputation [\#238](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/238) ([amapeters](https://github.com/amapeters))
+- Added tissues [\#208](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/208) ([amapeters](https://github.com/amapeters))
+
+**Closed issues:**
+
+- analysisType - ancestry [\#309](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/309)
+- Programmatic access to json [\#288](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/288)
+- What are global terms for file formats in bioinformatics workflows - revisit fileFormat  [\#286](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/286)
+- analysisType - GOenrichment [\#276](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/276)
+- analysisType - polygenic score [\#273](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/273)
+- need additional fileFormat values for imputed genotypes [\#264](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/264)
+- Hi-C resolution  [\#191](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/191)
+- dependencies of values between keys [\#160](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/160)
+- Add use case for copying annotations from one project to another [\#140](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/140)
+- Add use case for uploading and annotating a new project [\#139](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/139)
+- Add use case to create annotations [\#138](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/138)
+- Clarify description of "organ" key term. [\#119](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/119)
+- Make 'targetedGeneSequencing' assay description/source more generic. [\#117](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/117)
+- Solution for handling multiple samples/values in annotation [\#107](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/107)
+- Create tool/workflow annotations [\#83](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/83)
+- Brain region complexities [\#64](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/64)
+
+**Merged pull requests:**
+
+- Update platform values' description [\#329](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/329) ([xindiguo](https://github.com/xindiguo))
+- Develop [\#323](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/323) ([xindiguo](https://github.com/xindiguo))
+- add compoundDoseRange [\#322](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/322) ([allaway](https://github.com/allaway))
+- Update experimentalData.json [\#320](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/320) ([kdaily](https://github.com/kdaily))
+- added variant detection [\#319](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/319) ([sgosline](https://github.com/sgosline))
+- Update experimentalData.json [\#318](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/318) ([kdaily](https://github.com/kdaily))
+- added sequence alignment [\#317](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/317) ([sgosline](https://github.com/sgosline))
+- added - assay value "NOMeSeq' [\#316](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/316) ([amapeters](https://github.com/amapeters))
+- Updated analysis annotations [\#315](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/315) ([sgosline](https://github.com/sgosline))
+- added descriptions, and info on organization. [\#314](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/314) ([kdaily](https://github.com/kdaily))
+- added clozapine to treatmentType [\#312](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/312) ([philerooski](https://github.com/philerooski))
+- added new software types [\#311](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/311) ([sgosline](https://github.com/sgosline))
+- changed spelling of alignment method description [\#310](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/310) ([teslajoy](https://github.com/teslajoy))
+- Added new study [\#307](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/307) ([amapeters](https://github.com/amapeters))
+- v6.1.1 changelog [\#306](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/306) ([teslajoy](https://github.com/teslajoy))
+- added fileFormat - Sentrix descriptor file [\#303](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/303) ([ychae](https://github.com/ychae))
+- changed experimental data - key targetedGeneSeq [\#300](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/300) ([kkdang](https://github.com/kkdang))
+- changed annotationVersion [\#299](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/299) ([teslajoy](https://github.com/teslajoy))
+- useful keywords to close issues [\#298](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/298) ([teslajoy](https://github.com/teslajoy))
+- Added assay-immunohistochemistry [\#293](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/293) ([amapeters](https://github.com/amapeters))
+- added fileFormat - Python script [\#282](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/282) ([ychae](https://github.com/ychae))
+- analysisType - enrichmentAnalysis [\#281](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/281) ([amapeters](https://github.com/amapeters))
+- add in polygenicRiskScores as an analysisType [\#280](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/280) ([blogsdon](https://github.com/blogsdon))
+- added assay - LC-MS [\#279](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/279) ([amapeters](https://github.com/amapeters))
+- Added isConsortiumAnalysis key [\#275](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/275) ([amapeters](https://github.com/amapeters))
+- Update experimentalData.json [\#269](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/269) ([kdaily](https://github.com/kdaily))
+- added cellType monocyte-derived microglia [\#263](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/263) ([kdaily](https://github.com/kdaily))
+- add iPSC-derived neuronal progenitor cell [\#262](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/262) ([kdaily](https://github.com/kdaily))
+- add iPSC-derived neuron [\#261](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/261) ([kdaily](https://github.com/kdaily))
+- Update neuro.json [\#247](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/247) ([kdaily](https://github.com/kdaily))
+
 ## [v6.1.1](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v6.1.1) (2017-12-19)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v6.0.0...v6.1.1)
 
