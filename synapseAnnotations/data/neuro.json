@@ -7,9 +7,11 @@
     "enumValues": []
   }, 
   {
-     "name": "isConsortiumAnalysis", 
-     "description": "Collaborative consortium analysis", 
-     "columnType": "BOOLEAN"
+    "name": "isConsortiumAnalysis",
+    "description": "Collaborative consortium analysis",
+    "columnType": "BOOLEAN",
+    "maximumSize": 250,
+    "enumValues": []
   }, 
   {
     "name": "group", 
