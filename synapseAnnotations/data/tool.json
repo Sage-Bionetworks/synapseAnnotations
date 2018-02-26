@@ -250,7 +250,7 @@
         "value": "pathway or network",
         "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
         "source": "http://edamontology.org/data_2600"
-             },
+      },
       {
         "value": "functional screen",
         "description": "",
@@ -276,6 +276,11 @@
         "value": "protein-protein interaction network",
         "description": "A data set that represents a set of physical interactions between proteins",
         "source": "http://identifiers.org/mamo/MAMO_0000202"
+      },    
+      {
+        "value": "SMILES",
+        "description": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
+        "http://purl.obolibrary.org/obo/NCIT_C54684"
       }
     ]
   },
@@ -364,6 +369,11 @@
         "value": "ontology",
         "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
         "source": "http://edamontology.org/data_0582"
+      },
+      {
+        "value": "small molecule",
+        "description": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
+        "http://www.bioassayontology.org/bao#BAO_0000176"
       }
     ]
   }
