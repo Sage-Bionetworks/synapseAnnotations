@@ -429,6 +429,16 @@
         "value": "xml",
         "description": "eXtensible Markup Language (XML) format.",
         "source": "http://edamontology.org/format_2332"
+      },
+      {
+        "value": "sdf",
+        "description": "SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.",
+        "source": "http://edamontology.org/format_3814"
+      },
+      {
+        "value": "RData",
+        "description": "The RData format (usually with extension .rdata or .rda) is a format designed for use with R, a system for statistical computation and related graphics, for storing a complete R workspace or selected 'objects' from a workspace in a form that can be loaded back by R.",
+        "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml"
       }
     ]
   }
