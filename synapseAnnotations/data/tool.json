@@ -280,7 +280,7 @@
       {
         "value": "SMILES",
         "description": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
-        "http://purl.obolibrary.org/obo/NCIT_C54684"
+        "source": "http://purl.obolibrary.org/obo/NCIT_C54684"
       }
     ]
   },
@@ -373,7 +373,7 @@
       {
         "value": "small molecule",
         "description": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
-        "http://www.bioassayontology.org/bao#BAO_0000176"
+        "source": "http://www.bioassayontology.org/bao#BAO_0000176"
       }
     ]
   }
