@@ -3,7 +3,8 @@
     "name": "chemicalDatabase", 
     "description": "The chemical database from which the data were obtained.", 
     "columnType": "STRING", 
-    "maximumSize": 50
+    "maximumSize": 50,
+    "enumValues": []
   },
   {
     "name": "chemicalDataType", 
