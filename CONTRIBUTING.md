@@ -16,6 +16,42 @@ If you are proposing a new term, then we require a source for the definition. Th
 1. If you are a Sage Bionetworks employee and cannot find a source URL, then use "Sage Bionetworks" as the `source` and your own definition.
 2. If you are not (nor are you working with a Sage Bionetworks supported community) it is up to you for a strategy for controlling new terms to be added.
 
+## Guidelines for specific term types 
+
+In some situations (e.g. drug names), terms are not always well-captured by the ontologies found in the Ontology Lookup Service. We've defined some best practices for contributing these terms here.
+
+### Contribution of drug terms
+
+The preferred first-pass strategy for chemical name annotation is to search the EMBL-EBI ontology lookup service to find names, descriptions, and sources. Typically, the NCI Thesaurus will provide a suitable description for drugs and other biologically active molecules. In situations where the query molecule is not found in [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols), a helpful secondary location to find chemical descriptions is [MeSH](https://meshb.nlm.nih.gov/).
+
+Example: 
+
+```
+{
+        "value": "DEFACTINIB",
+        "description": "An orally bioavailable, small-molecule focal adhesion kinase (FAK) inhibitor with potential antiangiogenic and antineoplastic activities.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C79809"
+},
+```
+
+In situations where novel molecules (such as newly-synthesized research compounds or proprietary pharmaceutical molecules) require annotation, the only suitable description and source might be the paper describing the synthesis or discovery, or information from the pharmaceutical company that created the identifier. 
+
+Example:
+
+```
+{
+        "value": "IPC-12345",
+        "description": "An small-molecule target of importance 4 (TOI4) inhibitor with potential antineoplastic activities.",
+        "source": "Important Pharma Company"
+},
+{
+        "value": "BestChemist-00913",
+        "description": "An investigational small molecule discovered by Best Chemist et al.",
+        "source": "PubMed Link Goes Here"
+},
+```
+
+
 ## Contribution procedure
 
 Again, this is focused on Sage Bionetworks supported communities and employees. This focuses on the logistical components to contributing - for the technical components, please see the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document.
