@@ -12,7 +12,7 @@
       },
       {
         "value" : "genetic interaction",
-        "description" : "Two genes A and B "genetically interact" when the phenotype generated as the result of variations in both genes (double variant ab) is unexpectedly not just a combination of the phenotypes of the two single variants a and b.",
+        "description" : "Two genes A and B `genetically interact` when the phenotype generated as the result of variations in both genes (double variant ab) is unexpectedly not just a combination of the phenotypes of the two single variants a and b.",
         "source" : "http://purl.obolibrary.org/obo/VariO_0237"
        },
        {
@@ -21,4 +21,5 @@
          "source" : "http://edamontology.org/operation_3463"
         }
     ]
- }]
+ }
+]
