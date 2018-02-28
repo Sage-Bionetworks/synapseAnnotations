@@ -250,7 +250,7 @@
         "value": "Network",
         "description": "An interconnected system of things or people.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C61377"
-             },
+      },
       {
         "value": "functional screen",
         "description": "",
@@ -335,12 +335,12 @@
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       },
-         {
+      {
         "value": "Network",
         "description": "An interconnected system of things or people.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C61377"
-             }
-      ,{
+      },
+      {
         "value": "gene list",
         "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
         "source": "http://purl.obolibrary.org/obo/OBI_0000118"
