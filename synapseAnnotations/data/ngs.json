@@ -108,7 +108,15 @@
         "value": "miRNAenrichment",
         "description": "",
         "source": ""
-      },
+      }
+   ]
+  },
+  {
+    "name": "libraryPrepMethod",
+    "description": " method by which library was prepared"
+    "columnType":"STRING",
+    "maximumSize": 256,
+    "enumValues" : [
       {
         "value" : "10x",
         "description" : "",
@@ -130,11 +138,10 @@
         "source" : ""
       }
      ,{
-        "value" : "Tru-Seq",
+        "value" : "TruSeq",
         "description" : "",
         "source" : ""
       }
-      
     ]
   },
   {
@@ -166,6 +173,63 @@
   {
        "name" :"mitochondria",
    "description" : "",
+      "source" : ""
+  }
+  ]
+  },
+{
+  "name":"dissociationMethod",
+  "description":"",
+  "columnType": "STRING",
+  "maximumSize": 256,
+  "enumValues":[
+    {         
+      "name":"10x_v2", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+       "name":"FACS", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+        "name":"Fluidigm C1", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+         "name":"drop-seq", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+      "name":"inDrop", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+      "name":"mouth pipette", 
+         "description" : "",
+      "source" : ""
+  },
+    {
+      "name":"bulk",
+         "description" : "",
+      "source" : ""
+  },
+    {           
+      "name":"enzymatic",
+         "description" : "",
+      "source" : ""
+  },
+    {
+      "name:"mechanical",
+         "description" : "",
+      "source" : ""
+  },
+     "name":"none",
+       "description" : "",
       "source" : ""
   }
   ]
