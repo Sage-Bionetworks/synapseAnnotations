@@ -113,7 +113,7 @@
   },
   {
     "name": "libraryPrepMethod",
-    "description": " method by which library was prepared"
+    "description": " method by which library was prepared",
     "columnType":"STRING",
     "maximumSize": 256,
     "enumValues" : [
