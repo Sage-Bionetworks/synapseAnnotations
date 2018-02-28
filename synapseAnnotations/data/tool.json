@@ -354,7 +354,7 @@
         "value": "imputed drug response",
         "description": "Predicted response to a drug",
         "source": "Sage Bionetworks"
-      }
+      },
       {
         "value": "ontology",
         "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
