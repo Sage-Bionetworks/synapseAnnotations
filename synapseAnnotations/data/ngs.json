@@ -164,11 +164,10 @@
       "source" : ""
   },
   {
-       "name" :"mitochondria"
+       "name" :"mitochondria",
    "description" : "",
       "source" : ""
   }
   ]
-},
-{
+}
 ]
