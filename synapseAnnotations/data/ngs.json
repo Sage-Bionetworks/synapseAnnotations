@@ -136,9 +136,9 @@
       }
       
     ]
-  }
+  },
   {
-     "name" : "nucleicAcidSource"
+     "name" : "nucleicAcidSource",
      "description" : "",
      "columnType" : "STRING",
      "maximumSize" : 256,
