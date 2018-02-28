@@ -1,7 +1,7 @@
 [
   {
     "name" : "networkEdgeType",
-    "description" : "",
+    "description" : "Method used to derive the edge in a network",
     "columnType" : "STRING",
     "maximumSize" : 256,
     "enumValues": [
