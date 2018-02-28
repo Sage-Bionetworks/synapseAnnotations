@@ -247,9 +247,9 @@
 
       },
       {
-        "value": "pathway or network",
-        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
-        "source": "http://edamontology.org/data_2600"
+        "value": "Network",
+        "description": "An interconnected system of things or people.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C61377"
              },
       {
         "value": "functional screen",
@@ -271,11 +271,6 @@
         "value": "surveyData",
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
-      },
-      {
-        "value": "protein-protein interaction network",
-        "description": "A data set that represents a set of physical interactions between proteins",
-        "source": "http://identifiers.org/mamo/MAMO_0000202"
       }
     ]
   },
@@ -340,12 +335,12 @@
         "description": "A data set that contains the outcome of a survey.",
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       },
-      {
-        "value": "protein-protein interaction network",
-        "description": "A data set that represents a set of physical interactions between proteins",
-        "source": "http://identifiers.org/mamo/MAMO_0000202"
-      },
-      {
+         {
+        "value": "Network",
+        "description": "An interconnected system of things or people.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C61377"
+             }
+      ,{
         "value": "gene list",
         "description": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
         "source": "http://purl.obolibrary.org/obo/OBI_0000118"
@@ -354,12 +349,7 @@
         "value": "imputed drug response",
         "description": "Predicted response to a drug",
         "source": "Sage Bionetworks"
-      },
-      {
-        "value": "pathway or network",
-        "description": "Primary data about a specific biological pathway or network (the nodes and connections within the pathway or network).",
-        "source": "http://edamontology.org/data_2600"
-      },
+      }
       {
         "value": "ontology",
         "description": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
