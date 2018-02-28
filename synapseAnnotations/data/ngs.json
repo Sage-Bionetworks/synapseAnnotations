@@ -108,7 +108,67 @@
         "value": "miRNAenrichment",
         "description": "",
         "source": ""
+      },
+      {
+        "value" : "10x",
+        "description" : "",
+        "source" : ""
+      },
+      {
+        "value" : "CEL-seq",
+        "description" : "",
+        "source" : ""
+      },
+      {
+        "value" : "Drop-Seq",
+        "description" : "",
+        "source" : ""
       }
+    ,{
+        "value" : "Smart-seq2",
+        "description" : "",
+        "source" : ""
+      }
+     ,{
+        "value" : "Tru-Seq",
+        "description" : "",
+        "source" : ""
+      }
+      
     ]
   }
+  {
+     "name" : "nucleicAcidSource"
+     "description" : "",
+     "columnType" : "STRING",
+     "maximumSize" : 256,
+     "enumValues" : [
+  {
+      "name" : "bulk cell",
+      "description" : "",
+      "source" : ""
+  },
+  {
+       "name" :"single cell",
+        "description" : "",
+      "source" : ""
+  },
+  {
+      "name": "bulk nuclei",
+       "description" : "",
+      "source" : ""
+  },
+  {
+       "name" :"single nucleus",
+       "description" : "",
+      "source" : ""
+  },
+  {
+       "name" :"mitochondria"
+   "description" : "",
+      "source" : ""
+  }
+  ]
+},
+{
 ]
