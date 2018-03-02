@@ -11,6 +11,11 @@
               "source": "Sage Bionetworks"
           },
           {
+              "value": "curatedData",
+              "description": "Any file derived from or pertaining a manually or programatically curated data resource. Examples include: reference sequences, drug information databases, identifier maps",
+              "source": "Sage Bionetworks"
+          },
+          {
               "value": "analysis",
               "description": "Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",
               "source": "Sage Bionetworks"
