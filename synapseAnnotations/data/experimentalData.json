@@ -351,9 +351,9 @@
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       },
       {
-        "value": "protein-protein interaction network",
-        "description": "A data set that represents a set of physical interactions between proteins",
-        "source": "http://identifiers.org/mamo/MAMO_0000202"
+        "value": "network",
+        "description":"An interconnected system of things or people.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
       }
     ]
   },
