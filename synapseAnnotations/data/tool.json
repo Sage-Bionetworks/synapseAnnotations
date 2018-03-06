@@ -55,6 +55,11 @@
         "value": "web user interface",
         "description":"A Web User interface is a Graphical User Interface which is loaded and run via a Web browser rather than within the user's operating system.",
         "source":"https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Finterface%2FSWO_5000002"
+      },
+      {
+        "value" : "web application",
+        "description" : "A piece of software that operates primarily through a stand-alone web interaface.",
+        "source" : "Sage Bionetworks"
       }
     ]
   },
