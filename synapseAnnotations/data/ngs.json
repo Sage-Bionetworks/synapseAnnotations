@@ -7,19 +7,19 @@
     "enumValues": [
       {
         "value": "singleEnd",
-        "description": "",
-        "source": ""
+        "description": "A library preparation that results in the creation of a library of 5' ends of DNA.",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "pairedEnd",
-        "description": "",
-        "source": ""
+        "description": "A library preparation that results in the creation of a library of the 5' and 3' ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0001852"
       }
     ]
   },
   {
     "name": "isStranded",
-    "description": "",
+    "description": "Whether or not the library is stranded.",
     "columnType": "BOOLEAN",
     "maximumSize": 250,
     "enumValues": [
@@ -43,104 +43,104 @@
     "enumValues": [
       {
         "value": "inward",
-        "description": "reads face each other",
-        "source": ""
+        "description": "Reads face each other",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "outward",
-        "description": "reads face away from each other",
-        "source": ""
+        "description": "Reads face away from each other",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "matching",
-        "description": "reads face the same direction",
-        "source": ""
+        "description": "Reads face the same direction",
+        "source": "Sage Bionetworks"
       }
     ]
   },
   {
     "name": "readStrandOrigin",
-    "description": "the strand from which the read originates in a strand-specific protocol",
+    "description": "The strand from which the read originates in a strand-specific protocol",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "forward",
-        "description": "read 1 (or unpaired read) comes from the forward strand and read 2 (if applicable) comes from the reverse strand; equivalent to Tophat 'fr-secondstrand' type",
-        "source": ""
+        "description": "Read 1 (or unpaired read) comes from the forward strand and read 2 (if applicable) comes from the reverse strand; equivalent to Tophat 'fr-secondstrand' type",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "reverse",
         "description": "read 1 (or unpaired read) comes from the reverse strand and read 2 (if applicable) comes from the forward strand; equivalent to Tophat 'fr-firststrand' type",
-        "source": ""
+        "source": "Sage Bionetworks"
       }
     ]
   },
   {
     "name": "readLength",
-    "description": "",
+    "description": "The length of thre read",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
   },
   {
     "name": "libraryPrep",
-    "description": "",
+    "description": "The general strategy by which the library was prepared",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
       {
         "value": "rRNAdepletion",
-        "description": "",
-        "source": ""
+        "description": "Total RNA library with ribosomal RNA depleted.",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "polyAselection",
-        "description": "",
-        "source": ""
+        "description": "RNA selection by polyA tail capture",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "lncRNAenrichment",
-        "description": "",
-        "source": ""
+        "description": "RNA library enriched for lncRNA",
+        "source": "Sage Bionetworks"
       },
       {
         "value": "miRNAenrichment",
-        "description": "",
-        "source": ""
+        "description": "RNA library with size selection for microRNAs",
+        "source": "Sage Bionetworks"
       }
    ]
   },
   {
     "name": "libraryPrepMethod",
-    "description": " method by which library was prepared",
+    "description": "Method by which library was prepared",
     "columnType":"STRING",
     "maximumSize": 256,
     "enumValues" : [
       {
         "value" : "10x",
-        "description" : "",
-        "source" : ""
+        "description" : "10x Genomics library preparation",
+        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       },
       {
         "value" : "CEL-seq",
-        "description" : "",
-        "source" : ""
+        "description" : "CEL-Seq library preparation",
+        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       },
       {
         "value" : "Drop-Seq",
-        "description" : "",
-        "source" : ""
+        "description" : "Drop-Seq library preparation",
+        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
     ,{
         "value" : "Smart-seq2",
-        "description" : "",
-        "source" : ""
+        "description" : "Smart-seq 2 library preparation",
+        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
      ,{
         "value" : "TruSeq",
-        "description" : "",
-        "source" : ""
+        "description" : "TruSeq library preparation",
+        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
     ]
   },
@@ -152,28 +152,28 @@
      "enumValues" : [
   {
       "name" : "bulk cell",
-      "description" : "",
-      "source" : ""
+      "description" : "All cells from bulk sample",
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
        "name" :"single cell",
-        "description" : "",
-      "source" : ""
+        "description" : "Single cell",
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
       "name": "bulk nuclei",
-       "description" : "",
-      "source" : ""
+       "description" : "All nuclei from bulk sample",
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
        "name" :"single nucleus",
-       "description" : "",
-      "source" : ""
+       "description" : "Single nuclei",
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
        "name" :"mitochondria",
-   "description" : "",
-      "source" : ""
+   "description" : "Mitochondria only",
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
   ]
   },
@@ -186,52 +186,52 @@
     {         
       "name":"10x_v2", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
        "name":"FACS", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
         "name":"Fluidigm C1", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
          "name":"drop-seq", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
       "name":"inDrop", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
       "name":"mouth pipette", 
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
       "name":"bulk",
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {           
       "name":"enzymatic",
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
       "name":"mechanical",
          "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
     },
     {
      "name":"none",
        "description" : "",
-      "source" : ""
+      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
   ]
 }
