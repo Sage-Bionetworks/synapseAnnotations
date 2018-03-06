@@ -37,7 +37,7 @@
   },
   {
     "name": "readPairOrientation",
-    "description": "the relative orientation of the reads in a paired-end protocol",
+    "description": "The relative orientation of the reads in a paired-end protocol",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
@@ -118,120 +118,120 @@
     "maximumSize": 256,
     "enumValues" : [
       {
-        "value" : "10x",
-        "description" : "10x Genomics library preparation",
-        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "10x",
+        "description": "10x Genomics library preparation",
+        "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       },
       {
-        "value" : "CEL-seq",
-        "description" : "CEL-Seq library preparation",
-        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "CEL-seq",
+        "description": "CEL-Seq library preparation",
+        "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       },
       {
-        "value" : "Drop-Seq",
-        "description" : "Drop-Seq library preparation",
-        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "Drop-Seq",
+        "description": "Drop-Seq library preparation",
+        "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
     ,{
-        "value" : "Smart-seq2",
-        "description" : "Smart-seq 2 library preparation",
-        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "Smart-seq2",
+        "description": "Smart-seq 2 library preparation",
+        "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
      ,{
-        "value" : "TruSeq",
-        "description" : "TruSeq library preparation",
-        "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "TruSeq",
+        "description": "TruSeq library preparation",
+        "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
       }
     ]
   },
   {
-     "name" : "nucleicAcidSource",
-     "description" : "",
-     "columnType" : "STRING",
-     "maximumSize" : 256,
-     "enumValues" : [
+     "name": "nucleicAcidSource",
+     "description": "",
+     "columnType": "STRING",
+     "maximumSize": 256,
+     "enumValues": [
   {
-      "name" : "bulk cell",
-      "description" : "All cells from bulk sample",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "bulk cell",
+      "description": "All cells from bulk sample",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name" :"single cell",
-        "description" : "Single cell",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+       "name":"single cell",
+        "description": "Single cell",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
       "name": "bulk nuclei",
-       "description" : "All nuclei from bulk sample",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+       "description": "All nuclei from bulk sample",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name" :"single nucleus",
-       "description" : "Single nuclei",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+       "name": "single nucleus",
+       "description": "Single nuclei",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name" :"mitochondria",
-   "description" : "Mitochondria only",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+       "name":"mitochondria",
+   "description": "Mitochondria only",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
   ]
   },
 {
-  "name":"dissociationMethod",
-  "description":"",
+  "name": "dissociationMethod",
+  "description": "",
   "columnType": "STRING",
   "maximumSize": 256,
-  "enumValues":[
+  "enumValues": [
     {         
-      "name":"10x_v2", 
+      "name":" 10x_v2", 
          "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
        "name":"FACS", 
          "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-        "name":"Fluidigm C1", 
+        "name": "Fluidigm C1", 
          "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-         "name":"drop-seq", 
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+         "name": "drop-seq", 
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name":"inDrop", 
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "inDrop", 
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name":"mouth pipette", 
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "mouth pipette", 
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name":"bulk",
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "bulk",
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {           
-      "name":"enzymatic",
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "enzymatic",
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name":"mechanical",
-         "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      "name": "mechanical",
+         "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
     },
     {
-     "name":"none",
-       "description" : "",
-      "source" : "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+     "name": "none",
+       "description": "",
+      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
   ]
 }
