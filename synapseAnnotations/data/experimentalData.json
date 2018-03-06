@@ -182,14 +182,14 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
       },
       {
-        "value": "novel object recognition test",
-        "description": "A commonly used behavioral assay for the investigation of various aspects of learning and memory in mice.",
-        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28892027"
+        "value": "novelty response behavior",
+        "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000086"
       },
       {
-        "value": "active place avoidance task",
-        "description": "The active place avoidance task is a dry-arena task used to assess spatial navigation and memory in rodents.",
-        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4582953/"
+        "value": "active avoidance learning behavior",
+        "description": "Avoidance learning when the action occurs.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       }
     ]
   },
