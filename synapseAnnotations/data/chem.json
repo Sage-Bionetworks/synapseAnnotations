@@ -66,7 +66,7 @@
         "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
       },
       {
-        "value": "klekota and roth", 
+        "value": "kr", 
         "description": "4860 bit fingerprint defined by Klekota and Roth.", 
         "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
       },
@@ -94,7 +94,7 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C54683"
       },
       {
-        "value": "sdf",
+        "value": "SDF",
         "description": "SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.",
         "source": "http://edamontology.org/format_3814"
       }
