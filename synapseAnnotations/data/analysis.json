@@ -146,7 +146,7 @@
       {
         "value": "bedtools multicov",
         "description": "Reports the count of alignments from multiple position-sorted and indexed BAM files that overlap intervals in a BED file.",
-        "source": "http://bedtools.readthedocs.io/en/latest/content/tools/multicov.html
+        "source": "http://bedtools.readthedocs.io/en/latest/content/tools/multicov.html"
       }
     ]
   },
