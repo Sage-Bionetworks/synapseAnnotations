@@ -99,5 +99,12 @@
         "source": "http://edamontology.org/format_3814"
       }
     ]
+  },
+  {
+    "name": "chemicalStructure", 
+    "description": "A linear representation of the chemical structure (SMILES, SMARTS, InChI, InChIKey, etc). Note the format using structureFormat.", 
+    "columnType": "STRING", 
+    "maximumSize": 250,
+    "enumValues": []
   }
 ]
