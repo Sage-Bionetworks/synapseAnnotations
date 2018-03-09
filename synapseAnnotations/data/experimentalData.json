@@ -993,6 +993,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Bladder Cancer",
+        "description": "A malignancy originating in tissues of the urinary bladder.",
+        "source":"http://identifiers.org/omim/109800"
+      },
+      {
+        "value":"Leukemia",
+        "description": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C3161"
+      },
+      {
         "value": "Tourette Syndrome",
         "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
         "source": "http://identifiers.org/omim/137580"
