@@ -260,6 +260,16 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "T Acute Lymphoblastic Leukemia",
+        "description": "Acute lymphoblastic leukemia of T-cell origin. It comprises about 15% of childhood cases and 25% of adult cases. ",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C3183"
+      },
+      {
+        "value": "Acute Myeloid Leukemia",
+        "description":"A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C3171"
       }
     ]
   }
