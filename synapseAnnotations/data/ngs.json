@@ -112,7 +112,7 @@
    ]
   },
   {
-    "name": "libraryPrepMethod",
+    "name": "libraryPreparationMethod",
     "description": "Method by which library was prepared",
     "columnType":"STRING",
     "maximumSize": 256,
