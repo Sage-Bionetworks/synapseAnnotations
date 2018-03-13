@@ -277,8 +277,8 @@
       },
       {
         "value": "plink",
-        "description": "Any Plink file format (MAP/PED/BED)",
-        "source": ""
+        "description": "Any Plink file format (MAP/PED/BED/BIM/FAM)",
+        "source": "https://www.cog-genomics.org/plink2/formats"
       },
       {
         "value": "bigwig",
