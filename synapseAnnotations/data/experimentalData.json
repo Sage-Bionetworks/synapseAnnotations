@@ -1091,6 +1091,11 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "Cervical Cancer",
+        "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
+        "source":"http://identifiers.org/omim/603956"
       }
     ]
   },
