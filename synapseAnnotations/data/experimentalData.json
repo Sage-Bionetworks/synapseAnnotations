@@ -279,7 +279,7 @@
       }
     ]
   },
-     {
+  {
     "name": "dataType",
     "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
