@@ -97,11 +97,6 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002039"
       },
       {
-        "value": "NOMeSeq",
-        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing",
-        "source": ""
-      },
-      {
         "value": "HI-C",
         "description": "Chromatin interactions detected by HI-C protocol",
         "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
@@ -289,7 +284,7 @@
       }
     ]
   },
-     {
+  {
     "name": "dataType",
     "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
