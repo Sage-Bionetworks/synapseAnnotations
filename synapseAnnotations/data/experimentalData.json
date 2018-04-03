@@ -175,6 +175,16 @@
         "value": "questionnaire",
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+      },
+      {
+        "value": "novelty response behavior",
+        "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000086"
+      },
+      {
+        "value": "active avoidance learning behavior",
+        "description": "Avoidance learning when the action occurs.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       }
     ]
   },
