@@ -1,0 +1,65 @@
+{
+    "$schema": "",
+    "id": "",
+    "description": "A sample entity contains information about biological material that was generated/used in the project and includes everything from a whole organism down to subcellular components.",
+    "additionalProperties": false,
+    "required": [
+        "specimenID",
+        "species"
+    ],
+    "title": "sample",
+    "type": "object",
+    "properties": {
+        "describedBy": {
+            "description": "The URL reference to the schema.",
+            "type": "string",
+            "pattern" : ""
+        },
+        "schema_version": {
+            "description": "The version number of the schema in major.minor.patch format.",
+            "type": "string",
+            "pattern": "^[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$",
+            "example": "4.6.1"
+        },
+        "specimenID":{
+            "description": "A unique ID for this sample.",
+            "type": "string",
+            "user_friendly": "Specimen ID"
+        },
+        "specimenName": {
+            "description": "A short, descriptive name for the sample that need not be unique.",
+            "type": "string",
+            "user_friendly": "Biomaterial name"
+        },
+        "specimenDescription": {
+            "description": "A general description of the biomaterial.",
+            "type": "string",
+            "user_friendly": "Biomaterial description"
+        },
+        "species" : {
+            "description": "A species name from MESH, can be multiple.",
+            "type" : "array",
+            "items":{
+                "type": "integer"
+            },
+            "user_friendly": "species name"
+        },
+        "has_input_specimen": {
+            "description": "If this specimen is derived from another specimen, enter the specimenID for the specimen it was derived from.",
+            "type": "string",
+            "comment": "This field is primarily required for spreadsheet-based submissions.",
+            "user_friendly": "Input specimen ID"
+        },
+        "genotype": {
+            "description": "Genotype of biomaterial including strain, cross, and genetic modification information.",
+            "type": "string",
+            "user_friendly": "Genotype"
+        },
+        "biosd_biomaterial": {
+            "description": "A DDBJ, NCBI, or EBI BioSample ID. Accessions must start with SAMD, SAMN, or SAME.",
+            "type": "string",
+            "pattern": "^SAM(D|N|E([AG]?))[0-9]+$",
+            "user_friendly": "BioSample ID"
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "$schema": "",
+    "id": "",
+    "description": "A study contains all the necessary information to describe a set of data or project.",
+    "additionalProperties": false,
+    "required": [
+        "studyName",
+        "fundingAgency",
+    ],
+    "title": "study",
+    "type": "object",
+    "properties": {
+        "describedBy": {
+            "description": "The URL reference to the schema.",
+            "type": "string",
+            "pattern" : ""
+        },
+        "schema_version": {
+            "description": "The version number of the schema in major.minor.patch format.",
+            "type": "string",
+            "pattern": "^[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$",
+            "example": "4.6.1"
+        },
+        "studyName": {
+            "description": "A short, descriptive name for the study",
+            "type": "string",
+            "user_friendly": "Study name"
+        },
+        "studyDescription": {
+            "description": "A general description of the study.",
+            "type": "string",
+            "user_friendly": "study description"
+        },
+        "fundingAgency": {
+            "description":"The agency that supports the funding",
+            "type": "string",
+            "user_friendly": "funding agency"
+        },
+        "consortium":{
+            "description": "The name of the consortium",
+            "type": "string",
+            "user_friendly": "Consortium name"
+        },
+        "grant":{
+            "description": "Grant from which funding was obtained",
+            "group": "Name of group involved in study",
+        }
+    }
+}
