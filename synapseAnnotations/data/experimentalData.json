@@ -1174,7 +1174,7 @@
     ]
   },
   {
-    "name": "terminal differentiation point", 
+    "name": "terminalDifferentiationPoint", 
     "description": "The terminal differentiation point (TD) of a cell in days.", 
     "columnType": "STRING", 
     "maximumSize": 250, 
