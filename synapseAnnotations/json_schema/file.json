@@ -20,7 +20,7 @@
             "pattern": "^[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$",
             "example": "4.6.1"
         },
-       "fileFormatt": {
+       "fileFormat": {
             "description": "The format of the data file.",
             "type": "string",
             "user_friendly": "File format"
