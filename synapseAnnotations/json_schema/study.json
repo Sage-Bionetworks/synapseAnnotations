@@ -1,5 +1,5 @@
 {
-    "$schema": "",
+    "$schema": "http://json-schema.org/draft-04/schema#",
     "id": "",
     "description": "A study contains all the necessary information to describe a set of data or project.",
     "additionalProperties": false,
