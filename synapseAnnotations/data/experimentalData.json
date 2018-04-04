@@ -1172,5 +1172,12 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       }
     ]
-  }
+  },
+  {
+    "name": "terminal differentiation point", 
+    "description": "The terminal differentiation point (TD) of a cell in days.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  }, 
     ]
