@@ -291,6 +291,11 @@
         "value": "OLego",
         "description": "Alignment method to detect de novo mapping of spliced mRNA-Seq reads.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/23571760"
+      },
+      {
+        "value": "STAR",
+        "description": "Software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure.",
+        "source": "https://academic.oup.com/bioinformatics/article/29/1/15/272537"
       }
     ]
   },
