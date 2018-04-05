@@ -142,6 +142,11 @@
         "value": "featureCounts",
         "description": "A method for assigning sequence reads to genomic features.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/24227677"
+      },
+      {
+        "value": "bedtools multicov",
+        "description": "Reports the count of alignments from multiple position-sorted and indexed BAM files that overlap intervals in a BED file.",
+        "source": "http://bedtools.readthedocs.io/en/latest/content/tools/multicov.html"
       }
     ]
   },
@@ -228,6 +233,11 @@
         "value": "Cuffdiff 2",
         "description": "Differential expression analysis of transcripts.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869392/"
+      },
+      {
+        "value": "edgeR",
+        "description": "Estimation and Testing for Differential Expression in Multiple Digital Gene Expression Libraries.",
+        "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000527"
       }
     ]
   },
@@ -281,6 +291,11 @@
         "value": "OLego",
         "description": "Alignment method to detect de novo mapping of spliced mRNA-Seq reads.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/23571760"
+      },
+      {
+        "value": "STAR",
+        "description": "Software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure.",
+        "source": "https://academic.oup.com/bioinformatics/article/29/1/15/272537"
       }
     ]
   },
