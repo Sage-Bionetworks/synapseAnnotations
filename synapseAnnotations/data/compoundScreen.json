@@ -229,6 +229,36 @@
         "value": "VOLASERTIB",
         "description": "A dihydropteridinone Polo-like kinase 1 (Plk1) inhibitor with potential antineoplastic activity.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C79844"
+      },
+      {
+        "value": "Fimepinostat",
+        "description": "An orally bioavailable inhibitor of both phosphoinositide 3-kinase (PI3K) class I and pan histone deacetylase (HDAC) enzymes, with potential antineoplastic activity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C104008"
+      },
+      {
+        "value": "Brigatinib",
+        "description": "An orally available inhibitor of receptor tyrosine kinases anaplastic lymphoma kinase (ALK) and the epidermal growth factor receptor (EGFR) with potential antineoplastic activity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C98831"
+      },
+      {
+        "value": "Omipalisib",
+        "description": "A small-molecule pyridylsulfonamide inhibitor of phosphatidylinositol 3-kinase (PI3K) with potential antineoplastic activity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C88270"
+      },
+      {
+        "value": "Simvastatin",
+        "description": "A lipid-lowering agent derived synthetically from a fermentation product of the fungus Aspergillus terreus.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C29454"
+      },
+      {
+        "value": "Dasatinib",
+        "description": "An orally bioavailable synthetic small molecule-inhibitor of SRC-family protein-tyrosine kinases.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C38713"
+      },
+      {
+        "value": "Sapanisertib",
+        "description": "An orally bioavailable inhibitor of raptor-mTOR (TOR complex 1 or TORC1) and rictor-mTOR (TOR complex 2 or TORC2) with potential antineoplastic activity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C90548"
       }
     ] 
   },
