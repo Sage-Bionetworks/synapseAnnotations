@@ -643,7 +643,7 @@
       {
         "value": "cortical plate",
         "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0005343"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
       }
     ]
   },
