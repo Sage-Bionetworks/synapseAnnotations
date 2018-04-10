@@ -644,6 +644,11 @@
         "value": "middle frontal gyrus",
         "description": "Component of the frontal lobe, lateral aspect",
         "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
+      },
+      {
+        "value": "VZ/SVZ",
+        "description": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
+        "source": "Sage Bionetworks"
       }
     ]
   },
