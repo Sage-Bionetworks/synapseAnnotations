@@ -10,7 +10,7 @@ This contributing document focuses on the guidelines for users related to the Sa
 
 Our strategy is to rely on annotation terms and definitions that have already been made and standardized whenever possible for use with Sage Bionetworks supported communities. In general, we will not include terms in this repository that are not needed and vetted by our communities - but don't let that stop you from using this! Feel free to fork and include terminology that you require for your own use.
 
-If you are proposing a new term, then we require a source for the definition. The first place to look for an existing term is the [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols). We have some preferred ontology term sources: EDAM, EFO, OBI, and NCIT. It's OK if your term comes from another source, but use the preferred sources whenever possible. If your term does not currently exist, or has a different definition than existing ones, then:
+If you are proposing a new term, then we require a source for the definition. The first place to look for an existing term is the [EMBL-EBI Ontology Lookup Service](https://www.ebi.ac.uk/ols). We have some preferred ontology term sources: EDAM, EFO, OBI, and NCIT. It's OK if your term comes from another source, but use the preferred sources whenever possible. You should use the term as defined in the source, or one of its synonyms. If your term does not currently exist, or has a different definition than existing ones, then:
 
 1. Provide a different source URL - this may be a Wikipedia entry, link to a commercial web site, or other URL.
 1. If you are a Sage Bionetworks employee and cannot find a source URL, then use "Sage Bionetworks" as the `source` and your own definition.

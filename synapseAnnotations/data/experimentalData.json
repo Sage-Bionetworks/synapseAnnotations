@@ -97,11 +97,6 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002039"
       },
       {
-        "value": "NOMeSeq",
-        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing",
-        "source": ""
-      },
-      {
         "value": "HI-C",
         "description": "Chromatin interactions detected by HI-C protocol",
         "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
@@ -180,6 +175,16 @@
         "value": "questionnaire",
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+      },
+      {
+        "value": "novelty response behavior",
+        "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000086"
+      },
+      {
+        "value": "active avoidance learning behavior",
+        "description": "Avoidance learning when the action occurs.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       }
     ]
   },
@@ -279,7 +284,7 @@
       }
     ]
   },
-     {
+  {
     "name": "dataType",
     "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
@@ -341,9 +346,9 @@
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       },
       {
-        "value": "protein-protein interaction network",
-        "description": "A data set that represents a set of physical interactions between proteins",
-        "source": "http://identifiers.org/mamo/MAMO_0000202"
+        "value": "network",
+        "description":"An interconnected system of things or people.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
       }
     ]
   },
@@ -641,9 +646,15 @@
         "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       },
       {
+
         "value": "cortical plate",
         "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
         "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
+      },
+      {
+        "value": "VZ/SVZ",
+        "description": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
+        "source": "Sage Bionetworks"
       }
     ]
   },
@@ -1172,5 +1183,12 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       }
     ]
-  }
+  },
+  {
+    "name": "terminalDifferentiationPoint", 
+    "description": "The terminal differentiation point (TD) of a cell in days.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  } 
     ]
