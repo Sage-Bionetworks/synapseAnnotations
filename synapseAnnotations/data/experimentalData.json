@@ -651,6 +651,12 @@
         "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
       },
       {
+
+        "value": "cortical plate",
+        "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
+      },
+      {
         "value": "VZ/SVZ",
         "description": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
         "source": "Sage Bionetworks"
