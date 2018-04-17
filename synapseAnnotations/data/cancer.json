@@ -79,29 +79,11 @@
         "value": "CRISPR",
         "description": "",
         "source": ""
-      }
-    ]
-  },
-    {
-    "name": "drugScreenType",
-    "description": "String describing general class of drug screen",
-    "columnType": "STRING",
-    "maximumSize": 250,
-    "enumValues":[
-      {
-        "value": "singleMolecule",
-        "description": "An experiment in which a single molecule was used in an assay",
-        "source": ""
       },
       {
-        "value": "smallMoleculeLibraryScreen",
-        "description": "High throughput sample analysis of small molecules for purpose such as drug discovery, or biochemical, genetic or pharmacological tests.",
-        "source": " http://purl.obolibrary.org/obo/ERO_0001726"
-      },
-      {
-        "value":"combinationLibraryScreen",
-        "description":"High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.",
-        "source":"http://purl.obolibrary.org/obo/ERO_0001686"
+        "value": "CRE Recombinase",
+        "description": "CRE Recombinase catalyses site-specific recombination between two 34 base pair loxp sites and maintains the phage genome as a monomeric unit-copy plasmid in the lysogenic state.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17285"
       }
     ]
   },
@@ -144,14 +126,6 @@
   {
     "name": "experimentalCondition",
     "description": "This describes the condition under which the data were collected, designed to be free form, extra things that do not fit in pre-defined terms",
-    "columnType": "STRING",
-    "maximumSize": 250,
-    "enumValues": []
-  },
-
-  {
-    "name": "modelSystem",
-    "description": "Name of model system",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
@@ -262,6 +236,11 @@
         "value": "Meningioma",
         "description": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3230"
+      },
+      {
+        "value": "Myeloma",
+        "description": "A bone marrow cancer that is formed of any one of the bone marrow cells belonging to the granulocytic (neutrophil, eosinophil, basophil), monocytic/macrophage, erythroid, megakaryocytic and mast cell lineages.",
+        "source": "http://purl.obolibrary.org/obo/DOID_0070004"
       },
       {
         "value": "Not Applicable",
