@@ -153,9 +153,9 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
       },
       {
-        "value": "wholeGenomeOpticalImaging",
-        "description": "",
-        "source": ""
+        "value": "DNA optical mapping",
+        "description": "Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules",
+        "source": "https://doi.org/10.1016/j.copbio.2013.01.009"
       }
     ]
   },
