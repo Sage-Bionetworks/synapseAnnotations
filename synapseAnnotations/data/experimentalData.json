@@ -223,6 +223,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "lymph node",
+        "description": "A bean-shaped organ surrounded by a connective tissue capsule.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12745"
+      },
+      {
+        "value": "kidney",
+        "description": "One of the two bean-shaped organs located on each side of the spine in the retroperitoneum.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12415"
+      },
+      {
         "value": "skin",
         "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
