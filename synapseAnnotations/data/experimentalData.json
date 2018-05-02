@@ -414,7 +414,7 @@
       {
         "value": "medial dorsal nucleus of thalamus",
         "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
       },
       {
         "value": "inferior temporal cortex",
@@ -424,7 +424,8 @@
       {
         "value": "posterior inferior parietal cortex",
         "description": "",
-        "source": "Sage Bionetworks"},
+        "source": "Sage Bionetworks"
+      },
       {
         "value": "midbrain",
         "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
@@ -611,11 +612,6 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435"
       },
       {
-        "value": "mediodorsal nucleus of thalamus",
-        "description": "",
-        "source": ""
-      },
-      {
         "value": "cerebellar cortex",
         "description": "The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000043"
@@ -659,6 +655,26 @@
         "value": "forebrain",
         "description": "The most anterior region the brain including both the telencephalon and diencephalon.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
+      },
+      {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
+        "source": "http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "The medial prefrontal cortex (mPFC) is composed of granular cortical areas (medial areas 9 and 10) and agranular regions (areas 24, 25, and 32)",
+        "source": "https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "The medial dorsal nucleus (or dorsomedial nucleus of thalamus) is a large nucleus in the thalamus.",
+        "source": "http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.",
+        "source": "http://www.scholarpedia.org/article/Inferior_temporal_cortex"
       },
       {
         "value": "middle frontal gyrus",
