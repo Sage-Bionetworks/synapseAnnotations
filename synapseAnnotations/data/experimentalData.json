@@ -424,7 +424,8 @@
       {
         "value": "posterior inferior parietal cortex",
         "description": "",
-        "source": "Sage Bionetworks"},
+        "source": "Sage Bionetworks"
+      },
       {
         "value": "midbrain",
         "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
@@ -674,11 +675,6 @@
         "value": "inferior temporal cortex",
         "description": "Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.",
         "source": "http://www.scholarpedia.org/article/Inferior_temporal_cortex"
-      },
-      {
-        "value": "posterior inferior parietal cortex",
-        "description": "",
-        "source": ""
       },
       {
         "value": "middle frontal gyrus",
