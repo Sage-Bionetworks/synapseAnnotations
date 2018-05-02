@@ -414,7 +414,7 @@
       {
         "value": "medial dorsal nucleus of thalamus",
         "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
       },
       {
         "value": "inferior temporal cortex",
@@ -609,11 +609,6 @@
         "value": "striatum",
         "description": "A region of the forebrain consisting of the caudate nucleus, putamen and fundus striati.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435"
-      },
-      {
-        "value": "mediodorsal nucleus of thalamus",
-        "description": "",
-        "source": ""
       },
       {
         "value": "cerebellar cortex",
