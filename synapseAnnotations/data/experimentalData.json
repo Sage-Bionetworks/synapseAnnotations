@@ -177,6 +177,11 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
       },
       {
+        "value": "DNA optical mapping",
+        "description": "Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules",
+        "source": "https://doi.org/10.1016/j.copbio.2013.01.009"
+      },
+      {
         "value": "novelty response behavior",
         "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
         "source": "http://purl.obolibrary.org/obo/NBO_0000086"
@@ -222,6 +227,16 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "lymph node",
+        "description": "A bean-shaped organ surrounded by a connective tissue capsule.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12745"
+      },
+      {
+        "value": "kidney",
+        "description": "One of the two bean-shaped organs located on each side of the spine in the retroperitoneum.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12415"
+      },
       {
         "value": "skin",
         "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
@@ -611,6 +626,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001977"
       },
       {
+        "value": "plasma",
+        "description": "Plasma is the fluid (noncellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C13356"
+      },
+      {
         "value": "splenocyte",
         "description": "Any leukocyte that is part of a spleen.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_2000074"
@@ -669,6 +689,17 @@
         "value": "middle frontal gyrus",
         "description": "Component of the frontal lobe, lateral aspect",
         "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
+      },
+      {
+
+        "value": "cortical plate",
+        "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
+      },
+      {
+        "value": "VZ/SVZ",
+        "description": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
+        "source": "Sage Bionetworks"
       }
     ]
   },
@@ -824,6 +855,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "Bionano Irys",
+        "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
+        "source": "https://bionanogenomics.com/products/irys/"
       },
       {
         "value": "Infinium HumanOmniExpressExome",
@@ -1023,6 +1059,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Bladder Cancer",
+        "description": "A malignancy originating in tissues of the urinary bladder.",
+        "source":"http://identifiers.org/omim/109800"
+      },
+      {
+        "value":"Leukemia",
+        "description": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C3161"
+      },
+      {
         "value": "Tourette Syndrome",
         "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
         "source": "http://identifiers.org/omim/137580"
@@ -1111,6 +1157,11 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "Cervical Cancer",
+        "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
+        "source":"http://identifiers.org/omim/603956"
       }
     ]
   },
@@ -1197,5 +1248,12 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       }
     ]
-  }
+  },
+  {
+    "name": "terminalDifferentiationPoint", 
+    "description": "The terminal differentiation point (TD) of a cell in days.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  } 
     ]
