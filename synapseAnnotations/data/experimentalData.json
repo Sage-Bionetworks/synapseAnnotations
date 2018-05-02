@@ -177,6 +177,11 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
       },
       {
+        "value": "DNA optical mapping",
+        "description": "Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules",
+        "source": "https://doi.org/10.1016/j.copbio.2013.01.009"
+      },
+      {
         "value": "novelty response behavior",
         "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
         "source": "http://purl.obolibrary.org/obo/NBO_0000086"
@@ -825,6 +830,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "Bionano Irys",
+        "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
+        "source": "https://bionanogenomics.com/products/irys/"
       },
       {
         "value": "Infinium HumanOmniExpressExome",
