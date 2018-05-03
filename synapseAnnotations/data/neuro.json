@@ -347,6 +347,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "iPSCAstrocytes", 
+        "description": "The MSSM iPSCAstrocytes study", 
+        "source": "https://www.synapse.org/#!Synapse:syn10344967"
+      },
+      {
         "value": "TyrobpKO_AppPs1", 
         "description": "TyrobpKO mice crossed with APP/PS1 tg", 
         "source": "https://www.synapse.org/#!Synapse:syn10378730"
