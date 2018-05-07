@@ -1,0 +1,99 @@
+[
+  {
+    "name": "packageBinaryPlatform", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Windows",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "OSX",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Linux",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "containerPlatform", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Docker",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Singularity",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "workflowPlatform", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Nextflow",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Galaxy",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Snakemake",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Rufus",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "CWL",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "WDL",
+        "description": "",
+        "source": ""
+      }
+    ]
+  },
+  {
+    "name": "containerToolPlatform", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Docker-CWL",
+        "description": "",
+        "source": ""
+      },
+      {
+        "value": "Docker-WDL",
+        "description": "",
+        "source": ""
+      }
+    ]
+  }
+]
