@@ -1,0 +1,91 @@
+[
+  {
+    "name": "study", 
+    "description": "This key represents a way to divide up research projects within or across consoritia", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Cell Culture", 
+        "description": "NTAP-funded cell culture initiative related data", 
+        "source": "http://www.n-tap.org/initiatives/cell-culture-models/"
+      }, 
+      {
+        "value": "Unsolicited", 
+        "description": "NTAP-funded unsolicited efforts", 
+        "source": "http://www.n-tap.org/initiatives/open-proposal-program/"
+      }, 
+      {
+        "value": "PRO", 
+        "description": "NTAP-funded patient-related outcome program data", 
+        "source": "http://www.n-tap.org/initiatives/patient-reported-outcomes/"
+      }, 
+      {
+        "value": "Francis Collins", 
+        "description": "NTAP-funded Francis Collins scholar program data", 
+        "source": "http://www.n-tap.org/initiatives/collins-scholars/"
+      }, 
+      {
+        "value": "Cutaneous NF", 
+        "description": "Data derived from the CTF-funded cNF efforts", 
+        "source": ""
+      }
+    ]
+  }, 
+  {
+    "name": "nf2Genotype", 
+    "description": "Genotype of NF2 gene, if known", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "-/-", 
+        "description": "Homozygous deletion or mutation of NF2.", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "+/-", 
+        "description": "Heterozygous deletion or mutation", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "+/+", 
+        "description": "Homozygous wild type", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }
+    ]
+  }, 
+  {
+    "name": "nf1Genotype", 
+    "description": "Genotype of NF1 gene, if known", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "-/-", 
+        "description": "Homozygous deletion or mutation of NF1.", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "+/-", 
+        "description": "Heterozygous deletion or mutation", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "+/+", 
+        "description": "Homozygous wildtype", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "unknown", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }
+    ]
+  }
+]

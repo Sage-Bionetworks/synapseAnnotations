@@ -1,0 +1,30 @@
+[
+  {
+    "name": "projectNumber", 
+    "description": "There are four projects on going in the spore. This describes for which one the data was collected.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Project 1",
+        "description": "The Plexiform NF project led",
+        "source": ""
+      },
+      {
+        "value": "Project 2",
+        "description": "The MPNST project",
+        "source": ""
+      },
+      {
+        "value": "Project 3",
+        "description": "The JMML project",
+        "source": ""
+      },
+      {
+        "value": "Project 4",
+        "description": "The NF1 survivor project",
+        "source": ""
+      }
+    ]
+  }
+]
