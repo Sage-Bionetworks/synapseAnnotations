@@ -192,7 +192,7 @@
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       },
       {
-        "value": "OxBS",
+        "value": "oxBS-Seq",
         "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
       }
