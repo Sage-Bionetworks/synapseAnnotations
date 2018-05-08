@@ -37,7 +37,7 @@
         "nucleicAcidSource": {
             "description": "Starting nucleic acid molecule isolated for sequencing. Should be a child term of https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004446.",
             "type": "object",
-            "$ref": "<synapseAnnotations>/module/ontology/0.1.0/biological_macromolecule_ontology",
+            "$ref": "<synapseAnnotations>/ontology/0.1.0/nucleicAcidSource_ontology",
             "comment": "from synapseAnnotations/data/ngs.json",
             "user_friendly": "Input nucleic acid molecule"
         },
@@ -94,7 +94,7 @@
         "process_type": {
             "description": "The type of process. Should be a child term of https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002694.",
             "type": "object",
-            "$ref": "<synapseAnnotations>/module/ontology/0.1.0/process_type_ontology",
+            "$ref": "<synapseAnnotations>/ontology/0.1.0/process_type_ontology",
             "user_friendly": "Process type"
         }
     }

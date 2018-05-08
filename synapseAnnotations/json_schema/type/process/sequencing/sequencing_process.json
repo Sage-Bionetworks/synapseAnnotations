@@ -57,7 +57,7 @@
         "process_type": {
             "description": "The type of process. Should be a child term of https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002694.",
             "type": "object",
-            "$ref": "<synapseAnnotations>/module/ontology/5.1.0/process_type_ontology",
+            "$ref": "<synapseAnnotations>/ontology/0.1.0/process_type_ontology",
             "user_friendly": "Process type"
         }
     }
