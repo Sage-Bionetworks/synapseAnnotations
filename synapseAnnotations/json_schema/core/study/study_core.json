@@ -5,7 +5,7 @@
     "additionalProperties": false,
     "required": [
         "studyName",
-        "fundingAgency",
+        "fundingAgency"
     ],
     "title": "study",
     "type": "object",
@@ -36,14 +36,14 @@
             "type": "string",
             "user_friendly": "funding agency"
         },
-        "consortium":{
+        "consortium": {
             "description": "The name of the consortium",
             "type": "string",
             "user_friendly": "Consortium name"
         },
-        "grant":{
+        "grant": {
             "description": "Grant from which funding was obtained",
-            "group": "Name of group involved in study",
+            "group": "Name of group involved in study"
         }
     }
 }
