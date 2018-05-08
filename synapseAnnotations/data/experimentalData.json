@@ -190,6 +190,11 @@
         "value": "active avoidance learning behavior",
         "description": "Avoidance learning when the action occurs.",
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
+      },
+      {
+        "value": "OxBS",
+        "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
       }
     ]
   },
