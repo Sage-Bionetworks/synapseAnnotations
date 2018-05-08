@@ -1,0 +1,101 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "id": "<synapseAnnotations>/type/process/sequencing/0.1.0/library_preparation_process",
+    "description": "Information about how a sequencing library was created.",
+    "additionalProperties": false,
+    "required": [
+        "describedBy",
+        "schema_type",
+        "process_core"
+    ],
+    "title": "library_preparation_process",
+    "type": "object",
+    "properties": {
+         "describedBy":  {
+            "description": "The URL reference to the schema.",
+            "type": "string",
+            "pattern" : "<synapseAnnotations>/type/process/sequencing/[0-9]{1,}.[0-9]{1,}.[0-9]{1,}/library_preparation_process"
+        },
+        "schema_version": {
+            "description": "The version number of the schema in major.minor.patch format.",
+            "type": "string",
+            "pattern": "^[0-9]{1,}.[0-9]{1,}.[0-9]{1,}$",
+            "example": "4.6.1"
+        },
+        "schema_type": {
+            "description": "The type of the metadata schema entity.",
+            "type": "string",
+            "enum": [
+                "process"
+            ]
+        },
+        "process_core" : {
+            "description": "Core process-level information.",
+            "type": "object",
+            "$ref": "<synapseAnnotations>/core/process/0.1.0/process_core"
+        },
+        "nucleicAcidSource": {
+            "description": "Starting nucleic acid molecule isolated for sequencing. Should be a child term of https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004446.",
+            "type": "object",
+            "$ref": "<synapseAnnotations>/module/ontology/0.1.0/biological_macromolecule_ontology",
+            "comment": "from synapseAnnotations/data/ngs.json",
+            "user_friendly": "Input nucleic acid molecule"
+        },
+        "libraryPrep": {
+            "description": "The general strategy by which the library was prepared.",
+            "type": "string",
+            "example": "polyAselection",
+            "enum": [
+                "..."
+            ],
+            "comment": "from synapseAnnotations/data/ngs.json",
+            "user_friendly": "Library construction approach"
+        },
+        "libraryPreparationMethod": {
+            "description": "Method by which library was prepared.",
+            "type": "string",
+            "example": "Smart-seq2",
+            "enum": [
+                "..."
+            ],
+            "comment": "from synapseAnnotations/data/ngs.json",
+            "user_friendly": "Library construction approach"
+        },
+        "isStranded": {
+            "description": "Whether or not the library is stranded.",
+            "type": "boolean",
+            "enum": [
+                true,
+                false
+            ],
+            "user_friendly": "Stranded"
+        },
+        "readStrandOrigin": {
+            "description": "The strand from which the read originates in a strand-specific protocol.",
+            "type": "string",
+            "example": "forward",
+            "enum": [
+                "..."
+            ],
+            "comment": "from synapseAnnotations/data/ngs.json",
+            "user_friendly": "Strand"
+        },
+        "readPairOrientation": {
+            "description": "The relative orientation of the reads in a paired-end protocol.",
+            "type": "string",
+            "example": "inward",
+            "enum": [
+                "..."
+            ],
+            "comment": "from synapseAnnotations/data/ngs.json",
+            "user_friendly": "Read pair orientation"
+        },
+
+        "process_type": {
+            "description": "The type of process. Should be a child term of https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0002694.",
+            "type": "object",
+            "$ref": "<synapseAnnotations>/module/ontology/0.1.0/process_type_ontology",
+            "user_friendly": "Process type"
+        }
+    }
+}
