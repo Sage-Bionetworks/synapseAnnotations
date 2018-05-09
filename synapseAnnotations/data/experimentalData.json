@@ -190,6 +190,11 @@
         "value": "active avoidance learning behavior",
         "description": "Avoidance learning when the action occurs.",
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
+      },
+      {
+        "value": "Ribo-Seq",
+        "description": "Ribosome profiling (Ribo-Seq).",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
       }
     ]
   },
