@@ -238,6 +238,11 @@
         "value": "edgeR",
         "description": "Estimation and Testing for Differential Expression in Multiple Digital Gene Expression Libraries.",
         "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000527"
+      },
+      {
+        "value": "DESeq2",
+        "description": "A method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4302049/"
       }
     ]
   },
@@ -342,6 +347,11 @@
         "value": "GSEA",
         "description": "A method to identify pathway enrichment in a sample set of genes.",
         "source": "http://www.pnas.org/content/102/43/15545"
+      },
+      {
+        "value": "Enrichr",
+        "description": "A comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
       }
     ]
   },
