@@ -549,7 +549,7 @@
     ]
   },
   {
-    "name": "visualisationMethod",
+    "name": "visualizationMethod",
     "description": "The format in which data is visually displayed.",
     "columnType": "STRING",
     "maximumSize": 250,
