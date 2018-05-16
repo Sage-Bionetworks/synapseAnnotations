@@ -353,6 +353,15 @@
         "description": "A comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
       }
+        "value": "ssGSEA",
+        "description": "A ‘single sample’ extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/19847166"
+      },
+      {
+        "value": "GSVA",
+        "description": "A GSE method that estimates variation of pathway activity over a sample population in an unsupervised manner.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618321/"
+      }
     ]
   },
   {
