@@ -354,7 +354,7 @@
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
       },
         "value": "ssGSEA",
-        "description": "A ‘single sample’ extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
+        "description": "A single sample extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/19847166"
       },
       {
