@@ -238,6 +238,11 @@
         "value": "edgeR",
         "description": "Estimation and Testing for Differential Expression in Multiple Digital Gene Expression Libraries.",
         "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000527"
+      },
+      {
+        "value": "DESeq2",
+        "description": "A method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4302049/"
       }
     ]
   },
@@ -344,8 +349,13 @@
         "source": "http://www.pnas.org/content/102/43/15545"
       },
       {
+        "value": "Enrichr",
+        "description": "A comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
+      },
+      {
         "value": "ssGSEA",
-        "description": "A ‘single sample’ extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
+        "description": "A single sample extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/19847166"
       },
       {
@@ -549,7 +559,7 @@
     ]
   },
   {
-    "name": "visualisationMethod",
+    "name": "visualizationMethod",
     "description": "The format in which data is visually displayed.",
     "columnType": "STRING",
     "maximumSize": 250,
