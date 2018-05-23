@@ -422,6 +422,11 @@
         "source": ""
       }, 
       {
+        "value": "NHP-Chimpanzee", 
+        "description": "Chimpanzee data", 
+        "source": "https://www.synapse.org/#!Synapse:syn7067053"
+      }, 
+      {
         "value": "Yale-ASD", 
         "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism-", 
         "source": "https://www.synapse.org/#!Synapse:syn4566141"
