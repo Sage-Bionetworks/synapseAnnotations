@@ -50,7 +50,19 @@ Example:
         "source": "PubMed Link Goes Here"
 },
 ```
+### Contribution of species terms
 
+The preferred strategy for species name annotation is to search the [NCBI Taxonomy Browser](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Root) to find names, descriptions, and sources. The format of the description should be "`Species name` with taxonomy ID: `taxonomyID` and Genbank common name `common name`". The species name, taxonomyID, and Genbank common name can all be found in the NCBI Taxonomy Browser entry for the species.
+
+For example:
+
+```json
+{
+        "value": "Drosophila melanogaster",
+        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+}
+```
 
 ## Contribution procedure
 
