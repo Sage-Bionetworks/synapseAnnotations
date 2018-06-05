@@ -78,7 +78,7 @@ Again, this is focused on Sage Bionetworks supported communities and employees.
 1. If this is a pull request a review from someone in Github - this can be found under 'Reviewers' on the right side of the screen when viewing a Github issue. It's fine if they can review your pull request without meeting. Otherwise, set up a meeting on your own to meet with your reviewer.
 1. If your reviewer has no problems with the change, then the change can be merged. 
 The issue creator is responsible for merging. Note that you can use [keywords](https://help.github.com/articles/closing-issues-using-keywords/) to close issues via your pull request. See the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document for the merging procedure.
-1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion.
+1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion. To schedule an issue or pull request for discussion, add it to the GitHub milestone for the meeting date when you wish to discuss it.
 
 ### Technical details
 
