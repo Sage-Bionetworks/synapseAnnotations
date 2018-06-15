@@ -311,7 +311,7 @@
       {
         "value": "skin",
         "description": " An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.",
-        "source":"http://purl.obolibrary.org/obo/NCIT_C12470",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C12470"
       }
     ]
   },
