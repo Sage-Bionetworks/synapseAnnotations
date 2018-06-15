@@ -307,6 +307,11 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "skin",
+        "description": " An organ that constitutes the external surface of the body. It consists of the epidermis, dermis, and skin appendages.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C12470",
       }
     ]
   },
@@ -712,6 +717,16 @@
         "value": "dorsal pallium",
         "description": "Subdivision of pallium that is located dorsally",
         "source": "http://purl.obolibrary.org/obo/UBERON_0014740"
+      },
+      {
+        "value": "bone marrow",
+        "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Buccal Mucosa",
+        "description": "The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12505"
       }
     ]
   },
@@ -1174,6 +1189,11 @@
         "value": "Cervical Cancer",
         "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
         "source":"http://identifiers.org/omim/603956"
+      },
+      {
+        "value":"Juvenile Myelomonocytic Leukemia",
+        "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
       }
     ]
   },
