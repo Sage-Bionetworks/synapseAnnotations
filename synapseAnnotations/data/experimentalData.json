@@ -943,6 +943,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Dorsal Root Ganglion",
+        "description": "Ganglion with sensory function within the vertebral column.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
+      },
+      {
         "value": "B-lymphocytes",
         "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
