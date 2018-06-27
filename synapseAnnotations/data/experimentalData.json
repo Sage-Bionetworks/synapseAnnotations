@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "scale",
+        "description": "An instrument or machine for weighing.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+      },
+      {
         "value": "in vivo bioluminescence",
         "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
         "source": "http://purl.obolibrary.org/obo/ERO_0000651"
