@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "in vivo bioluminescence",
+        "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+      },
+      {
         "value": "immunohistochemistry",
         "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
         "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
