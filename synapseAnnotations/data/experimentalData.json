@@ -201,6 +201,11 @@
         "value": "Ribo-Seq",
         "description": "Ribosome profiling (Ribo-Seq).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      },
+      {
+        "value": "Positron Emission Tomography",
+        "description": "A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17007"
       }
     ]
   },
