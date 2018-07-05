@@ -13,6 +13,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "scale",
+        "description": "An instrument or machine for weighing.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+      },
+      {
+        "value": "in vivo bioluminescence",
+        "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+      },
+      {
         "value": "immunohistochemistry",
         "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
         "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
@@ -201,6 +211,64 @@
         "value": "Ribo-Seq",
         "description": "Ribosome profiling (Ribo-Seq).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      }
+    ]
+  },
+  {
+    "name": "assayTarget", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "H3K9me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K36me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K9ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CTCF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "input", 
+        "description": "", 
+        "source": ""
       }
     ]
   },
@@ -727,6 +795,11 @@
         "value": "Buccal Mucosa",
         "description": "The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C12505"
+      },
+      {
+        "value": "Dorsal Root Ganglion",
+        "description": "Ganglion with sensory function within the vertebral column.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
       }
     ]
   },
@@ -937,6 +1010,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "Schwann cell precusor",
+        "description": "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.",
+        "source": "http://purl.obolibrary.org/obo/CL_0002375"
+      },
       {
         "value": "B-lymphocytes",
         "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
