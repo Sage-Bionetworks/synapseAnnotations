@@ -444,6 +444,11 @@
         "value": "RData",
         "description": "The RData format (usually with extension .rdata or .rda) is a format designed for use with R, a system for statistical computation and related graphics, for storing a complete R workspace or selected 'objects' from a workspace in a form that can be loaded back by R.",
         "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml"
+      },
+      {
+        "value": "hic",
+        "description": "Hi-C contact matrix file",
+        "source": "https://github.com/theaidenlab/juicer/wiki/Data"
       }
     ]
   }
