@@ -599,6 +599,11 @@
         "value": "CMC_HBCC", 
         "description": "The CommonMind Consortium Human Brain Collection Core Cohort", 
         "source": ""
+      },
+      {
+        "value": "iPSC-HiC", 
+        "description": "Human induced pluripotent stem cells (hiPSCs).",
+        "source": "https://www.synapse.org/#!Synapse:syn12979149"
       }
     ]
   }, 
