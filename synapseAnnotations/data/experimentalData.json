@@ -444,11 +444,6 @@
         "description": "",
         "source": ""
       },
-      {
-        "value": "epigenetics",
-        "description": "Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_3295"
-      },
       { 
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
