@@ -800,6 +800,11 @@
         "value": "Dorsal Root Ganglion",
         "description": "Ganglion with sensory function within the vertebral column.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
+      },
+      {
+        "value": "whole brain",
+        "description": "Aggregated tissue from multiple brain regions",
+        "source": "Sage Bionetworks"
       }
     ]
   },
