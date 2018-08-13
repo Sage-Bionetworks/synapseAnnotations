@@ -803,7 +803,7 @@
       },
       {
         "value": "whole brain",
-        "description": "Aggregated tissue from multiple brain regions",
+        "description": "Aggregated tissue from multiple and/or unspecified brain regions.",
         "source": "Sage Bionetworks"
       }
     ]
