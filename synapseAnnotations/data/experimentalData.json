@@ -211,6 +211,11 @@
         "value": "Ribo-Seq",
         "description": "Ribosome profiling (Ribo-Seq).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      },
+      {
+        "value": "RPPA",
+        "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0010030"
       }
     ]
   },
