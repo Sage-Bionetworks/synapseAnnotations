@@ -171,10 +171,15 @@
         "description": "",
         "source": ""
       },
-      {
+       {
         "value": "MIB/MS",
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "scCGIseq",
+        "description":"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
       },
       {
         "value": "MudPIT",
