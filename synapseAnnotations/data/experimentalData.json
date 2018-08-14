@@ -385,6 +385,11 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Bursa Of Fabricius",
+        "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+        "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.06d&ns=ncit&code=C111141&key=n1891607686&b=1&n=null"
       }
     ]
   },
