@@ -220,7 +220,7 @@
       {
         "value": "RPPA",
         "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0010030"
+        "source": ""http://www.bioassayontology.org/bao#BAO_0010030"
       }
     ]
   },
@@ -389,7 +389,7 @@
       {
         "value": "Bursa Of Fabricius",
         "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
-        "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.06d&ns=ncit&code=C111141&key=n1891607686&b=1&n=null"
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       }
     ]
   },
