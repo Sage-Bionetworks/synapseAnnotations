@@ -223,6 +223,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
       },
       {
+        "value": "Lymphoblastic Lymphoma",
+        "description":"A lymphoma composed of immature small to medium-sized precursor lymphoid cells (lymphoblasts). It includes the B- and T-cell lymphoblastic lymphoma.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C9360"
+      },
+      {
         "value": "Meningioma",
         "description": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3230"

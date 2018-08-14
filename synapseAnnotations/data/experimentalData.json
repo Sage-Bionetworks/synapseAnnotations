@@ -171,10 +171,15 @@
         "description": "",
         "source": ""
       },
-      {
+       {
         "value": "MIB/MS",
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "scCGIseq",
+        "description":"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
       },
       {
         "value": "MudPIT",
@@ -211,6 +216,11 @@
         "value": "Ribo-Seq",
         "description": "Ribosome profiling (Ribo-Seq).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      },
+      {
+        "value": "RPPA",
+        "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+        "source": "http://www.bioassayontology.org/bao#BAO_0010030"
       }
     ]
   },
@@ -375,6 +385,11 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Bursa Of Fabricius",
+        "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       }
     ]
   },
@@ -434,7 +449,7 @@
         "description": "",
         "source": ""
       },
-      {
+      { 
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
@@ -932,6 +947,11 @@
         "source": ""
       },
       {
+        "value": "Affymetrix Human Gene 1.0 ST Array",
+        "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
+      },
+      {
         "value": "AffymetrixU133Plus2",
         "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
@@ -1361,6 +1381,11 @@
         "value": "Rhesus macaque",
         "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Gallus gallus",
+        "description":"The common domestic fowl, Chicken.",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
       }
     ]
   },
