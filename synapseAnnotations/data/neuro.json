@@ -283,69 +283,16 @@
     ]
   }, 
   {
-    "name": "assayTarget", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "H3K9me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K4me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K4me1", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K27ac", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K36me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K27me3", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "H3K9ac", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "REST", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "CTCF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "input", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
     "name": "study", 
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": [
+      {
+        "value": "iPSCAstrocytes", 
+        "description": "The MSSM iPSCAstrocytes study", 
+        "source": "https://www.synapse.org/#!Synapse:syn10344967"
+      },
       {
         "value": "TyrobpKO_AppPs1", 
         "description": "TyrobpKO mice crossed with APP/PS1 tg", 
@@ -452,12 +399,12 @@
         "source": "https://www.synapse.org/#!Synapse:syn3219045"
       }, 
       {
-        "value": "MayoLOADGwas", 
+        "value": "MayoLOADGWAS", 
         "description": "Mayo Clinic LOAD genome-wide association and brain gene expression studies", 
         "source": "https://www.synapse.org/#!Synapse:syn2910256"
       }, 
       {
-        "value": "MayoEGWAS", 
+        "value": "MayoeGWAS", 
         "description": "Gene expression from the Illumina Whole Genome DASL array", 
         "source": "https://www.synapse.org/#!Synapse:syn3157225"
       }, 
@@ -595,11 +542,67 @@
         "description": "", 
         "source": ""
       },
-            {
+      {
         "value": "CMC_HBCC", 
         "description": "The CommonMind Consortium Human Brain Collection Core Cohort", 
         "source": ""
+      },
+      {
+        "value": "ADMC_ADNI1", 
+        "description": "Metabolomics and lipidomics of the AD metabolome as well as imaging from ADNI", 
+        "source": "https://www.synapse.org/#!Synapse:syn5592519"
+      },
+      {
+        "value": "ADMC_ADNI2-GO", 
+        "description": "Clinical, imaging, genetic, and biochemical biomarker characteristics of the entire spectrum of Alzheimer’s disease (AD)", 
+        "source": "https://www.synapse.org/#!Synapse:syn9705278"
+      },
+      {
+        "value": "ADMC_UPenn", 
+        "description": "Metabolomics on AD", 
+        "source": "https://www.synapse.org/#!Synapse:syn9705311"
+      },
+      {
+        "value": "CHDWB", 
+        "description": "Clinical, metabolomic, and gene expression data of controls", 
+        "source": "https://www.synapse.org/#!Synapse:syn8272982"
+      },
+      {
+        "value": "MSBB_ArrayTissuePanel", 
+        "description": "Expression array and coexpression networks on 19 brain regions", 
+        "source": "https://www.synapse.org/#!Synapse:syn3157699"
+      },
+      {
+        "value": "MC-CAA", 
+        "description": "RNAseq data on cerebral amyloid angiopathy (CAA) pathology", 
+        "source": "https://www.synapse.org/#!Synapse:syn9779506"
+      },
+      {
+        "value": "rnaSeqReprocessing", 
+        "description": "Re-aligned reads from the ROSMAP, MSBB, and MayoRNAseq studies", 
+        "source": "https://www.synapse.org/#!Synapse:syn9702085"
+      },
+      {
+        "value": "rnaSeqSampleSwap", 
+        "description": "RNAseq samples sequenced at multiple sites", 
+        "source": "https://www.synapse.org/#!Synapse:syn5550419"
+      },
+      {
+        "value": "SUNYStrokeModel", 
+        "description": "Mouse behavioral assays on stroke and AD models", 
+        "source": "https://www.synapse.org/#!Synapse:syn7181520"
+      },
+      {
+        "value": "TASTPM", 
+        "description": "A double transgenic mouse model", 
+        "source": "https://www.synapse.org/#!Synapse:syn5714307"
+      },
+      {
+        "value": "iPSCAstrocytes", 
+        "description": "iPSC derived astrocytes", 
+        "source": "https://www.synapse.org/#!Synapse:syn10344967"
       }
+      
     ]
   }, 
   {
