@@ -220,7 +220,7 @@
       {
         "value": "RPPA",
         "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
-        "source": ""http://www.bioassayontology.org/bao#BAO_0010030"
+        "source": "http://www.bioassayontology.org/bao#BAO_0010030"
       }
     ]
   },
@@ -1383,9 +1383,9 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       },
       {
-        "value": "Chicken",
-        "description":"The common domestic fowl, Gallus gallus.",
-        "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.06d&ns=ncit&code=C14193&key=n1239703518&b=1&n=null"
+        "value": "Gallus Gallus",
+        "description":"The common domestic fowl, Chicken.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C14193"
       }
     ]
   },
