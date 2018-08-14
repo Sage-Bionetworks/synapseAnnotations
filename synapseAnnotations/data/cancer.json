@@ -158,29 +158,24 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "Neurofibroma Cutaneous",
-        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths of skin.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+        "value": "Cutaneous Neurofibroma",
+        "description": "A neurofibroma that grows along small branches of nerves in the dermis in patients with neurofibromatosis. It presents as a solid cutaneous tumor.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C128451"
       },
       {
-        "value": "Neurofibroma Subcutaneous",
-        "description": "An intraneural neoplasm arising from nerve tissues and neural sheaths laying under the skin.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+        "value": "Plexiform Neurofibroma",
+        "description": "An elongated and multinodular neurofibroma, formed when the tumor involves either multiple trunks of a plexus or multiple fascicles of a large nerve, such as the sciatic. Some plexiform neurofibromas resemble a bag of worms, others produce a massive ropy enlargement of the nerve.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C3797"
       },
       {
-        "value": "Neurofibroma Plexiform",
-        "description": "Plexiform neurofibromas are larger, more extensive tumors that grow from nerves anywhere in the body.",
-        "source": "https://nfcenter.wustl.edu/what-is-nf/neurofibromatosis-type-1/nerve-tumors/"
-      },
-      {
-        "value": "Neurofibroma Atypical",
-        "description": "An intraneural or extraneural neoplasm arising from nerve tissues and neural sheaths that does not belong to a known subtype.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+        "value": "Atypical Neurofibroma",
+        "description": "A neurofibroma characterized by the presence of cellular pleomorphism.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C41426"
       },
       {
         "value": "Malignant Peripheral Nerve Sheath Tumor",
         "description": "The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000622"
+        "source": "http://purl.obolibrary.org/obo/NCIT_C3798"
       },
       {
         "value": "Adenocarcinoma",
@@ -201,11 +196,6 @@
         "value": "Melanoma",
         "description": "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3224"
-      },
-      {
-        "value": "Optic Nerve Glioma",
-        "description": "Optic pathway glioma (OPG) is a benign tumor that develop along the optic nerve (chiasm, tracts, and radiations) characterized by impairment or loss of vision and may be accompanied by diencephalic symptoms such as reduced growth and alteration in sleeping patterns. OPG are often linked to neurofibromatosis type 1.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/ordo/terms?iri=http%3A%2F%2Fwww.orpha.net%2FORDO%2FOrphanet_2086"
       },
       {
         "value": "Low Grade Glioma",
