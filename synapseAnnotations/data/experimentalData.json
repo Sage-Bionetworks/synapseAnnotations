@@ -947,9 +947,9 @@
         "source": ""
       },
       {
-        "value": "AffymetrixHuman1.0STS",
-        "description": "Affymetrix Human 1.0 STS Array chip",
-        "source": ""
+        "value": "Affymetrix Human Gene 1.0 ST Array",
+        "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
       },
       {
         "value": "AffymetrixU133Plus2",
