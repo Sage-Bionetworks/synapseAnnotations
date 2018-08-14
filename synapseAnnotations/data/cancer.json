@@ -235,7 +235,7 @@
       {
         "value": "Lymphoblastic Lymphoma",
         "description":"A lymphoma composed of immature small to medium-sized precursor lymphoid cells (lymphoblasts). It includes the B- and T-cell lymphoblastic lymphoma.",
-        "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&version=18.06d&ns=ncit&code=C9360&key=n4324201&b=1&n=null"
+        "source": "http://purl.obolibrary.org/obo/NCIT_C9360"
       },
       {
         "value": "Meningioma",
