@@ -751,6 +751,11 @@
         "source": ""
       },
       {
+        "value": "embryonic",
+        "description": "A portion of tissue that is part of an embryo.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005291"
+      },
+      {
         "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
