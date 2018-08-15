@@ -198,6 +198,12 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/mp/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNCIT_C3224"
       },
       {
+        "value": "Glioma",
+        "description": "A benign or malignant brain and spinal cord tumor that arises from glial cells (astrocytes, oligodendrocytes, ependymal cells). Tumors that arise from astrocytes are called astrocytic tumors or astrocytomas. Tumors that arise from oligodendrocytes are called oligodendroglial tumors. Tumors that arise from ependymal cells are called ependymomas.",
+        "source": "http://purl.obolibrary.org/obo/MONDO_0021042"
+      },
+
+      {
         "value": "Low Grade Glioma",
         "description": "Low grade gliomas are brain tumors that come from two different types of brain cells known as astrocytes and oligodendrocytes.",
         "source": "https://www.urmc.rochester.edu/neurosurgery/specialties/neurooncology/conditions/low-grade-glioma.aspx"
