@@ -17,7 +17,7 @@ Column types are required, and the valid types can be found [here](http://docs.s
 
 # Organization
 
-All schema definitions can be found in the [synapseAnnotations/synapseAnnotations/data/](synapseAnnotations/synapseAnnotations/data/) folder. There are three high level schemas: [experimental data](synapseAnnotations/synapseAnnotations/data/experimentalData.json), [tool](synapseAnnotations/synapseAnnotations/data/tool.json), and [analysis](synapseAnnotations/synapseAnnotations/data/analysis.json).
+All schema definitions can be found in the [synapseAnnotations/data/](synapseAnnotations/data/) folder. There are three high level schemas: [experimental data](synapseAnnotations/data/experimentalData.json), [tool](synapseAnnotations/data/tool.json), and [analysis](synapseAnnotations/data/analysis.json).
 
 Schemas for specific communities and consortia are also defined, such as for the [neurodegenerative diseases consortiums](synapseAnnotations/data/neuro.json), [cancer consortiums](synapseAnnotations/data/cancer.json), and specific group such as (but not limited to) [Project GENIE](synapseAnnotations/data/genie.json).
 

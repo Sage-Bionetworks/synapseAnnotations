@@ -142,6 +142,11 @@
         "value": "featureCounts",
         "description": "A method for assigning sequence reads to genomic features.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/24227677"
+      },
+      {
+        "value": "bedtools multicov",
+        "description": "Reports the count of alignments from multiple position-sorted and indexed BAM files that overlap intervals in a BED file.",
+        "source": "http://bedtools.readthedocs.io/en/latest/content/tools/multicov.html"
       }
     ]
   },
@@ -228,6 +233,16 @@
         "value": "Cuffdiff 2",
         "description": "Differential expression analysis of transcripts.",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869392/"
+      },
+      {
+        "value": "edgeR",
+        "description": "Estimation and Testing for Differential Expression in Multiple Digital Gene Expression Libraries.",
+        "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000527"
+      },
+      {
+        "value": "DESeq2",
+        "description": "A method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4302049/"
       }
     ]
   },
@@ -281,6 +296,11 @@
         "value": "OLego",
         "description": "Alignment method to detect de novo mapping of spliced mRNA-Seq reads.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/23571760"
+      },
+      {
+        "value": "STAR",
+        "description": "Software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure.",
+        "source": "https://academic.oup.com/bioinformatics/article/29/1/15/272537"
       }
     ]
   },
@@ -327,6 +347,21 @@
         "value": "GSEA",
         "description": "A method to identify pathway enrichment in a sample set of genes.",
         "source": "http://www.pnas.org/content/102/43/15545"
+      },
+      {
+        "value": "Enrichr",
+        "description": "A comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
+      },
+      {
+        "value": "ssGSEA",
+        "description": "A single sample extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/19847166"
+      },
+      {
+        "value": "GSVA",
+        "description": "A GSE method that estimates variation of pathway activity over a sample population in an unsupervised manner.",
+        "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618321/"
       }
     ]
   },
@@ -524,7 +559,7 @@
     ]
   },
   {
-    "name": "visualisationMethod",
+    "name": "visualizationMethod",
     "description": "The format in which data is visually displayed.",
     "columnType": "STRING",
     "maximumSize": 250,

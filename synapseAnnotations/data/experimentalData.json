@@ -13,6 +13,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "scale",
+        "description": "An instrument or machine for weighing.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+      },
+      {
+        "value": "in vivo bioluminescence",
+        "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+      },
+      {
         "value": "immunohistochemistry",
         "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
         "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
@@ -97,11 +107,6 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002039"
       },
       {
-        "value": "NOMeSeq",
-        "description": "Nucleosome occupancy and DNA methylation profiles measured by chemical treatment of DNA followed by sequencing",
-        "source": ""
-      },
-      {
         "value": "HI-C",
         "description": "Chromatin interactions detected by HI-C protocol",
         "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
@@ -166,10 +171,15 @@
         "description": "",
         "source": ""
       },
-      {
+       {
         "value": "MIB/MS",
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "scCGIseq",
+        "description":"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
       },
       {
         "value": "MudPIT",
@@ -180,6 +190,95 @@
         "value": "questionnaire",
         "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
         "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+      },
+      {
+        "value": "DNA optical mapping",
+        "description": "Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules",
+        "source": "https://doi.org/10.1016/j.copbio.2013.01.009"
+      },
+      {
+        "value": "novelty response behavior",
+        "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000086"
+      },
+      {
+        "value": "active avoidance learning behavior",
+        "description": "Avoidance learning when the action occurs.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000217"
+      },
+      {
+
+        "value": "oxBS-Seq",
+        "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
+      },
+      {
+        "value": "Ribo-Seq",
+        "description": "Ribosome profiling (Ribo-Seq).",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      },
+      {
+        "value": "RPPA",
+        "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+        "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      }
+    ]
+  },
+  {
+    "name": "assayTarget", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "H3K9me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K36me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K9ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CTCF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "input", 
+        "description": "", 
+        "source": ""
       }
     ]
   },
@@ -217,6 +316,16 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "lymph node",
+        "description": "A bean-shaped organ surrounded by a connective tissue capsule.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12745"
+      },
+      {
+        "value": "kidney",
+        "description": "One of the two bean-shaped organs located on each side of the spine in the retroperitoneum.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12415"
+      },
       {
         "value": "skin",
         "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
@@ -276,10 +385,15 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Bursa Of Fabricius",
+        "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       }
     ]
   },
-     {
+  {
     "name": "dataType",
     "description": "Types of input/output data in bioinformatics pipelines",
     "columnType": "STRING",
@@ -289,6 +403,11 @@
         "value": "genomicVariants",
         "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
+      },
+      {
+        "value": "behavior process",
+        "description": "The action, reaction, or performance of an organism in response to external or internal stimuli.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000313"
       },
       {
         "value": "metabolomics",
@@ -330,7 +449,7 @@
         "description": "",
         "source": ""
       },
-      {
+      { 
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
@@ -341,9 +460,9 @@
         "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
       },
       {
-        "value": "protein-protein interaction network",
-        "description": "A data set that represents a set of physical interactions between proteins",
-        "source": "http://identifiers.org/mamo/MAMO_0000202"
+        "value": "network",
+        "description":"An interconnected system of things or people.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
       }
     ]
   },
@@ -372,6 +491,11 @@
         "value": "Pitt",
         "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
         "source": "https://neurobiobank.nih.gov/"
+      },
+      {
+        "value": "Rush",
+        "description": "Rush Alzheimer's Disease Center",
+        "source": "https://www.radc.rush.edu/"
       }
       ]
   },
@@ -394,7 +518,7 @@
       {
         "value": "medial dorsal nucleus of thalamus",
         "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
       },
       {
         "value": "inferior temporal cortex",
@@ -404,7 +528,8 @@
       {
         "value": "posterior inferior parietal cortex",
         "description": "",
-        "source": "Sage Bionetworks"},
+        "source": "Sage Bionetworks"
+      },
       {
         "value": "midbrain",
         "description": "the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",
@@ -591,11 +716,6 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435"
       },
       {
-        "value": "mediodorsal nucleus of thalamus",
-        "description": "",
-        "source": ""
-      },
-      {
         "value": "cerebellar cortex",
         "description": "The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000043"
@@ -604,6 +724,11 @@
         "value": "serum",
         "description": "Liquid derived from blood plasma that has clotting factors removed.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001977"
+      },
+      {
+        "value": "plasma",
+        "description": "Plasma is the fluid (noncellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C13356"
       },
       {
         "value": "splenocyte",
@@ -636,9 +761,60 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890"
       },
       {
+        "value": "medial orbital frontal cortex",
+        "description": "Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.",
+        "source": "http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
+      },
+      {
+        "value": "medial prefrontal cortex",
+        "description": "The medial prefrontal cortex (mPFC) is composed of granular cortical areas (medial areas 9 and 10) and agranular regions (areas 24, 25, and 32)",
+        "source": "https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions"
+      },
+      {
+        "value": "medial dorsal nucleus of thalamus",
+        "description": "The medial dorsal nucleus (or dorsomedial nucleus of thalamus) is a large nucleus in the thalamus.",
+        "source": "http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
+      },
+      {
+        "value": "inferior temporal cortex",
+        "description": "Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.",
+        "source": "http://www.scholarpedia.org/article/Inferior_temporal_cortex"
+      },
+      {
         "value": "middle frontal gyrus",
         "description": "Component of the frontal lobe, lateral aspect",
         "source": "http://purl.obolibrary.org/obo/UBERON_0002702"
+      },
+      {
+
+        "value": "cortical plate",
+        "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
+      },
+      {
+        "value": "VZ/SVZ",
+        "description": "VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "dorsal pallium",
+        "description": "Subdivision of pallium that is located dorsally",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0014740"
+      },
+      {
+        "value": "bone marrow",
+        "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Buccal Mucosa",
+        "description": "The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12505"
+      },
+      {
+        "value": "Dorsal Root Ganglion",
+        "description": "Ganglion with sensory function within the vertebral column.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
       }
     ]
   },
@@ -771,6 +947,11 @@
         "source": ""
       },
       {
+        "value": "Affymetrix Human Gene 1.0 ST Array",
+        "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
+      },
+      {
         "value": "AffymetrixU133Plus2",
         "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
@@ -794,6 +975,11 @@
         "value": "HiSeqX",
         "description": "Illumina HiSeq X Platform for whole-genome sequencing",
         "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+      },
+      {
+        "value": "Bionano Irys",
+        "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
+        "source": "https://bionanogenomics.com/products/irys/"
       },
       {
         "value": "Infinium HumanOmniExpressExome",
@@ -845,9 +1031,19 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Schwann cell precusor",
+        "description": "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.",
+        "source": "http://purl.obolibrary.org/obo/CL_0002375"
+      },
+      {
         "value": "B-lymphocytes",
         "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
+      },
+      {
+        "value": "Embryonic stem cells",
+        "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12935"
       },
       {
         "value": "iPSC",
@@ -993,6 +1189,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Bladder Cancer",
+        "description": "A malignancy originating in tissues of the urinary bladder.",
+        "source":"http://identifiers.org/omim/109800"
+      },
+      {
+        "value":"Leukemia",
+        "description": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C3161"
+      },
+      {
         "value": "Tourette Syndrome",
         "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
         "source": "http://identifiers.org/omim/137580"
@@ -1081,6 +1287,16 @@
         "value": "Not Applicable",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "Cervical Cancer",
+        "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
+        "source":"http://identifiers.org/omim/603956"
+      },
+      {
+        "value":"Juvenile Myelomonocytic Leukemia",
+        "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
       }
     ]
   },
@@ -1165,7 +1381,19 @@
         "value": "Rhesus macaque",
         "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Gallus gallus",
+        "description":"The common domestic fowl, Chicken.",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
       }
     ]
-  }
+  },
+  {
+    "name": "terminalDifferentiationPoint", 
+    "description": "The terminal differentiation point (TD) of a cell in days.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": []
+  } 
     ]
