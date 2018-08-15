@@ -436,7 +436,7 @@
         "source": "http://edamontology.org/format_2332"
       },
       {
-        "value": "gzip",
+        "value": "gz",
         "description": "GZipped format",
         "source": "http://bioportal.bioontology.org/ontologies/SWO/?p=classes&conceptid=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fdata%2FSWO_3000077#details"
       },
