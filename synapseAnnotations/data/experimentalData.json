@@ -912,6 +912,11 @@
         "source": ""
       },
       {
+          "value":"Illumina MouseWG-6 v2.0 expression beadchip",
+          "description":"Whole-genome expression profiling in the mouse",
+          "source":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
+      },
+      {
         "value": "Perlegen300Karray",
         "description": "",
         "source": ""
