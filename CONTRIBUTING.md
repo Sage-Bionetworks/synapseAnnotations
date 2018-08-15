@@ -64,6 +64,10 @@ For example:
 }
 ```
 
+## Contribution of file formats
+
+We use the `fileFormat` key to indicate, well, the file format of a file uploaded to Synapse. Given the bias towards genomics files in Synapse, our source for file formats tends to come from [EDAM](http://edamontology.org/), [NCIT](http://www.ontobee.org/ontology/NCIT), but also Wikipedia and corporate web site descriptions. One thing to note is that the `value` to be contributed does not need to be the same as the commonly used file extension. For example, we describe GZipped files as `gzip`, while a GZipped file generally has an extension of `gz`.
+
 ## Contribution procedure
 
 Again, this is focused on Sage Bionetworks supported communities and employees. This focuses on the logistical components to contributing - for the technical components, please see the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document.
