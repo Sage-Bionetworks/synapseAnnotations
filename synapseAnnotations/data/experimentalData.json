@@ -332,6 +332,11 @@
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
       },
       {
+        "value": "mammary gland",
+        "description": "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001911"
+      },
+      {
         "value": "nerves",
         "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000925"
