@@ -841,7 +841,12 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-      {
+     {
+        "value": "HiSeq3000",
+        "description": "Illumina HiSeq 3000",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
+     },
+     {
         "value": "HiSeq2500",
         "description": "Illumina HiSeq 2500",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
