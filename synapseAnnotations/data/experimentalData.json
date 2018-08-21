@@ -13,6 +13,16 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "scale",
+        "description": "An instrument or machine for weighing.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+      },
+      {
+        "value": "in vivo bioluminescence",
+        "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+      },
+      {
         "value": "immunohistochemistry",
         "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
         "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
@@ -161,10 +171,15 @@
         "description": "",
         "source": ""
       },
-      {
+       {
         "value": "MIB/MS",
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "scCGIseq",
+        "description":"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
       },
       {
         "value": "MudPIT",
@@ -206,6 +221,69 @@
         "value": "Positron Emission Tomography",
         "description": "A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C17007"
+      },
+      {
+        "value": "RPPA",
+        "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+        "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      }
+    ]
+  },
+  {
+    "name": "assayTarget", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "H3K9me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K36me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K9ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CTCF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "input", 
+        "description": "", 
+        "source": ""
       }
     ]
   },
@@ -312,6 +390,11 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Bursa Of Fabricius",
+        "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       }
     ]
   },
@@ -371,7 +454,7 @@
         "description": "",
         "source": ""
       },
-      {
+      { 
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
@@ -732,6 +815,16 @@
         "value": "Buccal Mucosa",
         "description": "The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C12505"
+      },
+      {
+        "value": "Dorsal Root Ganglion",
+        "description": "Ganglion with sensory function within the vertebral column.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
+      },
+      {
+        "value": "unspecified",
+        "description": "Unspecified tissue or tissues from an organ.",
+        "source": "Sage Bionetworks"
       }
     ]
   },
@@ -864,6 +957,11 @@
         "source": ""
       },
       {
+        "value": "Affymetrix Human Gene 1.0 ST Array",
+        "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
+      },
+      {
         "value": "AffymetrixU133Plus2",
         "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
@@ -943,9 +1041,19 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Schwann cell precusor",
+        "description": "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.",
+        "source": "http://purl.obolibrary.org/obo/CL_0002375"
+      },
+      {
         "value": "B-lymphocytes",
         "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
+      },
+      {
+        "value": "Embryonic stem cells",
+        "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12935"
       },
       {
         "value": "iPSC",
@@ -1283,6 +1391,11 @@
         "value": "Rhesus macaque",
         "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Gallus gallus",
+        "description":"The common domestic fowl, Chicken.",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
       }
     ]
   },
