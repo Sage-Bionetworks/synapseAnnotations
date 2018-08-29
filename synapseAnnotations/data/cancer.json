@@ -106,8 +106,8 @@
     ]
   },
   {
-    "name": "transplantationDonorSpecies",
-    "description": "Species from which donor tissue originated",
+    "name": "transplantationRecipientSpecies",
+    "description": "Species into which donor tissue was grown",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
