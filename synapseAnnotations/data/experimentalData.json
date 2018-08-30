@@ -337,6 +337,11 @@
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
       },
       {
+        "value": "mammary gland",
+        "description": "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001911"
+      },
+      {
         "value": "nerves",
         "description": "Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000925"
@@ -756,6 +761,11 @@
         "source": ""
       },
       {
+        "value": "embryonic tissue",
+        "description": "A portion of tissue that is part of an embryo.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005291"
+      },
+      {
         "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
@@ -841,7 +851,12 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-      {
+     {
+        "value": "HiSeq3000",
+        "description": "Illumina HiSeq 3000",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
+     },
+     {
         "value": "HiSeq2500",
         "description": "Illumina HiSeq 2500",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
@@ -915,6 +930,11 @@
         "value": "Illumina_Omni5M",
         "description": "",
         "source": ""
+      },
+      {
+          "value":"Illumina MouseWG-6 v2.0 expression beadchip",
+          "description":"Whole-genome expression profiling in the mouse",
+          "source":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
       },
       {
         "value": "Perlegen300Karray",
