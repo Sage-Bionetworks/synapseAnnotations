@@ -253,7 +253,7 @@
         "source":"http://purl.obolibrary.org/obo/NCIT_C3183"
       },
       {
-        "value": "Chronic Lymphocytic Leukemia",
+        "value": "chronic lymphocytic leukemia",
         "description": "A lymphoblastic leukemia characterized by over production of B-cells and their accumulation in bone marrow and blood. ",
         "source":"http://purl.obolibrary.org/obo/DOID_1040"
       },
