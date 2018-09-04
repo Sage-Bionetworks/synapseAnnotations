@@ -420,6 +420,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Volume",
+        "description": "The amount of three dimensional space occupied by an object or the capacity of a space or container.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C25335"
+      },
+      {
         "value": "Pharmacokinetic Study",
         "description": "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C49663"
@@ -488,9 +493,7 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
-      },
-      {
-        "value": "Pharmco
+      }
     ]
   },
   {
