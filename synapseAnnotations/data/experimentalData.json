@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Vernier Caliper",
+        "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
+      },
+      {
         "value": "scale",
         "description": "An instrument or machine for weighing.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000217"
@@ -40,6 +45,11 @@
         "value": "UPLC-MSMS",
         "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
         "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+      },
+      {
+        "value": "HPLC-MSMS",
+        "description": "An analytical technique wherein high performance liquid chromatography is coupled to tandem mass spectrometry in order to separate, identify, and quantify substances in a sample.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
       },
       {
         "value": "rnaSeq",
@@ -410,6 +420,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Pharmacokinetic Study",
+        "description": "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C49663"
+      },
+      {
         "value": "genomicVariants",
         "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
@@ -473,7 +488,9 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
-      }
+      },
+      {
+        "value": "Pharmco
     ]
   },
   {
