@@ -78,7 +78,7 @@
   },
   {
     "name": "readLength",
-    "description": "The length of thre read",
+    "description": "The length of the read",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
