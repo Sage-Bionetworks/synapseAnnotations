@@ -23,23 +23,7 @@ Schemas for specific communities and consortia are also defined, such as for the
 
 # Development
 
-This section discusses the technical steps for developing on this repository. See the [CONTRIBUTING.md](CONTRIBUTING.md) document for more information on how to contribute annotations to this project.
-
-Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the `develop` branch require a review before merging. The only pull requests that will go to `master` are from `develop`, and will trigger a new release (see below for release procedures). If you are editing using the Github web site, make sure you switch to the `develop` branch first before clicking the `Edit this file` button. If you accidentally open a pull request against `master`, you can change this in your pull request using the `Edit` button.
-
-All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
-
-When modifying the JSON schema files, we encourage you to install `demjson` to test your JSON files:
-
-```
-pip install demjson==2.2.4
-```
-
-or use the provided [requirements.txt](requirements.txt) file provided in this repository:
-
-```
-pip install -r requirements.txt
-```
+This section discusses the steps for developing on this repository. See the [CONTRIBUTING.md](CONTRIBUTING.md) document for more information on how to contribute annotations to this project.
 
 ## Proposing changes
 
