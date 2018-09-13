@@ -425,6 +425,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C25335"
       },
       {
+        "value": "Weight",
+        "description": "The vertical force exerted by a mass as a result of gravity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C25208"
+      },
+      {
         "value": "Pharmacokinetic Study",
         "description": "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C49663"
