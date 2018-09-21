@@ -24,6 +24,11 @@
               "value": "tool",
               "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
               "source": "Sage Bionetworks"
+          },
+          {
+              "value": "report",
+              "description": "a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).",
+              "source": "http://purl.obolibrary.org/obo/IAO_0000088"
           }
          ]
   },
