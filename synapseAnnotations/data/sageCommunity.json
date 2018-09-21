@@ -441,6 +441,11 @@
         "source": "http://edamontology.org/format_2332"
       },
       {
+        "value": "gzip",
+        "description": "GZipped format",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C80220"
+      },
+      {
         "value": "sdf",
         "description": "SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.",
         "source": "http://edamontology.org/format_3814"
