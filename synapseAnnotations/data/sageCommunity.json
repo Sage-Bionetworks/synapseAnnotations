@@ -476,12 +476,12 @@
         "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml"
       },
       {
-        "value": "AB1",
+        "value": "ab1",
         "description": "TAB1 binary format of raw DNA sequence reads (output of Applied Biosystems' sequencing analysis software). Contains an electropherogram and the DNA base sequence.",
         "source": "http://edamontology.org/format_3000"
       },
       {
-        "value": "7Z Compression Format",
+        "value": "7z",
         "description": "A compressed archive file format that supports several different data compression, encryption and pre-processing filters.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C80224"
       },
@@ -496,7 +496,7 @@
         "source": "http://edamontology.org/format_3464"
       },
       {
-        "value": "SQLite format",
+        "value": "sqlite",
         "description": "Data format used by the SQLite database.",
         "source": "http://edamontology.org/format_3621"
       },      
