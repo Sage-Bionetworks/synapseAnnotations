@@ -443,7 +443,7 @@
       {
         "value": "gzip",
         "description": "GZipped format",
-        "source": "http://bioportal.bioontology.org/ontologies/SWO/?p=classes&conceptid=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fdata%2FSWO_3000077#details"
+        "source": "http://purl.obolibrary.org/obo/NCIT_C80220"
       },
       {
         "value": "sdf",
