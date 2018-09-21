@@ -341,11 +341,6 @@
         "source": "https://openslide.org/formats/aperio/"
       },
       {
-        "value": "svs",
-        "description": "A single-file pyramidal tiled TIFF, with non-standard metadata and compression.",
-        "source": "https://openslide.org/formats/aperio/"
-      },
-      {
         "value": "md",
         "description": "Markdown (MD) is a lightweight markup language with plain text formatting syntax",
         "source": "https://en.wikipedia.org/wiki/Markdown"
