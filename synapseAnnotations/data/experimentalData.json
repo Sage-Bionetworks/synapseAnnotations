@@ -82,6 +82,11 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
       },
       {
+        "value": "Sanger sequencing",
+        "description": "A DNA sequencing technique in which a mixture of deoxynucleosidetriphosphates (dNTPs) and chain-terminating dNTPs, which are radioactively or fluorescently labeled, are combined within the reaction mixture. Once the reaction is complete, the DNA strands are separated by size, and the labeled chain terminating dNTPs can be read in sequence by the investigator or by a machine.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C19641"
+      },
+      {
         "value": "ChIPSeq",
         "description": "Chromatin immuno-precipitation followed by sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0000716"
