@@ -476,6 +476,11 @@
         "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml"
       },
       {
+        "value": "hic",
+        "description": "Hi-C contact matrix file",
+        "source": "https://github.com/theaidenlab/juicer/wiki/Data"
+      },
+      {
         "value": "ab1",
         "description": "TAB1 binary format of raw DNA sequence reads (output of Applied Biosystems' sequencing analysis software). Contains an electropherogram and the DNA base sequence.",
         "source": "http://edamontology.org/format_3000"
