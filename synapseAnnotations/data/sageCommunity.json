@@ -24,6 +24,11 @@
               "value": "tool",
               "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
               "source": "Sage Bionetworks"
+          },
+          {
+              "value": "report",
+              "description": "a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).",
+              "source": "http://purl.obolibrary.org/obo/IAO_0000088"
           }
          ]
   },
@@ -306,6 +311,11 @@
         "source": "http://edamontology.org/format_3615"
       },
       {
+        "value": "zip",
+        "description": "zip is a format standard of a digital entity that is conformant with the PKWARE .ZIP file format specification",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000325"
+      },
+      {
         "value": "seg",
         "description": "SEG file (segmented data; .seg or .cbs) is a tab-delimited text file that lists loci and associated numeric values",
         "source": "https://software.broadinstitute.org/software/igv/SEG"
@@ -314,6 +324,21 @@
         "value": "html",
         "description": "HTML format",
         "source": "http://edamontology.org/format_2331"
+      },
+      {
+        "value": "mov",
+        "description": "A video file format with the .mov extension",
+        "source": "Sage Bioenetworks"
+      },
+      {
+        "value": "hyperlink",
+        "description": "A reference (link) from some point in one hypertext document to another document, another place in the same document, or a website.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C47919"
+      },
+      {
+        "value": "svs",
+        "description": "A single-file pyramidal tiled TIFF, with non-standard metadata and compression.",
+        "source": "https://openslide.org/formats/aperio/"
       },
       {
         "value": "md",
@@ -436,6 +461,11 @@
         "source": "http://edamontology.org/format_2332"
       },
       {
+        "value": "gzip",
+        "description": "GZipped format",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C80220"
+      },
+      {
         "value": "sdf",
         "description": "SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.",
         "source": "http://edamontology.org/format_3814"
@@ -449,6 +479,35 @@
         "value": "hic",
         "description": "Hi-C contact matrix file",
         "source": "https://github.com/theaidenlab/juicer/wiki/Data"
+      },
+        "value": "ab1",
+        "description": "TAB1 binary format of raw DNA sequence reads (output of Applied Biosystems' sequencing analysis software). Contains an electropherogram and the DNA base sequence.",
+        "source": "http://edamontology.org/format_3000"
+      },
+      {
+        "value": "7z",
+        "description": "A compressed archive file format that supports several different data compression, encryption and pre-processing filters.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C80224"
+      },
+      {
+        "value": "gff3",
+        "description": "Generic Feature Format version 3 (GFF3) of sequence features.",
+        "source": "http://edamontology.org/format_1975"
+      },
+      {
+        "value": "json",
+        "description": "JavaScript Object Notation format; a lightweight, text-based format to represent tree-structured data using key-value pairs.",
+        "source": "http://edamontology.org/format_3464"
+      },
+      {
+        "value": "sqlite",
+        "description": "Data format used by the SQLite database.",
+        "source": "http://edamontology.org/format_3621"
+      },      
+      {
+        "value": "svg",
+        "description": "Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.",
+        "source": "http://edamontology.org/format_3604"
       }
     ]
   }
