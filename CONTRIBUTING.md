@@ -50,11 +50,27 @@ Example:
         "source": "PubMed Link Goes Here"
 },
 ```
+### Contribution of species terms
 
+The preferred strategy for species name annotation is to search the [NCBI Taxonomy Browser](https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Root) to find names, descriptions, and sources. The format of the description should be "`Species name` with taxonomy ID: `taxonomyID` and Genbank common name `common name`". The species name, taxonomyID, and Genbank common name can all be found in the NCBI Taxonomy Browser entry for the species.
+
+For example:
+
+```json
+{
+        "value": "Drosophila melanogaster",
+        "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7227"
+}
+```
+
+### Contribution of file formats
+
+We use the `fileFormat` key to indicate, well, the file format of a file uploaded to Synapse. Given the bias towards genomics files in Synapse, our source for file formats tends to come from [EDAM](http://edamontology.org/), [NCIT](http://www.ontobee.org/ontology/NCIT), but also Wikipedia and corporate web site descriptions. One thing to note is that the `value` to be contributed does not need to be the same as the commonly used file extension. For example, we describe GZipped files as `gzip`, while a GZipped file generally has an extension of `gz`.
 
 ## Contribution procedure
 
-Again, this is focused on Sage Bionetworks supported communities and employees. This focuses on the logistical components to contributing - for the technical components, please see the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document.
+Again, this is focused on Sage Bionetworks supported communities and employees.
 
 1. Propose a change, either through a Github [issue](https://github.com/Sage-Bionetworks/synapseAnnotations/issues) or [pull request](https://github.com/Sage-Bionetworks/synapseAnnotations/pulls). Your change should be as atomic as possible - e.g., don't lump together many unrelated changes into a single issue or pull request. You may be requested to split them out.
 1. Label your issue or pull request with the appropriate labels. For example, if you are suggesting a new value be added to an existing key, then `create value` would be the appropriate label.
@@ -62,4 +78,23 @@ Again, this is focused on Sage Bionetworks supported communities and employees. 
 1. If this is a pull request a review from someone in Github - this can be found under 'Reviewers' on the right side of the screen when viewing a Github issue. It's fine if they can review your pull request without meeting. Otherwise, set up a meeting on your own to meet with your reviewer.
 1. If your reviewer has no problems with the change, then the change can be merged. 
 The issue creator is responsible for merging. Note that you can use [keywords](https://help.github.com/articles/closing-issues-using-keywords/) to close issues via your pull request. See the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document for the merging procedure.
-1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion.
+1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion. To schedule an issue or pull request for discussion, add it to the GitHub milestone for the meeting date when you wish to discuss it.
+
+### Technical details
+
+Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the `develop` branch require a review before merging. The only pull requests that will go to `master` are from `develop`, and will trigger a new release (see below for release procedures). If you are editing using the Github web site, make sure you switch to the `develop` branch first before clicking the `Edit this file` button. If you accidentally open a pull request against `master`, you can change this in your pull request using the `Edit` button.
+
+All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
+
+
+When modifying the JSON schema files, we encourage you to install `demjson` to test your JSON files:
+
+```
+pip install demjson==2.2.4
+```
+
+or use the provided [requirements.txt](requirements.txt) file provided in this repository:
+
+```
+pip install -r requirements.txt
+```
