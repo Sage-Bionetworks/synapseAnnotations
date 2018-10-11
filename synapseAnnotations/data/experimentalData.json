@@ -503,6 +503,11 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
+      },
+      {
+        "value": "clinical",
+        "description":"Data obtained through patient examination or treatment.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C15783"
       }
     ]
   },
