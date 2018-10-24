@@ -870,6 +870,11 @@
         "value": "unspecified",
         "description": "Unspecified tissue or tissues from an organ.",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "whole brain",
+        "description": "Brain tissue not limited to a specific region.",
+        "source": "Sage Bionetworks"
       }
     ]
   },
