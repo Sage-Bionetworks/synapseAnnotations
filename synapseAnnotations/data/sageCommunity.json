@@ -123,19 +123,9 @@
         "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
       },
       {
-        "value": "Synodos NF1",
-        "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project",
+        "value": "Synodos",
+        "description": "Data derived from a CTF-Funded Synodos project",
         "source": "https://www.synapse.org/ctf"
-      },
-      {
-        "value": "Synodos NF2",
-        "description": "Data derived from the CTF-funded NF2 Synodos project",
-        "source": "https://www.synapse.org/syndosnf2"
-      },
-      {
-        "value": "Synodos LGG",
-        "description": "Data derived from the CTF-funded NF1 LGG Synodos project",
-        "source": "http://www.synapse.org/nf1lgg"
       },
       {
         "value": "DHART SPORE",
