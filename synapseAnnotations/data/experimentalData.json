@@ -1461,6 +1461,11 @@
         "value": "Gallus gallus",
         "description":"The common domestic fowl, Chicken.",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
+      },
+      {
+        "value": "Sus scrofa",
+        "description":"Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823"
       }
     ]
   },
