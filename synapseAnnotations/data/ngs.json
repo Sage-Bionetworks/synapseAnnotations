@@ -78,7 +78,7 @@
   },
   {
     "name": "readLength",
-    "description": "The length of thre read",
+    "description": "The length of the read",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": []
@@ -151,27 +151,27 @@
      "maximumSize": 256,
      "enumValues": [
   {
-      "name": "bulk cell",
+      "value": "bulk cell",
       "description": "All cells from bulk sample",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name":"single cell",
+       "value":"single cell",
         "description": "Single cell",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-      "name": "bulk nuclei",
+      "value": "bulk nuclei",
        "description": "All nuclei from bulk sample",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name": "single nucleus",
+       "value": "single nucleus",
        "description": "Single nuclei",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
   {
-       "name":"mitochondria",
+       "value":"mitochondria",
    "description": "Mitochondria only",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
@@ -184,52 +184,52 @@
   "maximumSize": 256,
   "enumValues": [
     {         
-      "name":" 10x_v2", 
+      "value":" 10x_v2", 
          "description" : "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-       "name":"FACS", 
+       "value":"FACS", 
          "description" : "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-        "name": "Fluidigm C1", 
+        "value": "Fluidigm C1", 
          "description" : "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-         "name": "drop-seq", 
+         "value": "drop-seq", 
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name": "inDrop", 
+      "value": "inDrop", 
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name": "mouth pipette", 
+      "value": "mouth pipette", 
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name": "bulk",
+      "value": "bulk",
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {           
-      "name": "enzymatic",
+      "value": "enzymatic",
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   },
     {
-      "name": "mechanical",
+      "value": "mechanical",
          "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
     },
     {
-     "name": "none",
+     "value": "none",
        "description": "",
       "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
   }
