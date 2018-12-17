@@ -499,6 +499,11 @@
         "value": "svg",
         "description": "Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.",
         "source": "http://edamontology.org/format_3604"
+      },
+      {
+        "value": "sra",
+        "description": "SRA archive format (SRA) is the archive format used for input to the NCBI Sequence Read Archive.",
+        "source": "http://edamontology.org/format_3698"
       }
     ]
   }
