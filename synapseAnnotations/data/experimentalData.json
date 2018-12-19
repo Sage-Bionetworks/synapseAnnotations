@@ -420,7 +420,12 @@
         "value": "Bursa Of Fabricius",
         "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
-      }
+      },
+      {
+         "value": "nose",
+         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+       }
     ]
   },
   {
