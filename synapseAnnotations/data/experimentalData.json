@@ -265,6 +265,11 @@
         "value": "RPPA",
         "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
         "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      },
+      {
+        "value": "ELISA",
+        "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
       }
     ]
   },
@@ -439,7 +444,12 @@
         "value": "Bursa Of Fabricius",
         "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
-      }
+      },
+      {
+         "value": "nose",
+         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+       }
     ]
   },
   {
@@ -532,6 +542,11 @@
         "value": "clinical",
         "description":"Data obtained through patient examination or treatment.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C15783"
+      },
+      {
+        "value": "immunoassay",
+        "description": "Laboratory test involving interaction of antigens with specific antibodies.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C16723"
       }
     ]
   },
