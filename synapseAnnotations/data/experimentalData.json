@@ -546,6 +546,11 @@
         "value": "Rush",
         "description": "Rush Alzheimer's Disease Center",
         "source": "https://www.radc.rush.edu/"
+      },
+      {
+        "value": "JAX",
+        "description": "The Jackson Laboratory",
+        "source": "https://www.jax.org"
       }
       ]
   },
