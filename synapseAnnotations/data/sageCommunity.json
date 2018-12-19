@@ -103,6 +103,11 @@
         "source": "https://www.synapse.org/ampad"
       },
       {
+        "value": "Resilience-AD",
+        "description": "Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer's Disease Risk",
+        "source": "https://www.synapse.org/ampad"
+      },
+      {
         "value": "BSMN",
         "description": "Brain Somatic Mosaicism Network",
         "source": "https://www.synapse.org/bsmn"
