@@ -1,0 +1,65 @@
+[
+  {
+    "name": "group", 
+    "description": "Groups involved in the VEO-IBD consortium.", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "Hospital for Sick Children", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Dr. von Hauner Children’s Hospital", 
+        "description": "", 
+        "Source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Boston Children’s Hospital", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Mount Sinai School of Medicine - Cho", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Mount Sinai School of Medicine - Schadt", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Cedars Sinai Hospital", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Hubrecht Institute", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Howard Hughes Medical Institute", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Institute of Molecular Biotechnology", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Nuffield Department of Medicine", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }, 
+      {
+        "value": "Stanford University School of Medicine", 
+        "description": "", 
+        "source": "Sage Bionetworks"
+      }
+    ]
+  }
+]
