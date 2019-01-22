@@ -222,7 +222,31 @@
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       },
       {
-
+        "value": "contextual conditioning behavior",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+      },
+      {
+        "value": "anxiety-related behavior",
+        "description": "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000092"
+      },
+      {
+        "value": "memory behavior",
+        "description": "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000170"
+      },
+      {
+        "value": "kinesthetic behavior",
+        "description": "Movement behavior of the body or its parts.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000338"
+      },
+      {
+        "value": "locomotor activation behavior",
+        "description": "Activation of locomotory behavior.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000447"
+      },
+      {
         "value": "oxBS-Seq",
         "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
