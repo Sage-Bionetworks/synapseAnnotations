@@ -241,6 +241,11 @@
         "value": "RPPA",
         "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
         "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      },
+      {
+        "value": "ELISA",
+        "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
       }
     ]
   },
@@ -415,7 +420,12 @@
         "value": "Bursa Of Fabricius",
         "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
-      }
+      },
+      {
+         "value": "nose",
+         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+       }
     ]
   },
   {
@@ -503,6 +513,16 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
+      },
+      {
+        "value": "clinical",
+        "description":"Data obtained through patient examination or treatment.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C15783"
+      },
+      {
+        "value": "immunoassay",
+        "description": "Laboratory test involving interaction of antigens with specific antibodies.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C16723"
       }
     ]
   },
@@ -536,6 +556,11 @@
         "value": "Rush",
         "description": "Rush Alzheimer's Disease Center",
         "source": "https://www.radc.rush.edu/"
+      },
+      {
+        "value": "JAX",
+        "description": "The Jackson Laboratory",
+        "source": "https://www.jax.org"
       }
       ]
   },
@@ -864,6 +889,11 @@
       {
         "value": "unspecified",
         "description": "Unspecified tissue or tissues from an organ.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "whole brain",
+        "description": "Brain tissue not limited to a specific region.",
         "source": "Sage Bionetworks"
       }
     ]
@@ -1451,6 +1481,11 @@
         "value": "Gallus gallus",
         "description":"The common domestic fowl, Chicken.",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
+      },
+      {
+        "value": "Sus scrofa",
+        "description":"Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823"
       }
     ]
   },

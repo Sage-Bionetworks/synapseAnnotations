@@ -103,6 +103,11 @@
         "source": "https://www.synapse.org/ampad"
       },
       {
+        "value": "Resilience-AD",
+        "description": "Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer's Disease Risk",
+        "source": "https://www.synapse.org/ampad"
+      },
+      {
         "value": "BSMN",
         "description": "Brain Somatic Mosaicism Network",
         "source": "https://www.synapse.org/bsmn"
@@ -123,19 +128,9 @@
         "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
       },
       {
-        "value": "Synodos NF1",
-        "description": "Data derived from the CTF-funded NF1 pre-clinical model Synodos project",
+        "value": "Synodos",
+        "description": "Data derived from a CTF-Funded Synodos project",
         "source": "https://www.synapse.org/ctf"
-      },
-      {
-        "value": "Synodos NF2",
-        "description": "Data derived from the CTF-funded NF2 Synodos project",
-        "source": "https://www.synapse.org/syndosnf2"
-      },
-      {
-        "value": "Synodos LGG",
-        "description": "Data derived from the CTF-funded NF1 LGG Synodos project",
-        "source": "http://www.synapse.org/nf1lgg"
       },
       {
         "value": "DHART SPORE",
@@ -509,6 +504,11 @@
         "value": "svg",
         "description": "Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.",
         "source": "http://edamontology.org/format_3604"
+      },
+      {
+        "value": "sra",
+        "description": "SRA archive format (SRA) is the archive format used for input to the NCBI Sequence Read Archive.",
+        "source": "http://edamontology.org/format_3698"
       }
     ]
   }
