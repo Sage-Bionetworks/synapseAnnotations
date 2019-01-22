@@ -677,6 +677,51 @@
         "value": "Stanford University School of Medicine", 
         "description": "Group in VEO-IBD consortium.", 
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Chess-Walsh-Akbarian", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Gage", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Gleeson", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Moran", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Pevsner", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Sestan", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Vaccarino", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Walsh-Park", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Weinberger", 
+        "description": "Group in BSMN consortium.", 
+        "source": "Sage Bionetworks"
       }
     ]
   }
