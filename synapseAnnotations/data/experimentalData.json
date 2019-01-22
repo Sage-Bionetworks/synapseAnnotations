@@ -13,6 +13,21 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Vernier Caliper",
+        "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
+      },
+      {
+        "value": "scale",
+        "description": "An instrument or machine for weighing.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+      },
+      {
+        "value": "in vivo bioluminescence",
+        "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+      },
+      {
         "value": "immunohistochemistry",
         "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
         "source": "http://purl.obolibrary.org/obo/OBI_0001986"},
@@ -30,6 +45,11 @@
         "value": "UPLC-MSMS",
         "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
         "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+      },
+      {
+        "value": "HPLC-MSMS",
+        "description": "An analytical technique wherein high performance liquid chromatography is coupled to tandem mass spectrometry in order to separate, identify, and quantify substances in a sample.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
       },
       {
         "value": "rnaSeq",
@@ -60,6 +80,11 @@
         "value": "exomeSeq",
         "description": "Data derived from exome sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
+      },
+      {
+        "value": "Sanger sequencing",
+        "description": "A DNA sequencing technique in which a mixture of deoxynucleosidetriphosphates (dNTPs) and chain-terminating dNTPs, which are radioactively or fluorescently labeled, are combined within the reaction mixture. Once the reaction is complete, the DNA strands are separated by size, and the labeled chain terminating dNTPs can be read in sequence by the investigator or by a machine.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C19641"
       },
       {
         "value": "ChIPSeq",
@@ -161,10 +186,15 @@
         "description": "",
         "source": ""
       },
-      {
+       {
         "value": "MIB/MS",
         "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+      },
+      {
+        "value": "scCGIseq",
+        "description":"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
       },
       {
         "value": "MudPIT",
@@ -192,7 +222,31 @@
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       },
       {
-
+        "value": "contextual conditioning behavior",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+      },
+      {
+        "value": "anxiety-related behavior",
+        "description": "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000092"
+      },
+      {
+        "value": "memory behavior",
+        "description": "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000170"
+      },
+      {
+        "value": "kinesthetic behavior",
+        "description": "Movement behavior of the body or its parts.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000338"
+      },
+      {
+        "value": "locomotor activation behavior",
+        "description": "Activation of locomotory behavior.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000447"
+      },
+      {
         "value": "oxBS-Seq",
         "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
@@ -201,6 +255,79 @@
         "value": "Ribo-Seq",
         "description": "Ribosome profiling (Ribo-Seq).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+      },
+      {
+        "value": "Positron Emission Tomography",
+        "description": "A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17007"
+      },
+      {
+        "value": "RPPA",
+        "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+        "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      },
+      {
+        "value": "ELISA",
+        "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
+      }
+    ]
+  },
+  {
+    "name": "assayTarget", 
+    "description": "", 
+    "columnType": "STRING", 
+    "maximumSize": 250, 
+    "enumValues": [
+      {
+        "value": "H3K9me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K4me1", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K36me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K27me3", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "H3K9ac", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "REST", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "CTCF", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "input", 
+        "description": "", 
+        "source": ""
       }
     ]
   },
@@ -252,6 +379,11 @@
         "value": "skin",
         "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
         "source": "http://purl.obolibrary.org/obo/BTO_0001253"
+      },
+      {
+        "value": "mammary gland",
+        "description": "A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001911"
       },
       {
         "value": "nerves",
@@ -307,7 +439,17 @@
         "value": "bone marrow",
         "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
         "source": "http://purl.obolibrary.org/obo/BTO_0000141"
-      }
+      },
+      {
+        "value": "Bursa Of Fabricius",
+        "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
+      },
+      {
+         "value": "nose",
+         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+       }
     ]
   },
   {
@@ -317,9 +459,29 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Volume",
+        "description": "The amount of three dimensional space occupied by an object or the capacity of a space or container.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C25335"
+      },
+      {
+        "value": "Weight",
+        "description": "The vertical force exerted by a mass as a result of gravity.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C25208"
+      },
+      {
+        "value": "Pharmacokinetic Study",
+        "description": "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C49663"
+      },
+      {
         "value": "genomicVariants",
         "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
+      },
+      {
+        "value": "behavior process",
+        "description": "The action, reaction, or performance of an organism in response to external or internal stimuli.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000313"
       },
       {
         "value": "metabolomics",
@@ -361,7 +523,7 @@
         "description": "",
         "source": ""
       },
-      {
+      { 
         "value": "chromatinActivity",
         "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
         "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
@@ -375,6 +537,16 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
+      },
+      {
+        "value": "clinical",
+        "description":"Data obtained through patient examination or treatment.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C15783"
+      },
+      {
+        "value": "immunoassay",
+        "description": "Laboratory test involving interaction of antigens with specific antibodies.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C16723"
       }
     ]
   },
@@ -403,6 +575,16 @@
         "value": "Pitt",
         "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
         "source": "https://neurobiobank.nih.gov/"
+      },
+      {
+        "value": "Rush",
+        "description": "Rush Alzheimer's Disease Center",
+        "source": "https://www.radc.rush.edu/"
+      },
+      {
+        "value": "JAX",
+        "description": "The Jackson Laboratory",
+        "source": "https://www.jax.org"
       }
       ]
   },
@@ -658,6 +840,11 @@
         "source": ""
       },
       {
+        "value": "embryonic tissue",
+        "description": "A portion of tissue that is part of an embryo.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0005291"
+      },
+      {
         "value": "meninges",
         "description": "The three thin layers of tissue that cover and protect the brain and spinal cord.",
         "source": "https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/"
@@ -707,6 +894,36 @@
         "value": "subgenual anterior cingulate cortex",
         "description": "",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "dorsal pallium",
+        "description": "Subdivision of pallium that is located dorsally",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0014740"
+      },
+      {
+        "value": "bone marrow",
+        "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+      },
+      {
+        "value": "Buccal Mucosa",
+        "description": "The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12505"
+      },
+      {
+        "value": "Dorsal Root Ganglion",
+        "description": "Ganglion with sensory function within the vertebral column.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12462"
+      },
+      {
+        "value": "unspecified",
+        "description": "Unspecified tissue or tissues from an organ.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "whole brain",
+        "description": "Brain tissue not limited to a specific region.",
+        "source": "Sage Bionetworks"
       }
     ]
   },
@@ -723,7 +940,12 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-      {
+     {
+        "value": "HiSeq3000",
+        "description": "Illumina HiSeq 3000",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
+     },
+     {
         "value": "HiSeq2500",
         "description": "Illumina HiSeq 2500",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
@@ -799,6 +1021,11 @@
         "source": ""
       },
       {
+          "value":"Illumina MouseWG-6 v2.0 expression beadchip",
+          "description":"Whole-genome expression profiling in the mouse",
+          "source":"https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
+      },
+      {
         "value": "Perlegen300Karray",
         "description": "",
         "source": ""
@@ -837,6 +1064,11 @@
         "value": "AffymetrixU133AB",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "Affymetrix Human Gene 1.0 ST Array",
+        "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
       },
       {
         "value": "AffymetrixU133Plus2",
@@ -918,9 +1150,19 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Schwann cell precusor",
+        "description": "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.",
+        "source": "http://purl.obolibrary.org/obo/CL_0002375"
+      },
+      {
         "value": "B-lymphocytes",
         "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
+      },
+      {
+        "value": "Embryonic stem cells",
+        "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12935"
       },
       {
         "value": "iPSC",
@@ -1039,6 +1281,11 @@
       },
       {
         "value": "iPSC-derived neuron",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "iPSC-derived astrocytes",
         "description": "",
         "source": "Sage Bionetworks"
       },
@@ -1169,6 +1416,11 @@
         "value": "Cervical Cancer",
         "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
         "source":"http://identifiers.org/omim/603956"
+      },
+      {
+        "value":"Juvenile Myelomonocytic Leukemia",
+        "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
       }
     ]
   },
@@ -1253,6 +1505,21 @@
         "value": "Rhesus macaque",
         "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Pan troglodytes",
+        "description": "Pan troglodytes with taxonomy ID: 9598 and Genbank common name: chimpanzee",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9598&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
+        "value": "Gallus gallus",
+        "description":"The common domestic fowl, Chicken.",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
+      },
+      {
+        "value": "Sus scrofa",
+        "description":"Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823"
       }
     ]
   },
