@@ -1,5 +1,72 @@
 # Change Log
 
+## [v9.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v9.0.0) (2018-08-21)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v8.0.0...v9.0.0)
+
+**Implemented enhancements:**
+
+- Added values to tissue [\#223](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/223) ([ychae](https://github.com/ychae))
+- Add whole genome optical imaging to assays [\#200](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/200) ([kdaily](https://github.com/kdaily))
+
+**Closed issues:**
+
+- Broken link for schema definitions [\#397](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/397)
+- Update annotations to account for JMML DHART SPORE project [\#394](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/394)
+- Remove stale branches [\#390](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/390)
+- need to add DESeq2 in analysis  [\#381](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/381)
+- add unit test to make sure everyone knows the annotation handshake [\#363](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/363)
+- modelSystem [\#357](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/357)
+- purpose of resourceType, value of some proposed terms? [\#350](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/350)
+- Create network annotations [\#340](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/340)
+- Additional annotation values for scRNA-Seq data [\#339](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/339)
+- Create ability to specify type of interface for tool [\#338](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/338)
+- add cellType: monocyte derived microglia [\#260](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/260)
+- add cellType: iPSC-derived neurons [\#258](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/258)
+- add cellType : iPSC derived neuronal progenitor cells [\#257](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/257)
+- What are recommended sources for \*all drug phases  [\#235](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/235)
+- Tissue homogenate vs nuclei [\#189](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/189)
+
+**Merged pull requests:**
+
+- Update CONTRIBUTING.md with file format guideline [\#412](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/412) ([kdaily](https://github.com/kdaily))
+- updated NF terms [\#409](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/409) ([sgosline](https://github.com/sgosline))
+- Additions to entries in species, assay, platform, organ in experimentalData.json; additions to tumorType in cancer.json  [\#408](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/408) ([milen-sage](https://github.com/milen-sage))
+- Add unspecified tissue [\#407](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/407) ([karawoo](https://github.com/karawoo))
+- Added embryonic stem cells to cellType [\#406](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/406) ([milen-sage](https://github.com/milen-sage))
+- Fix relative links in README.md [\#398](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/398) ([karawoo](https://github.com/karawoo))
+- NF-related additions [\#396](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/396) ([sgosline](https://github.com/sgosline))
+- Updated terms for JMML spore data [\#395](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/395) ([sgosline](https://github.com/sgosline))
+- Added dataType - behavior process [\#389](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/389) ([amapeters](https://github.com/amapeters))
+- Added contribution of species terms section [\#388](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/388) ([ychae](https://github.com/ychae))
+- added value dorsal pallium to tissue [\#385](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/385) ([ychae](https://github.com/ychae))
+- add value Enrichr, DEseq2, correct spelling of visualization [\#384](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/384) ([allaway](https://github.com/allaway))
+- add ssGSEA, GSVA [\#383](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/383) ([allaway](https://github.com/allaway))
+- Added value Ribo-Seq to assay [\#380](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/380) ([ychae](https://github.com/ychae))
+- added assay OxBS [\#379](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/379) ([ychae](https://github.com/ychae))
+- Add existing annotations to ontologies folder [\#377](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/377) ([karawoo](https://github.com/karawoo))
+- Add value "Rush" to individualIdSource [\#376](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/376) ([karawoo](https://github.com/karawoo))
+- Added value VZ/SVZ to tissue key [\#374](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/374) ([ychae](https://github.com/ychae))
+- Added tissue value cortical plate [\#373](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/373) ([ychae](https://github.com/ychae))
+- New and corrected compound names. [\#372](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/372) ([allaway](https://github.com/allaway))
+- Update CONTRIBUTING.md [\#370](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/370) ([kdaily](https://github.com/kdaily))
+- added STAR alignment method [\#369](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/369) ([allaway](https://github.com/allaway))
+- added key terminal differentiation point to experimentalData.json [\#368](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/368) ([ychae](https://github.com/ychae))
+- Added value plasma to tissue key [\#367](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/367) ([ychae](https://github.com/ychae))
+- Add a variety of values to reflect incoming CSBC data [\#361](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/361) ([sgosline](https://github.com/sgosline))
+- added 11 studies to neuro [\#360](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/360) ([ychae](https://github.com/ychae))
+- remove modelSystem [\#359](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/359) ([allaway](https://github.com/allaway))
+- added ngs analysis terms [\#358](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/358) ([allaway](https://github.com/allaway))
+- edited description of plink files [\#356](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/356) ([ychae](https://github.com/ychae))
+- Revise data, experimentalData and curatedData [\#355](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/355) ([allaway](https://github.com/allaway))
+- added additional software type [\#354](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/354) ([sgosline](https://github.com/sgosline))
+- updated ngs.json to accommodate scRNA-Seq data [\#353](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/353) ([sgosline](https://github.com/sgosline))
+- larger update to create networkType and update network annotations [\#352](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/352) ([sgosline](https://github.com/sgosline))
+- chem.json [\#349](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/349) ([allaway](https://github.com/allaway))
+- added .sdf and RData formats [\#348](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/348) ([allaway](https://github.com/allaway))
+- add chemical input/outputs [\#347](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/347) ([allaway](https://github.com/allaway))
+- added values novelObjectRecognition and activePlaceAvoidance [\#342](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/342) ([ychae](https://github.com/ychae))
+- Added new study [\#296](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/296) ([amapeters](https://github.com/amapeters))
+
 ## [v8.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v8.0.0) (2018-02-23)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v7.0.0...v8.0.0)
 
