@@ -1476,6 +1476,20 @@
     ]
   },
   {
+    "name": "cellLine",
+    "description": "Identifying string linked to a particular cell line",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+    {
+    "name": "cellLineSource",
+    "description": "Identifying source of cell line, such as ATCC site",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
     "name": "species",
     "description": "The name of a species (typically a taxonomic group) of organism.",
     "columnType": "STRING",
