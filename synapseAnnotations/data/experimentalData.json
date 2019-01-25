@@ -360,6 +360,19 @@
     ]
   },
   {
+    "name": "bodyPart",
+    "description": "Named areas of the body.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "head",
+        "description": "The head is the anterior-most division of the body.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0000033"
+      }
+    ]
+  },
+  {
     "name": "organ",
     "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "columnType": "STRING",
