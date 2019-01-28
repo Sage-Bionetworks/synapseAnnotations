@@ -520,7 +520,7 @@
       },
       {
         "value": "drugCombinationScreen",
-        "description": "Information on drug sensitivity of more than one compount",
+        "description": "Information on drug sensitivity of more than one compound",
         "source": "https://www.ncbi.nlm.nih.gov/pubmed/29344898"
       },
       {
