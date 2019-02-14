@@ -270,6 +270,16 @@
         "value": "ELISA",
         "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
+      },
+      {
+        "value": "LTP",
+        "description": "Any measurable or observable characteristic related to the persistent robust synaptic response induced by synchronous stimulation of pre- and postsynaptic cells.",
+        "source": "http://purl.obolibrary.org/obo/VT_0002207"
+      },
+      {
+        "value": "LFP",
+        "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0002189"
       }
     ]
   },
