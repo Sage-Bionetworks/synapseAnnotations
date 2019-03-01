@@ -43,7 +43,7 @@
       },
       {
         "value": "container",
-        "description": "This is any containerized software, be it a 'workflow' or a 'tool",
+        "description": "A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.",
         "source": "Sage Bionetworks"
       },
       {
