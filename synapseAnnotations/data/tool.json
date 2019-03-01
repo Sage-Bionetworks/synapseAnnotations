@@ -188,7 +188,7 @@
         "source": "Sage Bionetworks"
       }, 
       {
-        "value": "containerRegistry",
+        "value": "container registry",
         "description": "A location that registers container images",
         "source": "Sage Bionetworks"
       }
