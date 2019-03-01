@@ -183,7 +183,7 @@
         "source": ""
       },
       {
-        "value": "containerImageRepository",
+        "value": "container image repository",
         "description": "A location that hosts built container images",
         "source": "Sage Bionetworks"
       }, 
