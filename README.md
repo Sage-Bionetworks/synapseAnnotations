@@ -52,8 +52,8 @@ Patch version increments by:
 
 To optimize usability, the release tags should be placed on two required and one optional locations:
 1. A Synapse Project annotation as a single value defined by the key **`annotationReleaseVersion`**.
-2. The Shiny application [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI)'s **title**
-3. OPTIONAL: Documented in a Synapse Project wiki.
+1. The Shiny application [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI)'s **title**
+1. OPTIONAL: Documented in a Synapse Project wiki.
 
 ## Update `CHANGELOG.md` and release notes
 
@@ -62,18 +62,18 @@ After drafting a release, use this [Ruby package](https://github.com/skywinder/g
 The steps to create a release are as follows:
 
 1. Merge the develop branch into master and push to GitHub
-2. Run the [changelog generator](https://github.com/github-changelog-generator/github-changelog-generator)
+1. Run the [changelog generator](https://github.com/github-changelog-generator/github-changelog-generator)
    1. If you haven't already, install the changelog generator `gem install github_changelog_generator`
-   2. From within the synapseAnnotations directory on your machine, run `github_changelog_generator -u Sage-Bionetworks -p synapseAnnotations --future-release XX.XX.XX` (replacing `X.X.X` with the new version number)
-3. Commit the new CHANGELOG.md directly to master and push to GitHub.
-4. Create a new release on Github using the web interface. Both the tag version and release title should be "vX.X.X".
-5. Copy the new section of CHANGELOG.md to release notes section of the new release.
-6. Merge the master branch into develop and push to GitHub.
+   1. From within the synapseAnnotations directory on your machine, run `github_changelog_generator -u Sage-Bionetworks -p synapseAnnotations --future-release XX.XX.XX` (replacing `X.X.X` with the new version number)
+1. Commit the new CHANGELOG.md directly to master and push to GitHub.
+1. Create a new release on Github using the web interface. Both the tag version and release title should be "vX.X.X".
+1. Copy the new section of CHANGELOG.md to release notes section of the new release.
+1. Merge the master branch into develop and push to GitHub.
 
 Generally, you will next want to update the [Synapse table](https://www.synapse.org/#!Synapse:syn10242922) that describes the annotations and powers the [AnnotationUI](https://shinypro.synapse.org/users/nsanati/annotationUI/):
 
 1. Clone the [annotator](https://github.com/Sage-Bionetworks/annotator/) repository locally (e.g. `git clone git@github.com:Sage-Bionetworks/annotator.git`).
-2. From within your local copy of the repository, install annotator (`python setup.py install`).
-3. Run the command `annotator json2table`.
+1. From within your local copy of the repository, install annotator (`python setup.py install`).
+1. Run the command `annotator json2table`.
 
 Additional information about the release process can be found in [issue 392](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/392)
