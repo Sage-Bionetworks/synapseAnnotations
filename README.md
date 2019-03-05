@@ -64,7 +64,7 @@ The steps to create a release are as follows:
 1. Merge the develop branch into master and push to GitHub
 1. Run the [changelog generator](https://github.com/github-changelog-generator/github-changelog-generator)
    1. If you haven't already, install the changelog generator `gem install github_changelog_generator`
-   1. From within the synapseAnnotations directory on your machine, run `github_changelog_generator -u Sage-Bionetworks -p synapseAnnotations --future-release XX.XX.XX` (replacing `X.X.X` with the new version number)
+   1. From within the synapseAnnotations directory on your machine, run `github_changelog_generator -u Sage-Bionetworks -p synapseAnnotations --future-release X.X.X` (replacing `X.X.X` with the new version number)
 1. Commit the new CHANGELOG.md directly to master and push to GitHub.
 1. Create a new release on Github using the web interface. Both the tag version and release title should be "vX.X.X".
 1. Copy the new section of CHANGELOG.md to release notes section of the new release.
