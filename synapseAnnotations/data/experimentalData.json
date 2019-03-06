@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Immunocytochemistry",
+        "description": "The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
+      },
+      {
         "value": "Vernier Caliper",
         "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
