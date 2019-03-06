@@ -18,6 +18,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
       },
       {
+        "value": "Real Time PCR",
+        "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
+      },
+      {
         "value": "Vernier Caliper",
         "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
