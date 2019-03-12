@@ -58,11 +58,14 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 TBD
 | key |
 | --- |
+| curatedDataType|
 
 ### `report` files
 TBD
 | key |
 | --- |
+| diagnosis|
+
 
 ### `tools` files
 Anything that is a tool should be annotated with the following:
