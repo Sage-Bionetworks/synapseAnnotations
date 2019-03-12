@@ -9,7 +9,7 @@ These keys are required of all files in the NF-OSI projects
 | resourceType |
 | fileFormat   |
 | fundingAgency|
-| consortium   |
+| consortium  *if applicable* |
 
 The following requirement apply to subsets of data.
 
@@ -21,7 +21,6 @@ If `resourceType` is `experimentalData` we also require:
 | assay | *always* |
 | dataType |*always* |
 | dataSubtype| *always* |
-| platform |*always* |
 | specimenID |*always* |
 | individualID ||
 | species |*always* |
@@ -29,22 +28,22 @@ If `resourceType` is `experimentalData` we also require:
 | isCellLine |*always* |
 | sex |*always* |
 | tissue | if not cancer|
-| tumoeType| if cancer|
+| tumorType| if cancer|
 | nf1Genotype ||
 | nf2Genotype ||
 | genePerturbationType|*if applicable*|
-| genePertubrationTechnology| *if applicable*|
+| genePerturbationTechnology| *if applicable*|
 | genePerturbed|*if applicable*|
 | experimentalCondition|optional|
 | experimentalTimepoint|*if applicable*|
 | timePointUnit|*if applicable*|
-
 
 #### Files that are Sequencing
 All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`...) require these annotations:
 
 | key |
 | --- |
+| platform |
 | readLength |
 | readPair |
 | runType |
@@ -53,6 +52,28 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 | nucleicAcidSource |
 | libraryPrep |
 | libraryPreparationMethod |
+
+#### Files that are Arrays
+All sequencing files (`assay` is one of `snpArray`, `rnaArray`, `mirnaArray`...) require these annotations:
+
+| key ||
+| --- ||
+| platform ||
+| nucleicAcidSource | *if applicable* |
+
+#### Files that are Immunochemistry
+All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
+
+| key |
+| --- |
+| assayTarget |
+
+#### Files that are Drug Screening
+All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
+
+| key |
+| --- |
+| chemicalStructure | *if single or drug combination*, InChIKey only|
 
 ### `curatedData` files
 TBD
