@@ -18,7 +18,7 @@
     ]
   },
   {
-      "name": "read-pair",
+      "name": "readPair",
       "description": "The read of origin",
       "columnType": "STRING",
       "maximumSize": 5,
