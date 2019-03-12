@@ -30,11 +30,19 @@ If `resourceType` is `experimentalData` we also require:
 | sex ||
 | tissue | if not cancer|
 | tumoeType| if cancer|
+| nf1Genotype |
+| nf2Genotype |
+| genePerturbationType|
+| genePertubrationTechnology| 
+| genePerturbed|
+| experimentalCondition|
+| experimentalTimepoint|
+| timePointUnity|
 
 
 #### Files that are Sequencing
-All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`...)
-require these annotations:
+All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`...) require these annotations:
+
 | key |
 | --- |
 | readLength |
@@ -43,9 +51,22 @@ require these annotations:
 | isStranded |
 | dissociationMethod |
 | nucleicAcidSource |
-| libraryPrep
-
+| libraryPrep |
+| libraryPreparationMethod |
 
 ### `curatedData` files
 
 ### `report` files
+
+### `tools` files
+
+Anything that is a tool should be annotated with the following:
+| key |
+| --- |
+| softwareName |
+| softwareType |
+| softwareLanguage|
+|softwareRepository|
+| inputDataType |
+| outputDataType |
+
