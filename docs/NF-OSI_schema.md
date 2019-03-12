@@ -5,7 +5,7 @@ This document describes the metadata requirements for all NF specific projects
 These keys are required of all files in the NF-OSI projects
 
 | key | 
- |---| 
+|---| 
 | resourceType |
 | fileFormat   |
 | fundingAgency|
@@ -57,7 +57,7 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 All sequencing files (`assay` is one of `snpArray`, `rnaArray`, `mirnaArray`...) require these annotations:
 
 | key ||
-| --- ||
+| --- | --- |
 | platform ||
 | nucleicAcidSource | *if applicable* |
 
@@ -71,8 +71,8 @@ All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...
 #### Files that are Drug Screening
 All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
 
-| key |
-| --- |
+| key ||
+| --- | --- |
 | chemicalStructure | *if single or drug combination*, InChIKey only|
 
 ### `curatedData` files
