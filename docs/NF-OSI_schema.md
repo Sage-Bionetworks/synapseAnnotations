@@ -33,11 +33,11 @@ If `resourceType` is `experimentalData` we also require:
 | nf1Genotype ||
 | nf2Genotype ||
 | genePerturbationType|*if applicable*|
-| genePertubrationTechnology| if applicable*|
-| genePerturbed|if applicable*|
+| genePertubrationTechnology| *if applicable*|
+| genePerturbed|*if applicable*|
 | experimentalCondition|optional|
-| experimentalTimepoint|if applicable*|
-| timePointUnit|if applicable*|
+| experimentalTimepoint|*if applicable*|
+| timePointUnit|*if applicable*|
 
 
 #### Files that are Sequencing
@@ -58,13 +58,13 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 TBD
 | key |
 | --- |
-| curatedDataType|
+| curatedDataType |
 
 ### `report` files
 TBD
 | key |
 | --- |
-| diagnosis|
+| diagnosis |
 
 
 ### `tools` files
