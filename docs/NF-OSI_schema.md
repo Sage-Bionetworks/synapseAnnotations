@@ -55,18 +55,20 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 | libraryPreparationMethod |
 
 ### `curatedData` files
+TBD
 
 ### `report` files
+TBD
 
 ### `tools` files
-
 Anything that is a tool should be annotated with the following:
+
 | key |
 | --- |
 | softwareName |
 | softwareType |
-| softwareLanguage|
-|softwareRepository|
+| softwareLanguage |
+| softwareRepository|
 | inputDataType |
 | outputDataType |
 
