@@ -54,7 +54,7 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 | libraryPreparationMethod |
 
 #### Files that are Arrays
-All sequencing files (`assay` is one of `snpArray`, `rnaArray`, `mirnaArray`...) require these annotations:
+All array files (`assay` is one of `snpArray`, `rnaArray`, `mirnaArray`...) require these annotations:
 
 | key ||
 | --- | --- |
@@ -62,14 +62,14 @@ All sequencing files (`assay` is one of `snpArray`, `rnaArray`, `mirnaArray`...)
 | nucleicAcidSource | *if applicable* |
 
 #### Files that are Immunochemistry
-All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
+All immunochemistry files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
 
 | key |
 | --- |
 | assayTarget |
 
 #### Files that are Drug Screening
-All sequencing files (`assay` is one of `westernBlot`, `immunohistochemistry`...) require these annotations:
+All drug screening files (`assay` is `cellViabilityAssay`) require these annotations:
 
 | key ||
 | --- | --- |
