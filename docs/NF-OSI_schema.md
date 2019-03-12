@@ -56,12 +56,14 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 
 ### `curatedData` files
 TBD
+
 | key |
 | --- |
 | curatedDataType |
 
 ### `report` files
 TBD
+
 | key |
 | --- |
 | diagnosis |
