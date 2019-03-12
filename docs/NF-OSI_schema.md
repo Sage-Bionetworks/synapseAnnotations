@@ -18,26 +18,26 @@ If `resourceType` is `experimentalData` we also require:
 
 | key | condition |
 | --- | ---|
-| assay ||
-| dataType ||
-| dataSubtype| |
-| platform ||
-| specimenID ||
+| assay | *always* |
+| dataType |*always* |
+| dataSubtype| *always* |
+| platform |*always* |
+| specimenID |*always* |
 | individualID ||
-| species ||
-| diagnosis ||
-| isCellLine ||
-| sex ||
+| species |*always* |
+| diagnosis |If diseased|
+| isCellLine |*always* |
+| sex |*always* |
 | tissue | if not cancer|
 | tumoeType| if cancer|
-| nf1Genotype |
-| nf2Genotype |
-| genePerturbationType|
-| genePertubrationTechnology| 
-| genePerturbed|
-| experimentalCondition|
-| experimentalTimepoint|
-| timePointUnity|
+| nf1Genotype ||
+| nf2Genotype ||
+| genePerturbationType|*if applicable*|
+| genePertubrationTechnology| if applicable*|
+| genePerturbed|if applicable*|
+| experimentalCondition|optional|
+| experimentalTimepoint|if applicable*|
+| timePointUnit|if applicable*|
 
 
 #### Files that are Sequencing
@@ -56,9 +56,13 @@ All sequencing files (`assay` is one of `rnaSeq,exomeSeq,wholeGenomeSeq,mrnaSeq`
 
 ### `curatedData` files
 TBD
+| key |
+| --- |
 
 ### `report` files
 TBD
+| key |
+| --- |
 
 ### `tools` files
 Anything that is a tool should be annotated with the following:
