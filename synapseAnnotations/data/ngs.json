@@ -21,7 +21,6 @@
       "name": "readPair",
       "description": "The read of origin",
       "columnType": "INTEGER",
-      "maximumSize": 5,
       "enumValues": [
         {
           "value": "1",
