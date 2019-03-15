@@ -20,7 +20,7 @@
   {
       "name": "readPair",
       "description": "The read of origin",
-      "columnType": "STRING",
+      "columnType": "INTEGER",
       "maximumSize": 5,
       "enumValues": [
         {
