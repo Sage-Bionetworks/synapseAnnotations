@@ -292,9 +292,9 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002189"
       },
       {
-        "value": "antibody array",
-        "description": "A microarray consisting of antibodies spotted on a solid support in appropriate orientation is incubated with a biological sample (or antigen). Some proteins are captured by the antibodies in the array. Protein of forming complexes on the array are identified according to their prior labelling (tag, ELISA, biotin and others).",
-        "source": "http://purl.obolibrary.org/obo/MI_0678"
+        "value": "sandwich ELISA",
+        "description": "The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",
+        "source": "http://www.bioassayontology.org/bao#BAO_0002421"
       }
     ]
   },
