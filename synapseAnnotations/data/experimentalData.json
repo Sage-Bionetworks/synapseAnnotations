@@ -290,6 +290,11 @@
         "value": "LFP",
         "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
         "source": "http://purl.obolibrary.org/obo/OBI_0002189"
+      },
+      {
+        "value": "antibody array",
+        "description": "A microarray consisting of antibodies spotted on a solid support in appropriate orientation is incubated with a biological sample (or antigen). Some proteins are captured by the antibodies in the array. Protein of forming complexes on the array are identified according to their prior labelling (tag, ELISA, biotin and others).",
+        "source": "http://purl.obolibrary.org/obo/MI_0678"
       }
     ]
   },
