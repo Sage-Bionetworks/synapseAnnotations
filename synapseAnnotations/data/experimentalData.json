@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "high content screen",
+        "description": "An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0007550"
+      },
+      {
         "value": "Immunocytochemistry",
         "description": "The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
