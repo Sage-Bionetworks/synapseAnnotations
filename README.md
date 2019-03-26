@@ -23,23 +23,7 @@ Schemas for specific communities and consortia are also defined, such as for the
 
 # Development
 
-This section discusses the technical steps for developing on this repository. See the [CONTRIBUTING.md](CONTRIBUTING.md) document for more information on how to contribute annotations to this project.
-
-Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the `develop` branch require a review before merging. The only pull requests that will go to `master` are from `develop`, and will trigger a new release (see below for release procedures). If you are editing using the Github web site, make sure you switch to the `develop` branch first before clicking the `Edit this file` button. If you accidentally open a pull request against `master`, you can change this in your pull request using the `Edit` button.
-
-All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
-
-When modifying the JSON schema files, we encourage you to install `demjson` to test your JSON files:
-
-```
-pip install demjson==2.2.4
-```
-
-or use the provided [requirements.txt](requirements.txt) file provided in this repository:
-
-```
-pip install -r requirements.txt
-```
+This section discusses the steps for developing on this repository. See the [CONTRIBUTING.md](CONTRIBUTING.md) document for more information on how to contribute annotations to this project.
 
 ## Proposing changes
 
@@ -75,4 +59,18 @@ To optimize usability, the release tags should be placed on two required and one
 
 After drafting a release, use this [Ruby package](https://github.com/skywinder/github-changelog-generator) to auto-generate a `CHANGELOG.md` locally that can be committed to the repository. It requires a [Github Personal Access Token](https://github.com/settings/tokens).
 
-```
+The steps to create a release are as follows:
+
+1. Merge the develop branch into master and push to GitHub
+2. Run the [changelog generator](https://github.com/github-changelog-generator/github-changelog-generator), setting the parameter `--future-release` to the new release number `vX.X.X` determined by the guidelines above.
+3. Commit the new CHANGELOG.md directly to master and push to GitHub.
+4. Create a new release on Github using the web interface.
+5. Copy the new section of CHANGELOG.md to release notes section of the new release.
+
+Generally, you will next want to update the [Synapse table](https://www.synapse.org/#!Synapse:syn10242922) that describes the annotations and powers the [AnnotationUI](https://shinypro.synapse.org/users/nsanati/annotationUI/):
+
+1. Clone the [annotator](https://github.com/Sage-Bionetworks/annotator/) repository locally (e.g. `git clone git@github.com:Sage-Bionetworks/annotator.git`).
+2. From within your local copy of the repository, install annotator (`python setup.py install`).
+3. Run the command `annotator json2table`.
+
+Additional information about the release process can be found in [issue 392](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/392)

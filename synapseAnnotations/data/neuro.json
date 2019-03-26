@@ -12,119 +12,6 @@
      "columnType": "BOOLEAN"
   }, 
   {
-    "name": "group", 
-    "description": "", 
-    "columnType": "STRING", 
-    "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "MSSM", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Yale", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "LIBD", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UCLA", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UIC-UChicago", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Duke", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UNC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UCSF", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "USC", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "GIS", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "JHU", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Emory", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Columbia-Broad-Rush", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "UFL-Mayo-ISB", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Myers-NIAGADS", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "IU-JAX", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "Columbia-SUNY", 
-        "description": "", 
-        "source": ""
-         }, 
-      {
-        "value": "Mayo", 
-        "description": "", 
-        "source": ""
-        }, 
-      {
-        "value": "Lilly", 
-        "description": "", 
-        "source": ""
-        }, 
-      {
-        "value": "GSK", 
-        "description": "", 
-        "source": ""
-      }, 
-      { 
-        "value": "Harvard-MIT", 
-        "description": "", 
-        "source": ""
-      }
-    ]
-  }, 
-  {
     "name": "grant", 
     "description": "", 
     "columnType": "STRING", 
@@ -364,6 +251,11 @@
         "source": ""
       }, 
       {
+        "value": "NHP-Chimpanzee", 
+        "description": "Chimpanzee data", 
+        "source": "https://www.synapse.org/#!Synapse:syn7067053"
+      }, 
+      {
         "value": "Yale-ASD", 
         "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism-", 
         "source": "https://www.synapse.org/#!Synapse:syn4566141"
@@ -601,8 +493,12 @@
         "value": "iPSCAstrocytes", 
         "description": "iPSC derived astrocytes", 
         "source": "https://www.synapse.org/#!Synapse:syn10344967"
+      },
+      {
+        "value": "iPSC-HiC", 
+        "description": "Human induced pluripotent stem cells (hiPSCs).",
+        "source": "https://www.synapse.org/#!Synapse:syn12979149"
       }
-      
     ]
   }, 
   {
