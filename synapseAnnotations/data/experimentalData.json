@@ -1591,5 +1591,20 @@
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
-  } 
+  },
+  {
+    "name": "failedQC",
+    "description": "Boolean flag indicating whether the sample or data failed QC checks",
+    "columnType": "BOOLEAN",
+    "enumValues": [
+      {
+        "value": true,
+        "description": ""
+      },
+      {
+        "value": false,
+        "description": ""
+      }
+    ]
+  }
     ]
