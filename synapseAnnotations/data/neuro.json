@@ -421,7 +421,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn8391648"
         }, 
       {
-        "value": "JAX_APPPS1", 
+        "value": "JAX_APPPS1",
+        "description": "The JAX_APPPS1study - A mouse model of early onset AD",
         "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
