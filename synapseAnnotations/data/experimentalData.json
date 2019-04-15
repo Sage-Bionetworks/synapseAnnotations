@@ -1332,6 +1332,11 @@
         "description": "",
         "source": "Sage Bionetworks"
       },
+      {       
+        "value": "iPSC-derived glia",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
       {
         "value": "iPSC-derived astrocytes",
         "description": "",
