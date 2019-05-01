@@ -1,0 +1,10 @@
+# informal dependencies list for scheme.org related modules
+
+networks
+rdflib
+tabletext
+urllib
+graphviz
+jsonschema
+
+
