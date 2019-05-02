@@ -462,11 +462,6 @@
          "value": "nose",
          "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
          "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
-       },
-       {
-         "value": "Buffy Coat",
-         "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
-         "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
        }
     ]
   },
