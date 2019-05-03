@@ -1,5 +1,5 @@
 """
-Ad-hoc code converting vocabularies in the Sage annotation style to 
+Ad-hoc code converting vocabularies in the Sage annotation style to
 Biothings/schema.org standard json-ld
 
 This contains proof of concept helper methods for visiualization and editing of schemas
@@ -35,7 +35,7 @@ def topic_node_style(G, node_id):
 
 
 def get_class(class_name, description = None, subclass_of = "Thing"):
-    
+
     class_attributes = {
                     '@id': 'bts:'+class_name,
                     '@type': 'rdfs:Class',
@@ -55,17 +55,18 @@ def first_upper(s):
 annotations_path = "./data"
 
 # path to file to convert to schema.org
+#for annotations_file in os.sys.ls
 annotations_file = "sageCommunity.json"
 
 # path to existing schema.org json-ld which is to be extended by the input annotations file
 # note that this is optional; one can load a bare-bone biothings core schema and extend it -
 # only need to remove the load_schema(...) line below...
-base_schema_org_file = "experimentalData.jsonld"
+#base_schema_org_file = "experimentalData.jsonld"
 
 
 # instantiate schema explorer
 se = SchemaExplorer()
-se.load_schema(os.path.join(annotations_path, base_schema_org_file))
+#se.load_schema(os.path.join(annotations_path, base_schema_org_file))
 
 # visualize default schema
 full_schema = se.full_schema_graph()
@@ -75,7 +76,7 @@ full_schema.render(filename=os.path.join(annotations_path, annotations_file + "b
 # add adhoc classes to biothings schema ; TODO: this should be generated based on a metadata model schema
 '''
 # experimentalData classes
-new_class = get_class("Assay",\
+new_class = get_class("assay",\
           description = "The technology used to generate the data in this file",\
           subclass_of = "Thing"\
 )
@@ -122,7 +123,7 @@ se.update_class(new_class)
 class_info = se.explore_class("Device")
 edit_class = get_class("Device",\
           description =  class_info["description"],\
-          subclass_of = "Assay"\
+          subclass_of = "assay"\
 )
 se.edit_class(edit_class)
 '''
@@ -138,7 +139,7 @@ for annotations_entity in synapse_annotations:
     if not "biothingsParent" in annotations_entity:
         continue
 
-    class_name = first_upper(annotations_entity["name"])
+    class_name = annotations_entity["name"]#first_upper(annotations_entity["name"])
     subclass_of = annotations_entity["biothingsParent"]
     description = annotations_entity["description"]
 
@@ -147,12 +148,12 @@ for annotations_entity in synapse_annotations:
                           subclass_of = subclass_of\
     )
     se.update_class(new_class)
-    
-    if len(annotations_entity["enumValues"]) > 0 and annotations_entity["columnType"] != "BOOLEAN":  
+
+    if len(annotations_entity["enumValues"]) > 0 and annotations_entity["columnType"] != "BOOLEAN":
 
         for nested_entity in annotations_entity["enumValues"]:
             subclass_of = class_name
-            if nested_entity["value"] == "Not Applicable": 
+            if nested_entity["value"] == "Not Applicable":
                 continue
 
             nested_class_name = first_upper(nested_entity["value"])
@@ -183,7 +184,7 @@ color1_subgraph = get_descendents_subgraph(se.schema_nx, "Assay")
 
 nx.set_node_attributes(color1_subgraph, "#990000",  "fillcolor")
 nx.set_node_attributes(color1_subgraph, "#990000",  "color")
-nx.set_edge_attributes(color1_subgraph,"#990000", "color")  
+nx.set_edge_attributes(color1_subgraph,"#990000", "color")
 nx.set_node_attributes(color1_subgraph, "32",  "fontsize")
 
 topic_node_style(color1_subgraph, "Assay")
@@ -193,7 +194,7 @@ color2_subgraph = get_descendents_subgraph(se.schema_nx, "Platform")
 
 nx.set_node_attributes(color2_subgraph, "#ff9900",  "fillcolor")
 nx.set_node_attributes(color2_subgraph, "#ff9900",  "color")
-nx.set_edge_attributes(color2_subgraph,"#ff9900", "color")  
+nx.set_edge_attributes(color2_subgraph,"#ff9900", "color")
 topic_node_style(color2_subgraph, "Platform")
 
 
@@ -204,7 +205,7 @@ topic_node_style(color3_subgraph, "AssayTarget")
 
 nx.set_node_attributes(color3_subgraph, "#006600",  "fillcolor")
 nx.set_node_attributes(color3_subgraph, "#006600",  "color")
-nx.set_edge_attributes(color3_subgraph,"#006600", "color")  
+nx.set_edge_attributes(color3_subgraph,"#006600", "color")
 
 display_subgraph = get_descendents_subgraph(se.schema_nx, "Assay")
 
@@ -229,4 +230,3 @@ partial_schema = se.sub_schema_graph(source="Assay", direction="down")
 partial_schema.engine = "circo"
 partial_schema.render(filename=os.path.join(annotations_path, annotations_file + "partial_schema.gv.pdf"), view = True)
 '''
-
