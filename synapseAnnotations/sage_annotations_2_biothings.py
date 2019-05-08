@@ -47,10 +47,6 @@ def get_class(class_name, description = None, subclass_of = "Thing"):
 
     return class_attributes
 
-def first_upper(s):
-    return s[0].upper() + s[1:] if len(s) > 0 else s
-
-
 # path to Synapse annotations
 annotations_path = "./data"
 
@@ -139,7 +135,7 @@ for annotations_entity in synapse_annotations:
     if not "biothingsParent" in annotations_entity:
         continue
 
-    class_name = annotations_entity["name"]#first_upper(annotations_entity["name"])
+    class_name = annotations_entity["name"]
     subclass_of = annotations_entity["biothingsParent"]
     description = annotations_entity["description"]
 
