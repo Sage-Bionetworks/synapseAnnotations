@@ -156,7 +156,7 @@ for annotations_entity in synapse_annotations:
             if nested_entity["value"] == "Not Applicable":
                 continue
 
-            nested_class_name = first_upper(nested_entity["value"])
+            nested_class_name = nested_entity["value"]
             nested_description = nested_entity["description"]
             new_class = get_class(nested_class_name,\
                                   description = nested_description,\
