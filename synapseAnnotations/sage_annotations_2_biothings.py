@@ -56,7 +56,7 @@ annotations_file = "sageCommunity.json"
 
 # path to existing schema.org json-ld which is to be extended by the input annotations file
 # note that this is optional; one can load a bare-bone biothings core schema and extend it -
-# only need to remove the load_schema(...) line below...
+# only need to uncomment the load_schema(...) line below...
 #base_schema_org_file = "experimentalData.jsonld"
 
 
