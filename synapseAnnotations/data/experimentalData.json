@@ -390,6 +390,39 @@
     ]
   },
   {
+    "name": "metadataType",
+    "description": "For files of dataSubtype: metadata, a description of the type of metadata in the file.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "individual",
+        "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "biospecimen",
+        "description": "Metadata describing properties of specimens collected and/or analyzed in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "assay",
+        "description": "Metadata describing properites of an assay conducted in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "data dictionary",
+        "description": "Metadata describing terms or variables that appear in another file.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "protocol",
+        "description": "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000272"
+      }
+    ]
+  },
+  {
     "name": "bodyPart",
     "description": "Named areas of the body.",
     "columnType": "STRING",
