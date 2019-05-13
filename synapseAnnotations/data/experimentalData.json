@@ -972,6 +972,11 @@
         "value": "whole brain",
         "description": "Brain tissue not limited to a specific region.",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Buffy Coat",
+        "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
       }
     ]
   },
