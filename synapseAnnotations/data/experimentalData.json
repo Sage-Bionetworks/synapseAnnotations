@@ -13,6 +13,21 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "high content screen",
+        "description": "An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).",
+        "source": "http://www.ebi.ac.uk/efo/EFO_0007550"
+      },
+      {
+        "value": "Immunocytochemistry",
+        "description": "The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
+      },
+      {
+        "value": "Real Time PCR",
+        "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
+      },
+      {
         "value": "Vernier Caliper",
         "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
@@ -80,6 +95,11 @@
         "value": "exomeSeq",
         "description": "Data derived from exome sequencing",
         "source": "http://purl.obolibrary.org/obo/OBI_0002118"
+      },
+      {
+        "value": "Sanger sequencing",
+        "description": "A DNA sequencing technique in which a mixture of deoxynucleosidetriphosphates (dNTPs) and chain-terminating dNTPs, which are radioactively or fluorescently labeled, are combined within the reaction mixture. Once the reaction is complete, the DNA strands are separated by size, and the labeled chain terminating dNTPs can be read in sequence by the investigator or by a machine.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C19641"
       },
       {
         "value": "ChIPSeq",
@@ -217,7 +237,31 @@
         "source": "http://purl.obolibrary.org/obo/NBO_0000217"
       },
       {
-
+        "value": "contextual conditioning behavior",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+      },
+      {
+        "value": "anxiety-related behavior",
+        "description": "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000092"
+      },
+      {
+        "value": "memory behavior",
+        "description": "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000170"
+      },
+      {
+        "value": "kinesthetic behavior",
+        "description": "Movement behavior of the body or its parts.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000338"
+      },
+      {
+        "value": "locomotor activation behavior",
+        "description": "Activation of locomotory behavior.",
+        "source": "http://purl.obolibrary.org/obo/NBO_0000447"
+      },
+      {
         "value": "oxBS-Seq",
         "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
         "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
@@ -236,6 +280,26 @@
         "value": "RPPA",
         "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
         "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+      },
+      {
+        "value": "ELISA",
+        "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
+      },
+      {
+        "value": "LTP",
+        "description": "Any measurable or observable characteristic related to the persistent robust synaptic response induced by synchronous stimulation of pre- and postsynaptic cells.",
+        "source": "http://purl.obolibrary.org/obo/VT_0002207"
+      },
+      {
+        "value": "LFP",
+        "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0002189"
+      },
+      {
+        "value": "sandwich ELISA",
+        "description": "The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002421"
       }
     ]
   },
@@ -322,6 +386,19 @@
         "value": "metadata",
         "description": "A file of clinical, technical, or other parameters that describe a dataset.",
         "source": ""
+      }
+    ]
+  },
+  {
+    "name": "bodyPart",
+    "description": "Named areas of the body.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "head",
+        "description": "The head is the anterior-most division of the body.",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0000033"
       }
     ]
   },
@@ -485,6 +562,11 @@
         "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531057/"
       },
       {
+        "value": "drugCombinationScreen",
+        "description": "Information on drug sensitivity of more than one compound",
+        "source": "https://www.ncbi.nlm.nih.gov/pubmed/29344898"
+      },
+      {
         "value": "cellularPhysiology",
         "description": "",
         "source": ""
@@ -503,6 +585,21 @@
         "value": "network",
         "description":"An interconnected system of things or people.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C61377"
+      },
+      {
+        "value": "clinical",
+        "description":"Data obtained through patient examination or treatment.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C15783"
+      },
+      {
+        "value": "immunoassay",
+        "description": "Laboratory test involving interaction of antigens with specific antibodies.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C16723"
+      },
+      {
+        "value": "electrophysiology",
+        "description": "Data generated from an electrophysiology assay.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000564"
       }
     ]
   },
@@ -536,6 +633,11 @@
         "value": "Rush",
         "description": "Rush Alzheimer's Disease Center",
         "source": "https://www.radc.rush.edu/"
+      },
+      {
+        "value": "JAX",
+        "description": "The Jackson Laboratory",
+        "source": "https://www.jax.org"
       }
       ]
   },
@@ -865,6 +967,16 @@
         "value": "unspecified",
         "description": "Unspecified tissue or tissues from an organ.",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "whole brain",
+        "description": "Brain tissue not limited to a specific region.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Buffy Coat",
+        "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
       }
     ]
   },
@@ -1226,6 +1338,11 @@
         "source": "Sage Bionetworks"
       },
       {
+        "value": "iPSC-derived astrocytes",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "monocyte-derived microglia",
         "description": "",
         "source": "Sage Bionetworks"
@@ -1412,6 +1529,20 @@
     ]
   },
   {
+    "name": "cellLine",
+    "description": "Identifying string linked to a particular cell line",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+    {
+    "name": "cellLineSource",
+    "description": "Identifying source of cell line, such as ATCC site",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  },
+  {
     "name": "species",
     "description": "The name of a species (typically a taxonomic group) of organism.",
     "columnType": "STRING",
@@ -1443,9 +1574,19 @@
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
       },
       {
+        "value": "Pan troglodytes",
+        "description": "Pan troglodytes with taxonomy ID: 9598 and Genbank common name: chimpanzee",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9598&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+      },
+      {
         "value": "Gallus gallus",
         "description":"The common domestic fowl, Chicken.",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
+      },
+      {
+        "value": "Sus scrofa",
+        "description":"Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig",
+        "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823"
       }
     ]
   },
@@ -1455,5 +1596,20 @@
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
-  } 
+  },
+  {
+    "name": "failedQC",
+    "description": "Boolean flag indicating whether the sample or data failed QC checks",
+    "columnType": "BOOLEAN",
+    "enumValues": [
+      {
+        "value": true,
+        "description": ""
+      },
+      {
+        "value": false,
+        "description": ""
+      }
+    ]
+  }
     ]
