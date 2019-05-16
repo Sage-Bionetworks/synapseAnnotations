@@ -977,6 +977,16 @@
         "value": "Buffy Coat",
         "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
+      },
+      {
+        "value":"frontal cortex",
+        "description": "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001870"
+      },
+      {
+        "value":"olfactory neuroepithelium",
+        "description": "An organ that houses olfactory neurons and is responsible for the sense of smell.",
+        "source": "http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/UBERON_0002268"
       }
     ]
   },
@@ -1356,6 +1366,11 @@
         "value": "CD138+",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "CNON", 
+        "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium ", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }
     ]
   },
