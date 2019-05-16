@@ -18,6 +18,23 @@
     ]
   },
   {
+      "name": "readPair",
+      "description": "The read of origin",
+      "columnType": "INTEGER",
+      "enumValues": [
+        {
+          "value": 1,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        },
+        {
+          "value": 2,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        }
+      ]
+},
+  {
     "name": "isStranded",
     "description": "Whether or not the library is stranded.",
     "columnType": "BOOLEAN",

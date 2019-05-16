@@ -1,5 +1,50 @@
 # Change Log
 
+## [10.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/10.0.0) (2019-02-05)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v9.0.0...10.0.0)
+
+**Implemented enhancements:**
+
+- Code for automated checking of keys between minimal and project-specific files [\#17](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/17)
+
+**Closed issues:**
+
+- Moving drug combination data from assay to dataType [\#441](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/441)
+- diagnosis in cell lines, animal models [\#432](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/432)
+- Move Development section of README to CONTRIBUTING.md [\#391](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/391)
+
+**Merged pull requests:**
+
+- creating drug combination data type [\#445](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/445) ([sgosline](https://github.com/sgosline))
+- Add "bodyPart" key and "head" value [\#444](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/444) ([karawoo](https://github.com/karawoo))
+- reorganize group key [\#443](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/443) ([kdaily](https://github.com/kdaily))
+- Add behavioral assays [\#438](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/438) ([karawoo](https://github.com/karawoo))
+- Add ELISA as assay and immunoassay as dataType [\#437](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/437) ([karawoo](https://github.com/karawoo))
+- Add some AMP-AD related annotation values [\#436](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/436) ([karawoo](https://github.com/karawoo))
+- Add SRA file format [\#435](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/435) ([karawoo](https://github.com/karawoo))
+- Update organ in experimentalData.json [\#434](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/434) ([kelshmo](https://github.com/kelshmo))
+- add pig to species [\#430](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/430) ([allaway](https://github.com/allaway))
+- consolidate Synodos [\#429](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/429) ([allaway](https://github.com/allaway))
+- Add "whole brain" as a tissue [\#428](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/428) ([karawoo](https://github.com/karawoo))
+- Document annotations release process [\#427](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/427) ([karawoo](https://github.com/karawoo))
+- Add clinical as a dataType [\#425](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/425) ([karawoo](https://github.com/karawoo))
+- add sanger sequencing assay [\#423](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/423) ([allaway](https://github.com/allaway))
+- add file formats [\#422](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/422) ([allaway](https://github.com/allaway))
+- add datatype weight [\#418](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/418) ([allaway](https://github.com/allaway))
+- add resourcetype = report [\#416](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/416) ([allaway](https://github.com/allaway))
+- Fix typo in readLength description [\#415](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/415) ([karawoo](https://github.com/karawoo))
+- new terms needed for drug studies [\#414](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/414) ([sgosline](https://github.com/sgosline))
+- Added new keys to assay, platform, tissue, organ, tumorType; updated ngs.json to fix downstream annotation upload \(via annotator\) [\#413](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/413) ([milen-sage](https://github.com/milen-sage))
+- added value gz to fileFormat [\#410](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/410) ([ychae](https://github.com/ychae))
+- Amapeters patch 1 [\#403](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/403) ([amapeters](https://github.com/amapeters))
+- added value iPSC-HiC to study in neuro [\#402](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/402) ([ychae](https://github.com/ychae))
+- Added value hic to fileFormat [\#400](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/400) ([ychae](https://github.com/ychae))
+- Added assay Positron Emission Tomography [\#399](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/399) ([ychae](https://github.com/ychae))
+- Move Development section of README to CONTRIBUTING.md [\#393](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/393) ([karawoo](https://github.com/karawoo))
+- added NHP-Chimpanzee study to neuro [\#387](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/387) ([ychae](https://github.com/ychae))
+- added Pan troglodytes to species [\#386](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/386) ([ychae](https://github.com/ychae))
+- addition of cell Line term [\#291](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/291) ([sgosline](https://github.com/sgosline))
+
 ## [v9.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v9.0.0) (2018-08-21)
 [Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v8.0.0...v9.0.0)
 
