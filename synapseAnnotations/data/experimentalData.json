@@ -986,7 +986,7 @@
       {
         "value":"olfactory neuroepithelium",
         "description": "An organ that houses olfactory neurons and is responsible for the sense of smell.",
-        "source": "http://www.ontobee.org/ontology/UBERON?iri=http://purl.obolibrary.org/obo/UBERON_0002268"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0002268"
       }
     ]
   },
