@@ -985,8 +985,8 @@
       },
       {
         "value":"olfactory neuroepithelium",
-        "description": "An organ that houses olfactory neurons and is responsible for the sense of smell.",
-        "source": "http://purl.obolibrary.org/obo/UBERON_0002268"
+        "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
+        "source": "https://www.medilexicon.com/dictionary/60061"
       }
     ]
   },
