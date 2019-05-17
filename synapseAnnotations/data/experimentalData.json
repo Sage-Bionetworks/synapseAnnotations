@@ -981,7 +981,7 @@
       {
         "value":"frontal cortex",
         "description": "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001870"
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001870"
       },
       {
         "value":"olfactory neuroepithelium",
