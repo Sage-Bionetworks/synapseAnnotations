@@ -451,11 +451,6 @@
         "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000469.shtml"
       },
       {
-        "value": "xml",
-        "description": "eXtensible Markup Language (XML) format.",
-        "source": "http://edamontology.org/format_2332"
-      },
-      {
         "value": "gzip",
         "description": "GZipped format",
         "source": "http://purl.obolibrary.org/obo/NCIT_C80220"
