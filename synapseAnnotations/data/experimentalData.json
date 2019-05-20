@@ -489,10 +489,10 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       },
       {
-         "value": "nose",
-         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
-         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
-       }
+        "value": "nose",
+        "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+      }
     ]
   },
   {
@@ -957,6 +957,16 @@
         "value": "Buffy Coat",
         "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
+      },
+      {
+        "value":"frontal cortex",
+        "description": "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001870"
+      },
+      {
+        "value":"olfactory neuroepithelium",
+        "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
+        "source": "https://www.medilexicon.com/dictionary/60061"
       }
     ]
   },
@@ -1336,6 +1346,11 @@
         "value": "CD138+",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "CNON", 
+        "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }
     ]
   },
