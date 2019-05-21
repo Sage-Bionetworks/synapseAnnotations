@@ -598,8 +598,8 @@
       }, 
       {
         "value": "APPPS1", 
-        "description": "", 
-        "source": "Sage Bionetworks"
+        "description": "double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9)", 
+        "source": "https://www.jax.org/strain/005864"
       }, 
       {
         "value": "MAPT-P301K", 
@@ -645,6 +645,41 @@
         "value": "TYROBP_KO.KO", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "5XFAD", 
+        "description": "transgenic mice overexpressing three human APP mutations and two human PS1 FAD mutations", 
+        "source": "https://www.jax.org/strain/008730"
+      },
+      {
+        "value": "C57BL6J", 
+        "description": "general purpose background strain", 
+        "source": "https://www.jax.org/strain/000664"
+      },
+      {
+        "value": "APOE4Trem2R47H", 
+        "description": "double mutant with humanized ApoE knock-in mutation and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/028709"
+      },
+      {
+        "value": "Trem2R47H", 
+        "description": "mutant with an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/027918"
+      },
+      {
+        "value": "hTauTrem2", 
+        "description": "expresses six isoforms of the human tau protein under the control of the endogenous human MAPT promoter backcrossed into Trem2 −/−mice", 
+        "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "hAbeta KI", 
+        "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "APOE4 KI", 
+        "description": "humanized ApoE knock-in", 
+        "source": "https://www.jax.org/strain/027894"
       }
     ]
   }, 
