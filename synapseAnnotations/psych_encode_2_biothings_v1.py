@@ -4,7 +4,7 @@ import pprint
   
 from schema_explorer import SchemaExplorer
 
-def get_class(class_name, description = None, subclass_of = "Thing"):
+def get_class(class_name, description = None, subclass_of = "Thing", requires_dependency = None, requires_value = None):
     
     class_attributes = {
                     '@id': 'bts:'+class_name,
@@ -15,6 +15,14 @@ def get_class(class_name, description = None, subclass_of = "Thing"):
                     'schema:isPartOf': {'@id': 'http://schema.biothings.io'}
     }
 
+    if requires_dependency:
+        requirement = {'rdfs:requiresDependency':{'@id':'sms:' +  requires_dependency}}
+        class_attributes.update(requirement)
+
+    if requires_value != None:
+        value_constraint = {'rdfs:requiresChildAsValue':{'@id':'sms:' +  str(requires_value)}}
+        class_attributes.update(value_constraint)
+    
     return class_attributes
 
 
@@ -81,7 +89,9 @@ so we add DataEntity as a subclass under the EvidenceType term in Biothings
 
 new_class = get_class("DataEntity",\
           description = "A data derived entity and attributes.",\
-          subclass_of = "EvidenceType"\
+          subclass_of = "EvidenceType",\
+          requires_dependency = "EvidenceType",\
+          requires_value = True
 )
 se.update_class(new_class)
 
@@ -91,7 +101,7 @@ so we add it to the ontology
 '''
 new_class = get_class("Data",\
           description = "A piece of data (e.g. from an assay).",\
-          subclass_of = "DataEntity"\
+          subclass_of = "DataEntity",\
 )
 se.update_class(new_class)
 
