@@ -166,6 +166,16 @@
         "value": "1RF1AG051556", 
         "description": "Interdisciplinary research to understand the interplay of diabetes, cerebrovascular disease and Alzheimers Disease", 
         "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+      },
+      {
+        "value": "U54AG054345", 
+        "description": "The IU/JAX Alzheimer's Disease Precision Models Center", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=31682752"
+      },
+      {
+        "value": "U54AG054349", 
+        "description": "UC Irvine AD Translational Center For Disease Model Resources", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205189&icde=40362576"
       }
     ]
   }, 
