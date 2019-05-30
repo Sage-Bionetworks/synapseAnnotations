@@ -23,6 +23,16 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
       },
       {
+        "value": "PET",
+        "description": "Positron Emission Tomography. Detection of gamma rays emitted from tissues after administration of natural biochemical substance into which positron emitting isotopes have been incorporated. The paths of the gamma rays resulting from collision of positrons and electrons are interpreted by a computer to form a representation of local concentrations of the isotope-containing substance.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000129"
+      },
+      {
+        "value": "autoradiography",
+        "description": "A technique used to locate radioactively labeled molecules, or fragments of molecules, by recording on a photographic or sensor plate the radiation emitted by radioactive material within a molecule.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16314"
+      },
+      {
         "value": "Real Time PCR",
         "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
