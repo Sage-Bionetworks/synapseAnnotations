@@ -33,6 +33,11 @@
         "source": "http://purl.obolibrary.org/obo/ERO_0000716"
       },
       {
+        "value": "electrochemiluminescence",
+        "description": "A method in which electromagnetic radiation, in the form of light emission, is generated from an electrochemical reaction in a solution.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C111193"
+      },
+      {
         "value": "Real Time PCR",
         "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
