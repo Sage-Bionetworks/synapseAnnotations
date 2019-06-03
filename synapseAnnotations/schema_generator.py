@@ -232,7 +232,7 @@ requires_child = "requiresChildAsValue"
     
 if __name__ == "__main__":
 
-    schemaorg_schema_file_name = "./data/masterSageGeneralRequirements.jsonld"
+    schemaorg_schema_file_name = "./data/NFSchema.jsonld"
 
     se = SchemaExplorer()
     se.load_schema(os.path.join(schemaorg_schema_input_dir, schemaorg_schema_file_name))
