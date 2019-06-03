@@ -7143,6 +7143,846 @@
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
             }
+        },
+        {
+            "@id": "bts:softwareEntity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Software code or artifact tool",
+            "rdfs:label": "softwareEntity",
+            "rdfs:subClassOf": {
+                "@id": "bts:Thing"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareName",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareName",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareAuthor",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareAuthor",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareVersion",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareVersion",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareType",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:script",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "script",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:packageLibrary",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "packageLibrary",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:packageBinary",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "packageBinary",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:container",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "container",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:graphical user interface",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A Graphical user interface is a type of software interface that allows users to interact with electronic devices using images rather than text commands. A GUI represents the information and actions available to a user through graphical icons and visual indicators such as secondary notation, as opposed to text-based interfaces, typed command labels or text navigation.",
+            "rdfs:label": "graphical user interface",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:web user interface",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A Web User interface is a Graphical User Interface which is loaded and run via a Web browser rather than within the user's operating system.",
+            "rdfs:label": "web user interface",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:web application",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A piece of software that operates primarily through a stand-alone web interaface.",
+            "rdfs:label": "web application",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareLanguage",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareLanguage",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:R",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "R",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareLanguage"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Python",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Python",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareLanguage"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Matlab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Matlab",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareLanguage"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Shell",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Shell",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareLanguage"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Java",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Java",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareLanguage"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareLanguageVersion",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareLanguageVersion",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareRepository",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareRepository",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Synapse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Synapse",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:GitHub",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "GitHub",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:GitLab",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "GitLab",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:BitBucket",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "BitBucket",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:CRAN",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "CRAN",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:BioConductor",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "BioConductor",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Biocontainers",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Biocontainers",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:DockerHub",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "DockerHub",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Quay",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Quay",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Dockstore",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Dockstore",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepository"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:softwareRepositoryType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "softwareRepositoryType",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:fileStore",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "fileStore",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepositoryType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:sourceCode",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "sourceCode",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepositoryType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:packageManager",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "packageManager",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepositoryType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:containerRegistry",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "containerRegistry",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepositoryType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:containerToolRegistry",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "containerToolRegistry",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareRepositoryType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:inputDataType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "inputDataType",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:genomicVariants",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+            "rdfs:label": "genomicVariants",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:metabolomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
+            "rdfs:label": "metabolomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:image",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Biological or biomedical data that has been rendered into an image.",
+            "rdfs:label": "image",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:geneExpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.",
+            "rdfs:label": "geneExpression",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:isoformExpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
+            "rdfs:label": "isoformExpression",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:proteomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Protein and peptide identification, especially in the study of whole proteomes of organisms.",
+            "rdfs:label": "proteomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:kinomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Kinomics is the study of protein kinases and protein kinase signaling.",
+            "rdfs:label": "kinomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:drugScreen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Information on drug sensitivity and molecular markers of drug response",
+            "rdfs:label": "drugScreen",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:cellularPhysiology",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "cellularPhysiology",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:chromatinActivity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
+            "rdfs:label": "chromatinActivity",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Network",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An interconnected system of things or people.",
+            "rdfs:label": "Network",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:functional screen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "functional screen",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:gene list",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+            "rdfs:label": "gene list",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:ontology",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+            "rdfs:label": "ontology",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:surveyData",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A data set that contains the outcome of a survey.",
+            "rdfs:label": "surveyData",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:SMILES",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
+            "rdfs:label": "SMILES",
+            "rdfs:subClassOf": {
+                "@id": "bts:inputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:outputDataType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "outputDataType",
+            "rdfs:subClassOf": {
+                "@id": "bts:softwareEntity"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:genomicVariants",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+            "rdfs:label": "genomicVariants",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:metabolomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
+            "rdfs:label": "metabolomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:image",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Biological or biomedical data that has been rendered into an image.",
+            "rdfs:label": "image",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:geneExpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.",
+            "rdfs:label": "geneExpression",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:isoformExpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
+            "rdfs:label": "isoformExpression",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:proteomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Protein and peptide identification, especially in the study of whole proteomes of organisms.",
+            "rdfs:label": "proteomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:kinomics",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Kinomics is the study of protein kinases and protein kinase signaling.",
+            "rdfs:label": "kinomics",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:drugScreen",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Information on drug sensitivity and molecular markers of drug response",
+            "rdfs:label": "drugScreen",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:cellularPhysiology",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "cellularPhysiology",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:chromatinActivity",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
+            "rdfs:label": "chromatinActivity",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:surveyData",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A data set that contains the outcome of a survey.",
+            "rdfs:label": "surveyData",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Network",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An interconnected system of things or people.",
+            "rdfs:label": "Network",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:gene list",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A data set of the names or identifiers of genes that are the outcome of an analysis or have been put together for the purpose of an analysis.",
+            "rdfs:label": "gene list",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:imputed drug response",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Predicted response to a drug",
+            "rdfs:label": "imputed drug response",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:ontology",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.",
+            "rdfs:label": "ontology",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:small molecule",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.",
+            "rdfs:label": "small molecule",
+            "rdfs:subClassOf": {
+                "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
         }
     ],
     "@id": "http://schema.biothings.io/#0.1"

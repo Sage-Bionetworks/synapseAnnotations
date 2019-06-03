@@ -134,8 +134,11 @@ def load_schema_into_networkx(schema):
             if "requiresChildAsValue" in node and node["requiresChildAsValue"]["@id"] == "sms:True":
                 node["requiresChildAsValue"] = True
             
-            print(node)
-                 
+            #print(node)
+
+            node['uri'] = record["@id"] 
+            node['description'] = record["rdfs:comment"]
+
             G.add_node(record['rdfs:label'], **node)
 
     return G

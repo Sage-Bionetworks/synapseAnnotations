@@ -45,7 +45,7 @@ def first_upper(s):
 
 # path to Synapse annotations
 annotations_path = "./data"
-annotations_file = "chem.json"
+annotations_file = "tool.json"
 output_schema_name = "NFSchema"
 base_schema_org_file = "NFSchema.jsonld"
 
@@ -113,14 +113,20 @@ se.edit_class(edit_class)
 '''
 
 '''
+# ngs classes
 new_class = get_class("nextGenerationSequencing",\
           description = "Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA. [def-source: NCI]",\
           subclass_of = "assay"\
 )
 se.update_class(new_class)
 '''
-
-
+'''
+new_class = get_class("softwareEntity",\
+          description = "Software code or artifact tool",\
+          subclass_of = "Thing"\
+)
+se.update_class(new_class)
+'''
 
 # load existing Synapse annotations and convert them to BioThings
 # augmenting existing BioThings schema
