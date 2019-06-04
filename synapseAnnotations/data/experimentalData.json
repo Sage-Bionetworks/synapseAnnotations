@@ -310,11 +310,6 @@
         "value": "Genotyping",
         "description": "The determination of the DNA sequence of an individual.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
-      },
-      {
-        "value": "Positron Emission Tomography",
-        "description": "Detection of gamma rays emitted from tissues after administration of natural biochemical substance into which positron emitting isotopes have been incorporated. The paths of the gamma rays resulting from collision of positrons and electrons are interpreted by a computer to form a representation of local concentrations of the isotope-containing substance.",
-        "source": "http://purl.obolibrary.org/obo/MMO_0000129"
       }
     ]
   },
