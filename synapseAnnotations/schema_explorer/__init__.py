@@ -207,6 +207,7 @@ class SchemaExplorer():
         paths = nx.all_simple_paths(self.schema_nx,
                                     source=root_node,
                                     target=schema_class)
+        print(root_node)
         return [_path[:-1] for _path in paths]
 
     def find_class_specific_properties(self, schema_class):
