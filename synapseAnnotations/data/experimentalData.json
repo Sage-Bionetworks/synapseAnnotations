@@ -23,6 +23,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
       },
       {
+        "value": "immunofluorescence",
+        "description": "An immunological procedure in which the antibodies are coupled with molecules which fluoresce under ultra violet (UV) light. This makes them particularly suitable for detection of specific antigens in tissues or on cells.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17370"
+      },
+      {
         "value": "Real Time PCR",
         "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
