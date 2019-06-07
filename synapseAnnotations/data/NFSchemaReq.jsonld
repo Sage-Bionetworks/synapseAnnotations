@@ -35,12 +35,23 @@
             }
         },
         {
-            "@id": "schema:Thing",
+            "@id": "bts:Thing",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Thing",
+            "rdfs:comment": "The type of resource being stored and annotated",
             "rdfs:label": "Thing",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:resourceType"
+                },
+                {
+                    "@id": "sms:consortium"
+                }
+            ],
+            "rdfs:subClassOf": {
+                "@id": "bts:Thing"
+            },
             "schema:isPartOf": {
-                "@id": "http://schema.org"
+                "@id": "http://schema.biothings.io"
             }
         },
         {
@@ -5397,6 +5408,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The type of resource being stored and annotated",
             "rdfs:label": "resourceType",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:Thing"
             },

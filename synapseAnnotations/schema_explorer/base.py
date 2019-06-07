@@ -123,12 +123,12 @@ def load_schema_into_networkx(schema):
                     G.add_edge(extract_name_from_uri_or_curie(parents["@id"]), record["rdfs:label"], relationship = "parentOf")
 
             if "rdfs:requiresDependency" in record:
-                parents = record["rdfs:requiresDependency"]
-                if type(parents) == list:
-                    for _parent in parents:
-                        G.add_edge(extract_name_from_uri_or_curie(_parent["@id"]), record["rdfs:label"], relationship = "requiresDependency")
-                elif type(parents) == dict:
-                    G.add_edge(extract_name_from_uri_or_curie(parents["@id"]), record["rdfs:label"], relationship = "requiresDependency")
+                children = record["rdfs:requiresDependency"]
+                if type(children) == list:
+                    for _child in children:
+                        G.add_edge(record["rdfs:label"], extract_name_from_uri_or_curie(_child["@id"]), relationship = "requiresDependency")
+                elif type(children) == dict:
+                    G.add_edge(record["rdfs:label"], extract_name_from_uri_or_curie(_child["@id"]), relationship = "requiresDependency")
                 #print(G.edges(extract_name_from_uri_or_curie(parents["@id"]), data = True))
             
             if "requiresChildAsValue" in node and node["requiresChildAsValue"]["@id"] == "sms:True":

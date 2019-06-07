@@ -45,7 +45,6 @@ Starting from a root node, get all nodes reachable on requiresDependency edges
 def get_requirements_subgraph(mm_graph, root):
 
     # get all nodes reachable from the specified root node in the data model
-    # TODO: catch if root is not in graph?
     root_descendants = nx.descendants(mm_graph, root)
 
     # get the subgraph induced on all nodes reachable from the root node
@@ -139,7 +138,8 @@ def get_JSONSchema_requirements(se, root):
           "title": root + "JSONSchema",
           "type": "object",
           "properties":{},
-          "required":[]
+          "required":[],
+          "allOf":[]
     }
 
     # get graph corresponding to data model schema
@@ -183,10 +183,10 @@ def get_JSONSchema_requirements(se, root):
                                 process_node: { "enum": [child] }
                                 }       
                               },
-                            "then": { "required": [child_dependencies] },
+                            "then": { "required": child_dependencies },
                     }
 
-                    json_schema.update(schema_conditional_dependencies)
+                    json_schema["allOf"].update(schema_conditional_dependencies)
 
         '''
         get required nodes by this node (e.g. other terms/nodes
@@ -203,8 +203,9 @@ def get_JSONSchema_requirements(se, root):
                 schema_conditional_dependencies = {
                         "if": {
                             "properties": {
-                            process_node: { "enum": #TODO "" }
-                            }       
+                            process_node: { "string":"*" }
+                            },
+                            "required":[process_node],
                           },
                         "then": { "required": [process_node_dependencies] },
                 }
@@ -232,11 +233,14 @@ requires_child = "requiresChildAsValue"
     
 if __name__ == "__main__":
 
-    schemaorg_schema_file_name = "./data/NFSchema.jsonld"
+    schemaorg_schema_file_name = "NFSchemaReq.jsonld"
+    json_schema_file_name = "nf_jsonschema.json"
 
     se = SchemaExplorer()
     se.load_schema(os.path.join(schemaorg_schema_input_dir, schemaorg_schema_file_name))
 
-    jsonSchema = get_JSONSchema_requirements(se, "requirementsNF")
+    json_schema = get_JSONSchema_requirements(se, "Thing")
 
-    
+    with open(os.path.join(json_schema_output_dir, json_schema_file_name), "w") as s_f:
+        json.dump(json_schema, s_f, indent = 3)
+
