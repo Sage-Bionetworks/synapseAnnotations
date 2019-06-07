@@ -72,6 +72,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
       },
       {
+        "value": "HPLC-EC",
+        "description": "In separation science, electrochemical detection is used to detect and measure responsive analytes in flowing streams following analysis by high-performance liquid chromatography (HPLC).",
+        "source": "https://doi.org/10.1039/9781847550729"
+      },
+      {
         "value": "rnaSeq",
         "description": "RNA Sequencing measurements",
         "source": "http://purl.obolibrary.org/obo/OBI_0001271"
