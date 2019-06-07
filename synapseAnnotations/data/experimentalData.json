@@ -72,9 +72,9 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
       },
       {
-        "value": "HPLC-EC",
-        "description": "In separation science, electrochemical detection is used to detect and measure responsive analytes in flowing streams following analysis by high-performance liquid chromatography (HPLC).",
-        "source": "https://doi.org/10.1039/9781847550729"
+        "value": "liquid chromatography-electrochemical detection",
+        "description": "A liquid chromatography method that is sensitive to compounds which can be either reduced or oxidised. The mobile phase passes directly over the working electrode, which is set to the specific potential required for oxidation or reduction. The current produced is then measured.",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0001746"
       },
       {
         "value": "rnaSeq",
