@@ -307,6 +307,11 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002189"
       },
       {
+        "value": "whole-cell patch clamp",
+        "description": "A patch-clamp assay where the electrode is left in place on the cell, as in cell-attached recordings, but the membrane patch has been perforated, providing access from the interior of the pipette to the intracellular space of the cell. Measurements made with this technique involve recording currents through multiple channels simultaneously, over the membrane of the entire cell.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0002178"
+      },
+      {
         "value": "sandwich ELISA",
         "description": "The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002421"
