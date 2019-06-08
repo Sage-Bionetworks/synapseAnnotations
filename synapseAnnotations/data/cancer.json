@@ -1,6 +1,7 @@
 [
   {
     "name": "cellSubType",
+    "biothingsParent":"cancer",
     "description": "This term is to be used when cell type is not specific enough, such as certain classes of T cells",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -8,6 +9,7 @@
   },
   {
     "name": "transplantationRecipientTissue",
+    "biothingsParent":"cancer",
     "description": "In the case of a transplate, this describes the transplant destination",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -15,6 +17,7 @@
   },
   {
     "name": "transplantationType",
+    "biothingsParent":"cancer",
     "description": "Type of transplantation involved in the experiment, derived from MESH",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -43,6 +46,7 @@
   },
   {
     "name": "genePerturbationType",
+    "biothingsParent":"cancer",
     "description": "Specific way in which a single gene was perturbed in a sample",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -66,6 +70,7 @@
   },
   {
     "name": "genePerturbationTechnology",
+    "biothingsParent":"cancer",
     "description": "Technology used to perform gene perturbation",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -89,6 +94,7 @@
   },
   {
     "name": "timePointUnit",
+    "biothingsParent":"cancer",
     "description": "For timed experiments this represents the unit of time measured",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -107,6 +113,7 @@
   },
   {
     "name": "transplantationRecipientSpecies",
+    "biothingsParent":"cancer",
     "description": "Species into which donor tissue was grown",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -125,6 +132,7 @@
   },
   {
     "name": "experimentalCondition",
+    "biothingsParent":"cancer",
     "description": "This describes the condition under which the data were collected, designed to be free form, extra things that do not fit in pre-defined terms",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -132,6 +140,7 @@
   },
   {
     "name": "experimentalTimePoint",
+    "biothingsParent":"cancer",
     "description": "Number describing time point at which data was collected",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -139,6 +148,7 @@
   },
   {
     "name": "genePerturbed",
+    "biothingsParent":"cancer",
     "description": "In the case of gene modulation, this describes the gene or genes that were modulated",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -146,6 +156,7 @@
   },
   {
     "name": "transplantationDonorTissue",
+    "biothingsParent":"cancer",
     "description": "",
     "columnType": "STRING",
     "maximumSize": 250,
@@ -153,6 +164,7 @@
   },
      {
     "name": "tumorType",
+    "biothingsParent":"cancer",
     "description": "The type of cells that carcinoma arises from.",
     "columnType": "STRING",
     "maximumSize": 250,

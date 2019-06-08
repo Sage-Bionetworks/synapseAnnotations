@@ -45,7 +45,7 @@ def first_upper(s):
 
 # path to Synapse annotations
 annotations_path = "./data"
-annotations_file = "tool.json"
+annotations_file = "cancer.json"
 output_schema_name = "NFSchema"
 base_schema_org_file = "NFSchema.jsonld"
 
@@ -121,12 +121,21 @@ new_class = get_class("nextGenerationSequencing",\
 se.update_class(new_class)
 '''
 '''
+#tools classes
 new_class = get_class("softwareEntity",\
           description = "Software code or artifact tool",\
           subclass_of = "Thing"\
 )
 se.update_class(new_class)
 '''
+
+# cancer classes
+new_class = get_class("cancer",\
+          description = "A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",\
+          subclass_of = "diagnosis"\
+)
+se.update_class(new_class)
+
 
 # load existing Synapse annotations and convert them to BioThings
 # augmenting existing BioThings schema

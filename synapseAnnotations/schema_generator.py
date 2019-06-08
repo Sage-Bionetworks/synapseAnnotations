@@ -47,22 +47,23 @@ def get_requirements_subgraph(mm_graph, root):
     # get all nodes reachable from the specified root node in the data model
     root_descendants = nx.descendants(mm_graph, root)
 
-    # get the subgraph induced on all nodes reachable from the root node
-    descendants_subgraph = mm_graph.subgraph(list(root_descendants))
+    # get the subgraph induced on all nodes reachable from the root node (and including it)
+    descendants_subgraph = mm_graph.subgraph(list(root_descendants).append(root))
+    
 
     '''
     prune the descendants subgraph to include only requireDependency edges
     '''
     req_edges = []
-    for u, v, properties in descendants_subgraph.edges(data = True):
-        if properties["relationship"] == requires_dependency:
-            req_edges.append((u,v))
+    for edge in descendants_subgraph.edges(data = True, keys = True):
+        if edge[3]["relationship"] == requires_dependency:
+            req_edges.append(edge[0:3])
     
     requirements_subgraph = descendants_subgraph.edge_subgraph(req_edges)
 
-    # get only the nodes reachable from the root node (after the pruning above
-    # some nodes in the root-descendants subgraph might have become disconnected)
-    requirements_subgraph = nx.descendants(requirements_subgraph, root)
+    # get only the nodes reachable from the root node (including the root node) - after the pruning above
+    # some nodes in the root-descendants subgraph might have become disconnected
+    requirements_subgraph = requirements_subgraph.subgraph(list(nx.descendants(requirements_subgraph, root)).append(root))
     
     return requirements_subgraph
 
@@ -89,8 +90,8 @@ on edges of type "parentOf"
 def get_node_children(mm_graph, u):
 
     children = set()
-    for u, v, properties in mm_graph.out_edges(u, data = true):
-        if properties["relationship"] == "parentof": 
+    for u, v, properties in mm_graph.out_edges(u, data = True):
+        if properties["relationship"] == "parentOf": 
             children.add(v)
 
     return list(children)
@@ -103,7 +104,7 @@ on edges of type "requiresDependency"
 def get_node_neighbor_dependencies(mm_graph, u):
     
     children = set()
-    for u, v, properties in mm_graph.out_edges(u, data = true):
+    for u, v, properties in mm_graph.out_edges(u, data = True):
         if properties["relationship"] == requires_dependency: 
             children.add(v)
 
@@ -116,6 +117,7 @@ These are all nodes *reachable* on edges of type "requiresDependency"
 """
 def get_node_dependencies(req_graph, u):
     
+
     descendants = nx.descendants(req_graph, u)
 
     return list(descendants)
@@ -130,12 +132,12 @@ additional metadata, given this node is required); 2) find all the
 allowable metadata values/nodes that can be assigned to a particular node
 (if such constraint is specified in the schema)
 """
-def get_JSONSchema_requirements(se, root):
+def get_JSONSchema_requirements(se, root, schema_name):
     
     json_schema = {
           "$schema": "http://json-schema.org/draft-07/schema#",
-          "$id":"http://example.com/" + root + "JSONSchema",
-          "title": root + "JSONSchema",
+          "$id":"http://example.com/" + schema_name,
+          "title": schema_name,
           "type": "object",
           "properties":{},
           "required":[],
@@ -145,9 +147,7 @@ def get_JSONSchema_requirements(se, root):
     # get graph corresponding to data model schema
     mm_graph = se.get_nx_schema()
 
-    # get requirements subgraph
-    req_graph = get_requirements_subgraph(mm_graph, root)
-
+    # nodes to check for dependencies, starting with the provided root
     nodes_to_process = OrderedSet()
     nodes_to_process.add(root) 
 
@@ -163,10 +163,15 @@ def get_JSONSchema_requirements(se, root):
         each of these values is a node that in turn is processed for
         dependencies and allowed values
         '''
-        if requires_child in mm_graph[process_node]:
-            if mm_graph[process_node][requires_child] == "True":
+        
+        print("===============")
+        print(mm_graph.nodes[process_node])
+        print("===============")
+
+        if requires_child in mm_graph.nodes[process_node]:
+            if mm_graph.nodes[process_node][requires_child]:
                 children = get_node_children(mm_graph, process_node)
-                
+                print(children)
                 # set allowable values based on children nodes
                 schema_properties = { process_node:{"enum":children}}
                 json_schema["properties"].update(schema_properties)                
@@ -176,17 +181,18 @@ def get_JSONSchema_requirements(se, root):
                 
                 # set conditional dependencies based on children dependencies
                 for child in children:
-                    child_dependencies = get_node_dependencies(req_graph, child)
-                    schema_conditional_dependencies = {
-                            "if": {
-                                "properties": {
-                                process_node: { "enum": [child] }
-                                }       
-                              },
-                            "then": { "required": child_dependencies },
-                    }
+                    child_dependencies = get_node_neighbor_dependencies(mm_graph, child)
+                    if child_dependencies:
+                        schema_conditional_dependencies = {
+                                "if": {
+                                    "properties": {
+                                    process_node: { "enum": [child] }
+                                    }       
+                                  },
+                                "then": { "required": child_dependencies },
+                        }
 
-                    json_schema["allOf"].update(schema_conditional_dependencies)
+                        json_schema["allOf"].append(schema_conditional_dependencies)
 
         '''
         get required nodes by this node (e.g. other terms/nodes
@@ -194,7 +200,7 @@ def get_JSONSchema_requirements(se, root):
         given term is specified); each of these node/terms needs to be 
         processed for dependencies in turn.
         '''
-        process_node_dependencies = get_node_dependencies(req_graph, process_node)
+        process_node_dependencies = get_node_neighbor_dependencies(mm_graph, process_node)
 
         if process_node_dependencies:
             if process_node == root: # these are unconditional dependencies 
@@ -210,7 +216,7 @@ def get_JSONSchema_requirements(se, root):
                         "then": { "required": [process_node_dependencies] },
                 }
 
-                json_schema.update(schema_conditional_dependencies)
+                json_schema["allOf"].append(schema_conditional_dependencies)
 
             nodes_to_process.update(process_node_dependencies)
 
@@ -239,7 +245,9 @@ if __name__ == "__main__":
     se = SchemaExplorer()
     se.load_schema(os.path.join(schemaorg_schema_input_dir, schemaorg_schema_file_name))
 
-    json_schema = get_JSONSchema_requirements(se, "Thing")
+    g = se.get_nx_schema()
+
+    json_schema = get_JSONSchema_requirements(se, "Thing", schema_name = "NFJSONschema")
 
     with open(os.path.join(json_schema_output_dir, json_schema_file_name), "w") as s_f:
         json.dump(json_schema, s_f, indent = 3)
