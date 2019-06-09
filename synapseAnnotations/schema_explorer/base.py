@@ -118,18 +118,36 @@ def load_schema_into_networkx(schema):
                 parents = record["rdfs:subClassOf"]
                 if type(parents) == list:
                     for _parent in parents:
-                        G.add_edge(extract_name_from_uri_or_curie(_parent["@id"]), record["rdfs:label"], relationship = "parentOf")
+                        n1 = extract_name_from_uri_or_curie(_parent["@id"])
+                        n2 = record["rdfs:label"]
+
+                        # do not allow self-loops
+                        if n1 != n2:
+                            G.add_edge(n1, n2, relationship = "parentOf")
                 elif type(parents) == dict:
-                    G.add_edge(extract_name_from_uri_or_curie(parents["@id"]), record["rdfs:label"], relationship = "parentOf")
+                    n1 = extract_name_from_uri_or_curie(parents["@id"])
+                    n2 = record["rdfs:label"]
+
+                    # do not allow self-loops
+                    if n1 != n2:
+                        G.add_edge(n1, n2, relationship = "parentOf")
 
             if "rdfs:requiresDependency" in record:
                 children = record["rdfs:requiresDependency"]
                 if type(children) == list:
                     for _child in children:
-                        G.add_edge(record["rdfs:label"], extract_name_from_uri_or_curie(_child["@id"]), relationship = "requiresDependency")
+                        n1 = record["rdfs:label"]  
+                        n2 = extract_name_from_uri_or_curie(_child["@id"]) 
+                        # do not allow self-loops
+                        if n1 != n2:
+                            G.add_edge(n1, n2, relationship = "requiresDependency")
+
                 elif type(children) == dict:
-                    G.add_edge(record["rdfs:label"], extract_name_from_uri_or_curie(_child["@id"]), relationship = "requiresDependency")
-                #print(G.edges((record["rdfs:label"], extract_name_from_uri_or_curie(_child["@id"])), data = True))
+                    n1 = record["rdfs:label"]  
+                    n2 = extract_name_from_uri_or_curie(children["@id"]) 
+                    # do not allow self-loops
+                    if n1 != n2:
+                        G.add_edge(n1, n2, relationship = "requiresDependency")
             
             if "requiresChildAsValue" in node and node["requiresChildAsValue"]["@id"] == "sms:True":
                 node["requiresChildAsValue"] = True
