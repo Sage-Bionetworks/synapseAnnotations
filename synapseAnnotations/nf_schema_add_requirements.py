@@ -82,15 +82,28 @@ se.edit_class(class_req_edit)
 # TODO: fix schema that requires subClassOf property for class Thing (Thing cannot be a class of itself
 
 class_info = se.explore_class("experimentalData")
-print(class_info)
 class_req_edit = get_class("experimentalData",\
                               description = class_info["description"],\
                               subclass_of = class_info["subClassOf"],\
-                              requires_dependencies = ["assay", "dataType", "dataSubtype", "specimenID", "individualID", "species", "isCellLine", "sex"]\
+                              requires_dependencies = ["assay", "dataType", "dataSubtype", "specimenID", "individualID", "species", "isCellLine", "sex", "diagnosis"]\
 )
 se.edit_class(class_req_edit)
 
+
+class_info = se.explore_class("diagnosis")
+class_req_edit = get_class("diagnosis",\
+                              description = class_info["description"],\
+                              subclass_of = class_info["subClassOf"],\
+                              requires_value = True\
+) 
+se.edit_class(class_req_edit)
+
+
 diseases = se.find_child_classes("diagnosis")
+
+print("=============")
+print("Setting requirements for diseases")
+print("=============")
 for disease in diseases:
     if not "cancer" in disease.lower() and not "leukemia" in disease.lower():
         print(disease)
@@ -101,17 +114,69 @@ for disease in diseases:
                                       requires_dependencies = ["tissue"]\
         )
         se.edit_class(class_req_edit)
+    else:
+        print(disease)
+        class_info = se.explore_class(disease)
+        class_req_edit = get_class(disease,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["tumorType"]\
+        )
+        se.edit_class(class_req_edit)
+
         
 
 class_info = se.explore_class("cancer")
 class_req_edit = get_class("cancer",\
                               description = class_info["description"],\
-                              subclass_of = class_info["subClassOf"],\
+                              subclass_of = "diagnosis",\
                               requires_dependencies = ["tumorType"]\
 )
 se.edit_class(class_req_edit)
 
+class_info = se.explore_class("assay")
+class_req_edit = get_class("assay",\
+                              description = class_info["description"],\
+                              subclass_of = class_info["subClassOf"],\
+                              requires_value = True\
+) 
+se.edit_class(class_req_edit)
 
+print("=============")
+print("Setting requirements for NGS assays")
+print("=============")
+
+
+assays = se.find_child_classes("assay")
+for assay in assays:
+    if "seq" in assay.lower():
+        print(assay)
+        class_info = se.explore_class(assay)
+        class_req_edit = get_class(assay,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["platform", "readLength", "readPair", "runType", "isStranded", "dissociationMethod", "nucleicAcidSource", "libraryPrep", "libraryPreparationMethod"]\
+        )
+        se.edit_class(class_req_edit)
+
+
+
+
+print("=============")
+print("Setting requirements for NGS properties")
+print("=============")
+
+ngs_props = se.find_child_classes("nextGenerationSequencing") 
+print(ngs_props)
+for ngs_prop in ngs_props:
+        print(ngs_prop)
+        class_info = se.explore_class(ngs_prop)
+        class_req_edit = get_class(ngs_prop,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_value = True
+        )
+        se.edit_class(class_req_edit)
 
 """
 diagnosis, if diseased; what the key for diseased?
@@ -124,11 +189,11 @@ pp = pprint.PrettyPrinter(indent=4)
 class_info = se.explore_class('Individual')
 pp.pprint(class_info)
 '''
-
+'''
 partial_schema = se.sub_schema_graph(source="resourceType", direction="down")
 partial_schema.engine = "circo"
 partial_schema.render(filename=os.path.join(annotations_path, "partial_" +output_schema_name), view = True)
-
+'''
 
 
 # saving updated schema 
