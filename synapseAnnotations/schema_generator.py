@@ -166,11 +166,11 @@ def get_JSONSchema_requirements(se, root, schema_name):
         each of these values is a node that in turn is processed for
         dependencies and allowed values
         '''
-        
+        """ 
         print("===============")
         print(mm_graph.nodes[process_node])
         print("===============")
-
+        """
         if requires_child in mm_graph.nodes[process_node]:
             if mm_graph.nodes[process_node][requires_child]:
                 children = get_node_children(mm_graph, process_node)
@@ -227,9 +227,17 @@ def get_JSONSchema_requirements(se, root, schema_name):
 
                 nodes_to_process.update(process_node_dependencies)
                 nodes_with_processed_dependencies.add(process_node)
+
+        """
         print("Nodes to process")
         print(nodes_to_process)
         print("=================")
+        """
+
+    print("=================")
+    print("JSONSchema successfully generated from Schema.org schema!")
+    print("=================")
+
     return json_schema
 
 
