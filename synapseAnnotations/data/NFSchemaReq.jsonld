@@ -2078,6 +2078,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The technology used to generate the data in this file",
             "rdfs:label": "assay",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:Thing"
             },
@@ -2114,6 +2117,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
             "rdfs:label": "immunohistochemistry",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:assayTarget"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2126,6 +2134,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Nucleosome Occupancy and Methylome Sequencing",
             "rdfs:label": "NOMe-Seq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2162,6 +2199,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "RNA Sequencing measurements",
             "rdfs:label": "rnaSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2174,6 +2240,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Small RNA measurements collected from RNA-Seq experiments",
             "rdfs:label": "mirnaSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2210,6 +2305,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Long non-coding RNA measurements collected from RNA-Seq experiments",
             "rdfs:label": "lncrnaSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2222,6 +2346,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Data derived from exome sequencing",
             "rdfs:label": "exomeSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2234,6 +2387,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Chromatin immuno-precipitation followed by sequencing",
             "rdfs:label": "ChIPSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:assayTarget"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2246,6 +2404,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "RNA measurements captured by array technology",
             "rdfs:label": "rnaArray",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2258,6 +2421,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "SNP measurements captured by array technology",
             "rdfs:label": "snpArray",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2270,6 +2438,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Methylation data captured by array technology",
             "rdfs:label": "methylationArray",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2282,6 +2455,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "microRNA measurements captured by array technology",
             "rdfs:label": "mirnaArray",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2294,6 +2472,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process",
             "rdfs:label": "bisulfiteSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2306,6 +2513,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment",
             "rdfs:label": "ATACSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2330,6 +2566,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Data for enriched reduced representation bisulfite sequencing data",
             "rdfs:label": "errBisulfiteSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2342,6 +2607,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Full isoform sequencing",
             "rdfs:label": "ISOSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2366,6 +2660,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A multistep process in which a mixture of proteins is separated by gel electrophoresis",
             "rdfs:label": "westernBlot",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:assayTarget"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2378,6 +2677,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time",
             "rdfs:label": "wholeGenomeSeq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2402,6 +2730,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death",
             "rdfs:label": "cellViabilityAssay",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:chemicalStructure"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2450,6 +2783,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
             "rdfs:label": "nextGenerationTargetedSequencing",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2486,6 +2848,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
             "rdfs:label": "scCGIseq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2558,6 +2949,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
             "rdfs:label": "oxBS-Seq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2570,6 +2990,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Ribosome profiling (Ribo-Seq).",
             "rdfs:label": "Ribo-Seq",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -2594,6 +3043,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "",
             "rdfs:label": "assayTarget",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:Assay"
             },
@@ -4214,6 +4666,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "",
             "rdfs:label": "platform",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:Device"
             },
@@ -5600,8 +6055,28 @@
         {
             "@id": "bts:tool",
             "@type": "rdfs:Class",
-            "rdfs:comment": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
+            "rdfs:comment": "Software code or artifact tool",
             "rdfs:label": "tool",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:softwareName"
+                },
+                {
+                    "@id": "sms:softwareType"
+                },
+                {
+                    "@id": "sms:softwareLanguage"
+                },
+                {
+                    "@id": "sms:softwareRepository"
+                },
+                {
+                    "@id": "sms:inputDataType"
+                },
+                {
+                    "@id": "sms:outputDataType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:resourceType"
             },
@@ -6586,6 +7061,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA. [def-source: NCI]",
             "rdfs:label": "nextGenerationSequencing",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:platform"
+                },
+                {
+                    "@id": "sms:readLength"
+                },
+                {
+                    "@id": "sms:readPairOrientation"
+                },
+                {
+                    "@id": "sms:runType"
+                },
+                {
+                    "@id": "sms:isStranded"
+                },
+                {
+                    "@id": "sms:dissociationMethod"
+                },
+                {
+                    "@id": "sms:nucleicAcidSource"
+                },
+                {
+                    "@id": "sms:libraryPrep"
+                },
+                {
+                    "@id": "sms:libraryPreparationMethod"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:assay"
             },
@@ -6598,6 +7102,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "",
             "rdfs:label": "runType",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6634,6 +7141,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Whether or not the library is stranded.",
             "rdfs:label": "isStranded",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6646,6 +7156,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The relative orientation of the reads in a paired-end protocol",
             "rdfs:label": "readPairOrientation",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6694,6 +7207,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The strand from which the read originates in a strand-specific protocol",
             "rdfs:label": "readStrandOrigin",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6730,6 +7246,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The length of thre read",
             "rdfs:label": "readLength",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6742,6 +7261,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "The general strategy by which the library was prepared",
             "rdfs:label": "libraryPrep",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6802,6 +7324,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Method by which library was prepared",
             "rdfs:label": "libraryPreparationMethod",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6874,6 +7399,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "",
             "rdfs:label": "nucleicAcidSource",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -6946,6 +7474,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "",
             "rdfs:label": "dissociationMethod",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:nextGenerationSequencing"
             },
@@ -7302,10 +7833,10 @@
             }
         },
         {
-            "@id": "bts:softwareEntity",
+            "@id": "bts:tool",
             "@type": "rdfs:Class",
             "rdfs:comment": "Software code or artifact tool",
-            "rdfs:label": "softwareEntity",
+            "rdfs:label": "tool",
             "rdfs:subClassOf": {
                 "@id": "bts:Thing"
             },
@@ -7319,7 +7850,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareName",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7331,7 +7862,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareAuthor",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7343,7 +7874,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareVersion",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7355,7 +7886,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7451,7 +7982,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareLanguage",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7523,7 +8054,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareLanguageVersion",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7535,7 +8066,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareRepository",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7667,7 +8198,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareRepositoryType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7739,7 +8270,7 @@
             "rdfs:comment": "",
             "rdfs:label": "inputDataType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7943,7 +8474,7 @@
             "rdfs:comment": "",
             "rdfs:label": "outputDataType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"

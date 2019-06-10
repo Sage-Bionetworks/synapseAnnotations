@@ -143,7 +143,7 @@ class_req_edit = get_class("assay",\
 se.edit_class(class_req_edit)
 
 print("=============")
-print("Setting requirements for NGS assays")
+print("Setting requirements for assays")
 print("=============")
 
 
@@ -155,12 +155,47 @@ for assay in assays:
         class_req_edit = get_class(assay,\
                                       description = class_info["description"],\
                                       subclass_of = class_info["subClassOf"],\
-                                      requires_dependencies = ["platform", "readLength", "readPair", "runType", "isStranded", "dissociationMethod", "nucleicAcidSource", "libraryPrep", "libraryPreparationMethod"]\
+                                      requires_dependencies = ["platform", "readLength", "readPairOrientation", "runType", "isStranded", "dissociationMethod", "nucleicAcidSource", "libraryPrep", "libraryPreparationMethod"]\
         )
         se.edit_class(class_req_edit)
 
+    if "array" in assay.lower():
+        print(assay)
+        class_info = se.explore_class(assay)
+        class_req_edit = get_class(assay,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["platform"]\
+        )
+        se.edit_class(class_req_edit)
 
+    if assay.lower() in ["westernblot", "immunohistochemistry", "chipseq"]:
+        print(assay)
+        class_info = se.explore_class(assay)
+        class_req_edit = get_class(assay,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["assayTarget"]\
+        )
+        se.edit_class(class_req_edit)
 
+        class_info = se.explore_class(assay)
+        class_req_edit = get_class(assay,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["assayTarget"]\
+        )
+        se.edit_class(class_req_edit)
+
+    if assay == "cellViabilityAssay":
+        class_info = se.explore_class(assay)
+        class_req_edit = get_class(assay,\
+                                      description = class_info["description"],\
+                                      subclass_of = class_info["subClassOf"],\
+                                      requires_dependencies = ["chemicalStructure"]\
+        )
+        se.edit_class(class_req_edit)
+        
 
 print("=============")
 print("Setting requirements for NGS properties")
@@ -178,18 +213,40 @@ for ngs_prop in ngs_props:
         )
         se.edit_class(class_req_edit)
 
+
+
+class_info = se.explore_class("assayTarget")
+class_req_edit = get_class("assayTarget",\
+                              description = class_info["description"],\
+                              subclass_of = class_info["subClassOf"],\
+                              requires_value = True\
+)
+se.edit_class(class_req_edit)
+
+
+class_info = se.explore_class("tool")
+class_req_edit = get_class("tool",\
+                              description = class_info["description"],\
+                              subclass_of = "resourceType",\
+                              requires_dependencies = ["softwareName", "softwareType", "softwareLanguage", "softwareRepository", "inputDataType", "outputDataType"]\
+)
+se.edit_class(class_req_edit)
+
+
 """
 diagnosis, if diseased; what the key for diseased?
 """
 
 '''
-One can examine any class/node in the schema.
+# One can examine any class/node in the schema.
 # example of class exploration
 pp = pprint.PrettyPrinter(indent=4)
 class_info = se.explore_class('Individual')
 pp.pprint(class_info)
 '''
 '''
+# draw schema parentOf relationship graph
+
 partial_schema = se.sub_schema_graph(source="resourceType", direction="down")
 partial_schema.engine = "circo"
 partial_schema.render(filename=os.path.join(annotations_path, "partial_" +output_schema_name), view = True)

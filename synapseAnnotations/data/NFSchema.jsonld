@@ -7145,10 +7145,10 @@
             }
         },
         {
-            "@id": "bts:softwareEntity",
+            "@id": "bts:tool",
             "@type": "rdfs:Class",
             "rdfs:comment": "Software code or artifact tool",
-            "rdfs:label": "softwareEntity",
+            "rdfs:label": "tool",
             "rdfs:subClassOf": {
                 "@id": "bts:Thing"
             },
@@ -7162,7 +7162,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareName",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7174,7 +7174,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareAuthor",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7186,7 +7186,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareVersion",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7198,7 +7198,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7294,7 +7294,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareLanguage",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7366,7 +7366,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareLanguageVersion",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7378,7 +7378,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareRepository",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7510,7 +7510,7 @@
             "rdfs:comment": "",
             "rdfs:label": "softwareRepositoryType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7582,7 +7582,7 @@
             "rdfs:comment": "",
             "rdfs:label": "inputDataType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"
@@ -7786,7 +7786,7 @@
             "rdfs:comment": "",
             "rdfs:label": "outputDataType",
             "rdfs:subClassOf": {
-                "@id": "bts:softwareEntity"
+                "@id": "bts:tool"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"

@@ -176,27 +176,29 @@ def get_JSONSchema_requirements(se, root, schema_name):
                 children = get_node_children(mm_graph, process_node)
                 print(children)
                 # set allowable values based on children nodes
-                schema_properties = { process_node:{"enum":children}}
-                json_schema["properties"].update(schema_properties)                
+                if children:
+                    schema_properties = { process_node:{"enum":children}}
+                    json_schema["properties"].update(schema_properties)                
                 
-                # add children for requirements processing
-                nodes_to_process.update(children)
+                    # add children for requirements processing
+                    nodes_to_process.update(children)
                 
-                # set conditional dependencies based on children dependencies
-                for child in children:
-                    child_dependencies = get_node_neighbor_dependencies(mm_graph, child)
-                    if child_dependencies:
-                        schema_conditional_dependencies = {
-                                "if": {
-                                    "properties": {
-                                    process_node: { "enum": [child] }
-                                    }       
-                                  },
-                                "then": { "required": child_dependencies },
-                        }
-                        nodes_with_processed_dependencies.add(child)
-                        nodes_to_process.update(child_dependencies)
-                        json_schema["allOf"].append(schema_conditional_dependencies)
+                    # set conditional dependencies based on children dependencies
+                    for child in children:
+                        child_dependencies = get_node_neighbor_dependencies(mm_graph, child)
+                        if child_dependencies:
+                            schema_conditional_dependencies = {
+                                    "if": {
+                                        "properties": {
+                                        process_node: { "enum": [child] }
+                                        },
+                                        "required":[process_node],
+                                      },
+                                    "then": { "required": child_dependencies },
+                            }
+                            nodes_with_processed_dependencies.add(child)
+                            nodes_to_process.update(child_dependencies)
+                            json_schema["allOf"].append(schema_conditional_dependencies)
 
         '''
         get required nodes by this node (e.g. other terms/nodes

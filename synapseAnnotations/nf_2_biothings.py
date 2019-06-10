@@ -122,7 +122,7 @@ se.update_class(new_class)
 '''
 '''
 #tools classes
-new_class = get_class("softwareEntity",\
+new_class = get_class("tool",\
           description = "Software code or artifact tool",\
           subclass_of = "Thing"\
 )

@@ -1,7 +1,7 @@
 [
   {
     "name": "softwareName",
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -9,7 +9,7 @@
   },
   {
     "name": "softwareAuthor", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -17,7 +17,7 @@
   },
   {
     "name": "softwareVersion", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -25,7 +25,7 @@
   },
   {
     "name": "softwareType", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -69,7 +69,7 @@
   },
   {
     "name": "softwareLanguage", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -103,7 +103,7 @@
   },
   {
     "name": "softwareLanguageVersion", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -111,7 +111,7 @@
   },
   {
     "name": "softwareRepository", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -170,7 +170,7 @@
   },
   {
     "name": "softwareRepositoryType", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -204,7 +204,7 @@
   },
   {
     "name": "inputDataType", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
@@ -295,7 +295,7 @@
   },
   {
     "name": "outputDataType", 
-    "biothingsParent":"softwareEntity",
+    "biothingsParent":"tool",
     "description": "", 
     "columnType": "STRING", 
     "maximumSize": 250, 
