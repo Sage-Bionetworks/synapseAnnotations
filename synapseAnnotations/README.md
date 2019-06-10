@@ -4,14 +4,13 @@
 
 - clone this branch of the repo
 - install dependencies (e.g. pip or conda; either should work):
-
--- networkx
--- rdflib
--- tabletext
--- urllib
--- graphviz (this is for visualization only)
--- jsonschema
--- orderedset
+  * networkx
+  * rdflib
+  * tabletext
+  * urllib
+  * graphviz (this is for visualization only)
+  * jsonschema
+  * orderedset
 
 - we use ajv for testing example JSONSchemas; you can install via nodejs and npm
 
