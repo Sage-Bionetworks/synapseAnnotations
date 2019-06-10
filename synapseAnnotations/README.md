@@ -1,10 +1,28 @@
 # README
 
 This subfolder contains our annotation controlled vocabularies, schemas, and
-code to generate schemas based on existing JSON files.
+code to generate schemas based on existing JSON files, as well as code to generate
+JSONSchema schemas from schema.org schemas.
 
-To translate our original JSON files to JSON-LD and then to JSON Schema requires
-the following steps:
+
+## Installation 
+
+- Clone this branch of the repo.
+- Install dependencies (e.g. pip or conda; either should work):
+  * networkx
+  * rdflib
+  * tabletext
+  * urllib
+  * graphviz (this is for visualization only)
+  * jsonschema
+  * orderedset
+
+- We use ajv for testing example JSONSchemas; you can install via nodejs and npm
+
+
+## Converting existing annotations to JSON-LD Schema.org schemas
+
+To translate our original JSON files to JSON-LD requires the following steps:
 
 1. Run `sage_annotations_2_biothings.py`. Running this on a single [input JSON file](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L55)
 will take that file, add it to the Biothings schema, and save the result to a
@@ -14,10 +32,7 @@ JSON-LD file. To do this:
     1. Uncomment [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L60) and set `base_schema_org_file` to the name of the file you want to extend
     1. Uncomment [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L65)
     1. If desired, edit [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L172) to provide a new filename for export.
-1. When you have generated the JSON-LD file(s), hand-edit them to add additional
-  information, such as `requiresChild: true` for nodes that will become required
-  properties in the JSON Schema.
-1. Then, run `jsonld_2_jsonschema.py`, replacing [`base_schema_org_file`](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/jsonld_2_jsonschema.py#L18) with the name of the file you wish to convert. `jsonld_2_jsonschema.py` takes JSON-LD files and generates JSON Schemas.
+
 
 `data/` contains the original JSON files describing annotations, JSON-LD files
 that extend the Biothings schema with our annotations, and JSON Schema files
@@ -28,3 +43,40 @@ derived from JSON-LD.
 `masterSageTargetRequirements.jsonld` and `masterSageMoreRequirements.jsonld`
 have examples of nodes that have some requirements.
 
+Examples of functioning Schema.org schemas: data/NFSchema.jsonld (contains all NF related classes). 
+
+
+## Generating Schema.org schemas and JSONSchema schemas
+
+To generate a Schema.org schema deriving directly from the Biothings Schema.org schema, please follow the usage examples below. 
+Example cover augmenting Schema.org schemas with validation rules from which a JSONSchema schema can be generated, as well.
+
+### Usage examples
+
+schemaorg_req_example.py provides a self contained toy example of schema.org schema generation, along with example validation logic (e.g. required annotations, constrainining annotation input values, etc.)
+
+Run 
+
+```
+python schemaorg_req_example.py 
+```
+
+to generate 
+- example schema.org schema (schemas/exampleSchemaReq.jsonld)
+- JSONSchema schema based on schema.org schema (schemas/exampleJSONSchema.json)
+
+Both schemaorg_req_example.py and schema_generator.py are well documented; please refer to in-code documentation for more details. 
+
+
+To validate sample data against the example schema:
+
+```
+ajv -s schemas/exampleJSONSchema.json -d 18889969.json --all-errors --errors=text
+```
+
+Examples of functioning Schema.org schemas augmented with validation rules: data/NFSchemaReq.jsonld (contains all NF related classes and associated validation rules).
+
+See schemas/nf_jsonschema.json for a JSONSchema derived based on data/NFSchemaReq.jsonld. 
+data/NFSchemaReq.jsonld was generated using nf_schema_add_requirements.py with input data/NFSchema.jsonld
+schemas/nf_jsonschema.json was generated using schema_generator.py with input data/NFSchemaReq.jsonld
+See in-code documentation for more details.

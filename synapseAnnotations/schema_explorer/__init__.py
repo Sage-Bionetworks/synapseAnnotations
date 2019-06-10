@@ -1,6 +1,7 @@
 from .base import *
 from .utils import *
 import networkx as nx
+from networkx.algorithms.cycles import find_cycle
 import tabletext
 import os
 from .curie import uri2curie, curie2uri
@@ -203,10 +204,16 @@ class SchemaExplorer():
     def find_parent_classes(self, schema_class):
         """Find all parents of the class
         """
-        root_node = list(nx.topological_sort(self.schema_nx))[0]
+
+        digraph = self.get_digraph_by_edge_type("parentOf")
+        
+        root_node = list(nx.topological_sort(digraph))[0]
+        #root_node = list(nx.topological_sort(self.schema_nx))[0]
+        
         paths = nx.all_simple_paths(self.schema_nx,
                                     source=root_node,
                                     target=schema_class)
+        #print(root_node)
         return [_path[:-1] for _path in paths]
 
     def find_class_specific_properties(self, schema_class):
@@ -273,11 +280,13 @@ class SchemaExplorer():
     def explore_class(self, schema_class):
         """Find details about a specific schema class
         """
+       
         class_info = {'properties': self.find_all_class_properties(schema_class),
                       'description': self.schema_nx.node[schema_class]['description'],
                       'uri': curie2uri(self.schema_nx.node[schema_class]["uri"], namespaces),
                       'usage': self.find_class_usages(schema_class),
                       'child_classes': self.find_child_classes(schema_class),
+                      'subClassOf':extract_name_from_uri_or_curie(self.schema_nx.node[schema_class]["subClassOf"]["@id"]) if "subClassOf" in self.schema_nx.node[schema_class] else "", 
                       'parent_classes': self.find_parent_classes(schema_class)}
         return class_info
 
@@ -368,6 +377,20 @@ class SchemaExplorer():
         self.schema["@graph"].append(property_info)
         validate_schema(self.schema)
         print("Updated the property {} successfully!".format(property_info["rdfs:label"]))
+
+    def get_digraph_by_edge_type(self, edge_type):
+
+        multi_digraph = self.schema_nx   
+
+        digraph = nx.DiGraph()
+        for edge in multi_digraph.edges(data = True, keys = True):
+            if edge[3]["relationship"] == edge_type:
+                digraph.add_edge(edge[0], edge[1])
+
+        #print(nx.find_cycle(digraph, orientation = "ignore"))
+
+        return digraph
+
 
     def export_schema(self, file_path):
         with open(file_path, 'w') as f:

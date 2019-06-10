@@ -1,10 +1,9 @@
 # informal dependencies list for scheme.org related modules
 
-networks
+networkx
 rdflib
 tabletext
 urllib
 graphviz
 jsonschema
-
-
+orderedset
