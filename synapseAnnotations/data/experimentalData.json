@@ -320,6 +320,11 @@
         "value": "Laser Speckle Imaging",
         "description": "A noninvasive, non-scanning optical imaging technique that provides full-field visualization of blood flow to the tissue being imaged, which provides information about tissue perfusion and the efficiency of disease treatment.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C116492"
+      },
+      {
+        "value": "Genotyping",
+        "description": "The determination of the DNA sequence of an individual.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
       }
     ]
   },
