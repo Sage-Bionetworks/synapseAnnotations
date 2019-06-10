@@ -72,6 +72,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
       },
       {
+        "value": "liquid chromatography-electrochemical detection",
+        "description": "A liquid chromatography method that is sensitive to compounds which can be either reduced or oxidised. The mobile phase passes directly over the working electrode, which is set to the specific potential required for oxidation or reduction. The current produced is then measured.",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0001746"
+      },
+      {
         "value": "rnaSeq",
         "description": "RNA Sequencing measurements",
         "source": "http://purl.obolibrary.org/obo/OBI_0001271"
@@ -300,6 +305,11 @@
         "value": "LFP",
         "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
         "source": "http://purl.obolibrary.org/obo/OBI_0002189"
+      },
+      {
+        "value": "whole-cell patch clamp",
+        "description": "A patch-clamp assay where the electrode is left in place on the cell, as in cell-attached recordings, but the membrane patch has been perforated, providing access from the interior of the pipette to the intracellular space of the cell. Measurements made with this technique involve recording currents through multiple channels simultaneously, over the membrane of the entire cell.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0002178"
       },
       {
         "value": "sandwich ELISA",
