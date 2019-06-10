@@ -387,7 +387,7 @@ class SchemaExplorer():
             if edge[3]["relationship"] == edge_type:
                 digraph.add_edge(edge[0], edge[1])
 
-        print(nx.find_cycle(digraph, orientation = "ignore"))
+        #print(nx.find_cycle(digraph, orientation = "ignore"))
 
         return digraph
 

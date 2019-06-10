@@ -37,7 +37,7 @@
         {
             "@id": "bts:Thing",
             "@type": "rdfs:Class",
-            "rdfs:comment": "The type of resource being stored and annotated",
+            "rdfs:comment": "Thing",
             "rdfs:label": "Thing",
             "rdfs:requiresDependency": [
                 {
@@ -45,6 +45,12 @@
                 },
                 {
                     "@id": "sms:consortium"
+                },
+                {
+                    "@id": "sms:fileFormat"
+                },
+                {
+                    "@id": "sms:fundingAgency"
                 }
             ],
             "rdfs:subClassOf": {
@@ -5012,6 +5018,9 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
             "rdfs:label": "diagnosis",
+            "rdfs:requiresChildAsValue": {
+                "@id": "sms:True"
+            },
             "rdfs:subClassOf": {
                 "@id": "bts:Disease"
             },
@@ -5024,6 +5033,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A malignancy originating in tissues of the urinary bladder.",
             "rdfs:label": "Bladder Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5036,6 +5050,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
             "rdfs:label": "Leukemia",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5048,6 +5067,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
             "rdfs:label": "Tourette Syndrome",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5060,6 +5084,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
             "rdfs:label": "Neurofibromatosis 1",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5072,6 +5101,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",
             "rdfs:label": "Neurofibromatosis 2",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5084,6 +5118,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
             "rdfs:label": "Bipolar Disorder",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5096,6 +5135,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
             "rdfs:label": "Alzheimer Disease",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5108,6 +5152,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
             "rdfs:label": "Schizophrenia",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5120,6 +5169,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
             "rdfs:label": "Autism Spectrum Disorder",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5132,6 +5186,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
             "rdfs:label": "Fibrocystic Breast Disease",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5144,6 +5203,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "(BC) - A common malignancy originating from breast epithelial tissue.",
             "rdfs:label": "Breast Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5156,6 +5220,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A colorectal cancer that is located_in the colon.",
             "rdfs:label": "Colon Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5168,6 +5237,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A respiratory system cancer that is located_in the lung.",
             "rdfs:label": "Lung Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5180,6 +5254,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A male reproductive organ cancer that is located_in the prostate.",
             "rdfs:label": "Prostate Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5192,6 +5271,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "An endocrine gland cancer located_in the pancreas.",
             "rdfs:label": "Pancreatic Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5204,6 +5288,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
             "rdfs:label": "Skin Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5216,6 +5305,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
             "rdfs:label": "Brain Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5228,6 +5322,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "An ovarian cancer that is derives_from ovarian surface epithelium.",
             "rdfs:label": "Ovary Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5240,6 +5339,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Change in mood is the main underlying feature of these disorders.",
             "rdfs:label": "Affective Disorder",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tissue"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5252,6 +5356,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
             "rdfs:label": "Cervical Cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5264,6 +5373,11 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
             "rdfs:label": "Juvenile Myelomonocytic Leukemia",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:diagnosis"
             },
@@ -5423,6 +5537,35 @@
             "@type": "rdfs:Class",
             "rdfs:comment": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
             "rdfs:label": "experimentalData",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:assay"
+                },
+                {
+                    "@id": "sms:dataType"
+                },
+                {
+                    "@id": "sms:dataSubtype"
+                },
+                {
+                    "@id": "sms:specimenID"
+                },
+                {
+                    "@id": "sms:individualID"
+                },
+                {
+                    "@id": "sms:species"
+                },
+                {
+                    "@id": "sms:isCellLine"
+                },
+                {
+                    "@id": "sms:sex"
+                },
+                {
+                    "@id": "sms:diagnosis"
+                }
+            ],
             "rdfs:subClassOf": {
                 "@id": "bts:resourceType"
             },
@@ -7993,6 +8136,575 @@
             "rdfs:label": "small molecule",
             "rdfs:subClassOf": {
                 "@id": "bts:outputDataType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:cancer",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A tumor composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.",
+            "rdfs:label": "cancer",
+            "rdfs:requiresDependency": [
+                {
+                    "@id": "sms:tumorType"
+                }
+            ],
+            "rdfs:subClassOf": {
+                "@id": "bts:diagnosis"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:cellSubType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "This term is to be used when cell type is not specific enough, such as certain classes of T cells",
+            "rdfs:label": "cellSubType",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:transplantationRecipientTissue",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "In the case of a transplate, this describes the transplant destination",
+            "rdfs:label": "transplantationRecipientTissue",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:transplantationType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Type of transplantation involved in the experiment, derived from MESH",
+            "rdfs:label": "transplantationType",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:allograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Tissues, cells, or organs transplanted between genetically different individuals of the same species",
+            "rdfs:label": "allograft",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:xenograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Tissues, cells or organs transplanted between animals of different species",
+            "rdfs:label": "xenograft",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:autograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Transplant comprised of an individual's own tissue, transferred from one part of the body to another.",
+            "rdfs:label": "autograft",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:isograft",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Tissues, cells or organs transplanted between genetically identical individuals",
+            "rdfs:label": "isograft",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:genePerturbationType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Specific way in which a single gene was perturbed in a sample",
+            "rdfs:label": "genePerturbationType",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:overexpression",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Gene overexpression refers to genetic techniques in which an organism or cell line is engineered to express increased levels of a gene.",
+            "rdfs:label": "overexpression",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:knockdown",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Gene knockdown refers to techniques by which the expression of one or more of an organism's genes is reduced, either through genetic modification (a change in the DNA of one of the organism's chromosomes) or by treatment with a reagent such as a short DNA or RNA oligonucleotide with a sequence complementary to either an mRNA transcript or a gene.",
+            "rdfs:label": "knockdown",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:knockout",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A gene knockout is a genetic technique in which an organism is engineered to carry genes that have been made inoperative (have been 'knocked out' of the organism).",
+            "rdfs:label": "knockout",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:genePerturbationTechnology",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Technology used to perform gene perturbation",
+            "rdfs:label": "genePerturbationTechnology",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:RNAi",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes",
+            "rdfs:label": "RNAi",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationTechnology"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:CRISPR",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "CRISPR",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationTechnology"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:CRE Recombinase",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "CRE Recombinase catalyses site-specific recombination between two 34 base pair loxp sites and maintains the phage genome as a monomeric unit-copy plasmid in the lysogenic state.",
+            "rdfs:label": "CRE Recombinase",
+            "rdfs:subClassOf": {
+                "@id": "bts:genePerturbationTechnology"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:timePointUnit",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "For timed experiments this represents the unit of time measured",
+            "rdfs:label": "timePointUnit",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:hours",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "hours",
+            "rdfs:subClassOf": {
+                "@id": "bts:timePointUnit"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:days",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "days",
+            "rdfs:subClassOf": {
+                "@id": "bts:timePointUnit"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:transplantationRecipientSpecies",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Species into which donor tissue was grown",
+            "rdfs:label": "transplantationRecipientSpecies",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Human",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Human",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationRecipientSpecies"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Mouse",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "Mouse",
+            "rdfs:subClassOf": {
+                "@id": "bts:transplantationRecipientSpecies"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:experimentalCondition",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "This describes the condition under which the data were collected, designed to be free form, extra things that do not fit in pre-defined terms",
+            "rdfs:label": "experimentalCondition",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:experimentalTimePoint",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Number describing time point at which data was collected",
+            "rdfs:label": "experimentalTimePoint",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:genePerturbed",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "In the case of gene modulation, this describes the gene or genes that were modulated",
+            "rdfs:label": "genePerturbed",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:transplantationDonorTissue",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "",
+            "rdfs:label": "transplantationDonorTissue",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:tumorType",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The type of cells that carcinoma arises from.",
+            "rdfs:label": "tumorType",
+            "rdfs:subClassOf": {
+                "@id": "bts:cancer"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Cutaneous Neurofibroma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A neurofibroma that grows along small branches of nerves in the dermis in patients with neurofibromatosis. It presents as a solid cutaneous tumor.",
+            "rdfs:label": "Cutaneous Neurofibroma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Plexiform Neurofibroma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "An elongated and multinodular neurofibroma, formed when the tumor involves either multiple trunks of a plexus or multiple fascicles of a large nerve, such as the sciatic. Some plexiform neurofibromas resemble a bag of worms, others produce a massive ropy enlargement of the nerve.",
+            "rdfs:label": "Plexiform Neurofibroma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Atypical Neurofibroma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A neurofibroma characterized by the presence of cellular pleomorphism.",
+            "rdfs:label": "Atypical Neurofibroma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Malignant Peripheral Nerve Sheath Tumor",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "The tumors usually develop along peripheral or cranial nerves and are a central feature of NEUROFIBROMATOSIS 1, where they may occur intracranially or involve spinal roots.",
+            "rdfs:label": "Malignant Peripheral Nerve Sheath Tumor",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Adenocarcinoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A common cancer characterized by the presence of malignant glandular cells. Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).",
+            "rdfs:label": "Adenocarcinoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Carcinoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from epithelial cells.",
+            "rdfs:label": "Carcinoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Ductal Carcinoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Invasive ductal carcinoma (IDC), an infiltrating, malignant and abnormal proliferation of neoplastic cells in the breast tissue, or ductal carcinoma in situ (DCIS), a noninvasive, possibly malignant, neoplasm that is still confined to the milk ducts (lactiferous ducts), where breast cancer most often originates.",
+            "rdfs:label": "Ductal Carcinoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Melanoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A malignant, usually aggressive tumor composed of atypical, neoplastic melanocytes.",
+            "rdfs:label": "Melanoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Glioma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A benign or malignant brain and spinal cord tumor that arises from glial cells (astrocytes, oligodendrocytes, ependymal cells). Tumors that arise from astrocytes are called astrocytic tumors or astrocytomas. Tumors that arise from oligodendrocytes are called oligodendroglial tumors. Tumors that arise from ependymal cells are called ependymomas.",
+            "rdfs:label": "Glioma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Low Grade Glioma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Low grade gliomas are brain tumors that come from two different types of brain cells known as astrocytes and oligodendrocytes.",
+            "rdfs:label": "Low Grade Glioma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Diffuse Astrocytoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Also called Low-Grade or Astrocytoma Grade II is a subtype of glial tumor of the brain or spinal cord showing astrocytic differentiation.",
+            "rdfs:label": "Diffuse Astrocytoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Anaplastic Astrocytoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A diffusely infiltrating, WHO grade III astrocytoma with focal or dispersed anaplasia, and a marked proliferative potential. It may arise from a low-grade astrocytoma, but it can also be diagnosed at first biopsy, without indication of a less malignant precursor lesion. It has an intrinsic tendency for malignant progression to glioblastoma.",
+            "rdfs:label": "Anaplastic Astrocytoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Glioblastoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Develop primarily through increasing anaplasia of well differentiated gliomas, mainly astrocytomas or oligodendrogliomas. Typically large and contain cells of different sizes with irrregular nuclei and atypical mitotic figures.",
+            "rdfs:label": "Glioblastoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Schwannoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves. ",
+            "rdfs:label": "Schwannoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Lymphoblastic Lymphoma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A lymphoma composed of immature small to medium-sized precursor lymphoid cells (lymphoblasts). It includes the B- and T-cell lymphoblastic lymphoma.",
+            "rdfs:label": "Lymphoblastic Lymphoma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Meningioma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A generally slow growing tumor attached to the dura mater. It is composed of neoplastic meningothelial (arachnoidal) cells.",
+            "rdfs:label": "Meningioma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Myeloma",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A bone marrow cancer that is formed of any one of the bone marrow cells belonging to the granulocytic (neutrophil, eosinophil, basophil), monocytic/macrophage, erythroid, megakaryocytic and mast cell lineages.",
+            "rdfs:label": "Myeloma",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:T Acute Lymphoblastic Leukemia",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "Acute lymphoblastic leukemia of T-cell origin. It comprises about 15% of childhood cases and 25% of adult cases. ",
+            "rdfs:label": "T Acute Lymphoblastic Leukemia",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:chronic lymphocytic leukemia",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A lymphoblastic leukemia characterized by over production of B-cells and their accumulation in bone marrow and blood. ",
+            "rdfs:label": "chronic lymphocytic leukemia",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
+            },
+            "schema:isPartOf": {
+                "@id": "http://schema.biothings.io"
+            }
+        },
+        {
+            "@id": "bts:Acute Myeloid Leukemia",
+            "@type": "rdfs:Class",
+            "rdfs:comment": "A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues.",
+            "rdfs:label": "Acute Myeloid Leukemia",
+            "rdfs:subClassOf": {
+                "@id": "bts:tumorType"
             },
             "schema:isPartOf": {
                 "@id": "http://schema.biothings.io"

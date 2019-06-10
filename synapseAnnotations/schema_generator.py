@@ -151,6 +151,9 @@ def get_JSONSchema_requirements(se, root, schema_name):
     nodes_to_process = OrderedSet()
     nodes_to_process.add(root) 
 
+    # keep track of nodes with processed dependencies
+    nodes_with_processed_dependencies = set()
+
     '''
     keep checking for dependencies until there are no nodes
     left to process
@@ -191,7 +194,8 @@ def get_JSONSchema_requirements(se, root, schema_name):
                                   },
                                 "then": { "required": child_dependencies },
                         }
-
+                        nodes_with_processed_dependencies.add(child)
+                        nodes_to_process.update(child_dependencies)
                         json_schema["allOf"].append(schema_conditional_dependencies)
 
         '''
@@ -200,26 +204,30 @@ def get_JSONSchema_requirements(se, root, schema_name):
         given term is specified); each of these node/terms needs to be 
         processed for dependencies in turn.
         '''
-        process_node_dependencies = get_node_neighbor_dependencies(mm_graph, process_node)
+        if not process_node in nodes_with_processed_dependencies:
+            process_node_dependencies = get_node_neighbor_dependencies(mm_graph, process_node)
 
-        if process_node_dependencies:
-            if process_node == root: # these are unconditional dependencies 
-                json_schema["required"] += process_node_dependencies
-            else: # these are dependencies given the processed node 
-                schema_conditional_dependencies = {
-                        "if": {
-                            "properties": {
-                            process_node: { "string":"*" }
-                            },
-                            "required":[process_node],
-                          },
-                        "then": { "required": [process_node_dependencies] },
-                }
+            if process_node_dependencies:
+                if process_node == root: # these are unconditional dependencies 
+                    json_schema["required"] += process_node_dependencies
+                else: # these are dependencies given the processed node 
+                    schema_conditional_dependencies = {
+                            "if": {
+                                "properties": {
+                                process_node: { "string":"*" }
+                                },
+                                "required":[process_node],
+                              },
+                            "then": { "required": [process_node_dependencies] },
+                    }
 
-                json_schema["allOf"].append(schema_conditional_dependencies)
+                    json_schema["allOf"].append(schema_conditional_dependencies)
 
-            nodes_to_process.update(process_node_dependencies)
-
+                nodes_to_process.update(process_node_dependencies)
+                nodes_with_processed_dependencies.add(process_node)
+        print("Nodes to process")
+        print(nodes_to_process)
+        print("=================")
     return json_schema
 
 
