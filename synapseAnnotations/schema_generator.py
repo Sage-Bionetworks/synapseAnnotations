@@ -147,7 +147,7 @@ def get_JSONSchema_requirements(se, root, schema_name):
         if requires_child in mm_graph.nodes[process_node]:
             if mm_graph.nodes[process_node][requires_child]:
                 children = get_node_children(mm_graph, process_node)
-                print(children)
+                # print(children)
                 # set allowable values based on children nodes
                 if children:
                     schema_properties = { process_node:{"enum":children}}

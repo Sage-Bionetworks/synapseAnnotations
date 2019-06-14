@@ -4,22 +4,22 @@
    "title": "exampleJSONSchema",
    "type": "object",
    "properties": {
+      "fileFormat": {
+         "enum": [
+            "fastq",
+            "txt"
+         ]
+      },
       "resourceType": {
          "enum": [
             "tool",
             "experimentalData"
          ]
-      },
-      "fileFormat": {
-         "enum": [
-            "txt",
-            "fastq"
-         ]
       }
    },
    "required": [
-      "fileFormat",
-      "resourceType"
+      "resourceType",
+      "fileFormat"
    ],
    "allOf": [
       {
@@ -56,8 +56,8 @@
          },
          "then": {
             "required": [
-               "assay",
-               "specimenID"
+               "specimenID",
+               "assay"
             ]
          }
       }

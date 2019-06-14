@@ -250,3 +250,33 @@ json_schema = get_JSONSchema_requirements(se, "Thing", schema_name = json_schema
 # store the JSONSchema schema
 with open(os.path.join(schema_path, json_schema_name + ".json"), "w") as s_f:
     json.dump(json_schema, s_f, indent = 3) # adjust indent - lower for more compact schemas
+
+
+
+"""
+######################################################
+# Generating annotations manifest from schema.org schema
+######################################################
+"""
+
+# NOTE: PLEASE READ prior running the code below: 
+
+# The current manifest is generated as a Google spreadsheet
+# this requires credentials for the Google spreadsheet API
+# the synapse annotations repo is public, so we do not include these credentials here
+# please follow the instructions at the Google Sheets quick start to download the credentials file
+
+# https://developers.google.com/sheets/api/quickstart/python
+
+# namely: click on the ENABLE THE GOOGLE SHEETS API button and download the credentials file; place the credentials file in this working directory (containing manifest_generator.py).
+
+
+from manifest_generator import get_manifest
+
+print("==========================")
+print("Generating manifest...")
+print("==========================")
+
+
+manifest_url = get_manifest(se, "Thing", "exampleManifest")
+print(manifest_url)
