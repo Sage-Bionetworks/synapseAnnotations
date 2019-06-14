@@ -39,33 +39,6 @@ This semantic sugar enables the generation different kinds of validation schemas
 """
 
 
-"""
-Starting from a root node, get all nodes reachable on requiresDependency edges
-"""
-def get_requirements_subgraph(mm_graph, root):
-
-    # get all nodes reachable from the specified root node in the data model
-    root_descendants = nx.descendants(mm_graph, root)
-
-    # get the subgraph induced on all nodes reachable from the root node (and including it)
-    descendants_subgraph = mm_graph.subgraph(list(root_descendants).append(root))
-    
-
-    '''
-    prune the descendants subgraph to include only requireDependency edges
-    '''
-    req_edges = []
-    for edge in descendants_subgraph.edges(data = True, keys = True):
-        if edge[3]["relationship"] == requires_dependency:
-            req_edges.append(edge[0:3])
-    
-    requirements_subgraph = descendants_subgraph.edge_subgraph(req_edges)
-
-    # get only the nodes reachable from the root node (including the root node) - after the pruning above
-    # some nodes in the root-descendants subgraph might have become disconnected
-    requirements_subgraph = requirements_subgraph.subgraph(list(nx.descendants(requirements_subgraph, root)).append(root))
-    
-    return requirements_subgraph
 
 
 """
@@ -174,7 +147,7 @@ def get_JSONSchema_requirements(se, root, schema_name):
         if requires_child in mm_graph.nodes[process_node]:
             if mm_graph.nodes[process_node][requires_child]:
                 children = get_node_children(mm_graph, process_node)
-                print(children)
+                # print(children)
                 # set allowable values based on children nodes
                 if children:
                     schema_properties = { process_node:{"enum":children}}
