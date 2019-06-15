@@ -268,8 +268,21 @@ with open(os.path.join(schema_path, json_schema_name + ".json"), "w") as s_f:
 
 # https://developers.google.com/sheets/api/quickstart/python
 
-# namely: click on the ENABLE THE GOOGLE SHEETS API button and download the credentials file; place the credentials file in this working directory (containing manifest_generator.py).
+# namely: click on the ENABLE THE GOOGLE SHEETS API button and store the two secrets in a json file credentials.json with contents:
+"""
+{
+"installed":
+        {"client_id":"<your client id>",
+        "project_id":"quickstart-1560359685924",
+        "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+        "token_uri":"https://oauth2.googleapis.com/token",
+        "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+        "client_secret":"<your client secret>",
+        "redirect_uris":["urn:ietf:wg:oauth:2.0:oob","http://localhost"]}
+        }
+"""
 
+# store the credentials.json file in this working directory (containing manifest_generator.py)
 
 from manifest_generator import get_manifest
 
