@@ -15,7 +15,7 @@ JSONSchema schemas from schema.org schemas.
   * graphviz (this is for visualization only)
   * jsonschema
   * orderedset
-  * google-api-python-client 
+  * google-api-python-client
   * google-auth-httplib2 
   * google-auth-oauthlib
 
