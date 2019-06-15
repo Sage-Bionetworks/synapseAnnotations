@@ -12,12 +12,11 @@ JSONSchema schemas from schema.org schemas.
   * networkx
   * rdflib
   * tabletext
-  * urllib
   * graphviz (this is for visualization only)
   * jsonschema
   * orderedset
   * google-api-python-client
-  * google-auth-httplib2
+  * google-auth-httplib2 
   * google-auth-oauthlib
 
 - We use ajv for testing example JSONSchemas; you can install via nodejs and npm
@@ -67,7 +66,7 @@ python schemaorg_req_example.py
 to generate 
 - example schema.org schema (schemas/exampleSchemaReq.jsonld)
 - JSONSchema schema based on schema.org schema (schemas/exampleJSONSchema.json)
-- annotations manifest based on the schema.org and JSONSchema schemas; NOTE: please read in-code comments and instructions regarding manifest generation and Google Sheet API credentials
+- annotations manifest based on the schema.org and JSONSchema schemas; NOTE: please read in-code comments and instructions regarding manifest generation and Google Sheet API credentials 
 
 Both schemaorg_req_example.py and schema_generator.py are well documented; please refer to in-code documentation for more details. 
 
