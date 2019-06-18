@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/neurofibromatosis.json",
+  "definitions": {
+    "reportMilestone": {
+      "description": "This key represents the milestone for which the report was submitted, a number representing number of months.",
+      "type": "integer"
+    },
+    "nf2Genotype": {
+      "description": "Genotype of NF2 gene, if known",
+      "anyOf": [
+        {
+          "const": "-/-",
+          "description": "Homozygous deletion or mutation of NF2.",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "+/-",
+          "description": "Heterozygous deletion or mutation",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "+/+",
+          "description": "Homozygous wild type",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "unknown",
+          "description": "",
+          "source": "Sage Bionetworks"
+        }
+      ]
+    },
+    "nf1Genotype": {
+      "description": "Genotype of NF1 gene, if known",
+      "anyOf": [
+        {
+          "const": "-/-",
+          "description": "Homozygous deletion or mutation of NF1.",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "+/-",
+          "description": "Heterozygous deletion or mutation",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "+/+",
+          "description": "Homozygous wildtype",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "unknown",
+          "description": "",
+          "source": "Sage Bionetworks"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "resourceType": "experimentalData",
+  "assay": "ChIPSeq",
+  "readLength": "100",
+  "runType": "pairedEnd",
+  "terminalDifferentiationPoint": "lsdkfj",
+  "cellType": "B-lymphocytes",
+  "assayTarget": "H3K9ac",
+  "species": "Human",
+  "organ": "brain",
+  "tissue": "dorsolateral prefrontal cortex",
+  "fileFormat": "bam",
+  "dataType": "chromatinActivity",
+  "dataSubtype": "raw",
+  "specimenID": "20455807.bam",
+  "specimenIdSource": "",
+  "grant": "U01AG046152",
+  "study": "ROSMAP",
+  "consortium": "AMP-AD",
+  "isModelSystem": false
+}

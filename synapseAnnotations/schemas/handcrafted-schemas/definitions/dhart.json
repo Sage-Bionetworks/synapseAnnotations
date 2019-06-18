@@ -1,0 +1,47 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/dhart.json",
+  "definitions": {
+    "specimenQuantity": {
+      "description": "Currently unused, but could be used to describe how much specimen remains",
+      "type": "string"
+    },
+    "studySite": {
+      "description": "This describes the site where the specimen was collected",
+      "type": "string"
+    },
+    "caseNumber": {
+      "description": "This is the case number from the virtual repository",
+      "type": "string"
+    },
+    "collectionDate": {
+      "description": "The date when this was collected",
+      "type": "string"
+    },
+    "projectNumber": {
+      "description": "There are four projects on going in the spore. This describes for which one the data was collected.",
+      "anyOf": [
+        {
+          "const": "Project 1",
+          "description": "The Plexiform NF project led",
+          "source": ""
+        },
+        {
+          "const": "Project 2",
+          "description": "The MPNST project",
+          "source": ""
+        },
+        {
+          "const": "Project 3",
+          "description": "The JMML project",
+          "source": ""
+        },
+        {
+          "const": "Project 4",
+          "description": "The NF1 survivor project",
+          "source": ""
+        }
+      ]
+    }
+  }
+}

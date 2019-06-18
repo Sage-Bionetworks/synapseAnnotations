@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/genie.json",
+  "definitions": {
+    "fileStage": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "staging",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "release",
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "cBioFileFormat": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "clinical",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "CNA",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "fusions",
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "center": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "NKI",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "DFCI",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "GRCC",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "JHU",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "MSK",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "UHN",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "VICC",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "MDA",
+          "description": "",
+          "source": ""
+        }
+      ]
+    }
+  }
+}
