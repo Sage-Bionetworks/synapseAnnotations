@@ -1,0 +1,107 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/toolExtended.json",
+  "definitions": {
+    "packageLibraryPlatformVersion": {
+      "description": "",
+      "type": "string"
+    },
+    "packageBinaryPlatform": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "Windows",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "OSX",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Linux",
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "packageBinaryPlatformVersion": {
+      "description": "",
+      "type": "string"
+    },
+    "containerPlatform": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "Docker",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Singularity",
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "containerPlatformVersion": {
+      "description": "",
+      "type": "string"
+    },
+    "workflowPlatform": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "Nextflow",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Galaxy",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Snakemake",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Rufus",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "CWL",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "WDL",
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "workflowPlatformVersion": {
+      "description": "",
+      "type": "string"
+    },
+    "containerToolPlatform": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "Docker-CWL",
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": "Docker-WDL",
+          "description": "",
+          "source": ""
+        }
+      ]
+    }
+  }
+}

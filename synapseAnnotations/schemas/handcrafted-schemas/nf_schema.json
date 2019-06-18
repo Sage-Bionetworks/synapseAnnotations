@@ -1,0 +1,241 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"http://example.com/ampad_schema.json",
+  "title": "experiment",
+  "type": "object",
+  "properties": {
+    "assay": {
+      "$ref": "experimentalData.json#/definitions/assay"
+    },
+    "assayTarget": {
+      "$ref": "experimentalData.json#/definitions/assayTarget"
+    },
+    "cellType": {
+      "$ref": "experimentalData.json#/definitions/cellType"
+    },
+    "chemicalStructure": {
+      "$ref": "chem.json#/definitions/chemicalStructure"
+    },
+    "consortium": {
+      "$ref": "sageCommunity.json#/definitions/consortium"
+    },
+    "curatedDataType": {
+      "$ref": "curatedData.json#/definitions/curatedDataType"
+    },
+    "dataType": {
+      "$ref": "experimentalData.json#/definitions/dataType"
+    },
+    "dataSubtype": {
+      "$ref": "experimentalData.json#/definitions/dataSubtype"
+    },
+    "diagnosis": {
+      "$ref": "experimentalData.json#/definitions/diagnosis"
+    },
+    "dissociationMethod": {
+      "$ref": "ngs.json#/definitions/dissociationMethod"
+    },
+    "fileFormat": {
+      "$ref": "sageCommunity.json#/definitions/fileFormat"
+    },
+    "fundingAgency": {
+      "$ref": "sageCommunity.json#/definitions/fundingAgency"
+    },
+    "inputDataType": {
+      "$ref": "tool.json#/definitions/inputDataType"
+    },
+    "isCellLine": {
+      "$ref": "experimentalData.json#/definitions/isCellLine"
+    },
+    "isStranded": {
+      "$ref": "ngs.json#/definitions/isStranded"
+    },
+    "libraryPrep": {
+      "$ref": "ngs.json#/definitions/libraryPrep"
+    },
+    "libraryPreparationMethod": {
+      "$ref": "ngs.json#/definitions/libraryPreparationMethod"
+    },
+    "nucleicAcidSource": {
+      "$ref": "ngs.json#/definitions/nucleicAcidSource"
+    },
+    "organ": {
+      "$ref": "experimentalData.json#/definitions/organ"
+    },
+    "outputDataType": {
+      "$ref": "tool.json#/definitions/outputDataType"
+    },
+    "readLength": {
+      "$ref": "ngs.json#/definitions/readLength"
+    },
+    "readPair": {
+      "$ref": "ngs.json#/definitions/readPair"
+    },
+    "resourceType": {
+      "$ref": "sageCommunity.json#/definitions/resourceType"
+    },
+    "runType": {
+      "$ref": "ngs.json#/definitions/runType"
+    },
+    "sex": {
+      "$ref": "experimentalData.json#/definitions/sex"
+    },
+    "softwareLanguage": {
+      "$ref": "tool.json#/definitions/softwareLanguage"
+    },
+    "softwareName": {
+      "$ref": "tool.json#/definitions/softwareName"
+    },
+    "softwareType": {
+      "$ref": "tool.json#/definitions/softwareType"
+    },
+    "species": {
+      "$ref": "experimentalData.json#/definitions/species"
+    },
+    "specimenID": {
+      "$ref": "experimentalData.json#/definitions/specimenID"
+    }
+  },
+  "required": [
+    "resourceType",
+    "fileFormat",
+    "fundingAgency",
+    "consortium"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "experimentalData"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "assay",
+          "dataType",
+          "dataSubtype",
+          "specimenID",
+          "species",
+          "isCellLine",
+          "sex"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "anyOf": [
+              {"const": "rnaSeq"},
+              {"const": "exomeSeq"},
+              {"const": "wholeGenomeSeq"},
+              {"const": "mrnaSeq"}
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "platform",
+          "readLength",
+          "readPair",
+          "runType",
+          "isStranded",
+          "dissociationMethod",
+          "nucleicAcidSource",
+          "libraryPrep",
+          "libraryPreparationMethod"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "anyOf": [
+              {"const": "snpArray"},
+              {"const": "rnaArray"},
+              {"const": "mirnaArray"}
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "platform"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "anyOf": [
+              {"const": "westernBlot"},
+              {"const": "immunohistochemistry"}
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": ["assayTarget"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "const": "cellViabilityAssay"
+          }
+        }
+      },
+      "then": {
+        "required": ["chemicalStructure"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "curatedData"
+          }
+        }
+      },
+      "then": {
+        "required": ["curatedDataType"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "report"
+          }
+        }
+      },
+      "then": {
+        "required": ["diagnosis"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "tool"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "softwareName",
+          "softwareType",
+          "softwareLanguage",
+          "softwareRepository",
+          "inputDataType",
+          "outputDataType"
+        ]
+      }
+    }
+  ]
+}

@@ -48,6 +48,20 @@ have examples of nodes that have some requirements.
 Examples of functioning Schema.org schemas: data/NFSchema.jsonld (contains all NF related classes). 
 
 
+## Converting existing annotations to JSON Schemas directly
+
+The `convert_to_json_schema.R` script converts all of our annotation term
+definitions to JSON Schema. These can then be used as the building blocks of a
+JSON Schema. Note that in order to retain information about the source and
+description of each term, this script defines enumerated values as separate
+`"const"` items rather than a simple enumerated list. Thus the resulting schemas
+are somewhat more complex than will ultimately be necessary when this
+information is captured in the schema.org source.
+
+The `schemas/handcrafted-schemas/` subfolders have examples of schemas for
+AMP-AD and NF that can serve as useful examples to guide development of
+auto-generated schemas.
+
 ## Generating Schema.org schemas and JSONSchema schemas
 
 To generate a Schema.org schema deriving directly from the Biothings Schema.org schema, please follow the usage examples below. 

@@ -1,0 +1,230 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/ngs.json",
+  "definitions": {
+    "runType": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "singleEnd",
+          "description": "A library preparation that results in the creation of a library of 5' ends of DNA.",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "pairedEnd",
+          "description": "A library preparation that results in the creation of a library of the 5' and 3' ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process.",
+          "source": "http://purl.obolibrary.org/obo/OBI_0001852"
+        }
+      ]
+    },
+    "readPair": {
+      "description": "The read of origin",
+      "anyOf": [
+        {
+          "const": 1,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        },
+        {
+          "const": 2,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        }
+      ]
+    },
+    "isStranded": {
+      "description": "Whether or not the library is stranded.",
+      "anyOf": [
+        {
+          "const": true,
+          "description": "",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "readPairOrientation": {
+      "description": "The relative orientation of the reads in a paired-end protocol",
+      "anyOf": [
+        {
+          "const": "inward",
+          "description": "Reads face each other",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "outward",
+          "description": "Reads face away from each other",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "matching",
+          "description": "Reads face the same direction",
+          "source": "Sage Bionetworks"
+        }
+      ]
+    },
+    "readStrandOrigin": {
+      "description": "The strand from which the read originates in a strand-specific protocol",
+      "anyOf": [
+        {
+          "const": "forward",
+          "description": "Read 1 (or unpaired read) comes from the forward strand and read 2 (if applicable) comes from the reverse strand; equivalent to Tophat 'fr-secondstrand' type",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "reverse",
+          "description": "read 1 (or unpaired read) comes from the reverse strand and read 2 (if applicable) comes from the forward strand; equivalent to Tophat 'fr-firststrand' type",
+          "source": "Sage Bionetworks"
+        }
+      ]
+    },
+    "readLength": {
+      "description": "The length of the read",
+      "type": "string"
+    },
+    "libraryPrep": {
+      "description": "The general strategy by which the library was prepared",
+      "anyOf": [
+        {
+          "const": "rRNAdepletion",
+          "description": "Total RNA library with ribosomal RNA depleted.",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "polyAselection",
+          "description": "RNA selection by polyA tail capture",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "lncRNAenrichment",
+          "description": "RNA library enriched for lncRNA",
+          "source": "Sage Bionetworks"
+        },
+        {
+          "const": "miRNAenrichment",
+          "description": "RNA library with size selection for microRNAs",
+          "source": "Sage Bionetworks"
+        }
+      ]
+    },
+    "libraryPreparationMethod": {
+      "description": "Method by which library was prepared",
+      "anyOf": [
+        {
+          "const": "10x",
+          "description": "10x Genomics library preparation",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "CEL-seq",
+          "description": "CEL-Seq library preparation",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "Drop-Seq",
+          "description": "Drop-Seq library preparation",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "Smart-seq2",
+          "description": "Smart-seq 2 library preparation",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "TruSeq",
+          "description": "TruSeq library preparation",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        }
+      ]
+    },
+    "nucleicAcidSource": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": "bulk cell",
+          "description": "All cells from bulk sample",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "single cell",
+          "description": "Single cell",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "bulk nuclei",
+          "description": "All nuclei from bulk sample",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "single nucleus",
+          "description": "Single nuclei",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "mitochondria",
+          "description": "Mitochondria only",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        }
+      ]
+    },
+    "dissociationMethod": {
+      "description": "",
+      "anyOf": [
+        {
+          "const": " 10x_v2",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "FACS",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "Fluidigm C1",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "drop-seq",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "inDrop",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "mouth pipette",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "bulk",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "enzymatic",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "mechanical",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+          "const": "none",
+          "description": "",
+          "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        }
+      ]
+    }
+  }
+}

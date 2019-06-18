@@ -1,0 +1,215 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"http://example.com/ampad_schema.json",
+  "title": "experiment",
+  "type": "object",
+  "properties": {
+    "assay": {
+      "$ref": "experimentalData.json#/definitions/assay"
+    },
+    "assayTarget": {
+      "$ref": "experimentalData.json#/definitions/assayTarget"
+    },
+    "cellType": {
+      "$ref": "experimentalData.json#/definitions/cellType"
+    },
+    "consortium": {
+      "$ref": "sageCommunity.json#/definitions/consortium"
+    },
+    "dataType": {
+      "$ref": "experimentalData.json#/definitions/dataType"
+    },
+    "dataSubtype": {
+      "$ref": "experimentalData.json#/definitions/dataSubtype"
+    },
+    "fileFormat": {
+      "$ref": "sageCommunity.json#/definitions/fileFormat"
+    },
+    "grant": {
+      "$ref": "neuro.json#/definitions/grant"
+    },
+    "individualID": {
+      "$ref": "experimentalData.json#/definitions/individualID"
+    },
+    "individualIdSource": {
+      "$ref": "experimentalData.json#/definitions/individualIdSource"
+    },
+    "isCellLine": {
+      "$ref": "experimentalData.json#/definitions/isCellLine"
+    },
+    "isMultiSpecimen": {
+      "$ref": "experimentalData.json#/definitions/isMultiSpecimen"
+    },
+    "isModelSystem": {
+      "$ref": "neuro.json#/definitions/isModelSystem"
+    },
+    "modelSystemName": {
+      "$ref": "neuro.json#/definitions/modelSystemName"
+    },
+    "modelSystemStrainNomenclature": {
+      "$ref": "neuro.json#/definitions/modelSystemStrainNomenclature"
+    },
+    "nucleicAcidSource": {
+      "$ref": "ngs.json#/definitions/nucleicAcidSource"
+    },
+    "organ": {
+      "$ref": "experimentalData.json#/definitions/organ"
+    },
+    "readLength": {
+      "$ref": "ngs.json#/definitions/readLength"
+    },
+    "resourceType": {
+      "$ref": "sageCommunity.json#/definitions/resourceType"
+    },
+    "runType": {
+      "$ref": "ngs.json#/definitions/runType"
+    },
+    "sex": {
+      "$ref": "experimentalData.json#/definitions/sex"
+    },
+    "species": {
+      "$ref": "experimentalData.json#/definitions/species"
+    },
+    "specimenID": {
+      "$ref": "experimentalData.json#/definitions/specimenID"
+    },
+    "specimenIdSource": {
+      "$ref": "experimentalData.json#/definitions/specimenIdSource"
+    },
+    "study": {
+      "$ref": "neuro.json#/definitions/study"
+    },
+    "terminalDifferentiationPoint": {
+      "$ref": "experimentalData.json#/definitions/terminalDifferentiationPoint"
+    },
+    "tissue": {
+      "$ref": "experimentalData.json#/definitions/tissue"
+    }
+  },
+  "required": [
+    "consortium",
+    "study",
+    "grant",
+    "dataType",
+    "fileFormat",
+    "species"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "experimentalData"
+          }
+        }
+      },
+      "then": {
+        "required": ["assay", "specimenID"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "anyOf": [
+              {"const": "rnaSeq"},
+              {"const": "ATACSeq"}
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "readLength",
+          "runType"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "const": "ChIPSeq"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "assayTarget",
+          "readLength",
+          "runType"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "const": "scRNAseq"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "nucleicAcidSource",
+          "readLength",
+          "runType"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "const": "wholeGenomeSeq"
+          }
+        }
+      },
+      "then": {
+        "required": ["isMultiSpecimen"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "isModelSystem": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "required": ["sex"]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "isCellLine": {
+            "const": true
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "terminalDifferentiationPoint",
+          "cellType"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "species": {
+            "const": "Mouse"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "modelSystemName",
+          "modelSystemStrainNomenclature"
+        ]
+      }
+    }
+  ]
+}
