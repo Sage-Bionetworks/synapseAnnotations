@@ -79,33 +79,9 @@ create_output_json <- function(definitions, name) {
 
 ## List json files
 files <- list.files(
-  here("synapseAnnotations", "data"),
+  here("synapseAnnotations/data/original"),
   full.names = TRUE
 )
-
-## This folder contains a mix of annotation definitions and other types of JSON
-## files. Make sure we're only using the files we want:
-keep <- c(
-  "analysis.json",
-  "array.json",
-  "cancer.json",
-  "chem.json",
-  "compoundScreen.json",
-  "curatedData.json",
-  "dhart.json",
-  "experimentalData.json",
-  "genie.json",
-  "network.json",
-  "neuro.json",
-  "neurofibromatosis.json",
-  "ngs.json",
-  "sageCommunity.json",
-  "tool.json",
-  "toolExtended.json"
-)
-
-## Subset to the files we want and set names to the basename (without path)
-files <- files[basename(files) %in% keep]
 names(files) <- basename(files)
 
 ## Create the JSON schema data
@@ -114,12 +90,12 @@ json_data <- files %>%
   map(create_schema_from_entries) %>%
   imap(create_output_json)
 
-dir_create(here("synapseAnnotations/schemas/handcrafted-schemas/definitions"))
+dir_create(here("synapseAnnotations/data/json-schemas-from-original/definitions"))
 
 ## Output JSON schema definitions
 iwalk(
   json_data,
   function(x, y) {
-    write(x, here("synapseAnnotations/schemas/handcrafted-schemas/definitions", y))
+    write(x, here("synapseAnnotations/data/json-schemas-from-original/definitions", y))
   }
 )
