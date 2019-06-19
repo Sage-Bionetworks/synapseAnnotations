@@ -26,39 +26,38 @@ JSONSchema schemas from schema.org schemas.
 
 To translate our original JSON files to JSON-LD requires the following steps:
 
-1. Run `sage_annotations_2_biothings.py`. Running this on a single [input JSON file](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L55)
+1. Run `utilities/sage_annotations_2_biothings.py`. Running this on a single [input JSON file](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L55)
 will take that file, add it to the Biothings schema, and save the result to a
-file with the same base file name as the original (e.g. `sageCommunity.json`
-becomes `sageCommunity.jsonld`). The script can also append additional data to a
+file with the same base file name as the original (e.g. `data/original/sageCommunity.json`
+becomes `data/jsonld-data-model/sageCommunity.jsonld`). The script can also append additional data to a
 JSON-LD file. To do this:
     1. Uncomment [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L60) and set `base_schema_org_file` to the name of the file you want to extend
     1. Uncomment [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L65)
     1. If desired, edit [this line](https://github.com/Sage-Bionetworks/synapseAnnotations/blob/d1d2a65105c6c1f3cbc62e58b20abc800d0c9c9e/synapseAnnotations/sage_annotations_2_biothings.py#L172) to provide a new filename for export.
 
 
-`data/` contains the original JSON files describing annotations, JSON-LD files
+`data/original/` contains the original JSON files describing annotations, JSON-LD files
 that extend the Biothings schema with our annotations, and JSON Schema files
 derived from JSON-LD.
 
-`masterSage.jsonld` contains the output from running step 1 above on
+`data/jsonld-data-model/masterSage.jsonld` contains the output from running step 1 above on
 `experimentalData.json` and `sageCommunity.json`.
-`masterSageTargetRequirements.jsonld` and `masterSageMoreRequirements.jsonld`
-have examples of nodes that have some requirements.
 
-Examples of functioning Schema.org schemas: data/NFSchema.jsonld (contains all NF related classes). 
+Examples of functioning Schema.org schemas:
+`data/jsonld-data-model/NFSchema.jsonld` (contains all NF related classes).
 
 
 ## Converting existing annotations to JSON Schemas directly
 
-The `convert_to_json_schema.R` script converts all of our annotation term
-definitions to JSON Schema. These can then be used as the building blocks of a
-JSON Schema. Note that in order to retain information about the source and
+The `utilities/convert_to_json_schema.R` script converts all of our annotation
+term definitions to JSON Schema. These can then be used as the building blocks
+of a JSON Schema. Note that in order to retain information about the source and
 description of each term, this script defines enumerated values as separate
 `"const"` items rather than a simple enumerated list. Thus the resulting schemas
 are somewhat more complex than will ultimately be necessary when this
 information is captured in the schema.org source.
 
-The `schemas/handcrafted-schemas/` subfolders have examples of schemas for
+The `data/json-schemas-from-original/` subfolder has examples of schemas for
 AMP-AD and NF that can serve as useful examples to guide development of
 auto-generated schemas.
 
