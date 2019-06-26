@@ -12,7 +12,7 @@ def setup_module(module):
     test_file = os.path.abspath(__file__)
     test_dir = os.path.split(test_file)[0]
     module.json_files = map(lambda x: os.path.abspath(x),
-                            glob.glob("%s/../../synapseAnnotations/data/*.json" % test_dir))
+                            glob.glob("%s/../../synapseAnnotations/data/original/*.json" % test_dir))
 
 
 def test_duplicate_values_within_key():
