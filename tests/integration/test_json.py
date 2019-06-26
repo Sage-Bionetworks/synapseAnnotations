@@ -12,14 +12,16 @@ def setup_module(module):
     test_file = os.path.abspath(__file__)
     test_dir = os.path.split(test_file)[0]
     module.json_files = map(lambda x: os.path.abspath(x),
-                            glob.glob("%s/../../*.json" % test_dir))
+                            glob.glob("%s/../../synapseAnnotations/data/*.json" % test_dir))
 
 
 def test_duplicate_values_within_key():
     for json_file in json_files:
-        with file(json_file) as f:
+        with open(json_file) as f:
             d = json.load(f)
-            for k, v in d.iteritems():
+            for i in d:
+                k = i['name']
+                v = [x.get('value') for x in i.get('enumValues') or []]
                 value_count = set([x for x in v if v.count(x) > 1])
                 if value_count:
                     raise ValueError(

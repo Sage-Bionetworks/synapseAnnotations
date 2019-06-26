@@ -49,6 +49,21 @@
         "value": "GRCh38", 
         "description": "Genome Reference Consortium Human Build 38", 
         "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26"
+      },
+      {
+        "value": "GRCh37", 
+        "description": "Genome Reference Consortium Human Build 37", 
+        "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/"
+      },
+      {
+        "value": "MMUL1.0", 
+        "description": "Ensembl preliminary assembly Macaca mulatta", 
+        "source": "https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index"
+      },
+      {
+        "value": "HRC", 
+        "description": "Human haplotype reference panel", 
+        "source": "http://www.haplotype-reference-consortium.org"
       }
     ]
   }

@@ -555,6 +555,11 @@
         "value": "data normalization",
         "description": "",
         "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015"
+      },
+      {
+        "value": "genotypeAncestry",
+        "description": "model genetic ancestry from SNP data",
+        "source": "http://www.compgen.pitt.edu/GemTools/GemTools.htm"
       }
     ]
   },

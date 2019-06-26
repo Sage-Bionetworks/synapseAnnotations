@@ -166,6 +166,16 @@
         "value": "1RF1AG051556", 
         "description": "Interdisciplinary research to understand the interplay of diabetes, cerebrovascular disease and Alzheimers Disease", 
         "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
+      },
+      {
+        "value": "U54AG054345", 
+        "description": "The IU/JAX Alzheimer's Disease Precision Models Center", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205077&icde=31682752"
+      },
+      {
+        "value": "U54AG054349", 
+        "description": "UC Irvine AD Translational Center For Disease Model Resources", 
+        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9205189&icde=40362576"
       }
     ]
   }, 
@@ -202,7 +212,7 @@
       }, 
       {
         "value": "CNON", 
-        "description": "Cultured Neurnal cells derived from Olfactory Neuroepithelium ", 
+        "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium", 
         "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }, 
       {
@@ -491,14 +501,29 @@
         "source": "https://www.synapse.org/#!Synapse:syn5714307"
       },
       {
-        "value": "iPSCAstrocytes", 
-        "description": "iPSC derived astrocytes", 
-        "source": "https://www.synapse.org/#!Synapse:syn10344967"
-      },
-      {
         "value": "iPSC-HiC", 
         "description": "Human induced pluripotent stem cells (hiPSCs).",
         "source": "https://www.synapse.org/#!Synapse:syn12979149"
+      },
+      {
+        "value": "MODEL-AD_APOE4_Trem2", 
+        "description": "MODEL-AD APOE4/Trem2*R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn17095980"
+      },
+      {
+        "value": "MODEL-AD_5XFAD", 
+        "description": "MODEL-AD 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn16798076"
+      },
+      {
+        "value": "MODEL-AD_hAbeta_KI", 
+        "description": "MODEL-AD hAbeta KI Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634479"
+      },
+      {
+        "value": "MODEL-AD_APPPS1", 
+        "description": "MODEL-AD APP/PS1 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18633019"
       }
     ]
   }, 
@@ -603,8 +628,8 @@
       }, 
       {
         "value": "APPPS1", 
-        "description": "", 
-        "source": "Sage Bionetworks"
+        "description": "double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9)", 
+        "source": "https://www.jax.org/strain/005864"
       }, 
       {
         "value": "MAPT-P301K", 
@@ -650,6 +675,41 @@
         "value": "TYROBP_KO.KO", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "5XFAD", 
+        "description": "transgenic mice overexpressing three human APP mutations and two human PS1 FAD mutations", 
+        "source": "https://www.jax.org/strain/008730"
+      },
+      {
+        "value": "C57BL6J", 
+        "description": "general purpose background strain", 
+        "source": "https://www.jax.org/strain/000664"
+      },
+      {
+        "value": "APOE4Trem2R47H", 
+        "description": "double mutant with humanized ApoE knock-in mutation and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/028709"
+      },
+      {
+        "value": "Trem2R47H", 
+        "description": "mutant with an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/027918"
+      },
+      {
+        "value": "hTauTrem2", 
+        "description": "expresses six isoforms of the human tau protein under the control of the endogenous human MAPT promoter backcrossed into Trem2 −/−mice", 
+        "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "hAbeta KI", 
+        "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "APOE4 KI", 
+        "description": "humanized ApoE knock-in", 
+        "source": "https://www.jax.org/strain/027894"
       }
     ]
   }, 

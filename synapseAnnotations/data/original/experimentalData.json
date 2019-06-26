@@ -23,6 +23,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
       },
       {
+        "value": "immunofluorescence",
+        "description": "An immunological procedure in which the antibodies are coupled with molecules which fluoresce under ultra violet (UV) light. This makes them particularly suitable for detection of specific antigens in tissues or on cells.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17370"
+      },
+      {
         "value": "Real Time PCR",
         "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
@@ -65,6 +70,11 @@
         "value": "HPLC-MSMS",
         "description": "An analytical technique wherein high performance liquid chromatography is coupled to tandem mass spectrometry in order to separate, identify, and quantify substances in a sample.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
+      },
+      {
+        "value": "liquid chromatography-electrochemical detection",
+        "description": "A liquid chromatography method that is sensitive to compounds which can be either reduced or oxidised. The mobile phase passes directly over the working electrode, which is set to the specific potential required for oxidation or reduction. The current produced is then measured.",
+        "source": "http://purl.obolibrary.org/obo/CHMO_0001746"
       },
       {
         "value": "rnaSeq",
@@ -297,9 +307,24 @@
         "source": "http://purl.obolibrary.org/obo/OBI_0002189"
       },
       {
+        "value": "whole-cell patch clamp",
+        "description": "A patch-clamp assay where the electrode is left in place on the cell, as in cell-attached recordings, but the membrane patch has been perforated, providing access from the interior of the pipette to the intracellular space of the cell. Measurements made with this technique involve recording currents through multiple channels simultaneously, over the membrane of the entire cell.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0002178"
+      },
+      {
         "value": "sandwich ELISA",
         "description": "The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002421"
+      },
+      {
+        "value": "Laser Speckle Imaging",
+        "description": "A noninvasive, non-scanning optical imaging technique that provides full-field visualization of blood flow to the tissue being imaged, which provides information about tissue perfusion and the efficiency of disease treatment.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C116492"
+      },
+      {
+        "value": "Genotyping",
+        "description": "The determination of the DNA sequence of an individual.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
       }
     ]
   },
@@ -386,6 +411,39 @@
         "value": "metadata",
         "description": "A file of clinical, technical, or other parameters that describe a dataset.",
         "source": ""
+      }
+    ]
+  },
+  {
+    "name": "metadataType",
+    "description": "For files of dataSubtype: metadata, a description of the type of metadata in the file.",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+        "value": "individual",
+        "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "biospecimen",
+        "description": "Metadata describing properties of specimens collected and/or analyzed in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "assay",
+        "description": "Metadata describing properites of an assay conducted in the study.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "data dictionary",
+        "description": "Metadata describing terms or variables that appear in another file.",
+        "source": "Sage Bionetworks"
+      },
+      {
+        "value": "protocol",
+        "description": "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000272"
       }
     ]
   },
@@ -489,10 +547,10 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
       },
       {
-         "value": "nose",
-         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
-         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
-       }
+        "value": "nose",
+        "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+      }
     ]
   },
   {
@@ -648,24 +706,9 @@
     "maximumSize": 250,
     "enumValues": [
       {
-        "value": "medial orbital frontal cortex",
-        "description": "Component of the orbtial frontal cortex.",
-        "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352"
-      },
-      {
-        "value": "medial prefrontal cortex",
-        "description": "",
-        "source": "Sage Bionetworks"
-      },
-      {
         "value": "medial dorsal nucleus of thalamus",
         "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
         "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
-      },
-      {
-        "value": "inferior temporal cortex",
-        "description": "",
-        "source": "Sage Bionetworks"
       },
       {
         "value": "posterior inferior parietal cortex",
@@ -918,11 +961,6 @@
         "source": "https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions"
       },
       {
-        "value": "medial dorsal nucleus of thalamus",
-        "description": "The medial dorsal nucleus (or dorsomedial nucleus of thalamus) is a large nucleus in the thalamus.",
-        "source": "http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002739"
-      },
-      {
         "value": "inferior temporal cortex",
         "description": "Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.",
         "source": "http://www.scholarpedia.org/article/Inferior_temporal_cortex"
@@ -972,6 +1010,21 @@
         "value": "whole brain",
         "description": "Brain tissue not limited to a specific region.",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "Buffy Coat",
+        "description": "The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C84507"
+      },
+      {
+        "value":"frontal cortex",
+        "description": "Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",
+        "source": "http://purl.obolibrary.org/obo/UBERON_0001870"
+      },
+      {
+        "value":"olfactory neuroepithelium",
+        "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
+        "source": "https://www.medilexicon.com/dictionary/60061"
       }
     ]
   },
@@ -1332,6 +1385,11 @@
         "description": "",
         "source": "Sage Bionetworks"
       },
+      {       
+        "value": "iPSC-derived glia",
+        "description": "",
+        "source": "Sage Bionetworks"
+      },
       {
         "value": "iPSC-derived astrocytes",
         "description": "",
@@ -1351,6 +1409,11 @@
         "value": "CD138+",
         "description": "",
         "source": ""
+      },
+      {
+        "value": "CNON", 
+        "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium", 
+        "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }
     ]
   },

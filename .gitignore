@@ -1,4 +1,5 @@
+.DS_Store
+
 # compiled python code
 #######################
 *.pyc
-
