@@ -519,6 +519,21 @@
         "value": "mtx",
         "description": "Matrix Market Exchange Format",
         "source": "https://math.nist.gov/MatrixMarket/formats.html#MMformat"
+      },
+      {
+        "value":"bfilt",
+        "description": "contains the final ATACSeq peaks after removing the encode blacklist regions.",
+        "source":"https://sites.google.com/site/anshulkundaje/projects/blacklists"
+      },
+      {
+        "value":"tagAlign",
+        "description":"Tag Alignment provides genomic mapping of short sequence tags.",
+        "source":"https://genome.ucsc.edu/FAQ/FAQformat.html#format15"
+      },
+      {
+        "value":"dup",
+        "description":"output of the Picard MarkDuplicates tool.",
+        "source":"https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.4.0/picard_sam_markduplicates_MarkDuplicates.php"
       }
     ]
   },
