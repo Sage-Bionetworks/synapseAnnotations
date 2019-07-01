@@ -521,11 +521,6 @@
         "source": "https://math.nist.gov/MatrixMarket/formats.html#MMformat"
       },
       {
-        "value":"bfilt",
-        "description": "contains the final ATACSeq peaks after removing the encode blacklist regions.",
-        "source":"https://sites.google.com/site/anshulkundaje/projects/blacklists"
-      },
-      {
         "value":"tagAlign",
         "description":"Tag Alignment provides genomic mapping of short sequence tags.",
         "source":"https://genome.ucsc.edu/FAQ/FAQformat.html#format15"
