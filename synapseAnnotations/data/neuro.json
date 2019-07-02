@@ -607,6 +607,16 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "Abca7A1527GAPOE4Trem2R47H", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of the Trem2 gene", 
+        "source": "https://www.jax.org/strain/030283"
+      },
+      {
+        "value": "Abca7KO", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a knock-out mutation of the Abca7 gene, and an R47H point mutation of Trem2", 
+        "source": ""
+      },
+      {
         "value": "AB42", 
         "description": "", 
         "source": ""
@@ -625,6 +635,11 @@
         "value": "APPE693Q", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "AppKOAPOE4Trem2R47H", 
+        "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 94bp deletion in exon 14 of the App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031722"
       }, 
       {
         "value": "APPKM650", 
@@ -662,6 +677,16 @@
         "source": "https://www.jax.org/strain/030670"
       },
       {
+        "value": "hAPPAPOE4Trem2R47H", 
+        "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of the Trem2 gene", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "hTau", 
+        "description": "strian that expresses all six isoforms (including both 3R and 4R forms) of human microtubule-associated protein tau (MAPT)", 
+        "source": "https://www.jax.org/strain/005491"
+      }, 
+      {
         "value": "hTauTrem2", 
         "description": "expresses six isoforms of the human tau protein under the control of the endogenous human MAPT promoter backcrossed into Trem2 −/−mice", 
         "source": "https://www.synapse.org/#!Synapse:syn18693211"
@@ -682,9 +707,24 @@
         "source": ""
       },
       {
+        "value": "Trem2flox", 
+        "description": "mutant strain that possesses loxP sites flanking exons 2 and 3 of the Trem2 gene", 
+        "source": "https://www.jax.org/strain/029853"
+      },
+      {
+        "value": "Trem2KO", 
+        "description": "mutant of the Trem2 gene carries a knock out mutation", 
+        "source": "https://www.jax.org/strain/027197"
+      },
+      {
         "value": "Trem2R47H", 
         "description": "mutant with an R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/027918"
+      },
+      {
+        "value": "Trem2Y38C", 
+        "description": "mutant with a Y38C point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/029725"
       }, 
       {
         "value": "TYROBP", 
