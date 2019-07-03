@@ -607,7 +607,7 @@
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "Abca7A1527GAPOE4Trem2R47H", 
+        "value": "Abca7A1527G", 
         "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of the Trem2 gene", 
         "source": "https://www.jax.org/strain/030283"
       },
@@ -637,7 +637,7 @@
         "source": ""
       },
       {
-        "value": "AppKOAPOE4Trem2R47H", 
+        "value": "AppKO", 
         "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 94bp deletion in exon 14 of the App gene, and an R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/031722"
       }, 
@@ -677,7 +677,7 @@
         "source": "https://www.jax.org/strain/030670"
       },
       {
-        "value": "hAPPAPOE4Trem2R47H", 
+        "value": "hAPP", 
         "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of the Trem2 gene", 
         "source": "https://www.jax.org/strain/030670"
       },
