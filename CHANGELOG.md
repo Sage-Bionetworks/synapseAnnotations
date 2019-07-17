@@ -1,7 +1,69 @@
 # Change Log
 
-## [10.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/10.0.0) (2019-02-05)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v9.0.0...10.0.0)
+## [11.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/11.0.0) (2019-07-16)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v10.0.0...11.0.0)
+
+**Fixed bugs:**
+
+- Duplicate values for some keys [\#482](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/482)
+
+**Closed issues:**
+
+- Create a README for schema conversion [\#476](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/476)
+- Fix camel case capitalization of annotation terms in new schemas [\#465](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/465)
+- Migrate Milen's schema generation code to this repo [\#464](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/464)
+- Data quality flag annotation [\#449](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/449)
+- Update Synapse table [\#446](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/446)
+
+**Merged pull requests:**
+
+- Organize modelSystemName [\#505](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/505) ([bememea](https://github.com/bememea))
+- fileFormat additions for PEC [\#504](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/504) ([kelshmo](https://github.com/kelshmo))
+- Organize files in schemaorg-conversion work [\#503](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/503) ([karawoo](https://github.com/karawoo))
+- Add json schema definitions and sample schemas [\#502](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/502) ([karawoo](https://github.com/karawoo))
+- Added more detailed in-code documentation regarding manifest generation and google api credentials [\#501](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/501) ([milen-sage](https://github.com/milen-sage))
+- Added manifest generation code [\#500](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/500) ([milen-sage](https://github.com/milen-sage))
+- JSONschema schemas generation from schema.org schemas [\#499](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/499) ([milen-sage](https://github.com/milen-sage))
+- add assays hplc-ec and whole-cell patch clamp [\#498](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/498) ([allaway](https://github.com/allaway))
+- added assay = immunofluorescence [\#493](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/493) ([amapeters](https://github.com/amapeters))
+- Update assay [\#492](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/492) ([bememea](https://github.com/bememea))
+- Updated study [\#490](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/490) ([bememea](https://github.com/bememea))
+- Updated grant [\#489](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/489) ([bememea](https://github.com/bememea))
+- Updated modelSystemNames [\#488](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/488) ([bememea](https://github.com/bememea))
+- Add matrix market exchange format [\#487](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/487) ([karawoo](https://github.com/karawoo))
+- fix array.json [\#486](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/486) ([kdaily](https://github.com/kdaily))
+- Lint all json files in the repo [\#485](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/485) ([karawoo](https://github.com/karawoo))
+- Fix test for duplicate values [\#484](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/484) ([karawoo](https://github.com/karawoo))
+- Remove some duplicate values in study and fileFormat [\#483](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/483) ([karawoo](https://github.com/karawoo))
+- Neuro terms for PEC [\#481](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/481) ([kelshmo](https://github.com/kelshmo))
+- Remove duplicate tissue annotations [\#480](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/480) ([karawoo](https://github.com/karawoo))
+- Add metadataType annotation [\#479](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/479) ([karawoo](https://github.com/karawoo))
+- Add assay: laser speckle imaging [\#478](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/478) ([karawoo](https://github.com/karawoo))
+- Add readme for schema generation [\#477](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/477) ([karawoo](https://github.com/karawoo))
+- Add a .gitignore for files that should not be committed to the repo [\#474](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/474) ([karawoo](https://github.com/karawoo))
+- Remove .DS\_Store file [\#473](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/473) ([karawoo](https://github.com/karawoo))
+- More case fixes [\#472](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/472) ([karawoo](https://github.com/karawoo))
+- added buffy coat to tissue&organ [\#471](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/471) ([xdoan](https://github.com/xdoan))
+- Schema.org conversion utilities [\#469](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/469) ([milen-sage](https://github.com/milen-sage))
+- Added cellType - iPSC-derived glia [\#468](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/468) ([amapeters](https://github.com/amapeters))
+- added milestone to report items, and removed study [\#463](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/463) ([sgosline](https://github.com/sgosline))
+- CMC annotations from develop branch [\#462](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/462) ([kelshmo](https://github.com/kelshmo))
+- add failedQC annotation [\#460](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/460) ([karawoo](https://github.com/karawoo))
+- add high content screen assay [\#459](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/459) ([allaway](https://github.com/allaway))
+- add antibody array assay [\#458](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/458) ([allaway](https://github.com/allaway))
+- Add GATK VQSR recal and tranches fileFormats  [\#457](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/457) ([sgosline](https://github.com/sgosline))
+- added GATK VQSR recal and tranches fileFormat [\#456](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/456) ([xdoan](https://github.com/xdoan))
+- forgot to do pull request for read-pair [\#455](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/455) ([sgosline](https://github.com/sgosline))
+- added Immunocytochemistry and real time PCR [\#454](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/454) ([sgosline](https://github.com/sgosline))
+- made some updates for the container SOP for csbc [\#453](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/453) ([sgosline](https://github.com/sgosline))
+- Add study description for JAX\_APPPS1 [\#452](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/452) ([karawoo](https://github.com/karawoo))
+- Add electrophysiology as dataType [\#451](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/451) ([karawoo](https://github.com/karawoo))
+- Add electrophysiology assays LTP and LFP [\#450](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/450) ([karawoo](https://github.com/karawoo))
+- Add more info on how to perform release [\#448](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/448) ([karawoo](https://github.com/karawoo))
+- Add referenceSet to curatedData.json [\#439](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/439) ([kelshmo](https://github.com/kelshmo))
+
+## [v10.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v10.0.0) (2019-02-05)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v9.0.0...v10.0.0)
 
 **Implemented enhancements:**
 
