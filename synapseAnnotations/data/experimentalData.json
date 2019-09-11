@@ -325,6 +325,11 @@
         "value": "Genotyping",
         "description": "The determination of the DNA sequence of an individual.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
+      },
+      {
+      	"value": "TMT",
+      	"description":"A high-throughput multiplexed proteomics technique.", 
+      	"source":"https://www.ebi.ac.uk/ols/ontologies/ero/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FERO_0002175"
       }
     ]
   },
