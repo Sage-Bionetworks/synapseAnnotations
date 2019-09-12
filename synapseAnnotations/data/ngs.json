@@ -148,16 +148,21 @@
         "value": "Drop-Seq",
         "description": "Drop-Seq library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-      }
-    ,{
+      },
+      {
         "value": "Smart-seq2",
         "description": "Smart-seq 2 library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-      }
-     ,{
+      },
+      {
         "value": "TruSeq",
         "description": "TruSeq library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      },
+      {
+        "value": "Smart-seq4",
+        "description": "Smart-seq4 library preparation",
+        "source":"https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
       }
     ]
   },
