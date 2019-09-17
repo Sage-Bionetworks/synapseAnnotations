@@ -334,7 +334,7 @@
       {
       	"value": "label free MS",
       	"description":"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.", 
-      	"source":"https://www.ebi.ac.uk/ols/ontologies/ero/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FERO_0000708"
+      	"source":"http://purl.obolibrary.org/obo/ERO_0000708"
       }
     ]
   },
