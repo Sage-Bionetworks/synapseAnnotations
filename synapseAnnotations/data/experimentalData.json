@@ -23,9 +23,14 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
       },
       {
-        "value": "immunofluorescence",
-        "description": "An immunological procedure in which the antibodies are coupled with molecules which fluoresce under ultra violet (UV) light. This makes them particularly suitable for detection of specific antigens in tissues or on cells.",
-        "source": "http://purl.obolibrary.org/obo/NCIT_C17370"
+        "value": "Immunocytochemistry",
+        "description": "The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
+      },
+      {
+        "value": "autoradiography",
+        "description": " A radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000716"
       },
       {
         "value": "Real Time PCR",
