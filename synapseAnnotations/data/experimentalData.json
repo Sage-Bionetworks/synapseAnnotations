@@ -28,6 +28,11 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C17370"
       },
       {
+        "value": "autoradiography",
+        "description": " A radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
+        "source": "http://purl.obolibrary.org/obo/ERO_0000716"
+      },
+      {
         "value": "Real Time PCR",
         "description":"An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
