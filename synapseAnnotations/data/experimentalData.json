@@ -330,6 +330,16 @@
         "value": "Genotyping",
         "description": "The determination of the DNA sequence of an individual.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
+      },
+      {
+      	"value": "TMT quantitation",
+      	"description":"An isobaric labeling technique that uses tags containing four regions with the same total molecular weights and structure, so that during chromatographic or electrophoretic separation and in single MS mode, molecules labelled with different tags are indistinguishable.", 
+      	"source":"http://purl.obolibrary.org/obo/ERO_0002175"
+      }, 
+      {
+      	"value": "label free mass spectrometry",
+      	"description":"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.", 
+      	"source":"http://purl.obolibrary.org/obo/ERO_0000708"
       }
     ]
   },
