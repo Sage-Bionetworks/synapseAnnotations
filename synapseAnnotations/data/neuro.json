@@ -578,13 +578,18 @@
     "enumValues": [
       {
         "value": "haloperidol", 
-        "description": "", 
-        "source": ""
+        "description": "A compound composed of a central piperidine structure with hydroxy and p-chlorophenyl substituents at position 4 and an N-linked p-fluorobutyrophenone moiety", 
+        "source": "http://purl.obolibrary.org/obo/CHEBI_5613"
+      }, 
+      {
+        "value": "levetiracetam", 
+        "description": "A pyrrolidinone and carboxamide that is N-methylpyrrolidin-2-one in which one of the methyl hydrogens is replaced by an aminocarbonyl group, while another is replaced by an ethyl group (the S enantiomer). An anticonvulsant, it is used for the treatment of epilepsy in both human and veterinary medicine.", 
+        "source": "http://purl.obolibrary.org/obo/CHEBI_6437"
       }, 
       {
         "value": "placebo", 
-        "description": "", 
-        "source": ""
+        "description": "A negative reference substance is a reference role in which the substance playing the reference substance role is physically similar in appearance to the test substance", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0000169"
       },
       {
         "value": "clozapine",
