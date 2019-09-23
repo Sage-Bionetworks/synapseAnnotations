@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "mRNAcounts",
+        "description": "A mRNA profiling assay using digital molecular barcoding technology to quantify target mRNA molecules without the need for amplification.",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "high content screen",
         "description": "An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).",
         "source": "http://www.ebi.ac.uk/efo/EFO_0007550"
@@ -1062,9 +1067,14 @@
     "maximumSize": 250,
     "enumValues": [
      {
-        "value": "HiSeq3000",
-        "description": "Illumina HiSeq 3000",
-        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
+       "value": "NanostringnCounter_MouseADPanel",
+       "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
+       "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
+     },
+     {
+       "value": "HiSeq3000",
+       "description": "Illumina HiSeq 3000",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
      },
      {
         "value": "HiSeq2500",
