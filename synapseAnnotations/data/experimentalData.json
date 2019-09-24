@@ -13,6 +13,26 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "elevated plus maze test",
+        "description": "A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits."
+        "source": "http://purl.obolibrary.org/obo/MMO_0000262"
+      },
+      {
+        "value": "open field test",
+        "desription": "A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject."
+        "source": "http://purl.obolibrary.org/obo/MMO_0000258"
+      },
+      {
+        "value": "rotarod performance test"
+        "description": "A method that utilizes a device consisting of a rotating rod the speed of which is mechanically driven and precisely controlled, for instance held constant or accelerated. The rotarod test is often used to measure riding time or endurance in order to evaluate balance, motor coordination or grip strength."
+        "source": "http://purl.obolibrary.org/obo/MMO_0000567"
+      },
+      {
+        "value": "contextual fear conditioning test"
+        "description": "A test in which an aversive stimulus is administered within a certain environment or context followed by assessment of subsequent fear/emotion-based reactions in that environment without the aversive stimulus."
+        "source": "http://purl.obolibrary.org/obo/MMO_0000572"
+      },
+      {
         "value": "mRNAcounts",
         "description": "A mRNA profiling assay using digital molecular barcoding technology to quantify target mRNA molecules without the need for amplification.",
         "source": "Sage Bionetworks"
