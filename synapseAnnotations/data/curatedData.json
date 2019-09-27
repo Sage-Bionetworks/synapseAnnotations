@@ -57,13 +57,23 @@
       },
       {
         "value": "MMUL1.0", 
-        "description": "Ensembl preliminary assembly Macaca mulatta", 
+        "description": "Ensembl preliminary assembly Macaca mulatta release 85", 
         "source": "https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index"
       },
       {
         "value": "HRC", 
         "description": "Human haplotype reference panel", 
         "source": "http://www.haplotype-reference-consortium.org"
+      },
+      {
+      	"value":"MMUL8.0.1",
+      	"description":"Ensembl assembly Macaca mulatta release 86",
+      	"source": "http://oct2016.archive.ensembl.org/Macaca_mulatta/Info/Index"
+      },
+      {
+      	"value": "panTro3",
+      	"description": "Ensembl assembly Pan troglodytes",
+      	"source" :"https://uswest.ensembl.org/Pan_troglodytes/Info/Annotation"
       }
     ]
   }
