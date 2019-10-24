@@ -506,14 +506,24 @@
         "source": "https://www.synapse.org/#!Synapse:syn12979149"
       },
       {
+        "value": "MODEL-AD_5XFAD", 
+        "description": "MODEL-AD 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn16798076"
+      },
+      {
+        "value": "MODEL-AD_APOE4_KI", 
+        "description": "MODEL-AD APOE4 KI Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634456"
+      },
+      {
         "value": "MODEL-AD_APOE4_Trem2", 
         "description": "MODEL-AD APOE4/Trem2*R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn17095980"
       },
       {
-        "value": "MODEL-AD_5XFAD", 
-        "description": "MODEL-AD 5XFAD Study",
-        "source": "https://www.synapse.org/#!Synapse:syn16798076"
+        "value": "MODEL-AD_APPPS1", 
+        "description": "MODEL-AD APP/PS1 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18633019"
       },
       {
         "value": "MODEL-AD_hAbeta_KI", 
@@ -521,9 +531,19 @@
         "source": "https://www.synapse.org/#!Synapse:syn18634479"
       },
       {
-        "value": "MODEL-AD_APPPS1", 
-        "description": "MODEL-AD APP/PS1 Study",
-        "source": "https://www.synapse.org/#!Synapse:syn18633019"
+        "value": "MODEL-AD_hTau_Trem2", 
+        "description": "MODEL-AD hTau Trem2 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "MODEL-AD_Rat_F344", 
+        "description": "MODEL-AD Rat F344 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn20730014"
+      },
+      {
+        "value": "MODEL-AD_Trem2_R47H", 
+        "description": "MODEL-AD Trem2 R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634477"
       }
     ]
   }, 
