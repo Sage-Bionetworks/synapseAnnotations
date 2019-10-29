@@ -1,0 +1,688 @@
+[
+  {
+    "ageDxYears": {
+      "description": "Age in years at diagnosis",
+      "type": "STRING",
+      "maximumSize": 10,
+      "enumValues":[]
+    },
+    "ageOfDeath": {
+      "description": "Age of death",
+      "type": "NUMBER",
+      "exclusiveMinimum": 0
+    },
+    "ageOfDeathUnits": {
+      "description": "The death age unit of measure (gestational week or year)",
+      "type": "STRING",
+      "maximumSize": 10,
+      "enumValues":[
+        {
+          "value": "gestational age in weeks",
+	  "description": "Gestational weeks",
+	  "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C1954787"
+        },
+	{
+          "value": "years",
+	  "description": "Year",
+	  "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0439234"
+        }
+      ]
+    },
+    "ageOnset": {
+      "description": "Age in years of first symptoms",
+      "type": "NUMBER",
+      "exclusiveMinimum": 0
+    },
+    "ancestryJewish": {
+      "description": "Does the individual have Jewish ancestry",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumValues": [
+        {
+          "value": "true",
+          "description": "The individual has Jewish ancestry",
+          "source": ""
+        },
+        {
+          "value": "false",
+          "description": "The individual does not have Jewish ancestry",
+          "source": ""
+        },
+        {
+          "value": "unknown",
+          "description": "Unknown whether the individual has Jewish ancestry",
+          "source": ""
+        }
+      ]
+    },
+    "BMI": {
+      "description": "Body Mass Index",
+      "type": "INTEGER",
+      "minimum": 19,
+      "maximum": 54
+    },
+    "braak": {
+      "description": "Braak stage",
+      "type": "INTEGER",
+      "enumValues": [
+        {
+          "value": 1,
+          "description": "",
+          "source": ""
+        },
+        {
+          "value": 2,
+          "description": "",
+          "source": ""
+        },
+        {
+          "value": 3,
+          "description": "",
+          "source": ""
+        },
+        {
+          "value": 4,
+          "description": "",
+          "source": ""
+        },
+        {
+          "value": 5,
+          "description": "",
+          "source": ""
+        },
+        {
+          "value": 6,
+          "description": "",
+          "source": ""
+        }
+      ]
+    },
+    "breastFed": {
+      "description": "Was the individual breastfed",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumValues": [
+        {
+          "value": "true",
+          "description": "The individual was breastfed",
+          "source": ""
+        },
+        {
+          "value": "false",
+          "description": "The individual was not breastfed",
+          "source": ""
+        },
+        {
+          "value": "unknown",
+          "description": "Unknown whether the individual was breastfed",
+          "source": ""
+        }
+      ]
+    },
+    "causeOfDeath": {
+      "description": "The specific injury or disease that lead to death",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumValues":[]
+    },
+    "CDR": {
+      "description": "Clinical Dementia Rating",
+      "type": "NUMBER",
+      "enumValues": [
+        {
+          "value": 0,
+          "description": "None",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0549184"
+        },
+        {
+          "value": 0.5,
+          "description": "Very mild",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C4036115"
+        },
+        {
+          "value": 1,
+          "description": "Mild",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C2945599"
+        },
+        {
+          "value": 2,
+          "description": "Moderate",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0205081"
+        },
+        {
+          "value": 3,
+          "description": "Severe",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0205082"
+        }
+      ]
+    },
+    "classification": {
+      "description": "Classification",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumValues":[]
+    },
+    "consanguinity": {
+      "description": "Is there a family history of consanguinity",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumValues": [
+        {
+          "value": "true",
+          "description": "There is a family history of consanguinity",
+          "source": ""
+        },
+        {
+          "value": "false",
+          "description": "There is no family history of consanguinity",
+          "source": ""
+        },
+        {
+          "value": "unknown",
+          "description": "Unknown whether there is a family history of consanguinity",
+          "source": ""
+        }
+      ]
+    },
+    "countryOfOrigin": {
+      "description": "Individual country of birth",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "Csection": {
+      "description": "Was the individual born via C-section",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumValues": [
+        {
+          "value": "true",
+          "description": "The individual was born via C-section",
+          "source": ""
+        },
+        {
+          "value": "false",
+          "description": "The individual was not born via C-section",
+          "source": ""
+        },
+        {
+          "value": "unknown",
+          "description": "Unknown whether the individual was born via C-section",
+          "source": ""
+        }
+      ]
+    },
+    "dateOfBirth": {
+      "description": "Individual date of birth",
+      "type": "STRING",
+      "maximumSize": 12,
+      "enumvalues": []
+    },
+    "dateOfDeath": {
+      "description": "Individual date of death",
+      "type": "STRING",
+      "maximumSize": 12,
+      "enumvalues": []
+    },
+    "dementia": {
+      "description": "Is dementia present",
+      "type": "BOOLEAN",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": true,
+          "description": "Dementia is present",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "Dementia is not present",
+          "source": ""
+        }
+      ]
+    },
+    "diagnosisPhenotype": {
+      "description": "Diagnosis phenotype",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "diseaseBehaviorStricturing": {
+      "description": "Has there been stricturing",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "There has been stricturing",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "There has not been stricturing",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether there has been stricturing",
+          "source": ""
+        }
+      ]
+    },
+    "diseaseLocation": {
+      "description": "Location of disease/activity",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "EIM": {
+      "description": "Type of extra-intestinal manifestation",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "ethnicity": {
+      "description": "Individual ethnicity",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "familyHistory": {
+      "description": "Is there a family history of the disorder/disease",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "There is a family history of the disorder/disease",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "There is no family history of the disorder/disease",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether there is a family history of the disorder/disease",
+          "source": ""
+        }
+      ]
+    },
+    "firstDegree": {
+      "description": "Is there a first degree relative with the disease",
+      "type": "BOOLEAN",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": true,
+          "description": "There is a first degree relative with the disease",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "There is not a first degree relative with the disease",
+          "source": ""
+        }
+      ]
+    },
+    "geneticMutation": {
+      "description": "Genetic mutation, if known",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "genotypeInferredAncestry": {
+      "description": "Ancestry inferred from genotype",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "householdSmokingHistory": {
+      "description": "Does someone in the household smoke",
+      "type": "BOOLEAN",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": true,
+          "description": "Someone in the household smokes",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "No one in the household smokes",
+          "source": ""
+        }
+      ]
+    },
+    "IQ": {
+      "description": "IQ",
+      "type": "INTEGER",
+      "minimum": 0,
+      "maximum": 170
+    },
+    "isogenicReplicate": {
+      "description": "Replicates from biosamples derived from the same human donor or model organism strain",
+      "type": "INTEGER"
+    },
+    "labAssay": {
+      "description": "Laboratory assay performed",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "labAssayResult": {
+      "description": "Laboratory assay result",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "mannerOfDeath": {
+      "description": "The determination of how the inury or disease lead to death",
+      "type": "STRING",
+      "maximumSize": 15,
+      "enumvalues": [
+        {
+          "const": "natural death",
+          "description": "",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0277610"
+        },
+        {
+          "const": "accident",
+          "description": "",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0000924"
+        },
+        {
+          "const": "suicide",
+          "description": "",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0038661"
+        },
+        {
+          "const": "homicide",
+          "description": "",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C3829672"
+        },
+        {
+          "const": "undetermined",
+          "description": "",
+          "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=CL502663"
+        }
+      ]
+    },
+    "maternalSmokingHistory": {
+      "description": "Did the mother smoke while pregnant",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "The mother smoked while pregnant",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "The mother did not smoke while pregnant",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether the mother smoked while pregnant",
+          "source": ""
+        }
+      ]
+    },
+    "medicationAtDx": {
+      "description": "Medication prescribed at diagnosis",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "medRecordTox": {
+      "description": "Is there a medical record toxicology report",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "There is a medical record toxicology report",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "There is no medical record toxicology report",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether there is a medical record toxicology report",
+          "source": ""
+        }
+      ]
+    },
+    "neuropathDescription": {
+      "description": "Description of neuropathology",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "otherDiagnosis": {
+      "description": "Secondary diagnosis",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "otherDiagnosisDetail": {
+      "description": "Subgroup of secondary diagnosis (DSM or ICD code)",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "otherMedicalDx": {
+      "description": "Other medical diagnosis",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "otherMedicalDetail": {
+      "description": "Subgroup of other medical diagnosis (DSM or ICD code)",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "perianalInvolvement": {
+      "description": "Is there perianal involvement",
+      "type": "BOOLEAN",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": true,
+          "description": "There is perianal involvement",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "There is no perianal involvement",
+          "source": ""
+        }
+      ]
+    },
+    "postmortem": {
+      "description": "Was tissue biopsied or sampled after death",
+      "type": "STRING",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "The tissue was biopsied or sampled post mortem",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "The tissue was not biopsied or sampled post mortem",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether the tissue was biopsied or sampled post mortem",
+          "source": ""
+        }
+      ]
+    },
+    "postmortemTox": {
+      "description": "Were toxicology tests performed on post-mortem tissue",
+      "type": "STRING",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "Post-mortem toxicology tests were performed",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "Post-mortem toxicology tests were not performed",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether post-mortem toxicology tests were performed",
+          "source": ""
+        }
+      ]
+    },
+    "postmortemToxSource": {
+      "description": "Tissue used for post-mortem toxicology tests",
+      "type": "STRING",
+      "maximumSize": 5,
+      "enumvalues": []
+    },
+    "preTermBirth": {
+      "description": "Was the individual born pre-term",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "The individual was born pre-term",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "The individual was not born pre-term",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether the individual was born pre-term",
+          "source": ""
+        }
+      ]
+    },
+    "primaryDiagnosis": {
+      "description": "Primary diagnosis",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "primaryDiagnosisDetail": {
+      "description": "Subgroup of primary diagnosis (DSM or ICD code)",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "race": {
+      "description": "Race",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "raceDetail": {
+      "description": "Race Detail",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "reportedGender": {
+      "description": "Gender as reported by the brain bank",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "female",
+          "description": "Female",
+          "source": ""
+        },
+        {
+          "const": "male",
+          "description": "Male",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Gender is not reported by the brain bank",
+          "source": ""
+        }
+      ]
+    },
+    "secondDegree": {
+      "description": "Is there a second degree relative with the disease",
+      "type": "STRING",
+      "maximumSize": 7,
+      "enumvalues": [
+        {
+          "const": "true",
+          "description": "There is a second degree relative with the disease",
+          "source": ""
+        },
+        {
+          "const": "false",
+          "description": "There is not a second degree relative with the disease",
+          "source": ""
+        },
+        {
+          "const": "unknown",
+          "description": "Unknown whether there is a second degree relative with the disease",
+          "source": ""
+        }
+      ]
+    },
+    "smokePerDay": {
+      "description": "Number of cigarettes smoked daily",
+      "type": "INTEGER",
+      "minimum": 0
+    },
+    "smokingHistory": {
+      "description": "Does the individual have a history of smoking",
+      "type": "BOOLEAN",
+      "maximumSize": 5,
+      "enumvalues": [
+        {
+          "const": true,
+          "description": "The individual has a history of smoking",
+          "source": ""
+        },
+        {
+          "const": false,
+          "description": "The individual does not have a history of smoking",
+          "source": ""
+        }
+      ]
+    },
+    "smokingYears": {
+      "description": "Number of years the individual has smoked",
+      "type": "NUMBER",
+      "minimum": 0
+    },
+    "surgicalHistory": {
+      "description": "Type of surgical history",
+      "type": "STRING",
+      "maximumSize": 250,
+      "enumvalues": []
+    },
+    "yearAutopsy": {
+      "description": "Year autopsy was performed",
+      "type": "INTEGER",
+      "exclusiveMinimum": 0
+    }
+  }
+]
