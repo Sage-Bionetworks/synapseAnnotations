@@ -395,7 +395,7 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075802"
       },
       {
-        "value": "MODEL-AD Mthfr_APOE4_Trem2 Study", 
+        "value": "MODEL-AD_Mthfr_APOE4_Trem2", 
         "description": "MODEL-AD Mthfr*C677T/APOE4/Trem2*R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn21075850"
       },
