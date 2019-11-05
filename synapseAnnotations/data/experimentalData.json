@@ -23,9 +23,9 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000217"
       },
       {
-        "value": "chemistry panels",
-        "description": "Groups of tests that are routinely ordered to determine a person's general health status. The tests are performed on a blood sample, usually drawn from a vein,",
-        "source": "https://labtestsonline.org/tests/chemistry-panels"
+        "value": "Blood Chemistry Measurement",
+        "description": "The determination of the measured concentrations of chemical constituents of the blood by assay in a clinical laboratory.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C47868"
       },
       {
         "value": "in vivo bioluminescence",
