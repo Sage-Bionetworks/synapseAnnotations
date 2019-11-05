@@ -496,13 +496,33 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "Abca7A1527GAPOE4Trem2R47H", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030283"
+      },
+      {
+        "value": "Abca7KO", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a knock-out mutation of the Abca7 gene, and an R47H point mutation of Trem2", 
+        "source": ""
+      },
+      {
         "value": "AB42", 
         "description": "", 
         "source": ""
       },
       {
-        "value": "APOE4 KI", 
-        "description": "humanized ApoE knock-in", 
+        "value": "APOE2KI", 
+        "description": "mice with R130C and R176C point mutations in the human APOE sequence of an existing humanized ApoE knock-in allele and express the human APOE isoform E2", 
+        "source": "https://www.jax.org/strain/029017"
+      },
+      {
+        "value": "APOE3KI", 
+        "description": "mice carry a R130C point mutation in the human APOE sequence of an existing humanized ApoE knock-in allele and express the human APOE isoform E3", 
+        "source": "https://www.jax.org/strain/029018"
+      },
+      {
+        "value": "APOE4KI", 
+        "description": "humanized ApoE knock-in mutation (sequence coding for isoform E4)", 
         "source": "https://www.jax.org/strain/027894"
       },
       {
@@ -514,6 +534,11 @@
         "value": "APPE693Q", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "AppKOAPOE4Trem2R47H", 
+        "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 94bp deletion in exon 14 of the App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031722"
       }, 
       {
         "value": "APPKM650", 
@@ -534,11 +559,26 @@
         "value": "APPPS1", 
         "description": "double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9)", 
         "source": "https://www.jax.org/strain/005864"
+      },
+      {
+        "value": "BRI2-AB42", 
+        "description": "BRI-Abeta42 transgenic mice harbor a mouse prion promoter-driven BRI-Abeta42 fusion construct (containing a human type 2 transmembrane protein fused in-frame with a 'wildtype APP695' cDNA sequence encoding amyloid-beta42 at the furin-like cleavage site)", 
+        "source": "https://www.jax.org/strain/007182"
       }, 
       {
+        "value": "Ceacam1KO", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a knock-out mutation, deletion of exon 1, of the Ceacam1 gene, and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/030673"
+      },
+      {
+        "value": "Clasp2L163PSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, an L163P point mutation of Clasp2, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031944"
+      },
+      {
         "value": "CRND8", 
-        "description": "", 
-        "source": ""
+        "description": "transgene expressing the mutant human APPSweInd, which bears both the Swedish (K670N/M671L) and the Indiana (V717F) mutations, under the control of the Syrian hamster prion protein promoter", 
+        "source": "http://www.informatics.jax.org/allele/MGI:3589475"
       },
       {
         "value": "C57BL6J", 
@@ -551,29 +591,89 @@
         "source": "https://www.jax.org/strain/030670"
       },
       {
+        "value": "hAPPAPOE4Trem2R47H", 
+        "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "hTau", 
+        "description": "strain that expresses all six isoforms (including both 3R and 4R forms) of human microtubule-associated protein tau (MAPT)", 
+        "source": "https://www.jax.org/strain/005491"
+      }, 
+      {
         "value": "hTauTrem2", 
         "description": "expresses six isoforms of the human tau protein under the control of the endogenous human MAPT promoter backcrossed into Trem2 −/−mice", 
         "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "Il1rapKO", 
+        "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 387bp deletion in the first coding exon knock-out mutation of the Il1rap gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030304"
+      },
+      {
+        "value": "Kif21bT82TSNP", 
+        "description": "triple mutant strain carrying a T82T point mutation of the Kif21b gene, a humanized ApoE knock-in mutation, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031938"
       }, 
       {
         "value": "MAPT-P301K", 
         "description": "", 
         "source": ""
-      }, 
+      },
+      {
+        "value": "MthfrC677TSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation; an R47H point mutation of Trem2; and a mutant of the Mthfr gene carrying a point mutation that models the human C677T polymorphism", 
+        "source": "https://www.jax.org/strain/030922"
+      },
+      {
+        "value": "Plcg2KO", 
+        "description": "mutant of the Plcg2 gene carries a knock-out mutation", 
+        "source": "https://www.jax.org/strain/029910"
+      },     
+      {
+        "value": "Plcg2M28LSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a mutant of the Plcg2 gene with the M28L mutation, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030674"
+      },
       {
         "value": "rTg4510", 
         "description": "", 
         "source": ""
-      }, 
+      },
+      {
+        "value": "Snx1D465NSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a D465N point mutation of the Snx1 gene, and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/031942"
+      },
+      {
+        "value": "Sorl1A528TSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, an A528T point mutation of the Sorl1 gene. and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/031940"
+      },
       {
         "value": "TREM2", 
         "description": "", 
         "source": ""
       },
       {
+        "value": "Trem2flox", 
+        "description": "mutant strain that possesses loxP sites flanking exons 2 and 3 of the Trem2 gene", 
+        "source": "https://www.jax.org/strain/029853"
+      },
+      {
+        "value": "Trem2KO", 
+        "description": "mutant of the Trem2 gene carries a knock out mutation", 
+        "source": "https://www.jax.org/strain/027197"
+      },
+      {
         "value": "Trem2R47H", 
         "description": "mutant with an R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/027918"
+      },
+      {
+        "value": "Trem2Y38C", 
+        "description": "mutant with a Y38C point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/029725"
       }, 
       {
         "value": "TYROBP", 
