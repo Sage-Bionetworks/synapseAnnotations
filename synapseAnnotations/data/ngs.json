@@ -163,6 +163,11 @@
         "value": "Smart-seq4",
         "description": "Smart-seq4 library preparation",
         "source":"https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
+      },
+      {
+        "value": "Omni-ATAC",
+        "description": "Omni-ATAC-seq library preparation",
+	"source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
       }
     ]
   },
