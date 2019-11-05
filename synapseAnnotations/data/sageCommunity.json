@@ -622,6 +622,31 @@
         "value": "IU-JAX", 
         "description": "Group from neuro consortia.", 
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "IU_PTC", 
+        "description": "Indiana University pre-clinical testing core -- group from neuro consortia.", 
+        "source": "https://model-ad.org/preclinical-testing-core/"
+      }, 
+      {
+        "value": "Pitt_PTC", 
+        "description": "University of Pittsburgh pre-clinical testing core -- group from neuro consortia.", 
+        "source": "https://model-ad.org/preclinical-testing-core/"
+      },
+      {
+        "value": "Jax_DMP", 
+        "description": "The Jackson Laboratory disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/disease-modeling-project/"
+      },
+      {
+        "value": "IU_DMP", 
+        "description": "Indiana University disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/disease-modeling-project/"
+      },
+      {
+        "value": "UCI_DMP", 
+        "description": "University of California at Irvine disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/uci-disease-model-development-and-phenotyping-dmp/"
       }, 
       {
         "value": "Columbia-SUNY", 
