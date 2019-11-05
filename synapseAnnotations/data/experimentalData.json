@@ -28,11 +28,6 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000567"
       },
       {
-        "value": "contextual fear conditioning test"
-        "description": "A test in which an aversive stimulus is administered within a certain environment or context followed by assessment of subsequent fear/emotion-based reactions in that environment without the aversive stimulus."
-        "source": "http://purl.obolibrary.org/obo/MMO_0000572"
-      },
-      {
         "value": "mRNAcounts",
         "description": "A mRNA profiling assay using digital molecular barcoding technology to quantify target mRNA molecules without the need for amplification.",
         "source": "Sage Bionetworks"
