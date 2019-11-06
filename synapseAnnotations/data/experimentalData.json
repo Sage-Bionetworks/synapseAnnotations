@@ -73,6 +73,11 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000217"
       },
       {
+        "value": "Blood Chemistry Measurement",
+        "description": "The determination of the measured concentrations of chemical constituents of the blood by assay in a clinical laboratory.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C47868"
+      },
+      {
         "value": "in vivo bioluminescence",
         "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
         "source": "http://purl.obolibrary.org/obo/ERO_0000651"
