@@ -534,6 +534,11 @@
         "value":"DICOM",
         "description":"A comprehensive set of standards for communications between medical imaging devices, including handling, storing and transmitting information in medical imaging. It includes a file format definition and a network communication protocol.",
         "source":"http://purl.obolibrary.org/obo/NCIT_C49059"
+      },
+      {
+        "value":"czi",
+        "description":"microscopy imaging file format that saves multidimensional images such as time lapse, Z-stacks, multiposition experiments and virtual slides, combined with relevant meta information",
+        "source":"https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html"
       }
     ]
   },
