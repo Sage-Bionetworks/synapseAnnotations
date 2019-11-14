@@ -38,19 +38,7 @@
     "name": "isStranded",
     "description": "Whether or not the library is stranded.",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "readPairOrientation",
