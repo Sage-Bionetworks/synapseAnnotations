@@ -1,7 +1,7 @@
 [
   {
     "name": "BrodmannArea", 
-    "description": "", 
+    "description": "A segmentation of the cerebral cortex on the basis of cytoarchitecture", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
