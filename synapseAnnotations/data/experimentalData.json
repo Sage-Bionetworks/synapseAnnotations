@@ -438,6 +438,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "normalized",
+        "description": "A data set that is produced as the output of a normalization data transformation.",
+        "source": "http://purl.obolibrary.org/obo/OBI_0000451"
+      },
+      {
         "value": "dataMatrix",
         "description": "A file of data containing multiple values for multiple samples.",
         "source": ""
