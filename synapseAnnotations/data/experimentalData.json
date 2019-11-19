@@ -491,6 +491,11 @@
         "source": "Sage Bionetworks"
       },
       {
+        "value": "manifest",
+        "description": "Metadata describing a list of files and the annotations terms associated with them.",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "protocol",
         "description": "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
         "source": "http://purl.obolibrary.org/obo/OBI_0000272"
