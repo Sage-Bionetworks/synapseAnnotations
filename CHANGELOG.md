@@ -1,7 +1,65 @@
 # Change Log
 
-## [11.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/11.0.0) (2019-07-16)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v10.0.0...11.0.0)
+## [12.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.0.0) (2019-11-25)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v11.0.0...12.0.0)
+
+**Implemented enhancements:**
+
+- Add annotations for reference genome build/assembly [\#120](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/120)
+
+**Fixed bugs:**
+
+- immunohistochemistry and brightfieldMicroscopy seem to be overlapping assays [\#419](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/419)
+
+**Closed issues:**
+
+- Add metadataType: manifest [\#539](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/539)
+- Do we really need to control values for grant? [\#519](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/519)
+- assay = mRNA counts [\#516](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/516)
+- values for sex [\#512](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/512)
+- Protocols [\#511](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/511)
+- single cell annotations [\#510](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/510)
+- broken links -  libraryPreparationMethod [\#508](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/508)
+- Mouse model annotation [\#497](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/497)
+- Add metadataType key [\#470](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/470)
+- Add more detail on release process [\#447](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/447)
+- Need to find solution to cancer subtype [\#366](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/366)
+- Get serious about tool/model annotations [\#364](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/364)
+- Think more and come to some conclusion about JSON Schema and JSON-LD [\#351](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/351)
+- Discussion about mouse behavioral analysis annotations [\#341](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/341)
+- Recommended annotations for QC files [\#292](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/292)
+- What are recommended sources for grants [\#236](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/236)
+- SOP for annotating cell lines by individualId and sampleId [\#233](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/233)
+- Clarify descriptions/source for 'platform' values to include other species [\#224](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/224)
+- library prep platform [\#178](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/178)
+
+**Merged pull requests:**
+
+- Add manifest as a metadataType [\#540](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/540) ([karawoo](https://github.com/karawoo))
+- Added definition for BrodmannArea [\#537](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/537) ([amapeters](https://github.com/amapeters))
+- Add czi as fileFormat [\#536](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/536) ([bememea](https://github.com/bememea))
+- add Nf osi schema to develop branch [\#533](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/533) ([sgosline](https://github.com/sgosline))
+- Library preparation method [\#532](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/532) ([cw-dvr8](https://github.com/cw-dvr8))
+- Update modelSystemName for MODEL-AD strains [\#531](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/531) ([bememea](https://github.com/bememea))
+- Add MODEL-AD teams to group key [\#530](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/530) ([bememea](https://github.com/bememea))
+- Add MODEL-AD studies [\#529](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/529) ([bememea](https://github.com/bememea))
+- Add MODEL-AD studies [\#527](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/527) ([bememea](https://github.com/bememea))
+- Reword sentence in contributing guide [\#526](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/526) ([karawoo](https://github.com/karawoo))
+- Remove grant values [\#523](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/523) ([karawoo](https://github.com/karawoo))
+- Add individualID description [\#522](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/522) ([cw-dvr8](https://github.com/cw-dvr8))
+- Added dataSubtype = normalized [\#521](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/521) ([amapeters](https://github.com/amapeters))
+- added mouse behavior assays [\#518](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/518) ([amapeters](https://github.com/amapeters))
+- Added assay = mRNAcounts, platform = NanostringnCounter\_MouseADPanel [\#517](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/517) ([amapeters](https://github.com/amapeters))
+- Updated treatmentType [\#514](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/514) ([amapeters](https://github.com/amapeters))
+- Added assay = autoradiography [\#513](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/513) ([amapeters](https://github.com/amapeters))
+- libraryPrepartionMethod value [\#509](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/509) ([kelshmo](https://github.com/kelshmo))
+- add type of proeomics assay [\#507](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/507) ([kelshmo](https://github.com/kelshmo))
+- add dicom [\#506](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/506) ([allaway](https://github.com/allaway))
+- added assay = chemistry panels [\#496](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/496) ([amapeters](https://github.com/amapeters))
+- Added assay = electrochemiluminescence [\#495](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/495) ([amapeters](https://github.com/amapeters))
+
+## [v11.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v11.0.0) (2019-07-17)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v10.0.0...v11.0.0)
 
 **Fixed bugs:**
 
@@ -200,7 +258,6 @@
 
 - harmonize capitilization of analysis values with source [\#336](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/336)
 - Add link to shiny App in README.md [\#331](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/331)
-- Add normalizationMethod terms to analysis  [\#330](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/330)
 - analysisType - ancestry [\#309](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/309)
 - Programmatic access to json [\#288](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/288)
 - What are global terms for file formats in bioinformatics workflows - revisit fileFormat  [\#286](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/286)
