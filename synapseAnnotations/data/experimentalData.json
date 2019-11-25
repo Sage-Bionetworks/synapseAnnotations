@@ -476,6 +476,11 @@
         "source": "Sage Bionetworks"
       },
       {
+        "value": "quality control",
+        "description": "Quality assesment of specimens or data.",
+        "source": "Sage Bionetworks"
+      },
+      {
         "value": "biospecimen",
         "description": "Metadata describing properties of specimens collected and/or analyzed in the study.",
         "source": "Sage Bionetworks"
