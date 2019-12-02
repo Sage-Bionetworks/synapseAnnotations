@@ -881,6 +881,11 @@
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001873"
       },
       {
+        "value": "Head of caudate nucleus",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/FMA_61852"
+      },
+      {
         "value": "nucleus accumbens",
         "description": "A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent).",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001882"
