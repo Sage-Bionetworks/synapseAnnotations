@@ -18,6 +18,11 @@
         "source": "http://purl.obolibrary.org/obo/MMO_0000267"
       },
       {
+        "value": "von Frey test",
+        "description": "assessment of mechanical nociception",
+        "source": "https://en.wikipedia.org/wiki/Nociception_assay#Von_Frey"
+      },
+      {
         "value": "elevated plus maze test",
         "description": "A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000262"
