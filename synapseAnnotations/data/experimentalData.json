@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Zeno Electronic Walkway",
+        "description": "The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.",
+        "source": "http://www.zenometrics.com/zenowalkway.html"
+      },
+      {
         "value": "elevated T maze apparatus method",
         "description": "A method which utilizes an experimental apparatus consisting of three arms all or any of which may or may not be enclosed, in the shape of a T upon which the test animal can walk. The maze may include doors which can be used to close off any of the arms of the maze. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000267"
