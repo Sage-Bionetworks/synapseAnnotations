@@ -706,19 +706,7 @@
     "name": "isModelSystem",
     "description": "",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "modelSystemStrainNomenclature", 

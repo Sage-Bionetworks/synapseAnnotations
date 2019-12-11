@@ -1307,37 +1307,14 @@
     "name": "isCellLine",
     "description": "Boolean flag indicating whether or not sample source is a cell line",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "isPrimaryCell",
-    "description": "Boolean flag indicating whether or not cellType is primary",
+    "description": "Boolean flag indicating whether or not cellType is primary, defined as 'A cell taken directly from a living organism, which is not immortalized'.",
     "columnType": "BOOLEAN",
     "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "A cell taken directly from a living organism, which is not immortalized",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001413"
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "source": "http://purl.obolibrary.org/obo/BTO_0001413"
   },
   {
     "name": "cellType",
@@ -1633,28 +1610,12 @@
   {
     "name": "isMultiIndividual",
     "description": "Boolean flag indicating whether or not a file has data for multiple individuals",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "isMultiSpecimen",
     "description": "Boolean flag indicating whether or not a file has data for multiple specimens",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "specimenIdSource",
