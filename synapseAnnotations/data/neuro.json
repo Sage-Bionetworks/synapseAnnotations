@@ -1,7 +1,7 @@
 [
   {
     "name": "BrodmannArea", 
-    "description": "", 
+    "description": "A segmentation of the cerebral cortex on the basis of cytoarchitecture", 
     "columnType": "STRING", 
     "maximumSize": 250, 
     "enumValues": []
@@ -13,161 +13,10 @@
   }, 
   {
     "name": "grant", 
-    "description": "", 
+    "description": "Grant number including activity code, institute code, and serial number (e.g. U01MH103392)",
     "columnType": "STRING", 
     "maximumSize": 250, 
-    "enumValues": [
-      {
-        "value": "R01AG051556", 
-        "description": "INTERDISCIPLINARY RESEARCH TO UNDERSTAND THE INTERPLAY OF DIABETES, CEREBROVASCULAR DISEASE AND ALZHEIMERS DISEASE", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
-      }, 
-      {
-        "value": "U01MH103339", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103392", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103346", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103340", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01MH103365", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH094714", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH105881", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH105472", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH102791", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R21MH103877", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "R01MH105898", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "P50MH106934", 
-        "description": "", 
-        "source": ""
-      }, 
-      {
-        "value": "U01AG046152", 
-        "description": "Pathway discovery, validation and compound identification for Alzheimer's Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336775&icde=36348440&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
-      }, 
-      {
-        "value": "U01AG046170", 
-        "description": "Integrative biology approach to complexity of Alzheimer's Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9338117&icde=36348751&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
-      }, 
-      {
-        "value": "U01AG046139", 
-        "description": "A system approach to targeting innate immunity in AD", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336765&icde=36348787&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
-      }, 
-      {
-        "value": "U01AG046161", 
-        "description": "Discovery of novel proteomic targets for treatment of Alzheimer's Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9336770&icde=36348585&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC&pball="
-      }, 
-      {
-        "value": "R01AG046174", 
-        "description": "Targeting a novel regulator of brain aging and Alzheimer's Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9321469&icde=36348628&ddparam=&ddvalue=&ddsub=&cr=1&csb=default&cs=ASC&pball="
-      }, 
-      {
-        "value": "R01AG046171", 
-        "description": "Metabolic networks and pathways in Alzheimer's Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=8605398&icde=36348546&ddparam=&ddvalue=&ddsub=&cr=6&csb=default&cs=ASC&pball="
-      },
-      {
-        "value": "U01MH106883", 
-        "description": "BSMN Peter Park-Christopher Walsh", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9056578&icde=31374171"
-      },
-      {
-        "value": "U01MH106874", 
-        "description": "BSMN Nenad Sestan", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9056579&icde=31374208"
-      },
-      {
-        "value": "U01MH106893", 
-        "description": "BSMN Dan Weinberger", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9056580&icde=31374234"
-      },
-      {
-        "value": "U01MH106892", 
-        "description": "BSMN John Moran", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9061833&icde=31374239"
-      },
-      {
-        "value": "U01MH106882", 
-        "description": "BSMN Fred Gage", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9056581&icde=31374248"
-      },
-      {
-        "value": "U01MH106876", 
-        "description": "BSMN Flora Vaccarino", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9061832&icde=31374256"
-      },
-      {
-        "value": "U01MH108898", 
-        "description": "BSMN Joeseph Gleeson", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9147013&icde=31374268"
-      },
-      {
-        "value": "U01MH106891", 
-        "description": "BSMN Scharam Akbarian-Andrew Chess-Christopher Walsh", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9147640&icde=31374287"
-      },
-      {
-        "value": "U01MH106884", 
-        "description": "BSMN Jonathan Pevsner", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9147012&icde=31374293"
-      },
-      {
-        "value": "1RF1AG051504", 
-        "description": "Integrative translational discovery of vascular risk factors in aging and dementia", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9001610&icde=26663490&ddparam=&ddvalue=&ddsub=&cr=19&csb=default&cs=ASC"
-      },
-      {
-        "value": "1RF1AG051556", 
-        "description": "Interdisciplinary research to understand the interplay of diabetes, cerebrovascular disease and Alzheimers Disease", 
-        "source": "https://projectreporter.nih.gov/project_info_description.cfm?aid=9005299&icde=26663961&ddparam=&ddvalue=&ddsub=&cr=2&csb=default&cs=ASC"
-      }
-    ]
+    "enumValues": []
   }, 
   {
     "name": "study", 
@@ -202,7 +51,7 @@
       }, 
       {
         "value": "CNON", 
-        "description": "Cultured Neurnal cells derived from Olfactory Neuroepithelium ", 
+        "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium", 
         "source": "https://www.synapse.org/#!Synapse:syn4590897"
       }, 
       {
@@ -421,7 +270,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn8391648"
         }, 
       {
-        "value": "JAX_APPPS1", 
+        "value": "JAX_APPPS1",
+        "description": "The JAX_APPPS1study - A mouse model of early onset AD",
         "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }, 
       {
@@ -490,14 +340,74 @@
         "source": "https://www.synapse.org/#!Synapse:syn5714307"
       },
       {
-        "value": "iPSCAstrocytes", 
-        "description": "iPSC derived astrocytes", 
-        "source": "https://www.synapse.org/#!Synapse:syn10344967"
-      },
-      {
         "value": "iPSC-HiC", 
         "description": "Human induced pluripotent stem cells (hiPSCs).",
         "source": "https://www.synapse.org/#!Synapse:syn12979149"
+      },
+      {
+        "value": "MODEL-AD_5XFAD", 
+        "description": "MODEL-AD 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn16798076"
+      },
+      {
+        "value": "MODEL-AD_APOE4_KI", 
+        "description": "MODEL-AD APOE4 KI Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634456"
+      },
+      {
+        "value": "MODEL-AD_Abca7_APOE4_Trem2", 
+        "description": "MODEL-AD Abca7*A1527G/APOE4/Trem2*R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21075750"
+      },
+      {
+        "value": "MODEL-AD_APOE4_Trem2", 
+        "description": "MODEL-AD APOE4/Trem2*R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn17095980"
+      },
+      {
+        "value": "MODEL-AD_APPPS1", 
+        "description": "MODEL-AD APP/PS1 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18633019"
+      },
+      {
+        "value": "MODEL-AD_Ceacam_KO_APOE4_Trem2", 
+        "description": "MODEL-AD Ceacam1 KO/APOE4/Trem2*R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21075764"
+      },
+      {
+        "value": "MODEL-AD_hAbeta_KI", 
+        "description": "MODEL-AD hAbeta KI Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634479"
+      },
+      {
+        "value": "MODEL-AD_hCR1_KI_on_APOE4_Trem2", 
+        "description": "MODEL-AD hCR1 KI on APOE4/Trem2 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21075863"
+      },
+      {
+        "value": "MODEL-AD_hTau_Trem2", 
+        "description": "MODEL-AD hTau Trem2 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "MODEL-AD_Il1rapKO_APOE4_Trem2_exon2KO", 
+        "description": "MODEL-AD Il1rap KO/APOE4/Trem2*R47H, exon 2 KO Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21075802"
+      },
+      {
+        "value": "MODEL-AD_Mthfr_APOE4_Trem2", 
+        "description": "MODEL-AD Mthfr*C677T/APOE4/Trem2*R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21075850"
+      },
+      {
+        "value": "MODEL-AD_Rat_F344", 
+        "description": "MODEL-AD Rat F344 Study",
+        "source": "https://www.synapse.org/#!Synapse:syn20730014"
+      },
+      {
+        "value": "MODEL-AD_Trem2_R47H", 
+        "description": "MODEL-AD Trem2 R47H Study",
+        "source": "https://www.synapse.org/#!Synapse:syn18634477"
       }
     ]
   }, 
@@ -552,13 +462,18 @@
     "enumValues": [
       {
         "value": "haloperidol", 
-        "description": "", 
-        "source": ""
+        "description": "A compound composed of a central piperidine structure with hydroxy and p-chlorophenyl substituents at position 4 and an N-linked p-fluorobutyrophenone moiety", 
+        "source": "http://purl.obolibrary.org/obo/CHEBI_5613"
+      }, 
+      {
+        "value": "levetiracetam", 
+        "description": "A pyrrolidinone and carboxamide that is N-methylpyrrolidin-2-one in which one of the methyl hydrogens is replaced by an aminocarbonyl group, while another is replaced by an ethyl group (the S enantiomer). An anticonvulsant, it is used for the treatment of epilepsy in both human and veterinary medicine.", 
+        "source": "http://purl.obolibrary.org/obo/CHEBI_6437"
       }, 
       {
         "value": "placebo", 
-        "description": "", 
-        "source": ""
+        "description": "A negative reference substance is a reference role in which the substance playing the reference substance role is physically similar in appearance to the test substance", 
+        "source": "http://purl.obolibrary.org/obo/OBI_0000169"
       },
       {
         "value": "clozapine",
@@ -581,44 +496,49 @@
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "TREM2", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "Abca7A1527GAPOE4Trem2R47H", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030283"
+      },
       {
-        "value": "TYROBP", 
-        "description": "", 
+        "value": "Abca7KO", 
+        "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a knock-out mutation of the Abca7 gene, and an R47H point mutation of Trem2", 
         "source": ""
-      }, 
+      },
       {
         "value": "AB42", 
         "description": "", 
         "source": ""
-      }, 
+      },
       {
-        "value": "CRND8", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "APOE2KI", 
+        "description": "mice with R130C and R176C point mutations in the human APOE sequence of an existing humanized ApoE knock-in allele and express the human APOE isoform E2", 
+        "source": "https://www.jax.org/strain/029017"
+      },
       {
-        "value": "APPPS1", 
-        "description": "", 
-        "source": "Sage Bionetworks"
-      }, 
+        "value": "APOE3KI", 
+        "description": "mice carry a R130C point mutation in the human APOE sequence of an existing humanized ApoE knock-in allele and express the human APOE isoform E3", 
+        "source": "https://www.jax.org/strain/029018"
+      },
       {
-        "value": "MAPT-P301K", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "APOE4KI", 
+        "description": "humanized ApoE knock-in mutation (sequence coding for isoform E4)", 
+        "source": "https://www.jax.org/strain/027894"
+      },
       {
-        "value": "rTg4510", 
-        "description": "", 
-        "source": ""
-      }, 
+        "value": "APOE4Trem2R47H", 
+        "description": "double mutant with humanized ApoE knock-in mutation and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/028709"
+      },
       {
         "value": "APPE693Q", 
         "description": "", 
         "source": ""
+      },
+      {
+        "value": "AppKOAPOE4Trem2R47H", 
+        "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 94bp deletion in exon 14 of the App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031722"
       }, 
       {
         "value": "APPKM650", 
@@ -636,6 +556,136 @@
         "source": ""
       }, 
       {
+        "value": "APPPS1", 
+        "description": "double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9)", 
+        "source": "https://www.jax.org/strain/005864"
+      },
+      {
+        "value": "BRI2-AB42", 
+        "description": "BRI-Abeta42 transgenic mice harbor a mouse prion promoter-driven BRI-Abeta42 fusion construct (containing a human type 2 transmembrane protein fused in-frame with a 'wildtype APP695' cDNA sequence encoding amyloid-beta42 at the furin-like cleavage site)", 
+        "source": "https://www.jax.org/strain/007182"
+      }, 
+      {
+        "value": "Ceacam1KO", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a knock-out mutation, deletion of exon 1, of the Ceacam1 gene, and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/030673"
+      },
+      {
+        "value": "Clasp2L163PSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, an L163P point mutation of Clasp2, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031944"
+      },
+      {
+        "value": "CRND8", 
+        "description": "transgene expressing the mutant human APPSweInd, which bears both the Swedish (K670N/M671L) and the Indiana (V717F) mutations, under the control of the Syrian hamster prion protein promoter", 
+        "source": "http://www.informatics.jax.org/allele/MGI:3589475"
+      },
+      {
+        "value": "C57BL6J", 
+        "description": "general purpose background strain", 
+        "source": "https://www.jax.org/strain/000664"
+      },
+      {
+        "value": "hAbeta KI", 
+        "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "hAPPAPOE4Trem2R47H", 
+        "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030670"
+      },
+      {
+        "value": "hTau", 
+        "description": "strain that expresses all six isoforms (including both 3R and 4R forms) of human microtubule-associated protein tau (MAPT)", 
+        "source": "https://www.jax.org/strain/005491"
+      }, 
+      {
+        "value": "hTauTrem2", 
+        "description": "expresses six isoforms of the human tau protein under the control of the endogenous human MAPT promoter backcrossed into Trem2 −/−mice", 
+        "source": "https://www.synapse.org/#!Synapse:syn18693211"
+      },
+      {
+        "value": "Il1rapKO", 
+        "description": "triple mutant strain carries a humanized ApoE knock-in mutation, a 387bp deletion in the first coding exon knock-out mutation of the Il1rap gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030304"
+      },
+      {
+        "value": "Kif21bT82TSNP", 
+        "description": "triple mutant strain carrying a T82T point mutation of the Kif21b gene, a humanized ApoE knock-in mutation, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031938"
+      }, 
+      {
+        "value": "MAPT-P301K", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "MthfrC677TSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation; an R47H point mutation of Trem2; and a mutant of the Mthfr gene carrying a point mutation that models the human C677T polymorphism", 
+        "source": "https://www.jax.org/strain/030922"
+      },
+      {
+        "value": "Plcg2KO", 
+        "description": "mutant of the Plcg2 gene carries a knock-out mutation", 
+        "source": "https://www.jax.org/strain/029910"
+      },     
+      {
+        "value": "Plcg2M28LSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a mutant of the Plcg2 gene with the M28L mutation, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/030674"
+      },
+      {
+        "value": "rTg4510", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "Snx1D465NSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a D465N point mutation of the Snx1 gene, and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/031942"
+      },
+      {
+        "value": "Sorl1A528TSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, an A528T point mutation of the Sorl1 gene. and an R47H point mutantion of Trem2", 
+        "source": "https://www.jax.org/strain/031940"
+      },
+      {
+        "value": "TREM2", 
+        "description": "", 
+        "source": ""
+      },
+      {
+        "value": "Trem2flox", 
+        "description": "mutant strain that possesses loxP sites flanking exons 2 and 3 of the Trem2 gene", 
+        "source": "https://www.jax.org/strain/029853"
+      },
+      {
+        "value": "Trem2KO", 
+        "description": "mutant of the Trem2 gene carries a knock out mutation", 
+        "source": "https://www.jax.org/strain/027197"
+      },
+      {
+        "value": "Trem2R47H", 
+        "description": "mutant with an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/027918"
+      },
+      {
+        "value": "Trem2Y38C", 
+        "description": "mutant with a Y38C point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/029725"
+      }, 
+      {
+        "value": "TYROBP", 
+        "description": "", 
+        "source": ""
+      }, 
+      {
+        "value": "TYROBP_KO.KO", 
+        "description": "", 
+        "source": ""
+      },
+      {
         "value": "TYROBP_WT", 
         "description": "", 
         "source": ""
@@ -646,9 +696,9 @@
         "source": ""
       }, 
       {
-        "value": "TYROBP_KO.KO", 
-        "description": "", 
-        "source": ""
+        "value": "5XFAD", 
+        "description": "transgenic mice overexpressing three human APP mutations and two human PS1 FAD mutations", 
+        "source": "https://www.jax.org/strain/008730"
       }
     ]
   }, 

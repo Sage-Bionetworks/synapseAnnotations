@@ -451,11 +451,6 @@
         "source": "https://www.loc.gov/preservation/digital/formats/fdd/fdd000469.shtml"
       },
       {
-        "value": "xml",
-        "description": "eXtensible Markup Language (XML) format.",
-        "source": "http://edamontology.org/format_2332"
-      },
-      {
         "value": "gzip",
         "description": "GZipped format",
         "source": "http://purl.obolibrary.org/obo/NCIT_C80220"
@@ -509,6 +504,41 @@
         "value": "sra",
         "description": "SRA archive format (SRA) is the archive format used for input to the NCBI Sequence Read Archive.",
         "source": "http://edamontology.org/format_3698"
+      },
+      {
+        "value": "recal",
+        "description": ".recal file from GATK VQSR",
+        "source": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_variantrecalibration_VariantRecalibrator.php#--recal_file"
+      },
+      {
+        "value": "tranches",
+        "description": ".tranches file from GATK VQSR",
+        "source": "https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_variantrecalibration_VariantRecalibrator.php#--tranches_file"
+      },
+      {
+        "value": "mtx",
+        "description": "Matrix Market Exchange Format",
+        "source": "https://math.nist.gov/MatrixMarket/formats.html#MMformat"
+      },
+      {
+        "value":"tagAlign",
+        "description":"Tag Alignment provides genomic mapping of short sequence tags.",
+        "source":"https://genome.ucsc.edu/FAQ/FAQformat.html#format15"
+      },
+      {
+        "value":"dup",
+        "description":"output of the Picard MarkDuplicates tool.",
+        "source":"https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.4.0/picard_sam_markduplicates_MarkDuplicates.php"
+      },
+      {
+        "value":"DICOM",
+        "description":"A comprehensive set of standards for communications between medical imaging devices, including handling, storing and transmitting information in medical imaging. It includes a file format definition and a network communication protocol.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C49059"
+      },
+      {
+        "value":"czi",
+        "description":"microscopy imaging file format that saves multidimensional images such as time lapse, Z-stacks, multiposition experiments and virtual slides, combined with relevant meta information",
+        "source":"https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html"
       }
     ]
   },
@@ -597,6 +627,31 @@
         "value": "IU-JAX", 
         "description": "Group from neuro consortia.", 
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "IU_PTC", 
+        "description": "Indiana University pre-clinical testing core -- group from neuro consortia.", 
+        "source": "https://model-ad.org/preclinical-testing-core/"
+      }, 
+      {
+        "value": "Pitt_PTC", 
+        "description": "University of Pittsburgh pre-clinical testing core -- group from neuro consortia.", 
+        "source": "https://model-ad.org/preclinical-testing-core/"
+      },
+      {
+        "value": "Jax_DMP", 
+        "description": "The Jackson Laboratory disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/disease-modeling-project/"
+      },
+      {
+        "value": "IU_DMP", 
+        "description": "Indiana University disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/disease-modeling-project/"
+      },
+      {
+        "value": "UCI_DMP", 
+        "description": "University of California at Irvine disease modeling project -- group from neuro consortia.", 
+        "source": "https://model-ad.org/uci-disease-model-development-and-phenotyping-dmp/"
       }, 
       {
         "value": "Columbia-SUNY", 

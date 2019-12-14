@@ -18,6 +18,23 @@
     ]
   },
   {
+      "name": "readPair",
+      "description": "The read of origin",
+      "columnType": "INTEGER",
+      "enumValues": [
+        {
+          "value": 1,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        },
+        {
+          "value": 2,
+          "description": "One of a pair of sequencing reads in which the two members of the pair are related by originating at either end of a clone insert.",
+          "source": "http://purl.obolibrary.org/obo/SO_0000007"
+        }
+      ]
+},
+  {
     "name": "isStranded",
     "description": "Whether or not the library is stranded.",
     "columnType": "BOOLEAN",
@@ -131,16 +148,26 @@
         "value": "Drop-Seq",
         "description": "Drop-Seq library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-      }
-    ,{
+      },
+      {
         "value": "Smart-seq2",
         "description": "Smart-seq 2 library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-      }
-     ,{
+      },
+      {
         "value": "TruSeq",
         "description": "TruSeq library preparation",
         "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+      },
+      {
+        "value": "Smart-seq4",
+        "description": "Smart-seq4 library preparation",
+        "source":"https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
+      },
+      {
+        "value": "Omni-ATAC",
+        "description": "Omni-ATAC-seq library preparation",
+	"source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
       }
     ]
   },
