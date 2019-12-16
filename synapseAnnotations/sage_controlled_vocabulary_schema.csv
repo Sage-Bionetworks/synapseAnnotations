@@ -1,5 +1,5 @@
 Attribute,Description,Valid Values,Requires,Properties,Required,Parent
-experimentalData,,,,,FALSE,Thing
+experimentalData,,,,,FALSE,
 elevated plus maze test,"A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.; [http://purl.obolibrary.org/obo/MMO_0000262]",,,,FALSE,assay
 open field test,"A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject.; [http://purl.obolibrary.org/obo/MMO_0000258]",,,,FALSE,assay
 rotarod performance test,"A method that utilizes a device consisting of a rotating rod the speed of which is mechanically driven and precisely controlled, for instance held constant or accelerated. The rotarod test is often used to measure riding time or endurance in order to evaluate balance, motor coordination or grip strength.; [http://purl.obolibrary.org/obo/MMO_0000567]",,,,FALSE,assay
@@ -317,7 +317,7 @@ Gallus gallus,"The common domestic fowl, Chicken.; [https://www.ncbi.nlm.nih.gov
 Sus scrofa,Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig; [https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823],,,,FALSE,species
 species,The name of a species (typically a taxonomic group) of organism.,"Human, Mouse, Rat, Drosophila melanogaster, Rhesus macaque, Pan troglodytes, Gallus gallus, Sus scrofa",,,TRUE,experimentalData
 failedQC,Boolean flag indicating whether the sample or data failed QC checks,"True, False",,,TRUE,experimentalData
-cancer,,,,,FALSE,Thing
+cancer,,,,,FALSE,
 allograft,"Tissues, cells, or organs transplanted between genetically different individuals of the same species; [https://www.ncbi.nlm.nih.gov/mesh/68064591]",,,,FALSE,transplantationType
 xenograft,"Tissues, cells or organs transplanted between animals of different species; [https://www.ncbi.nlm.nih.gov/mesh/68064593]",,,,FALSE,transplantationType
 autograft,"Transplant comprised of an individual's own tissue, transferred from one part of the body to another.; [https://www.ncbi.nlm.nih.gov/mesh/68064592]",,,,FALSE,transplantationType
@@ -358,7 +358,7 @@ T Acute Lymphoblastic Leukemia,Acute lymphoblastic leukemia of T-cell origin. It
 chronic lymphocytic leukemia,A lymphoblastic leukemia characterized by over production of B-cells and their accumulation in bone marrow and blood. ; [http://purl.obolibrary.org/obo/DOID_1040],,,,FALSE,tumorType
 Acute Myeloid Leukemia,"A clonal expansion of myeloid blasts in the bone marrow, blood or other tissues.; [http://purl.obolibrary.org/obo/NCIT_C3171]",,,,FALSE,tumorType
 tumorType,The type of cells that carcinoma arises from.,"Cutaneous Neurofibroma, Plexiform Neurofibroma, Atypical Neurofibroma, Malignant Peripheral Nerve Sheath Tumor, Adenocarcinoma, Carcinoma, Ductal Carcinoma, Melanoma, Glioma, Low Grade Glioma, Diffuse Astrocytoma, Anaplastic Astrocytoma, Glioblastoma, Schwannoma, Lymphoblastic Lymphoma, Meningioma, Myeloma, Not Applicable, T Acute Lymphoblastic Leukemia, chronic lymphocytic leukemia, Acute Myeloid Leukemia",,,TRUE,cancer
-neuro,,,,,FALSE,Thing
+neuro,,,,,FALSE,
 iPSCAstrocytes,The MSSM iPSCAstrocytes study; [https://www.synapse.org/#!Synapse:syn10344967],,,,FALSE,study
 TyrobpKO_AppPs1,TyrobpKO mice crossed with APP/PS1 tg; [https://www.synapse.org/#!Synapse:syn10378730],,,,FALSE,study
 CMC,CommonMind Consortium; [https://www.synapse.org/#!Synapse:syn2759792/wiki/69613],,,,FALSE,study
@@ -499,7 +499,7 @@ Tg(Camk2a-tTA)1Mmay Tg(tetO-MAPT*P301L)#Kha/J,"These bitransgenic mice have tauP
 Tg(Prnp-MAPT*P301L)JNPL3Hlmc,The mouse prion protein promoter was used to drive expression of human microtubule-associated protein tau with a P301L substitution. Hemizygous mice mice expressed the protein at levels roughly equivalent to that of endogenous tau.; [http://www.informatics.jax.org/allele/MGI:3604148],,,,FALSE,modelSystemStrainNomenclature
 "B6C3-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax",Double transgenic mice express a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9) both directed to CNS neurons. ; [https://www.jax.org/strain/004462],,,,FALSE,modelSystemStrainNomenclature
 modelSystemStrainNomenclature,,"B6.Cg-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax, C57BL/6J, rTg(tauP301L)4510, B6.129P2-Tyrobptm1lll, Tg(Camk2a-tTA)1Mmay Tg(tetO-MAPT*P301L)#Kha/J, Tg(Prnp-MAPT*P301L)JNPL3Hlmc, B6C3-Tg(APPswe,PSEN1dE9)85Dbo/Mmjax",,,TRUE,neuro
-neurofibromatosis,,,,,FALSE,Thing
+neurofibromatosis,,,,,FALSE,
 -/-,Homozygous deletion or mutation of NF2.; [Sage Bionetworks],,,,FALSE,nf2Genotype
 +/-,Heterozygous deletion or mutation; [Sage Bionetworks],,,,FALSE,nf2Genotype
 +/+,Homozygous wild type; [Sage Bionetworks],,,,FALSE,nf2Genotype
@@ -510,7 +510,7 @@ nf2Genotype,"Genotype of NF2 gene, if known","-/-, +/-, +/+, unknown",,,TRUE,neu
 +/+,Homozygous wildtype; [Sage Bionetworks],,,,FALSE,nf1Genotype
 unknown,; [Sage Bionetworks],,,,FALSE,nf1Genotype
 nf1Genotype,"Genotype of NF1 gene, if known","-/-, +/-, +/+, unknown",,,TRUE,neurofibromatosis
-ngs,,,,,FALSE,Thing
+ngs,,,,,FALSE,
 singleEnd,A library preparation that results in the creation of a library of 5' ends of DNA.; [Sage Bionetworks],,,,FALSE,runType
 pairedEnd,A library preparation that results in the creation of a library of the 5' and 3' ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process.; [http://purl.obolibrary.org/obo/OBI_0001852],,,,FALSE,runType
 runType,,"singleEnd, pairedEnd",,,TRUE,ngs
@@ -555,7 +555,7 @@ enzymatic,; [https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_
 mechanical,; [https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json],,,,FALSE,dissociationMethod
 none,; [https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json],,,,FALSE,dissociationMethod
 dissociationMethod,," 10x_v2, FACS, Fluidigm C1, drop-seq, inDrop, mouth pipette, bulk, enzymatic, mechanical, none",,,TRUE,ngs
-chem,,,,,FALSE,Thing
+chem,,,,,FALSE,
 target,The role of a molecular entity (protein or nucleic acid) that is the presumed subject of an assay and whose activity is being regulated by an entity with a perturbagen role in that assay.; [http://www.bioassayontology.org/bao#BAO_0003064],,,,FALSE,chemicalDataType
 chemical structure,A representation of the arrangement of atoms and bonds. ; [http://purl.obolibrary.org/obo/NCIT_C103240],,,,FALSE,chemicalDataType
 chemical hashed fingerprint,The chemical hashed fingerprint of a molecule is bit string (a sequence of 0 and 1 digits) that contains information on the structure.; [https://docs.chemaxon.com/display/docs/Chemical+Hashed+Fingerprint],,,,FALSE,chemicalDataType
@@ -573,7 +573,7 @@ SMILES,Specification for unambiguously describing the structure of a chemical co
 InChI,A textual identifier for chemical substances designed to provide a standard and human-readable way to encode molecular information that also facilitates searches in printed and electronic data sources.; [http://purl.obolibrary.org/obo/NCIT_C54683],,,,FALSE,structureFormat
 SDF,SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.; [http://edamontology.org/format_3814],,,,FALSE,structureFormat
 structureFormat,The chemical structural representation used.,"SMILES, InChI, SDF",,,TRUE,chem
-compoundScreen,,,,,FALSE,Thing
+compoundScreen,,,,,FALSE,
 PD0325901,"An orally bioavailable, synthetic organic molecule targeting mitogen-activated protein kinase kinase (MAPK/ERK kinase or MEK) with potential antineoplastic activity. MEK inhibitor PD325901, a derivative of MEK inhibitor CI-1040, selectively binds to and inhibits MEK, which may result in the inhibition of the phosphorylation and activation of MAPK/ERK and the inhibition of tumor cell proliferation. The dual specific threonine/tyrosine kinase MEK is a key component of the RAS/RAF/MEK/ERK signaling pathway that is frequently activated in human tumors.; [http://purl.obolibrary.org/obo/NCIT_C52195]",,,,FALSE,compoundName
 A-1210477,An MCL-1 inhibitor.; [https://www.ncbi.nlm.nih.gov/mesh/2015744],,,,FALSE,compoundName
 ABBVIE1,Internal research compound.; [Moffitt],,,,FALSE,compoundName
@@ -713,7 +713,7 @@ smallMoleculeLibraryScreen,"High throughput sample analysis of small molecules f
 combinationLibraryScreen,High throughput sample analysis of collections of compounds that provide a variety of chemically diverse structures that can be used to identify structure types that have affinity with pharmacological targets.; [http://purl.obolibrary.org/obo/ERO_0001686],,,,FALSE,drugScreenType
 combinationScreen,,,,,FALSE,drugScreenType
 drugScreenType,String describing general class of drug screen,"singleMolecule, smallMoleculeLibraryScreen, combinationLibraryScreen, combinationScreen",,,TRUE,compoundScreen
-curatedData,,,,,FALSE,Thing
+curatedData,,,,,FALSE,
 reference sequence,Syntactic sequences that has a role as reference of an annotation.; [http://rdf.biosemantics.org/ontologies/rsa#ReferenceSequence],,,,FALSE,curatedDataType
 gene symbol,A unique gene name approved by an organism specific nomenclature committee.; [http://purl.obolibrary.org/obo/NCIT_C43568],,,,FALSE,curatedDataType
 clinical data,Data obtained through patient examination or treatment.; [http://purl.obolibrary.org/obo/NCIT_C15783],,,,FALSE,curatedDataType
@@ -725,13 +725,13 @@ GRCh37,Genome Reference Consortium Human Build 37; [https://www.ncbi.nlm.nih.gov
 MMUL1.0,Ensembl preliminary assembly Macaca mulatta; [https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index],,,,FALSE,referenceSet
 HRC,Human haplotype reference panel; [http://www.haplotype-reference-consortium.org],,,,FALSE,referenceSet
 referenceSet,"A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.","GRCh38, GRCh37, MMUL1.0, HRC",,,TRUE,curatedData
-dhart,,,,,FALSE,Thing
+dhart,,,,,FALSE,
 Project 1,The Plexiform NF project led,,,,FALSE,projectNumber
 Project 2,The MPNST project,,,,FALSE,projectNumber
 Project 3,The JMML project,,,,FALSE,projectNumber
 Project 4,The NF1 survivor project,,,,FALSE,projectNumber
 projectNumber,There are four projects on going in the spore. This describes for which one the data was collected.,"Project 1, Project 2, Project 3, Project 4",,,TRUE,dhart
-genie,,,,,FALSE,Thing
+genie,,,,,FALSE,
 staging,,,,,FALSE,fileStage
 release,,,,,FALSE,fileStage
 fileStage,,"staging, release",,,TRUE,genie
@@ -748,11 +748,11 @@ UHN,,,,,FALSE,center
 VICC,,,,,FALSE,center
 MDA,,,,,FALSE,center
 center,,"NKI, DFCI, GRCC, JHU, MSK, UHN, VICC, MDA",,,TRUE,genie
-array,,,,,FALSE,Thing
+array,,,,,FALSE,
 Cy5,Fluorescent dye used for the red channel on an array; [http://purl.obolibrary.org/obo/FBbi_00000450],,,,FALSE,channel
 Cy3,Fluorescent dye used for the green channel on an array; [http://purl.obolibrary.org/obo/FBbi_00000449],,,,FALSE,channel
 channel,Fluorescent color labeling for an array,"Cy5, Cy3",,,TRUE,array
-analysis,,,,,FALSE,Thing
+analysis,,,,,FALSE,
 Velvet,Velvet: An algorithm for de novo short read assembly using de Bruijn graphs; [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2336801/],,,,FALSE,assemblyMethod
 assemblyMethod,Algorithm used to build a reference genome from short read sequencing data.,Velvet,,,TRUE,analysis
 COMBAT,An empirical Bayes gene expression batch correction method with known covariates; [https://www.ncbi.nlm.nih.gov/pubmed/16632515],,,,FALSE,batchEffectCorrectionMethod
@@ -872,7 +872,7 @@ naive Bayes,A classification model that assumes independence of predictors and u
 Gaussian process regression,A non parametric kernel based supervised learning regression method.; [http://www.inference.org.uk/itprnn/book.pdf],,,,FALSE,supervisedLearningMethod
 elastic net,Elastic net is a shrinkage and selection regression method that linearly combines the L1 and L2 penalties of the lasso and ridge methods.; [http://purl.enanomapper.org/onto/ENM_8000083],,,,FALSE,supervisedLearningMethod
 supervisedLearningMethod,An algorithm to fit a model to make predictions of future outcomes based past data.,"penalized regression, random forest, support vector machine, deep learning, boosting, bagging, naive Bayes, Gaussian process regression, elastic net",,,TRUE,analysis
-sageCommunity,,,,,FALSE,Thing
+sageCommunity,,,,,FALSE,
 experimentalData,"Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related; [Sage Bionetworks]",,,,FALSE,resourceType
 curatedData,"Any file derived from or pertaining a manually or programatically curated data resource. Examples include: reference sequences, drug information databases, identifier maps; [Sage Bionetworks]",,,,FALSE,resourceType
 analysis,"Any file derived from analysis such that the analysis annotations might apply, possibly disease-related; [Sage Bionetworks]",,,,FALSE,resourceType
@@ -1025,12 +1025,12 @@ Vaccarino,Group in BSMN consortium.; [Sage Bionetworks],,,,FALSE,group
 Walsh-Park,Group in BSMN consortium.; [Sage Bionetworks],,,,FALSE,group
 Weinberger,Group in BSMN consortium.; [Sage Bionetworks],,,,FALSE,group
 group,,"MSSM, Yale, LIBD, UCLA, UIC-UChicago, Duke, UNC, UCSF, USC, GIS, JHU, Emory, Columbia-Broad-Rush, UFL-Mayo-ISB, Myers-NIAGADS, IU-JAX, IU_PTC, Pitt_PTC, Jax_DMP, IU_DMP, UCI_DMP, Columbia-SUNY, Mayo, Lilly, GSK, Harvard-MIT, Hospital for Sick Children, Dr. von Hauner Children’s Hospital, Boston Children’s Hospital, Mount Sinai School of Medicine - Cho, Mount Sinai School of Medicine - Schadt, Cedars Sinai Hospital, Hubrecht Institute, Howard Hughes Medical Institute, Institute of Molecular Biotechnology, Nuffield Department of Medicine, Stanford University School of Medicine, Chess-Walsh-Akbarian, Gage, Gleeson, Moran, Pevsner, Sestan, Vaccarino, Walsh-Park, Weinberger",,,TRUE,sageCommunity
-network,,,,,FALSE,Thing
+network,,,,,FALSE,
 protein-protein interaction,"Temporary, non-covalent binding between protein molecules. Protein-protein interactions occur as a result of intermolecular physical forces and spatial complementation between domains or motifs. This interaction can be either homotypic or heterotypic and effect protein structure, conformation, and function.; [http://purl.obolibrary.org/obo/NCIT_C18469]",,,,FALSE,networkEdgeType
 genetic interaction,Two genes A and B `genetically interact` when the phenotype generated as the result of variations in both genes (double variant ab) is unexpectedly not just a combination of the phenotypes of the two single variants a and b.; [http://purl.obolibrary.org/obo/VariO_0237],,,,FALSE,networkEdgeType
 Gene expression correlation,"Analyse the correlation patterns among genes across across a variety of experiments, microarray samples etc.; [http://edamontology.org/operation_3463]",,,,FALSE,networkEdgeType
 networkEdgeType,Method used to derive the edge in a network,"protein-protein interaction, genetic interaction, Gene expression correlation",,,TRUE,network
-tool,,,,,FALSE,Thing
+tool,,,,,FALSE,
 script,,,,,FALSE,softwareType
 packageLibrary,,,,,FALSE,softwareType
 packageBinary,,,,,FALSE,softwareType
@@ -1096,7 +1096,7 @@ imputed drug response,Predicted response to a drug; [Sage Bionetworks],,,,FALSE,
 ontology,"An ontology of biological or bioinformatics concepts and relations, a controlled vocabulary, structured glossary etc.; [http://edamontology.org/data_0582]",,,,FALSE,outputDataType
 small molecule,"Small molecule is an organic compound with a low molecular weight (<800 Da) which is used to screen against a biological target, e.g. protein, nucleic acid, cell or organism to test its ability to bind it and bring about a change in activity.; [http://www.bioassayontology.org/bao#BAO_0000176]",,,,FALSE,outputDataType
 outputDataType,,"genomicVariants, metabolomics, image, geneExpression, isoformExpression, proteomics, kinomics, drugScreen, cellularPhysiology, chromatinActivity, surveyData, Network, gene list, imputed drug response, ontology, small molecule",,,TRUE,tool
-toolExtended,,,,,FALSE,Thing
+toolExtended,,,,,FALSE,
 Windows,,,,,FALSE,packageBinaryPlatform
 OSX,,,,,FALSE,packageBinaryPlatform
 Linux,,,,,FALSE,packageBinaryPlatform

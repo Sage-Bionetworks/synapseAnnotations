@@ -58,7 +58,7 @@ for annotation_file in annotation_files:
     component_attribute_name = annotation_file.split(".")[0]
     print("Adding component " + component_attribute_name) 
     
-    csv_schema[entity_idx] = [component_attribute_name, "", "", "", "", "FALSE", "Thing"]
+    csv_schema[entity_idx] = [component_attribute_name, "", "", "", "", "FALSE", ""]
     #increment entity index
     entity_idx += 1
     print("===============")

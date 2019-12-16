@@ -1838,7 +1838,7 @@
             "rdfs:label": "ExperimentalData",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -7576,7 +7576,7 @@
             "rdfs:label": "Cancer",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -8308,7 +8308,7 @@
             "rdfs:label": "Neuro",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -10848,7 +10848,7 @@
             "rdfs:label": "Neurofibromatosis",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -11041,7 +11041,7 @@
             "rdfs:label": "Ngs",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -11845,7 +11845,7 @@
             "rdfs:label": "Chem",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -12163,7 +12163,7 @@
             "rdfs:label": "CompoundScreen",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -14677,7 +14677,7 @@
             "rdfs:label": "CuratedData",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -14888,7 +14888,7 @@
             "rdfs:label": "Dhart",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -14992,7 +14992,7 @@
             "rdfs:label": "Genie",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -15292,7 +15292,7 @@
             "rdfs:label": "Array",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -15360,7 +15360,7 @@
             "rdfs:label": "Analysis",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -17502,7 +17502,7 @@
             "rdfs:label": "SageCommunity",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -20251,7 +20251,7 @@
             "rdfs:label": "Network",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -20337,7 +20337,7 @@
             "rdfs:label": "Tool",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
@@ -21516,7 +21516,7 @@
             "rdfs:label": "ToolExtended",
             "rdfs:subClassOf": [
                 {
-                    "@id": "bts:Thing"
+                    "@id": "schema:Thing"
                 }
             ],
             "schema:isPartOf": {
