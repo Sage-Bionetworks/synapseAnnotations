@@ -1122,6 +1122,11 @@
     "maximumSize": 250,
     "enumValues": [
      {
+       "value": "Q-Exactive Plus",
+       "description": "Thermo Scientific Q Exactive Hybrid Quadrupole-Orbitrap Mass Spectrometer.",
+       "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFALGMBDK?gclid=EAIaIQobChMItIO-jJq55gIVkxh9Ch1ksQtnEAAYASAAEgKtq_D_BwE&ce=E.19CMD.DL105.16198.01&cid=E.19CMD.DL105.16198.01&ef_id=EAIaIQobChMItIO-jJq55gIVkxh9Ch1ksQtnEAAYASAAEgKtq_D_BwE:G:s&s_kwcid=AL!3652!3!249703669157!p!!g!!q%20exactive%20plus."
+      },
+      {
        "value": "IlluminaNovaseq6000",
        "description": "Illumina Novaseq 6000, high-throughput sequencing",
        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
