@@ -372,6 +372,21 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "ion counting",
+        "description": "Label-free quantification by integration of ion current (ion counting).",
+        "source": "http://edamontology.org/operation_3704"
+      },
+      {
+        "value": "TMT-tag",
+        "description": "Quantification analysis using the Thermo Fisher tandem mass tag labelling workflow.",
+        "source": "http://edamontology.org/operation_3641"
+      },
+      {
+        "value": "peptide database search",
+        "descriptiom": "Determination of best matches between MS/MS spectrum and a database of protein or nucleic acid sequences.",
+        "source": "http://edamontology.org/operation_3646"
+      },
+      {
         "value": "Variant calling",
         "description": "Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
         "source": "http://edamontology.org/operation_3227"
