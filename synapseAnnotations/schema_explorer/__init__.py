@@ -1,10 +1,15 @@
+import os
+import string
+
+import tabletext
+from rdflib import Graph, Namespace, plugin, query
+import inflection
+import networkx as nx
+from networkx.algorithms.cycles import find_cycle
+
 from .base import *
 from .utils import *
-import networkx as nx
-import tabletext
-import os
 from .curie import uri2curie, curie2uri
-from rdflib import Graph, Namespace, plugin, query
 
 _ROOT = os.path.abspath(os.path.dirname(__file__))
 namespaces = dict(rdf=Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#"))
@@ -16,7 +21,7 @@ class SchemaValidator():
     1. Data Structure wise:
       > "@id", "@context", "@graph"
       > Each element in "@graph" should contain "@id", "@type", "rdfs:comment",
-      "rdfs:label"
+      "rdfs:label", "sms:displayName"
       > validate against JSON Schema
       > Should validate the whole structure, and also validate property and 
       value separately
@@ -29,12 +34,15 @@ class SchemaValidator():
           word
         > the value of "rdfs:subClassOf" should be present in the schema or in 
           the core vocabulary
+        > sms:displayName ideally should contain capitalized words separated by space, but that's not enforced by validation
       > Property specific
         > rdfs:label field should be carmelCase
         > the value of "schema:domainIncludes" should be present in the schema 
           or in the core vocabulary
         > the value of "schema:rangeIncludes" should be present in the schema 
           or in the core vocabulary
+        > sms:displayName ideally should contain capitalized words separated by space, but that's not enforced by validation
+      
     """
     def __init__(self, schema):
         self.schemaorg = {'schema': load_schemaorg(),
@@ -146,7 +154,8 @@ class SchemaValidator():
                 self.validate_property_schema(record)
                 self.validate_property_label(record["@id"])
                 self.validate_domainIncludes_field(record["http://schema.org/domainIncludes"])
-                self.validate_rangeIncludes_field(record["http://schema.org/rangeIncludes"])
+                if "http://schema.org/rangeIncludes" in record:
+                    self.validate_rangeIncludes_field(record["http://schema.org/rangeIncludes"])
 
 
 class SchemaExplorer():
@@ -171,6 +180,12 @@ class SchemaExplorer():
 
     def get_nx_schema(self):
         return self.schema_nx
+
+    def is_class_in_schema(self, class_label):
+        if self.schema_nx.node[class_label]:
+            return True
+        else:
+            return False
 
     def full_schema_graph(self, size=None):
         edges = self.schema_nx.edges()
@@ -203,15 +218,22 @@ class SchemaExplorer():
     def find_parent_classes(self, schema_class):
         """Find all parents of the class
         """
-        root_node = list(nx.topological_sort(self.schema_nx))[0]
+
+        digraph = self.get_digraph_by_edge_type("parentOf")
+        
+        root_node = list(nx.topological_sort(digraph))[0]
+        #root_node = list(nx.topological_sort(self.schema_nx))[0]
+        
         paths = nx.all_simple_paths(self.schema_nx,
                                     source=root_node,
                                     target=schema_class)
+        #print(root_node)
         return [_path[:-1] for _path in paths]
 
     def find_class_specific_properties(self, schema_class):
         """Find properties specifically associated with a given class
         """
+        #print(schema_class)
         schema_uri = self.schema_nx.node[schema_class]["uri"]
         properties = []
         for record in self.schema["@graph"]:
@@ -227,11 +249,14 @@ class SchemaExplorer():
         # TODO : need to deal with recursive paths
         """
         parents = self.find_parent_classes(schema_class)
+        #print(schema_class)
+        #print(parents)
         properties = [{'class': schema_class,
                        'properties': self.find_class_specific_properties(schema_class)}]
         for path in parents:
             path.reverse()
             for _parent in path:
+                #print(_parent)
                 properties.append({"class": _parent,
                                     "properties": self.find_class_specific_properties(_parent)})
         if not display_as_table:
@@ -241,9 +266,15 @@ class SchemaExplorer():
             for record in properties:
                 for _property in record['properties']:
                     property_info = self.explore_property(_property)
-                    content.append([_property, property_info['range'],
+                    if "range" in property_info:
+                        content.append([_property, property_info['range'],
                                     property_info['description'],
                                     record['class']])
+                    else:
+                        content.append([_property,
+                                    property_info['description'],
+                                    record['class']])
+
             print(tabletext.to_text(content))
 
     def find_class_usages(self, schema_class):
@@ -254,13 +285,14 @@ class SchemaExplorer():
         for record in self.schema["@graph"]:
             usage = {}
             if record["@type"] == "rdf:Property":
-                p_range = dict2list(record["schema:rangeIncludes"])
-                for _doc in p_range:
-                    if _doc['@id'] == schema_uri:
-                        usage["property"] = record["rdfs:label"]
-                        p_domain = dict2list(record["schema:domainIncludes"])
-                        usage["property_used_on_class"] = unlist([self.uri2label(record["@id"]) for record in p_domain])
-                        usage["description"] = record["rdfs:comment"]
+                if "schema:rangeIncludes" in record:
+                    p_range = dict2list(record["schema:rangeIncludes"])
+                    for _doc in p_range:
+                        if _doc['@id'] == schema_uri:
+                            usage["property"] = record["rdfs:label"]
+                            p_domain = dict2list(record["schema:domainIncludes"])
+                            usage["property_used_on_class"] = unlist([self.uri2label(record["@id"]) for record in p_domain])
+                            usage["description"] = record["rdfs:comment"]
             if usage:
                 usages.append(usage)
         return usages
@@ -273,13 +305,75 @@ class SchemaExplorer():
     def explore_class(self, schema_class):
         """Find details about a specific schema class
         """
+
+        subclasses = []
+        if  "subClassOf" in self.schema_nx.node[schema_class]:
+            for subclass in self.schema_nx.node[schema_class]["subClassOf"]:
+                subclasses.append(extract_name_from_uri_or_curie(subclass["@id"])) 
+        
+        requires_range = []
+        if  "rangeIncludes" in self.schema_nx.node[schema_class]:
+            for range_class in self.schema_nx.node[schema_class]["rangeIncludes"]:
+                requires_range.append(extract_name_from_uri_or_curie(range_class["@id"])) 
+        requires_dependencies = []
+        if  "requiresDependency" in self.schema_nx.node[schema_class]:
+            for dep_class in self.schema_nx.node[schema_class]["requiresDependency"]:
+                requires_dependencies.append(extract_name_from_uri_or_curie(dep_class["@id"])) 
+        
         class_info = {'properties': self.find_all_class_properties(schema_class),
                       'description': self.schema_nx.node[schema_class]['description'],
                       'uri': curie2uri(self.schema_nx.node[schema_class]["uri"], namespaces),
                       'usage': self.find_class_usages(schema_class),
                       'child_classes': self.find_child_classes(schema_class),
-                      'parent_classes': self.find_parent_classes(schema_class)}
+                      'subClassOf':subclasses, 
+                      'range':requires_range,
+                      'dependencies': requires_dependencies,
+                      'parent_classes': self.find_parent_classes(schema_class)
+        }
+
+        if "displayName" in self.schema_nx.node[schema_class]:
+            class_info['displayName'] = self.schema_nx.node[schema_class]['displayName']
+
         return class_info
+    
+
+    def get_property_label_from_display_name(self, display_name):
+        """Convert a given display name string into a proper property label string
+        """
+        ''' 
+        label = ''.join(x.capitalize() or ' ' for x in display_name.split(' '))
+        label = label[:1].lower() + label[1:] if label else ''
+        '''
+        display_name = display_name.translate({ord(c): None for c in string.whitespace})
+        
+        label = inflection.camelize(display_name.strip(), uppercase_first_letter=False)
+        return label
+
+
+    def get_class_label_from_display_name(self, display_name):
+        """Convert a given display name string into a proper class label string
+        """
+        '''
+        label = ''.join(x.capitalize() or ' ' for x in display_name.split(' '))'''
+        display_name = display_name.translate({ord(c): None for c in string.whitespace})
+        label = inflection.camelize(display_name.strip(), uppercase_first_letter=True)
+
+        return label
+
+    def get_class_by_property(self, property_display_name):
+        schema_property = self.get_property_label_from_display_name(property_display_name)
+
+        for record in self.schema["@graph"]:
+            if record["@type"] == "rdf:Property":
+                if record["rdfs:label"] == schema_property:
+                    p_domain = dict2list(record["schema:domainIncludes"])
+                    return unlist([self.uri2label(schema_class["@id"]) for schema_class in p_domain])
+                    return None
+
+
+
+    def uri2label(self, uri):
+        return uri.split(":")[1]
 
     def explore_property(self, schema_property):
         """Find details about a specific property
@@ -291,10 +385,27 @@ class SchemaExplorer():
                     property_info["id"] = record["rdfs:label"]
                     property_info["description"] = record["rdfs:comment"]
                     property_info["uri"] = curie2uri(record["@id"], namespaces)
+
                     p_domain = dict2list(record["schema:domainIncludes"])
                     property_info["domain"] = unlist([self.uri2label(record["@id"]) for record in p_domain])
-                    p_range = dict2list(record["schema:rangeIncludes"])
-                    property_info["range"] = unlist([self.uri2label(record["@id"]) for record in p_range])
+                    if "schema:rangeIncludes" in record:
+                        p_range = dict2list(record["schema:rangeIncludes"])
+                        property_info["range"] = [self.uri2label(record["@id"]) for record in p_range]
+                    else:
+                        property_info["range"] = []
+    
+                    if  "sms:requiresDependency" in record:
+                        p_dependencies = dict2list(record["sms:requiresDependency"])
+                        property_info["dependencies"] = [self.uri2label(record["@id"]) for record in p_dependencies]
+                    else:
+                        property_info["dependencies"] = []
+
+                    if "sms:displayName" in record:
+                        property_info['displayName'] = record['sms:displayName']
+                    break
+        
+        #check if properties are added multiple times
+        
         return property_info
 
     def generate_class_template(self):
@@ -354,10 +465,27 @@ class SchemaExplorer():
     def update_class(self, class_info):
         """Add a new class into schema
         """
+        #print(class_info)
         validate_class_schema(class_info)
         self.schema["@graph"].append(class_info)
         validate_schema(self.schema)
         print("Updated the class {} successfully!".format(class_info["rdfs:label"]))
+        self.schema_nx = load_schema_into_networkx(self.schema)
+        
+
+    def edit_property(self, property_info):
+        """Edit an existing property into schema
+        """
+        for i, schema_property in enumerate(self.schema["@graph"]):
+            if schema_property["rdfs:label"] == property_info["rdfs:label"]:
+                validate_property_schema(property_info)
+                self.schema["@graph"][i] = property_info
+               
+                #TODO: check if properties are added/edited multiple times (e.g. look at explore_property)
+                break
+        
+        validate_schema(self.schema)
+        print("Edited the property {} successfully!".format(property_info["rdfs:label"]))
         self.schema_nx = load_schema_into_networkx(self.schema)
 
 
@@ -368,6 +496,20 @@ class SchemaExplorer():
         self.schema["@graph"].append(property_info)
         validate_schema(self.schema)
         print("Updated the property {} successfully!".format(property_info["rdfs:label"]))
+
+    def get_digraph_by_edge_type(self, edge_type):
+
+        multi_digraph = self.schema_nx   
+
+        digraph = nx.DiGraph()
+        for edge in multi_digraph.edges(data = True, keys = True):
+            if edge[3]["relationship"] == edge_type:
+                digraph.add_edge(edge[0], edge[1])
+
+        #print(nx.find_cycle(digraph, orientation = "ignore"))
+
+        return digraph
+
 
     def export_schema(self, file_path):
         with open(file_path, 'w') as f:
