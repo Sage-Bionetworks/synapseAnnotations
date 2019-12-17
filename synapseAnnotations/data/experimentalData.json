@@ -390,6 +390,11 @@
       	"value": "label free mass spectrometry",
       	"description":"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.", 
       	"source":"http://purl.obolibrary.org/obo/ERO_0000708"
+      },
+      {
+      	"value": "sc.rnaSeq",
+      	"description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.", 
+      	"source": "http://www.ebi.ac.uk/efo/EFO_0007832"
       }
     ]
   },
