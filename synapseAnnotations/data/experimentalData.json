@@ -1133,8 +1133,8 @@
      },
       {
        "value": "OrbiTrap Fusion",
-       "description": "Thermo Scientific™ Orbitrap Fusion™ Tribrid™ Mass Spectrometer.",
-       "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMBCX."
+       "description": "Thermo Scientific Orbitrap Fusion",
+       "source": "http://purl.obolibrary.org/obo/MS_1002416"
       },
       {
        "value": "NanostringnCounter_MouseADPanel",
