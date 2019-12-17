@@ -1122,6 +1122,11 @@
     "maximumSize": 250,
     "enumValues": [
      {
+       "value": "Q Exactive Plus",
+       "description": "Thermo Scientific Q Exactive Plus",
+       "source": "http://purl.obolibrary.org/obo/MS_1002634"
+      },
+      {
        "value": "IlluminaNovaseq6000",
        "description": "Illumina Novaseq 6000, high-throughput sequencing",
        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
