@@ -151,6 +151,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "Synapse Table",
+        "description" : "Table hosted at synapse.org",
+        "source" : "https://docs.synapse.org/articles/tables.html"
+      },
+      {
         "value": "bash script",
         "description": "Bash Shell Script",
         "source": "https://en.wikipedia.org/wiki/Shell_script"
