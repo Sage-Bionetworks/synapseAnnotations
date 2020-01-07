@@ -1636,7 +1636,7 @@
   },
   {
     "name": "sex",
-    "description": "",
+    "description": "Sex assigned at birth, or by sequencing",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
