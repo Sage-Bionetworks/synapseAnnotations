@@ -1142,7 +1142,8 @@
   },
      {
     "name": "platform",
-    "description": "",
+    "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
+    "source": "http://purl.obolibrary.org/obo/NCIT_C45378",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
