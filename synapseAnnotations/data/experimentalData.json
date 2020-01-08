@@ -1335,6 +1335,11 @@
         "value": "Illumina NovaSeq 6000",
         "description": "High-throughput sequencing",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
+      },
+      {
+        "value": "Infinium Omni2.5Exome-8 v1.3",
+        "description": "Infinium Omni2.5Exome-8 v1.3",
+        "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
       }
     ]
   },
