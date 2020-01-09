@@ -747,7 +747,7 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-    {
+      {
         "value": "NIMH-HBCC",
         "description": "The NIH Human Brain Collection Core",
         "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
@@ -776,8 +776,13 @@
         "value": "JAX",
         "description": "The Jackson Laboratory",
         "source": "https://www.jax.org"
+      },
+      {
+        "value": "UCSF",
+        "description": "University of California - San Francisco",
+        "source": "https://www.ucsf.edu/"
       }
-      ]
+    ]
   },
   {
     "name": "tissue",
