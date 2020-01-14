@@ -1115,6 +1115,16 @@
         "value":"olfactory neuroepithelium",
         "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
         "source": "https://www.medilexicon.com/dictionary/60061"
+      },
+      {
+        "value":"medial ganglionic eminence",
+        "description":"A distinct elevation of a transient proliferating cell mass of the fetal subventricular zone; this mass contributes most of its cells to the neocortex; however, hippocampal neurons, thalamus, septum and olfactory bulb neurons are also partly derived from the MGE.",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0004024"
+      },
+      {
+        "value":"insular cortex",
+        "description":"",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0034891"
       }
     ]
   },
