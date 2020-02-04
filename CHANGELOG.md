@@ -1,7 +1,33 @@
 # Change Log
 
-## [12.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.0.0) (2019-11-25)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v11.0.0...12.0.0)
+## [12.1.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.1.0) (2020-02-03)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.0.0...12.1.0)
+
+**Closed issues:**
+
+- Allow alternate capitalizations of boolean values [\#535](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/535)
+
+**Merged pull requests:**
+
+- add platform value [\#558](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/558) ([kelshmo](https://github.com/kelshmo))
+- add two tissue terms [\#557](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/557) ([kelshmo](https://github.com/kelshmo))
+- Source update [\#556](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/556) ([amapeters](https://github.com/amapeters))
+- Added UCSF to individualIdSource [\#555](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/555) ([cw-dvr8](https://github.com/cw-dvr8))
+- Added a description for the sex key [\#553](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/553) ([cw-dvr8](https://github.com/cw-dvr8))
+- Update source for orbitrap fusion [\#552](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/552) ([karawoo](https://github.com/karawoo))
+- Add sc.rnaSeq to assays [\#551](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/551) ([bememea](https://github.com/bememea))
+- Add search engine output files as analysisType [\#549](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/549) ([karawoo](https://github.com/karawoo))
+- Fixed typo in assay key [\#548](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/548) ([cw-dvr8](https://github.com/cw-dvr8))
+- Added platform = Q-Exactive Plus [\#547](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/547) ([amapeters](https://github.com/amapeters))
+- Added platforms [\#546](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/546) ([amapeters](https://github.com/amapeters))
+- Added Synapse table as file format [\#545](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/545) ([sgosline](https://github.com/sgosline))
+- Update experimentalData.json [\#544](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/544) ([allaway](https://github.com/allaway))
+- add assay: photograph [\#543](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/543) ([allaway](https://github.com/allaway))
+- Add head of caudate nucleus [\#541](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/541) ([karawoo](https://github.com/karawoo))
+- Remove boolean enumerated values [\#538](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/538) ([karawoo](https://github.com/karawoo))
+
+## [v12.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v12.0.0) (2019-11-25)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v11.0.0...v12.0.0)
 
 **Implemented enhancements:**
 
