@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "photograph",
+        "description": "An image recorded by a camera.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C86035"
+      },
+      {
         "value": "Zeno Electronic Walkway",
         "description": "The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.",
         "source": "http://www.zenometrics.com/zenowalkway.html"
