@@ -1325,6 +1325,11 @@
         "value": "Infinium HumanOmniExpressExome",
         "description": "Infinium HumanOmniExpressExome BeadChip",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
+      },
+      {
+        "value": "Illumina NovaSeq 6000",
+        "description": "High-throughput sequencing",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
       }
     ]
   },
