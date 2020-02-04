@@ -18,13 +18,33 @@
         "source": "http://purl.obolibrary.org/obo/NCIT_C86035"
       },
       {
+        "value": "Zeno Electronic Walkway",
+        "description": "The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.",
+        "source": "http://www.zenometrics.com/zenowalkway.html"
+      },
+      {
+        "value": "elevated T maze apparatus method",
+        "description": "A method which utilizes an experimental apparatus consisting of three arms all or any of which may or may not be enclosed, in the shape of a T upon which the test animal can walk. The maze may include doors which can be used to close off any of the arms of the maze. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000267"
+      },
+      {
+        "value": "von Frey test",
+        "description": "assessment of mechanical nociception",
+        "source": "https://en.wikipedia.org/wiki/Nociception_assay#Von_Frey"
+      },
+      {
+        "value": "FitBark",
+        "description": "health and location tracker",
+        "source": "https://www.fitbark.com/"
+      },
+      {
         "value": "elevated plus maze test",
         "description": "A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000262"
       },
       {
         "value": "open field test",
-        "desription": "A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject.",
+        "description": "A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000258"
       },
       {
@@ -375,6 +395,11 @@
       	"value": "label free mass spectrometry",
       	"description":"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.", 
       	"source":"http://purl.obolibrary.org/obo/ERO_0000708"
+      },
+      {
+      	"value": "scrnaSeq",
+      	"description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.", 
+      	"source": "http://www.ebi.ac.uk/efo/EFO_0007832"
       }
     ]
   },
@@ -727,7 +752,7 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-    {
+      {
         "value": "NIMH-HBCC",
         "description": "The NIH Human Brain Collection Core",
         "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
@@ -756,8 +781,13 @@
         "value": "JAX",
         "description": "The Jackson Laboratory",
         "source": "https://www.jax.org"
+      },
+      {
+        "value": "UCSF",
+        "description": "University of California - San Francisco",
+        "source": "https://www.ucsf.edu/"
       }
-      ]
+    ]
   },
   {
     "name": "tissue",
@@ -1090,6 +1120,16 @@
         "value":"olfactory neuroepithelium",
         "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
         "source": "https://www.medilexicon.com/dictionary/60061"
+      },
+      {
+        "value":"medial ganglionic eminence",
+        "description":"A distinct elevation of a transient proliferating cell mass of the fetal subventricular zone; this mass contributes most of its cells to the neocortex; however, hippocampal neurons, thalamus, septum and olfactory bulb neurons are also partly derived from the MGE.",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0004024"
+      },
+      {
+        "value":"insular cortex",
+        "description":"insular cortex",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0034891"
       }
     ]
   },
@@ -1107,6 +1147,21 @@
     "maximumSize": 250,
     "enumValues": [
      {
+       "value": "Q Exactive Plus",
+       "description": "Thermo Scientific Q Exactive Plus",
+       "source": "http://purl.obolibrary.org/obo/MS_1002634"
+      },
+      {
+       "value": "IlluminaNovaseq6000",
+       "description": "Illumina Novaseq 6000, high-throughput sequencing",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
+     },
+      {
+       "value": "OrbiTrap Fusion",
+       "description": "Thermo Scientific Orbitrap Fusion",
+       "source": "http://purl.obolibrary.org/obo/MS_1002416"
+      },
+      {
        "value": "NanostringnCounter_MouseADPanel",
        "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
        "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
@@ -1275,6 +1330,11 @@
         "value": "Infinium HumanOmniExpressExome",
         "description": "Infinium HumanOmniExpressExome BeadChip",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
+      },
+      {
+        "value": "Illumina NovaSeq 6000",
+        "description": "High-throughput sequencing",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
       }
     ]
   },
@@ -1282,37 +1342,14 @@
     "name": "isCellLine",
     "description": "Boolean flag indicating whether or not sample source is a cell line",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "isPrimaryCell",
-    "description": "Boolean flag indicating whether or not cellType is primary",
+    "description": "Boolean flag indicating whether or not cellType is primary, defined as 'A cell taken directly from a living organism, which is not immortalized'.",
     "columnType": "BOOLEAN",
     "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "A cell taken directly from a living organism, which is not immortalized",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001413"
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "source": "http://purl.obolibrary.org/obo/BTO_0001413"
   },
   {
     "name": "cellType",
@@ -1608,28 +1645,12 @@
   {
     "name": "isMultiIndividual",
     "description": "Boolean flag indicating whether or not a file has data for multiple individuals",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "isMultiSpecimen",
     "description": "Boolean flag indicating whether or not a file has data for multiple specimens",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "specimenIdSource",
@@ -1640,7 +1661,7 @@
   },
   {
     "name": "sex",
-    "description": "",
+    "description": "Sex assigned at birth, or by sequencing",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [

@@ -90,22 +90,22 @@
       {
         "value": "AMP-AD",
         "description": "Accelerating Medicines Partnership-Alzheimer's Disease",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "MODEL-AD",
         "description": "Model Development and Evaluation for Late Onset AD",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "M2OVE-AD",
         "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "Resilience-AD",
         "description": "Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer's Disease Risk",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "BSMN",
@@ -150,6 +150,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "Synapse Table",
+        "description" : "Table hosted at synapse.org",
+        "source" : "https://docs.synapse.org/articles/tables.html"
+      },
       {
         "value": "bash script",
         "description": "Bash Shell Script",
