@@ -39,7 +39,11 @@ value_to_chr <- function(x) {
 ## Unnest the enumerated values for each key
 unnest_module <- function(x) {
   x %>%
-    unnest(cols = "enumValues", names_repair = "universal") %>%
+    unnest(
+      cols = "enumValues",
+      names_repair = "universal",
+      keep_empty = TRUE
+    ) %>%
     rename(
       description = `description...2`,
       valueDescription = `description...6`,
