@@ -25,6 +25,31 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "StJude_BannerSun",
+        "description": "The collaborative Banner Sun - St. Jude Alzheimer’s disease and related dementias (StJude_BannerSun) study",
+        "source": "https://www.synapse.org/#!Synapse:syn21592732"
+      },
+      {
+        "value": "Jax.IU.Pitt_StrainValidation",
+        "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595255"
+      },
+      {
+        "value": "UCI_StrainValidation",
+        "description": "Strain validation data from the UCI MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595257"
+      },
+      {
+        "value": "Jax.IU.Pitt_PrimaryScreen",
+        "description": "Primary screen data from the Jax.IU.Pitt MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595258"
+      },
+      {
+        "value": "UCI_PrimaryScreen",
+        "description": "Primary screen data from the UCI MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595261"
+      },
+      {
         "value": "iPSCAstrocytes", 
         "description": "The MSSM iPSCAstrocytes study", 
         "source": "https://www.synapse.org/#!Synapse:syn10344967"
