@@ -80,3 +80,6 @@ temp <- tempfile()
 write_csv(definitions, temp, na = "")
 new <- synapse$Table(annots_table, temp)
 syn$store(new)
+
+## Query to force table index to rebuild
+syn$tableQuery(glue("SELECT ROW_ID FROM {annots_table} LIMIT 1"))
