@@ -45,10 +45,15 @@ unnest_module <- function(x) {
       keep_empty = TRUE
     ) %>%
     rename(
+      ## Rename columns. This works with our current JSON data, but the
+      ## numbering of columns could change if we change the underlying data
+      ## structure, so pay attention here.
       description = `description...2`,
       valueDescription = `description...6`,
       source = `source...7`
     ) %>%
+    ## Drop source column for keys because a) it's not in the synapse table
+    ## schema and b) very few keys have a source
     select(-`source...10`)
 }
 
