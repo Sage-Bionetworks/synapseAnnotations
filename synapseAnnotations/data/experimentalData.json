@@ -786,6 +786,11 @@
         "value": "UCSF",
         "description": "University of California - San Francisco",
         "source": "https://www.ucsf.edu/"
+      },
+      {
+        "value": "Emory",
+        "description": "Emory University",
+        "source": "https://www.emory.edu/"
       }
     ]
   },
