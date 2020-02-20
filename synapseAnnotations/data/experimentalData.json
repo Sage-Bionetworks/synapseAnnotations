@@ -13,6 +13,11 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "HPLC",
+        "description": "Frequently referred to simply as HPLC, this form of column chromatography is used frequently in biochemistry. The analyte is forced through a column by liquid at high pressure, which decreases the time the separated components remain on the stationary phase.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16434"
+      },
+      {
         "value": "photograph",
         "description": "An image recorded by a camera.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C86035"
