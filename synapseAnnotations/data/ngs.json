@@ -113,6 +113,11 @@
         "value": "miRNAenrichment",
         "description": "RNA library with size selection for microRNAs",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "PCRfree",
+        "description": "Library preparation without PCR amplification",
+        "source": "Sage Bionetworks"
       }
    ]
   },
