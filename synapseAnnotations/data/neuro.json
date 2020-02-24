@@ -25,6 +25,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "VMC",
+        "description": "The Vascular Mural Cell -derived ApoE Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21624490"
+      },
+      {
         "value": "StJude_BannerSun",
         "description": "The collaborative Banner Sun - St. Jude Alzheimer’s disease and related dementias (StJude_BannerSun) study",
         "source": "https://www.synapse.org/#!Synapse:syn21592732"
