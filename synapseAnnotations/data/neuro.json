@@ -30,6 +30,11 @@
         "source": "https://www.synapse.org/#!Synapse:syn21624490"
       },
       {
+        "value": "snRNAseqAD_TREM2",
+        "description": "The TREM2-impact in Alzheimer’s Disease Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21125841/wiki/597278"
+      },
+      {
         "value": "StJude_BannerSun",
         "description": "The collaborative Banner Sun - St. Jude Alzheimer’s disease and related dementias (StJude_BannerSun) study",
         "source": "https://www.synapse.org/#!Synapse:syn21592732"
