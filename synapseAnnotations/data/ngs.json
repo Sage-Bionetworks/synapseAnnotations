@@ -121,7 +121,7 @@
       },
       {
         "value": "STARRSeq",
-        "description": "Self-transcribing active regulatory region sequencing assay",
+        "description": "Self-transcribing active regulatory region sequencing assay (STARR-Seq)",
         "source": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002041"
       }
     ]
