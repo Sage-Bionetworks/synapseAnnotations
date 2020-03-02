@@ -118,8 +118,13 @@
         "value": "PCRfree",
         "description": "Library preparation without PCR amplification",
         "source": "Sage Bionetworks"
+      },
+      {
+        "value": "STARRSeq",
+        "description": "Self-transcribing active regulatory region sequencing assay",
+        "source": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002041"
       }
-   ]
+    ]
   },
   {
     "name": "libraryPreparationMethod",
