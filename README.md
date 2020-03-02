@@ -72,8 +72,6 @@ The steps to create a release are as follows:
 
 Generally, you will next want to update the [Synapse table](https://www.synapse.org/#!Synapse:syn10242922) that describes the annotations and powers the [AnnotationUI](https://shinypro.synapse.org/users/nsanati/annotationUI/):
 
-1. Clone the [annotator](https://github.com/Sage-Bionetworks/annotator/) repository locally (e.g. `git clone git@github.com:Sage-Bionetworks/annotator.git`).
-1. From within your local copy of the repository, install annotator (`python setup.py install`).
-1. Run the command `annotator json2table`.
+1. Run the script `update_annotations_table.R`
 
 Additional information about the release process can be found in [issue 392](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/392)
