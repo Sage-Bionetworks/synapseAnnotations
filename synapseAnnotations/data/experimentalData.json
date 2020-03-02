@@ -791,6 +791,11 @@
         "value": "Emory",
         "description": "Emory University",
         "source": "https://www.emory.edu/"
+      },
+      {
+        "value": "BannerSun",
+        "description": "Banner Sun Health Research Institute",
+        "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
       }
     ]
   },
