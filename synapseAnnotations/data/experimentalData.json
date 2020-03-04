@@ -1650,6 +1650,16 @@
         "value":"Juvenile Myelomonocytic Leukemia",
         "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
+      },
+      {
+        "value":"progressive supranuclear palsy",
+        "description": "A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",
+        "source": "http://purl.obolibrary.org/obo/DOID_678"
+      },
+      {
+        "value":"mild cognitive impairment",
+        "description": "Diminished or impaired mental and/or intellectual function.",
+        "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
       }
     ]
   },
