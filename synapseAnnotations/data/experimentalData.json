@@ -1158,6 +1158,11 @@
     "maximumSize": 250,
     "enumValues": [
      {
+       "value": "Q Exactive HF",
+       "description": "Thermo Scientific Q Exactive",
+       "source": "http://purl.obolibrary.org/obo/MS_1002523"
+      },
+     {
        "value": "Q Exactive Plus",
        "description": "Thermo Scientific Q Exactive Plus",
        "source": "http://purl.obolibrary.org/obo/MS_1002634"
