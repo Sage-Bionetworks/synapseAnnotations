@@ -1,7 +1,26 @@
 # Change Log
 
-## [12.1.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.1.0) (2020-02-03)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.0.0...12.1.0)
+## [12.2.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.2.0) (2020-03-04)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.1.0...12.2.0)
+
+**Merged pull requests:**
+
+- Add Q Exactive HF to platform [\#570](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/570) ([karawoo](https://github.com/karawoo))
+- New AD study [\#569](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/569) ([amapeters](https://github.com/amapeters))
+- Add BannerSun as individualIdSource [\#568](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/568) ([karawoo](https://github.com/karawoo))
+- Add new diagnoses [\#567](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/567) ([karawoo](https://github.com/karawoo))
+- libraryPrep add STARR-Seq [\#566](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/566) ([cw-dvr8](https://github.com/cw-dvr8))
+- New AMP-AD study [\#565](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/565) ([amapeters](https://github.com/amapeters))
+- Add PCRfree to libraryPrep [\#564](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/564) ([cw-dvr8](https://github.com/cw-dvr8))
+- assay: HPLC [\#563](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/563) ([allaway](https://github.com/allaway))
+- Add Emory to individualIdSource [\#562](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/562) ([bememea](https://github.com/bememea))
+- New study [\#561](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/561) ([amapeters](https://github.com/amapeters))
+- New studies [\#560](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/560) ([amapeters](https://github.com/amapeters))
+- Add script to update table [\#559](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/559) ([karawoo](https://github.com/karawoo))
+- Add Infinium Omni2.5Exome-8 v1.3 to platform [\#554](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/554) ([karawoo](https://github.com/karawoo))
+
+## [v12.1.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v12.1.0) (2020-02-04)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.0.0...v12.1.0)
 
 **Closed issues:**
 
