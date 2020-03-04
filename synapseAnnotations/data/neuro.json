@@ -25,6 +25,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "ACOM",
+        "description": "The apoE effects in iPSC-derived Alzheimer’s disease cerebral organoid model study",
+        "source": "https://www.synapse.org/#!Synapse:syn21680862"
+      },
+      {
         "value": "VMC",
         "description": "The Vascular Mural Cell -derived ApoE Study",
         "source": "https://www.synapse.org/#!Synapse:syn21624490"
