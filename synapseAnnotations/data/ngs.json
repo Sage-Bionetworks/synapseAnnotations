@@ -123,6 +123,11 @@
         "value": "STARRSeq",
         "description": "Self-transcribing active regulatory region sequencing assay (STARR-Seq)",
         "source": "http://purl.obolibrary.org/obo/OBI_0002041"
+      },
+      {
+        "value": "HI-C",
+        "description": "Library preparation used for HI-C assay",
+        "source": "Sage Bionetworks"
       }
     ]
   },
