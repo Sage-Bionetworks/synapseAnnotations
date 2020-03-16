@@ -1145,6 +1145,11 @@
         "value":"insular cortex",
         "description":"insular cortex",
         "source":"http://purl.obolibrary.org/obo/UBERON_0034891"
+      },
+      {
+        "value": "cerebrospinal fluid",
+        "description":"The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000237"
       }
     ]
   },
