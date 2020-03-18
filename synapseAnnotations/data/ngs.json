@@ -176,39 +176,39 @@
      "maximumSize": 256,
      "enumValues": [
       {
-      "value": "bulk cell",
-      "description": "All cells from bulk sample",
-      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "bulk cell",
+        "description": "All cells from bulk sample",
+        "source": "Sage Bionetworks"
       },
       {
-       "value":"single cell",
+        "value":"single cell",
         "description": "Single cell",
-      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "source": "Sage Bionetworks"
       },
       {
-      "value": "bulk nuclei",
-       "description": "All nuclei from bulk sample",
-      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "bulk nuclei",
+        "description": "All nuclei from bulk sample",
+        "source": "Sage Bionetworks"
       },
       {
-       "value": "single nucleus",
-       "description": "Single nuclei",
-      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value": "single nucleus",
+        "description": "Single nuclei",
+        "source": "Sage Bionetworks"
       },
       {
-       "value":"mitochondria",
-   "description": "Mitochondria only",
-      "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        "value":"mitochondria",
+        "description": "Mitochondria only",
+        "source": "Sage Bionetworks"
       },
       {
-       "value": "sorted cells",
-       "description": "Sorted cells",
-      "source": "Sage Bionetworks"
+        "value": "sorted cells",
+        "description": "Sorted cells",
+        "source": "Sage Bionetworks"
       },
       {
-       "value": "sorted nuclei",
-       "description": "Sorted nuclei",
-      "source": "Sage Bionetworks"
+        "value": "sorted nuclei",
+        "description": "Sorted nuclei",
+        "source": "Sage Bionetworks"
       }
     ]
   },
