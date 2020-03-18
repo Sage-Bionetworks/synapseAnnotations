@@ -123,6 +123,11 @@
         "value": "STARRSeq",
         "description": "Self-transcribing active regulatory region sequencing assay (STARR-Seq)",
         "source": "http://purl.obolibrary.org/obo/OBI_0002041"
+      },
+      {
+        "value": "DNALibraryConstruction",
+        "description": "A DNA library constructed from DNA extracted from cells",
+        "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0010172"
       }
     ]
   },
