@@ -801,6 +801,21 @@
         "value": "BannerSun",
         "description": "Banner Sun Health Research Institute",
         "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
+      },
+      {
+        "value": "TAA",
+        "description": "Tourette Association of America",
+        "source": "https://tourette.org/"
+      },
+      {
+        "value": "HBTRC",
+        "description": "Harvard Brain Tissue Resource Center",
+        "source": "https://hbtrc.mclean.harvard.edu/"
+      },
+      {
+        "value": "Yale",
+        "description": "Yale School of Medicine",
+        "source": "https://medicine.yale.edu/"
       }
     ]
   },
