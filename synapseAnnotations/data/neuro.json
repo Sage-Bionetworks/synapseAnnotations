@@ -25,6 +25,11 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "3Dchromatin",
+        "description": "The neuronal and glial 3D chromatin architecture study",
+        "source": "https://www.synapse.org/#!Synapse:syn21754060"
+      },
+      {
         "value": "ACOM",
         "description": "The apoE effects in iPSC-derived Alzheimer’s disease cerebral organoid model study",
         "source": "https://www.synapse.org/#!Synapse:syn21680862"
