@@ -453,6 +453,11 @@
         "value": "MODEL-AD_Trem2_R47H", 
         "description": "MODEL-AD Trem2 R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634477"
+      },
+      {
+        "value": "Jax.IU.Pitt_Levetiracetam", 
+        "description": "Levetiracetam data from the Jax.IU.Pitt MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21784897"
       }
     ]
   }, 
