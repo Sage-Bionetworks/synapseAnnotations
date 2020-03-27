@@ -1,0 +1,45 @@
+[
+  {
+    "name": "antibody",
+    "description": "An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "source": "http://purl.obolibrary.org/obo/GO_0042571",
+    "enumValues": []
+  },
+  {
+    "name": "antibodyAmount",
+    "description": "Amount of antibody used for an assay",
+    "columnType": "INTEGER",
+    "enumValues": []
+  },
+  {
+    "name": "catalogNumber",
+    "description": "The identifier assigned to a product, usually in the list of products published by a reseller or manufacturer",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C99286",
+    "enumValues": []
+  },
+  {
+    "name": "chromatinAmount",
+    "description": "Amount of chromatin used for an assay",
+    "columnType": "INTEGER",
+    "enumValues": []
+  },
+  {
+    "name": "lotNumber",
+    "description": "A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C70848",
+    "enumValues": []
+  },
+  {
+    "name": "vendor",
+    "description": "Commercial or institutional source of a component used in an assay",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": []
+  }
+]
