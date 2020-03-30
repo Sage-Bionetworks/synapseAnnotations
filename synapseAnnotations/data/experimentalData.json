@@ -1208,6 +1208,11 @@
        "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
      },
      {
+       "value": "HiSeq1000",
+       "description": "Illumina HiSeq 1000",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433"
+     },
+     {
        "value": "HiSeq3000",
        "description": "Illumina HiSeq 3000",
        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
