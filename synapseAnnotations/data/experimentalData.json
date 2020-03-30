@@ -818,6 +818,11 @@
         "source": "https://hbtrc.mclean.harvard.edu/"
       },
       {
+        "value": "UM-BTB",
+        "description": "University of Maryland Brain and Tissue Bank",
+        "source": "https://www.medschool.umaryland.edu/btbank/"
+      },
+      {
         "value": "Yale",
         "description": "Yale School of Medicine",
         "source": "https://medicine.yale.edu/"
