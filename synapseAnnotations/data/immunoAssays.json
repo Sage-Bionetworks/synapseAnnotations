@@ -10,7 +10,7 @@
   {
     "name": "antibodyAmount",
     "description": "Amount of antibody used for an assay",
-    "columnType": "INTEGER",
+    "columnType": "DOUBLE",
     "enumValues": []
   },
   {
@@ -24,7 +24,7 @@
   {
     "name": "chromatinAmount",
     "description": "Amount of chromatin used for an assay",
-    "columnType": "INTEGER",
+    "columnType": "DOUBLE",
     "enumValues": []
   },
   {
