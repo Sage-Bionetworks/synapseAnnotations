@@ -826,6 +826,11 @@
         "value": "Yale",
         "description": "Yale School of Medicine",
         "source": "https://medicine.yale.edu/"
+      },
+      {
+        "value": "Sestan",
+        "description": "Sestan Lab, Yale School of Medicine",
+        "source": "https://medicine.yale.edu/lab/sestan/"
       }
     ]
   },
