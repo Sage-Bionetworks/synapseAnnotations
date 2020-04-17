@@ -30,6 +30,11 @@
         "source": "https://www.synapse.org/#!Synapse:syn21754060"
       },
       {
+        "value": "CMC-PEC",
+        "description": "Data from the CMC cohorts funded through PsychENCODE grants",
+        "source": "https://www.synapse.org/#!Synapse:syn21961394"
+      },
+      {
         "value": "TS-RNAseq",
         "description": "Transcriptional Analysis of the Human Striatum in Tourette Syndrome",
         "source": "https://www.synapse.org/#!Synapse:syn3158906"
