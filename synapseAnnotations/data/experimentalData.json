@@ -405,6 +405,21 @@
       	"value": "scrnaSeq",
       	"description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.", 
       	"source": "http://www.ebi.ac.uk/efo/EFO_0007832"
+      },
+      {
+      	"value": "spontaneous alternation",
+      	"description": "The spontaneous alternation protocol is used to assess spatial working memory in mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "wheel running",
+      	"description": "Wheel running behavior in mice is a simple, easily quantifiable measure of behavior that can be assessed in the home cage and with little interruption.  Mice demonstrate age-dependent reductions in both distance and speed, and also time spent running, which may be an indicator of motivation.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "frailty assessment",
+      	"description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
       }
     ]
   },

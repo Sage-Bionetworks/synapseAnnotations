@@ -30,6 +30,11 @@
         "source": "https://www.synapse.org/#!Synapse:syn21754060"
       },
       {
+        "value": "TS-RNAseq",
+        "description": "Transcriptional Analysis of the Human Striatum in Tourette Syndrome",
+        "source": "https://www.synapse.org/#!Synapse:syn3158906"
+      },
+      {
         "value": "ACOM",
         "description": "The apoE effects in iPSC-derived Alzheimer’s disease cerebral organoid model study",
         "source": "https://www.synapse.org/#!Synapse:syn21680862"
