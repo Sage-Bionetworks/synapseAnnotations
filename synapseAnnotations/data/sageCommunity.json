@@ -544,6 +544,16 @@
         "value":"czi",
         "description":"microscopy imaging file format that saves multidimensional images such as time lapse, Z-stacks, multiposition experiments and virtual slides, combined with relevant meta information",
         "source":"https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html"
+      },
+      {
+        "value": "mex",
+        "description" : "Text file in matrix market exchange format.",
+        "source" : "https://math.nist.gov/MatrixMarket/formats.html"
+      },
+      {
+        "value": "cloupe",
+        "description" : "Output file from 10x cellranger that has gene expression, expression-based clustering, and transcriptome reference annotation information.",
+        "source" : "https://support.10xgenomics.com/single-cell-gene-expression/software/visualization/latest/what-is-loupe-cell-browser"
       }
     ]
   },
