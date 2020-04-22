@@ -400,8 +400,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn12979149"
       },
       {
-        "value": "MODEL-AD_5XFAD", 
-        "description": "MODEL-AD 5XFAD Study",
+        "value": "UCI_5XFAD", 
+        "description": "UCI 5XFAD Study",
         "source": "https://www.synapse.org/#!Synapse:syn16798076"
       },
       {
@@ -415,8 +415,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075750"
       },
       {
-        "value": "MODEL-AD_APOE4_Trem2", 
-        "description": "MODEL-AD APOE4/Trem2*R47H Study",
+        "value": "Jax.IU.Pitt_APOE4_Trem2", 
+        "description": "Jax/IU/Pitt APOE4/Trem2*R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn17095980"
       },
       {
@@ -430,8 +430,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075764"
       },
       {
-        "value": "MODEL-AD_hAbeta_KI", 
-        "description": "MODEL-AD hAbeta KI Study",
+        "value": "UCI_hAbeta_KI", 
+        "description": "UCI hAbeta KI Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634479"
       },
       {
@@ -440,8 +440,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075863"
       },
       {
-        "value": "MODEL-AD_hTau_Trem2", 
-        "description": "MODEL-AD hTau Trem2 Study",
+        "value": "Jax.IU.Pitt_hTau_Trem2", 
+        "description": "Jax/IU/Pitt hTau Trem2 Study",
         "source": "https://www.synapse.org/#!Synapse:syn18693211"
       },
       {
@@ -455,14 +455,24 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075850"
       },
       {
-        "value": "MODEL-AD_Rat_F344", 
-        "description": "MODEL-AD Rat F344 Study",
+        "value": "Jax.IU.Pitt_Rat_F344-AD", 
+        "description": "Jax/IU/Pitt Rat F344-AD Study",
         "source": "https://www.synapse.org/#!Synapse:syn20730014"
       },
       {
-        "value": "MODEL-AD_Trem2_R47H", 
-        "description": "MODEL-AD Trem2 R47H Study",
+        "value": "Jax.IU.Pitt_Trem2_R47H", 
+        "description": "Jax/IU/Pitt Trem2 R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634477"
+      },
+      {
+        "value": "Jax.IU.Pitt_Levetiracetam_5XFAD", 
+        "description": "Jax/IU/Pitt Levetiracetam 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21784897"
+      },
+      {
+        "value": "Jax.IU.Pitt_Verubecestat_5XFAD", 
+        "description": "Jax/IU/Pitt Verubecestat 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21863375"
       }
     ]
   }, 
