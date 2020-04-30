@@ -455,8 +455,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn21075850"
       },
       {
-        "value": "Jax.IU.Pitt_Rat_F344-AD", 
-        "description": "Jax/IU/Pitt Rat F344-AD Study",
+        "value": "Jax.IU.Pitt_Rat_TgF344-AD", 
+        "description": "Jax/IU/Pitt Rat TgF344-AD Study",
         "source": "https://www.synapse.org/#!Synapse:syn20730014"
       },
       {
