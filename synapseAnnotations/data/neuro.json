@@ -395,11 +395,6 @@
         "source": "https://www.synapse.org/#!Synapse:syn18634456"
       },
       {
-        "value": "MODEL-AD_Abca7_APOE4_Trem2", 
-        "description": "MODEL-AD Abca7*A1527G/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075750"
-      },
-      {
         "value": "MODEL-AD_APOE4_Trem2", 
         "description": "MODEL-AD APOE4/Trem2*R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn17095980"
@@ -410,34 +405,14 @@
         "source": "https://www.synapse.org/#!Synapse:syn18633019"
       },
       {
-        "value": "MODEL-AD_Ceacam_KO_APOE4_Trem2", 
-        "description": "MODEL-AD Ceacam1 KO/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075764"
-      },
-      {
         "value": "MODEL-AD_hAbeta_KI", 
         "description": "MODEL-AD hAbeta KI Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634479"
       },
       {
-        "value": "MODEL-AD_hCR1_KI_on_APOE4_Trem2", 
-        "description": "MODEL-AD hCR1 KI on APOE4/Trem2 Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075863"
-      },
-      {
         "value": "MODEL-AD_hTau_Trem2", 
         "description": "MODEL-AD hTau Trem2 Study",
         "source": "https://www.synapse.org/#!Synapse:syn18693211"
-      },
-      {
-        "value": "MODEL-AD_Il1rapKO_APOE4_Trem2_exon2KO", 
-        "description": "MODEL-AD Il1rap KO/APOE4/Trem2*R47H, exon 2 KO Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075802"
-      },
-      {
-        "value": "MODEL-AD_Mthfr_APOE4_Trem2", 
-        "description": "MODEL-AD Mthfr*C677T/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075850"
       },
       {
         "value": "MODEL-AD_Rat_F344", 
