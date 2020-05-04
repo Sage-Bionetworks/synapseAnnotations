@@ -846,6 +846,11 @@
         "value": "Sestan",
         "description": "Sestan Lab, Yale School of Medicine",
         "source": "https://medicine.yale.edu/lab/sestan/"
+      },
+      {
+        "value": "IU",
+        "description": "Indiana University School of Medicine",
+        "source": "https://medicine.iu.edu/"
       }
     ]
   },
