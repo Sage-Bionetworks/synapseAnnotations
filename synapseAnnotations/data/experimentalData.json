@@ -405,6 +405,21 @@
       	"value": "scrnaSeq",
       	"description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.", 
       	"source": "http://www.ebi.ac.uk/efo/EFO_0007832"
+      },
+      {
+      	"value": "spontaneous alternation",
+      	"description": "The spontaneous alternation protocol is used to assess spatial working memory in mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "wheel running",
+      	"description": "Wheel running behavior in mice is a simple, easily quantifiable measure of behavior that can be assessed in the home cage and with little interruption.  Mice demonstrate age-dependent reductions in both distance and speed, and also time spent running, which may be an indicator of motivation.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "frailty assessment",
+      	"description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
       }
     ]
   },
@@ -640,6 +655,11 @@
         "value": "nose",
         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+      },
+      {
+        "value": "cerebrospinal fluid",
+        "description":"The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000237"
       }
     ]
   },
@@ -801,6 +821,36 @@
         "value": "BannerSun",
         "description": "Banner Sun Health Research Institute",
         "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
+      },
+      {
+        "value": "TAA",
+        "description": "Tourette Association of America",
+        "source": "https://tourette.org/"
+      },
+      {
+        "value": "HBTRC",
+        "description": "Harvard Brain Tissue Resource Center",
+        "source": "https://hbtrc.mclean.harvard.edu/"
+      },
+      {
+        "value": "UM-BTB",
+        "description": "University of Maryland Brain and Tissue Bank",
+        "source": "https://www.medschool.umaryland.edu/btbank/"
+      },
+      {
+        "value": "Yale",
+        "description": "Yale School of Medicine",
+        "source": "https://medicine.yale.edu/"
+      },
+      {
+        "value": "Sestan",
+        "description": "Sestan Lab, Yale School of Medicine",
+        "source": "https://medicine.yale.edu/lab/sestan/"
+      },
+      {
+        "value": "IU",
+        "description": "Indiana University School of Medicine",
+        "source": "https://medicine.iu.edu/"
       }
     ]
   },
@@ -1145,6 +1195,16 @@
         "value":"insular cortex",
         "description":"insular cortex",
         "source":"http://purl.obolibrary.org/obo/UBERON_0034891"
+      },
+      {
+        "value":"left cerebral hemisphere",
+        "description":"The left half of the cerebrum that controls the muscles on the right side of the body.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C32955"
+      },
+      {
+        "value":"right cerebral hemisphere",
+        "description":"The right half of the cerebrum that controls the muscles on the left side of the body.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C33472"
       }
     ]
   },
@@ -1186,6 +1246,11 @@
        "value": "NanostringnCounter_MouseADPanel",
        "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
        "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
+     },
+     {
+       "value": "HiSeq1000",
+       "description": "Illumina HiSeq 1000",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433"
      },
      {
        "value": "HiSeq3000",
