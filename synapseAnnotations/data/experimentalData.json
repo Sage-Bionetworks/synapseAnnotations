@@ -1754,6 +1754,11 @@
     "columnType": "BOOLEAN"
   },
   {
+    "name": "isPostMortem",
+    "description": "Boolean flag indicating whether the sample was taken postmortem",
+    "columnType": "BOOLEAN"
+  },
+  {
     "name": "specimenIdSource",
     "description": "",
     "columnType": "STRING",
