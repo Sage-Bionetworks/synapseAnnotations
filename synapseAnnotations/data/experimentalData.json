@@ -424,6 +424,29 @@
     ]
   },
   {
+    "name": "elisaType",
+    "description": "Specific type of ELISA assay",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+      	"value": "direct",
+      	"description": "Type of ELISA assay where an enzyme-labeled antibody or antigen reacts with an immobilized primary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
+      },
+      {
+      	"value": "indirect",
+      	"description": "Type of ELISA assay where an antibody or antigen reacts with an enzyme-labeled secondary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
+      },
+      {
+      	"value": "sandwich",
+      	"description": "Type of ELISA assay where an antibody or antigen is anchored between a primary and secondary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
+      }
+    ]
+  },
+  {
     "name": "assayTarget", 
     "description": "", 
     "columnType": "STRING", 
