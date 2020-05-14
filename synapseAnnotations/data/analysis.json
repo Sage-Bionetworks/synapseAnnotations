@@ -408,7 +408,7 @@
       },
       {
         "value": "differential expression",
-        "description": "Genes or isoforms that are differentially expressed between two conditions.",
+        "description": "Increased or decreased expression between two conditions.",
         "source": "http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810"
       },
       {
