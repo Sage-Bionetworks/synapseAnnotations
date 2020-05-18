@@ -636,6 +636,11 @@
         "source": "https://www.jax.org/strain/030670"
       },
       {
+        "value": "hCR1KI", 
+        "description": "triple mutant strain with a knock-in knock-out Cr2 allele containing the human CR1 gene, the human CR2 gene and the intergenic region between the 2 genes; a humanized ApoE knock-in mutation; and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031668"
+      },
+      {
         "value": "hAPPAPOE4Trem2R47H", 
         "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/030670"
@@ -666,9 +671,19 @@
         "source": ""
       },
       {
+        "value": "Meox2KOHET", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a Cre recombinase knock-in/knock-out allele of the Meox2 gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/033770"
+      },
+      {
         "value": "MthfrC677TSNP", 
         "description": "triple mutant strain carrying a humanized ApoE knock-in mutation; an R47H point mutation of Trem2; and a mutant of the Mthfr gene carrying a point mutation that models the human C677T polymorphism", 
         "source": "https://www.jax.org/strain/030922"
+      },
+      {
+        "value": "Mtmr4V297GSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a knock-in V297G point mutation of the Mtmr4 gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031950"
       },
       {
         "value": "Plcg2KO", 
