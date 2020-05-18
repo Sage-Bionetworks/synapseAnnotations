@@ -641,11 +641,6 @@
         "source": "https://www.jax.org/strain/031668"
       },
       {
-        "value": "hAPPAPOE4Trem2R47H", 
-        "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2", 
-        "source": "https://www.jax.org/strain/030670"
-      },
-      {
         "value": "hTau", 
         "description": "strain that expresses all six isoforms (including both 3R and 4R forms) of human microtubule-associated protein tau (MAPT)", 
         "source": "https://www.jax.org/strain/005491"
