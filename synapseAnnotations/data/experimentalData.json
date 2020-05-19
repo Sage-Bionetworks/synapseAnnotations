@@ -420,6 +420,11 @@
       	"value": "frailty assessment",
       	"description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.", 
       	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "cresyl violet stain",
+      	"description": "staining with cresyl violet, a stain that is commonly used to identify the neuronal structure in brain and spinal cord tissue", 
+      	"source": "https://theolb.readthedocs.io/en/latest/histology/cresyl-violet-staining-nissl-staining.html"
       }
     ]
   },
