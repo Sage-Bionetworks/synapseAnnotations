@@ -1449,6 +1449,16 @@
         "value": "Infinium Omni2.5Exome-8 v1.3",
         "description": "Infinium Omni2.5Exome-8 v1.3",
         "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
+      },
+      {
+        "value": "IndyPET3",
+        "description": "IndyPET3 small animal scanner",
+        "source": "https://doi.org/10.1109/TNS.2004.829738"
+      },
+      {
+        "value": "GE Typhoon FLA7000IP",
+        "description": "GE Typhoon FLA7000IP biomolecular imager",
+        "source": "https://cdn.gelifesciences.com/dmm3bwsv3/AssetStream.aspx?mediaformatid=10061&destinationid=10016&assetid=15539"
       }
     ]
   },
