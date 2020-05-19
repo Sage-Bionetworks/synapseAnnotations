@@ -631,7 +631,7 @@
         "source": "https://www.jax.org/strain/000664"
       },
       {
-        "value": "hAbeta KI", 
+        "value": "hAbetaKI", 
         "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/030670"
       },
