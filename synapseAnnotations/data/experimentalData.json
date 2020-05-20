@@ -1464,6 +1464,11 @@
         "value": "GE Typhoon FLA7000IP",
         "description": "GE Typhoon FLA7000IP biomolecular imager",
         "source": "https://cdn.gelifesciences.com/dmm3bwsv3/AssetStream.aspx?mediaformatid=10061&destinationid=10016&assetid=15539"
+      },
+      {
+        "value": "Siemens Trio",
+        "description": "Siemens Magnetom Trio MRI scanner",
+        "source": "https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@imaging/@mri/documents/download/mdaw/mtyx/~edisp/mri-magnetom-trio-download-product_brochure-00108569.pdf"
       }
     ]
   },
