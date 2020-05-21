@@ -1,7 +1,19 @@
 # Change Log
 
-## [13.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/13.0.0) (2020-05-08)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.2.0...13.0.0)
+## [14.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/14.0.0) (2020-05-21)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v13.0.0...14.0.0)
+
+**Merged pull requests:**
+
+- Add Siemens MRI to platform [\#606](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/606) ([bememea](https://github.com/bememea))
+- Add PET and Autorad scanners to platform [\#605](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/605) ([bememea](https://github.com/bememea))
+- Add cresyl violet stain as an assay [\#604](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/604) ([bememea](https://github.com/bememea))
+- Updates to modelSystemName values [\#603](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/603) ([bememea](https://github.com/bememea))
+- Update definition of differential expression to be more inclusive [\#602](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/602) ([Aryllen](https://github.com/Aryllen))
+- Add elisaType to specify a specific type of ELISA assay [\#601](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/601) ([Aryllen](https://github.com/Aryllen))
+
+## [v13.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v13.0.0) (2020-05-09)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.2.0...v13.0.0)
 
 **Closed issues:**
 
