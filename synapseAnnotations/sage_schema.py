@@ -9,7 +9,7 @@ from csv_2_schemaorg import create_schema_classes
 
 
 # path to base schema
-base_schema_path = "./biothings_schema.jsonld"
+base_schema_path = "./schemas/biothings_schema.jsonld"
 
 # schema name (used to name schema json-ld file as well)
 output_schema_name = "sage_schema"
