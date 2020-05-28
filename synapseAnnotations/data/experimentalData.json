@@ -13,6 +13,36 @@
     "maximumSize": 250,
     "enumValues": [
       {
+        "value": "HPLC",
+        "description": "Frequently referred to simply as HPLC, this form of column chromatography is used frequently in biochemistry. The analyte is forced through a column by liquid at high pressure, which decreases the time the separated components remain on the stationary phase.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C16434"
+      },
+      {
+        "value": "photograph",
+        "description": "An image recorded by a camera.",
+        "source": "http://purl.obolibrary.org/obo/NCIT_C86035"
+      },
+      {
+        "value": "Zeno Electronic Walkway",
+        "description": "The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.",
+        "source": "http://www.zenometrics.com/zenowalkway.html"
+      },
+      {
+        "value": "elevated T maze apparatus method",
+        "description": "A method which utilizes an experimental apparatus consisting of three arms all or any of which may or may not be enclosed, in the shape of a T upon which the test animal can walk. The maze may include doors which can be used to close off any of the arms of the maze. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
+        "source": "http://purl.obolibrary.org/obo/MMO_0000267"
+      },
+      {
+        "value": "von Frey test",
+        "description": "assessment of mechanical nociception",
+        "source": "https://en.wikipedia.org/wiki/Nociception_assay#Von_Frey"
+      },
+      {
+        "value": "FitBark",
+        "description": "health and location tracker",
+        "source": "https://www.fitbark.com/"
+      },
+      {
         "value": "elevated plus maze test",
         "description": "A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
         "source": "http://purl.obolibrary.org/obo/MMO_0000262"
@@ -370,6 +400,54 @@
       	"value": "label free mass spectrometry",
       	"description":"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.", 
       	"source":"http://purl.obolibrary.org/obo/ERO_0000708"
+      },
+      {
+      	"value": "scrnaSeq",
+      	"description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.", 
+      	"source": "http://www.ebi.ac.uk/efo/EFO_0007832"
+      },
+      {
+      	"value": "spontaneous alternation",
+      	"description": "The spontaneous alternation protocol is used to assess spatial working memory in mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "wheel running",
+      	"description": "Wheel running behavior in mice is a simple, easily quantifiable measure of behavior that can be assessed in the home cage and with little interruption.  Mice demonstrate age-dependent reductions in both distance and speed, and also time spent running, which may be an indicator of motivation.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "frailty assessment",
+      	"description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.", 
+      	"source": "https://doi.org/10.1002/cpmo.45"
+      },
+      {
+      	"value": "cresyl violet stain",
+      	"description": "staining with cresyl violet, a stain that is commonly used to identify the neuronal structure in brain and spinal cord tissue", 
+      	"source": "https://theolb.readthedocs.io/en/latest/histology/cresyl-violet-staining-nissl-staining.html"
+      }
+    ]
+  },
+  {
+    "name": "elisaType",
+    "description": "Specific type of ELISA assay",
+    "columnType": "STRING",
+    "maximumSize": 250,
+    "enumValues": [
+      {
+      	"value": "direct",
+      	"description": "Type of ELISA assay where an enzyme-labeled antibody or antigen reacts with an immobilized primary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
+      },
+      {
+      	"value": "indirect",
+      	"description": "Type of ELISA assay where an antibody or antigen reacts with an enzyme-labeled secondary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
+      },
+      {
+      	"value": "sandwich",
+      	"description": "Type of ELISA assay where an antibody or antigen is anchored between a primary and secondary antibody or antigen", 
+        	"source": "https://doi.org/10.1007/s11418-017-1144-z"
       }
     ]
   },
@@ -605,6 +683,11 @@
         "value": "nose",
         "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
+      },
+      {
+        "value": "cerebrospinal fluid",
+        "description":"The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
+        "source": "http://purl.obolibrary.org/obo/BTO_0000237"
       }
     ]
   },
@@ -722,7 +805,7 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
-    {
+      {
         "value": "NIMH-HBCC",
         "description": "The NIH Human Brain Collection Core",
         "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
@@ -751,8 +834,53 @@
         "value": "JAX",
         "description": "The Jackson Laboratory",
         "source": "https://www.jax.org"
+      },
+      {
+        "value": "UCSF",
+        "description": "University of California - San Francisco",
+        "source": "https://www.ucsf.edu/"
+      },
+      {
+        "value": "Emory",
+        "description": "Emory University",
+        "source": "https://www.emory.edu/"
+      },
+      {
+        "value": "BannerSun",
+        "description": "Banner Sun Health Research Institute",
+        "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
+      },
+      {
+        "value": "TAA",
+        "description": "Tourette Association of America",
+        "source": "https://tourette.org/"
+      },
+      {
+        "value": "HBTRC",
+        "description": "Harvard Brain Tissue Resource Center",
+        "source": "https://hbtrc.mclean.harvard.edu/"
+      },
+      {
+        "value": "UM-BTB",
+        "description": "University of Maryland Brain and Tissue Bank",
+        "source": "https://www.medschool.umaryland.edu/btbank/"
+      },
+      {
+        "value": "Yale",
+        "description": "Yale School of Medicine",
+        "source": "https://medicine.yale.edu/"
+      },
+      {
+        "value": "Sestan",
+        "description": "Sestan Lab, Yale School of Medicine",
+        "source": "https://medicine.yale.edu/lab/sestan/"
+      },
+      {
+        "value": "IU",
+        "description": "Indiana University School of Medicine",
+        "source": "https://medicine.iu.edu/"
       }
-      ]
+    ]
   },
   {
     "name": "tissue",
@@ -879,6 +1007,11 @@
         "value": "caudate nucleus",
         "description": "Subcortical nucleus of telecephalic origin consisting of an elongated gray mass lying lateral to and bordering the lateral ventricle.",
         "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001873"
+      },
+      {
+        "value": "Head of caudate nucleus",
+        "description": "",
+        "source": "http://purl.obolibrary.org/obo/FMA_61852"
       },
       {
         "value": "nucleus accumbens",
@@ -1080,6 +1213,26 @@
         "value":"olfactory neuroepithelium",
         "description": "Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",
         "source": "https://www.medilexicon.com/dictionary/60061"
+      },
+      {
+        "value":"medial ganglionic eminence",
+        "description":"A distinct elevation of a transient proliferating cell mass of the fetal subventricular zone; this mass contributes most of its cells to the neocortex; however, hippocampal neurons, thalamus, septum and olfactory bulb neurons are also partly derived from the MGE.",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0004024"
+      },
+      {
+        "value":"insular cortex",
+        "description":"insular cortex",
+        "source":"http://purl.obolibrary.org/obo/UBERON_0034891"
+      },
+      {
+        "value":"left cerebral hemisphere",
+        "description":"The left half of the cerebrum that controls the muscles on the right side of the body.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C32955"
+      },
+      {
+        "value":"right cerebral hemisphere",
+        "description":"The right half of the cerebrum that controls the muscles on the left side of the body.",
+        "source":"http://purl.obolibrary.org/obo/NCIT_C33472"
       }
     ]
   },
@@ -1092,14 +1245,40 @@
   },
      {
     "name": "platform",
-    "description": "",
+    "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
+    "source": "http://purl.obolibrary.org/obo/NCIT_C45378",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
      {
+       "value": "Q Exactive HF",
+       "description": "Thermo Scientific Q Exactive",
+       "source": "http://purl.obolibrary.org/obo/MS_1002523"
+      },
+     {
+       "value": "Q Exactive Plus",
+       "description": "Thermo Scientific Q Exactive Plus",
+       "source": "http://purl.obolibrary.org/obo/MS_1002634"
+      },
+      {
+       "value": "IlluminaNovaseq6000",
+       "description": "Illumina Novaseq 6000, high-throughput sequencing",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
+     },
+      {
+       "value": "OrbiTrap Fusion",
+       "description": "Thermo Scientific Orbitrap Fusion",
+       "source": "http://purl.obolibrary.org/obo/MS_1002416"
+      },
+      {
        "value": "NanostringnCounter_MouseADPanel",
        "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
        "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
+     },
+     {
+       "value": "HiSeq1000",
+       "description": "Illumina HiSeq 1000",
+       "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433"
      },
      {
        "value": "HiSeq3000",
@@ -1265,6 +1444,31 @@
         "value": "Infinium HumanOmniExpressExome",
         "description": "Infinium HumanOmniExpressExome BeadChip",
         "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
+      },
+      {
+        "value": "Illumina NovaSeq 6000",
+        "description": "High-throughput sequencing",
+        "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
+      },
+      {
+        "value": "Infinium Omni2.5Exome-8 v1.3",
+        "description": "Infinium Omni2.5Exome-8 v1.3",
+        "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
+      },
+      {
+        "value": "IndyPET3",
+        "description": "IndyPET3 small animal scanner",
+        "source": "https://doi.org/10.1109/TNS.2004.829738"
+      },
+      {
+        "value": "GE Typhoon FLA7000IP",
+        "description": "GE Typhoon FLA7000IP biomolecular imager",
+        "source": "https://cdn.gelifesciences.com/dmm3bwsv3/AssetStream.aspx?mediaformatid=10061&destinationid=10016&assetid=15539"
+      },
+      {
+        "value": "Siemens Trio",
+        "description": "Siemens Magnetom Trio MRI scanner",
+        "source": "https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@imaging/@mri/documents/download/mdaw/mtyx/~edisp/mri-magnetom-trio-download-product_brochure-00108569.pdf"
       }
     ]
   },
@@ -1272,37 +1476,14 @@
     "name": "isCellLine",
     "description": "Boolean flag indicating whether or not sample source is a cell line",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "isPrimaryCell",
-    "description": "Boolean flag indicating whether or not cellType is primary",
+    "description": "Boolean flag indicating whether or not cellType is primary, defined as 'A cell taken directly from a living organism, which is not immortalized'.",
     "columnType": "BOOLEAN",
     "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "A cell taken directly from a living organism, which is not immortalized",
-        "source": "http://purl.obolibrary.org/obo/BTO_0001413"
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "source": "http://purl.obolibrary.org/obo/BTO_0001413"
   },
   {
     "name": "cellType",
@@ -1592,34 +1773,28 @@
         "value":"Juvenile Myelomonocytic Leukemia",
         "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
+      },
+      {
+        "value":"progressive supranuclear palsy",
+        "description": "A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",
+        "source": "http://purl.obolibrary.org/obo/DOID_678"
+      },
+      {
+        "value":"mild cognitive impairment",
+        "description": "Diminished or impaired mental and/or intellectual function.",
+        "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
       }
     ]
   },
   {
     "name": "isMultiIndividual",
     "description": "Boolean flag indicating whether or not a file has data for multiple individuals",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "isMultiSpecimen",
     "description": "Boolean flag indicating whether or not a file has data for multiple specimens",
-    "columnType": "BOOLEAN",
-    "enumValues": [
-      {"value": true,
-       "description": "",
-       "source": ""},
-      {"value": false,
-       "description": "",
-       "source": ""}
-     ]
+    "columnType": "BOOLEAN"
   },
   {
     "name": "specimenIdSource",
@@ -1630,7 +1805,7 @@
   },
   {
     "name": "sex",
-    "description": "",
+    "description": "Sex assigned at birth, or by sequencing",
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [

@@ -1,7 +1,95 @@
 # Change Log
 
-## [12.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/12.0.0) (2019-11-25)
-[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v11.0.0...12.0.0)
+## [14.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/14.0.0) (2020-05-21)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v13.0.0...14.0.0)
+
+**Merged pull requests:**
+
+- Add Siemens MRI to platform [\#606](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/606) ([bememea](https://github.com/bememea))
+- Add PET and Autorad scanners to platform [\#605](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/605) ([bememea](https://github.com/bememea))
+- Add cresyl violet stain as an assay [\#604](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/604) ([bememea](https://github.com/bememea))
+- Updates to modelSystemName values [\#603](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/603) ([bememea](https://github.com/bememea))
+- Update definition of differential expression to be more inclusive [\#602](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/602) ([Aryllen](https://github.com/Aryllen))
+- Add elisaType to specify a specific type of ELISA assay [\#601](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/601) ([Aryllen](https://github.com/Aryllen))
+
+## [v13.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v13.0.0) (2020-05-09)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.2.0...v13.0.0)
+
+**Closed issues:**
+
+- Create a new branch for schema.org json-ld based annotations [\#590](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/590)
+
+**Merged pull requests:**
+
+- Add MCSA study [\#599](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/599) ([Aryllen](https://github.com/Aryllen))
+- Schemaorg conversion v2 [\#598](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/598) ([milen-sage](https://github.com/milen-sage))
+- Remove never-used MODEL-AD studies [\#597](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/597) ([bememea](https://github.com/bememea))
+- Add IU to individualIdSource [\#596](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/596) ([bememea](https://github.com/bememea))
+- Update MODEL-AD rat study name [\#595](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/595) ([bememea](https://github.com/bememea))
+- Add and update MODEL-AD studies [\#589](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/589) ([bememea](https://github.com/bememea))
+- Add left and right hemispheres [\#588](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/588) ([bememea](https://github.com/bememea))
+- Add fileFormats mex and cloupe for 10x cellranger files [\#587](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/587) ([Aryllen](https://github.com/Aryllen))
+- Add CMC-PEC study [\#586](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/586) ([cw-dvr8](https://github.com/cw-dvr8))
+- Add mouse behavior assays [\#585](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/585) ([bememea](https://github.com/bememea))
+- Add TS-RNAseq study [\#583](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/583) ([cw-dvr8](https://github.com/cw-dvr8))
+- Add Sestan to individualIdSource [\#582](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/582) ([cw-dvr8](https://github.com/cw-dvr8))
+- Add UM-BTB to individualIdSource [\#581](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/581) ([cw-dvr8](https://github.com/cw-dvr8))
+- HiSeq1000 platform [\#580](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/580) ([cw-dvr8](https://github.com/cw-dvr8))
+- Retype chromatin amount [\#579](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/579) ([cw-dvr8](https://github.com/cw-dvr8))
+- Terms for immunoassays [\#578](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/578) ([cw-dvr8](https://github.com/cw-dvr8))
+- New individual ID sources [\#576](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/576) ([cw-dvr8](https://github.com/cw-dvr8))
+- New library prep [\#575](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/575) ([cw-dvr8](https://github.com/cw-dvr8))
+- Add CSF as tissue [\#574](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/574) ([karawoo](https://github.com/karawoo))
+- Added new values to nucleicAcidSource [\#573](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/573) ([cw-dvr8](https://github.com/cw-dvr8))
+- New PEC study [\#571](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/571) ([amapeters](https://github.com/amapeters))
+
+## [v12.2.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v12.2.0) (2020-03-04)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.1.0...v12.2.0)
+
+**Merged pull requests:**
+
+- Add Q Exactive HF to platform [\#570](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/570) ([karawoo](https://github.com/karawoo))
+- New AD study [\#569](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/569) ([amapeters](https://github.com/amapeters))
+- Add BannerSun as individualIdSource [\#568](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/568) ([karawoo](https://github.com/karawoo))
+- Add new diagnoses [\#567](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/567) ([karawoo](https://github.com/karawoo))
+- libraryPrep add STARR-Seq [\#566](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/566) ([cw-dvr8](https://github.com/cw-dvr8))
+- New AMP-AD study [\#565](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/565) ([amapeters](https://github.com/amapeters))
+- Add PCRfree to libraryPrep [\#564](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/564) ([cw-dvr8](https://github.com/cw-dvr8))
+- assay: HPLC [\#563](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/563) ([allaway](https://github.com/allaway))
+- Add Emory to individualIdSource [\#562](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/562) ([bememea](https://github.com/bememea))
+- New study [\#561](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/561) ([amapeters](https://github.com/amapeters))
+- New studies [\#560](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/560) ([amapeters](https://github.com/amapeters))
+- Add script to update table [\#559](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/559) ([karawoo](https://github.com/karawoo))
+- Add Infinium Omni2.5Exome-8 v1.3 to platform [\#554](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/554) ([karawoo](https://github.com/karawoo))
+
+## [v12.1.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v12.1.0) (2020-02-04)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v12.0.0...v12.1.0)
+
+**Closed issues:**
+
+- Allow alternate capitalizations of boolean values [\#535](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/535)
+
+**Merged pull requests:**
+
+- add platform value [\#558](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/558) ([kelshmo](https://github.com/kelshmo))
+- add two tissue terms [\#557](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/557) ([kelshmo](https://github.com/kelshmo))
+- Source update [\#556](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/556) ([amapeters](https://github.com/amapeters))
+- Added UCSF to individualIdSource [\#555](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/555) ([cw-dvr8](https://github.com/cw-dvr8))
+- Added a description for the sex key [\#553](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/553) ([cw-dvr8](https://github.com/cw-dvr8))
+- Update source for orbitrap fusion [\#552](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/552) ([karawoo](https://github.com/karawoo))
+- Add sc.rnaSeq to assays [\#551](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/551) ([bememea](https://github.com/bememea))
+- Add search engine output files as analysisType [\#549](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/549) ([karawoo](https://github.com/karawoo))
+- Fixed typo in assay key [\#548](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/548) ([cw-dvr8](https://github.com/cw-dvr8))
+- Added platform = Q-Exactive Plus [\#547](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/547) ([amapeters](https://github.com/amapeters))
+- Added platforms [\#546](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/546) ([amapeters](https://github.com/amapeters))
+- Added Synapse table as file format [\#545](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/545) ([sgosline](https://github.com/sgosline))
+- Update experimentalData.json [\#544](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/544) ([allaway](https://github.com/allaway))
+- add assay: photograph [\#543](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/543) ([allaway](https://github.com/allaway))
+- Add head of caudate nucleus [\#541](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/541) ([karawoo](https://github.com/karawoo))
+- Remove boolean enumerated values [\#538](https://github.com/Sage-Bionetworks/synapseAnnotations/pull/538) ([karawoo](https://github.com/karawoo))
+
+## [v12.0.0](https://github.com/Sage-Bionetworks/synapseAnnotations/tree/v12.0.0) (2019-11-25)
+[Full Changelog](https://github.com/Sage-Bionetworks/synapseAnnotations/compare/v11.0.0...v12.0.0)
 
 **Implemented enhancements:**
 
