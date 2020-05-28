@@ -17,7 +17,7 @@ import schema_generator as sg
 
 from utils import execute_google_api_requests
 
-from config import style, credentials
+from config import style
 
 class ManifestGenerator(object):
 
@@ -39,7 +39,7 @@ class ManifestGenerator(object):
         self.scopes = ['https://www.googleapis.com/auth/spreadsheets', 'https://www.googleapis.com/auth/drive']
 
         # path to Google API credentials file
-        self.credentials_path = credentials["path"]
+        self.credentials_path = "credentials.json"
 
         # google service for Drive API
         self.drive_service = None
@@ -498,7 +498,7 @@ class ManifestGenerator(object):
                         if sg.is_node_required(self.se, val_dep):
                             is_required = True
                         else:
-                            continue
+                            is_required = False
                         
                         # construct formatting rule
                         formatting_rule = self._column_to_cond_format_eq_rule(i, req_val, required = is_required)
