@@ -27,7 +27,8 @@ annotation_files = [
             "sageCommunity.json",
             "network.json",
             "tool.json",
-            "toolExtended.json"
+            "toolExtended.json",
+            "immunoAssays.json"
 ] 
 
 
