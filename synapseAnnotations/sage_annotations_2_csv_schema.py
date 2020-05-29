@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 # path to Synapse annotations
-annotations_path = "./data"
+annotations_path = "./data/original-json"
 
 # Sage annotations file(s) to convert to schema.org
 annotation_files = [
