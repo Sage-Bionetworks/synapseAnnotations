@@ -115,7 +115,6 @@ for annotation_file in annotation_files:
 
         # add parent/outer attribute to schema
         csv_schema[entity_idx] = [attribute_name, description, valid_values, "", "", "TRUE", subclass_of, "", source]
-
         print("- Added parent " + attribute_name + " for parent " + subclass_of)
         entity_idx += 1
 

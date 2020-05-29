@@ -9,9 +9,9 @@ scRNA-seq Assay",,,,TRUE,,,https://w3id.org/biolink/vocab/category
 File,A type of Information Content Entity specific to OS,,,"Filename, File Format",FALSE,Information Content Entity,,https://w3id.org/biolink/vocab/DataFile
 Filename,REQUIRED: Name of a file ,,,,TRUE,,,http://example.org/htan/filename
 File Format,"REQUIRED: Format of a file (e.g. txt, csv, fastq, bam, etc.)","txt, csv, fastq, bam",,,TRUE,,,http://example.org/htan/fileFormat
-Biospecimen,"HTAN biological entity; bio entity can be a sample, slide, aliquot, analyte, etc.  ",,Sample ID,Sample ID,FALSE,Biosample,Patient,http://example.org/htan/Biospecimen
+Biospecimen,"Biological entity; bio entity can be a sample, slide, aliquot, analyte, etc.  ",,Sample ID,Sample ID,FALSE,Biosample,Patient,http://example.org/htan/Biospecimen
 Sample ID,"REQUIRED: ID associated with this biosample; e.g. S1, S2,..., etc.",,,,TRUE,,,http://www.w3.org/ns/prov#Entity
-Patient,Individual biomedical demographics attributes,,"Patient ID,  Year Of Birth,  Vital Status, Treatment Anatomic Site, Treatment Type, Treatment Effect, Treatment Outcome, Treatment Intent Type, Component",,FALSE,Patient,,
+Patient,Individual biomedical demographics attributes,,"Patient ID,  Biospecimen, Year Of Birth,  Vital Status, Treatment Anatomic Site, Treatment Type, Treatment Effect, Treatment Outcome, Treatment Intent Type, Component",,FALSE,Patient,,
 Patient ID,"REQUIRED: ID associated with a patient: e.g. P1, P2,..., etc.",,,,TRUE,Patient,,http://www.w3.org/ns/prov#Entity
 Vital Status,REQUIRED: The survival state of the person registered on the protocol.,"Status Alive, Status Dead, Status Unknown, Status Not Reported",,,TRUE,Patient,,
 Status Dead,A patient has died,,Cause of Death,,FALSE,Patient,,
@@ -34,4 +34,4 @@ Spike In,REQUIRED: A set of known synthetic RNA molecules with known sequence th
 Nucleic Acid Source,REQUIRED: The source of the input nucleic molecule,"Single Cell, Bulk Cell, Single Nucleus, Bulk Nuclei",,,TRUE,Sequencing,,
 Cryopreserved Cells in Sample,REQUIRED: Indicate if library preparation was based on revived frozen cells.,"Yes, No",,,TRUE,scRNA-seq Assay,,
 Single Cell Isolation Method,"REQUIRED: The method by which cells are isolated into individual reaction containers at a single cell resolution (e.g. wells, micro-droplets)","Microfluidics Chip, Droplets, FACS",,,TRUE,scRNA-seq Assay,,
-scRNA-seq Assay,Single-cell RNA-seq [EFO_0008913],,"Filename, File Format, Sample ID, Nucleic Acid Source, Single Cell Isolation Method, Library Preparation Date, Library Construction Method, Sequencing Platform, Cryopreserved Cells in Sample, Spike In, Total Number of Input Cells, Component",,FALSE,Sequencing,,http://www.ebi.ac.uk/efo/EFO_0008913
+scRNA-seq Assay,Single-cell RNA-seq [EFO_0008913],,"Filename, File Format, Sample ID, Nucleic Acid Source, Single Cell Isolation Method, Library Preparation Date, Library Construction Method, Sequencing Platform, Cryopreserved Cells in Sample, Spike In, Total Number of Input Cells, Component",,FALSE,Sequencing,Biospecimen,http://www.ebi.ac.uk/efo/EFO_0008913
