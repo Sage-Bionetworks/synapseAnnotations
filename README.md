@@ -9,17 +9,13 @@ Sage Bionetworks derived standards for annotating content in Synapse. This provi
 
 # Annotation definitions
 
-This repository contains schemas that define the things we want to annotate as well as the controlled values that may be used. You can think of these as 'columns' of a table, each with a limited set of values that can occur in each column.
+This repository contains schemas that define the things we want to annotate as well as the controlled values that may be used. 
 
-Our schema definitions are stored here in [Synapse Table Schema](http://docs.synapse.org/articles/tables.html) format. A schema is a list of [`Column Model`s](http://docs.synapse.org/rest/org/sagebionetworks/repo/model/table/ColumnModel.html) in JSON format. Using this format allows us to use them in a straightforward manner with other features of Synapse, including [file views](http://docs.synapse.org/articles/fileviews.html) and [tables](http://docs.synapse.org/articles/tables.html).
-
-Column types are required, and the valid types can be found [here](http://docs.synapse.org/rest/org/sagebionetworks/repo/model/table/ColumnType.html).
+Our schema definitions are stored here as a csv file, which can be converted into JSON-LD, or JSON Schema for validation.
 
 # Organization
 
-All schema definitions can be found in the [synapseAnnotations/data/](synapseAnnotations/data/) folder. There are three high level schemas: [experimental data](synapseAnnotations/data/experimentalData.json), [tool](synapseAnnotations/data/tool.json), and [analysis](synapseAnnotations/data/analysis.json).
-
-Schemas for specific communities and consortia are also defined, such as for the [neurodegenerative diseases consortiums](synapseAnnotations/data/neuro.json), [cancer consortiums](synapseAnnotations/data/cancer.json), and specific group such as (but not limited to) [Project GENIE](synapseAnnotations/data/genie.json).
+All schema definitions can be found in the [synapseAnnotations/](synapseAnnotations/) folder as `sage_controlled_vocabulary.csv`.
 
 # Development
 
@@ -72,6 +68,6 @@ The steps to create a release are as follows:
 
 Generally, you will next want to update the [Synapse table](https://www.synapse.org/#!Synapse:syn10242922) that describes the annotations and powers the [AnnotationUI](https://shinypro.synapse.org/users/nsanati/annotationUI/):
 
-1. Run the script `update_annotations_table.R`
+1. ~~Run the script `update_annotations_table.R`~~ TODO: update this to work with new CSV format.
 
 Additional information about the release process can be found in [issue 392](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/392)
