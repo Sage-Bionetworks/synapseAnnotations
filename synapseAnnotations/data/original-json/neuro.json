@@ -25,6 +25,66 @@
     "maximumSize": 250, 
     "enumValues": [
       {
+        "value": "3Dchromatin",
+        "description": "The neuronal and glial 3D chromatin architecture study",
+        "source": "https://www.synapse.org/#!Synapse:syn21754060"
+      },
+      {
+        "value": "MCSA",
+        "description": "Mayo Clinic study of aging.",
+        "source": "https://www.synapse.org/#!Synapse:syn22024536"
+      },
+      {
+        "value": "CMC-PEC",
+        "description": "Data from the CMC cohorts funded through PsychENCODE grants",
+        "source": "https://www.synapse.org/#!Synapse:syn21961394"
+      },
+      {
+        "value": "TS-RNAseq",
+        "description": "Transcriptional Analysis of the Human Striatum in Tourette Syndrome",
+        "source": "https://www.synapse.org/#!Synapse:syn3158906"
+      },
+      {
+        "value": "ACOM",
+        "description": "The apoE effects in iPSC-derived Alzheimer’s disease cerebral organoid model study",
+        "source": "https://www.synapse.org/#!Synapse:syn21680862"
+      },
+      {
+        "value": "VMC",
+        "description": "The Vascular Mural Cell -derived ApoE Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21624490"
+      },
+      {
+        "value": "snRNAseqAD_TREM2",
+        "description": "The TREM2-impact in Alzheimer’s Disease Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21125841/wiki/597278"
+      },
+      {
+        "value": "StJude_BannerSun",
+        "description": "The collaborative Banner Sun - St. Jude Alzheimer’s disease and related dementias (StJude_BannerSun) study",
+        "source": "https://www.synapse.org/#!Synapse:syn21592732"
+      },
+      {
+        "value": "Jax.IU.Pitt_StrainValidation",
+        "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595255"
+      },
+      {
+        "value": "UCI_StrainValidation",
+        "description": "Strain validation data from the UCI MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595257"
+      },
+      {
+        "value": "Jax.IU.Pitt_PrimaryScreen",
+        "description": "Primary screen data from the Jax.IU.Pitt MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595258"
+      },
+      {
+        "value": "UCI_PrimaryScreen",
+        "description": "Primary screen data from the UCI MODEL-AD grant",
+        "source": "https://www.synapse.org/#!Synapse:syn21595261"
+      },
+      {
         "value": "iPSCAstrocytes", 
         "description": "The MSSM iPSCAstrocytes study", 
         "source": "https://www.synapse.org/#!Synapse:syn10344967"
@@ -345,8 +405,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn12979149"
       },
       {
-        "value": "MODEL-AD_5XFAD", 
-        "description": "MODEL-AD 5XFAD Study",
+        "value": "UCI_5XFAD", 
+        "description": "UCI 5XFAD Study",
         "source": "https://www.synapse.org/#!Synapse:syn16798076"
       },
       {
@@ -355,13 +415,8 @@
         "source": "https://www.synapse.org/#!Synapse:syn18634456"
       },
       {
-        "value": "MODEL-AD_Abca7_APOE4_Trem2", 
-        "description": "MODEL-AD Abca7*A1527G/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075750"
-      },
-      {
-        "value": "MODEL-AD_APOE4_Trem2", 
-        "description": "MODEL-AD APOE4/Trem2*R47H Study",
+        "value": "Jax.IU.Pitt_APOE4_Trem2", 
+        "description": "Jax/IU/Pitt APOE4/Trem2*R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn17095980"
       },
       {
@@ -370,44 +425,34 @@
         "source": "https://www.synapse.org/#!Synapse:syn18633019"
       },
       {
-        "value": "MODEL-AD_Ceacam_KO_APOE4_Trem2", 
-        "description": "MODEL-AD Ceacam1 KO/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075764"
-      },
-      {
-        "value": "MODEL-AD_hAbeta_KI", 
-        "description": "MODEL-AD hAbeta KI Study",
+        "value": "UCI_hAbeta_KI", 
+        "description": "UCI hAbeta KI Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634479"
       },
       {
-        "value": "MODEL-AD_hCR1_KI_on_APOE4_Trem2", 
-        "description": "MODEL-AD hCR1 KI on APOE4/Trem2 Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075863"
-      },
-      {
-        "value": "MODEL-AD_hTau_Trem2", 
-        "description": "MODEL-AD hTau Trem2 Study",
+        "value": "Jax.IU.Pitt_hTau_Trem2", 
+        "description": "Jax/IU/Pitt hTau Trem2 Study",
         "source": "https://www.synapse.org/#!Synapse:syn18693211"
       },
       {
-        "value": "MODEL-AD_Il1rapKO_APOE4_Trem2_exon2KO", 
-        "description": "MODEL-AD Il1rap KO/APOE4/Trem2*R47H, exon 2 KO Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075802"
-      },
-      {
-        "value": "MODEL-AD_Mthfr_APOE4_Trem2", 
-        "description": "MODEL-AD Mthfr*C677T/APOE4/Trem2*R47H Study",
-        "source": "https://www.synapse.org/#!Synapse:syn21075850"
-      },
-      {
-        "value": "MODEL-AD_Rat_F344", 
-        "description": "MODEL-AD Rat F344 Study",
+        "value": "Jax.IU.Pitt_Rat_TgF344-AD", 
+        "description": "Jax/IU/Pitt Rat TgF344-AD Study",
         "source": "https://www.synapse.org/#!Synapse:syn20730014"
       },
       {
-        "value": "MODEL-AD_Trem2_R47H", 
-        "description": "MODEL-AD Trem2 R47H Study",
+        "value": "Jax.IU.Pitt_Trem2_R47H", 
+        "description": "Jax/IU/Pitt Trem2 R47H Study",
         "source": "https://www.synapse.org/#!Synapse:syn18634477"
+      },
+      {
+        "value": "Jax.IU.Pitt_Levetiracetam_5XFAD", 
+        "description": "Jax/IU/Pitt Levetiracetam 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21784897"
+      },
+      {
+        "value": "Jax.IU.Pitt_Verubecestat_5XFAD", 
+        "description": "Jax/IU/Pitt Verubecestat 5XFAD Study",
+        "source": "https://www.synapse.org/#!Synapse:syn21863375"
       }
     ]
   }, 
@@ -496,7 +541,7 @@
     "maximumSize": 250, 
     "enumValues": [
       {
-        "value": "Abca7A1527GAPOE4Trem2R47H", 
+        "value": "Abca7A1527GSNP", 
         "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/030283"
       },
@@ -586,14 +631,14 @@
         "source": "https://www.jax.org/strain/000664"
       },
       {
-        "value": "hAbeta KI", 
+        "value": "hAbetaKI", 
         "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2", 
         "source": "https://www.jax.org/strain/030670"
       },
       {
-        "value": "hAPPAPOE4Trem2R47H", 
-        "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2", 
-        "source": "https://www.jax.org/strain/030670"
+        "value": "hCR1KI", 
+        "description": "triple mutant strain with a knock-in knock-out Cr2 allele containing the human CR1 gene, the human CR2 gene and the intergenic region between the 2 genes; a humanized ApoE knock-in mutation; and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031668"
       },
       {
         "value": "hTau", 
@@ -621,9 +666,19 @@
         "source": ""
       },
       {
+        "value": "Meox2KOHET", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a Cre recombinase knock-in/knock-out allele of the Meox2 gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/033770"
+      },
+      {
         "value": "MthfrC677TSNP", 
         "description": "triple mutant strain carrying a humanized ApoE knock-in mutation; an R47H point mutation of Trem2; and a mutant of the Mthfr gene carrying a point mutation that models the human C677T polymorphism", 
         "source": "https://www.jax.org/strain/030922"
+      },
+      {
+        "value": "Mtmr4V297GSNP", 
+        "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, a knock-in V297G point mutation of the Mtmr4 gene, and an R47H point mutation of Trem2", 
+        "source": "https://www.jax.org/strain/031950"
       },
       {
         "value": "Plcg2KO", 
@@ -706,19 +761,7 @@
     "name": "isModelSystem",
     "description": "",
     "columnType": "BOOLEAN",
-    "maximumSize": 250,
-    "enumValues": [
-      {
-        "value": true,
-        "description": "",
-        "source": ""
-      },
-      {
-        "value": false,
-        "description": "",
-        "source": ""
-      }
-    ]
+    "maximumSize": 250
   },
   {
     "name": "modelSystemStrainNomenclature", 

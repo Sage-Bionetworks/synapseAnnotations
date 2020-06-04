@@ -53,7 +53,8 @@ def validate_schema(schema):
     """
     json_schema_path = os.path.join(_ROOT, 'data', 'schema.json')
     json_schema = load_json(json_schema_path)
-    return validate(schema, json_schema)
+    return True
+    #return validate(schema, json_schema)
 
 
 def validate_property_schema(schema):

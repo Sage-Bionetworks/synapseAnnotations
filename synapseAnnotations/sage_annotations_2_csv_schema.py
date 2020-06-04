@@ -8,7 +8,7 @@ import json
 import pandas as pd
 
 # path to Synapse annotations
-annotations_path = "./data"
+annotations_path = "./data/original-json"
 
 # Sage annotations file(s) to convert to schema.org
 annotation_files = [
@@ -27,7 +27,8 @@ annotation_files = [
             "sageCommunity.json",
             "network.json",
             "tool.json",
-            "toolExtended.json"
+            "toolExtended.json",
+            "immunoAssays.json"
 ] 
 
 
@@ -40,8 +41,7 @@ annotation_files = [
 # the conversion script csv_2_schemaorg.py can handle that, however the data model encoded in the
 # end schema will be incomplete
 
-headers = ["Attribute", "Description", "Valid Values", "Requires", "Properties", "Required", "Parent"]
-
+headers = ["Attribute", "Description", "Valid Values", "Requires", "Properties", "Required", "Parent", "Requires Component", "Source"]
 entity_idx = 0
 csv_schema = {}
 
@@ -58,7 +58,9 @@ for annotation_file in annotation_files:
     component_attribute_name = annotation_file.split(".")[0]
     print("Adding component " + component_attribute_name) 
     
-    csv_schema[entity_idx] = [component_attribute_name, "", "", "", "", "FALSE", ""]
+    # by default assume an attribute/annotation key is not required
+    csv_schema[entity_idx] = [component_attribute_name, "", "", "", "", "FALSE", "", "", ""]
+
     #increment entity index
     entity_idx += 1
     print("===============")
@@ -76,8 +78,9 @@ for annotation_file in annotation_files:
         # the component attribute (i.e. annotations base filename extracted above); we can adjust accordingly the parent of the core elements directly in the csv
         subclass_of = component_attribute_name
         description = annotations_entity["description"]
+        source = ""
         if "source" in annotations_entity and annotations_entity["source"]:
-            description += "; [" + annotations_entity["source"]+ "]"
+            source = annotations_entity["source"]
 
         # getting valid values (i.e. range of this attribute)
         valid_values = ""
@@ -97,22 +100,24 @@ for annotation_file in annotation_files:
                 print("--- Getting info for attribute " + str(nested_attribute_name))
                 nested_subclass_of = attribute_name
                 nested_description = nested_entity["description"]
+                nested_source = ""
                 if "source" in nested_entity and nested_entity["source"]:
-                    nested_description += "; [" + nested_entity["source"]+ "]"
+                    nested_source = nested_entity["source"]
 
                 
                 # adding attribute to schema
-                csv_schema[entity_idx] = [nested_attribute_name, nested_description, "", "", "", "FALSE", nested_subclass_of]
+                csv_schema[entity_idx] = [nested_attribute_name, nested_description, "", "", "", "FALSE", nested_subclass_of, "", nested_source]
                 
                 print("--- Added attribute " + str(nested_attribute_name) + " for parent " + nested_subclass_of)
 
                 # increment entity index
                 entity_idx += 1
 
-            # add parent/outer attribute to schema
-            csv_schema[entity_idx] = [attribute_name, description, valid_values, "", "", "TRUE", subclass_of]
-            print("- Added parent " + attribute_name + " for parent " + subclass_of)
-            entity_idx += 1
+        # add parent/outer attribute to schema
+        csv_schema[entity_idx] = [attribute_name, description, valid_values, "", "", "TRUE", subclass_of, "", source]
+
+        print("- Added parent " + attribute_name + " for parent " + subclass_of)
+        entity_idx += 1
 
 # construct a data frame containing this preliminary schema
 schema = pd.DataFrame.from_dict(csv_schema, orient = "index", columns = headers)

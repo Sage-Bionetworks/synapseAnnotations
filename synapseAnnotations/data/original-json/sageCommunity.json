@@ -90,22 +90,22 @@
       {
         "value": "AMP-AD",
         "description": "Accelerating Medicines Partnership-Alzheimer's Disease",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "MODEL-AD",
         "description": "Model Development and Evaluation for Late Onset AD",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "M2OVE-AD",
         "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "Resilience-AD",
         "description": "Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer's Disease Risk",
-        "source": "https://www.synapse.org/ampad"
+        "source": "https://adknowledgeportal.synapse.org/"
       },
       {
         "value": "BSMN",
@@ -150,6 +150,11 @@
     "columnType": "STRING",
     "maximumSize": 250,
     "enumValues": [
+      {
+        "value": "Synapse Table",
+        "description" : "Table hosted at synapse.org",
+        "source" : "https://docs.synapse.org/articles/tables.html"
+      },
       {
         "value": "bash script",
         "description": "Bash Shell Script",
@@ -539,6 +544,16 @@
         "value":"czi",
         "description":"microscopy imaging file format that saves multidimensional images such as time lapse, Z-stacks, multiposition experiments and virtual slides, combined with relevant meta information",
         "source":"https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html"
+      },
+      {
+        "value": "mex",
+        "description" : "Text file in matrix market exchange format.",
+        "source" : "https://math.nist.gov/MatrixMarket/formats.html"
+      },
+      {
+        "value": "cloupe",
+        "description" : "Output file from 10x cellranger that has gene expression, expression-based clustering, and transcriptome reference annotation information.",
+        "source" : "https://support.10xgenomics.com/single-cell-gene-expression/software/visualization/latest/what-is-loupe-cell-browser"
       }
     ]
   },
