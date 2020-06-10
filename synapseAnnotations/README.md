@@ -18,6 +18,15 @@ here for posterity.
 Going forward, changes should be made to the
 `sage_controlled_vocabulary_schema.csv` file directly.
 
+The `Attribute` column contains both keys and values, which are matched to one
+another via the `Parent` column. For example, `rnaSeq` is a value for key
+`assay`, and therefore has `assay` in the `Parent` column. The `Description` and
+`Source` columns give additional information about the term. `Valid Values`
+gives a list of the valid values for that term; if blank or `"children"`, then
+all rows that have that term as their parent are considered valid values. The
+`Requires` column indicates conditional dependencies; if the current term is
+present, it requires these additional terms.
+
 ## Convert CSV to JSON-LD
 
 Run `python sage_schema.py` to convert `sage_controlled_vocabulary_schema.csv`
