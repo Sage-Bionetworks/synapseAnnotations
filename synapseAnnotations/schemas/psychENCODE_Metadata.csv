@@ -1,0 +1,655 @@
+﻿Attribute,Description,Valid Values,Requires,Properties,Required,Parent,Requires Component,Source
+PsychENCODE,PsychENCODE Metadata,,"260/230, 260/280, ageOfDeath, ageOfDeathUnits, ageOnset, analysisType, antibody, antibodyAmount, arrayBatch, assay, assayTarget, batch, batchChannel, BMI, braak, BrodmannArea, catalogNumber, causeOfDeath, CDR, cellType, chromatinAmount, consortium, controlType, dataType, dataSubtype, dateOfBirth, dateOfDeath, dementia, dnaBatch, familyHistory, fileFormat, FRiP, fragmentation, genotypeInferredAncestry, GQN, grant, group, histoneAntibody, individualID, individualIdSource, investigatorName, IQ, isMultiIndividual, isMultiSpecimen, isStranded, libraryBatch, libraryID, libraryPrep, libraryPreparationMethod, lotNumber, mannerOfDeath, mappedReads, meanCoverage, meanGCContent, medianGenes, medianUMIs, medRecordTox, metadataType, multiconsesusStudyFileID, neuropathDescription, nucleicAcidSource, numberCells, organ, organRIN, organWeight, otherDiagnosis, otherDiagnosisDetail, otherMedicalDx, otherMedicalDetail, parent, passage, path, pcrCycles, percentAligned, pH, platform, PMI, PMICertain, postmortem, postmortemTox, postmortemToxSource, primaryDiagnosis, primaryDiagnosisDetail, race, raceDetail, readLength, readPair, readStrandOrigin, referenceSet, reportedGender, reprogrammedCellType, resolution, resourceType, RIN, rnaBatch, rRNARate, runType, sampleID, sequencingBatch, requencingReplicate, sexChromosome, species, specimenID, study, technicalReplicate, terminalDifferentiationPoint, tissue, TMTType, totalReads, transposaseBatch, treatmentType, validBarcodeReads, validHiCContacts, vendor",,FALSE,PsychENCODE,,
+260/230,DNA QC metric - ratio of absorbance at 260 nm and 230 nm,,,,FALSE,PsychENCODE,,
+260/280,DNA QC metric - ratio of absorbance at 260 nm and 280 nm,,,,FALSE,PsychENCODE,,
+ageOfDeath,Age of death,,ageOfDeathUnits,,FALSE,PsychENCODE,,
+ageOfDeathUnits,The death age unit of measure (gestational week or year),,,,FALSE,PsychENCODE,,
+ageOnset,Age in years of first symptoms,,,,FALSE,PsychENCODE,,
+alignmentMethod,DNA or RNA sequence alignment method,"Bowtie, Bowtie 2, Burrows-Wheeler technique, GSNAP, MOSAIC, NovoAlign, Olego, SNAPR, STAR, TopHat",,,FALSE,PsychENCODE,,
+Bowtie,A memory efficient short read alignment algorithm.,,,,FALSE,alignmentMethod,,https://www.ncbi.nlm.nih.gov/pubmed/19261174
+Bowtie 2,A memory efficient short read alignment algorithm.,,,,FALSE,alignmentMethod,,https://www.nature.com/articles/nmeth.1923
+Burrows-Wheeler technique,Burrows Wheeler Alignment algorithm.,,,,FALSE,alignmentMethod,,http://purl.obolibrary.org/obo/ERO_0100332
+GSNAP,Method to detect complex variants and splicing in short read sequencing.,,,,FALSE,alignmentMethod,,https://academic.oup.com/bioinformatics/article/26/7/873/212606
+MOSAIC,Segmentation alignment method for DNA alignment.,,,,FALSE,alignmentMethod,,https://www.ncbi.nlm.nih.gov/pubmed/11238079
+NovoAlign,Short read sequencing alignment method.,,,,FALSE,alignmentMethod,,http://www.novocraft.com/products/novoalign/
+OLego,Alignment method to detect de novo mapping of spliced mRNA-Seq reads.,,,,FALSE,alignmentMethod,,https://www.ncbi.nlm.nih.gov/pubmed/23571760
+SNAPR,A pipeline for short read alignment and downstream analyses.,,,,FALSE,alignmentMethod,,https://www.ncbi.nlm.nih.gov/pubmed/29270443
+STAR,Software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure.,,,,FALSE,alignmentMethod,,https://academic.oup.com/bioinformatics/article/29/1/15/272537
+TopHat,Method to align short read sequencing for outputs such as splice junction detection.,,,,FALSE,alignmentMethod,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2672628/
+analysisType,,"ANOVA, assessment, batch effect correction, Clustering, comparison, Copy number estimation, correlation, covariate specification, data normalization, de-novo assembly, differential expression, differential network analysis, DNA methylation imputation, dose response study, Enrichment analysis, expression quantitative trait loci detection, Gene expression comparison, Genome-Wide Association, genotypeAncestry, genotype imputation, hidden confounder detection, methylation quantitative trait loci detection, network analysis, network driver detection, outlier detection, peak calling, Polygenic Risk Scores, principal component analysis, purity, quality control, search engine output files, Sequence alignment, somatic mutation calling, statistical network reconstruction, Supervised Machine Learning, transcript quantification, variancePartition, Variant calling, visualization",,,FALSE,PsychENCODE,,
+ANOVA,ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.,,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/OBI_0200201
+assessment,"The final result of a determination of the value, significance, or extent of.",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/NCIT_C25217
+batch effect correction,Adjustment of variable of interest for batch effects.,,,,FALSE,analysisType,,https://www.ncbi.nlm.nih.gov/pubmed/16632515
+Clustering,Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).,,,,FALSE,analysisType,,http://edamontology.org/operation_3432
+comparison,The examination of two or more people or things in order to detect similarities and differences.,,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/NCIT_C49156
+Copy number estimation,Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.,,,,FALSE,analysisType,,http://edamontology.org/operation_3233
+correlation,"The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others.",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/NCIT_C48834
+covariate specification,"A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/OBCS_0000040
+data normalization,a data transformation objective where the aim is to remove systematic sources of variation to put the data on equal footing in order to create a common base for comparisons,,,,,,,https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015
+de-novo assembly,Assembly of reference sequence from short read sequences without external reference genome build.,,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/GENEPIO_0001628
+differential expression,Genes or isoforms that are differentially expressed between two conditions.,,,,FALSE,analysisType,,http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810
+differential network anaysis,Identification of changes in coexpression patterns between two conditions.,,,,FALSE,analysisType,,http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000616
+DNA methylation imputation,The statistical inference of unobserved DNA methylation marks.,,,,FALSE,analysisType,,https://dx.doi.org/10.1534/genetics.115.185967
+dose response study,A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.,,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/NCIT_C127803
+Enrichment analysis,Over-representation analysis.,,,,FALSE,analysisType,,http://edamontology.org/operation_3501
+expression quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein.,,,,FALSE,analysisType,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113415
+Gene expression comparison,Comparison of gene expression profiles.,,,,FALSE,analysisType,,http://edamontology.org/operation_0315
+Genome-Wide Association,"An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",,,,FALSE,analysisType,,http://purl.bioontology.org/ontology/MESH/D055106
+genotypeAncestry,model genetic ancestry from SNP data,,,,FALSE,analysisType,,http://www.compgen.pitt.edu/GemTools/GemTools.htm
+genotype imputation,The statistical inference of unobserved genotypes.,,,,FALSE,analysisType,,https://www.ncbi.nlm.nih.gov/pubmed/17572673
+hidden confounder detection,Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.,,,,FALSE,analysisType,,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161
+methylation quantitative trait loci detection,A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA.,,,,FALSE,analysisType,,
+network analysis,"A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/OBI_0200080
+network driver detection,Identification of drivers of disease based on network analyses.,,,,FALSE,analysisType,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194029/
+outlier detection,An observation in a data set that is numerically distant from the rest of the data.,,,,FALSE,analysisType,,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79083
+peak calling,"An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/OBCS_0000167
+Polygenic Risk Scores,A sample level estimate of the genetic component of disease risk based on genome-wide association studies.,,,,FALSE,analysisType,,http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348
+principal component analysis,Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.,,,,FALSE,analysisType,,http://purl.bioontology.org/ontology/MESH/D025341
+purity,"A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components",,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/NCIT_C62352
+quality control,A technique used to ensure a certain level of quality in a product or service.,,,,FALSE,analysisType,,http://purl.obolibrary.org/obo/ERO_0001219
+search engine output files,These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.,,,,FALSE,analysisType,,https://web.archive.org/web/20191213022828/https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride/how-submit-data-proteomexchange-pride/proteomics-data-forma
+Sequence alignment,Alignment of reads to a reference genome,,,,FALSE,analysisType,,http://edamontology.org/operation_0292
+somatic mutation calling,Identification of de-novo mutations in somatic cells.,,,,FALSE,analysisType,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4803342/
+statistical network reconstruction,Learning network relationships between genes based on their coexpression patterns.,,,,FALSE,analysisType,,http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Signaling_Network_Reconstruction
+Supervised Machine Learning,A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.,,,,FALSE,analysisType,,http://purl.bioontology.org/ontology/MESH/D000069553
+transcript quantification,Quantification of the abundunce of specific gene expression transcript isoforms.,,,,FALSE,analysisType,,https://www.nature.com/articles/nbt.3519
+variancePartition,Identification of percentage variance explained of a dependent variable by multiple classes of independent variables.,,,,FALSE,analysisType,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123296/
+Variant calling,"Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",,,,FALSE,analysisType,,http://edamontology.org/operation_3227
+visualization,"Resource that provides access to tools for graphical, interactive, multimodal and multidimensional data and result visualization.",,,,FALSE,analysisType,,http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization
+antibody,An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph,,,,FALSE,PsychENCODE,,
+antibodyAmount,Amount of antibody used for an assay,,,,FALSE,PsychENCODE,,
+arrayBatch,Genotyping batch,,,,FALSE,PsychENCODE,,
+assay,The technology used to generate the data in this file,"active avoidance learning behavior, anxiety-related behavior, ATACSeq, atomicForceMicroscopy, autoradiography, bisulfiteSeq, Blood Chemistry Measurement, brightfieldMicroscopy, cellViabilityAssay, ChIPSeq, contextual conditioning behavior, DNA optical mapping, electrochemiluminescence, elevated plus maze test, elevated T maze apparatus method, ELISA, errBisulfiteSeq, exomeSeq, FIA-MSMS, FitBark, frailty assessment, Genotyping, HI-C, high content screen, HPLC, HPLC-MSMS, Immunocytochemistry, immunofluorescence, immunohistochemistry, in vivo bioluminescence, ISOSeq, jumpingLibrary, kinesthetic behavior, label free mass spectrometry, Laser Speckle Imaging, LC-MS, LC-MSMS, LFP, liquid chromatography-electrochemical detection, lncrnaSeq, locomotor activation behavior, LTP, memory behavior, methylationArray, MIB/MS, mirnaArray, mirnaSeq, MRI, mRNAcounts, MudPIT, nextGenerationTargetedSequencing, NOMe-Seq, novelty response behavior, open field test, oxBS-Seq, photograph, polymeraseChainReaction, Positron Emission Tomography, questionnaire, Real Time PCR, Ribo-Seq, rnaArray, rnaSeq, rotarod performance test, RPPA, sandwich ELISA, Sanger sequencing, scale, scCGIseq, scrnaSeq, snpArray, spontaneous alternation, TMT quantitation, tractionForceMicroscopy, UPLC-MSMS, Vernier Caliper, von Frey test, westernBlot, wheel running, whole-cell patch clamp, wholeGenomeSeq, Zeno Electronic Walkway",,,FALSE,PsychENCODE,,
+active avoidance learning behavior,Avoidance learning when the action occurs.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000217
+anxiety-related behavior,An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000092
+ATACSeq,Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0002039
+atomicForceMicroscopy,Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen,,,,FALSE,assay,,http://purl.obolibrary.org/obo/CHMO_0000113
+autoradiography, A radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/ERO_0000716
+bisulfiteSeq,Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0000748
+Blood Chemistry Measurement,The determination of the measured concentrations of chemical constituents of the blood by assay in a clinical laboratory.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C47868
+brightfieldMicroscopy,Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective,,,,FALSE,assay,,http://purl.obolibrary.org/obo/CHMO_0000104
+cellViabilityAssay,This assay type measures the cellular state of living or dying by measuring an indicator of life or death,,,,FALSE,assay,,http://www.bioassayontology.org/bao#BAO_0003009
+ChIPSeq,Chromatin immuno-precipitation followed by sequencing,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0000716
+contextual conditioning behavior,,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000223
+DNA optical mapping,Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules,,,,FALSE,assay,,https://doi.org/10.1016/j.copbio.2013.01.009
+electrochemiluminescence,"A method in which electromagnetic radiation, in the form of light emission, is generated from an electrochemical reaction in a solution.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C111193
+elevated plus maze test,"A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000262
+elevated T maze apparatus method,"A method which utilizes an experimental apparatus consisting of three arms all or any of which may or may not be enclosed, in the shape of a T upon which the test animal can walk. The maze may include doors which can be used to close off any of the arms of the maze. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000267
+ELISA,"A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C16553
+errBisulfiteSeq,Data for enriched reduced representation bisulfite sequencing data,,,,FALSE,assay,,
+exomeSeq,Data derived from exome sequencing,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0002118
+FIA-MSMS,Flow injection analysis - tandem mass spectrometer,,,,FALSE,assay,,https://www.ncbi.nlm.nih.gov/pubmed/28667829
+FitBark,health and location tracker,,,,FALSE,assay,,https://www.fitbark.com/
+frailty assessment,A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.,,,,FALSE,assay,,https://doi.org/10.1002/cpmo.45
+Genotyping,The determination of the DNA sequence of an individual.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C45447
+HI-C,Chromatin interactions detected by HI-C protocol,,,,FALSE,assay,,http://www.ebi.ac.uk/efo/EFO_0007693
+high content screen,An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).,,,,FALSE,assay,,http://www.ebi.ac.uk/efo/EFO_0007550
+HPLC,"Frequently referred to simply as HPLC, this form of column chromatography is used frequently in biochemistry. The analyte is forced through a column by liquid at high pressure, which decreases the time the separated components remain on the stationary phase.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C16434
+HPLC-MSMS,"An analytical technique wherein high performance liquid chromatography is coupled to tandem mass spectrometry in order to separate, identify, and quantify substances in a sample.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C120691
+Immunocytochemistry,The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C17731
+immunofluorescence,An immunological procedure in which the antibodies are coupled with molecules which fluoresce under ultra violet (UV) light. This makes them particularly suitable for detection of specific antigens in tissues or on cells.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C17370
+immunohistochemistry,An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001986
+in vivo bioluminescence,An imaging assay that allows detection of bioluminescence from a living organism or organisms.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/ERO_0000651
+ISOSeq,Full isoform sequencing,,,,FALSE,assay,,
+jumpingLibrary,,,,,FALSE,assay,,
+kinesthetic behavior,Movement behavior of the body or its parts.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000338
+label free mass spectrometry,"A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/ERO_0000708
+Laser Speckle Imaging,"A noninvasive, non-scanning optical imaging technique that provides full-field visualization of blood flow to the tissue being imaged, which provides information about tissue perfusion and the efficiency of disease treatment.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C116492
+LC-MS,A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance,,,,FALSE,assay,,http://purl.obolibrary.org/obo/CHMO_0000524
+LC-MSMS,A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series,,,,FALSE,assay,,http://purl.obolibrary.org/obo/CHMO_0000701
+LFP,An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0002189
+liquid chromatography-electrochemical detection,"A liquid chromatography method that is sensitive to compounds which can be either reduced or oxidised. The mobile phase passes directly over the working electrode, which is set to the specific potential required for oxidation or reduction. The current produced is then measured.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/CHMO_0001746
+lncrnaSeq,Long non-coding RNA measurements collected from RNA-Seq experiments,,,,FALSE,assay,,
+locomotor activation behavior,Activation of locomotory behavior.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000447
+LTP,Any measurable or observable characteristic related to the persistent robust synaptic response induced by synchronous stimulation of pre- and postsynaptic cells.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/VT_0002207
+memory behavior,"Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000170
+methylationArray,Methylation data captured by array technology,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001332
+MIB/MS,Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS),,,,FALSE,assay,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/
+mirnaArray,microRNA measurements captured by array technology,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001335
+mirnaSeq,Small RNA measurements collected from RNA-Seq experiments,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0002112
+MRI,"Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.",,,,FALSE,assay,,http://edamontology.org/topic_3444
+mRNAcounts,A mRNA profiling assay using digital molecular barcoding technology to quantify target mRNA molecules without the need for amplification.,,,,FALSE,assay,,Sage Bionetworks
+MudPIT,MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry,,,,FALSE,assay,,http://purl.obolibrary.org/obo/MI_0658
+nextGenerationTargetedSequencing,A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C130177
+NOMe-Seq,Nucleosome Occupancy and Methylome Sequencing,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C106053
+novelty response behavior,"Behavior related to the exploration/investigation of a novel object, situation or environment.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NBO_0000086
+open field test,"A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000258
+oxBS-Seq,Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine,,,,FALSE,assay,,http://www.ebi.ac.uk/efo/EFO_0008840
+photograph,An image recorded by a camera.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C86035
+polymeraseChainReaction,"A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning",,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000459
+Positron Emission Tomography,A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C17007
+questionnaire,"A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001000
+Real Time PCR,An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C51962
+Ribo-Seq,Ribosome profiling (Ribo-Seq).,,,,FALSE,assay,,http://www.ebi.ac.uk/efo/EFO_0008891
+rnaArray,RNA measurements captured by array technology,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001463
+rnaSeq,RNA Sequencing measurements,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001271
+rotarod performance test,"A method that utilizes a device consisting of a rotating rod the speed of which is mechanically driven and precisely controlled, for instance held constant or accelerated. The rotarod test is often used to measure riding time or endurance in order to evaluate balance, motor coordination or grip strength.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000567
+RPPA,Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies,,,,FALSE,assay,,http://www.bioassayontology.org/bao#BAO_0010030
+sandwich ELISA,"The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",,,,FALSE,assay,,https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002421
+Sanger sequencing,"A DNA sequencing technique in which a mixture of deoxynucleosidetriphosphates (dNTPs) and chain-terminating dNTPs, which are radioactively or fluorescently labeled, are combined within the reaction mixture. Once the reaction is complete, the DNA strands are separated by size, and the labeled chain terminating dNTPs can be read in sequence by the investigator or by a machine.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C19641
+scale,An instrument or machine for weighing.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000217
+scCGIseq,"A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",,,,FALSE,assay,,https://www.ncbi.nlm.nih.gov/pubmed/28126923
+scrnaSeq,"Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.",,,,FALSE,assay,,http://www.ebi.ac.uk/efo/EFO_0007832
+snpArray,SNP measurements captured by array technology,,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0001204
+spontaneous alternation,The spontaneous alternation protocol is used to assess spatial working memory in mice.,,,,FALSE,assay,,https://doi.org/10.1002/cpmo.45
+TMT quantitation,"An isobaric labeling technique that uses tags containing four regions with the same total molecular weights and structure, so that during chromatographic or electrophoretic separation and in single MS mode, molecules labelled with different tags are indistinguishable.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/ERO_0002175
+tractionForceMicroscopy,An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM),,,,FALSE,assay,,https://en.wikipedia.org/wiki/Traction_force_microscopy
+UPLC-MSMS,Ultra performance liquid chromatography - tandem mass spectrometer.,,,,FALSE,assay,,https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm
+Vernier Caliper,A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.,,,,FALSE,assay,,http://purl.obolibrary.org/obo/NCIT_C81184
+von Frey test,assessment of mechanical nociception,,,,FALSE,assay,,https://en.wikipedia.org/wiki/Nociception_assay#Von_Frey
+westernBlot,A multistep process in which a mixture of proteins is separated by gel electrophoresis,,,,FALSE,assay,,http://purl.obolibrary.org/obo/MMO_0000338
+wheel running,"Wheel running behavior in mice is a simple, easily quantifiable measure of behavior that can be assessed in the home cage and with little interruption.  Mice demonstrate age-dependent reductions in both distance and speed, and also time spent running, which may be an indicator of motivation.",,,,FALSE,assay,,https://doi.org/10.1002/cpmo.45
+whole-cell patch clamp,"A patch-clamp assay where the electrode is left in place on the cell, as in cell-attached recordings, but the membrane patch has been perforated, providing access from the interior of the pipette to the intracellular space of the cell. Measurements made with this technique involve recording currents through multiple channels simultaneously, over the membrane of the entire cell.",,,,FALSE,assay,,http://purl.obolibrary.org/obo/OBI_0002178
+wholeGenomeSeq,Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time,,,,FALSE,assay,,http://edamontology.org/topic_3673
+Zeno Electronic Walkway,The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.,,,,FALSE,assay,,http://www.zenometrics.com/zenowalkway.html
+assayTarget,,"CTCF, H3K27ac, H3K27me3, H3K36me3, H3K4me1, H3K4me3, H3K9ac, H3K9me3, input, REST",,,FALSE,PsychENCODE,,
+CTCF,,,,,FALSE,assayTarget,,
+H3K27ac,,,,,FALSE,assayTarget,,
+H3K27me3,,,,,FALSE,assayTarget,,
+H3K36me3,,,,,FALSE,assayTarget,,
+H3K4me1,,,,,FALSE,assayTarget,,
+H3K4me3,,,,,FALSE,assayTarget,,
+H3K9ac,,,,,FALSE,assayTarget,,
+H3K9me3,,,,,FALSE,assayTarget,,
+input,,,,,FALSE,assayTarget,,
+REST,,,,,FALSE,assayTarget,,
+batch,TMT proteomics batch,,,,FALSE,PsychENCODE,,
+batchChannel,TMT channel the sample is labeled with,,,,FALSE,PsychENCODE,,
+BMI,Body Mass Index,,,,FALSE,PsychENCODE,,
+braak,Braak stage,"Braak Stage 1, Braak Stage 2, Braak Stage 3, Braak Stage 4, Braak Stage 5, Braak Stage 6",,,FALSE,PsychENCODE,,
+Braak Stage 1,,,,,FALSE,braak,,
+Braak Stage 2,,,,,FALSE,braak,,
+Braak Stage 3,,,,,FALSE,braak,,
+Braak Stage 4,,,,,FALSE,braak,,
+Braak Stage 5,,,,,FALSE,braak,,
+Braak Stage 6,,,,,FALSE,braak,,
+BrodmannArea,A segmentation of the cerebral cortex on the basis of cytoarchitecture,,,,FALSE,PsychENCODE,,
+catalogNumber,"The identifier assigned to a product, usually in the list of products published by a reseller or manufacturer",,,,FALSE,PsychENCODE,,
+causeOfDeath,The specific injury or disease that lead to death,,,,FALSE,PsychENCODE,,
+CDR,Clinical Dementia Rating,"0 - None, 0.5 - Very mild, 1 - Mild, 2 - Moderate, 3 - Severe",,,FALSE,PsychENCODE,,
+0 - None,,,,,FALSE,CDR,,
+0.5 - Very mild,,,,,FALSE,CDR,,
+1 - Mild,,,,,FALSE,CDR,,
+2 - Moderate,,,,,FALSE,CDR,,
+3 - Severe,,,,,FALSE,CDR,,
+cellType,A cell type is a distinct morphological or functional form of cell.,"arachnoid, astrocytes, B-lymphocytes, CD138+, CD8+ T-Cells, CNON, Embryonic stem cells, epithelial, epithelial-like, fibroblast, GABAergic neurons, GLUtamatergic neurons, iPSC, iPSC-derived astrocytes, iPSC-derived glia, iPSC-derived neuron, iPSC-derived neuronal progenitor cell, iPSC-derived telencephalic organoids, lymphoblast, macrophages, meningioma, microglia, monocyte-derived microglia, monocytes, NeuN-, NeuN+, oligodendrocyte, polygonal, round, schwann, Schwann cell precusor, schwannoma, SH-SY5Y",,,FALSE,PsychENCODE,,
+arachnoid,An arachnoid mater is a delicate membrane that encloses the spinal cord and brain and lies between the pia mater and dura mater.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001636
+astrocytes,"Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127
+B-lymphocytes,A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236
+CD138+,,,,,FALSE,cellType,,
+CD8+ T-Cells," A T lymphocyte (a type of white blood cell) that kills cancer cells, cells that are infected (particularly with viruses), or cells that are damaged in other ways.",,,,FALSE,cellType,,https://en.wikipedia.org/wiki/Cytotoxic_T_cell
+CNON,Cultured Neuronal cells derived from Olfactory Neuroepithelium,,,,FALSE,cellType,,https://www.synapse.org/#!Synapse:syn4590897
+Embryonic stem cells,Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.,,,,FALSE,cellType,,http://purl.obolibrary.org/obo/NCIT_C12935
+epithelial,Somatic cells that cover the surface of the body and line its cavities.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000066
+epithelial-like,"In cell morphology, epithelial-like cells are polygonal in shape with more regular dimensions, and grow attached to a substrate in discrete patches.",,,,FALSE,cellType,,https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-morphology.html
+fibroblast,A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000057
+GABAergic neurons,A neuron that uses GABA as a vesicular neurotransmitter.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/zfa/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FZFA_0009276
+GLUtamatergic neurons,"Have Glutamate receptors, which are synaptic receptors located primarily on the membranes of neuronal cells. Glutamate (the conjugate base of glutamic acid) is abundant in the human body, but particularly in the nervous system and especially prominent in the human brain.",,,,FALSE,cellType,,https://en.wikipedia.org/wiki/Glutamate_receptor
+iPSC,Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905
+iPSC-derived astrocytes,,,,,FALSE,cellType,,Sage Bionetworks
+iPSC-derived glia,,,,,FALSE,cellType,,Sage Bionetworks
+iPSC-derived neuron,,,,,FALSE,cellType,,Sage Bionetworks
+iPSC-derived neuronal progenitor cell,,,,,FALSE,cellType,,Sage Bionetworks
+iPSC-derived telencephalic organoids,three-dimensional neural cultures (organoids) derived from induced pluripotent stem cells.,,,,FALSE,cellType,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4519016/
+lymphoblast,"Often referred to as a blast cell. Unlike other usages of the suffix -blast a lymphoblast is a further differentiation of a lymphocyte, T- or B-, occasioned by an antigenic stimulus. The lymphoblast usually develops by enlargement of a lymphocyte, active re-entry to the S phase of the cell cycle, mitogenesis and production of much m-RNA and ribosomes.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000772
+macrophages,"A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000235
+meningioma,A central nervous system cancer tissue that are manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565
+microglia,"The small, non-neural, interstitial cells of mesodermal origin that form part of the supporting structure of the central nervous system.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000078
+monocyte-derived microglia,,,,,FALSE,cellType,,Sage Bionetworks
+monocytes,"Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000576
+NeuN-,A neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.,,,,FALSE,cellType,,https://en.wikipedia.org/wiki/NeuN
+NeuN+,A neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.,,,,FALSE,cellType,,https://en.wikipedia.org/wiki/NeuN
+oligodendrocyte,A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.,,,,FALSE,cellType,,http://purl.obolibrary.org/obo/CL_0000128
+polygonal,"A polygonal face is a polygon bounded by a circuit of polygon edges, and includes the flat (plane) region inside the boundary.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/sio/terms?iri=http%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_000503
+round,A phenotype observation at the level of the cell shape where the cell is round,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/cmpo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fcmpo%2FCMPO_0000118
+schwann,Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220
+Schwann cell precusor,A glioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.,,,,FALSE,cellType,,http://purl.obolibrary.org/obo/CL_0002375
+schwannoma,"A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves.",,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693
+SH-SY5Y,Human neuroblastoma clonal subline of the neuroepithelioma cell line SK-N-SH that had been established in 1970 from the bone marrow biopsy of a 4-year-old girl with metastatic neuroblastoma.,,,,FALSE,cellType,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000793
+chromatinAmount,Amount of chromatin used for an assay,,,,FALSE,PsychENCODE,,
+consortium,The name of the consortium,PEC,,,FALSE,PsychENCODE,,
+PEC,PsychENCODE,,,,FALSE,consortium,,
+controlType,Control samples suitable for normalization and batch correction,GIS,,,FALSE,PsychENCODE,,
+GIS,Global Internal Standard - a specific control for TMT multi-batch proteomic experiments,,,,FALSE,controlType,,
+dataType,Types of input/output data in bioinformatics pipelines,"behavior process, cellularPhysiology, chromatinActivity, clinical, drugCombinationScreen, drugScreen, electrophysiology, geneExpression, genomicVariants, image, immunoassay, isoformExpression, kinomics, metabolomics, network, Pharmacokinetic Study, proteomics, surveyData, Volume, Weight",,,FALSE,PsychENCODE,,
+behavior process,"The action, reaction, or performance of an organism in response to external or internal stimuli.",,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NBO_0000313
+cellularPhysiology,,,,,FALSE,dataType,,
+chromatinActivity,Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.,,,,FALSE,dataType,,https://en.wikipedia.org/wiki/Chromatin_remodeling
+clinical,Data obtained through patient examination or treatment.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C15783
+drugCombinationScreen,Information on drug sensitivity of more than one compound,,,,FALSE,dataType,,https://www.ncbi.nlm.nih.gov/pubmed/29344898
+drugScreen,Information on drug sensitivity and molecular markers of drug response,,,,FALSE,dataType,,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531057/
+electrophysiology,Data generated from an electrophysiology assay.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/ERO_0000564
+geneExpression,The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.,,,,FALSE,dataType,,https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0203
+genomicVariants,"Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",,,,FALSE,dataType,,https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227
+image,Biological or biomedical data that has been rendered into an image.,,,,FALSE,dataType,,https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_2968
+immunoassay,Laboratory test involving interaction of antigens with specific antibodies.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C16723
+isoformExpression,Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.,,,,FALSE,dataType,,https://en.wikipedia.org/wiki/Protein_isoform
+kinomics,Kinomics is the study of protein kinases and protein kinase signaling.,,,,FALSE,dataType,,http://www.kinomecore.com/what-is-kinomics/
+metabolomics,"The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",,,,FALSE,dataType,,http://edamontology.org/topic_3172
+network,An interconnected system of things or people.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C61377
+Pharmacokinetic Study,"A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C49663
+proteomics,"Protein and peptide identification, especially in the study of whole proteomes of organisms.",,,,FALSE,dataType,,https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0121
+surveyData,A data set that contains the outcome of a survey.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/OMIABIS_0000060
+Volume,The amount of three dimensional space occupied by an object or the capacity of a space or container.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C25335
+Weight,The vertical force exerted by a mass as a result of gravity.,,,,FALSE,dataType,,http://purl.obolibrary.org/obo/NCIT_C25208
+dataSubtype,"Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.","dataMatrix, metadata, normalized, processed, raw",,,FALSE,PsychENCODE,,
+dataMatrix,A file of data containing multiple values for multiple samples.,,,,FALSE,dataSubtype,,
+metadata,"A file of clinical, technical, or other parameters that describe a dataset.",,,,FALSE,dataSubtype,,
+normalized,A data set that is produced as the output of a normalization data transformation.,,,,FALSE,dataSubtype,,http://purl.obolibrary.org/obo/OBI_0000451
+processed,A file of data generated from running one or more bioinformatics methods on a raw file.,,,,FALSE,dataSubtype,,
+raw,"A data file produced by an instrument, or one with very little subsequent processing.",,,,FALSE,dataSubtype,,
+dateOfBirth,Individual date of birth,,,,FALSE,PsychENCODE,,
+dateOfDeath,Individual date of death,,,,FALSE,PsychENCODE,,
+dementia,Is dementia present,,,,FALSE,PsychENCODE,,
+dnaBatch,DNA isolation batch,,,,FALSE,PsychENCODE,,
+familyHistory,Is there a family history of the disorder/disease,"TRUE, FALSE, Unknown",,,FALSE,PsychENCODE,,
+fileFormat,"Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software","7z, ab1, abf, avi, bai, bam, bash script, bcf, bed, bed broadPeak, bed gappedPeak, bed narrowPeak, bedgraph, bgzip, bigwig, bpm, cel, chp, csv, czi, dat, DICOM, doc, dup, excel, fasta, fastq, fig, flagstat, gct, gff3, gtf, gzip, hdf, hic, html, hyperlink, idat, idx, jpg, json, locs, maf, md, mov, msf, mtx, pdf, plink, png, powerpoint, Python script, pzfx, R script, raw, RData, recal, rmd, sam, sav, sdf, seg, Sentrix descriptor file, sif, sqlite, sra, svg, svs, Synapse Table, tagAlign, tar, tif, tranches, tsv, txt, vcf, wiggle, xml, zip",,,FALSE,PsychENCODE,,
+7z,"A compressed archive file format that supports several different data compression, encryption and pre-processing filters.",,,,FALSE,fileFormat,,http://purl.obolibrary.org/obo/NCIT_C80224
+ab1,TAB1 binary format of raw DNA sequence reads (output of Applied Biosystems' sequencing analysis software). Contains an electropherogram and the DNA base sequence.,,,,FALSE,fileFormat,,http://edamontology.org/format_3000
+abf,The Axon™ Binary File format (ABF) was created for the storage of binary experimental data.,,,,FALSE,fileFormat,,https://mdc.custhelp.com/euf/assets/content/ABFHelp.pdf
+avi,AVI files can contain both audio and video data in a file container that allows synchronous audio-with-video playback.,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Audio_Video_Interleave
+bai,BAM indexing format,,,,FALSE,fileFormat,,http://edamontology.org/format_3327
+bam,"BAM format, the binary, BGZF-formatted compressed version of SAM format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s)",,,,FALSE,fileFormat,,http://edamontology.org/format_2572
+bash script,Bash Shell Script,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Shell_script
+bcf,"BCF, the binary version of Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",,,,FALSE,fileFormat,,http://edamontology.org/format_3016
+bed,"Browser Extensible Data (BED) format of sequence annotation track, typically to be displayed in a genome browser",,,,FALSE,fileFormat,,http://edamontology.org/format_3003
+bed broadPeak,"This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data. It is a BED 6+3 format.",,,,FALSE,fileFormat,,http://genome.ucsc.edu/FAQ/FAQformat.html#format13
+bed gappedPeak,"This format is used to provide called regions of signal enrichment based on pooled, normalized (interpreted) data where the regions may be spliced or incorporate gaps in the genomic sequence. It is a BED12+3 format.",,,,FALSE,fileFormat,,http://genome.ucsc.edu/FAQ/FAQformat.html#format14
+bed narrowPeak,"This format is used to provide called peaks of signal enrichment based on pooled, normalized (interpreted) data. It is a BED6+4 format.",,,,FALSE,fileFormat,,http://genome.ucsc.edu/FAQ/FAQformat.html#format12
+bedgraph,Holds a tab-delimited chromosome /start /end / datavalue dataset. The bedGraph format allows display of continuous-valued data in track format. This display type is useful for probability scores and transcriptome data,,,,FALSE,fileFormat,,http://edamontology.org/format_3583
+bgzip,Blocked GNU Zip format,,,,FALSE,fileFormat,,http://edamontology.org/format_3615
+bigwig,bigWig format for large sequence annotation tracks that consist of a value for each sequence position,,,,FALSE,fileFormat,,http://edamontology.org/format_3006
+bpm,A beaded pool manifest. Describe the SNP or probe content on a BeadChip or in an assay pool.,,,,FALSE,fileFormat,,https://support.illumina.com/datafiles.html
+cel,Format of Affymetrix data file of information about (raw) expression levels of the individual probes,,,,FALSE,fileFormat,,http://edamontology.org/format_1638
+chp,CHP file contains probe set analysis results generated from Affymetrix software,,,,FALSE,fileFormat,,
+csv,Tabular data represented as comma-separated values in a text file,,,,FALSE,fileFormat,,http://edamontology.org/format_3752
+czi,"microscopy imaging file format that saves multidimensional images such as time lapse, Z-stacks, multiposition experiments and virtual slides, combined with relevant meta information",,,,FALSE,fileFormat,,https://www.zeiss.com/microscopy/int/products/microscope-software/zen/czi.html
+dat,Format of Affymetrix data file of raw image data.,,,,FALSE,fileFormat,,http://edamontology.org/format_1637
+DICOM,"A comprehensive set of standards for communications between medical imaging devices, including handling, storing and transmitting information in medical imaging. It includes a file format definition and a network communication protocol.",,,,FALSE,fileFormat,,http://purl.obolibrary.org/obo/NCIT_C49059
+doc,Microsoft Word document format,,,,FALSE,fileFormat,,
+dup,output of the Picard MarkDuplicates tool.,,,,FALSE,fileFormat,,https://software.broadinstitute.org/gatk/documentation/tooldocs/4.0.4.0/picard_sam_markduplicates_MarkDuplicates.php
+excel,Microsoft Excel spreadsheet format,,,,FALSE,fileFormat,,
+fasta,"FASTA format is a text-based format for representing either nucleotide sequences or peptide sequences, in which nucleotides or amino acids are represented using single-letter codes",,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/FASTA_format
+fastq,FASTQ format is a text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores. Both the sequence letter and quality score are each encoded with a single ASCII character for brevity,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/FASTQ_format
+fig,"Line drawing saved in the Xfig format; stored as a vector image that may include lines, shapes, arcs, splines, arrows, and text objects; may also include images, colors, and patterns.",,,,FALSE,fileFormat,,https://fileinfo.com/extension/fig
+flagstat,Output of samtools flagstat tool,,,,FALSE,fileFormat,,
+gct,"Tab-delimited text files of GenePattern that contain a column for each sample, a row for each gene, and an expression value for each gene in each sample",,,,FALSE,fileFormat,,http://edamontology.org/format_3709
+gff3,Generic Feature Format version 3 (GFF3) of sequence features.,,,,FALSE,fileFormat,,http://edamontology.org/format_1975
+gtf,Gene transfer format (GTF) is a file format used to hold information about gene structure,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Gene_transfer_format
+gzip,GZipped format,,,,FALSE,fileFormat,,http://purl.obolibrary.org/obo/NCIT_C80220
+hdf,"Hierarchical Data Format (HDF) is a set of file formats (HDF4, HDF5) designed to store and organize large amounts of data",,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Hierarchical_Data_Format
+hic,Hi-C contact matrix file,,,,FALSE,fileFormat,,https://github.com/theaidenlab/juicer/wiki/Data
+html,HTML format,,,,FALSE,fileFormat,,http://edamontology.org/format_2331
+hyperlink,"A reference (link) from some point in one hypertext document to another document, another place in the same document, or a website.",,,,FALSE,fileFormat,,http://purl.obolibrary.org/obo/NCIT_C47919
+idat,Proprietary file format for (raw) BeadArray data used by genomewide profiling platforms from Illumina Inc. This format is output directly from the scanner and stores summary intensities for each probe-type on an array.,,,,FALSE,fileFormat,,http://edamontology.org/format_3578
+idx,,,,,FALSE,fileFormat,,
+jpg,Joint Picture Group file format for lossy graphics file.,,,,FALSE,fileFormat,,http://edamontology.org/format_3579
+json,"JavaScript Object Notation format; a lightweight, text-based format to represent tree-structured data using key-value pairs.",,,,FALSE,fileFormat,,http://edamontology.org/format_3464
+locs,Illumina iScan bead location file.,,,,FALSE,fileFormat,,https://support.illumina.com/content/dam/illumina-support/documents/documentation/system_documentation/iscan/iscan-system-guide-11313539-01.pdf
+maf,"Multiple Alignment Format (MAF) supporting alignments of whole genomes with rearrangements, directions, multiple pieces to the alignment, and so forth",,,,FALSE,fileFormat,,http://edamontology.org/format_3008
+md,Markdown (MD) is a lightweight markup language with plain text formatting syntax,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Markdown
+mov,A video file format with the .mov extension,,,,FALSE,fileFormat,,Sage Bioenetworks
+msf,Proprietary mass-spectrometry format of Thermo Scientific's ProteomeDiscoverer software,,,,FALSE,fileFormat,,http://edamontology.org/format_3702
+mtx,Matrix Market Exchange Format,,,,FALSE,fileFormat,,https://math.nist.gov/MatrixMarket/formats.html#MMformat
+pdf,Portable Document Format,,,,FALSE,fileFormat,,http://edamontology.org/format_3508
+plink,Any Plink file format (MAP/PED/BED/BIM/FAM),,,,FALSE,fileFormat,,https://www.cog-genomics.org/plink2/formats
+png,PNG is a file format for image compression,,,,FALSE,fileFormat,,http://edamontology.org/format_3603
+powerpoint,Microsoft Powerpoint slide format,,,,FALSE,fileFormat,,
+Python script,"Python is an interpreted, object-oriented, high-level programming language with dynamic semantics.",,,,FALSE,fileFormat,,https://www.python.org/doc/essays/blurb/
+pzfx,"A PZFX file is a Prism project created by GraphPad Prism, a scientific application used to analyze and graph data. It contains project data including graphs and layouts, notes, and tables.",,,,FALSE,fileFormat,,https://fileinfo.com/extension/pzfx
+R script,R Script,,,,FALSE,fileFormat,,Sage Bionetworks
+raw,Proprietary file format for mass spectrometry data from Thermo Scientific,,,,FALSE,fileFormat,,http://edamontology.org/format_3712
+RData,"The RData format (usually with extension .rdata or .rda) is a format designed for use with R, a system for statistical computation and related graphics, for storing a complete R workspace or selected objects from a workspace in a form that can be loaded back by R.",,,,FALSE,fileFormat,,https://www.loc.gov/preservation/digital/formats/fdd/fdd000470.shtml
+recal,.recal file from GATK VQSR,,,,FALSE,fileFormat,,https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_variantrecalibration_VariantRecalibrator.php#--recal_file
+rmd,markdown document specific to r analyses,,,,FALSE,fileFormat,,http://rmarkdown.rstudio.com/developer_document_templates.html
+sam,Sequence Alignment/Map (SAM) format for alignment of nucleotide sequences (e.g. sequencing reads) to (a) reference sequence(s),,,,FALSE,fileFormat,,http://edamontology.org/format_2573
+sav,"The SPSS Statistics File Format is a proprietary binary format, developed and maintained as the native format for the SPSS statistical software application.",,,,FALSE,fileFormat,,https://www.loc.gov/preservation/digital/formats/fdd/fdd000469.shtml
+sdf,SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.,,,,FALSE,fileFormat,,http://edamontology.org/format_3814
+seg,SEG file (segmented data; .seg or .cbs) is a tab-delimited text file that lists loci and associated numeric values,,,,FALSE,fileFormat,,https://software.broadinstitute.org/software/igv/SEG
+Sentrix descriptor file,A BeadScan specific file needed to perform scan setting checks for different array formats and assay type.,,,,FALSE,fileFormat,,https://support.illumina.com/content/dam/illumina-support/documents/myillumina/dd0aff11-2664-481b-a8ce-26831a907cae/beadscan_3.0_software_addendum.pdf
+sif,SIF (simple interaction file) Format - a network/pathway format used for instance in cytoscape,,,,FALSE,fileFormat,,http://edamontology.org/format_3619
+sqlite,Data format used by the SQLite database.,,,,FALSE,fileFormat,,http://edamontology.org/format_3621
+sra,SRA archive format (SRA) is the archive format used for input to the NCBI Sequence Read Archive.,,,,FALSE,fileFormat,,http://edamontology.org/format_3698
+svg,Scalable Vector Graphics (SVG) is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation.,,,,FALSE,fileFormat,,http://edamontology.org/format_3604
+svs,"A single-file pyramidal tiled TIFF, with non-standard metadata and compression.",,,,FALSE,fileFormat,,https://openslide.org/formats/aperio/
+Synapse Table,Table hosted at synapse.org,,,,FALSE,fileFormat,,https://docs.synapse.org/articles/tables.html
+tagAlign,Tag Alignment provides genomic mapping of short sequence tags.,,,,FALSE,fileFormat,,https://genome.ucsc.edu/FAQ/FAQformat.html#format15
+tar,tape archive,,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/Tar_(computing)
+tif,"Tagged Image File Format, abbreviated TIFF or TIF, is a computer file format for storing raster graphics images",,,,FALSE,fileFormat,,https://en.wikipedia.org/wiki/TIFF
+tranches,.tranches file from GATK VQSR,,,,FALSE,fileFormat,,https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_variantrecalibration_VariantRecalibrator.php#--tranches_file
+tsv,Tabular data represented as tab-separated values in a text file,,,,FALSE,fileFormat,,http://edamontology.org/format_3475
+txt,Textual format,,,,FALSE,fileFormat,,http://edamontology.org/format_2330
+vcf,"Variant Call Format (VCF) for sequence variation (indels, polymorphisms, structural variation)",,,,FALSE,fileFormat,,http://edamontology.org/format_3016
+wiggle,Wiggle format (WIG) of a sequence annotation track that consists of a value for each sequence position,,,,FALSE,fileFormat,,http://edamontology.org/format_3005
+xml,eXtensible Markup Language (XML) format.,,,,FALSE,fileFormat,,http://edamontology.org/format_2332
+zip,zip is a format standard of a digital entity that is conformant with the PKWARE .ZIP file format specification,,,,FALSE,fileFormat,,http://purl.obolibrary.org/obo/OBI_0000325
+fragmentation,Specifies the mode by which MS2 and MS3 ions are generated,,,,FALSE,PsychENCODE,,
+genotypeInferredAncestry,Ancestry inferred from genotype,,,,FALSE,PsychENCODE,,
+GQN,Illumina gDNA quality score,,,,FALSE,PsychENCODE,,
+grant,Grant number the data is being submitted for,"R01MH109677, R01MH109715, R01MH110472, R01MH110905, R01MH110920, R01MH110921, R01MH110926, R01MH110927, R01MH110928, R01MH111721, R01MH112751, R01MH117291, R01MH117292, R01MH117293, R21MH105853, R56MH114899, R56MH114901, R56MH114911, U01DA048279, U01MH103339, U01MH103340, U01MH116438, U01MH116441, U01MH116442, U01MH116487, U01MH116488, U01MH116489, U01MH116529, U01MH119509",,,FALSE,PsychENCODE,,
+R01MH109677,Risk Genetic Variants and CIS Regulation of Gene Expression in Bipolar Disorder,,,,FALSE,grant,,
+R01MH109715,Mapping the Role of Long Noncoding RNAs in Gene Regulatory Networks in Schizophrenia,,,,FALSE,grant,,
+R01MH110472,Transcription Factor Function in Healthy and Psychiatric Disorder-Affected Brains,,,,FALSE,grant,,
+R01MH110905,2/2 Measuring Translational Dynamics and the Proteome to Identify Potential Brain Biomarkers for Psychiatric Disease,,,,FALSE,grant,,
+R01MH110920,1/2 Measuring Translational Dynamics and the Proteome to Identify Potential Brain Biomarkers for Psychiatric Disease,,,,FALSE,grant,,
+R01MH110921,Molecular Profiling of Schizophrenia,,,,FALSE,grant,,
+R01MH110926,1/3 Integrative Genomic Analysis of Human Brain Development and Autism,,,,FALSE,grant,,
+R01MH110927,2/3 Integrative Genomic Analysis of Human Brain Development and Autism,,,,FALSE,grant,,
+R01MH110928,3/3 Integrative Genomic Analysis of Human Brain Development and Autism,,,,FALSE,grant,,
+R01MH111721,Integrative Genomics of the Corticolimbic Circuit in Major Depressive Disorder,,,,FALSE,grant,,
+R01MH112751,Functional Methylomics Approaches for Schizophrenia in the Frontal Cortex and Hippocampus,,,,FALSE,grant,,
+R01MH117291,2/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics,,,,FALSE,grant,,
+R01MH117292,3/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics,,,,FALSE,grant,,
+R01MH117293,1/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics,,,,FALSE,grant,,
+R21MH105853,,,,,FALSE,grant,,
+R56MH114899,2/3 Chromatin Regulation During Brain Development and in ASD,,,,FALSE,grant,,
+R56MH114901,3/3 Chromatin Regulation During Brain Development and in ASD,,,,FALSE,grant,,
+R56MH114911,1/3 Chromatin Regulation During Brain Development and in ASD,,,,FALSE,grant,,
+U01DA048279,Functional Genomic Resource and Integrative Model of Dopaminergic Circuitry Associated with Psychiatric Disease,,,,FALSE,grant,,
+U01MH103339,Transcriptional and Epigenetic Signatures of Human Brain Development and Autism,,,,FALSE,grant,,
+U01MH103340,Genetic Variants Affect Brain Gene Expression and Risks of Psychiatric Disorders,,,,FALSE,grant,,
+U01MH116438,Massively Parallel Characterization of Psychiatric Disease Associated Regulatory Elements in Defined Cell Types,,,,FALSE,grant,,
+U01MH116441,Dynamic RNA Modifications in Human Brain Development and Autism,,,,FALSE,grant,,
+U01MH116442,"The 3D Genome in Transcriptional Regulation Across the Postnatal Life Span, with Implications for Schizophrenia and Bipolar Disorder",,,,FALSE,grant,,
+U01MH116487,2/2 Cell Type and Region-Specific Regulatory Networks in Human Brain Development and Disorders,,,,FALSE,grant,,
+U01MH116488,1/2 Cell Type and Region-Specific Regulatory Networks in Human Brain Development and Disorders,,,,FALSE,grant,,
+U01MH116489,2/2 Discovery and Validation of Neuronal Enhancers Associated with the Development of Psychiatric Disorders,,,,FALSE,grant,,
+U01MH116529,"Integrated, Cell Type Specific Functional Genomics Analyses of Regulatory Sequence Elements and Their Dynamic Interaction Networks in Neuropsychiatric Brain Tissues",,,,FALSE,grant,,
+U01MH119509,Single Cell Transcriptional and Epigenomic Dissection of Schizophrenia and Bipolar Disease,,,,FALSE,grant,,
+individualID,Identifying string linked to the individual or animal being studied,,,,FALSE,PsychENCODE,,
+individualIdSource,Database or repository to which individual ID maps,"ABN, BannerSun, Emory, HBTRC, JAX, MSSM, NIMH-HBCC, Penn, Pitt, Rush, Sestan,SMRI, TAA, UCSF,UM-BTB, Yale",,,FALSE,PsychENCODE,,
+ABN,Autism Brain Net,,,,FALSE,individualIdSource,,https://www.autismbrainnet.org/
+BannerSun,Banner Sun Health Research Institute,,,,FALSE,individualIdSource,,https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe
+Emory,Emory University,,,,FALSE,individualIdSource,,https://www.emory.edu/
+HBTRC,Harvard Brain Tissue Resource Center,,,,FALSE,individualIdSource,,https://hbtrc.mclean.harvard.edu/
+JAX,The Jackson Laboratory,,,,FALSE,individualIdSource,,https://www.jax.org
+MSSM,Mount Sinai NIH Brain and Tissue Repository,,,,FALSE,individualIdSource,,http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking
+NIMH-HBCC,The NIH Human Brain Collection Core,,,,FALSE,individualIdSource,,https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml
+Penn,"The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",,,,FALSE,individualIdSource,,http://www.med.upenn.edu/cndr/biosamples-brainbank.html
+Pitt,The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository,,,,FALSE,individualIdSource,,https://neurobiobank.nih.gov/
+Rush,Rush Alzheimer's Disease Center,,,,FALSE,individualIdSource,,https://www.radc.rush.edu/
+Sestan,"Sestan Lab, Yale School of Medicine",,,,FALSE,individualIdSource,,https://medicine.yale.edu/lab/sestan/
+SMRI,Stanley Medical Research Institute,,,,FALSE,individualIdSource,,http://www.stanleyresearch.org/
+TAA,Tourette Association of America,,,,FALSE,individualIdSource,,https://tourette.org/
+UCSF,University of California - San Francisco,,,,FALSE,individualIdSource,,https://www.ucsf.edu/
+UM-BTB,University of Maryland Brain and Tissue Bank,,,,FALSE,individualIdSource,,https://www.medschool.umaryland.edu/btbank/
+Yale,Yale School of Medicine,,,,FALSE,individualIdSource,,https://medicine.yale.edu/
+IQ,IQ,,,,FALSE,PsychENCODE,,
+isMultiIndividual,Boolean flag indicating whether or not a file has data for multiple individuals,"TRUE, FALSE",,,FALSE,PsychENCODE,,
+isMultiSpecimen,Boolean flag indicating whether or not a file has data for multiple specimens,"TRUE, FALSE",,,FALSE,PsychENCODE,,
+isStranded,Whether or not the library is stranded.,"TRUE, FALSE",,,FALSE,PsychENCODE,,
+libraryBatch,Batch library was prepared in,,,,FALSE,PsychENCODE,,
+libraryID,Library ID as provided by the lab,,,,FALSE,PsychENCODE,,
+libraryPrep,The general strategy by which the library was prepared,"DNALibraryConstruction, IncRNAenrichment, miRNAenrichment, PCRfree, polyAselection, rRNAdepletion, STARRSeq",,,FALSE,PsychENCODE,,
+DNALibraryConstruction,A DNA library constructed from DNA extracted from cells,,,,FALSE,libraryPrep,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0010172
+lncRNAenrichment,RNA library enriched for lncRNA,,,,FALSE,libraryPrep,,Sage Bionetworks
+miRNAenrichment,RNA library with size selection for microRNAs,,,,FALSE,libraryPrep,,Sage Bionetworks
+PCRfree,Library preparation without PCR amplification,,,,FALSE,libraryPrep,,Sage Bionetworks
+polyAselection,RNA selection by polyA tail capture,,,,FALSE,libraryPrep,,Sage Bionetworks
+rRNAdepletion,Total RNA library with ribosomal RNA depleted.,,,,FALSE,libraryPrep,,Sage Bionetworks
+STARRSeq,Self-transcribing active regulatory region sequencing assay (STARR-Seq),,,,FALSE,libraryPrep,,http://purl.obolibrary.org/obo/OBI_0002041
+libraryPreparationMethod,Method by which library was prepared,"10x, CEL-seq, Drop-Seq, Omni-ATAC, Smart-seq2, Smart-seq4, TruSeq",,,FALSE,libraryPrep,,
+10x,10x Genomics library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
+CEL-seq,CEL-Seq library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
+Drop-Seq,Drop-Seq library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
+Omni-ATAC,Omni-ATAC-seq library preparation,,,,FALSE,libraryPreparationMethod,,https://protocolexchange.researchsquare.com/article/nprot-6107/v1
+Smart-seq2,Smart-seq 2 library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
+Smart-seq4,Smart-seq4 library preparation,,,,FALSE,libraryPreparationMethod,,https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq
+TruSeq,TruSeq library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
+lotNumber,A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch,,,,FALSE,PsychENCODE,,
+mannerOfDeath,The determination of how the inury or disease lead to death,"accident, homicide, natural causes, suicide, undetermined",,,FALSE,PsychENCODE,,
+accident,,,,,FALSE,mannerOfDeath,,https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0000924
+homicide,,,,,FALSE,mannerOfDeath,,https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C3829672
+natural causes,,,,,FALSE,mannerOfDeath,,https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0277610
+suicide,,,,,FALSE,mannerOfDeath,,https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=C0038661
+undetermined,,,,,FALSE,mannerOfDeath,,https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20MetaThesaurus&code=CL502663
+meanCoverage,Total number of bases covered by ATAC-seq reads/size of genome,,,,FALSE,PsychENCODE,,
+meanGCContent,Mean GC content per sample,,,,FALSE,PsychENCODE,,
+medianGenes,QC metric,,,,FALSE,PsychENCODE,,
+medianUMIs,QC metric,,,,FALSE,PsychENCODE,,
+medRecordTox,Is there a medical record toxicology report,"TRUE, FALSE, Unknown",,,FALSE,PsychENCODE,,
+metadataType,"For files of dataSubtype: metadata, a description of the type of metadata in the file.","assay, biospecimen, data dictionary, individual, manifest, protocol",,,FALSE,PsychENCODE,,
+assay,Metadata describing properites of an assay conducted in the study.,,,,FALSE,metadataType,,Sage Bionetworks
+biospecimen,Metadata describing properties of specimens collected and/or analyzed in the study.,,,,FALSE,metadataType,,Sage Bionetworks
+data dictionary,Metadata describing terms or variables that appear in another file.,,,,FALSE,metadataType,,Sage Bionetworks
+individual,Metadata describing properties of individuals (human or animal) represented in the study.,,,,FALSE,metadataType,,Sage Bionetworks
+manifest,Metadata describing a list of files and the annotations terms associated with them.,,,,FALSE,metadataType,,Sage Bionetworks
+protocol,"A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",,,,FALSE,metadataType,,http://purl.obolibrary.org/obo/OBI_0000272
+multiconsensusStudyFileID,F-number assigned by Termo Proteome Discoverer software to different batches (plexes) of RAW (direct Thermo mass spectrometer output) files,,,,FALSE,PsychENCODE,,
+neuropathDescription,Description of neuropathology,,,,FALSE,PsychENCODE,,
+nucleicAcidSource,,"bulk cell, bulk nuclei, mitochondria, single cell, single nucleus, sorted cells, sorted nuclei",,,FALSE,PsychENCODE,,
+bulk cell,All cells from bulk sample,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+bulk nuclei,All nuclei from bulk sample,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+mitochondria,Mitochondria only,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+single cell,Single cell,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+single nucleus,Single nuclei,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+sorted cells,Sorted cells,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+sorted nuclei,Sorted nuclei,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
+numberCells,QC metric,,,,FALSE,PsychENCODE,,
+organ,A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.,"blood, bone marrow, brain, breast, Bursa Of Fabricius, cerebrospinal fluid, colon, kidney, lung, lymph node, mammary gland, nerves, nose, ovary, pancreas, prostate, skin, spleen",,,FALSE,PsychENCODE,,
+blood,"The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000089
+bone marrow,"The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000141
+brain,The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000142
+breast,The fore or ventral part of the body between the neck and the abdomen.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000149
+Bursa Of Fabricius,"An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/NCIT_C111141
+cerebrospinal fluid,"The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000237
+colon,The part of the large intestine that extends from the cecum to the rectum.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000269
+kidney,One of the two bean-shaped organs located on each side of the spine in the retroperitoneum.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/NCIT_C12415
+lung,One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000763
+lymph node,A bean-shaped organ surrounded by a connective tissue capsule.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/NCIT_C12745
+mammary gland,"A specialized accessory gland of the skin of mammals that secretes milk. The gland is typically only developed in females, and regresses in males.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/UBERON_0001911
+nerves,"Any of the filamentous bands of nervous tissue that connect parts of the nervous system with the other organs, conduct nervous impulses, and are made up of axons and dendrites together with protective and supportive structures.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000925
+nose,A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/NCIT_C12756
+ovary,One of the typically paired essential female reproductive organs that produce eggs and in vertebrates female sex hormones.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000975
+pancreas,A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0000988
+prostate,Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/FMA_9600
+skin,The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.,,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0001253
+spleen,"A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",,,,FALSE,organ,,http://purl.obolibrary.org/obo/BTO_0001281
+organRIN,"Organ RIN, as previously measured on organ or region",,,,FALSE,PsychENCODE,,
+organWeight,Post-mortem weight of organ (in grams),,,,FALSE,PsychENCODE,,
+otherDiagnosis,Secondary diagnosis,,,,FALSE,PsychENCODE,,
+otherDiagnosisDetail,Subgroup of secondary diagnosis (DSM 5 or ICD 10 code),,,,FALSE,PsychENCODE,,
+otherMedicalDx,Other medical diagnosis,,,,FALSE,PsychENCODE,,
+otherMedicalDetail,Subgroup of other medical diagnosis (DSM 5 or ICD 10 code),,,,FALSE,PsychENCODE,,
+parent,Synapse ID of the folder to upload to,,,,FALSE,PsychENCODE,,
+passage,Number of times a cell culture has been subcultured,,,,FALSE,PsychENCODE,,
+path,Directory of the file to be uploaded,,,,FALSE,PsychENCODE,,
+pcrCycles,Number of PCR cycles to amplify transposed DNA fragments,,,,FALSE,PsychENCODE,,
+pH,,,,,FALSE,PsychENCODE,,
+platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.","Affy5.0, Affy6.0, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133AB, AffymetrixU133Plus2, Agilent44Karray, Bionano Irys, confocalImaging, GAIIx, HiSeq1000, HiSeq2000, HiSeq2500, HiSeq3000, HiSeq4000, HiSeqX, Illumina MouseWG-6 v2.0 expression beadchip, Illumina NovaSeq 6000, Illumina_1M, Illumina_h650, Illumina_HumanOmni1-Quadv1.0, Illumina_Omni2pt5M, Illumina_Omni5M, IlluminaHumanHap300, IlluminaHumanHT-12_V3_0_R1, IlluminaHumanMethylation450, IlluminaNovaseq6000, IlluminaWholeGenomeDASL, Infinium HumanOmniExpressExome, Infinium Omni2.5Exome-8 v1.3, LTQOrbitrapXL, MiSeq, NanostringnCounter, NanostringnCounter_MouseADPanel, NextSeq500, OrbiTrap Fusion, PacBioRSII, Perlegen300Karray, PsychChip, Q Exactive HF, Q Exactive Plus, SequenomMultiplex",,,FALSE,PsychENCODE,,
+Affy5.0,Affymetrix Genome-Wide Human SNP 5.0 Array,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804
+Affy6.0,Affymetrix Genome-Wide Human SNP 6.0 Array,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801
+Affymetrix Human Gene 1.0 ST Array,Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244
+AffymetrixU133AB,,,,,FALSE,platform,,
+AffymetrixU133Plus2,Affymetrix Human Genome U133 Plus 2.0 Array,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570
+Agilent44Karray,,,,,FALSE,platform,,
+Bionano Irys,Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level,,,,FALSE,platform,,https://bionanogenomics.com/products/irys/
+confocalImaging,,,,,FALSE,platform,,
+DNBSEQ,BGI DNBseq,,,,FALSE,platform,,https://www.bgi.com/us/dnbseq-ngs-technology/
+GAIIx,,,,,FALSE,platform,,
+HiSeq1000,Illumina HiSeq 1000,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433
+HiSeq2000,Illumina HiSeq 2000,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154
+HiSeq2500,Illumina HiSeq 2500,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791
+HiSeq3000,Illumina HiSeq 3000,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290
+HiSeq4000,Illumina HiSeq 4000,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301
+HiSeqX,Illumina HiSeq X Platform for whole-genome sequencing,,,,FALSE,platform,,https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html
+Illumina MouseWG-6 v2.0 expression beadchip,Whole-genome expression profiling in the mouse,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887
+Illumina NovaSeq 6000,High-throughput sequencing,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676
+Illumina_1M,,,,,FALSE,platform,,
+Illumina_h650,,,,,FALSE,platform,,
+Illumina_HumanOmni1-Quadv1.0,,,,,FALSE,platform,,
+Illumina_Omni2pt5M,,,,,FALSE,platform,,
+Illumina_Omni5M,,,,,FALSE,platform,,
+IlluminaHumanHap300,,,,,FALSE,platform,,
+IlluminaHumanHT-12_V3_0_R1,,,,,FALSE,platform,,
+IlluminaHumanMethylation450,Illumina HumanMethylation450 BeadChip ,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534
+IlluminaNovaseq6000,"Illumina Novaseq 6000, high-throughput sequencing",,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644.
+IlluminaWholeGenomeDASL,Illumina Human Whole-Genome DASL HT,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369
+Infinium HumanOmniExpressExome,Infinium HumanOmniExpressExome BeadChip,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224
+Infinium Omni2.5Exome-8 v1.3,Infinium Omni2.5Exome-8 v1.3,,,,FALSE,platform,,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html
+LTQOrbitrapXL,LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer,,,,FALSE,platform,,https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK
+MiSeq,Illumina MiSeq,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520
+NanostringnCounter,,,,,FALSE,platform,,
+NanostringnCounter_MouseADPanel,770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.,,,,FALSE,platform,,https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels
+NextSeq500,Illumina NextSeq 500,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573
+OrbiTrap Fusion,Thermo Scientific Orbitrap Fusion,,,,FALSE,platform,,http://purl.obolibrary.org/obo/MS_1002416
+PacBioRSII,PacBio RS II,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311
+Perlegen300Karray,,,,,FALSE,platform,,
+PsychChip,,,,,FALSE,platform,,
+Q Exactive HF,Thermo Scientific Q Exactive,,,,FALSE,platform,,http://purl.obolibrary.org/obo/MS_1002523
+Q Exactive Plus,Thermo Scientific Q Exactive Plus,,,,FALSE,platform,,http://purl.obolibrary.org/obo/MS_1002634
+SequenomMultiplex,,,,,FALSE,platform,,
+PMI,Post-mortem interval,,,,FALSE,PsychENCODE,,
+PMICertain,"Is PMI certain, i.e. is time of death known","TRUE, FALSE, Unknown",,,FALSE,PsychENCODE,,
+postmortem,Was tissue biopsied or sampled after death,"TRUE, FALSE, Unknown",,,FALSE,PsychENCODE,,
+postmortemTox,Were toxicology tests performed on post-mortem tissue,"TRUE, FALSE, Unknown",,,FALSE,PsychENCODE,,
+postmortemToxSource,Tissue used for post-mortem toxicology tests,,,,FALSE,PsychENCODE,,
+primaryDiagnosis,A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.,"Affective Disorder, Alzheimer Disease, Autism Spectrum Disorder, Bipolar Disorder, Bladder Cancer, Brain Cancer, Breast Cancer, Cervical Cancer, Colon Cancer, Fibrocystic Breast Disease, Juvenile Myelomonocytic Leukemia, Leukemia, Lung Cancer, mild cognitive impairment, Neurofibromatosis 1, Neurofibromatosis 2, Not Applicable, Ovary Cancer, Pancreatic Cancer, progressive supranuclear palsy, Prostate Cancer, Schizophrenia, Skin Cancer, Tourette Syndrome",,,FALSE,PsychENCODE,,
+Affective Disorder,Change in mood is the main underlying feature of these disorders.,,,,FALSE,primaryDiagnosis,,Sage Bionetworks
+Alzheimer Disease,"(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300
+Autism Spectrum Disorder,"Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756
+Bipolar Disorder,"A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258
+Bladder Cancer,A malignancy originating in tissues of the urinary bladder.,,,,FALSE,primaryDiagnosis,,http://identifiers.org/omim/109800
+Brain Cancer,A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319
+Breast Cancer,(BC) - A common malignancy originating from breast epithelial tissue.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480
+Cervical Cancer," A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",,,,FALSE,primaryDiagnosis,,http://identifiers.org/omim/603956
+Colon Cancer,A colorectal cancer that is located_in the colon.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219
+Fibrocystic Breast Disease,breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014
+Juvenile Myelomonocytic Leukemia,"A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",,,,FALSE,primaryDiagnosis,,http://purl.obolibrary.org/obo/NCIT_C9233
+Leukemia,"A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",,,,FALSE,primaryDiagnosis,,http://purl.obolibrary.org/obo/NCIT_C3161
+Lung Cancer,A respiratory system cancer that is located_in the lung.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324
+mild cognitive impairment,Diminished or impaired mental and/or intellectual function.,,,,FALSE,primaryDiagnosis,,http://purl.obolibrary.org/obo/OMIT_0027843
+Neurofibromatosis 1,"(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",,,,FALSE,primaryDiagnosis,,
+Neurofibromatosis 2,"(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F101000
+Not Applicable,,,,,FALSE,primaryDiagnosis,,
+Ovary Cancer,An ovarian cancer that is derives_from ovarian surface epithelium.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152
+Pancreatic Cancer,An endocrine gland cancer located_in the pancreas.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793
+progressive supranuclear palsy,"A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",,,,FALSE,primaryDiagnosis,,http://purl.obolibrary.org/obo/DOID_678
+Prostate Cancer,A male reproductive organ cancer that is located_in the prostate.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283
+Schizophrenia,"A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692
+Skin Cancer,An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.,,,,FALSE,primaryDiagnosis,,https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159
+Tourette Syndrome,Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ,,,,FALSE,primaryDiagnosis,,http://identifiers.org/omim/137580
+primaryDiagnosisDetail,Subgroup of primary diagnosis (DSM 5 or ICD 10 code),,,,FALSE,PsychENCODE,,
+race,Race,,,,FALSE,PsychENCODE,,
+raceDetail,Race Detail,,,,FALSE,PsychENCODE,,
+readLength,The length of the read,,,,FALSE,PsychENCODE,,
+readPair,The read of origin,"1, 2",,,FALSE,PsychENCODE,,
+readStrandOrigin,The strand from which the read originates in a strand-specific protocol,"forward, reverse",,,FALSE,PsychENCODE,,
+forward,Read 1 (or unpaired read) comes from the forward strand and read 2 (if applicable) comes from the reverse strand; equivalent to Tophat 'fr-secondstrand' type,,,,FALSE,readStrandOrigin,,Sage Bionetworks
+reverse,Read 1 (or unpaired read) comes from the reverse strand and read 2 (if applicable) comes from the forward strand; equivalent to Tophat 'fr-firststrand' type,,,,FALSE,readStrandOrigin,,Sage Bionetworks
+referenceSet,"A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.","GRCh37, GRCh38, HRC, MMUL1.0",,,FALSE,PsychENCODE,,
+GRCh37,Genome Reference Consortium Human Build 37,,,,FALSE,referenceSet,,https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/
+GRCh38,Genome Reference Consortium Human Build 38,,,,FALSE,referenceSet,,https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26
+HRC,Human haplotype reference panel,,,,FALSE,referenceSet,,http://www.haplotype-reference-consortium.org
+MMUL1.0,Ensemble preliminary assembly Macaca mulatta,,,,FALSE,referenceSet,,https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index
+reportedGender,Gender as reported by the brain bank,"female, male, unknown",,,FALSE,PsychENCODE,,
+female,Female,,,,FALSE,reportedGender,,
+male,Male,,,,FALSE,reportedGender,,
+unknown,Gender is not reported by the brain bank,,,,FALSE,reportedGender,,
+reprogrammedCellType,Cell type specimen is modeling,,,,FALSE,PsychENCODE,,
+resolution,Minimum nominal mass-over-charge(m/z) difference detectable,,,,FALSE,PsychENCODE,,
+resourceType,The type of resource being stored and annotated,"analysis, curatedData, experimentalData, report, tool",,,FALSE,PsychENCODE,,
+analysis,"Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",,,,FALSE,resourceType,,Sage Bionetworks
+curatedData,"Any file derived from or pertaining a manually or programatically curated data resource. Examples include: reference sequences, drug information databases, identifier maps",,,,FALSE,resourceType,,Sage Bionetworks
+experimentalData,"Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",,,,FALSE,resourceType,,Sage Bionetworks
+report,"A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).",,,,FALSE,resourceType,,http://purl.obolibrary.org/obo/IAO_0000088
+tool,"Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",,,,FALSE,resourceType,,Sage Bionetworks
+RIN,RNA Integrity Number,,,,FALSE,PsychENCODE,,
+rnaBatch,Batch RNA was isolated in,,,,FALSE,PsychENCODE,,
+runType,,"pairedEnd, singleEnd",,,FALSE,PsychENCODE,,
+pairedEnd,A library preparation that results in the creation of a library of the 5' and 3' ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process.,,,,FALSE,runType,,http://purl.obolibrary.org/obo/OBI_0001852
+singleEnd,A library preparation that results in the creation of a library of 5' ends of DNA.,,,,FALSE,runType,,Sage Bionetworks
+sampleID,Sample ID,,,,FALSE,PsychENCODE,,
+sequencingBatch,Batch library was sequenced in,,,,FALSE,PsychENCODE,,
+sexChromosome,Sex identified by SNP genotype,,,,FALSE,PsychENCODE,,
+species,The name of a species (typically a taxonomic group) of organism.,"Drosophila melanogaster, Gallus gallus, Human, Mouse, Pan troglodytes, Rat, Rhesus macaque, Sus scrofa",,,FALSE,PsychENCODE,,
+Drosophila melanogaster,Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock
+Gallus gallus,"The common domestic fowl, Chicken.",,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031
+Human,Homo sapiens with taxonomy ID: 9606 and Genbank common name: human,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock
+Mouse,Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock
+Pan troglodytes,Pan troglodytes with taxonomy ID: 9598 and Genbank common name: chimpanzee,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9598&lvl=3&lin=f&keep=1&srchmode=1&unlock
+Rat,Rattus with taxonomy ID: 10114 and inherited blast name: rodents,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10114&lvl=3&lin=f&keep=1&srchmode=1&unlock
+Rhesus macaque,Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock
+Sus scrofa,Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig,,,,FALSE,species,,https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823
+specimenID,Identifying string linked to a particular sample or specimen,,,,FALSE,PsychENCODE,,
+study,Study,"3Dchromatin, ASD-MSSM-IncRNA, BipSeq, BrainGVEX, BrainTF, BrainVar, CMC-PEC, CNON, DopaModel, EpiDiff, EpiGABA, EpiMap, HumanFC, IncRNA Pilot, iPSC, iPSC-ASD, iPSC-HiC, iPSCNeuroDiff, LIBD-WGBS, MouseHAL, NeuEnhancer, NeuREs, NHP-Chimpanzee, NHP-Macaque, SCZ-MSSM-IncRNA, SingleCellRNAseq, TS-RNAseq, UCLA-ASD, WGBS Pilot, Yale-ASD",,,FALSE,PsychENCODE,,
+terminalDifferentiationPoint,The terminal differentiation point (TD) of a cell in days.,,,,FALSE,PsychENCODE,,
+tissue,A tissue is a mereologically maximal collection of cells that together perform physiological function.,"amygdala, amygdaloid complex, anterior cingulate cortex, blood, bone marrow, Buccal Mucosa, Buffy Coat, caudate nucleus, cerebellar cortex, cerebellum, cerebral cortex, cortical plate, dorsal pallium, Dorsal Root Ganglion, dorsolateral prefrontal cortex, embryonic tissue, forebrain, frontal cortex, frontal lobe, frontal pole, Head of caudate nucleus, hippocampus, inferior frontal gyrus, inferior temporal cortex, inferior temporal gyrus, inferolateral temporal cortex, insular cortex, medial dorsal nucleus of thalamus, medial frontal cortex, medial ganglionic eminence, medial orbital frontal cortex, medial prefrontal cortex, meninges, midbrain, middle frontal gyrus, middle temporal gyrus, nerve tissue, Not Applicable, nucleus accumbens, occipital visual cortex, olfactory neuroepithelium, orbitofrontal cortex, parahippocampal gyrus, plasma, posterior cingulate cortex, posterior inferior parietal cortex, posterior superior temporal cortex, posteroinferior parietal cortex, precentral gyrus, prefrontal cortex, primary auditory cortex, primary motor cortex, primary somatosensory cortex, primary tumor, primary visual cortex, putamen, serum, splenocyte, striatum, superior parietal lobe, superior temporal gyrus, temporal cortex, temporal pole, unspecified, ventrolateral prefrontal cortex, VZ/SVZ, whole brain",,,,,,
+amygdala,The one of the four basal ganglia in each cerebral hemisphere that is part of the limbic system and consists of an almond-shaped mass of gray matter in the anterior extremity of the temporal lobe.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001042
+amygdaloid complex,,,,,FALSE,tissue,,
+anterior cingulate cortex,That portion of the cingulate cortex which is located within the frontal lobe (the remainder being in the parietal lobe).,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004249
+blood,A fluid that is composed of blood plasma and erythrocytes.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000178
+bone marrow,"The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/BTO_0000141
+Buccal Mucosa,"The mucosal membranes located on the inside of the cheek, in the buccal cavity.The inner lining of the cheeks.",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/NCIT_C12505
+Buffy Coat,The middle layer of an anticoagulated blood specimen following separation by centrifugation. It contains most of the white blood cells and platelets.,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/NCIT_C84507
+caudate nucleus,Subcortical nucleus of telecephalic origin consisting of an elongated gray mass lying lateral to and bordering the lateral ventricle.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001873
+cerebellar cortex,"The superficial gray matter of the cerebellum. It consists of three layers, the stratum moleculare, stratum granulosum, and stratum purkinjense.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000043
+cerebellum,Part of the metencephalon that lies in the posterior cranial fossa behind the brain stem.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002037
+cerebral cortex,The thin layer of gray matter on the surface of the cerebral hemisphere that develops from the telencephalon.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0000956
+cortical plate,The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0005343
+dorsal pallium,Subdivision of pallium that is located dorsally,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0014740
+Dorsal Root Ganglion,Ganglion with sensory function within the vertebral column.,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/NCIT_C12462
+dorsolateral prefrontal cortex,"Broadly-defined, consists of the lateral portions of Brodmann areas 9 - 12, of areas 45, 46, and the superior part of area 47.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0009834
+embryonic tissue,A portion of tissue that is part of an embryo.,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0005291
+forebrain,The most anterior region the brain including both the telencephalon and diencephalon.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001890
+frontal cortex,"Anterior portion of the neocortex, lying anterior to the central sulcus in humans. It is bounded by the parietal cortex posteriorly and the temporal cortex laterally",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0001870
+frontal lobe,Frontal lobe is the anterior-most of five lobes of the cerebral hemisphere. It is bounded by the central sulcus on its posterior border and by the longitudinal cerebral fissure on its medial border.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016525
+frontal pole,Component of the frontal lobe. The rostral and caudal boundaries of the frontal pole are the superior frontal gyrus and the rostral division of the middle frontal gyrus respectively (Christine Fennama-Notestine).,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002795
+Head of caudate nucleus,,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/FMA_61852
+hippocampus,A curved elongated ridge that extends over the floor of the descending horn of each lateral ventricle of the brain and consists of gray matter covered on the ventricular surface with white matter.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000601
+inferior frontal gyrus,"Component of the frontal lobe, lateral aspect. The rostral boundary is the first appearance of the inferior frontal sulcus whereas the caudal boundary is the precentral gyrus. The medial and lateral boundaries are the lateral bank of the inferior frontal sulcus and the medial bank of the lateral orbital sulcus and/or the circular insular sulcus respectively (Christein Fennema-Notestine).",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002998
+inferior temporal cortex,Inferior Temporal (IT) Cortex is the cerebral cortex on the inferior convexity of the temporal lobe in primates including humans.,,,,FALSE,tissue,,http://www.scholarpedia.org/article/Inferior_temporal_cortex
+inferior temporal gyrus,"Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the inferior temporal sulcus whereas the caudal boundary is designated as the temporo-occipital incisure on the cortical surface.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002751
+inferolateral temporal cortex,,,,,FALSE,tissue,,
+insular cortex,insular cortex,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0034891
+medial dorsal nucleus of thalamus,A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ,,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0002739
+medial frontal cortex,Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352
+medial ganglionic eminence,"A distinct elevation of a transient proliferating cell mass of the fetal subventricular zone; this mass contributes most of its cells to the neocortex; however, hippocampal neurons, thalamus, septum and olfactory bulb neurons are also partly derived from the MGE.",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0004024
+medial orbital frontal cortex,Component of the orbtial frontal cortex. The rostral boundary is the first slice where the medial orbital gyrus became visible whereas the caudal boundary is the disappearance of the medial orbital gyrus/gyrus rectus.,,,,FALSE,tissue,,http://www.ebi.ac.uk/ols/ontologies/UBERON/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022352
+medial prefrontal cortex,"The medial prefrontal cortex (mPFC) is composed of granular cortical areas (medial areas 9 and 10) and agranular regions (areas 24, 25, and 32)",,,,FALSE,tissue,,https://en.wikipedia.org/wiki/Prefrontal_cortex#Subdivisions
+meninges,The three thin layers of tissue that cover and protect the brain and spinal cord.,,,,FALSE,tissue,,https://www.ncbi.nlm.nih.gov/pubmedhealth/PMHT0024758/
+midbrain,"the middle division of the three primary divisions of the developing chordate brain or the corresponding part of the adult brain (in vertebrates, includes a ventral part containing the cerebral peduncles and a dorsal tectum containing the corpora quadrigemina and that surrounds the aqueduct of Sylvius connecting the third and fourth ventricles.",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0001891
+middle frontal gyrus,"Component of the frontal lobe, lateral aspect",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/UBERON_0002702
+middle temporal gyrus,"Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the superior temporal sulcus whereas the caudal boundary is the temporo-occipital incisure on the cortical surface.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002771
+nerve tissue,"Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714
+Not Applicable,,,,,FALSE,tissue,,
+nucleus accumbens,A region of the brain consisting of a collection of neurons located in the forebrain ventral to the caudate and putamen (caudoputamen in rodent).,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001882
+occipital visual cortex,The area of the occipital lobe of the cerebral cortex concerned with vision.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001857
+olfactory neuroepithelium,"Composed of receptor and supporting cells and olfactory glands of Bowman, located in the superior part of the nasal cavities.",,,,FALSE,tissue,,https://www.medilexicon.com/dictionary/60061
+orbitofrontal cortex,The region of the cerebral cortex covering the basal surface of the frontal lobes.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0004167
+parahippocampal gyrus,"A long convolution on the medial surface of the temporal lobe, forming the lower part of the fornicate gyrus, extending from behind the splenium corporis callosi forward along the dentate gyrus of the hippocampus from which it is demarcated by the hippocampal fissure.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0004380
+plasma,"Plasma is the fluid (noncellular) portion of the circulating blood, as distinguished from the serum that is the fluid portion of the blood obtained by removal of the fibrin clot and blood cells after coagulation.",,,,FALSE,tissue,,http://purl.obolibrary.org/obo/NCIT_C13356
+posterior cingulate cortex,Component of the cingulate cortex. The rostral and caudal extent were the caudal anterior and the isthmus divisions of the cingulate cortex respectively.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0022353
+posterior inferior parietal cortex,,,,,FALSE,tissue,,Sage Bionetworks
+posterior superior temporal cortex,,,,,FALSE,tissue,,
+posteroinferior parietal cortex,"Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016530
+precentral gyrus,Component of the frontal lobe. The appearance and disappearance of the central sulcus is the rostral and caudal boundaries of the precentral gyrus respectively.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002703
+prefrontal cortex,"The prefrontal cortex is the anterior part of the frontal lobes of the brain, lying in front of the motor and premotor areas.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0002807
+primary auditory cortex,The part of the auditory cortex that is located on the superior temporal gyrus in the temporal lobe and receives point-to-point input from the ventral division of the medial geniculate complex.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0034751
+primary motor cortex,,,,,FALSE,tissue,,
+primary somatosensory cortex,The part of the cerebral cortex that receives projections from the motor thalamus and which projects to motor neurons in the brainstem and spinal cord.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001384
+primary tumor,"A primary tumor is the tumor at the initial site of cancer, not where the cancer may have spread or metastasized, called the secondary tumor.",,,,FALSE,tissue,,https://cancergenome.nih.gov/cancersselected/biospeccriteria
+primary visual cortex,A subdivision of the cytoarchitecturally defined occipital region of cerebral cortex in the human.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002436
+putamen,"Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001874
+serum,Liquid derived from blood plasma that has clotting factors removed.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001977
+splenocyte,Any leukocyte that is part of a spleen.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_2000074
+striatum,"A region of the forebrain consisting of the caudate nucleus, putamen and fundus striati.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002435
+superior parietal lobe,A superficial feature of the parietal lobe that extends from the dorsal surface of the superior parietal lobule across the margin of the parietal lobe into the precuneus.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0026724
+superior temporal gyrus,"Component of the temporal lobe, lateral aspect. The rostral boundary is the rostral extent of the ssuperior temporal sulcus. The caudal boundary is the cauday portion of the superior temporal gyrus (posterior to becoming continuous with the supramarginal gyrus).",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002769
+temporal cortex,"Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals.",,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016538
+temporal pole,Anterior component of the temporal lobe (rostral boundary) extends caudally to the entorhinal cortex.,,,,FALSE,tissue,,https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002576
+unspecified,Unspecified tissue or tissues from an organ.,,,,FALSE,tissue,,Sage Bionetworks
+ventrolateral prefrontal cortex,"Is part of the prefrontal cortex, located on the inferior frontal gyrus, bounded superiorly by the inferior frontal sulcus and inferiorly by the lateral sulcus.",,,,FALSE,tissue,,https://en.wikipedia.org/wiki/Ventrolateral_prefrontal_cortex
+VZ/SVZ,VZ/SVZ (ventricular zone/subventricular zone) are proliferative transient zones situated near the surface of the cerebral lateral ventricles,,,,FALSE,tissue,,Sage Bionetworks
+whole brain,Brain tissue not limited to a specific region.,,,,FALSE,tissue,,Sage Bionetworks
+TMTType,Specifies how TMT reporter ions are quantified,,,,FALSE,PsychENCODE,,
+totalReads,Number of reads in the input FASTQ file,,,,FALSE,PsychENCODE,,
+transposaseBatch,Transposition reaction batch,,,,FALSE,PsychENCODE,,
+treatmentType,,"clozapine, haloperidol, levetiracetam, placebo",,,FALSE,PsychENCODE,,
+clozapine,A second generation antipsychotic used in the treatment of psychiatric disorders like schizophrenia.,,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/CHEBI_3766
+haloperidol,A compound composed of a central piperidine structure with hydroxy and p-chlorophenyl substituents at position 4 and an N-linked p-fluorobutyrophenone moiety,,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/CHEBI_5613
+levetiracetam,"A pyrrolidinone and carboxamide that is N-methylpyrrolidin-2-one in which one of the methyl hydrogens is replaced by an aminocarbonyl group, while another is replaced by an ethyl group (the S enantiomer). An anticonvulsant, it is used for the treatment of epilepsy in both human and veterinary medicine.",,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/CHEBI_6437
+placebo,A negative reference substance is a reference role in which the substance playing the reference substance role is physically similar in appearance to the test substance,,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/OBI_0000169
+validBarcodeReads,QC metric,,,,FALSE,PsychENCODE,,
+validHiCContacts,Percentage of reads as valid Hi-C interactions (QC metric),,,,FALSE,PsychENCODE,,
+vendor,Commercial or institutional source of a component used in an assay,,,,FALSE,PsychENCODE,,
