@@ -282,10 +282,12 @@ Bionano Irys,Performs whole genome mapping in a nanoscale fluidic environment en
 Infinium HumanOmniExpressExome,Infinium HumanOmniExpressExome BeadChip,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224
 Illumina NovaSeq 6000,High-throughput sequencing,,,,FALSE,platform,,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676
 Infinium Omni2.5Exome-8 v1.3,Infinium Omni2.5Exome-8 v1.3,,,,FALSE,platform,,https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html
+illuminaHumanMethylationEPIC,Illumina Infinium MethylationEPIC,,,,FALSE,platform,,http://www.smd.qmul.ac.uk/gc/Services/IlluminaMeth/humanmethylationepic-data-sheet-1070-2015-008.pdf
 IndyPET3,IndyPET3 small animal scanner,,,,FALSE,platform,,https://doi.org/10.1109/TNS.2004.829738
 GE Typhoon FLA7000IP,GE Typhoon FLA7000IP biomolecular imager,,,,FALSE,platform,,https://cdn.gelifesciences.com/dmm3bwsv3/AssetStream.aspx?mediaformatid=10061&destinationid=10016&assetid=15539
 Siemens Trio,Siemens Magnetom Trio MRI scanner,,,,FALSE,platform,,https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@global/@imaging/@mri/documents/download/mdaw/mtyx/~edisp/mri-magnetom-trio-download-product_brochure-00108569.pdf
-platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.","Q Exactive HF, Q Exactive Plus, IlluminaNovaseq6000, OrbiTrap Fusion, NanostringnCounter_MouseADPanel, HiSeq1000, HiSeq3000, HiSeq2500, HiSeq4000, NextSeq500, HiSeq2000, MiSeq, PsychChip, Affy5.0, Affy6.0, PacBioRSII, GAIIx, Illumina_HumanOmni1-Quadv1.0, Illumina_1M, Illumina_h650, Illumina_Omni2pt5M, Illumina_Omni5M, Illumina MouseWG-6 v2.0 expression beadchip, Perlegen300Karray, Agilent44Karray, IlluminaWholeGenomeDASL, IlluminaHumanHap300, NanostringnCounter, LTQOrbitrapXL, IlluminaHumanMethylation450, AffymetrixU133AB, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133Plus2, confocalImaging, IlluminaHumanHT-12_V3_0_R1, SequenomMultiplex, HiSeqX, Bionano Irys, Infinium HumanOmniExpressExome, Illumina NovaSeq 6000, Infinium Omni2.5Exome-8 v1.3, IndyPET3, GE Typhoon FLA7000IP, Siemens Trio",,,TRUE,experimentalData,,http://purl.obolibrary.org/obo/NCIT_C45378
+Siemens Prisma,Siemens Magnetom Prisma MRI scanner,,,,FALSE,platform,,https://static.healthcare.siemens.com/siemens_hwem-hwem_ssxa_websites-context-root/wcm/idc/groups/public/@us/@imaging/@mri/documents/download/mdaz/mdmx/~edisp/prisma_product_brochure_a911im-mr-14171-p1-4a00_april_14-01389453.pdf
+platform,"The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.","Q Exactive HF, Q Exactive Plus, IlluminaNovaseq6000, OrbiTrap Fusion, NanostringnCounter_MouseADPanel, HiSeq1000, HiSeq3000, HiSeq2500, HiSeq4000, NextSeq500, HiSeq2000, MiSeq, PsychChip, Affy5.0, Affy6.0, PacBioRSII, GAIIx, Illumina_HumanOmni1-Quadv1.0, Illumina_1M, Illumina_h650, Illumina_Omni2pt5M, Illumina_Omni5M, Illumina MouseWG-6 v2.0 expression beadchip, Perlegen300Karray, Agilent44Karray, IlluminaWholeGenomeDASL, IlluminaHumanHap300, NanostringnCounter, LTQOrbitrapXL, IlluminaHumanMethylation450, AffymetrixU133AB, Affymetrix Human Gene 1.0 ST Array, AffymetrixU133Plus2, confocalImaging, IlluminaHumanHT-12_V3_0_R1, SequenomMultiplex, HiSeqX, Bionano Irys, Infinium HumanOmniExpressExome, Illumina NovaSeq 6000, Infinium Omni2.5Exome-8 v1.3, IndyPET3, GE Typhoon FLA7000IP, Siemens Trio, Siemens Prisma, illuminaHumanMethylationEPIC",,,TRUE,experimentalData,,http://purl.obolibrary.org/obo/NCIT_C45378
 isCellLine,Boolean flag indicating whether or not sample source is a cell line,,,,TRUE,experimentalData,,
 isPrimaryCell,"Boolean flag indicating whether or not cellType is primary, defined as 'A cell taken directly from a living organism, which is not immortalized'.",,,,TRUE,experimentalData,,http://purl.obolibrary.org/obo/BTO_0001413
 Schwann cell precusor,A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.,,,,FALSE,cellType,,http://purl.obolibrary.org/obo/CL_0002375
@@ -477,7 +479,7 @@ U1-70_PrimaryCellCulture,APP.PS1 and U1-70 transduced neurons,,,,FALSE,study,,ht
 MSMM,Mount Sinai Mouse Models,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn5477220
 TauD35,Mouse tauopathy model,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn5714308
 APOE-TR,APOE Targeted Replacement,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn8391648
-JAX_APPPS1,The JAX_APPPS1study - A mouse model of early onset AD,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn9850001
+JAX_APPPS1,The JAX_APPPS1study - A mouse model of early onset AD. Now referred to as Jax.IU.Pitt_APP.PS1,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn9850001
 SY5Y_Emory,APP/TAU transduced SY5Y cells,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn8513284
 WallOfTargets,,,,,FALSE,study,,
 CMC_HBCC,The CommonMind Consortium Human Brain Collection Core Cohort,,,,FALSE,study,,
@@ -495,14 +497,18 @@ iPSC-HiC,Human induced pluripotent stem cells (hiPSCs).,,,,FALSE,study,,https://
 UCI_5XFAD,UCI 5XFAD Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn16798076
 MODEL-AD_APOE4_KI,MODEL-AD APOE4 KI Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn18634456
 Jax.IU.Pitt_APOE4_Trem2,Jax/IU/Pitt APOE4/Trem2*R47H Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn17095980
-MODEL-AD_APPPS1,MODEL-AD APP/PS1 Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn18633019
+MODEL-AD_APPPS1,MODEL-AD APP/PS1 Study. Now referred to as Jax.IU.Pitt_APP.PS1.,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn9850001
 UCI_hAbeta_KI,UCI hAbeta KI Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn18634479
 Jax.IU.Pitt_hTau_Trem2,Jax/IU/Pitt hTau Trem2 Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn18693211
 Jax.IU.Pitt_Rat_TgF344-AD,Jax/IU/Pitt Rat TgF344-AD Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn20730014
 Jax.IU.Pitt_Trem2_R47H,Jax/IU/Pitt Trem2 R47H Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn18634477
 Jax.IU.Pitt_Levetiracetam_5XFAD,Jax/IU/Pitt Levetiracetam 5XFAD Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn21784897
 Jax.IU.Pitt_Verubecestat_5XFAD,Jax/IU/Pitt Verubecestat 5XFAD Study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn21863375
-study,,"3Dchromatin, MCSA, CMC-PEC, TS-RNAseq, ACOM, VMC, snRNAseqAD_TREM2, StJude_BannerSun, Jax.IU.Pitt_StrainValidation, UCI_StrainValidation, Jax.IU.Pitt_PrimaryScreen, UCI_PrimaryScreen, iPSCAstrocytes, TyrobpKO_AppPs1, CMC, DiCAD, EpiMap, CNON, MouseHAL, WGBS Pilot, lncRNA Pilot, BrainGVEX, UCLA-ASD, iPSC, HumanFC, EpiGABA, NHP-Macaque, NHP-Chimpanzee, Yale-ASD, BipSeq, ACT, BLSA, HBTRC, MSBB, ROSMAP, MayoLOADGWAS, MayoeGWAS, MayoPilotRNAseq, IL10_APPmouse, Emory_ADRC, TAUAPPms, RNAseq_SampleSwap, MayoRNAseq, BroadMDMi, BroadiPSC, MSDM, OFMM, LillyMicroglia, UPenn, SY5Y_REST, MSSMiPSC, TyrobpKO, iPSCMicroglia, BroadAstrom109, Banner, EmoryDrosophilaTau, HDAC1-cKOBrain, U1-70_PrimaryCellCulture, MSMM, TauD35, APOE-TR, JAX_APPPS1, SY5Y_Emory, WallOfTargets, CMC_HBCC, ADMC_ADNI1, ADMC_ADNI2-GO, ADMC_UPenn, CHDWB, MSBB_ArrayTissuePanel, MC-CAA, rnaSeqReprocessing, rnaSeqSampleSwap, SUNYStrokeModel, TASTPM, iPSC-HiC, UCI_5XFAD, MODEL-AD_APOE4_KI, Jax.IU.Pitt_APOE4_Trem2, MODEL-AD_APPPS1, UCI_hAbeta_KI, Jax.IU.Pitt_hTau_Trem2, Jax.IU.Pitt_Rat_TgF344-AD, Jax.IU.Pitt_Trem2_R47H, Jax.IU.Pitt_Levetiracetam_5XFAD, Jax.IU.Pitt_Verubecestat_5XFAD",,,TRUE,neuro,,
+miR155,"miR155 regulation of behavior. neuropathology, and cortical transcriptomics in Alzheimer’s disease study",,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn22238772
+ROSMAP_nucleus_hashing,ROSMAP nucleus hashing study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn22213200
+Jax.IU.Pitt_APP.PS1,Jax.IU.Pitt APP/PS1 study. Previously referred to as MODEL-AD_APPPS1 and JAX_APPPS1,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn9850001
+Jax.IU.Pitt_5XFAD,Jax.IU.Pitt 5XFAD study,,,,FALSE,study,,https://www.synapse.org/#!Synapse:syn22213200
+study,,"3Dchromatin, MCSA, CMC-PEC, TS-RNAseq, ACOM, VMC, snRNAseqAD_TREM2, StJude_BannerSun, Jax.IU.Pitt_StrainValidation, UCI_StrainValidation, Jax.IU.Pitt_PrimaryScreen, UCI_PrimaryScreen, iPSCAstrocytes, TyrobpKO_AppPs1, CMC, DiCAD, EpiMap, CNON, MouseHAL, WGBS Pilot, lncRNA Pilot, BrainGVEX, UCLA-ASD, iPSC, HumanFC, EpiGABA, NHP-Macaque, NHP-Chimpanzee, Yale-ASD, BipSeq, ACT, BLSA, HBTRC, MSBB, ROSMAP, MayoLOADGWAS, MayoeGWAS, MayoPilotRNAseq, IL10_APPmouse, Emory_ADRC, TAUAPPms, RNAseq_SampleSwap, MayoRNAseq, BroadMDMi, BroadiPSC, MSDM, OFMM, LillyMicroglia, UPenn, SY5Y_REST, MSSMiPSC, TyrobpKO, iPSCMicroglia, BroadAstrom109, Banner, EmoryDrosophilaTau, HDAC1-cKOBrain, U1-70_PrimaryCellCulture, MSMM, TauD35, APOE-TR, JAX_APPPS1, SY5Y_Emory, WallOfTargets, CMC_HBCC, ADMC_ADNI1, ADMC_ADNI2-GO, ADMC_UPenn, CHDWB, MSBB_ArrayTissuePanel, MC-CAA, rnaSeqReprocessing, rnaSeqSampleSwap, SUNYStrokeModel, TASTPM, iPSC-HiC, UCI_5XFAD, MODEL-AD_APOE4_KI, Jax.IU.Pitt_APOE4_Trem2, MODEL-AD_APPPS1, UCI_hAbeta_KI, Jax.IU.Pitt_hTau_Trem2, Jax.IU.Pitt_Rat_TgF344-AD, Jax.IU.Pitt_Trem2_R47H, Jax.IU.Pitt_Levetiracetam_5XFAD, Jax.IU.Pitt_Verubecestat_5XFAD, miR155, ROSMAP_nucleus_hashing, Jax.IU.Pitt_APP.PS1, Jax.IU.Pitt_5XFAD",,,TRUE,neuro,,
 PMI,,,,,TRUE,neuro,,
 TranscriptomeSAM,,,,,FALSE,fileSubFormat,,
 SortedByCoordinate,,,,,FALSE,fileSubFormat,,
@@ -514,7 +520,9 @@ haloperidol,A compound composed of a central piperidine structure with hydroxy a
 levetiracetam,"A pyrrolidinone and carboxamide that is N-methylpyrrolidin-2-one in which one of the methyl hydrogens is replaced by an aminocarbonyl group, while another is replaced by an ethyl group (the S enantiomer). An anticonvulsant, it is used for the treatment of epilepsy in both human and veterinary medicine.",,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/CHEBI_6437
 placebo,A negative reference substance is a reference role in which the substance playing the reference substance role is physically similar in appearance to the test substance,,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/OBI_0000169
 clozapine,A second generation antipsychotic used in the treatment of psychiatric disorders like schizophrenia.,,,,FALSE,treatmentType,,http://purl.obolibrary.org/obo/CHEBI_3766
-treatmentType,,"haloperidol, levetiracetam, placebo, clozapine",,,TRUE,neuro,,
+verubecestat,A small-molecule inhibitor of BACE1 and BACE2.,,,,FALSE,treatmentType,,https://www.alzforum.org/therapeutics/verubecestat
+treatmentType,,"haloperidol, levetiracetam, placebo, clozapine, verubecestat",,,TRUE,neuro,,
+treatmentDose,The treatment dosage in units of mg/kg,,treatmentType,,FALSE,neuro,,
 pH,,,,,TRUE,neuro,,
 Abca7A1527GSNP,"triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2",,,,FALSE,modelSystemName,,https://www.jax.org/strain/030283
 Abca7KO,"triple mutant strain that carries a humanized ApoE knock-in mutation, a knock-out mutation of the Abca7 gene, and an R47H point mutation of Trem2",,,,FALSE,modelSystemName,,
@@ -612,7 +620,8 @@ Smart-seq2,Smart-seq 2 library preparation,,,,FALSE,libraryPreparationMethod,,ht
 TruSeq,TruSeq library preparation,,,,FALSE,libraryPreparationMethod,,https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json
 Smart-seq4,Smart-seq4 library preparation,,,,FALSE,libraryPreparationMethod,,https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq
 Omni-ATAC,Omni-ATAC-seq library preparation,,,,FALSE,libraryPreparationMethod,,https://protocolexchange.researchsquare.com/article/nprot-6107/v1
-libraryPreparationMethod,Method by which library was prepared,"10x, CEL-seq, Drop-Seq, Smart-seq2, TruSeq, Smart-seq4, Omni-ATAC",,,TRUE,ngs,,
+KAPA,KAPA Stranded RNA-seq Kit,,,,FALSE,libraryPreparationMethod,,https://sequencing.roche.com/en-us/products-solutions/by-category/library-preparation/rna-library-preparation/kapa-stranded-rna-seq-kits.html 
+libraryPreparationMethod,Method by which library was prepared,"10x, CEL-seq, Drop-Seq, Smart-seq2, TruSeq, Smart-seq4, Omni-ATAC, KAPA",,,TRUE,ngs,,
 bulk cell,All cells from bulk sample,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
 single cell,Single cell,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
 bulk nuclei,All nuclei from bulk sample,,,,FALSE,nucleicAcidSource,,Sage Bionetworks
@@ -1218,7 +1227,10 @@ containerToolPlatform,,"Docker-CWL, Docker-WDL",,,TRUE,toolExtended,,
 immunoAssays,,,,,FALSE,,,
 antibody,An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph,,,,TRUE,immunoAssays,,http://purl.obolibrary.org/obo/GO_0042571
 antibodyAmount,Amount of antibody used for an assay,,,,TRUE,immunoAssays,,
-catalogNumber,"The identifier assigned to a product, usually in the list of products published by a reseller or manufacturer",,,,TRUE,immunoAssays,,https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C99286
-chromatinAmount,Amount of chromatin used for an assay,,,,TRUE,immunoAssays,,
-lotNumber,A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch,,,,TRUE,immunoAssays,,https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C70848
+catalogNumber,"The identifier assigned to a product, usually in the list of products published by a reseller or manufacturer",,,,FALSE,immunoAssays,,https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C99286
+chromatinAmount,Amount of chromatin used for an assay,,,,FALSE,immunoAssays,,
+lotNumber,A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch,,,,FALSE,immunoAssays,,https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C70848
 vendor,Commercial or institutional source of a component used in an assay,,,,TRUE,immunoAssays,,
+flourophore,The flourescent dye used in the immunoflourescence assay,,,,FALSE,immunoAssays,,https://www.abcam.com/secondary-antibodies/direct-vs-indirect-immunofluorescence
+Sentrix_ID,Illumina Sentrix ID,,,,TRUE,methylationArray,,https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/infinium_assays/infinium_hd_methylation/infinium-hd-methylation-guide-15019519-01.pdf  
+Sentrix_Row_Column,Illumina Sentrix row and column position,,,,TRUE,methylationArray,,https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/infinium_assays/infinium_hd_methylation/infinium-hd-methylation-guide-15019519-01.pdf  
