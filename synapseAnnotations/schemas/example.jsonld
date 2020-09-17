@@ -1956,7 +1956,7 @@
         {
             "@id": "bts:Biospecimen",
             "@type": "rdfs:Class",
-            "rdfs:comment": "HTAN biological entity; bio entity can be a sample, slide, aliquot, analyte, etc.  ",
+            "rdfs:comment": "Biological entity; bio entity can be a sample, slide, aliquot, analyte, etc.  ",
             "rdfs:label": "Biospecimen",
             "rdfs:subClassOf": [
                 {
@@ -2011,6 +2011,9 @@
             "sms:requiresDependency": [
                 {
                     "@id": "bts:PatientID"
+                },
+                {
+                    "@id": "bts:Biospecimen"
                 },
                 {
                     "@id": "bts:YearOfBirth"
@@ -3686,6 +3689,11 @@
             },
             "sms:displayName": "scRNA-seq Assay",
             "sms:required": "sms:false",
+            "sms:requiresComponent": [
+                {
+                    "@id": "bts:Biospecimen"
+                }
+            ],
             "sms:requiresDependency": [
                 {
                     "@id": "bts:filename"
