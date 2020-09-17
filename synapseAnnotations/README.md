@@ -4,9 +4,9 @@ This folder contains data and scripts to manage our annotations data models.
 
 ## Install necessary packages
 
-```
-pip install -r requirements.txt
-```
+Install the [schematic package](https://github.com/Sage-Bionetworks/schematic/tree/main). schematic provides tools to create, manage, and 
+use schemas; it is compatible with Synapse and various Sage apps for data 
+curation (e.g. Data Curator App).
 
 ## Convert previous annotations to current format
 
