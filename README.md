@@ -11,11 +11,40 @@ Sage Bionetworks derived standards for annotating content in Synapse. This provi
 
 This repository contains schemas that define the things we want to annotate as well as the controlled values that may be used. 
 
-Our schema definitions are stored here as a csv file, which can be converted into JSON-LD, or JSON Schema for validation.
+Our schema definitions are stored here as a csv file, which can be converted
+into JSON-LD, or JSON Schema for validation. Changes should be made to the
+`sage_controlled_vocabulary_schema.csv` file.
+
+The `Attribute` column contains both keys and values, which are matched to one
+another via the `Parent` column. For example, `rnaSeq` is a value for key
+`assay`, and therefore has `assay` in the `Parent` column. The `Description` and
+`Source` columns give additional information about the term. `Valid Values`
+gives a list of the valid values for that term; if blank or `"children"`, then
+all rows that have that term as their parent are considered valid values. The
+`Requires` column indicates conditional dependencies; if the current term is
+present, it requires these additional terms.
+
+## Converting CSV to JSON-LD and/or JSON Schema
+
+[schematic](https://github.com/Sage-Bionetworks/schematic/tree/main) provides
+tools to create, manage, and use schemas; it is compatible with Synapse. Follow
+the instructions from the schematic README for installing schematic and
+configuring Synapse credentials.
+
+## Convert CSV to JSON-LD
+
+TODO: add instructions using schematic
+
+## Generate a manifest
+
+Run `python example_schema_usage.py`. Requires access to a Google API
+credentials file stored on Synapse.
 
 # Organization
 
-All schema definitions can be found in the [synapseAnnotations/](synapseAnnotations/) folder as `sage_controlled_vocabulary.csv`.
+All schema definitions can be found in the
+[synapseAnnotations/](synapseAnnotations/) folder as
+`sage_controlled_vocabulary.csv`.
 
 # Development
 
@@ -27,9 +56,12 @@ This section discusses the steps for developing on this repository. See the [CON
 1. Request and complete a review from someone on the team.
 1. When review is completed, note it to be reviewed and merged at the weekly meeting.
 1. Finalize merge into the `develop` branch.
-1. Update the version and make a versioned release (with assistance from @teslajoy)
+1. Update the version and make a versioned release 
 
 # Release Versioning Annotations
+
+TODO: figure out if we are changing this with the new annotations format
+
 Releases are made through Github tags and are available on the [Releases](https://github.com/Sage-Bionetworks/synapseAnnotations/releases) page.
 
 The release version structure **vX.X.X** follows [semantic versioning](http://semver.org/) guidelines. New releases are made using the following rules:
