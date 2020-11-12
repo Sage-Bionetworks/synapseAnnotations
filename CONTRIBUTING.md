@@ -6,6 +6,39 @@ Welcome! This project is for managing annotations and controlled vocabularies fo
 
 This contributing document focuses on the guidelines for users related to the Sage Bionetworks supported communities - that is to say Sage Bionetworks employees and members of the communities who are responsible for metadata and annotations.
 
+## Format of new terms
+
+Terms are stored in JSON Schema format. The `term-templates/` folder has more
+examples, but the general format for a new term should be like this:
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-<MODULENAME>.<KEY>-0.0.1",
+  "description": "<DESCRIPTION OF THE KEY>",
+  "anyOf": [
+    {
+      "const": "<FIRST ALLOWABLE VALUE",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "<SECOND ALLOWABLE VALUE",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    }
+  ]
+}
+```
+
+This JSON should be stored in the `terms/` folder under the appropriate module,
+and the file name should be the same as the key (e.g. the `assay` key is stored
+as `assay.json`).
+
+If you are adding a value to an existing term, you should edit the existing JSON
+file. You **must** update the version number in the `$id` field if you are
+changing the term's definition.
+
 ## Guidelines for proposing new terms
 
 Our strategy is to rely on annotation terms and definitions that have already been made and standardized whenever possible for use with Sage Bionetworks supported communities. In general, we will not include terms in this repository that are not needed and vetted by our communities - but don't let that stop you from using this! Feel free to fork and include terminology that you require for your own use.
@@ -26,9 +59,9 @@ The preferred first-pass strategy for chemical name annotation is to search the 
 
 Example: 
 
-```
+```json
 {
-        "value": "DEFACTINIB",
+        "const": "DEFACTINIB",
         "description": "An orally bioavailable, small-molecule focal adhesion kinase (FAK) inhibitor with potential antiangiogenic and antineoplastic activities.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C79809"
 },
@@ -38,14 +71,14 @@ In situations where novel molecules (such as newly-synthesized research compound
 
 Example:
 
-```
+```json
 {
-        "value": "IPC-12345",
+        "const": "IPC-12345",
         "description": "An small-molecule target of importance 4 (TOI4) inhibitor with potential antineoplastic activities.",
         "source": "Important Pharma Company"
 },
 {
-        "value": "BestChemist-00913",
+        "const": "BestChemist-00913",
         "description": "An investigational small molecule discovered by Best Chemist et al.",
         "source": "PubMed Link Goes Here"
 },
@@ -58,7 +91,7 @@ For example:
 
 ```json
 {
-        "value": "Drosophila melanogaster",
+        "const": "Drosophila melanogaster",
         "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7227"
 }
