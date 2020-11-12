@@ -112,22 +112,3 @@ Again, this is focused on Sage Bionetworks supported communities and employees.
 1. If your reviewer has no problems with the change, then the change can be merged. 
 The issue creator is responsible for merging. Note that you can use [keywords](https://help.github.com/articles/closing-issues-using-keywords/) to close issues via your pull request. See the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document for the merging procedure.
 1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion. To schedule an issue or pull request for discussion, add it to the GitHub milestone for the meeting date when you wish to discuss it.
-
-### Technical details
-
-Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the `develop` branch require a review before merging. The only pull requests that will go to `master` are from `develop`, and will trigger a new release (see the [README.md](README.md) for release procedures). If you are editing using the Github web site, make sure you switch to the `develop` branch first before clicking the `Edit this file` button. If you accidentally open a pull request against `master`, you can change this in your pull request using the `Edit` button.
-
-All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
-
-
-When modifying the JSON schema files, we encourage you to install `demjson` to test your JSON files:
-
-```
-pip install demjson==2.2.4
-```
-
-or use the provided [requirements.txt](requirements.txt) file provided in this repository:
-
-```
-pip install -r requirements.txt
-```
