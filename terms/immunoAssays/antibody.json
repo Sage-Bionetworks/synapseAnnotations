@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-immunoAssays.antibody-0.0.1",
+    "$id": "sage.annotations-immunoAssays.antibody-0.0.1",
     "description": "An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph",
     "type": "string"
 }

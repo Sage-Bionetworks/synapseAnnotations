@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-immunoAssays.lotNumber-0.0.1",
+    "$id": "sage.annotations-immunoAssays.lotNumber-0.0.1",
     "description": "A distinctive alpha-numeric identification code assigned by the manufacturer or distributor to a specific quantity of manufactured material or product within a batch",
     "type": "string"
 }

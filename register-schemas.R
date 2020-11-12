@@ -10,16 +10,6 @@ library("glue")
 
 synLogin()
 
-# Create organization ----------------------------------------------------------
-
-## (Commented out because this only needed to be run once and I'm saving it for
-## posterity)
-
-# org <- synRestPOST(
-#   uri = "/schema/organization",
-#   body = '{organizationName: "karatestorg20201105"}'
-# )
-
 # Function to register JSON schema file ----------------------------------------
 
 create_body <- function(file) {
@@ -47,7 +37,7 @@ walk(term_files, register_schema)
 ## List all schemas to check they're there
 synRestPOST(
   uri = "/schema/list",
-  body = '{organizationName: "karatestorg20201105"}'
+  body = '{organizationName: "sage.annotations"}'
 )
 
 # Register top-level schema ----------------------------------------------------

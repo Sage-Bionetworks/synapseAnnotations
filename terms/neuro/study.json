@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-neuro.study-0.0.1",
+    "$id": "sage.annotations-neuro.study-0.0.1",
     "description": "",
     "anyOf": [
         {

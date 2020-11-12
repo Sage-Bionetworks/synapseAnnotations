@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-curatedData.curatedDataType-0.0.1",
+    "$id": "sage.annotations-curatedData.curatedDataType-0.0.1",
     "description": "The type of information being curated.",
     "anyOf": [
         {

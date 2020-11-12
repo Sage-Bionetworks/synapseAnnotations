@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-experimentalData.metadataType-0.0.1",
+    "$id": "sage.annotations-experimentalData.metadataType-0.0.1",
     "description": "For files of dataSubtype: metadata, a description of the type of metadata in the file.",
     "anyOf": [
         {

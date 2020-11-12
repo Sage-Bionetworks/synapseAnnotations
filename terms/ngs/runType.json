@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-ngs.runType-0.0.1",
+    "$id": "sage.annotations-ngs.runType-0.0.1",
     "description": "",
     "anyOf": [
         {

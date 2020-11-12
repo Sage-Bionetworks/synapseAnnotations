@@ -16,7 +16,7 @@ Schema, such as the following:
 ```
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-experimentalData.specimenID-0.0.1",
+    "$id": "sage.annotations-experimentalData.specimenID-0.0.1",
     "description": "Identifying string linked to a particular sample or specimen",
     "type": "string"
 }
@@ -42,7 +42,7 @@ whenever possible, since queries on Synapse will still treat `fileFormat` and
 
 ```
 "fileType": {
-    "$ref": "karatestorg20201105-sageCommunity.fileFormat-0.0.1"
+    "$ref": "sage.annotations-sageCommunity.fileFormat-0.0.1"
 }
 ```
 

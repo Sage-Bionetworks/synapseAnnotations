@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-compoundScreen.compoundDoseRange-0.0.1",
+    "$id": "sage.annotations-compoundScreen.compoundDoseRange-0.0.1",
     "description": "The minimum and maximum values of a treatment range; e.g. 1-25",
     "type": "string"
 }

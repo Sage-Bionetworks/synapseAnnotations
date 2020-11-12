@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-analysis.assemblyMethod-0.0.1",
+    "$id": "sage.annotations-analysis.assemblyMethod-0.0.1",
     "description": "Algorithm used to build a reference genome from short read sequencing data.",
     "anyOf": [
         {

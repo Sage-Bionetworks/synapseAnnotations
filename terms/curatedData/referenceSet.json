@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "karatestorg20201105-curatedData.referenceSet-0.0.1",
+    "$id": "sage.annotations-curatedData.referenceSet-0.0.1",
     "description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
     "anyOf": [
         {
