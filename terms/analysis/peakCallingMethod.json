@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.peakCallingMethod-0.0.1",
+    "description": "The algorithm used to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment.",
+    "anyOf": [
+        {
+            "const": "MACS",
+            "description": "A dynamic Poisson process based method to identify ChIP-Seq peaks.",
+            "source": "https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137"
+        },
+        {
+            "const": "GEM",
+            "description": "EM algorithm to identify ChIP-Seq peaks and enriched motifs.",
+            "source": "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002638"
+        }
+    ]
+}
+

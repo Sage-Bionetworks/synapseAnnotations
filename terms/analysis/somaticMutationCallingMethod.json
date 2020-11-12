@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.somaticMutationCallingMethod-0.0.1",
+    "description": "Algorithm to call somatic mutations.",
+    "anyOf": [
+        {
+            "const": "VarDict",
+            "description": "A DNA and RNA seq variant caller in cancer research.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/27060149"
+        },
+        {
+            "const": "MuTect",
+            "description": "A method to detect DNA point mutations in heterogeneous and impure cancer samples.",
+            "source": "https://www.nature.com/articles/nbt.2514"
+        },
+        {
+            "const": "VarScan",
+            "description": "A method to detect variants from short read DNA sequencing in individual and pooled samples.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/19542151"
+        }
+    ]
+}
+

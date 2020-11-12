@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.clusteringMethod-0.0.1",
+    "description": "A method to identify groups of similar variables based on their data distribution.",
+    "anyOf": [
+        {
+            "const": "hierarchical clustering",
+            "description": "A hierarchical clustering is a data transformation which achieves a class discovery objective, which takes as input data item and builds a hierarchy of clusters. The traditional representation of this hierarchy is a tree (visualized by a dendrogram), with the individual input objects at one end (leaves) and a single cluster containing every object at the other (root).",
+            "source": "http://purl.obolibrary.org/obo/OBI_0200042"
+        },
+        {
+            "const": "k-means clustering",
+            "description": "A k-means clustering is a data transformation which achieves a class discovery or partitioning objective, which takes as input a collection of objects (represented as points in multidimensional space) and which partitions them into a specified number k of clusters. The algorithm attempts to find the centers of natural clusters in the data. The most common form of the algorithm starts by partitioning the input points into k initial sets, either at random or using some heuristic data. It then calculates the mean point, or centroid, of each set. It constructs a new partition by associating each point with the closest centroid. Then the centroids are recalculated for the new clusters, and the algorithm repeated by alternate applications of these two steps until convergence, which is obtained when the points no longer switch clusters (or alternatively centroids are no longer changed).",
+            "source": "http://purl.obolibrary.org/obo/OBI_0200041"
+        },
+        {
+            "const": "Weighted correlation network analysis",
+            "description": "A data mining method typically used for studying biological networks based on pairwise correlations between variables.",
+            "source": "http://edamontology.org/operation_3766"
+        },
+        {
+            "const": "principal component analysis",
+            "description": "Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D025341"
+        }
+    ]
+}
+

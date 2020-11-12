@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-immunoAssays.vendor-0.0.1",
+    "description": "Commercial or institutional source of a component used in an assay",
+    "type": "string"
+}
+

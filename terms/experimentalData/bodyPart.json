@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.bodyPart-0.0.1",
+    "description": "Named areas of the body.",
+    "anyOf": [
+        {
+            "const": "head",
+            "description": "The head is the anterior-most division of the body.",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0000033"
+        }
+    ]
+}
+

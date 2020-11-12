@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.supervisedLearningMethod-0.0.1",
+    "description": "An algorithm to fit a model to make predictions of future outcomes based past data.",
+    "anyOf": [
+        {
+            "const": "penalized regression",
+            "description": "A regression model with a parametric constraint on the allowable solution space.",
+            "source": "https://statweb.stanford.edu/~tibs/lasso/lasso.pdf"
+        },
+        {
+            "const": "random forest",
+            "description": "A method to build an ensemble of decisions trees for classification or regression models.",
+            "source": "http://ect.bell-labs.com/who/tkh/publications/papers/odt.pdf"
+        },
+        {
+            "const": "support vector machine",
+            "description": "A support vector machine is a data transformation with a class prediction objective based on the construction of a separating hyperplane that maximizes the margin between two data sets of vectors in n-dimensional space.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0000700"
+        },
+        {
+            "const": "deep learning",
+            "description": "Rebranded artificial neural networks.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/25462637"
+        },
+        {
+            "const": "boosting",
+            "description": "An ensemble meta algorithm to average over many predictions to reduce bias and variance in predictions.",
+            "source": "https://web.archive.org/web/20150119081741/http://oz.berkeley.edu/~breiman/arcall96.pdf"
+        },
+        {
+            "const": "bagging",
+            "description": "An ensemble method to stabilize predictions, improve accuracy, and reduce variance for regression or decision tree models.",
+            "source": "https://link.springer.com/article/10.1007%2FBF00058655"
+        },
+        {
+            "const": "naive Bayes",
+            "description": "A classification model that assumes independence of predictors and uses Bayes theorem predict outcomes.",
+            "source": "http://engr.case.edu/ray_soumya/mlrg/optimality_of_nb.pdf"
+        },
+        {
+            "const": "Gaussian process regression",
+            "description": "A non parametric kernel based supervised learning regression method.",
+            "source": "http://www.inference.org.uk/itprnn/book.pdf"
+        },
+        {
+            "const": "elastic net",
+            "description": "Elastic net is a shrinkage and selection regression method that linearly combines the L1 and L2 penalties of the lasso and ridge methods.",
+            "source": "http://purl.enanomapper.org/onto/ENM_8000083"
+        }
+    ]
+}
+

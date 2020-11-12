@@ -1,0 +1,533 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.assayTarget-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "ARID1B",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ARID3A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ARNT",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ASCL1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ASH1L",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ASH2L",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ATF7",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BCL11A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BHLHE40",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BHLHE41",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BMI1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BRCA1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BRD4",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CC2D1A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CHD4",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CLOCK",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CREB1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CREM",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CTCF",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "DEAF1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "DPF2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "EED",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "EGR1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "EHMT2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "E2F1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "EWSR1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "EZH2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "FOXK2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "FOXP1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GABPB1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GATA4",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GATAD2A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GATAD2B",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GMEB1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K27ac",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K27me3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K36me3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K4me1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K4me3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K9ac",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "H3K9me3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "HCFC1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "HNRNPK",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "input",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "KAT2B",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "KDM4A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "KLF16",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "KLF5",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MAZ",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MEF2A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MEIS2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MITF",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NCOA2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NCOR1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NEUROD1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NFIB",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NFIC",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NONO",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NR2F1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NRF1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NR2F2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "NR3C1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "OLIG2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "PKNOX1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Pol2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "RAD21",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "RB1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "RELB",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "REST",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SATB2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SIN3A",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SIN3B",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SIRT1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SIX4",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SKIL",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SMARCA5",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SMC3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SOX8",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SP1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SP4",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SRF",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "SREBP2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TAF1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TBR1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TCF12",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TCF7L2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TDP43",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "TRIM28",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "YBX1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "YBX3",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "YY1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZBTB7B",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZEB1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZEB2",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZFP91",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZHX1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZKSCAN1",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF143",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF207",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF24",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF318",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF384",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF407",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZNF592",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "ZSCAN29",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

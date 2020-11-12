@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.metadataType-0.0.1",
+    "description": "For files of dataSubtype: metadata, a description of the type of metadata in the file.",
+    "anyOf": [
+        {
+            "const": "individual",
+            "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "biospecimen",
+            "description": "Metadata describing properties of specimens collected and/or analyzed in the study.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "assay",
+            "description": "Metadata describing properites of an assay conducted in the study.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "data dictionary",
+            "description": "Metadata describing terms or variables that appear in another file.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "manifest",
+            "description": "Metadata describing a list of files and the annotations terms associated with them.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "protocol",
+            "description": "A plan specification which has sufficient level of detail and quantitative information to communicate it between investigation agents, so that different investigation agents will reliably be able to independently reproduce the process.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0000272"
+        }
+    ]
+}
+

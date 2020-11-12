@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "karatestorg20201105-<MODULENAME>.<KEY>-0.0.1",
+  "description": "<DESCRIPTION OF THE KEY>",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}

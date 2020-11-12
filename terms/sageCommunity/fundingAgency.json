@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-sageCommunity.fundingAgency-0.0.1",
+    "description": "The organization providing financial support for generation of this data.",
+    "anyOf": [
+        {
+            "const": "CTF",
+            "description": "Childrens' Tumor Foundation",
+            "source": "http://www.ctf.org"
+        },
+        {
+            "const": "NIH-NCI",
+            "description": "National Institutes of Health - National Cancer Institute",
+            "source": "https://www.cancer.gov"
+        },
+        {
+            "const": "NTAP",
+            "description": "Neurofibromatosis Therapeutic Acceleration Program",
+            "source": "http://www.n-tap.org"
+        },
+        {
+            "const": "NIH-NIA",
+            "description": "National Institutes of Health - National Institute of Aging",
+            "source": "https://www.nia.nih.gov"
+        },
+        {
+            "const": "NIH-NIMH",
+            "description": "National Institutes of Health - National Institute of Mental Health",
+            "source": "https://www.nimh.nih.gov"
+        },
+        {
+            "const": "AACR",
+            "description": "American Association for Cancer Research",
+            "source": "http://www.aacr.org"
+        }
+    ]
+}
+

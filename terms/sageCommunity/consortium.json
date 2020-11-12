@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-sageCommunity.consortium-0.0.1",
+    "description": "The name of the consortium",
+    "anyOf": [
+        {
+            "const": "CMC",
+            "description": "CommonMind Consortium",
+            "source": "https://www.synapse.org/cmc"
+        },
+        {
+            "const": "PEC",
+            "description": "PsychENCODE Consortium",
+            "source": "https://www.synapse.org/pec"
+        },
+        {
+            "const": "AMP-AD",
+            "description": "Accelerating Medicines Partnership-Alzheimer's Disease",
+            "source": "https://adknowledgeportal.synapse.org/"
+        },
+        {
+            "const": "MODEL-AD",
+            "description": "Model Development and Evaluation for Late Onset AD",
+            "source": "https://adknowledgeportal.synapse.org/"
+        },
+        {
+            "const": "M2OVE-AD",
+            "description": "Molecular Mechanisms of the Vascular Etiology of Alzheimer's Disease ",
+            "source": "https://adknowledgeportal.synapse.org/"
+        },
+        {
+            "const": "Resilience-AD",
+            "description": "Interdisciplinary Research to Understand the Complex Biology of Resilience to Alzheimer's Disease Risk",
+            "source": "https://adknowledgeportal.synapse.org/"
+        },
+        {
+            "const": "BSMN",
+            "description": "Brain Somatic Mosaicism Network",
+            "source": "https://www.synapse.org/bsmn"
+        },
+        {
+            "const": "CSBC",
+            "description": "Cancer Systems Biology Consortium",
+            "source": "https://csbconsortium.org/"
+        },
+        {
+            "const": "PSON",
+            "description": "Physical Science in Oncology",
+            "source": "https://physics.cancer.gov/"
+        },
+        {
+            "const": "GENIE",
+            "description": "Genomics Evidence Neoplasia Information Exchange",
+            "source": "http://www.aacr.org/Research/Research/Pages/aacr-project-genie.aspx#.WOQS9RIrKF0"
+        },
+        {
+            "const": "Synodos",
+            "description": "Data derived from a CTF-Funded Synodos project",
+            "source": "https://www.synapse.org/ctf"
+        },
+        {
+            "const": "DHART SPORE",
+            "description": "Data from the D-HART SPORE",
+            "source": "http://www.synapse.org/dhart"
+        },
+        {
+            "const": "Not Applicable",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

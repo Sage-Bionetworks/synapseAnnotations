@@ -1,0 +1,418 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.assay-0.0.1",
+    "description": "The technology used to generate the data in this file",
+    "anyOf": [
+        {
+            "const": "HPLC",
+            "description": "Frequently referred to simply as HPLC, this form of column chromatography is used frequently in biochemistry. The analyte is forced through a column by liquid at high pressure, which decreases the time the separated components remain on the stationary phase.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C16434"
+        },
+        {
+            "const": "photograph",
+            "description": "An image recorded by a camera.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C86035"
+        },
+        {
+            "const": "Zeno Electronic Walkway",
+            "description": "The Zeno walkway utilizes an advanced and patented electronic sensing array technology with a proprietary network interface to sense and deliver the position of two dimensional objects in contact with its surface.",
+            "source": "http://www.zenometrics.com/zenowalkway.html"
+        },
+        {
+            "const": "elevated T maze apparatus method",
+            "description": "A method which utilizes an experimental apparatus consisting of three arms all or any of which may or may not be enclosed, in the shape of a T upon which the test animal can walk. The maze may include doors which can be used to close off any of the arms of the maze. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000267"
+        },
+        {
+            "const": "von Frey test",
+            "description": "assessment of mechanical nociception",
+            "source": "https://en.wikipedia.org/wiki/Nociception_assay#Von_Frey"
+        },
+        {
+            "const": "FitBark",
+            "description": "health and location tracker",
+            "source": "https://www.fitbark.com/"
+        },
+        {
+            "const": "elevated plus maze test",
+            "description": "A method which utilizes an experimental apparatus consisting of four arms, usually two enclosed and two open, in the shape of a plus (+) upon which the test animal can walk. The maze is elevated a set distance, for example 40 to 60 centimeters, above the floor or platform upon which the apparatus sits.",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000262"
+        },
+        {
+            "const": "open field test",
+            "description": "A test utilizing an enclosure consisting of a single area bordered by clear or opaque walls, used to measure movement, exploratory behavior, etc of an experimental subject.",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000258"
+        },
+        {
+            "const": "rotarod performance test",
+            "description": "A method that utilizes a device consisting of a rotating rod the speed of which is mechanically driven and precisely controlled, for instance held constant or accelerated. The rotarod test is often used to measure riding time or endurance in order to evaluate balance, motor coordination or grip strength.",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000567"
+        },
+        {
+            "const": "mRNAcounts",
+            "description": "A mRNA profiling assay using digital molecular barcoding technology to quantify target mRNA molecules without the need for amplification.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "high content screen",
+            "description": "An image analysis technique combining automated fluorescence microscopy with multi-parameter quantitative image analysis for the large scale study of cells (cellomics).",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0007550"
+        },
+        {
+            "const": "Immunocytochemistry",
+            "description": "The branch of immunochemistry dealing with cells and cellular activity; the application of immunochemical techniques to cytochemistry.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C17731"
+        },
+        {
+            "const": "immunofluorescence",
+            "description": "An immunological procedure in which the antibodies are coupled with molecules which fluoresce under ultra violet (UV) light. This makes them particularly suitable for detection of specific antigens in tissues or on cells.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C17370"
+        },
+        {
+            "const": "autoradiography",
+            "description": " A radioactivity detection technique using X- ray film to visualize molecules or fragments of molecules that have been radioactively labeled.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0000716"
+        },
+        {
+            "const": "electrochemiluminescence",
+            "description": "A method in which electromagnetic radiation, in the form of light emission, is generated from an electrochemical reaction in a solution.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C111193"
+        },
+        {
+            "const": "Real Time PCR",
+            "description": "An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
+        },
+        {
+            "const": "Vernier Caliper",
+            "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
+        },
+        {
+            "const": "scale",
+            "description": "An instrument or machine for weighing.",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+        },
+        {
+            "const": "Blood Chemistry Measurement",
+            "description": "The determination of the measured concentrations of chemical constituents of the blood by assay in a clinical laboratory.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C47868"
+        },
+        {
+            "const": "in vivo bioluminescence",
+            "description": "An imaging assay that allows detection of bioluminescence from a living organism or organisms.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0000651"
+        },
+        {
+            "const": "immunohistochemistry",
+            "description": "An immunostaining assay to detect and potentially localize antigens within the cells of a tissue section",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001986"
+        },
+        {
+            "const": "NOMe-Seq",
+            "description": "Nucleosome Occupancy and Methylome Sequencing",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C106053"
+        },
+        {
+            "const": "FIA-MSMS",
+            "description": "Flow injection analysis - tandem mass spectrometer",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/28667829"
+        },
+        {
+            "const": "UPLC-MSMS",
+            "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
+            "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+        },
+        {
+            "const": "HPLC-MSMS",
+            "description": "An analytical technique wherein high performance liquid chromatography is coupled to tandem mass spectrometry in order to separate, identify, and quantify substances in a sample.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C120691"
+        },
+        {
+            "const": "liquid chromatography-electrochemical detection",
+            "description": "A liquid chromatography method that is sensitive to compounds which can be either reduced or oxidised. The mobile phase passes directly over the working electrode, which is set to the specific potential required for oxidation or reduction. The current produced is then measured.",
+            "source": "http://purl.obolibrary.org/obo/CHMO_0001746"
+        },
+        {
+            "const": "rnaSeq",
+            "description": "RNA Sequencing measurements",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001271"
+        },
+        {
+            "const": "mirnaSeq",
+            "description": "Small RNA measurements collected from RNA-Seq experiments",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002112"
+        },
+        {
+            "const": "LC-MSMS",
+            "description": "A method where a sample mixture is first separated by liquid chromatography before being ionised and characterised by mass-to-charge ratio and relative abundance using two mass spectrometers in series",
+            "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
+        },
+        {
+            "const": "LC-MS",
+            "description": "A method where a sample mixture is first separated by liquid chromatography before being converted into ions which are characterised by their mass-to-charge ratio and relative abundance",
+            "source": "http://purl.obolibrary.org/obo/CHMO_0000524"
+        },
+        {
+            "const": "lncrnaSeq",
+            "description": "Long non-coding RNA measurements collected from RNA-Seq experiments",
+            "source": ""
+        },
+        {
+            "const": "exomeSeq",
+            "description": "Data derived from exome sequencing",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002118"
+        },
+        {
+            "const": "Sanger sequencing",
+            "description": "A DNA sequencing technique in which a mixture of deoxynucleosidetriphosphates (dNTPs) and chain-terminating dNTPs, which are radioactively or fluorescently labeled, are combined within the reaction mixture. Once the reaction is complete, the DNA strands are separated by size, and the labeled chain terminating dNTPs can be read in sequence by the investigator or by a machine.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C19641"
+        },
+        {
+            "const": "ChIPSeq",
+            "description": "Chromatin immuno-precipitation followed by sequencing",
+            "source": "http://purl.obolibrary.org/obo/OBI_0000716"
+        },
+        {
+            "const": "rnaArray",
+            "description": "RNA measurements captured by array technology",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001463"
+        },
+        {
+            "const": "snpArray",
+            "description": "SNP measurements captured by array technology",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001204"
+        },
+        {
+            "const": "methylationArray",
+            "description": "Methylation data captured by array technology",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001332"
+        },
+        {
+            "const": "mirnaArray",
+            "description": "microRNA measurements captured by array technology",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001335"
+        },
+        {
+            "const": "bisulfiteSeq",
+            "description": "Methylation data captured by sequencing of DNA treated by a bisulfite-based chemical process",
+            "source": "http://purl.obolibrary.org/obo/OBI_0000748"
+        },
+        {
+            "const": "ATACSeq",
+            "description": "Open chromatin regions measured by sequencing DNA after assay for transposase-accessible chromatin (ATAC) treatment",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002039"
+        },
+        {
+            "const": "HI-C",
+            "description": "Chromatin interactions detected by HI-C protocol",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
+        },
+        {
+            "const": "errBisulfiteSeq",
+            "description": "Data for enriched reduced representation bisulfite sequencing data",
+            "source": ""
+        },
+        {
+            "const": "ISOSeq",
+            "description": "Full isoform sequencing",
+            "source": ""
+        },
+        {
+            "const": "MRI",
+            "description": "Techniques that uses magnetic fields and radiowaves to form images, typically to investigate the anatomy and physiology of the human body.",
+            "source": "http://edamontology.org/topic_3444"
+        },
+        {
+            "const": "westernBlot",
+            "description": "A multistep process in which a mixture of proteins is separated by gel electrophoresis",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000338"
+        },
+        {
+            "const": "wholeGenomeSeq",
+            "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time",
+            "source": "http://edamontology.org/topic_3673"
+        },
+        {
+            "const": "polymeraseChainReaction",
+            "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning",
+            "source": "http://purl.obolibrary.org/obo/MMO_0000459"
+        },
+        {
+            "const": "cellViabilityAssay",
+            "description": "This assay type measures the cellular state of living or dying by measuring an indicator of life or death",
+            "source": "http://www.bioassayontology.org/bao#BAO_0003009"
+        },
+        {
+            "const": "atomicForceMicroscopy",
+            "description": "Microscopy which uses a sharp spike (known as a 'tip') mounted on the end of a cantilever to scan the surface of the specimen",
+            "source": "http://purl.obolibrary.org/obo/CHMO_0000113"
+        },
+        {
+            "const": "brightfieldMicroscopy",
+            "description": "Microscopy where the specimen is illuminated with light transmitted from a source on the opposite side of the specimen from the objective",
+            "source": "http://purl.obolibrary.org/obo/CHMO_0000104"
+        },
+        {
+            "const": "tractionForceMicroscopy",
+            "description": "An experimental method for determining the tractions on the surface of a biological cell by obtaining measurements of the surrounding displacement field within an in vitro extracellular matrix (ECM)",
+            "source": "https://en.wikipedia.org/wiki/Traction_force_microscopy"
+        },
+        {
+            "const": "nextGenerationTargetedSequencing",
+            "description": "A type of next generation sequencing in which specific genes or portions of genes are targeted for sequencing using amplicon-based workflow.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
+        },
+        {
+            "const": "jumpingLibrary",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MIB/MS",
+            "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+        },
+        {
+            "const": "scCGIseq",
+            "description": "A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
+        },
+        {
+            "const": "MudPIT",
+            "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry",
+            "source": "http://purl.obolibrary.org/obo/MI_0658"
+        },
+        {
+            "const": "questionnaire",
+            "description": "A document with a set of printed or written questions with a choice of answers, devised for the purposes of a survey or statistical study.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001000"
+        },
+        {
+            "const": "DNA optical mapping",
+            "description": "Fluorescent imaging of linearly extended DNA molecules to probe information patterns along the molecules",
+            "source": "https://doi.org/10.1016/j.copbio.2013.01.009"
+        },
+        {
+            "const": "novelty response behavior",
+            "description": "Behavior related to the exploration/investigation of a novel object, situation or environment.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000086"
+        },
+        {
+            "const": "active avoidance learning behavior",
+            "description": "Avoidance learning when the action occurs.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000217"
+        },
+        {
+            "const": "contextual conditioning behavior",
+            "description": "",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+        },
+        {
+            "const": "anxiety-related behavior",
+            "description": "An emotional behavior related to a feeling of uneasiness or nervousness triggered by an identifiable triggering stimulus.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000092"
+        },
+        {
+            "const": "memory behavior",
+            "description": "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000170"
+        },
+        {
+            "const": "kinesthetic behavior",
+            "description": "Movement behavior of the body or its parts.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000338"
+        },
+        {
+            "const": "locomotor activation behavior",
+            "description": "Activation of locomotory behavior.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000447"
+        },
+        {
+            "const": "oxBS-Seq",
+            "description": "Oxidative bisulfite sequencing (oxBS-Seq) to map 5-methylcytosine and 5-hydroxymethylcytosine",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0008840"
+        },
+        {
+            "const": "Ribo-Seq",
+            "description": "Ribosome profiling (Ribo-Seq).",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0008891"
+        },
+        {
+            "const": "Positron Emission Tomography",
+            "description": "A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C17007"
+        },
+        {
+            "const": "RPPA",
+            "description": "Reverse phase protein array (RPPA) is a an assay that measures multiple protein expression levels in a large number of biological samples simultaneously using high quality antibodies",
+            "source": "http://www.bioassayontology.org/bao#BAO_0010030"
+        },
+        {
+            "const": "ELISA",
+            "description": "A highly sensitive technique for detecting and measuring antigens or antibodies in a solution; the solution is run over a surface to which immobilized antibodies specific to the substance have been attached, and if the substance is present, it will bind to the antibody layer, and its presence is verified and visualized with an application of antibodies that have been tagged in some way.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C16553"
+        },
+        {
+            "const": "LTP",
+            "description": "Any measurable or observable characteristic related to the persistent robust synaptic response induced by synchronous stimulation of pre- and postsynaptic cells.",
+            "source": "http://purl.obolibrary.org/obo/VT_0002207"
+        },
+        {
+            "const": "LFP",
+            "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002189"
+        },
+        {
+            "const": "whole-cell patch clamp",
+            "description": "A patch-clamp assay where the electrode is left in place on the cell, as in cell-attached recordings, but the membrane patch has been perforated, providing access from the interior of the pipette to the intracellular space of the cell. Measurements made with this technique involve recording currents through multiple channels simultaneously, over the membrane of the entire cell.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002178"
+        },
+        {
+            "const": "sandwich ELISA",
+            "description": "The sandwich ELISA measures the amount of antigen between two layers of antibodies. The antigens to be measured must contain at least two antigenic sites, capable of binding to antibody, since at least two antibodies act in the sandwich. So sandwich assays are restricted to the quantitation of multivalent antigens such as proteins or polysaccharides. Sandwich ELISAs for quantitation of antigens are especially valuable when the concentration of antigens is low and/or they are contained in high concentrations of contaminating protein.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bao/terms?iri=http%3A%2F%2Fwww.bioassayontology.org%2Fbao%23BAO_0002421"
+        },
+        {
+            "const": "Laser Speckle Imaging",
+            "description": "A noninvasive, non-scanning optical imaging technique that provides full-field visualization of blood flow to the tissue being imaged, which provides information about tissue perfusion and the efficiency of disease treatment.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C116492"
+        },
+        {
+            "const": "Genotyping",
+            "description": "The determination of the DNA sequence of an individual.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C45447"
+        },
+        {
+            "const": "TMT quantitation",
+            "description": "An isobaric labeling technique that uses tags containing four regions with the same total molecular weights and structure, so that during chromatographic or electrophoretic separation and in single MS mode, molecules labelled with different tags are indistinguishable.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0002175"
+        },
+        {
+            "const": "label free mass spectrometry",
+            "description": "A mass spectrometry assay that allows for measurement for endogenous targets in live cell assays, and eliminates the need for tags, dyes, or specialized reagents or engineered cells.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0000708"
+        },
+        {
+            "const": "scrnaSeq",
+            "description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0007832"
+        },
+        {
+            "const": "spontaneous alternation",
+            "description": "The spontaneous alternation protocol is used to assess spatial working memory in mice.",
+            "source": "https://doi.org/10.1002/cpmo.45"
+        },
+        {
+            "const": "wheel running",
+            "description": "Wheel running behavior in mice is a simple, easily quantifiable measure of behavior that can be assessed in the home cage and with little interruption.  Mice demonstrate age-dependent reductions in both distance and speed, and also time spent running, which may be an indicator of motivation.",
+            "source": "https://doi.org/10.1002/cpmo.45"
+        },
+        {
+            "const": "frailty assessment",
+            "description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.",
+            "source": "https://doi.org/10.1002/cpmo.45"
+        }
+    ]
+}
+

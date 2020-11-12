@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.visualizationMethod-0.0.1",
+    "description": "The format in which data is visually displayed.",
+    "anyOf": [
+        {
+            "const": "scatter plot",
+            "description": "A scatterplot is a graph which uses Cartesian coordinates to display values for two variables for a set of data. The data is displayed as a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis.",
+            "source": "http://purl.obolibrary.org/obo/IAO_0000184"
+        },
+        {
+            "const": "heatmap",
+            "description": "A graphical representation of data where the values taken by a variable in a two-dimensional map are represented as colors.",
+            "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C78549"
+        },
+        {
+            "const": "bar chart",
+            "description": "The bart chart is a graph resulting from plotting rectangular bars with lengths proportional to the values that they represent.",
+            "source": "http://purl.obolibrary.org/obo/STATO_0000166"
+        }
+    ]
+}
+

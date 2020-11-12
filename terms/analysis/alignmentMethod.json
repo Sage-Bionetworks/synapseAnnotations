@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-analysis.alignmentMethod-0.0.1",
+    "description": "DNA or RNA sequence alignment method",
+    "anyOf": [
+        {
+            "const": "Burrows-Wheeler technique",
+            "description": "Burrows Wheeler Alignment algorithm.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0100332"
+        },
+        {
+            "const": "Bowtie",
+            "description": "A memory efficient short read alignment algorithm.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/19261174"
+        },
+        {
+            "const": "Bowtie 2",
+            "description": "A memory efficient short read alignment algorithm.",
+            "source": "https://www.nature.com/articles/nmeth.1923"
+        },
+        {
+            "const": "SNAPR",
+            "description": "A pipeline for short read alignment and downstream analyses.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/29270443"
+        },
+        {
+            "const": "GSNAP",
+            "description": "Method to detect complex variants and splicing in short read sequencing.",
+            "source": "https://academic.oup.com/bioinformatics/article/26/7/873/212606"
+        },
+        {
+            "const": "TopHat",
+            "description": "Method to align short read sequencing for outputs such as splice junction detection.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2672628/"
+        },
+        {
+            "const": "MOSAIC",
+            "description": "Segmentation alignment method for DNA alignment.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/11238079"
+        },
+        {
+            "const": "NovoAlign",
+            "description": "Short read sequencing alignment method.",
+            "source": "http://www.novocraft.com/products/novoalign/"
+        },
+        {
+            "const": "OLego",
+            "description": "Alignment method to detect de novo mapping of spliced mRNA-Seq reads.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/23571760"
+        },
+        {
+            "const": "STAR",
+            "description": "Software based on a previously undescribed RNA-seq alignment algorithm that uses sequential maximum mappable seed search in uncompressed suffix arrays followed by seed clustering and stitching procedure.",
+            "source": "https://academic.oup.com/bioinformatics/article/29/1/15/272537"
+        }
+    ]
+}
+

@@ -1,105 +1,133 @@
-[![Build Status](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations.svg?branch=master)](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations)
+# README
 
-> Use our [Annotation UI](https://shiny.synapse.org/users/nsanati/annotationUI/) application to easily view and search our existing annotation definitions:
->
+A possible way to organize vocabularies going forward. The goal here is to have
+a common set of terms we can reuse across schemas. Individual projects could
+reference those terms when building schemas, because the terms themselves would
+be registered in Synapse.
 
-# Introduction
+## What's here
 
-Sage Bionetworks derived standards for annotating content in Synapse. This provide a mechanism for defining, managing, and implementing controlled vocabularies when annotating content in Synapse. The standards here are developed for Sage Bionetworks supported communities and consortiums by the [Sage Bionetworks Synapse Annotations working group](https://www.synapse.org/annotation) but are available for any other use.
+There are schemas for individual terms in the `terms/` folder. The terms are
+organized to mirror the modules in the original synapseAnnotations repo: there
+are subfolders for each module, and the term names include the module (e.g.
+`experimentalData.assay`). The terms are mini schemas that are valid JSON
+Schema, such as the following:
 
-# Annotation definitions
+```
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.specimenID-0.0.1",
+    "description": "Identifying string linked to a particular sample or specimen",
+    "type": "string"
+}
+```
 
-This repository contains schemas that define the things we want to annotate as well as the controlled values that may be used. 
+Templates for adding new terms are included in the `term-templates/` folder.
 
-Our schema definitions are stored here as a csv file, which can be converted
-into JSON-LD, or JSON Schema for validation. Changes should be made to the
-`sage_controlled_vocabulary_schema.csv` file.
+To register these schemas in Synapse `register-schemas.R`.
 
-The `Attribute` column contains both keys and values, which are matched to one
-another via the `Parent` column. For example, `rnaSeq` is a value for key
-`assay`, and therefore has `assay` in the `Parent` column. The `Description` and
-`Source` columns give additional information about the term. `Valid Values`
-gives a list of the valid values for that term; if blank or `"children"`, then
-all rows that have that term as their parent are considered valid values. The
-`Requires` column indicates conditional dependencies; if the current term is
-present, it requires these additional terms.
+Each project can use these terms to build a schema or set of schemas to validate
+annotations. By referencing the terms that are registered in Synapse, we can
+reuse the same vocabulary while allowing each project to set requirements based
+on their own needs. An example of such a schema is at `schemas/testschema.json`.
+This too has been registered in Synapse. Real project schemas for AMP-AD, PEC,
+HTAN, NF, etc. could live in this repo or could be stored elsewhere. Either way,
+they'll reference the terms defined here.
 
-## Converting CSV to JSON-LD and/or JSON Schema
+Building schemas this way also provides some very limited support for synonyms.
+A schema that reuses the values for `fileFormat` but wants to call the key
+`fileType` could do so as follows (though we encourage using the same key names
+whenever possible, since queries on Synapse will still treat `fileFormat` and
+`fileType` as two unrelated keys):
 
-[schematic](https://github.com/Sage-Bionetworks/schematic/tree/main) provides
-tools to create, manage, and use schemas; it is compatible with Synapse. Follow
-the instructions from the schematic README for installing schematic and
-configuring Synapse credentials.
+```
+"fileType": {
+    "$ref": "karatestorg20201105-sageCommunity.fileFormat-0.0.1"
+}
+```
 
-## Convert CSV to JSON-LD
+The `bind-schema.R` shows an example of how to bind `testschema.json` to a
+folder, and validate annotations against it. This is just for demonstration
+purposes.
 
-TODO: add instructions using schematic
+## What's to come
 
-## Generate a manifest
+To use these terms, HTAN and other projects that use
+[schematic](https://github.com/sage-bionetworks/schematic) will need to generate...
+[milen can you fill this in?]
 
-Run `python example_schema_usage.py`. Requires access to a Google API
-credentials file stored on Synapse.
+Over time we will add terms to the vocabulary, and change existing terms. The
+terms are versioned, and each time a term is changed we will update the version
+number. That means taht only the most recent version will appear in the GitHub
+repo, but older versions will remain registered in Synapse. We may want to
+consider building a tool that makes it easier to look up older versions of a
+term. Schemas can continue to reference old versions of a term. If a project
+wants to redefine a term, it can create its own term in its own organization and
+reference that one instead. 
 
-# Organization
+Because versioned schemas are immutable, it is important that we always
+increment the version when we change a schema. We will want to add testing to
+this repo that can compare an updated version of a file with the previous
+version and ensure that the version number has changed if the schema changed.
+Ideally these tests will run on GitHub Actions or similar to ensure that
+proposed changes follow the versioning rules before being merged. We should also
+test that the terms themselves are valid JSON schema.
 
-All schema definitions can be found in the
-[synapseAnnotations/](synapseAnnotations/) folder as
-`sage_controlled_vocabulary.csv`.
+This testing will be important because we'd like to automatically register
+updated terms to Synapse (likely also via a GitHub Actions workflow that runs
+upon merging to the main branch). In the past, there was a cumbersome release
+process for the synapseAnnotations repo that caused long delays between when
+terms were approved and when they were available in downstream tools.
+Automatically registering terms will ensure that once they've been agreed upon,
+they're immediate available for use.
 
-# Development
+If we agree on this approach, then the contents of this repo should be moved to
+the synapseAnnotations repo.
 
-This section discusses the steps for developing on this repository. See the [CONTRIBUTING.md](CONTRIBUTING.md) document for more information on how to contribute annotations to this project.
+## Remaining questions
 
-## Proposing changes
+A few questions remain:
 
-1. Make changes on your feature branch.
-1. Request and complete a review from someone on the team.
-1. When review is completed, note it to be reviewed and merged at the weekly meeting.
-1. Finalize merge into the `develop` branch.
-1. Update the version and make a versioned release 
+- Compiling schemas locally: validation libraries like ajv let you check that
+  JSON Schema is valid according to the JSON Schema spec, however this does not
+  work for `testschema.json`. That's because referencing terms in a way that
+  Synapse understands (in the format `organization-schema.name-version.number`)
+  makes it impossible for a local validator to find them. I'm not sure what we
+  should do about this.
+- How do we set up the testing and CI described above? (Kara is working on this
+  and has some ideas, but nothing in place and working yet)
+  - One potential issue I'm writing here so I don't forget: if we want to
+    register schemas on merge, we should have the PR attempt to register them as
+    well so we can catch any issues before merging. The PR should either
+    register them to a different organization (tricky since the organization
+    name is in the schema itself), or to the Synapse staging endpoint instead of
+    prod. But imagine this: Jane opens a PR that adds a new value for `assay`,
+    and she increments the version number. Anya reviews the PR and asks that
+    Jane include a description for her new assay. Jane makes the change and
+    pushes to her branch. There's no need to increment the version a second time
+    since the prod version of the schema hasn't changed yet, but we also can't
+    re-register it on staging because the version from Jane's first commit was
+    already registered. Maybe when registering on staging we want to append the
+    commit sha to the version number to ensure uniqueness (*need to find out if
+    Synapse schema versioning would support this*). We probably would *not* want
+    to do this for the final schemas: that would make it very hard for people to
+    find which version to reference, since it wouldn't be tracked in the GitHub
+    versions of the schemas themselves.
+    - John noted that a better approach, instead of registering schemas on
+      staging, might be to have a way for Synapse to tell us if a schema would
+      be valid without actually registering it. That should allow us to skip
+      adding the commit sha to a version.
 
-# Release Versioning Annotations
+## TODO:
 
-TODO: figure out if we are changing this with the new annotations format
-
-Releases are made through Github tags and are available on the [Releases](https://github.com/Sage-Bionetworks/synapseAnnotations/releases) page.
-
-The release version structure **vX.X.X** follows [semantic versioning](http://semver.org/) guidelines. New releases are made using the following rules:
-
-Major version increments by:
-1. Changes in data structure (ex. yaml to json or json to mongodb)
-2. Changes to existing keys
-3. Changes to existing values
-
-Minor version increments by:
-1. Adding keys
-2. Adding values
-
-Patch version increments by:
-1. Errors or corrections that don't break the API
-
-To optimize usability, the release tags should be placed on two required and one optional locations:
-1. A Synapse Project annotation as a single value defined by the key **`annotationReleaseVersion`**.
-1. The Shiny application [Annotation UI](https://github.com/Sage-Bionetworks/annotationUI)'s **title**
-1. OPTIONAL: Documented in a Synapse Project wiki.
-
-## Update `CHANGELOG.md` and release notes
-
-After drafting a release, use this [Ruby package](https://github.com/skywinder/github-changelog-generator) to auto-generate a `CHANGELOG.md` locally that can be committed to the repository. It requires a [Github Personal Access Token](https://github.com/settings/tokens). The token should have all `repo` scope permissions. Generate a key and save the string that GitHub provides as an env variable in bash: `export CHANGELOG_GITHUB_TOKEN=<your_token_here>`.
-
-The steps to create a release are as follows:
-
-1. Merge the develop branch into master and push to GitHub
-1. Run the [changelog generator](https://github.com/github-changelog-generator/github-changelog-generator)
-   1. If you haven't already, install the changelog generator `gem install github_changelog_generator`
-   1. From within the synapseAnnotations directory on your machine, run `github_changelog_generator -u Sage-Bionetworks -p synapseAnnotations --future-release X.X.X` (replacing `X.X.X` with the new version number)
-1. Commit the new CHANGELOG.md directly to master and push to GitHub.
-1. Create a new release on Github using the web interface. Both the tag version and release title should be "vX.X.X".
-1. Copy the new section of CHANGELOG.md to release notes section of the new release.
-1. Merge the master branch into develop and push to GitHub.
-
-Generally, you will next want to update the [Synapse table](https://www.synapse.org/#!Synapse:syn10242922) that describes the annotations and powers the [AnnotationUI](https://shinypro.synapse.org/users/nsanati/annotationUI/):
-
-1. ~~Run the script `update_annotations_table.R`~~ TODO: update this to work with new CSV format.
-
-Additional information about the release process can be found in [issue 392](https://github.com/Sage-Bionetworks/synapseAnnotations/issues/392)
+- [X] Convert JSON Schema files into individual mini-schemas (under `terms/`)
+- [X] Validate mini-schemas with `ajv compile`
+- [X] Convert format to Synapse's required format (with `"concreteType"`)
+- [X] Register these mini-schemas on Synapse and ensure they work
+- [X] Build a more complete schema that references the mini-schemas
+- [X] Register that schema and ensure that it works
+- [X] Add templates for new terms to make contributing easier
+- [X] Bind schema to an entity and test validation
+- [ ] Set up CI to check that mini-schemas are valid. Need to also ensure that
+      the version number is incremented if the schema changes.
+- [ ] Automatically register terms in Synapse

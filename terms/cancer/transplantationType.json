@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-cancer.transplantationType-0.0.1",
+    "description": "Type of transplantation involved in the experiment, derived from MESH",
+    "anyOf": [
+        {
+            "const": "allograft",
+            "description": "Tissues, cells, or organs transplanted between genetically different individuals of the same species",
+            "source": "https://www.ncbi.nlm.nih.gov/mesh/68064591"
+        },
+        {
+            "const": "xenograft",
+            "description": "Tissues, cells or organs transplanted between animals of different species",
+            "source": "https://www.ncbi.nlm.nih.gov/mesh/68064593"
+        },
+        {
+            "const": "autograft",
+            "description": "Transplant comprised of an individual's own tissue, transferred from one part of the body to another.",
+            "source": "https://www.ncbi.nlm.nih.gov/mesh/68064592"
+        },
+        {
+            "const": "isograft",
+            "description": "Tissues, cells or organs transplanted between genetically identical individuals",
+            "source": "https://www.ncbi.nlm.nih.gov/mesh/68064596"
+        }
+    ]
+}
+

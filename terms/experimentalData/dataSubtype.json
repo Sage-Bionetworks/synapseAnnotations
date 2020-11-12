@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-experimentalData.dataSubtype-0.0.1",
+    "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",
+    "anyOf": [
+        {
+            "const": "normalized",
+            "description": "A data set that is produced as the output of a normalization data transformation.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0000451"
+        },
+        {
+            "const": "dataMatrix",
+            "description": "A file of data containing multiple values for multiple samples.",
+            "source": ""
+        },
+        {
+            "const": "raw",
+            "description": "A data file produced by an instrument, or one with very little subsequent processing.",
+            "source": ""
+        },
+        {
+            "const": "processed",
+            "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
+            "source": ""
+        },
+        {
+            "const": "metadata",
+            "description": "A file of clinical, technical, or other parameters that describe a dataset.",
+            "source": ""
+        }
+    ]
+}
+

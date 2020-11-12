@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-cancer.genePerturbationTechnology-0.0.1",
+    "description": "Technology used to perform gene perturbation",
+    "anyOf": [
+        {
+            "const": "RNAi",
+            "description": "High throughput sample analysis of RNAi molecules for potential application in gene knockdown or gene silencing of target genes",
+            "source": "http://purl.obolibrary.org/obo/ERO_0001688"
+        },
+        {
+            "const": "CRISPR",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CRE Recombinase",
+            "description": "CRE Recombinase catalyses site-specific recombination between two 34 base pair loxp sites and maintains the phage genome as a monomeric unit-copy plasmid in the lysogenic state.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C17285"
+        }
+    ]
+}
+

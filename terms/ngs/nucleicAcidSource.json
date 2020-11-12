@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "karatestorg20201105-ngs.nucleicAcidSource-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "bulk cell",
+            "description": "All cells from bulk sample",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "single cell",
+            "description": "Single cell",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "bulk nuclei",
+            "description": "All nuclei from bulk sample",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "single nucleus",
+            "description": "Single nuclei",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "mitochondria",
+            "description": "Mitochondria only",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "sorted cells",
+            "description": "Sorted cells",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "sorted nuclei",
+            "description": "Sorted nuclei",
+            "source": "Sage Bionetworks"
+        }
+    ]
+}
+
