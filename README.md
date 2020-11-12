@@ -1,17 +1,15 @@
-# README
+# Synapse Annotations Schemas
 
-A possible way to organize vocabularies going forward. The goal here is to have
-a common set of terms we can reuse across schemas. Individual projects could
-reference those terms when building schemas, because the terms themselves would
-be registered in Synapse.
+Sage Bionetworks derived standards for annotating content in Synapse. This
+provide a mechanism for defining, managing, and implementing controlled
+vocabularies when annotating content in Synapse. 
 
 ## What's here
 
 There are schemas for individual terms in the `terms/` folder. The terms are
-organized to mirror the modules in the original synapseAnnotations repo: there
-are subfolders for each module, and the term names include the module (e.g.
-`experimentalData.assay`). The terms are mini schemas that are valid JSON
-Schema, such as the following:
+organized into modules. There are subfolders for each module, and the term names
+include the module (e.g. `experimentalData.assay`). The terms are mini schemas
+that are valid JSON Schema, such as the following:
 
 ```
 {
@@ -24,7 +22,7 @@ Schema, such as the following:
 
 Templates for adding new terms are included in the `term-templates/` folder.
 
-To register these schemas in Synapse `register-schemas.R`.
+To register these schemas in Synapse use the `register-schemas.R` script.
 
 Each project can use these terms to build a schema or set of schemas to validate
 annotations. By referencing the terms that are registered in Synapse, we can
@@ -58,12 +56,12 @@ To use these terms, HTAN and other projects that use
 
 Over time we will add terms to the vocabulary, and change existing terms. The
 terms are versioned, and each time a term is changed we will update the version
-number. That means taht only the most recent version will appear in the GitHub
+number. That means that only the most recent version will appear in the GitHub
 repo, but older versions will remain registered in Synapse. We may want to
 consider building a tool that makes it easier to look up older versions of a
 term. Schemas can continue to reference old versions of a term. If a project
 wants to redefine a term, it can create its own term in its own organization and
-reference that one instead. 
+reference that one instead.
 
 Because versioned schemas are immutable, it is important that we always
 increment the version when we change a schema. We will want to add testing to
@@ -80,9 +78,6 @@ process for the synapseAnnotations repo that caused long delays between when
 terms were approved and when they were available in downstream tools.
 Automatically registering terms will ensure that once they've been agreed upon,
 they're immediate available for use.
-
-If we agree on this approach, then the contents of this repo should be moved to
-the synapseAnnotations repo.
 
 ## Remaining questions
 
