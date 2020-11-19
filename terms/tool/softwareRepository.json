@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-tool.softwareRepository-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "Synapse",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GitHub",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GitLab",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BitBucket",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "CRAN",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "BioConductor",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Biocontainers",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "DockerHub",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Quay",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Dockstore",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

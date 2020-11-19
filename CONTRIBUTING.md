@@ -6,6 +6,39 @@ Welcome! This project is for managing annotations and controlled vocabularies fo
 
 This contributing document focuses on the guidelines for users related to the Sage Bionetworks supported communities - that is to say Sage Bionetworks employees and members of the communities who are responsible for metadata and annotations.
 
+## Format of new terms
+
+Terms are stored in JSON Schema format. The `term-templates/` folder has more
+examples, but the general format for a new term should be like this:
+
+```json
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-<MODULENAME>.<KEY>-0.0.1",
+  "description": "<DESCRIPTION OF THE KEY>",
+  "anyOf": [
+    {
+      "const": "<FIRST ALLOWABLE VALUE",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "<SECOND ALLOWABLE VALUE",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    }
+  ]
+}
+```
+
+This JSON should be stored in the `terms/` folder under the appropriate module,
+and the file name should be the same as the key (e.g. the `assay` key is stored
+as `assay.json`).
+
+If you are adding a value to an existing term, you should edit the existing JSON
+file. You **must** update the version number in the `$id` field if you are
+changing the term's definition.
+
 ## Guidelines for proposing new terms
 
 Our strategy is to rely on annotation terms and definitions that have already been made and standardized whenever possible for use with Sage Bionetworks supported communities. In general, we will not include terms in this repository that are not needed and vetted by our communities - but don't let that stop you from using this! Feel free to fork and include terminology that you require for your own use.
@@ -26,9 +59,9 @@ The preferred first-pass strategy for chemical name annotation is to search the 
 
 Example: 
 
-```
+```json
 {
-        "value": "DEFACTINIB",
+        "const": "DEFACTINIB",
         "description": "An orally bioavailable, small-molecule focal adhesion kinase (FAK) inhibitor with potential antiangiogenic and antineoplastic activities.",
         "source": "http://purl.obolibrary.org/obo/NCIT_C79809"
 },
@@ -38,14 +71,14 @@ In situations where novel molecules (such as newly-synthesized research compound
 
 Example:
 
-```
+```json
 {
-        "value": "IPC-12345",
+        "const": "IPC-12345",
         "description": "An small-molecule target of importance 4 (TOI4) inhibitor with potential antineoplastic activities.",
         "source": "Important Pharma Company"
 },
 {
-        "value": "BestChemist-00913",
+        "const": "BestChemist-00913",
         "description": "An investigational small molecule discovered by Best Chemist et al.",
         "source": "PubMed Link Goes Here"
 },
@@ -58,7 +91,7 @@ For example:
 
 ```json
 {
-        "value": "Drosophila melanogaster",
+        "const": "Drosophila melanogaster",
         "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
         "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=7227"
 }
@@ -74,27 +107,4 @@ Again, this is focused on Sage Bionetworks supported communities and employees.
 
 1. Propose a change, either through a Github [issue](https://github.com/Sage-Bionetworks/synapseAnnotations/issues) or [pull request](https://github.com/Sage-Bionetworks/synapseAnnotations/pulls). Your change should be as atomic as possible - e.g., don't lump together many unrelated changes into a single issue or pull request. You may be requested to split them out.
 1. Label your issue or pull request with the appropriate labels. For example, if you are suggesting a new value be added to an existing key, then `create value` would be the appropriate label.
-1. Assign the issue to yourself and anyone else who will be involved in completing it. At a minimum, the issue creator should be assigned initially.
-1. If this is a pull request a review from someone in Github - this can be found under 'Reviewers' on the right side of the screen when viewing a Github issue. It's fine if they can review your pull request without meeting. Otherwise, set up a meeting on your own to meet with your reviewer.
-1. If your reviewer has no problems with the change, then the change can be merged. 
-The issue creator is responsible for merging. Note that you can use [keywords](https://help.github.com/articles/closing-issues-using-keywords/) to close issues via your pull request. See the [Development](https://github.com/Sage-Bionetworks/synapseAnnotations#development) section of the [README.md](README.md) document for the merging procedure.
-1. If you and the reviewer decide that a larger discussion is necessary, the issue can be brought to the larger annotations working group for discussion. To schedule an issue or pull request for discussion, add it to the GitHub milestone for the meeting date when you wish to discuss it.
-
-### Technical details
-
-Internal development can be performed by branching from `develop` to your own feature branch, making changes, pushing the branch to this repository, and opening a pull request. Pull requests against the `develop` branch require a review before merging. The only pull requests that will go to `master` are from `develop`, and will trigger a new release (see the [README.md](README.md) for release procedures). If you are editing using the Github web site, make sure you switch to the `develop` branch first before clicking the `Edit this file` button. If you accidentally open a pull request against `master`, you can change this in your pull request using the `Edit` button.
-
-All pushed branches and pull requests are also tested through the continuous integration service [Travis CI](https://travis-ci.org/Sage-Bionetworks/synapseAnnotations). All JSON files are linted using [demjson's](deron.meranda.us/python/demjson/) `jsonlint` command line program.
-
-
-When modifying the JSON schema files, we encourage you to install `demjson` to test your JSON files:
-
-```
-pip install demjson==2.2.4
-```
-
-or use the provided [requirements.txt](requirements.txt) file provided in this repository:
-
-```
-pip install -r requirements.txt
-```
+1. For pull requests, request a review from someone in Github - this can be found under 'Reviewers' on the right side of the screen when viewing a Github issue. At least one review is required for any changes to terms that part of the core vocabulary (i.e. non-project-specific terms); more reviews are even better. Everyone is welcome to review open PRs, even if they were not formally assigned through GitHub. 

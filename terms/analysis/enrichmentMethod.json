@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.enrichmentMethod-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "Fisher's exact test",
+            "description": "Fisher's exact test is a data transformation used to determine if there are nonrandom associations between two Fisher's exact test is a statistical significance test used in the analysis of contingency tables where sample sizes are small where the significance of the deviation from a null hypothesis can be calculated exactly, rather than relying on an approximation that becomes exact in the limit as the sample size grows to infinity, as with many statistical tests.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0200176"
+        },
+        {
+            "const": "DAVID",
+            "description": "All tools in the DAVID Bioinformatics Resources aim to provide functional interpretation of large lists of genes derived from genomic studies.",
+            "source": "https://david.ncifcrf.gov"
+        },
+        {
+            "const": "GSEA",
+            "description": "A method to identify pathway enrichment in a sample set of genes.",
+            "source": "http://www.pnas.org/content/102/43/15545"
+        },
+        {
+            "const": "Enrichr",
+            "description": "A comprehensive resource for curated gene sets and a search engine that accumulates biological knowledge for further biological discoveries.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4987924/"
+        },
+        {
+            "const": "ssGSEA",
+            "description": "A single sample extension of GSEA that allows one to define an enrichment score that represents the degree of absolute enrichment of a gene set in each sample within a given data set.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/19847166"
+        },
+        {
+            "const": "GSVA",
+            "description": "A GSE method that estimates variation of pathway activity over a sample population in an unsupervised manner.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3618321/"
+        }
+    ]
+}
+

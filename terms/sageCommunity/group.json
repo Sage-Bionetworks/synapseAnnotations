@@ -1,0 +1,240 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-sageCommunity.group-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "MSSM",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Yale",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "LIBD",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "UCLA",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "UIC-UChicago",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Duke",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "UNC",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "UCSF",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "USC",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "GIS",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "JHU",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Emory",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Columbia-Broad-Rush",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "UFL-Mayo-ISB",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Myers-NIAGADS",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IU-JAX",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IU_PTC",
+            "description": "Indiana University pre-clinical testing core -- group from neuro consortia.",
+            "source": "https://model-ad.org/preclinical-testing-core/"
+        },
+        {
+            "const": "Pitt_PTC",
+            "description": "University of Pittsburgh pre-clinical testing core -- group from neuro consortia.",
+            "source": "https://model-ad.org/preclinical-testing-core/"
+        },
+        {
+            "const": "Jax_DMP",
+            "description": "The Jackson Laboratory disease modeling project -- group from neuro consortia.",
+            "source": "https://model-ad.org/disease-modeling-project/"
+        },
+        {
+            "const": "IU_DMP",
+            "description": "Indiana University disease modeling project -- group from neuro consortia.",
+            "source": "https://model-ad.org/disease-modeling-project/"
+        },
+        {
+            "const": "UCI_DMP",
+            "description": "University of California at Irvine disease modeling project -- group from neuro consortia.",
+            "source": "https://model-ad.org/uci-disease-model-development-and-phenotyping-dmp/"
+        },
+        {
+            "const": "Columbia-SUNY",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Mayo",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Lilly",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "GSK",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Harvard-MIT",
+            "description": "Group from neuro consortia.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Hospital for Sick Children",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Dr. von Hauner Children's Hospital",
+            "description": "Group in VEO-IBD consortium.",
+            "source": {
+
+            }
+        },
+        {
+            "const": "Boston Children's Hospital",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Mount Sinai School of Medicine - Cho",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Mount Sinai School of Medicine - Schadt",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Cedars Sinai Hospital",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Hubrecht Institute",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Howard Hughes Medical Institute",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Institute of Molecular Biotechnology",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Nuffield Department of Medicine",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Stanford University School of Medicine",
+            "description": "Group in VEO-IBD consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Chess-Walsh-Akbarian",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Gage",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Gleeson",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Moran",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Pevsner",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Sestan",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Vaccarino",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Walsh-Park",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Weinberger",
+            "description": "Group in BSMN consortium.",
+            "source": "Sage Bionetworks"
+        }
+    ]
+}
+

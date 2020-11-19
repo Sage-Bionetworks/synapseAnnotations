@@ -1,0 +1,128 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.1",
+    "description": "Database or repository to which individual ID maps",
+    "anyOf": [
+        {
+            "const": "ABN",
+            "description": "Autism Brain Net",
+            "source": "https://www.autismbrainnet.org/"
+        },
+        {
+            "const": "ABR",
+            "description": "Advanced Biosciences Resources",
+            "source": ""
+        },
+        {
+            "const": "BannerSun",
+            "description": "Banner Sun Health Research Institute",
+            "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
+        },
+        {
+            "const": "Einstein",
+            "description": "Albert Einstein College of Medicine",
+            "source": "https://www.einstein.yu.edu/"
+        },
+        {
+            "const": "Emory",
+            "description": "Emory University",
+            "source": "https://www.emory.edu/"
+        },
+        {
+            "const": "HBTRC",
+            "description": "Harvard Brain Tissue Resource Center",
+            "source": "https://hbtrc.mclean.harvard.edu/"
+        },
+        {
+            "const": "JAX",
+            "description": "The Jackson Laboratory",
+            "source": "https://www.jax.org"
+        },
+        {
+            "const": "LIBD",
+            "description": "Lieber Institute for Brain Development",
+            "source": "https://www.libd.org"
+        },
+        {
+            "const": "MSSM",
+            "description": "Mount Sinai NIH Brain and Tissue Repository",
+            "source": "http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking"
+        },
+        {
+            "const": "NDRI",
+            "description": "National Disease Research Interchange",
+            "source": "https://ndriresource.org/"
+        },
+        {
+            "const": "NIMH-HBCC",
+            "description": "The NIH Human Brain Collection Core",
+            "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
+        },
+        {
+            "const": "Novogenix",
+            "description": "Novogenix Laboratories",
+            "source": ""
+        },
+        {
+            "const": "Penn",
+            "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
+            "source": "http://www.med.upenn.edu/cndr/biosamples-brainbank.html"
+        },
+        {
+            "const": "Pitt",
+            "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
+            "source": "https://neurobiobank.nih.gov/"
+        },
+        {
+            "const": "Pritzker",
+            "description": "Pritzker Neuropsychiatric Disorders Research Consortium Brain Bank",
+            "source": "https://pritzkerneuropsych.org/www/about-us/scientific-approach/brain-bank/"
+        },
+        {
+            "const": "Rush",
+            "description": "Rush Alzheimer's Disease Center",
+            "source": "https://www.radc.rush.edu/"
+        },
+        {
+            "const": "Sestan",
+            "description": "Sestan Lab, Yale School of Medicine",
+            "source": "https://medicine.yale.edu/lab/sestan/"
+        },
+        {
+            "const": "SMRI",
+            "description": "Stanley Medical Research Institute",
+            "source": "http://www.stanleyresearch.org/"
+        },
+        {
+            "const": "StemExpress",
+            "description": "StemExpress",
+            "source": "https://www.stemexpress.com/"
+        },
+        {
+            "const": "TAA",
+            "description": "Tourette Association of America",
+            "source": "https://tourette.org/"
+        },
+        {
+            "const": "UCSF",
+            "description": "University of California - San Francisco",
+            "source": "https://www.ucsf.edu/"
+        },
+        {
+            "const": "UM-BTB",
+            "description": "University of Maryland Brain and Tissue Bank",
+            "source": "https://www.medschool.umaryland.edu/btbank/"
+        },
+        {
+            "const": "UW-CDL",
+            "description": "University of Washington Congenital Defects Lab",
+            "source": ""
+        },
+        {
+            "const": "Yale",
+            "description": "Yale School of Medicine",
+            "source": "https://medicine.yale.edu/"
+        }
+    ]
+}
+

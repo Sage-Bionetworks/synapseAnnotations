@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.terminalDifferentiationPoint-0.0.1",
+    "description": "The terminal differentiation point (TD) of a cell in days.",
+    "type": "string"
+}
+

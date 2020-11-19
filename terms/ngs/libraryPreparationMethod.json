@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.1",
+    "description": "Method by which library was prepared",
+    "anyOf": [
+        {
+            "const": "10x",
+            "description": "10x Genomics library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "CEL-seq",
+            "description": "CEL-Seq library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "Drop-Seq",
+            "description": "Drop-Seq library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "Smart-seq2",
+            "description": "Smart-seq 2 library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "TruSeq",
+            "description": "TruSeq library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "Smart-seq4",
+            "description": "Smart-seq4 library preparation",
+            "source": "https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
+        },
+        {
+            "const": "Omni-ATAC",
+            "description": "Omni-ATAC-seq library preparation",
+            "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
+        },
+        {
+            "const": "NEBNext",
+            "description": "NEBNext library preparation",
+            "source": "https://www.neb-online.fr/en/neb-en/next-generation-sequencing/nebnext-kits-for-illumina/"
+        }
+    ]
+}
+

@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.multipleTestingAdjustmentMethod-0.0.1",
+    "description": "Method used to control either family wise error rate, false discovery rate, or other measures of burden of false positives and false negatives when performing multiple statistical tests.",
+    "anyOf": [
+        {
+            "const": "Benjamini Hochberg",
+            "description": "A sequential p-value procedure that controls expected false discovery rate.",
+            "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61596"
+        },
+        {
+            "const": "Bonferroni",
+            "description": "Used in multiple comparison procedures to calculate an adjusted probability, alpha (a), of comparison-wise type I error from the desired probability aFW0 of family-wise type I error. The calculation guarantees that the use of the adjusted a in pairwise comparisons keeps the actual probability aFW of family-wise type I errors not higher than the desired level, as specified by aFW0.",
+            "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C61594"
+        }
+    ]
+}
+

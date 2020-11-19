@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-curatedData.referenceSet-0.0.1",
+    "description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
+    "anyOf": [
+        {
+            "const": "GRCh38",
+            "description": "Genome Reference Consortium Human Build 38",
+            "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.26"
+        },
+        {
+            "const": "GRCh37",
+            "description": "Genome Reference Consortium Human Build 37",
+            "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/"
+        },
+        {
+            "const": "MMUL1.0",
+            "description": "Ensembl preliminary assembly Macaca mulatta",
+            "source": "https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index"
+        },
+        {
+            "const": "HRC",
+            "description": "Human haplotype reference panel",
+            "source": "http://www.haplotype-reference-consortium.org"
+        }
+    ]
+}
+

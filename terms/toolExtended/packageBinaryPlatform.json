@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-toolExtended.packageBinaryPlatform-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "Windows",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "OSX",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Linux",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-chem.chemicalDataType-0.0.1",
+    "description": "The type of chemical data in the dataset.",
+    "anyOf": [
+        {
+            "const": "target",
+            "description": "The role of a molecular entity (protein or nucleic acid) that is the presumed subject of an assay and whose activity is being regulated by an entity with a perturbagen role in that assay.",
+            "source": "http://www.bioassayontology.org/bao#BAO_0003064"
+        },
+        {
+            "const": "chemical structure",
+            "description": "A representation of the arrangement of atoms and bonds. ",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C103240"
+        },
+        {
+            "const": "chemical hashed fingerprint",
+            "description": "The chemical hashed fingerprint of a molecule is bit string (a sequence of 0 and 1 digits) that contains information on the structure.",
+            "source": "https://docs.chemaxon.com/display/docs/Chemical+Hashed+Fingerprint"
+        },
+        {
+            "const": "complex database",
+            "description": "A database with several types of chemical data",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "chemical identifier",
+            "description": "A chemical identifier is an identifier for a chemical entity",
+            "source": "http://semanticscience.org/resource/SIO_000728"
+        }
+    ]
+}
+

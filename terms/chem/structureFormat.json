@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-chem.structureFormat-0.0.1",
+    "description": "The chemical structural representation used.",
+    "anyOf": [
+        {
+            "const": "SMILES",
+            "description": "Specification for unambiguously describing the structure of a chemical compound using a short ASCII string.",
+            "source": "http://purl.obolibrary.org/obo/MS_1000868"
+        },
+        {
+            "const": "InChI",
+            "description": "A textual identifier for chemical substances designed to provide a standard and human-readable way to encode molecular information that also facilitates searches in printed and electronic data sources.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C54683"
+        },
+        {
+            "const": "SDF",
+            "description": "SDF is one of a family of chemical-data file formats developed by MDL Information Systems; it is intended especially for structural information.",
+            "source": "http://edamontology.org/format_3814"
+        }
+    ]
+}
+

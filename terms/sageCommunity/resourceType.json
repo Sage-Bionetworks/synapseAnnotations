@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-sageCommunity.resourceType-0.0.1",
+    "description": "The type of resource being stored and annotated",
+    "anyOf": [
+        {
+            "const": "experimentalData",
+            "description": "Any file derived from or pertaining to a scientific experiment. experimentalData annotations should be applied, possibly disease-related",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "curatedData",
+            "description": "Any file derived from or pertaining a manually or programatically curated data resource. Examples include: reference sequences, drug information databases, identifier maps",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "analysis",
+            "description": "Any file derived from analysis such that the analysis annotations might apply, possibly disease-related",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "tool",
+            "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "report",
+            "description": "a document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).",
+            "source": "http://purl.obolibrary.org/obo/IAO_0000088"
+        }
+    ]
+}
+

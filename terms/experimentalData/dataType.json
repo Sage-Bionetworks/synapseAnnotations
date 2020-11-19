@@ -1,0 +1,108 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.dataType-0.0.1",
+    "description": "Types of input/output data in bioinformatics pipelines",
+    "anyOf": [
+        {
+            "const": "Volume",
+            "description": "The amount of three dimensional space occupied by an object or the capacity of a space or container.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25335"
+        },
+        {
+            "const": "Weight",
+            "description": "The vertical force exerted by a mass as a result of gravity.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25208"
+        },
+        {
+            "const": "Pharmacokinetic Study",
+            "description": "A study of the process by which a drug is absorbed, distributed, metabolized, and eliminated by the body.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C49663"
+        },
+        {
+            "const": "genomicVariants",
+            "description": "Genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Foperation_3227"
+        },
+        {
+            "const": "behavior process",
+            "description": "The action, reaction, or performance of an organism in response to external or internal stimuli.",
+            "source": "http://purl.obolibrary.org/obo/NBO_0000313"
+        },
+        {
+            "const": "metabolomics",
+            "description": "The systematic study of metabolites, the chemical processes they are involved, and the chemical fingerprints of specific cellular processes in a whole cell, tissue, organ or organism.",
+            "source": "http://edamontology.org/topic_3172"
+        },
+        {
+            "const": "image",
+            "description": "Biological or biomedical data that has been rendered into an image.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Fdata_2968"
+        },
+        {
+            "const": "geneExpression",
+            "description": "The analysis of levels and patterns of synthesis of gene products (proteins and functional RNA) including interpretation in functional terms of gene expression data.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0203"
+        },
+        {
+            "const": "isoformExpression",
+            "description": "Expression of protien isoforms formed from alternative splicings or other post-translational modifications of a single gene through RNA splicing mechanisms.",
+            "source": "https://en.wikipedia.org/wiki/Protein_isoform"
+        },
+        {
+            "const": "proteomics",
+            "description": "Protein and peptide identification, especially in the study of whole proteomes of organisms.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/edam/terms?iri=http%3A%2F%2Fedamontology.org%2Ftopic_0121"
+        },
+        {
+            "const": "kinomics",
+            "description": "Kinomics is the study of protein kinases and protein kinase signaling.",
+            "source": "http://www.kinomecore.com/what-is-kinomics/"
+        },
+        {
+            "const": "drugScreen",
+            "description": "Information on drug sensitivity and molecular markers of drug response",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531057/"
+        },
+        {
+            "const": "drugCombinationScreen",
+            "description": "Information on drug sensitivity of more than one compound",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/29344898"
+        },
+        {
+            "const": "cellularPhysiology",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "chromatinActivity",
+            "description": "Chromatin activity that allow access of condensed genomic DNA and potentially control gene expression.",
+            "source": "https://en.wikipedia.org/wiki/Chromatin_remodeling"
+        },
+        {
+            "const": "surveyData",
+            "description": "A data set that contains the outcome of a survey.",
+            "source": "http://purl.obolibrary.org/obo/OMIABIS_0000060"
+        },
+        {
+            "const": "network",
+            "description": "An interconnected system of things or people.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C61377"
+        },
+        {
+            "const": "clinical",
+            "description": "Data obtained through patient examination or treatment.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C15783"
+        },
+        {
+            "const": "immunoassay",
+            "description": "Laboratory test involving interaction of antigens with specific antibodies.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C16723"
+        },
+        {
+            "const": "electrophysiology",
+            "description": "Data generated from an electrophysiology assay.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0000564"
+        }
+    ]
+}
+

@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.batchEffectCorrectionMethod-0.0.1",
+    "description": "Methods for identifying or correcting potential confounding variables in regression analyses.",
+    "anyOf": [
+        {
+            "const": "COMBAT",
+            "description": "An empirical Bayes gene expression batch correction method with known covariates",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/16632515"
+        },
+        {
+            "const": "surrogate variable analysis",
+            "description": "Surrogate Variable Analysis: identification and adjustment for hidden confounds that are independent of a known outcome",
+            "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161"
+        },
+        {
+            "const": "Principal Component Analysis",
+            "description": "Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D025341"
+        }
+    ]
+}
+

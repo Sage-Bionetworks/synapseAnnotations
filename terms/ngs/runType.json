@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-ngs.runType-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "singleEnd",
+            "description": "A library preparation that results in the creation of a library of 5' ends of DNA.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "pairedEnd",
+            "description": "A library preparation that results in the creation of a library of the 5' and 3' ends of DNA or cDNA fragments using adaptors and endonucleases. The preparation may or may not include cloning process.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0001852"
+        }
+    ]
+}
+

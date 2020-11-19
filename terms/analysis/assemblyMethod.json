@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.assemblyMethod-0.0.1",
+    "description": "Algorithm used to build a reference genome from short read sequencing data.",
+    "anyOf": [
+        {
+            "const": "Velvet",
+            "description": "Velvet: An algorithm for de novo short read assembly using de Bruijn graphs",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2336801/"
+        }
+    ]
+}
+

@@ -1,0 +1,43 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-tool.softwareType-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "script",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "packageLibrary",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "packageBinary",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "container",
+            "description": "A standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "graphical user interface",
+            "description": "A Graphical user interface is a type of software interface that allows users to interact with electronic devices using images rather than text commands. A GUI represents the information and actions available to a user through graphical icons and visual indicators such as secondary notation, as opposed to text-based interfaces, typed command labels or text navigation.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Finterface%2FSWO_9000052"
+        },
+        {
+            "const": "web user interface",
+            "description": "A Web User interface is a Graphical User Interface which is loaded and run via a Web browser rather than within the user's operating system.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Finterface%2FSWO_5000002"
+        },
+        {
+            "const": "web application",
+            "description": "A piece of software that operates primarily through a stand-alone web interaface.",
+            "source": "Sage Bionetworks"
+        }
+    ]
+}
+

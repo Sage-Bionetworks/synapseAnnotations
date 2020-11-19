@@ -1,0 +1,63 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.statisticalNetworkReconstructionMethod-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "Weighted correlation network analysis",
+            "description": "A data mining method typically used for studying biological networks based on pairwise correlations between variables.",
+            "source": "http://edamontology.org/operation_3766"
+        },
+        {
+            "const": "SPARROW",
+            "description": "Sparse conditional independence graph construction from gene expression data using a variational Bayes spike regression neighorhood selection method.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/?term=25583238"
+        },
+        {
+            "const": "Lasso",
+            "description": "Sparse conditional independence graph construction from gene expression data using an L1 penalized regression neighborhood selection method.",
+            "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-384"
+        },
+        {
+            "const": "ridge",
+            "description": "Conditional independence graph construction from gene expression using an L2^2 penalized regression neighborhood selection method.",
+            "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-10-384"
+        },
+        {
+            "const": "GENIE3",
+            "description": "Gene expression network reconstruction using random forests.",
+            "source": "http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0012776"
+        },
+        {
+            "const": "TIGRESS",
+            "description": "Gene expression network reconstruction using stability selection.",
+            "source": "https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-6-145"
+        },
+        {
+            "const": "ARACNE",
+            "description": "Gene expression network reconstruction using mutual information.",
+            "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-7-S1-S7"
+        },
+        {
+            "const": "MRNET",
+            "description": "An information theoretic method to infer gene expression networks.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/18354736"
+        },
+        {
+            "const": "C3NET",
+            "description": "Method to infer causal relationships in gene expression networks with mutual information.",
+            "source": "https://bmcsystbiol.biomedcentral.com/articles/10.1186/1752-0509-4-132"
+        },
+        {
+            "const": "MEGENA",
+            "description": "Multiscale Embedded Gene Co-expression Network Analysis",
+            "source": "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004574"
+        },
+        {
+            "const": "WINA",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

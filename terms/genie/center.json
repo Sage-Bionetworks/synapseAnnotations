@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-genie.center-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "NKI",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "DFCI",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "GRCC",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "JHU",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MSK",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "UHN",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "VICC",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "MDA",
+            "description": "",
+            "source": ""
+        }
+    ]
+}
+

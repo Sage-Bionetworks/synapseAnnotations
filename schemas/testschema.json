@@ -1,0 +1,96 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"sage.annotations-testschema.json-0.0.2",
+  "properties": {
+    "resourceType": {
+      "$ref": "sage.annotations-sageCommunity.resourceType-0.0.1"
+    },
+    "consortium": {
+      "$ref": "sage.annotations-sageCommunity.consortium-0.0.1"
+    },
+    "study": {
+      "$ref": "sage.annotations-neuro.study-0.0.1"
+    },
+    "assay": {
+      "$ref": "sage.annotations-experimentalData.assay-0.0.1"
+    },
+    "fileFormat": {
+      "$ref": "sage.annotations-sageCommunity.fileFormat-0.0.1"
+    },
+    "assayTarget": {
+      "$ref": "sage.annotations-experimentalData.assayTarget-0.0.1"
+    },
+    "individualID": {
+      "$ref": "sage.annotations-experimentalData.individualID-0.0.1"
+    },
+    "species": {
+      "$ref": "sage.annotations-experimentalData.species-0.0.1"
+    },
+    "specimenID": {
+      "$ref": "sage.annotations-experimentalData.specimenID-0.0.1"
+    },
+    "isCellLine": {
+      "$ref": "sage.annotations-experimentalData.isCellLine-0.0.1"
+    },
+    "terminalDifferentiationPoint": {
+      "$ref": "sage.annotations-experimentalData.terminalDifferentiationPoint-0.0.1"
+    },
+    "cellType": {
+      "$ref": "sage.annotations-experimentalData.cellType-0.0.1"
+    }
+  },
+  "required": [
+    "resourceType",
+    "consortium",
+    "study",
+    "fileFormat"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "experimentalData"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "assay",
+          "species"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "assay": {
+            "const": "ChIPSeq"
+          }
+        },
+        "required": ["assay"]
+      },
+      "then": {
+        "required": [
+          "assayTarget"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "isCellLine": {
+            "const": true
+          }
+        },
+        "required": ["isCellLine"]
+      },
+      "then": {
+        "required": [
+          "terminalDifferentiationPoint",
+          "cellType"
+        ]
+      }
+    }
+  ]
+}

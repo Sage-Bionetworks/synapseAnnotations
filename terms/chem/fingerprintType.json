@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-chem.fingerprintType-0.0.1",
+    "description": "The type of chemical fingerprint used.",
+    "anyOf": [
+        {
+            "const": "standard",
+            "description": "Considers paths of a given length. These are hashed fingerprints, with a default length of 1024.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        },
+        {
+            "const": "extended",
+            "description": "Similar to the standard type, but takes rings and atomic properties into account into account.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        },
+        {
+            "const": "maccs",
+            "description": "The popular 166 bit MACCS keys described by MDL.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        },
+        {
+            "const": "pubchem",
+            "description": "881 bit fingerprints defined by PubChem.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        },
+        {
+            "const": "kr",
+            "description": "4860 bit fingerprint defined by Klekota and Roth.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        },
+        {
+            "const": "circular",
+            "description": "An implementation of the ECFP6 fingerprint.",
+            "source": "https://www.rdocumentation.org/packages/rcdk/versions/3.4.5/topics/get.fingerprint"
+        }
+    ]
+}
+

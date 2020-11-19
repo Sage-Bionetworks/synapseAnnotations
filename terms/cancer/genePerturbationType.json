@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-cancer.genePerturbationType-0.0.1",
+    "description": "Specific way in which a single gene was perturbed in a sample",
+    "anyOf": [
+        {
+            "const": "overexpression",
+            "description": "Gene overexpression refers to genetic techniques in which an organism or cell line is engineered to express increased levels of a gene.",
+            "source": "http://www.bioassayontology.org/bao#BAO_0002442"
+        },
+        {
+            "const": "knockdown",
+            "description": "Gene knockdown refers to techniques by which the expression of one or more of an organism's genes is reduced, either through genetic modification (a change in the DNA of one of the organism's chromosomes) or by treatment with a reagent such as a short DNA or RNA oligonucleotide with a sequence complementary to either an mRNA transcript or a gene.",
+            "source": "http://www.bioassayontology.org/bao#BAO_0002433"
+        },
+        {
+            "const": "knockout",
+            "description": "A gene knockout is a genetic technique in which an organism is engineered to carry genes that have been made inoperative (have been 'knocked out' of the organism).",
+            "source": "http://www.bioassayontology.org/bao#BAO_0002441"
+        }
+    ]
+}
+

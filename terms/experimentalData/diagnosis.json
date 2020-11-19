@@ -1,0 +1,138 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.1",
+    "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
+    "anyOf": [
+        {
+            "const": "Williams Syndrome",
+            "description": "A genetic syndrome caused by mulitple gene deletions from a region of chromosome 7, and characterized by distinctive facial appearance, mild-to-moderate developmental delay, cheerfulness, cardiovascular abnormalities, and infantile hypercalcemia",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0175702"
+        },
+        {
+            "const": "Bladder Cancer",
+            "description": "A malignancy originating in tissues of the urinary bladder.",
+            "source": "http://identifiers.org/omim/109800"
+        },
+        {
+            "const": "Leukemia",
+            "description": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C3161"
+        },
+        {
+            "const": "Tourette Syndrome",
+            "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
+            "source": "http://identifiers.org/omim/137580"
+        },
+        {
+            "const": "Neurofibromatosis 1",
+            "description": "(NF1) - A disease characterized by patches of skin pigmentation (cafe-au-lait spots), Lisch nodules of the iris, tumors in the peripheral nervous system and fibromatous skin tumors. Individuals with the disorder have increased susceptibility to the development of benign and malignant tumors.",
+            "source": ""
+        },
+        {
+            "const": "Neurofibromatosis 2",
+            "description": "(NF2) - Genetic disorder characterized by bilateral vestibular schwannomas (formerly called acoustic neuromas), schwannomas of other cranial and peripheral nerves, meningiomas, and ependymomas. It is inherited in an autosomal dominant fashion with full penetrance.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F101000"
+        },
+        {
+            "const": "Bipolar Disorder",
+            "description": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258"
+        },
+        {
+            "const": "Alzheimer Disease",
+            "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
+        },
+        {
+            "const": "Schizophrenia",
+            "description": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692"
+        },
+        {
+            "const": "Major Depressive Disorder",
+            "description": "An endogenous depression that is characterized by an all-encompassing low mood accompanied by low self-esteem, and by loss of interest or pleasure in normally enjoyable activies.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1470"
+        },
+        {
+            "const": "Autism Spectrum Disorder",
+            "description": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756"
+        },
+        {
+            "const": "Fibrocystic Breast Disease",
+            "description": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014"
+        },
+        {
+            "const": "Breast Cancer",
+            "description": "(BC) - A common malignancy originating from breast epithelial tissue.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480"
+        },
+        {
+            "const": "Colon Cancer",
+            "description": "A colorectal cancer that is located_in the colon.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219"
+        },
+        {
+            "const": "Lung Cancer",
+            "description": "A respiratory system cancer that is located_in the lung.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324"
+        },
+        {
+            "const": "Prostate Cancer",
+            "description": "A male reproductive organ cancer that is located_in the prostate.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
+        },
+        {
+            "const": "Pancreatic Cancer",
+            "description": "An endocrine gland cancer located_in the pancreas.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
+        },
+        {
+            "const": "Skin Cancer",
+            "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
+        },
+        {
+            "const": "Brain Cancer",
+            "description": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319"
+        },
+        {
+            "const": "Ovary Cancer",
+            "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
+        },
+        {
+            "const": "Affective Disorder",
+            "description": "Change in mood is the main underlying feature of these disorders.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Not Applicable",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Cervical Cancer",
+            "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
+            "source": "http://identifiers.org/omim/603956"
+        },
+        {
+            "const": "Juvenile Myelomonocytic Leukemia",
+            "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
+        },
+        {
+            "const": "progressive supranuclear palsy",
+            "description": "A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",
+            "source": "http://purl.obolibrary.org/obo/DOID_678"
+        },
+        {
+            "const": "mild cognitive impairment",
+            "description": "Diminished or impaired mental and/or intellectual function.",
+            "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
+        }
+    ]
+}
+

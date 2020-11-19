@@ -1,0 +1,203 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.analysisType-0.0.1",
+    "description": "",
+    "anyOf": [
+        {
+            "const": "Variant calling",
+            "description": "Identify and map genomic alterations, including single nucleotide polymorphisms, short indels and structural variants, in a genome sequence.",
+            "source": "http://edamontology.org/operation_3227"
+        },
+        {
+            "const": "Sequence alignment",
+            "description": "Alignment of reads to a reference genome",
+            "source": "http://edamontology.org/operation_0292"
+        },
+        {
+            "const": "genotype imputation",
+            "description": "The statistical inference of unobserved genotypes.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/17572673"
+        },
+        {
+            "const": "DNA methylation imputation",
+            "description": "The statistical inference of unobserved DNA methylation marks.",
+            "source": "https://dx.doi.org/10.1534/genetics.115.185967"
+        },
+        {
+            "const": "Polygenic Risk Scores",
+            "description": "A sample level estimate of the genetic component of disease risk based on genome-wide association studies.",
+            "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1003348"
+        },
+        {
+            "const": "Enrichment analysis",
+            "description": "Over-representation analysis.",
+            "source": "http://edamontology.org/operation_3501"
+        },
+        {
+            "const": "statistical network reconstruction",
+            "description": "Learning network relationships between genes based on their coexpression patterns.",
+            "source": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Signaling_Network_Reconstruction"
+        },
+        {
+            "const": "differential expression",
+            "description": "Genes or isoforms that are differentially expressed between two conditions.",
+            "source": "http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810"
+        },
+        {
+            "const": "expression quantitative trait loci detection",
+            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein.",
+            "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C113415"
+        },
+        {
+            "const": "outlier detection",
+            "description": "An observation in a data set that is numerically distant from the rest of the data.",
+            "source": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C79083"
+        },
+        {
+            "const": "covariate specification",
+            "description": "A variable specification that specifies a variable used in statistical analysis to correct, adjust, or modify the values of a dependent variable; an independent variable not manipulated by the investigator",
+            "source": "http://purl.obolibrary.org/obo/OBCS_0000040"
+        },
+        {
+            "const": "hidden confounder detection",
+            "description": "Identification of a hidden or latent variable that may be inflating the type I error rate due to mutual correlation between dependent and independent variable that are being tested.",
+            "source": "http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.0030161"
+        },
+        {
+            "const": "differential network anaysis",
+            "description": "Identification of changes in coexpression patterns between two conditions.",
+            "source": "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000616"
+        },
+        {
+            "const": "methylation quantitative trait loci detection",
+            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA.",
+            "source": ""
+        },
+        {
+            "const": "network driver detection",
+            "description": "Identification of drivers of disease based on network analyses.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4194029/"
+        },
+        {
+            "const": "principal component analysis",
+            "description": "Principal Component Analysis: Mathematical procedure that transforms a number of possibly correlated variables into a smaller number of uncorrelated variables called principal components.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D025341"
+        },
+        {
+            "const": "Genome-Wide Association",
+            "description": "An analysis comparing the allele frequencies of all available (or a whole GENOME representative set of) polymorphic markers in unrelated patients with a specific symptom or disease condition, and those of healthy controls to identify markers associated with a specific disease or condition.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D055106"
+        },
+        {
+            "const": "Clustering",
+            "description": "Group together some data entities on the basis of similarities such that entities in the same group (cluster) are more similar to each other than to those in other groups (clusters).",
+            "source": "http://edamontology.org/operation_3432"
+        },
+        {
+            "const": "Supervised Machine Learning",
+            "description": "A machine learning paradigm used to make predictions about future instances based on a given set of labeled paired input-output training (sample) data.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D000069553"
+        },
+        {
+            "const": "batch effect correction",
+            "description": "Adjustment of variable of interest for batch effects.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/16632515"
+        },
+        {
+            "const": "ANOVA",
+            "description": "ANOVA or analysis of variance is a data transformation in which a statistical test of whether the means of several groups are all equal.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0200201"
+        },
+        {
+            "const": "variancePartition",
+            "description": "Identification of percentage variance explained of a dependent variable by multiple classes of independent variables.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5123296/"
+        },
+        {
+            "const": "visualization",
+            "description": "Resource that provides access to tools for graphical, interactive, multimodal and multidimensional data and result visualization.",
+            "source": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Visualization"
+        },
+        {
+            "const": "transcript quantification",
+            "description": "Quantification of the abundunce of specific gene expression transcript isoforms.",
+            "source": "https://www.nature.com/articles/nbt.3519"
+        },
+        {
+            "const": "somatic mutation calling",
+            "description": "Identification of de-novo mutations in somatic cells.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4803342/"
+        },
+        {
+            "const": "peak calling",
+            "description": "An inferential statistical data analysis to identify protein-binding regions in a genome sequence from the data generated from a ChIP-sequencing or ChIP-chip experiment. When the protein is a transcription factor, the region is a transcription factor binding site (TFBS).",
+            "source": "http://purl.obolibrary.org/obo/OBCS_0000167"
+        },
+        {
+            "const": "Copy number estimation",
+            "description": "Estimate the number of copies of loci of particular gene(s) in DNA sequences typically from gene-expression profiling technology based on microarray hybridisation-based experiments.",
+            "source": "http://edamontology.org/operation_3233"
+        },
+        {
+            "const": "Gene expression comparison",
+            "description": "Comparison of gene expression profiles.",
+            "source": "http://edamontology.org/operation_0315"
+        },
+        {
+            "const": "de-novo assembly",
+            "description": "Assembly of reference sequence from short read sequences without external reference genome build.",
+            "source": "http://purl.obolibrary.org/obo/GENEPIO_0001628"
+        },
+        {
+            "const": "correlation",
+            "description": "The degree to which two or more quantities or events are linearly associated, a statistical relation between two or more variables such that systematic changes in the value of one variable are accompanied by systematic changes in the others.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C48834"
+        },
+        {
+            "const": "network analysis",
+            "description": "A data transformation that takes as input data that describes biological networks in terms of the node (a.k.a. vertex) and edge graph elements and their characteristics and generates as output properties of the constituent nodes and edges, the sub-graphs, and the entire network.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0200080"
+        },
+        {
+            "const": "purity",
+            "description": "A quantitative assessment of the homogeneity or uniformity of a mixture. Alternatively, purity refers to the degree of being free of contaminants or heterogeneous components",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C62352"
+        },
+        {
+            "const": "dose response study",
+            "description": "A study of the effect of dose changes on the efficacy of a drug in order to determine the dose-response relationship and optimal dose of a therapy.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C127803"
+        },
+        {
+            "const": "assessment",
+            "description": "The final result of a determination of the value, significance, or extent of.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25217"
+        },
+        {
+            "const": "quality control",
+            "description": "A technique used to ensure a certain level of quality in a product or service.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0001219"
+        },
+        {
+            "const": "comparison",
+            "description": "The examination of two or more people or things in order to detect similarities and differences.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C49156"
+        },
+        {
+            "const": "data normalization",
+            "description": "",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015"
+        },
+        {
+            "const": "genotypeAncestry",
+            "description": "model genetic ancestry from SNP data",
+            "source": "http://www.compgen.pitt.edu/GemTools/GemTools.htm"
+        },
+        {
+            "const": "search engine output files",
+            "description": "These files contain the data and metadata generated by the software (called search engines) used for performing the identification and quantification of peptides and proteins.",
+            "source": "https://web.archive.org/web/20191213022828/https://www.ebi.ac.uk/training/online/course/proteomexchange-submissions-pride/how-submit-data-proteomexchange-pride/proteomics-data-forma"
+        }
+    ]
+}
+

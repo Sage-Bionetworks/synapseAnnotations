@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-immunoAssays.chromatinAmount-0.0.1",
+    "description": "Amount in ug of chromatin used for an assay",
+    "type": "number"
+}
+

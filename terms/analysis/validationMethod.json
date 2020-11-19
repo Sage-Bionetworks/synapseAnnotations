@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.validationMethod-0.0.1",
+    "description": "Method to test targeted sequence level hypothesis.",
+    "anyOf": [
+        {
+            "const": "CRISPR-Cas9",
+            "description": "Genome manipulation technique to incorporate or delete arbitrary sequence features into germline cells.",
+            "source": "http://science.sciencemag.org/content/346/6213/1258096.full"
+        },
+        {
+            "const": "RNAi",
+            "description": "The process in which double-stranded RNAs silence cognate genes. Involves posttranscriptional gene inactivation ('silencing') both of transgenes or dsRNA introduced into a germline, and of the host gene(s) homologous to the transgenes or dsRNA. This silencing is triggered by the introduction of transgenes or double-stranded RNA (dsRNA), and can occur through a specific decrease in the level of mRNA, or by negative regulation of translation, of both host genes and transgenes.",
+            "source": "http://purl.obolibrary.org/obo/GO_0016246"
+        },
+        {
+            "const": "shRNA",
+            "description": "Short hairpin RNA (shRNA) can be used to achieve stable knockdown of gene expression. shRNA molecules are cloned into lentiviral or other vectors and expressed by a pol III type promoter.",
+            "source": "http://www.bioassayontology.org/bao#BAO_0000323"
+        }
+    ]
+}
+

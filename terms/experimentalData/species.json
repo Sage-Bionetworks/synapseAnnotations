@@ -1,0 +1,48 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.species-0.0.1",
+    "description": "The name of a species (typically a taxonomic group) of organism.",
+    "anyOf": [
+        {
+            "const": "Human",
+            "description": "Homo sapiens with taxonomy ID: 9606 and Genbank common name: human",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9606&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Mouse",
+            "description": "Mus musculus with taxonomy ID: 10090 and Genbank common name: house mouse",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10090&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Rat",
+            "description": "Rattus with taxonomy ID: 10114 and inherited blast name: rodents",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=10114&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Drosophila melanogaster",
+            "description": "Drosophila melanogaster with taxonomy ID: 7227 and Genbank common name: fruit fly",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=7227&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Rhesus macaque",
+            "description": "Macaca mulatta with taxonomy ID: 9544 and Genbank common name: Rhesus monkey",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9544&lvl=3&p=has_linkout&p=blast_url&p=genome_blast&p=mapview&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Pan troglodytes",
+            "description": "Pan troglodytes with taxonomy ID: 9598 and Genbank common name: chimpanzee",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9598&lvl=3&lin=f&keep=1&srchmode=1&unlock"
+        },
+        {
+            "const": "Gallus gallus",
+            "description": "The common domestic fowl, Chicken.",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9031"
+        },
+        {
+            "const": "Sus scrofa",
+            "description": "Sus scrofa with taxonomy ID: 9823 and Genbank common name: pig",
+            "source": "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&id=9823"
+        }
+    ]
+}
+

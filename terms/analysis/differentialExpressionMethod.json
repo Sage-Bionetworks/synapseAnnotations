@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.differentialExpressionMethod-0.0.1",
+    "description": "Method used to test for differentially expressed genes or isoforms.",
+    "anyOf": [
+        {
+            "const": "limma",
+            "description": "Data analysis, linear models and differential expression for microarray data.",
+            "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000593"
+        },
+        {
+            "const": "sleuth",
+            "description": "Differential expression analysis incorporating quantification uncertainty.",
+            "source": "https://www.nature.com/articles/nmeth.4324"
+        },
+        {
+            "const": "Cuffdiff 2",
+            "description": "Differential expression analysis of transcripts.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3869392/"
+        },
+        {
+            "const": "edgeR",
+            "description": "Estimation and Testing for Differential Expression in Multiple Digital Gene Expression Libraries.",
+            "source": "http://www.ebi.ac.uk/efo/swo/SWO_0000527"
+        },
+        {
+            "const": "DESeq2",
+            "description": "A method for differential analysis of count data, using shrinkage estimation for dispersions and fold changes.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4302049/"
+        }
+    ]
+}
+

@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-analysis.transcriptQuantificationMethod-0.0.1",
+    "description": "Method for quantifying abundance of transcript expression.",
+    "anyOf": [
+        {
+            "const": "kallisto",
+            "description": "Alignment free quantification method for transcripts.",
+            "source": "https://www.nature.com/articles/nbt.3519"
+        },
+        {
+            "const": "RSEM",
+            "description": "Transcript qunatification without a reference genome.",
+            "source": "https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-12-323"
+        },
+        {
+            "const": "featureCounts",
+            "description": "A method for assigning sequence reads to genomic features.",
+            "source": "https://www.ncbi.nlm.nih.gov/pubmed/24227677"
+        },
+        {
+            "const": "bedtools multicov",
+            "description": "Reports the count of alignments from multiple position-sorted and indexed BAM files that overlap intervals in a BED file.",
+            "source": "http://bedtools.readthedocs.io/en/latest/content/tools/multicov.html"
+        }
+    ]
+}
+
