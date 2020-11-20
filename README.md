@@ -51,8 +51,13 @@ purposes.
 ## What's to come
 
 To use these terms, HTAN and other projects that use
-[schematic](https://github.com/sage-bionetworks/schematic) will need to generate...
-[milen can you fill this in?]
+[schematic](https://github.com/sage-bionetworks/schematic): schematic will soon 
+support exporting terms from json-ld data models to JSON schema objects in the format 
+required here. Once exported, these objects can be committed to the Synapse annotations 
+vocabulary following the standard term submission process outlined here. 
+We are working hard on documenting the export feature in schematic and will link 
+to it here when ready.
+
 
 Over time we will add terms to the vocabulary, and change existing terms. The
 terms are versioned, and each time a term is changed we will update the version
