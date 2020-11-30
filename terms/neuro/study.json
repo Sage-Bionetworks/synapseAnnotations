@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.1",
+    "$id": "sage.annotations-neuro.study-0.0.2",
     "description": "",
     "anyOf": [
         {
@@ -305,7 +305,7 @@
         },
         {
             "const": "JAX_APPPS1",
-            "description": "The JAX_APPPS1study - A mouse model of early onset AD",
+            "description": "The JAX_APPPS1study - A mouse model of early onset AD -- now refered to as the Jax.IU.Pitt_APP.PS1 study",
             "source": "https://www.synapse.org/#!Synapse:syn9850001"
         },
         {
@@ -400,8 +400,8 @@
         },
         {
             "const": "MODEL-AD_APPPS1",
-            "description": "MODEL-AD APP/PS1 Study",
-            "source": "https://www.synapse.org/#!Synapse:syn18633019"
+            "description": "MODEL-AD APP/PS1 Study -- now referred to as Jax.IU.Pitt_APP.PS1 study",
+            "source": "https://www.synapse.org/#!Synapse:syn9850001"
         },
         {
             "const": "MODEL-AD_Ceacam_KO_APOE4_Trem2",
@@ -442,6 +442,81 @@
             "const": "MODEL-AD_Trem2_R47H",
             "description": "MODEL-AD Trem2 R47H Study",
             "source": "https://www.synapse.org/#!Synapse:syn18634477"
+        },
+        {
+            "const": "SMIB-AD",
+            "description": "The Somatic Mutations in Brains of Alzheimer's Disease (SMIB-AD) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn22278344"
+        },
+        {
+            "const": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
+            "description": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
+            "source": "https://www.synapse.org/#!Synapse:syn22313528"
+        },
+        {
+            "const": "TWAS",
+            "description": "Transcriptome-Wide Association Study (TWAS) in Alzheimer's Disease",
+            "source": "https://www.synapse.org/#!Synapse:syn22313785"
+        },
+        {
+            "const": "UCI_Microbiome",
+            "description": "UCI_Microbiome",
+            "source": "https://www.synapse.org/#!Synapse:syn22341542"
+        },
+        {
+            "const": "Jax.IU.Pitt_MicrobiomePilot",
+            "description": "Jax.IU.Pitt_MicrobiomePilot",
+            "source": "https://www.synapse.org/#!Synapse:syn22341543"
+        },
+        {
+            "const": "ROSMAP_nucleus_hashing",
+            "description": "The ROSMAP nucleus hashing study",
+            "source": "https://www.synapse.org/#!Synapse:syn22391827"
+        },
+        {
+            "const": "ROSMAP_SynapticResilience",
+            "description": "The ROSMAP_SynapticResilience study",
+            "source": "https://www.synapse.org/#!Synapse:syn22695346"
+        },
+        {
+            "const": "UCI_3xTg-AD",
+            "description": "The UCI_3xTg-AD study",
+            "source": "https://www.synapse.org/#!Synapse:syn22964685"
+        },
+        {
+            "const": "diseasePseudotime",
+            "description": "The diseasePseudotime study",
+            "source": "https://www.synapse.org/#!Synapse:syn22822673"
+        },
+        {
+            "const": "MOA-PAD",
+            "description": "Multi-omic analyses of psychosis in Alzheimer's disease",
+            "source": "https://www.synapse.org/#!Synapse:syn23538600"
+        },
+        {
+            "const": "RADEL",
+            "description": "The Resilience to Alzheimer Disease in Humans with Exceptional Longevity (RADEL) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn23540132"
+        },
+        {
+            "const": "ROSMAP-IN",
+            "description": "The ROSMAP-iPSC derived induced neurons (ROSMAP-IN) genomic data study",
+            "source": "https://www.synapse.org/#!Synapse:syn23564891"
+        },
+        {
+            "const": "DukeAD_PTSD",
+            "description": "The Duke Study of Shared Genetic, Epigenetic, and Transcriptomic Profiles Between AD and PTSD study",
+            "source": "https://www.synapse.org/#!Synapse:syn23564891"
+        },
+        {
+            "const": "miR155",
+            "description": "miR155 regulation of behavior, neuropathology, and cortical transcriptomics in Alzheimer Disease",
+            "source": "https://www.synapse.org/#!Synapse:syn22238772"
+        },
+        {
+            "const": "Jax.IU.Pitt_APP.PS1",
+            "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD APP/PS1 and JAX_APPPS1",
+            "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }
     ]
 }
