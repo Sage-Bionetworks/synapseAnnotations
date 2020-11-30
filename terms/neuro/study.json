@@ -506,7 +506,7 @@
         {
             "const": "DukeAD_PTSD",
             "description": "The Duke Study of Shared Genetic, Epigenetic, and Transcriptomic Profiles Between AD and PTSD study",
-            "source": "https://www.synapse.org/#!Synapse:syn23564891"
+            "source": "https://www.synapse.org/#!Synapse:syn23585917"
         },
         {
             "const": "miR155",
