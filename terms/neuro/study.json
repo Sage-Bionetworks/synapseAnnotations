@@ -515,7 +515,7 @@
         },
         {
             "const": "Jax.IU.Pitt_APP.PS1",
-            "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD APP/PS1 and JAX_APPPS1",
+            "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD_APPPS1 and JAX_APPPS1",
             "source": "https://www.synapse.org/#!Synapse:syn9850001"
         }
     ]
