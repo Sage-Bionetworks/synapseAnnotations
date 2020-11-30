@@ -304,11 +304,6 @@
             "source": "https://www.synapse.org/#!Synapse:syn8391648"
         },
         {
-            "const": "JAX_APPPS1",
-            "description": "The JAX_APPPS1study - A mouse model of early onset AD -- now refered to as the Jax.IU.Pitt_APP.PS1 study",
-            "source": "https://www.synapse.org/#!Synapse:syn9850001"
-        },
-        {
             "const": "SY5Y_Emory",
             "description": "APP/TAU transduced SY5Y cells",
             "source": "https://www.synapse.org/#!Synapse:syn8513284"
@@ -397,11 +392,6 @@
             "const": "MODEL-AD_APOE4_Trem2",
             "description": "MODEL-AD APOE4/Trem2*R47H Study",
             "source": "https://www.synapse.org/#!Synapse:syn17095980"
-        },
-        {
-            "const": "MODEL-AD_APPPS1",
-            "description": "MODEL-AD APP/PS1 Study -- now referred to as Jax.IU.Pitt_APP.PS1 study",
-            "source": "https://www.synapse.org/#!Synapse:syn9850001"
         },
         {
             "const": "MODEL-AD_Ceacam_KO_APOE4_Trem2",
