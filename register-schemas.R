@@ -29,7 +29,7 @@ register_schema <- function(file) {
 
 # Register terms ---------------------------------------------------------------
 
-term_files <- dir_ls(here("terms"), regexp = "*\\.json", recurse = TRUE)
+term_files <- dir_ls(here("terms"), regexp = "*\\.json", recurse = 1)
 
 ## Register each mini-schema
 walk(term_files, register_schema)
