@@ -114,13 +114,23 @@
       "type": "boolean"
     },
     "required": [
-      "consortium", "mHealth", "dataAccessInstructions", "dataCollectionMethod",
-      "deviceType", "dhPortalIndex", "diagnosis", "digitalAssessmentCategory",
-      "numberParticipants", "study", "dataDescriptionLocation", "dataType",
-      "dataSubtype", "collectionType", "isDHProject", "keywords", "resourceType",
-      "studyDescription", "studyDescriptionLocation", "inputDataType",
-      "outputDataType", "softwareAuthor", "softwareName", "softwareLanguage",
-      "softwareType", "packagePlatform", "softwareRepository", "summary",
+      "consortium",
+      "dataAccessInstructions",
+      "dataCollectionMethod",
+      "deviceType",
+      "dhPortalIndex",
+      "diagnosis",
+      "numberParticipants",
+      "study",
+      "dataDescriptionLocation",
+      "dataType",
+      "dataSubtype",
+      "collectionType",
+      "isDHProject",
+      "keywords",
+      "resourceType",
+      "studyDescription",
+      "studyDescriptionLocation",
       "digitalAssessmentCategory"
     ],
     "allOf": [
@@ -130,11 +140,22 @@
             "resourceType": {
               "const": "tool"
             }
-          }
+          },
+          "required": "resourceType"
         },
         "then": {
           "required": [
-            "url"
+            "inputDataType",
+            "outputDataType",
+            "url",
+            "softwareAuthor",
+            "softwareName",
+            "softwareLanguage",
+            "softwareType",
+            "packagePlatform",
+            "softwareRepository",
+            "summary",
+            "digitalAssessmentCategory"
           ]
         }
       },
