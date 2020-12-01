@@ -1,0 +1,197 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.digitalAssessmentCategory-0.0.1",
+    "anyOf": [
+        {
+            "const": "action tremor",
+            "description": "A tremor present when the limbs are active, either when outstretched in a certain position or throughout a voluntary movement.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002345"
+        },
+        {
+            "const": "motor coordination",
+            "description": "The combination of body movements created with the kinematic (such as spatial direction) and kinetic (force) parameters that result in intended actions.",
+            "source": null
+        },
+        {
+            "const": "participant engagement",
+            "description": "Degree of commitment and participation of a study subject.",
+            "source": null
+        },
+        {
+            "const": "phonation",
+            "description": "The process of producing vocal sounds by vibration of the vocal cords during an expiration of air.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C92447"
+        },
+        {
+            "const": "physical activity",
+            "description": "A measurement of a subject's physical activity or movement.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C120914"
+        },
+        {
+            "const": "postural tremor",
+            "description": "A type of tremors that is triggered by holding a limb in a fixed position.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002174"
+        },
+        {
+            "const": "quality of life",
+            "description": "The standard of health, comfort, well-being, and happiness experienced by an individual or group.",
+            "source": null
+        },
+        {
+            "const": "respiratory",
+            "description": "Relating to the respiratory system.",
+            "source": null
+        },
+        {
+            "const": "resting tremor",
+            "description": "A resting tremor occurs when muscles are at rest and becomes less noticeable or disappears when the affected muscles are moved. Resting tremors are often slow and coarse.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002322"
+        },
+        {
+            "const": "skin color",
+            "description": "Color or darkness/lightness of skin.",
+            "source": null
+        },
+        {
+            "const": "sleep",
+            "description": "Related to the natural and periodic state of rest during which consciousness of the world is suspended.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C73425"
+        },
+        {
+            "const": "cardiorespiratory fitness",
+            "description": "The ability of the heart and lungs to deliver blood and oxygen to the tissues during aerobic activity. It is a general measure of the relative conditioning of the heart and respiratory system.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C88164"
+        },
+        {
+            "const": "action tremor",
+            "description": "A tremor present when the limbs are active, either when outstretched in a certain position or throughout a voluntary movement.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002345"
+        },
+        {
+            "const": "cardiorespiratory fitness",
+            "description": "The ability of the heart and lungs to deliver blood and oxygen to the tissues during aerobic activity. It is a general measure of the relative conditioning of the heart and respiratory system.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C88164"
+        },
+        {
+            "const": "cardiovascular",
+            "description": "Relating to the heart and blood vescles.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25292"
+        },
+        {
+            "const": "cognition",
+            "description": "The mental processes involved in gaining knowledge and comprehension. Cognitive processes include thinking, knowing, remembering, judging, and problem-solving. These are higher-level functions of the brain and encompass language, imagination, perception, and planning.",
+            "source": null
+        },
+        {
+            "const": "dermatologic phenotype",
+            "description": "Traits involving the skin, hair and/or nails.",
+            "source": null
+        },
+        {
+            "const": "gait",
+            "description": "A pattern or manner of running, walking, or moving on foot.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C75445"
+        },
+        {
+            "const": "mental health",
+            "description": "Emotional, psychological, and social well-being of an individual or group.",
+            "source": null
+        },
+        {
+            "const": "mobility",
+            "description": "The ability to move or be moved freely and easily.",
+            "source": null
+        },
+        {
+            "const": "mood",
+            "description": "A relatively temporary state of feeling.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C72883"
+        },
+        {
+            "const": "motor coordination",
+            "description": "The combination of body movements created with the kinematic (such as spatial direction) and kinetic (force) parameters that result in intended actions.",
+            "source": null
+        },
+        {
+            "const": "cardiovascular",
+            "description": "Relating to the heart and blood vescles.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25292"
+        },
+        {
+            "const": "participant engagement",
+            "description": "Degree of commitment and participation of a study subject.",
+            "source": null
+        },
+        {
+            "const": "phonation",
+            "description": "The process of producing vocal sounds by vibration of the vocal cords during an expiration of air.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C92447"
+        },
+        {
+            "const": "physical activity",
+            "description": "A measurement of a subject's physical activity or movement.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C120914"
+        },
+        {
+            "const": "postural tremor",
+            "description": "A type of tremors that is triggered by holding a limb in a fixed position.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002174"
+        },
+        {
+            "const": "quality of life",
+            "description": "The standard of health, comfort, well-being, and happiness experienced by an individual or group.",
+            "source": null
+        },
+        {
+            "const": "respiratory",
+            "description": "Relating to the respiratory system.",
+            "source": null
+        },
+        {
+            "const": "resting tremor",
+            "description": "A resting tremor occurs when muscles are at rest and becomes less noticeable or disappears when the affected muscles are moved. Resting tremors are often slow and coarse.",
+            "source": "http://purl.obolibrary.org/obo/HP_0002322"
+        },
+        {
+            "const": "skin color",
+            "description": "Color or darkness/lightness of skin.",
+            "source": null
+        },
+        {
+            "const": "sleep",
+            "description": "Related to the natural and periodic state of rest during which consciousness of the world is suspended.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C73425"
+        },
+        {
+            "const": "cognition",
+            "description": "The mental processes involved in gaining knowledge and comprehension. Cognitive processes include thinking, knowing, remembering, judging, and problem-solving. These are higher-level functions of the brain and encompass language, imagination, perception, and planning.",
+            "source": null
+        },
+        {
+            "const": "dermatologic phenotype",
+            "description": "Traits involving the skin, hair and/or nails.",
+            "source": null
+        },
+        {
+            "const": "gait",
+            "description": "A pattern or manner of running, walking, or moving on foot.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C75445"
+        },
+        {
+            "const": "mental health",
+            "description": "Emotional, psychological, and social well-being of an individual or group.",
+            "source": null
+        },
+        {
+            "const": "mobility",
+            "description": "The ability to move or be moved freely and easily.",
+            "source": null
+        },
+        {
+            "const": "mood",
+            "description": "A relatively temporary state of feeling.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C72883"
+        }
+    ]
+}
+

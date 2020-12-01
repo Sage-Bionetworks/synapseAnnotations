@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.outputDataType-0.0.1",
+    "anyOf": [
+        {
+            "const": "accelerometer features",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "gyroscope features",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "heart rate",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "sensor features",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "tapping features",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "tremor features",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "walk features",
+            "description": null,
+            "source": null
+        }
+    ]
+}
+

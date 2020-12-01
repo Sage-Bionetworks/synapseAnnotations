@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.devicePlatform-0.0.1",
+    "anyOf": [
+        {
+            "const": "Android",
+            "description": "touchscreen and wearable mobile devices such as smartphones, tablets and smartwatches running Android software",
+            "source": null
+        },
+        {
+            "const": "Windows",
+            "description": "Device running Windows platform manufactured by Microsoft, which could include PCs, phones, gaming systems and more.",
+            "source": null
+        },
+        {
+            "const": "Fitbit",
+            "description": "activity trackers, smartwatches, wearable technology devices manufactured by Fitbit",
+            "source": null
+        },
+        {
+            "const": "GENEActiv",
+            "description": "wearable devices manufactured by Activinsights",
+            "source": null
+        },
+        {
+            "const": "iOS",
+            "description": "phones, tablets and wearables manufacturered by Apple",
+            "source": null
+        },
+        {
+            "const": "OSX",
+            "description": "A plane horizontal surface such as a table, desk or counter top",
+            "source": null
+        },
+        {
+            "const": "Pantone",
+            "description": "Device manufactured by Pantone, cheifly spectrocolorimeters.",
+            "source": null
+        },
+        {
+            "const": "Pebble OS",
+            "description": "wearable device manufactured by Pebble Technology Corporation",
+            "source": null
+        },
+        {
+            "const": "Polar",
+            "description": "activity trackers, heartrate monitors, smartwatches, wearable technology devices manufactured by Polar Electro",
+            "source": null
+        },
+        {
+            "const": "Shimmer",
+            "description": "wearable sensors manufactured by Shimmer",
+            "source": null
+        }
+    ]
+}
+

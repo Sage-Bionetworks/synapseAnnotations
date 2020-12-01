@@ -1,7 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-sageCommunity.resourceType-0.0.2",
-    "description": "The type of resource being stored and annotated",
+    "$id": "sage.annotations-dhealth.resourceType-0.0.1",
     "anyOf": [
         {
             "const": "experimentalData",
@@ -29,9 +28,9 @@
             "source": "http://purl.obolibrary.org/obo/IAO_0000088"
         },
         {
-          "const": "challenge",
-          "description": "A collaborative data analysis in the form of an open community challenge.",
-          "source": null
+            "const": "challenge",
+            "description": "A collaborative data analysis in the form of an open community challenge.",
+            "source": null
         }
     ]
 }

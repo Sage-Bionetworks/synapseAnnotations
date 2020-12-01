@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.collectionType-0.0.1",
+    "anyOf": [
+        {
+            "const": "Observational Study",
+            "description": "An observational study is a quantitative study in which the investigators do not seek to intervene, and simply observe the course of events.",
+            "source": "http://purl.org/net/OCRe/research.owl#Observational_study"
+        },
+        {
+            "const": "Interventional Study",
+            "description": "An interventional study is a quantitative study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes. Interventions include but are not restricted to drugs, cells and other biological products, surgical procedures, radiologic procedures, devices, behavioural treatments, process-of-care changes, preventive care, etc.",
+            "source": "http://purl.org/net/OCRe/research.owl#Interventional_study"
+        },
+        {
+            "const": "Validation Study",
+            "description": "A validation study is a quantitative study that seeks to assess the validity of a measurement against a \"gold standard\" or reproduce previous findings.",
+            "source": null
+        },
+        {
+            "const": "Analysis",
+            "description": "Derivation of features or findings from a study or experiment.",
+            "source": null
+        },
+        {
+            "const": "Challenge",
+            "description": "Crowd-sourced effort to benchmark analysis methods.",
+            "source": null
+        }
+    ]
+}
+

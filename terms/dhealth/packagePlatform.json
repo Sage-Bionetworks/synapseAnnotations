@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.packagePlatform-0.0.1",
+    "anyOf": [
+        {
+            "const": "Android",
+            "description": "Touchscreen and wearable mobile devices such as smartphones, tablets and smartwatches running Android software",
+            "source": null
+        },
+        {
+            "const": "iOS",
+            "description": "Phones, tablets and wearables manufacturered by Apple",
+            "source": null
+        },
+        {
+            "const": "Windows",
+            "description": "Device running Windows platform manufactured by Microsoft.",
+            "source": null
+        },
+        {
+            "const": "OSX",
+            "description": "Operating system for Apple computer and laptop devices.",
+            "source": null
+        },
+        {
+            "const": "Linux",
+            "description": "Linux is a family of open source Unix-like operating systems based on the Linux kernel, an operating system kernel first released on September 17, 1991.",
+            "source": null
+        }
+    ]
+}
+

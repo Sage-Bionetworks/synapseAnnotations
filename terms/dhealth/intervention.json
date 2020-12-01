@@ -1,0 +1,12 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.intervention-0.0.1",
+    "anyOf": [
+        {
+            "const": "levodopa",
+            "description": "Medical treatment which is a precursor to dopamine. Most commonly, clinicians use levodopa as a dopamine replacement agent for the treatment of Parkinson disease.",
+            "source": null
+        }
+    ]
+}
+

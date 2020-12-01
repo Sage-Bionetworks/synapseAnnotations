@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.deviceLocation-0.0.1",
+    "anyOf": [
+        {
+            "const": "back",
+            "description": "The dorsal area between the base of the neck and the sacrum.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C13062"
+        },
+        {
+            "const": "waist",
+            "description": "The abdominal circumference at the navel.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C64192"
+        },
+        {
+            "const": "wrist",
+            "description": "Narrow region between the hand and the forearm",
+            "source": null
+        },
+        {
+            "const": "chest",
+            "description": "The anterior side of the thorax from the neck to the abdomen.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25389"
+        },
+        {
+            "const": "face",
+            "description": "The anterior portion of the head extending from the forehead to the chin and ear to ear. The facial structures contain the eyes, nose and mouth, cheeks and jaws.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C13071"
+        },
+        {
+            "const": "finger",
+            "description": "Any of the digits of the hand.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C32608"
+        },
+        {
+            "const": "flat surface",
+            "description": "A plane horizontal surface such as a table, desk or counter top",
+            "source": null
+        },
+        {
+            "const": "forearm",
+            "description": "The structure on the upper limb, between the elbow and the wrist.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C32628"
+        },
+        {
+            "const": "hand",
+            "description": "The distal portion of the upper extremity. It consists of the carpus, metacarpus, and digits.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C32712"
+        },
+        {
+            "const": "pocket",
+            "description": "a small bag sewn into or on clothing so as to form part of it, used for carrying small articles",
+            "source": null
+        },
+        {
+            "const": "shank",
+            "description": "Lower leg, between the knee and ankle.",
+            "source": null
+        }
+    ]
+}
+

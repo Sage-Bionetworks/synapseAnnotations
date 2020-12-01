@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.metadataType-0.0.1",
+    "anyOf": [
+        {
+            "const": "assessment",
+            "description": "Metadata describing the properties of a clinical or digital health assessment.",
+            "source": null
+        },
+        {
+            "const": "data dictionary",
+            "description": "Metadata describing terms or variables that appear in another file.",
+            "source": null
+        },
+        {
+            "const": "experiment",
+            "description": "Metadata describing an experiment or study such as a protocol, assessment description, etc.",
+            "source": null
+        },
+        {
+            "const": "individual",
+            "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
+            "source": null
+        },
+        {
+            "const": "sensor",
+            "description": "Metadata describing the properties of a sensor or device used during a study.",
+            "source": null
+        }
+    ]
+}
+

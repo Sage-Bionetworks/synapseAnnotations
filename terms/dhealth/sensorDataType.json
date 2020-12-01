@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.sensorDataType-0.0.1",
+    "anyOf": [
+        {
+            "const": "processed",
+            "description": "Data that has undergone some processing procedure. Not fully raw.",
+            "source": null
+        },
+        {
+            "const": "raw",
+            "description": "Unprocessed data from a sensor.",
+            "source": null
+        }
+    ]
+}
+

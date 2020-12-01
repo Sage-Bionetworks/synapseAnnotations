@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.study-0.0.1",
+    "anyOf": [
+        {
+            "const": "mPower Mobile Parkinson Disease Study",
+            "description": "mPower Mobile Parkinson Disease Study",
+            "source": null
+        },
+        {
+            "const": "Participant Retention in Digital Health Studies",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "SleepHealth Mobile App Study",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "Mole Mapper Study",
+            "description": "Mole Mapper Study",
+            "source": null
+        },
+        {
+            "const": "Asthma Mobile Health Study",
+            "description": "Asthma Mobile Health Study",
+            "source": null
+        },
+        {
+            "const": "elevateMS Study",
+            "description": "elevateMS Study",
+            "source": null
+        },
+        {
+            "const": "Heart Snapshot Study",
+            "description": "Heart Snapshot Study",
+            "source": null
+        },
+        {
+            "const": "MyHeart Counts Cardiovascular Health Study",
+            "description": "MyHeart Counts Cardiovascular Health Study",
+            "source": null
+        },
+        {
+            "const": "MJFF Levodopa Response Study",
+            "description": "MJFF Levodopa Response Study",
+            "source": null
+        },
+        {
+            "const": "Brighten Study",
+            "description": "Brighten Study",
+            "source": null
+        },
+        {
+            "const": "Parkinsons Disease Digital Biomarker (PDDB) DREAM Challenge",
+            "description": null,
+            "source": null
+        }
+    ]
+}
+

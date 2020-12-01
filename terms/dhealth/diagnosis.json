@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.diagnosis-0.0.1",
+    "anyOf": [
+        {
+            "const": "asthma",
+            "description": "A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors. The disease has_symptom recurring periods of wheezing (a whistling sound while breathing), has_symptom chest tightness, has_symptom shortness of breath, has_symptom mucus production and has_symptom coughing. The symptoms appear due to a variety of triggers such as allergens, irritants, respiratory infections, weather changes, exercise, stress, reflux disease, medications, foods and emotional anxiety.",
+            "source": "http://purl.obolibrary.org/obo/DOID_2841"
+        },
+        {
+            "const": "control",
+            "description": "An individual who is or becomes a participant in a research study and has no significant health-related issues related to the study at hand.",
+            "source": null
+        },
+        {
+            "const": "depression",
+            "description": "Low mood and/or loss of interest or pleasure in normally enjoyable activities.",
+            "source": null
+        },
+        {
+            "const": "endometriosis",
+            "description": "A female reproductive system disease characterized by the growth of endometrial tissue outside the uterine body.",
+            "source": "http://purl.obolibrary.org/obo/DOID_289"
+        },
+        {
+            "const": "melanoma",
+            "description": "A cell type cancer that has_material_basis_in abnormally proliferating cells derives_from melanocytes which are found in skin, the bowel and the eye.",
+            "source": "http://purl.obolibrary.org/obo/DOID_1909"
+        },
+        {
+            "const": "multiple sclerosis",
+            "description": "A demyelinating disease that involves damage to the fatty myelin sheaths around the axons of the brain and spinal cord resulting in demyelination and scarring.",
+            "source": "http://purl.obolibrary.org/obo/DOID_2377"
+        },
+        {
+            "const": "Parkinson's Disease",
+            "description": "A synucleinopathy that has_material_basis_in degeneration of the central nervous system that often impairs motor skills, speech, and other functions.",
+            "source": "http://purl.obolibrary.org/obo/DOID_14330"
+        },
+        {
+            "const": "sleep related disorder",
+            "description": "An abnormality of sleep which may such phenomena as insomnia/hypersomnia, non-restorative sleep, sleep schedule disorder, excessive daytime somnolence, sleep apnea, and/or restlessness.",
+            "source": null
+        }
+    ]
+}
+

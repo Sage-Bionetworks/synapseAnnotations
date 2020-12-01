@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.sensorType-0.0.1",
+    "anyOf": [
+        {
+            "const": "accelerometer",
+            "description": "sensor that measures acceleration",
+            "source": null
+        },
+        {
+            "const": "spectrocolorimeter",
+            "description": "instrument that characterizes color",
+            "source": null
+        },
+        {
+            "const": "touchscreen",
+            "description": "touchscreen on a phone, tablet, watch or similar device",
+            "source": null
+        },
+        {
+            "const": "camera",
+            "description": "camera or other image sensor",
+            "source": null
+        },
+        {
+            "const": "gps",
+            "description": "global positioning system to measure the location on the earth's surface",
+            "source": null
+        },
+        {
+            "const": "gyroscope",
+            "description": "sensor that measures  orientation and angular velocity",
+            "source": null
+        },
+        {
+            "const": "magnetometer",
+            "description": "sensor that measures the strength and/or direction of the magnetic field",
+            "source": null
+        },
+        {
+            "const": "microphone",
+            "description": "sensor that measures sound",
+            "source": null
+        },
+        {
+            "const": "oximeter",
+            "description": "an instrument for measuring the proportion of oxygenated hemoglobin in the blood",
+            "source": null
+        },
+        {
+            "const": "pedometer",
+            "description": "instrument for estimating the distance traveled on foot by recording the number of steps taken",
+            "source": null
+        },
+        {
+            "const": "photosensor",
+            "description": "sensors of light or other electromagnetic radiation",
+            "source": null
+        }
+    ]
+}
+

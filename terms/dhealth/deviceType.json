@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.deviceType-0.0.1",
+    "anyOf": [
+        {
+            "const": "handheld",
+            "description": "handheld device such as a phone or tablet",
+            "source": null
+        },
+        {
+            "const": "wearable",
+            "description": "wearable device such as a smartwatch, fitbit, adhesive sensor, etc",
+            "source": null
+        }
+    ]
+}
+

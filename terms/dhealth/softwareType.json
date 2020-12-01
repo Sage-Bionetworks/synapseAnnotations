@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.softwareType-0.0.1",
+    "anyOf": [
+        {
+            "const": "script",
+            "description": "A software script is software whose instructions can be executed using a software interpreter.",
+            "source": "http://semanticscience.org/resource/SIO_000103"
+        },
+        {
+            "const": "software package",
+            "description": "A package of software functions and tools.",
+            "source": null
+        },
+        {
+            "const": "container",
+            "description": "Docker or other container containing software and environment information for running software.",
+            "source": null
+        },
+        {
+            "const": "web application",
+            "description": "A computer application that requires with an active internet connection and that uses HTTP as its primary communications protocol.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C172305"
+        },
+        {
+            "const": "mobile application",
+            "description": "An application designed specifically for use on a smartphone, tablet, smartwatch, or other mobile device.",
+            "source": null
+        }
+    ]
+}
+

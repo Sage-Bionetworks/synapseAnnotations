@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.dataType-0.0.1",
+    "anyOf": [
+        {
+            "const": "clinical",
+            "description": "Data obtained through patient examination or treatment.",
+            "source": null
+        },
+        {
+            "const": "sensor",
+            "description": "Data obtained from a device sensor.",
+            "source": null
+        },
+        {
+            "const": "surveyData",
+            "description": "A data set that contains the outcome of a survey or by questioning a study subject or their proxy.",
+            "source": null
+        },
+        {
+            "const": "analysis",
+            "description": "Any aggregation or summarization of data",
+            "source": null
+        }
+    ]
+}
+

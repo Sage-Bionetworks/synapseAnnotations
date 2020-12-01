@@ -1,0 +1,277 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.reportedOutcome-0.0.1",
+    "anyOf": [
+        {
+            "const": "activity report",
+            "description": "A report describing the amount or quality of activities performed.",
+            "source": null
+        },
+        {
+            "const": "diabetes",
+            "description": "A report describing diabetes diagnoses, symptoms or related phenotypes.",
+            "source": null
+        },
+        {
+            "const": "diet survey",
+            "description": "A report describing characteristics of food consumed.",
+            "source": null
+        },
+        {
+            "const": "disease risk",
+            "description": "A report assessing risk for a particular disease.",
+            "source": null
+        },
+        {
+            "const": "distance",
+            "description": "A report of distance, usually related to a physical activity such as walking, running or biking.",
+            "source": null
+        },
+        {
+            "const": "dyskinesia",
+            "description": "A report describing dyskinesia, a movement disorder which consists of effects including diminished voluntary movements and the presence of involuntary movements.",
+            "source": "http://purl.obolibrary.org/obo/HP_0100660"
+        },
+        {
+            "const": "EQ-5D",
+            "description": "The EuroQol (European Quality of Life) Five Dimension questionaire, which asks a patient to rate their health with respect to mobility, self-care, usual activities, pain/discomfort and anxiety/depression.",
+            "source": "https://euroqol.org/"
+        },
+        {
+            "const": "family history",
+            "description": "Family history is a form of clinicaly history specifically about relevant aspects of genetic preconditions or family member's clinical history.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0000493"
+        },
+        {
+            "const": "fasting glucose",
+            "description": "A quantitative measurement of the amount of glucose present in a sample of blood, obtained from a source that has abstained from nutrition, typically at least 8 hours prior to the sample collection time.",
+            "source": "http://purl.obolibrary.org/obo/MAXO_0000569"
+        },
+        {
+            "const": "feedback survey",
+            "description": "A survey describing a subject's experience in a study.",
+            "source": null
+        },
+        {
+            "const": "followup survey",
+            "description": "A survey administered after the close of a study.",
+            "source": null
+        },
+        {
+            "const": "asthma management",
+            "description": "A report describing subject's management of asthma symptoms.",
+            "source": null
+        },
+        {
+            "const": "freezing of gait",
+            "description": "A report describing freezing of gait symptoms, a brief, episodic absence or marked reduction of forward progression of the feet despite the intention to walk.",
+            "source": "http://purl.obolibrary.org/obo/HP_0031825"
+        },
+        {
+            "const": "GAD-7",
+            "description": "Generalized Anxiety Disorder 7 Questionnaire, a seven item validated, self-reported questionnaire for screening, and assessing the severity of generalized anxiety disorder in clinical practice and research settings.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C103519"
+        },
+        {
+            "const": "heart age",
+            "description": "An assessment of risk for heart attack or stroke based on factors such as age, blood pressure, cholesterol, as well as lifestyle.",
+            "source": null
+        },
+        {
+            "const": "height",
+            "description": "The distance from the sole to the crown of the head with body standing on a flat surface and fully extended.",
+            "source": null
+        },
+        {
+            "const": "hypertension",
+            "description": "A report related to high blood pressure or chronic high blood pressure.",
+            "source": null
+        },
+        {
+            "const": "inclusion survey",
+            "description": "A survey to assess a subject's qualification for a study.",
+            "source": null
+        },
+        {
+            "const": "MDS-UPDRS",
+            "description": "Results of one or more sections of the The Movement Disorder Society version of the Unified Parkinson's Disease Rating Scale (MDS-UPDRS) assessment.",
+            "source": null
+        },
+        {
+            "const": "medical history",
+            "description": "A report about a subject's medical history.",
+            "source": null
+        },
+        {
+            "const": "medication report",
+            "description": "A report or log of medication intake.",
+            "source": null
+        },
+        {
+            "const": "mole diameter",
+            "description": "An assessment of mole size.",
+            "source": null
+        },
+        {
+            "const": "asthma symptoms",
+            "description": "A report describing the frequency, duration and/or quality of asthma symptoms.",
+            "source": null
+        },
+        {
+            "const": "mole location",
+            "description": "A report of mole location.",
+            "source": null
+        },
+        {
+            "const": "mole removal status",
+            "description": "A report about whether or not a mole has been surgically removed.",
+            "source": null
+        },
+        {
+            "const": "mood",
+            "description": "A report about a subject's mood or emotional state.",
+            "source": null
+        },
+        {
+            "const": "NeuroQOL-Cognition",
+            "description": "The subdomain of the Quality of Life in Neurological Disorders (Neuro-QoL) survey that assess perceived difficulties in cognitive abilities related to both executive function and general concerns.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C137842"
+        },
+        {
+            "const": "NeuroQOL-LowerExtremity",
+            "description": "The subdomain of the Quality of Life in Neurological Disorders (Neuro-QoL) survey that assess perceived difficulties in ability to carry out various activities involving digital, manual and reach-related functions, ranging from fine motor to self-care (activities of daily living).",
+            "source": "http://www.healthmeasures.net/images/neuro_qol/Neuro-QOL_User_Manual_v2_24Mar2015.pdf"
+        },
+        {
+            "const": "NeuroQOL-UpperExtremity",
+            "description": "The subdomain of the Quality of Life in Neurological Disorders (Neuro-QoL) survey that assess perceived difficulties in ability to carry out various activities involving the trunk region and increasing degrees of bodily movement, ambulation, balance or endurance.",
+            "source": "http://www.healthmeasures.net/images/neuro_qol/Neuro-QOL_User_Manual_v2_24Mar2015.pdf"
+        },
+        {
+            "const": "PAR-Q",
+            "description": "National Academy of Sports Medicine Physical Activity Readiness Questionaire.",
+            "source": "https://www.nasm.org/docs/default-source/PDF/nasm_par-q-(pdf-21k).pdf"
+        },
+        {
+            "const": "PDQ-8",
+            "description": "Parkinson's Disease Questionnaire, 8 question version.",
+            "source": "https://innovation.ox.ac.uk/outcome-measures/parkinsons-disease-questionnaire-pdq-39-pdq-8/"
+        },
+        {
+            "const": "phone usage",
+            "description": "A report about phone usage.",
+            "source": null
+        },
+        {
+            "const": "PHQ-2",
+            "description": "Patient Health Questionnaire-2, a 2-item scale used to screen for depression and anhedonia over the past 2 weeks. It is comprised of the first 2 items of the Patient Health Questionnaire-9.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C157728"
+        },
+        {
+            "const": "asthma triggers",
+            "description": "A report describing triggers of asthmatic symptoms.",
+            "source": null
+        },
+        {
+            "const": "PHQ-9",
+            "description": "Patient Health Questionnaire-9, a 9-item scale using each of the 9 DSM-IV criteria for depression with self-reported frequency of \"0\" (not at all) to \"3\" (nearly every day). One of the most widely used instruments to assess depression, PHQ-9 scores of 5, 10, 15, and 20 represent mild, moderate, moderately severe, and severe depression, respectively.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C103526"
+        },
+        {
+            "const": "physical activity",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "quality of life",
+            "description": "A non-specific report about subject quality of life.",
+            "source": null
+        },
+        {
+            "const": "relapses report",
+            "description": "A report describing a relapse event.",
+            "source": null
+        },
+        {
+            "const": "research interest",
+            "description": "A report about the study participant and their interest in participating in research studies.",
+            "source": null
+        },
+        {
+            "const": "resting heart rate",
+            "description": "Heart rate measurement while a subject is at rest.",
+            "source": null
+        },
+        {
+            "const": "Sheehan Disability Scale (SDS)",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "sleep report",
+            "description": "A report about the duration and/or quality of sleep.",
+            "source": null
+        },
+        {
+            "const": "step count",
+            "description": "An activity report that quantifies the number of steps taken.",
+            "source": null
+        },
+        {
+            "const": "symptoms report",
+            "description": "A report about presence, duration or severity of symptoms.",
+            "source": null
+        },
+        {
+            "const": "AUDIT-C",
+            "description": "A standardized rating scale developed by the World Health Organization (WHO), which is a modified version of the original Alcohol Use Disorder Identification Test (AUDIT). The questionnaire contains 3 questions, and is used to identify patients who are hazardous drinkers or have active alcohol use disorders.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C119098"
+        },
+        {
+            "const": "tremor",
+            "description": "A report describing tremor, a generial symptom characterized by a trembling or shaking usually from physical weakness, emotional stress, or disease.",
+            "source": "http://purl.obolibrary.org/obo/SYMP_0000162"
+        },
+        {
+            "const": "triggers report",
+            "description": "A report describing triggers for symptoms.",
+            "source": null
+        },
+        {
+            "const": "vo2max",
+            "description": "A physiological assay to determine the maximum capacity of an individual's body to transport and use oxygen during incremental exercise, which reflects the physical fitness of the individual.",
+            "source": "http://purl.obolibrary.org/obo/ERO_0001819"
+        },
+        {
+            "const": "weight",
+            "description": "The mass or quantity of heaviness of an individual.",
+            "source": null
+        },
+        {
+            "const": "ZIP code",
+            "description": "A report of location in the form of postal code.",
+            "source": null
+        },
+        {
+            "const": "blood pressure",
+            "description": "The pressure of the circulating blood against the walls of the blood vessels.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C54706"
+        },
+        {
+            "const": "bradykinesia",
+            "description": "Report describing bradykinesia, a hypokinesia characterized by an extreme slowness in the execution of movements and reflexes.",
+            "source": "http://purl.obolibrary.org/obo/SYMP_0000673"
+        },
+        {
+            "const": "cholesterol",
+            "description": "The determination of the amount of total cholesterol present in a sample.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C105586"
+        },
+        {
+            "const": "demographics survey",
+            "description": "A report describing subject demographics such as age, sex, etc.",
+            "source": null
+        }
+    ]
+}
+

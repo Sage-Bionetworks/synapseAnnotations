@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.dataSubtype-0.0.1",
+    "anyOf": [
+        {
+            "const": "metadata",
+            "description": "A file of clinical, technical, or other parameters that describe a dataset.",
+            "source": null
+        },
+        {
+            "const": "processed",
+            "description": "A file of data generated from running one or more analysis on a raw file.",
+            "source": null
+        },
+        {
+            "const": "raw",
+            "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
+            "source": null
+        }
+    ]
+}
+

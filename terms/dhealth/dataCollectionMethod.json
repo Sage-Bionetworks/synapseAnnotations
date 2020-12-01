@@ -1,0 +1,27 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.dataCollectionMethod-0.0.1",
+    "anyOf": [
+        {
+            "const": "active",
+            "description": "active task or assessment",
+            "source": null
+        },
+        {
+            "const": "clinical assessment",
+            "description": "clinical assessment or phenotype",
+            "source": null
+        },
+        {
+            "const": "passive",
+            "description": "passive monitoring or data collection",
+            "source": null
+        },
+        {
+            "const": "patient reported outcome",
+            "description": "patient reported outcome or phenotype",
+            "source": null
+        }
+    ]
+}
+

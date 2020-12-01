@@ -1,0 +1,142 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id":"sage.annotations-digitalhealth.json-0.0.1",
+  "properties": {
+    "consortium": {
+      "$ref": "sage.annotations-dhealth.consortium-0.0.1"
+    },
+    "dataAccessInstructions": {
+      "type": "string"
+    },
+    "dataCollectionMethod": {
+      "$ref": "sage.annotations-dhealth.dataCollectionMethod-0.0.1"
+    },
+    "deviceLocation": {
+      "$ref": "sage.annotations-dhealth.deviceLocation-0.0.1"
+    },
+    "devicePlatform": {
+      "$ref": "sage.annotations-dhealth.devicePlatform-0.0.1"
+    },
+    "deviceType": {
+      "$ref": "sage.annotations-dhealth.deviceType-0.0.1"
+    },
+    "dhPortalIndex": {
+      "type": "boolean"
+    },
+    "diagnosis": {
+      "$ref": "sage.annotations-dhealth.diagnosis-0.0.1"
+    },
+    "digitalAssessmentCategory": {
+      "$ref": "sage.annotations-dhealth.digitalAssessmentCategory-0.0.1"
+    },
+    "numberParticipants": {
+      "type": "number"
+    },
+    "reportedOutcome": {
+      "$ref": "sage.annotations-dhealth.reportedOutcome-0.0.1"
+    },
+    "sensorType": {
+      "$ref": "sage.annotations-dhealth.sensorType-0.0.1"
+    },
+    "study": {
+      "$ref": "sage.annotations-dhealth.study-0.0.1"
+    },
+    "dataDescriptionLocation": {
+      "type": "string"
+    },
+    "dataType": {
+      "$ref": "sage.annotations-dhealth.dataType-0.0.1"
+    },
+    "dataSubtype": {
+      "$ref": "sage.annotations-dhealth.dataSubtype-0.0.1"
+    },
+    "metadataType": {
+      "$ref": "sage.annotations-dhealth.metadataType-0.0.1"
+    },
+    "collectionType": {
+      "$ref": "sage.annotations-dhealth.collectionType-0.0.1"
+    },
+    "intervention": {
+      "$ref": "sage.annotations-dhealth.intervention-0.0.1"
+    },
+    "isDHProject": {
+      "$ref": "boolean"
+    },
+    "keywords": {
+      "type": "string"
+    },
+    "resourceType": {
+      "$ref": "sage.annotations-sageCommunity.resourceType-0.0.2"
+    },
+    "sensorDataType": {
+      "$ref": "sage.annotations-dhealth.sensorDataType-0.0.1"
+    },
+    "studyDescription": {
+      "type": "string"
+    },
+    "studyDescriptionLocation": {
+      "type": "string"
+    },
+    "inputDataType": {
+      "$ref": "sage.annotations-dhealth.inputDataType-0.0.1"
+    },
+    "outputDataType": {
+      "$ref": "sage.annotations-dhealth.outputDataType-0.0.1"
+    },
+    "softwareAuthor": {
+      "type": "string"
+    },
+    "softwareName": {
+      "type": "string"
+    },
+    "softwareLanguage": {
+      "$ref": "sage.annotations-dhealth.softwareLanguage-0.0.1"
+    },
+    "softwareType": {
+      "$ref": "sage.annotations-dhealth.softwareType-0.0.1"
+    },
+    "packagePlatform": {
+      "$ref": "sage.annotations-dhealth.packagePlatform-0.0.1"
+    },
+    "softwareRepository": {
+      "$ref": "sage.annotations-dhealth.softwareRepository-0.0.1"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "digitalAssessmentCategory": {
+      "$ref": "sage.annotations-dhealth.digitalAssessmentCategory-0.0.1"
+    },
+    "featured": {
+      "type": "boolean"
+    },
+    "required": [
+      "consortium", "mHealth", "dataAccessInstructions", "dataCollectionMethod",
+      "deviceType", "dhPortalIndex", "diagnosis", "digitalAssessmentCategory",
+      "numberParticipants", "study", "dataDescriptionLocation", "dataType",
+      "dataSubtype", "collectionType", "isDHProject", "keywords", "resourceType",
+      "studyDescription", "studyDescriptionLocation", "inputDataType",
+      "outputDataType", "softwareAuthor", "softwareName", "softwareLanguage",
+      "softwareType", "packagePlatform", "softwareRepository", "summary",
+      "digitalAssessmentCategory"
+    ],
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "resourceType": {
+              "const": "tool"
+            }
+          }
+        },
+        "then": {
+          "required": [
+            "url"
+          ]
+        }
+      },
+    ]
+  }

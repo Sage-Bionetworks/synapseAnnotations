@@ -1,0 +1,47 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.softwareRepository-0.0.1",
+    "anyOf": [
+        {
+            "const": "GitHub",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "BitBucket",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "CRAN",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "BioConductor",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "Biocontainers",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "DockerHub",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "Quay",
+            "description": null,
+            "source": null
+        },
+        {
+            "const": "Dockstore",
+            "description": null,
+            "source": null
+        }
+    ]
+}
+
