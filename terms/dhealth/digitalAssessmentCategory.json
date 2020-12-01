@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.digitalAssessmentCategory-0.0.1",
+    "description": "Disease or phenotype category for sensor-based assessments.",
     "anyOf": [
         {
             "const": "action tremor",

@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.intervention-0.0.1",
+    "description": "A process or action that is the focus of a study. Interventions include drugs, medical devices, procedures, vaccines, and other products that are either investigational or already available. Interventions can also include noninvasive approaches, such as education or modifying diet and exercise.",
     "anyOf": [
         {
             "const": "levodopa",

@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.reportedOutcome-0.0.1",
+    "description": "Phenotypes assessed either via clinical evaluation or patient reported outcome.",
     "anyOf": [
         {
             "const": "activity report",

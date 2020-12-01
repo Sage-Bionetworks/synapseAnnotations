@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.sensorType-0.0.1",
+    "description": "Sensor used to collect data",
     "anyOf": [
         {
             "const": "accelerometer",

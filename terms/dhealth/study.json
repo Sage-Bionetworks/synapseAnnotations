@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.study-0.0.1",
+    "description": "Study from during which the data were collected",
     "anyOf": [
         {
             "const": "mPower Mobile Parkinson Disease Study",

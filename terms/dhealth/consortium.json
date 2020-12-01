@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.consortium-0.0.1",
+    "description": "The name of the consortium",
     "anyOf": [
         {
             "const": "mHealth",

@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.softwareLanguage-0.0.1",
+    "description": "Programming language in which the software/package was written.",
     "anyOf": [
         {
             "const": "R",

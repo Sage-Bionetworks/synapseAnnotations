@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.outputDataType-0.0.1",
+    "description": "Product or output of software or tool.",
     "anyOf": [
         {
             "const": "accelerometer features",

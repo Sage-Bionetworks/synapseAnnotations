@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.sensorDataType-0.0.1",
+    "description": "Level of data available in the Study/Project",
     "anyOf": [
         {
             "const": "processed",

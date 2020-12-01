@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.devicePlatform-0.0.1",
+    "description": "The device platform or operating system that is used to carry out an experiment.",
     "anyOf": [
         {
             "const": "Android",

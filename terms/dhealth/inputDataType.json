@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.inputDataType-0.0.1",
+    "description": "Sensor data type which is processed by the software or tool.",
     "anyOf": [
         {
             "const": "accelerometer",

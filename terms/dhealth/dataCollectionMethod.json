@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-dhealth.dataCollectionMethod-0.0.1",
+    "description": "methods of data collection method or modality",
     "anyOf": [
         {
             "const": "active",
