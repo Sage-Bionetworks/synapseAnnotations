@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.dataUsed-0.0.1",
+    "description": "Markdown links to the list of studies used in an analytical project or challenge.",
+    "anyOf": [
+        {
+            "const": "[Asthma Mobile Health Study](/Explore/Collections/DetailsPage?study=Asthma%20Mobile%20Health%20Study)",
+            "description": "Portal link to Asthma study",
+            "source": null
+        },
+        {
+            "const": "[SleepHealth Mobile App Study](/Explore/Collections/DetailsPage?study=SleepHealth%20Mobile%20App%20Study)",
+            "description": "Portal link to SleepHealth Study",
+            "source": null
+        },
+        {
+            "const": "[Brighten Study](/Explore/Collections/DetailsPage?study=Brighten%20Study)",
+            "description": "Portal link to Brighten study",
+            "source": null
+        },
+        {
+            "const": "[elevateMS Study](/Explore/Collections/DetailsPage?study=elevateMS%20Study)",
+            "description": "Portal link to elevateMS study",
+            "source": null
+        },
+        {
+            "const": "[Heart Snapshot Study](/Explore/Collections/DetailsPage?study=Heart%20Snapshot%20Study)",
+            "description": "Portal link to Heart Snapshot study",
+            "source": null
+        },
+        {
+            "const": "[MJFF Levodopa Response Study](/Explore/Collections/DetailsPage?study=MJFF%20Levodopa%20Response%20Study)",
+            "description": "Portal link to MJFF Levodopa Response study",
+            "source": null
+        },
+        {
+            "const": "[Mole Mapper Study](/Explore/Collections/DetailsPage?study=Mole%20Mapper%20Study)",
+            "description": "Portal link to Mole Mapper study",
+            "source": null
+        },
+        {
+            "const": "[mPower Mobile Parkinson Disease Study](/Explore/Collections/DetailsPage?study=mPower%20Mobile%20Parkinson%20Disease%20Study)",
+            "description": "Portal link to mPower study",
+            "source": null
+        },
+        {
+            "const": "[MyHeart Counts Cardiovascular Health Study](/Explore/Collections/DetailsPage?study=MyHeart%20Counts%20Cardiovascular%20Health%20Study)",
+            "description": "Portal link to MyHeartCounts study",
+            "source": null
+        },
+        {
+            "const": "[Participant Retention in Digital Health Studies](/Explore/PCollections/DetailsPage?study=Participant%20Retention%20in%20Digital%20Health%20Studies)",
+            "description": "Portal link to Participant Retention project",
+            "source": null
+        }
+    ]
+}
+

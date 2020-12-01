@@ -1,0 +1,178 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-dhealth.digitalAssessmentDetails-0.0.1",
+    "description": "Specific activities performed during digital assessments.",
+    "anyOf": [
+        {
+            "const": "12-min run test",
+            "description": "An assessment of cardiorespiratory fitness in which the subject runs or walks at full capacity for 12 minutes. The resulting distance has been shown to be correlated with VO2max.",
+            "source": null
+        },
+        {
+            "const": "drawing",
+            "description": "A motor task requiring subjects to draw or write.",
+            "source": null
+        },
+        {
+            "const": "exercise time",
+            "description": "The amount of time that the user has spent exercising during the specified day.",
+            "source": null
+        },
+        {
+            "const": "facial skin color",
+            "description": "Assessment of facial skin pigmentation against a standardized scale.",
+            "source": null
+        },
+        {
+            "const": "finger skin color",
+            "description": "Assessment of skin pigmentation on the finger against a standardized scale.",
+            "source": null
+        },
+        {
+            "const": "finger-to-nose",
+            "description": "A motor task as follows. The subject starts with the arm in an outstretched position, bends at the elbow to touch their nose with their fingers, then returns to the starting position",
+            "source": null
+        },
+        {
+            "const": "flights climbed",
+            "description": "A quantity sample type that measures the number flights of stairs that the user has climbed",
+            "source": null
+        },
+        {
+            "const": "folding towels",
+            "description": "A motor task in which the subject folds towels.",
+            "source": null
+        },
+        {
+            "const": "heart rate",
+            "description": "The number of heartbeats per unit of time, usually expressed as beats per minute.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C49677"
+        },
+        {
+            "const": "matching tiles",
+            "description": "A memory assessment task in with the subject matches shapes hidden under tiles.",
+            "source": null
+        },
+        {
+            "const": "opening a water bottle and pouring",
+            "description": "A motor task in which the subject opens a bottle of water and pours the contents into a glass.",
+            "source": null
+        },
+        {
+            "const": "3-minute Psychomotor Vigilance Task (PVT-B)",
+            "description": "A test of simple reaction time (RT) to stimuli that occur at random intervals and therefore measures vigilant attention.",
+            "source": "https://doi.org10.1016/j.actaastro.2011.07.015"
+        },
+        {
+            "const": "phonation",
+            "description": "A task in which the subject attempts to produce a constant \"aaaaaaa\" sound.",
+            "source": null
+        },
+        {
+            "const": "photograph",
+            "description": "Photograph of the subject or a specific body part.",
+            "source": null
+        },
+        {
+            "const": "resting",
+            "description": "A state in which the subject is not moving.",
+            "source": null
+        },
+        {
+            "const": "resting energy burned",
+            "description": "A quantity sample type that measures the resting energy burned by the user.",
+            "source": null
+        },
+        {
+            "const": "sitting",
+            "description": "The act of assuming or maintaining a seated position.",
+            "source": null
+        },
+        {
+            "const": "standing",
+            "description": "The act of assuming or maintaining an erect upright position.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C62166"
+        },
+        {
+            "const": "step count",
+            "description": "A quantity sample type that measures the number of steps the user has taken.",
+            "source": null
+        },
+        {
+            "const": "survey",
+            "description": "A question or series of questions.",
+            "source": null
+        },
+        {
+            "const": "tapping",
+            "description": "An activity in which fingers or other body parts tap a surface repeatedly.",
+            "source": null
+        },
+        {
+            "const": "Tecumseh step test",
+            "description": "An assessment of cardiorespiratory fitness in which the subject steps up and down on a bench or step for 3-minutes.",
+            "source": null
+        },
+        {
+            "const": "6-min walk test",
+            "description": "A standardized rating scale developed by Bruno Blake in 1963, which is a performance-based evaluation of functional exercise capacity in subjects with chronic respiratory disease and heart failure, as well as other populations such as healthy older adults and people suffering from fibromyalgia and scleroderma. This functional test contains 6 items and measures the distance an individual is able to walk over a total of six minutes on a hard, flat surface.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C115789"
+        },
+        {
+            "const": "treadmill stress test",
+            "description": "A graded test to measure an individual's heart rate and oxygen intake while undergoing strenuous physical exercise; most often assessed on a treadmill.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C168192"
+        },
+        {
+            "const": "typing",
+            "description": "A motor task in which the subject types on a keyboard.",
+            "source": null
+        },
+        {
+            "const": "visual/digit symbol substitution task(vsst/dsst)",
+            "description": "An assessment used to identify individuals with neurological impairment, as well as to assess divided attention, visual scanning and motor speed. This functional test measures the time to pair abstract symbols with specific numbers with a fixed time. Scoring of this test is based on the total number of correctly coded items in the alloted time.",
+            "source": null
+        },
+        {
+            "const": "walking (flat)",
+            "description": "Walking task on a flat surface.",
+            "source": null
+        },
+        {
+            "const": "walking (stairs)",
+            "description": "Walking up or down stairs.",
+            "source": null
+        },
+        {
+            "const": "active energy burned",
+            "description": "A quantity sample type that measures the amount of active energy the user has burned.",
+            "source": null
+        },
+        {
+            "const": "alternating hand movements",
+            "description": "Unified Parkinson's Disease Rating Scale (UPDRS) Motor examination; rapid alternating movements of hands (Pronation-supination movements of hands, vertically and horizontally, with as large an amplitude as possible, both hands simultaneously.).",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C100925"
+        },
+        {
+            "const": "arranging paper",
+            "description": "A motor task requiring subjects to arrange sheets of paper in a folder.",
+            "source": null
+        },
+        {
+            "const": "assembling nuts and bolts",
+            "description": "A motor task requiring subjects to assemble nuts and bolts.",
+            "source": null
+        },
+        {
+            "const": "daily physical activity",
+            "description": "Passive monitoring during a subject's normal daily activity.",
+            "source": null
+        },
+        {
+            "const": "distance",
+            "description": "A quantity of distance a subject has moved",
+            "source": null
+        }
+    ]
+}
+

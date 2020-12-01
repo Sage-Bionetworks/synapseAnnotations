@@ -113,51 +113,58 @@
     "featured": {
       "type": "boolean"
     },
-    "required": [
-      "consortium",
-      "dataAccessInstructions",
-      "dataCollectionMethod",
-      "deviceType",
-      "dhPortalIndex",
-      "diagnosis",
-      "numberParticipants",
-      "study",
-      "dataDescriptionLocation",
-      "dataType",
-      "dataSubtype",
-      "collectionType",
-      "isDHProject",
-      "keywords",
-      "resourceType",
-      "studyDescription",
-      "studyDescriptionLocation",
-      "digitalAssessmentCategory"
-    ],
-    "allOf": [
-      {
-        "if": {
-          "properties": {
-            "resourceType": {
-              "const": "tool"
-            }
-          },
-          "required": "resourceType"
+    "dataUsed": {
+      "$ref": "sage.annotations-dhealth.dataUsed-0.0.1"
+    },
+    "digitalAssessmentDetails": {
+      "$ref": "sage.annotations-dhealth.digitalAssessmentDetails-0.0.1"
+    }
+  },
+  "required": [
+    "consortium",
+    "dataAccessInstructions",
+    "dataCollectionMethod",
+    "deviceType",
+    "dhPortalIndex",
+    "diagnosis",
+    "numberParticipants",
+    "study",
+    "dataDescriptionLocation",
+    "dataType",
+    "dataSubtype",
+    "collectionType",
+    "isDHProject",
+    "keywords",
+    "resourceType",
+    "studyDescription",
+    "studyDescriptionLocation",
+    "digitalAssessmentCategory"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "resourceType": {
+            "const": "tool"
+          }
         },
-        "then": {
-          "required": [
-            "inputDataType",
-            "outputDataType",
-            "url",
-            "softwareAuthor",
-            "softwareName",
-            "softwareLanguage",
-            "softwareType",
-            "packagePlatform",
-            "softwareRepository",
-            "summary",
-            "digitalAssessmentCategory"
-          ]
-        }
+        "required": "resourceType"
       },
-    ]
-  }
+      "then": {
+        "required": [
+          "inputDataType",
+          "outputDataType",
+          "url",
+          "softwareAuthor",
+          "softwareName",
+          "softwareLanguage",
+          "softwareType",
+          "packagePlatform",
+          "softwareRepository",
+          "summary",
+          "digitalAssessmentCategory"
+        ]
+      }
+    },
+  ]
+}
