@@ -119,6 +119,11 @@
             "source": ""
         },
         {
+            "const": "Vaccarino",
+            "description": "Vaccarino Lab, Yale School of Medicine",
+            "source": "https://medicine.yale.edu/lab/vaccarino/"
+        },
+        {
             "const": "Yale",
             "description": "Yale School of Medicine",
             "source": "https://medicine.yale.edu/"
