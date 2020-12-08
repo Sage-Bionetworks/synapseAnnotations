@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.ageDays-0.0.1",
+  "type": "number",
+  "description": "Average age in days of the Drosophila individuals in the sample"
+}

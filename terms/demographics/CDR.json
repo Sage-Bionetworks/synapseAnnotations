@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.CDR-0.0.1",
+  "type": "number",
+  "description": "Clinical Dementia Rating",
+  "anyOf": [
+    {
+      "const": 0,
+      "description": "None"
+    },
+    {
+      "const": 0.5,
+      "description": "Very mild"
+    },
+    {
+      "const": 1,
+      "description": "Mild"
+    },
+    {
+      "const": 2,
+      "description": "Moderate"
+    },
+    {
+      "const": 3,
+      "description": "Severe"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.ageOfDeathUnits-0.0.1",
+  "type": "string",
+  "description": "The death age unit of measure (year or gestational week)"
+}

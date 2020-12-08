@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.room-0.0.1",
+  "type": "string",
+  "description": "Room the animal was housed in"
+}

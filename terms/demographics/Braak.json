@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.Braak-0.0.1",
+  "type": "string",
+  "description": "Braak Stage - a semiquantitative measure of serverity of neurofibrillary tangle pathology",
+  "anyOf": [
+    {
+      "const": 0,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 1,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 2,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 3,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 4,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 5,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    },
+    {
+      "const": 6,
+      "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+    }
+  ]
+}

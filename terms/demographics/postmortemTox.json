@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-demographics.postmortemTox-0.0.1",
+  "type": "string",
+  "description": "Were toxicology tests performed on post mortem tissue",
+  "anyOf": [
+    {
+      "const": "false",
+      "description": "Post mortem toxicology tests were not performed"
+    },
+    {
+      "const": "False",
+      "description": "Post mortem toxicology tests were not performed"
+    },
+    {
+      "const": "FALSE",
+      "description": "Post mortem toxicology tests were not performed"
+    },
+    {
+      "const": "true",
+      "description": "Post mortem toxicology tests were performed"
+    },
+    {
+      "const": "True",
+      "description": "Post mortem toxicology tests were performed"
+    },
+    {
+      "const": "TRUE",
+      "description": "Post mortem toxicology tests were performed"
+    },
+    {
+      "const": "unknown",
+      "description": "Unknown whether post mortem toxicology tests wer performed"
+    }
+  ]
+}
