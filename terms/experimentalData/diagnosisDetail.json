@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sysbio.annotations-PECclinicalData.DiagnosisDetail-0.0.1",
+  "type": "string",
+  "description": "Subgroup of diagnosis (DSM or ICD code)"
+}
