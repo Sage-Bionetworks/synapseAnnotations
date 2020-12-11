@@ -234,6 +234,11 @@
             "source": "http://edamontology.org/topic_3673"
         },
         {
+            "const": "scwholeGenomeSeq",
+            "description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellulare differences and a better understanding of the function of an individual cell in the context of its microenvironment",
+            "source": "https://doi.org/10.1016/j.molcel.2015.05.005"
+        },
+        {
             "const": "polymeraseChainReaction",
             "description": "A rapid technique for in vitro amplification of specific DNA or RNA sequences, allowing small quantities of short sequences to be analyzed without cloning",
             "source": "http://purl.obolibrary.org/obo/MMO_0000459"
