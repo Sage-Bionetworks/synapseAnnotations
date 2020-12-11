@@ -142,6 +142,11 @@
             "const": "control",
             "description": "An individual used as a standard of comparison.",
             "source": "Sage Bionetworks"
+        },
+        {
+            "const": "pathological aging",
+            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta (Aβ) senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
+            "source": "https://doi.org/10.1186/alzrt254"
         }
     ]
 }
