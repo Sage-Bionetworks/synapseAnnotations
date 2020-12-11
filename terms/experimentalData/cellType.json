@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.cellType-0.0.1",
+    "$id": "sage.annotations-experimentalData.cellType-0.0.2",
     "description": "A cell type is a distinct morphological or functional form of cell.",
     "anyOf": [
         {
@@ -177,6 +177,16 @@
             "const": "CNON",
             "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium",
             "source": "https://www.synapse.org/#!Synapse:syn4590897"
+        },
+        {
+            "const": "peripheral blood mononuclear cell",
+            "description": "A leukocyte with a single non-segmented nucleus in the mature form found in the circulatory pool of blood",
+            "source": "http://www.ontobee.org/ontology/CL?iri=http://purl.obolibrary.org/obo/CL_2000001"
+        },
+        {
+            "const": "lymphoblastoid cell line",
+            "description": "Human B cells infected with Epstein-Barr virus",
+            "source": "https://doi.org/10.1385/1-59259-227-9:125"
         }
     ]
 }
