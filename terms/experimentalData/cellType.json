@@ -185,8 +185,8 @@
         },
         {
             "const": "lymphoblastoid cell line",
-            "description": "Human B cells infected with Epstein-Barr virus",
-            "source": "https://doi.org/10.1385/1-59259-227-9:125"
+            "description": "Human cell line from tissue infected with Epstein-Barr virus, resembling a lymphoblast",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000773"
         }
     ]
 }
