@@ -112,6 +112,11 @@
             "const": "epigenetics",
             "description": "Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence. This includes sub-topics such as histone modification and DNA methylation.",
             "source": "http://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=topic_3295"
+        },
+        {
+            "const": "pharmacology",
+            "description": " The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16974"
         }
     ]
 }
