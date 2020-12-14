@@ -449,9 +449,9 @@
             "source": "https://baker.edu.au/research/contract-research/metabolomics"
         },
         {
-            "const": "pharmacology",
-            "description": "The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.",
-            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16974"
+            "const": "pharmacokinetics",
+            "description": "The characteristic movements of drugs within biological systems, as affected by absorption, distribution, binding, elimination, biotransformation, and excretion; particularly the rates of such movements.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C15299"
         },
         {
             "const": "pharmacodynamics",
