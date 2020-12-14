@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.1",
+    "$id": "sage.annotations-experimentalData.platform-0.0.2",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -212,6 +212,16 @@
             "const": "Infinium Omni2.5Exome-8 v1.3",
             "description": "Infinium Omni2.5Exome-8 v1.3",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
+        },
+        {
+            "const": "biocratesP180",
+            "description": "Biocrates AbsoluteIDQ P180 metabolomics kit",
+            "source": "https://biocrates.com/absoluteidq-p180-kit/"
+        },
+        {
+            "const": "BGISEQ-500",
+            "description": "BGISEQ-500 human whole genome sequencing",
+            "source": "https://www.bgi.com/global/wp-content/uploads/sites/3/2017/04/10.-BGISEQ-500-WGS-Technical-Note-Flyer_20180225-3Mb.pdf"
         }
     ]
 }
