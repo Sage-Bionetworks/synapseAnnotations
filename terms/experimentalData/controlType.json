@@ -5,8 +5,8 @@
     "anyOf": [
         {
             "const": "GIS",
-            "description": "Global International Standard.",
-            "source": ""
+            "description": "A Global Internal Standard used to assess intra- and inter-batch variance.",
+            "source": "https://doi.org/10.1101/2020.05.19.105197"
         },
         {
             "const": "NIST SRM 1950",
