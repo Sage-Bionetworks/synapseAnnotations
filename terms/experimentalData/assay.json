@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.2",
+    "$id": "sage.annotations-experimentalData.assay-0.0.3",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -417,6 +417,46 @@
             "const": "frailty assessment",
             "description": "A non-invasive characterization of aging-related changes in physical characteristics and reflexes aimed at assessing the onset of aging traits in individual mice.",
             "source": "https://doi.org/10.1002/cpmo.45"
+        },
+        {
+            "const": "Nightingale",
+            "description": "Nightingale's NMR-based blood analysis platform that enables simultaneous quantification of numerous groups of biomarkers, for instance, routine lipids, lipoprotein subclass profiling (with lipid concentrations within 14 subclasses), fatty acid composition and various low-molecular metabolites.",
+            "source": "https://nightingalehealth.com/research/blood-biomarker-analysis"
+        },
+        {
+            "const": "Metabolon",
+            "description": "Metabolon’s Precision Metabolomics™ LC-MS global metabolomics platform provides a high-fidelity, reproducible analysis of the current-state of a biological system to help identify pharmacodynamic, efficacy and response biomarkers and reveal changes in key biological pathways.",
+            "source": "https://www.metabolon.com/solutions/global-metabolomics/"
+        },
+        {
+            "const": "Biocrates p180",
+            "description": "The Biocrates AbsoluteIDQ p180 kit is a simple and high-throughput tool for basic, clinical, and epidemiological research. The kit provides scientists with highly reproducible metabolomics data to confidently obtain detailed knowledge about the metabolic phenotypes in their studies.",
+            "source": "https://biocrates.com/absoluteidq-p180-kit/"
+        },
+        {
+            "const": "Biocrates Q500",
+            "description": "MxP Quant 500 extends the p180 kit and is Biocrates' most comprehensive kit for targeted metabolic profiling. With coverage of up to 630 metabolites from 26 biochemical classes, it represents an advanced and reproducible metabolomics technology.",
+            "source": "https://biocrates.com/mxp-quant-500-kit/"
+        },
+        {
+            "const": "Biocrates Bile Acids",
+            "description": "The Biocrates AbsoluteIDQ Bile Acids kit is a ready-to-use, standardized solution for the quantitation of 20 bile acids by liquid chromatography-mass spectrometry (LC-MS).",
+            "source": "https://biocrates.com/biocrates-bile-acids-kit/"
+        },
+        {
+            "const": "Baker Lipidomics",
+            "description": "A comparative lipidomics approach that enables semi-quantification of approximately 400 lipid species across 22 lipid classes and subclasses. The analysis is performed by liquid chromatography tandem mass spectrometry. Stable isotope dilution (with 23 different internal standards) is used to provide quantitative data on each of the over 400 lipid species.",
+            "source": "https://baker.edu.au/research/contract-research/metabolomics"
+        },
+        {
+            "const": "pharmacology",
+            "description": "The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16974"
+        },
+        {
+            "const": "pharmacodynamics",
+            "description": "The study of the biochemical and physiological effects of drugs and the mechanisms of their actions, including the correlation of actions and effects of drugs with their chemical structure, also, such effects on the actions of a particular drug or drugs.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C15720"
         }
     ]
 }
