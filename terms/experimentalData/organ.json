@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.organ-0.0.1",
+    "$id": "sage.annotations-experimentalData.organ-0.0.2",
     "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "anyOf": [
         {
@@ -92,6 +92,16 @@
             "const": "cerebrospinal fluid",
             "description": "The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
             "source": "http://purl.obolibrary.org/obo/BTO_0000237"
+        },
+        {
+            "const": "liver",
+            "description": "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002107"
+        },
+        {
+            "const": "large intestine",
+            "description": "The more terminal division of the vertebrate intestine that is wider and shorter than the small intestine, typically divided into cecum, colon, and rectum, and concerned especially with the resorption of water and the formation of feces",
+            "source": "http://www.ontobee.org/ontology/BTO?iri=http://purl.obolibrary.org/obo/BTO_0000706"
         }
     ]
 }
