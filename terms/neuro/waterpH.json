@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-neuro.waterpH-0.0.1",
+  "description": "pH of water fed to the animal",
+  "type": "number",
+  "minimum": 0,
+  "maximum": 14
+}
