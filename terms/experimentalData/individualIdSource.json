@@ -44,6 +44,11 @@
             "source": "https://www.libd.org"
         },
         {
+            "const": "MayoBrainBank",
+            "description": "Mayo Clinic Brain Bank",
+            "source": "https://www.mayo.edu/research/departments-divisions/department-neuroscience-florida/brain-bank"
+        },
+        {
             "const": "MSSM",
             "description": "Mount Sinai NIH Brain and Tissue Repository",
             "source": "http://icahn.mssm.edu/research/labs/neuropathology-and-brain-banking"
@@ -102,6 +107,11 @@
             "const": "TAA",
             "description": "Tourette Association of America",
             "source": "https://tourette.org/"
+        },
+        {
+            "const": "UCI_TMF",
+            "description": "University of California, Irvine Transgenic Mouse Facility",
+            "source": "https://www.research.uci.edu/facilities-services/tmf/index.html"
         },
         {
             "const": "UCSF",
