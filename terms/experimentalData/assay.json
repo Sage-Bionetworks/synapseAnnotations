@@ -457,6 +457,11 @@
             "const": "pharmacodynamics",
             "description": "The study of the biochemical and physiological effects of drugs and the mechanisms of their actions, including the correlation of actions and effects of drugs with their chemical structure, also, such effects on the actions of a particular drug or drugs.",
             "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C15720"
+        },
+        {
+            "const": "16SrRNAseq",
+            "description": "An amplicon sequencing assay in which the amplicon is derived from universal primers used to amplify the 16S ribosomal RNA gene from isolate bacterial genomic DNA or metagenomic DNA from a microbioal community. Resulting sequences are compared to reference 16S sequence databases to identify or classify bacteria present within a given sample.",
+            "source": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002763"
         }
     ]
 }
