@@ -239,7 +239,7 @@
             "source": "http://purl.obolibrary.org/obo/MS_1001911"
         },
         {
-            "const": "biocratesP180",
+            "const": "Biocrates p180",
             "description": "Biocrates AbsoluteIDQ P180 metabolomics kit",
             "source": "https://biocrates.com/absoluteidq-p180-kit/"
         },
