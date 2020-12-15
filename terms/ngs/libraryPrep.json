@@ -38,12 +38,12 @@
             "description": "A DNA library constructed from DNA extracted from cells",
             "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0010172"
         },
-	    {
+        {
             "const": "cellHashing",
             "description": "Cell Hashing uses oligo-tagged antibodies against highly expressed surface proteins to place a 'sample barcode' on each single cell, enabling different samples to be multiplexed together and run in a single experiment",
             "source": "https://cite-seq.com/cell-hashing/"
-	    },
-	    {
+        },
+        {
             "const": "MULTIseq",
             "description": "MULTI-seq is a method that uses lipid tagged barcode oligos to label cells prior to processing using 10x Genomics",
             "source": "https://www.nature.com/articles/s41592-019-0433-8+"
