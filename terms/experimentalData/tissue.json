@@ -9,6 +9,11 @@
             "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
         },
         {
+            "const": "parietal cortex",
+            "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0016530"
+        },
+        {
             "const": "posterior inferior parietal cortex",
             "description": "",
             "source": "Sage Bionetworks"
