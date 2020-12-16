@@ -9,6 +9,11 @@
             "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
         },
         {
+            "const": "ventricular zone",
+            "description": "Proliferative region that is part of the ventricular system",
+            "source": "http://cellfinder.org/ontology/?id=CF_176200"
+        },
+        {
             "const": "parietal cortex",
             "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals",
             "source": "http://purl.obolibrary.org/obo/UBERON_0016530"
