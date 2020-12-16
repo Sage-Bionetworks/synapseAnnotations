@@ -6,7 +6,7 @@
         {
             "const": "1000 Genomes phase 3",
             "description": "ISGR 1000 Genomes Project Phase 3",
-            "source": "https://www.internationalgenome.org/category/phase-3/"
+            "source": "https://genome.sph.umich.edu/wiki/Minimac4#Reference_Panels_for_Download"
         },
         {
             "const": "GRCh38",
