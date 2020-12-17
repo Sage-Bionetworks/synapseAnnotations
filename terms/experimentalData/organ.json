@@ -101,8 +101,7 @@
         {
             "const": "large intestine",
             "description": "The more terminal division of the vertebrate intestine that is wider and shorter than the small intestine, typically divided into cecum, colon, and rectum, and concerned especially with the resorption of water and the formation of feces",
-            "source": "http://www.ontobee.org/ontology/BTO?iri=http://purl.obolibrary.org/obo/BTO_0000706"
+            "source": "http://purl.obolibrary.org/obo/BTO_0000706"
         }
     ]
 }
-
