@@ -145,7 +145,7 @@
         },
         {
             "const": "pathological aging",
-            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta (Aβ) senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
+            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
             "source": "https://doi.org/10.1186/alzrt254"
         }
     ]
