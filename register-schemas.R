@@ -21,6 +21,7 @@ create_body <- function(file) {
 }
 
 register_schema <- function(file) {
+  message(glue("Registering {basename(file)}"))
   synRestPOST(
     uri = "/schema/type/create/async/start",
     body = create_body(file)
