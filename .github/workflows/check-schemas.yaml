@@ -1,4 +1,4 @@
-on: [push]
+on: [push, pull_request]
 
 env:
   AJV_CLI_VERSION: 4.0.1
