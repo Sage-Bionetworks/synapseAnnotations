@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.2",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.3",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
         {
