@@ -1,5 +1,7 @@
 # Synapse Annotations Schemas
 
+![.github/workflows/check-schemas.yaml](https://github.com/Sage-Bionetworks/synapseAnnotations/workflows/.github/workflows/check-schemas.yaml/badge.svg?branch=master)
+
 Sage Bionetworks derived standards for annotating content in Synapse. This
 provide a mechanism for defining, managing, and implementing controlled
 vocabularies when annotating content in Synapse. 
