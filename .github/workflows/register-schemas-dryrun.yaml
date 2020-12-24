@@ -46,9 +46,10 @@ jobs:
         id: get_file_changes
         uses: trilom/file-changes-action@v1.2.4
         with:
-          output: ' '
+          output: ','
 
       - name: Attempt to register schemas with dryRun = true
         run: |
-          files="${{ steps.get_file_changes.outputs.files_added }} ${{ steps.get_file_changes.outputs.files_modified }}"
-          Rscript register-schemas.R ${files} --dryRun
+          files="${{ steps.get_file_changes.outputs.files_added }},${{ steps.get_file_changes.outputs.files_modified }}"
+          terms="$(echo $files | tr ',' '\n' | grep '^terms')"
+          Rscript register-schemas.R ${terms} --dryRun
