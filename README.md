@@ -73,21 +73,12 @@ term. Schemas can continue to reference old versions of a term. If a project
 wants to redefine a term, it can create its own term in its own organization and
 reference that one instead.
 
-Because versioned schemas are immutable, it is important that we always
-increment the version when we change a schema. We will want to add testing to
-this repo that can compare an updated version of a file with the previous
-version and ensure that the version number has changed if the schema changed.
-Ideally these tests will run on GitHub Actions or similar to ensure that
-proposed changes follow the versioning rules before being merged. We should also
-test that the terms themselves are valid JSON schema.
-
-This testing will be important because we'd like to automatically register
-updated terms to Synapse (likely also via a GitHub Actions workflow that runs
-upon merging to the main branch). In the past, there was a cumbersome release
-process for the synapseAnnotations repo that caused long delays between when
-terms were approved and when they were available in downstream tools.
-Automatically registering terms will ensure that once they've been agreed upon,
-they're immediate available for use.
+We'd like to automatically register updated terms to Synapse (likely also via a
+GitHub Actions workflow that runs upon merging to the main branch). In the past,
+there was a cumbersome release process for the synapseAnnotations repo that
+caused long delays between when terms were approved and when they were available
+in downstream tools. Automatically registering terms will ensure that once
+they've been agreed upon, they're immediate available for use.
 
 ## Remaining questions
 
@@ -99,29 +90,6 @@ A few questions remain:
   Synapse understands (in the format `organization-schema.name-version.number`)
   makes it impossible for a local validator to find them. I'm not sure what we
   should do about this.
-- How do we set up the testing and CI described above? (Kara is working on this
-  and has some ideas, but nothing in place and working yet)
-  - One potential issue I'm writing here so I don't forget: if we want to
-    register schemas on merge, we should have the PR attempt to register them as
-    well so we can catch any issues before merging. The PR should either
-    register them to a different organization (tricky since the organization
-    name is in the schema itself), or to the Synapse staging endpoint instead of
-    prod. But imagine this: Jane opens a PR that adds a new value for `assay`,
-    and she increments the version number. Anya reviews the PR and asks that
-    Jane include a description for her new assay. Jane makes the change and
-    pushes to her branch. There's no need to increment the version a second time
-    since the prod version of the schema hasn't changed yet, but we also can't
-    re-register it on staging because the version from Jane's first commit was
-    already registered. Maybe when registering on staging we want to append the
-    commit sha to the version number to ensure uniqueness (*need to find out if
-    Synapse schema versioning would support this*). We probably would *not* want
-    to do this for the final schemas: that would make it very hard for people to
-    find which version to reference, since it wouldn't be tracked in the GitHub
-    versions of the schemas themselves.
-    - John noted that a better approach, instead of registering schemas on
-      staging, might be to have a way for Synapse to tell us if a schema would
-      be valid without actually registering it. That should allow us to skip
-      adding the commit sha to a version.
 
 ## TODO:
 
@@ -133,6 +101,6 @@ A few questions remain:
 - [X] Register that schema and ensure that it works
 - [X] Add templates for new terms to make contributing easier
 - [X] Bind schema to an entity and test validation
-- [ ] Set up CI to check that mini-schemas are valid. Need to also ensure that
+- [X] Set up CI to check that mini-schemas are valid. Need to also ensure that
       the version number is incremented if the schema changes.
 - [ ] Automatically register terms in Synapse
