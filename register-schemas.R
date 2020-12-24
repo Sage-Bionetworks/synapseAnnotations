@@ -2,6 +2,7 @@
 doc <- "Register Schemas on Synapse
 
 Usage:
+  register-schemas.R [--dryRun]
   register-schemas.R <files>... [--dryRun]
   register-schemas.R (-h | --help)
   register-schemas.R --version
@@ -106,6 +107,11 @@ register_and_report <- function(file, dryRun = FALSE) {
 }
 
 # Register terms ---------------------------------------------------------------
+
+if (length(opts$files) == 0) {
+  message("No files provided; nothing to register!")
+  quit(status = 0)
+}
 
 ## Register each mini-schema
 results <- map_lgl(opts$files, register_and_report, dryRun = opts$dryRun)
