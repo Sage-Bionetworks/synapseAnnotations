@@ -51,5 +51,4 @@ jobs:
       - name: Attempt to register schemas with dryRun = true
         run: |
           files="${{ steps.get_file_changes.outputs.files_added }},${{ steps.get_file_changes.outputs.files_modified }}"
-          terms="$(echo $files | tr ',' '\n' | grep '^terms')"
-          Rscript register-schemas.R ${terms} --dryRun
+          echo $files | tr ',' '\n' | grep -Z '^terms' | xargs ./register-schemas.R --dryRun
