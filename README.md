@@ -22,8 +22,15 @@ that are valid JSON Schema, such as the following:
 
 Templates for adding new terms are included in the `term-templates/` folder.
 
-To register these schemas in Synapse use the `register-schemas.R` script. You
-can see how to use this script by running
+To register these schemas in Synapse use the `register-schemas.R` script. To
+register all schemas in the repo, run:
+
+```
+./register-schemas.R terms/*/*.json
+```
+
+Note that this will show failures for schemas that have already been registered.
+You can learn more about how to use this script by running:
 
 ```
 ./register-schemas.R --help
