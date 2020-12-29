@@ -14,7 +14,7 @@ that are valid JSON Schema, such as the following:
 ```
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.specimenID-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.specimenID-0.0.1",
     "description": "Identifying string linked to a particular sample or specimen",
     "type": "string"
 }

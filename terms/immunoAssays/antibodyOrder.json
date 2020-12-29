@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-immunoAssays.antibodyOrder-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-immunoAssays.antibodyOrder-0.0.1",
     "description": "For ELISA assays, specifies whether the antibody was used as the primary or secondary antibody",
     "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5775980/",
     "type": "string",

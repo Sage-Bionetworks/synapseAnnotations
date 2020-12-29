@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-cancer.experimentalCondition-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-cancer.experimentalCondition-0.0.1",
     "description": "This describes the condition under which the data were collected, designed to be free form, extra things that do not fit in pre-defined terms",
     "type": "string"
 }
