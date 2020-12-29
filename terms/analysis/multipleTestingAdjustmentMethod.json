@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.multipleTestingAdjustmentMethod-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.multipleTestingAdjustmentMethod-0.0.2",
     "description": "Method used to control either family wise error rate, false discovery rate, or other measures of burden of false positives and false negatives when performing multiple statistical tests.",
     "anyOf": [
         {
