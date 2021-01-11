@@ -1,12 +1,22 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.tissue-0.0.1",
+    "$id": "sage.annotations-experimentalData.tissue-0.0.2",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "anyOf": [
         {
             "const": "medial dorsal nucleus of thalamus",
             "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
             "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
+        },
+        {
+            "const": "ventricular zone",
+            "description": "Proliferative region that is part of the ventricular system",
+            "source": "http://cellfinder.org/ontology/?id=CF_176200"
+        },
+        {
+            "const": "parietal cortex",
+            "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0016530"
         },
         {
             "const": "posterior inferior parietal cortex",

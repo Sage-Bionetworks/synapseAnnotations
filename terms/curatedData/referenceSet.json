@@ -1,8 +1,13 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-curatedData.referenceSet-0.0.1",
+    "$id": "sage.annotations-curatedData.referenceSet-0.0.2",
     "description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
     "anyOf": [
+        {
+            "const": "1000 Genomes phase 3",
+            "description": "ISGR 1000 Genomes Project Phase 3",
+            "source": "https://genome.sph.umich.edu/wiki/Minimac4#Reference_Panels_for_Download"
+        },
         {
             "const": "GRCh38",
             "description": "Genome Reference Consortium Human Build 38",
