@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.1",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.3",
     "description": "Database or repository to which individual ID maps",
     "anyOf": [
         {
@@ -42,6 +42,11 @@
             "const": "LIBD",
             "description": "Lieber Institute for Brain Development",
             "source": "https://www.libd.org"
+        },
+        {
+            "const": "MayoBrainBank",
+            "description": "Mayo Clinic Brain Bank",
+            "source": "https://www.mayo.edu/research/departments-divisions/department-neuroscience-florida/brain-bank"
         },
         {
             "const": "MSSM",
@@ -104,6 +109,11 @@
             "source": "https://tourette.org/"
         },
         {
+            "const": "UCI_TMF",
+            "description": "University of California, Irvine Transgenic Mouse Facility",
+            "source": "https://www.research.uci.edu/facilities-services/tmf/index.html"
+        },
+        {
             "const": "UCSF",
             "description": "University of California - San Francisco",
             "source": "https://www.ucsf.edu/"
@@ -117,6 +127,11 @@
             "const": "UW-CDL",
             "description": "University of Washington Congenital Defects Lab",
             "source": ""
+        },
+        {
+            "const": "Vaccarino",
+            "description": "Vaccarino Lab, Yale School of Medicine",
+            "source": "https://medicine.yale.edu/lab/vaccarino/"
         },
         {
             "const": "Yale",
