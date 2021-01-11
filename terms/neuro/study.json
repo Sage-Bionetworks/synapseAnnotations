@@ -522,6 +522,10 @@
             "const": "scRNA-seq_wild_AD_mic",
             "description": "Microglia of wild-derived Alzheimer's mouse study (scRNA-seq_wild_AD_mic)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
-        }
-    ]
+        },
+         {
+            "const": "HBI_scRNAseq",
+            "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
+            "source": "https://www.synapse.org/#!Synapse:syn24168322"
+        }    ]
 }
