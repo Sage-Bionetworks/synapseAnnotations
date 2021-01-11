@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.3",
+    "$id": "sage.annotations-experimentalData.assay-0.0.4",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -420,17 +420,17 @@
         },
         {
             "const": "Nightingale",
-            "description": "Nightingale's NMR-based blood analysis platform that enables simultaneous quantification of numerous groups of biomarkers, for instance, routine lipids, lipoprotein subclass profiling (with lipid concentrations within 14 subclasses), fatty acid composition and various low-molecular metabolites.",
+            "description": "Nightingale's NMR-based blood analysis platform that enables simultaneous quantification of numerous groups of biomarkers, for instance, routine lipids, lipoprotein subclass profiling (with lipid concentrations within 14 subclasses), fatty acid composition and various low-molecular metabolites.",
             "source": "https://nightingalehealth.com/research/blood-biomarker-analysis"
         },
         {
             "const": "Metabolon",
-            "description": "Metabolon’s Precision Metabolomics™ LC-MS global metabolomics platform provides a high-fidelity, reproducible analysis of the current-state of a biological system to help identify pharmacodynamic, efficacy and response biomarkers and reveal changes in key biological pathways.",
+            "description": "Metabolon's Precision Metabolomics(TM) LC-MS global metabolomics platform provides a high-fidelity, reproducible analysis of the current-state of a biological system to help identify pharmacodynamic, efficacy and response biomarkers and reveal changes in key biological pathways.",
             "source": "https://www.metabolon.com/solutions/global-metabolomics/"
         },
         {
             "const": "Biocrates p180",
-            "description": "The Biocrates AbsoluteIDQ p180 kit is a simple and high-throughput tool for basic, clinical, and epidemiological research. The kit provides scientists with highly reproducible metabolomics data to confidently obtain detailed knowledge about the metabolic phenotypes in their studies.",
+            "description": "The Biocrates AbsoluteIDQ p180 kit is a simple and high-throughput tool for basic, clinical, and epidemiological research. The kit provides scientists with highly reproducible metabolomics data to confidently obtain detailed knowledge about the metabolic phenotypes in their studies.",
             "source": "https://biocrates.com/absoluteidq-p180-kit/"
         },
         {
@@ -465,4 +465,3 @@
         }
     ]
 }
-

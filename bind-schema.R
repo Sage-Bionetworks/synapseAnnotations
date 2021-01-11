@@ -5,6 +5,7 @@
 ## Testing out binding the schema that references synapseAnnotations terms, and
 ## validating annotations against it.
 
+library("synapser")
 library("glue")
 synLogin()
 
