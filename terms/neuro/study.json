@@ -520,9 +520,8 @@
         },
         {
             "const": "scRNA-seq_wild_AD_mic",
-            "description": "Microglia of wild-derived Alzheimer’s mouse study (scRNA-seq_wild_AD_mic)",
+            "description": "Microglia of wild-derived Alzheimer's mouse study (scRNA-seq_wild_AD_mic)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
         }
     ]
 }
-
