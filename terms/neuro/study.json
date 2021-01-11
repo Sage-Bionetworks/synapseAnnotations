@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.2",
+    "$id": "sage.annotations-neuro.study-0.0.4",
     "description": "",
     "anyOf": [
         {
@@ -507,7 +507,21 @@
             "const": "Jax.IU.Pitt_APP.PS1",
             "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD_APPPS1 and JAX_APPPS1",
             "source": "https://www.synapse.org/#!Synapse:syn9850001"
+        },
+        {
+            "const": "RR_APOE4",
+            "description": "The ROSMAP Resilience APOE4 study",
+            "source": "https://www.synapse.org/#!Synapse:syn23633750"
+        },
+        {
+            "const": "NAPS",
+            "description": "The Neurodegeneration-Associated Psychiatric Syndromes (NAPS) study",
+            "source": "https://www.synapse.org/#!Synapse:syn23633760"
+        },
+        {
+            "const": "scRNA-seq_wild_AD_mic",
+            "description": "Microglia of wild-derived Alzheimer's mouse study (scRNA-seq_wild_AD_mic)",
+            "source": "https://www.synapse.org/#!Synapse:syn23763501"
         }
     ]
 }
-

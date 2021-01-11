@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.platformLocation-0.0.1",
+    "description": "Laboratory where data generation platform was located",
+    "type": "string"
+}
