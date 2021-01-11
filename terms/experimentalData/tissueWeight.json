@@ -2,5 +2,5 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "sage.annotations-experimentalData.tissueWeight-0.0.1",
     "type": "number",
-    "description": "Amount of tissue used to generate the specimen in mg"
+    "description": "Mass of tissue specimen in mg"
 }
