@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-qc.meanCoverage-0.0.1",
+    "type": "number",
+    "description": "Total number of bases covered by ATAC-seq reads/size of genome"
+}
