@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.dataType-0.0.1",
+    "$id": "sage.annotations-experimentalData.dataType-0.0.2",
     "description": "Types of input/output data in bioinformatics pipelines",
     "anyOf": [
         {
@@ -102,6 +102,21 @@
             "const": "electrophysiology",
             "description": "Data generated from an electrophysiology assay.",
             "source": "http://purl.obolibrary.org/obo/ERO_0000564"
+        },
+        {
+            "const": "metagenomics",
+            "description": "A molecular assay that is used to analyze metagenomic data; genetic material recovered directly from environmental samples for genomic research.",
+            "source": "http://www.ontobee.org/ontology/ERO?iri=http://purl.obolibrary.org/obo/ERO_0000657"
+        },
+        {
+            "const": "epigenetics",
+            "description": "Topic concerning the study of heritable changes, for example in gene expression or phenotype, caused by mechanisms other than changes in the DNA sequence. This includes sub-topics such as histone modification and DNA methylation.",
+            "source": "http://bioportal.bioontology.org/ontologies/EDAM?p=classes&conceptid=topic_3295"
+        },
+        {
+            "const": "pharmacology",
+            "description": " The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C16974"
         }
     ]
 }
