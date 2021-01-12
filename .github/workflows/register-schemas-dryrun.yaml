@@ -40,7 +40,6 @@ jobs:
           apikey = "${{ secrets.SYNAPSE_APIKEY}}"
           EOM
           chmod +x "$OUTPUT_FILE"
-          pwd
 
       - name: Get file changes
         id: get_file_changes
