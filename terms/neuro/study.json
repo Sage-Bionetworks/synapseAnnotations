@@ -527,5 +527,6 @@
             "const": "HBI_scRNAseq",
             "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
             "source": "https://www.synapse.org/#!Synapse:syn24168322"
-        }    ]
+        }
+    ]
 }
