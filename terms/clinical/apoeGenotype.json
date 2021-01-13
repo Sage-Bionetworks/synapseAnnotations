@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-clinical.apoeGenotype-0.0.1",
+    "description": "Apolipoprotein E genotype",
+    "source": "https://www.genecards.org/cgi-bin/carddisp.pl?gene=APOE",
+    "anyOf": [
+        {
+            "const": "22",
+            "description": "E2E2"
+        },
+        {
+            "const": "23",
+            "description": "E2E3"
+        },
+        {
+            "const": "24",
+            "description": "E2E4"
+        },
+        {
+            "const": "33",
+            "description": "E3E3"
+        },
+        {
+            "const": "34",
+            "description": "E3E4"
+        },
+        {
+            "const": "44",
+            "description": "E4E4"
+        }
+    ]
+}
+
