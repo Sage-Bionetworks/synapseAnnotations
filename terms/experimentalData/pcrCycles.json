@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-experimentalData.pcrCycles-0.0.1",
+    "type": "integer",
+    "description": "Number of PCR cycles to amplify transposased DNA fragments"
+}

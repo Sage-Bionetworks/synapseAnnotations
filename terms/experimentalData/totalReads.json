@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-experimentalData.totalReads-0.0.1",
+    "type": "number",
+    "description": "Total number of sequencing reads from a library"
+}
