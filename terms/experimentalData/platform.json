@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.4",
+    "$id": "sage.annotations-experimentalData.platform-0.0.5",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -252,7 +252,12 @@
             "const": "Orbitrap Fusion Lumos",
             "description": "A tribrid mass spectrometer manufactured by ThermoFisher Scientific",
             "source": "http://purl.obolibrary.org/obo/MS_1002732"
-        }    
+        },
+        {
+            "const": "IlluminaMiSeq",
+            "description": "A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002003"
+        }
     ]
 }
 
