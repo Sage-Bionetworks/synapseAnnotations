@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.3",
+    "$id": "sage.annotations-neuro.study-0.0.5",
     "description": "",
     "anyOf": [
         {
@@ -517,7 +517,16 @@
             "const": "NAPS",
             "description": "The Neurodegeneration-Associated Psychiatric Syndromes (NAPS) study",
             "source": "https://www.synapse.org/#!Synapse:syn23633760"
+        },
+        {
+            "const": "scRNA-seq_wild_AD_mic",
+            "description": "Microglia of wild-derived Alzheimer's mouse study (scRNA-seq_wild_AD_mic)",
+            "source": "https://www.synapse.org/#!Synapse:syn23763501"
+        },
+        {
+            "const": "HBI_scRNAseq",
+            "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
+            "source": "https://www.synapse.org/#!Synapse:syn24168322"
         }
     ]
 }
-

@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-ngs.directionalBSseqLibrary-0.0.1",
+  "description": "Indicates whether or not the bisulfiteSeq library is directional",
+  "type": "boolean"
+}
