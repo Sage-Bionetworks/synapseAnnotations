@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-qc.validHiCContacts-0.0.1",
+    "type": "number",
+    "description": "Percentage of reads as valid Hi-C interactions (QC metric)"
+}
