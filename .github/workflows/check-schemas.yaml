@@ -1,5 +1,7 @@
 on: [push, pull_request]
 
+name: Check schemas
+
 env:
   AJV_CLI_VERSION: 4.0.1
   NPM_CONFIG_PREFIX: "~/.npm-global"
