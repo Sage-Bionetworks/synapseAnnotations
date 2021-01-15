@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-ngs.libraryID-0.0.1",
+    "type": "string",
+    "description": "Library ID as provided by the lab"
+}
