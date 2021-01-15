@@ -255,7 +255,7 @@
         },
         {
             "const": "IlluminaMiSeq",
-            "description": " A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",
+            "description": "A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",
             "source": "http://purl.obolibrary.org/obo/OBI_0002003"
         }
     ]
