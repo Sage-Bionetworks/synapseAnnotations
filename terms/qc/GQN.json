@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-qc.GQN-0.0.1",
+    "type": "number",
+    "description": "Illumina gDNA quality score"
+}
