@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-experimentalData.otherMedicalDx-0.0.1",
+  "type": "string",
+  "description": "Other medical diagnoses unrelated to the primary study indication"
+}
