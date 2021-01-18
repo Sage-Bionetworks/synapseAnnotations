@@ -53,6 +53,11 @@ create_rows <- function(file) {
       ) %>%
       mutate(value = as.character(value))
     return_df <- full_join(return_df, enum_df, by = character())
+    ## If no value had a source, then need to add this column
+    if (!("source" %in% names(return_df))) {
+      return_df <- return_df %>%
+        add_column(source = NA)
+    }
   } else {
     return_df <- return_df %>%
       add_column(value = NA, valueDescription = NA, source = NA)

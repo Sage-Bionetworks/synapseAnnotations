@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-manifestKeys.path-0.0.1",
+    "type": "string",
+    "description": "File path where data files that will be uploaded are stored"
+}
