@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.1",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.3",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
         {
@@ -132,6 +132,21 @@
             "const": "mild cognitive impairment",
             "description": "Diminished or impaired mental and/or intellectual function.",
             "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
+        },
+        {
+            "const": "no cognitive impairment",
+            "description": "No known mental and/or intellectual dysfunction.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "control",
+            "description": "An individual used as a standard of comparison.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "pathological aging",
+            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
+            "source": "https://doi.org/10.1186/alzrt254"
         }
     ]
 }

@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-batch.dnaBatch-0.0.1",
+    "type": "string",
+    "description": "DNA isolation batch"
+}
