@@ -1,0 +1,9 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.Braak-0.0.1",
+    "type": "integer",
+    "minimum": 0,
+    "maximum": 6,
+    "description": "Braak Stage - a semiquantitative measure of serverity of neurofibrillary tangle pathology",
+    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4894536/"
+}

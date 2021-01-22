@@ -1,0 +1,33 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.mannerOfDeath-0.0.1",
+    "type": "string",
+    "description": "The determination of how the injury or disease lead to death",
+    "anyOf": [
+      {
+        "const": "accident",
+        "description": "Cause of death attributable to unforeseen or unplanned circumstances",
+        "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0000924"
+      },
+      {
+        "const": "homicide",
+        "description": "Cause of death attributable to the actions of another person",
+        "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C3829672"
+      },
+      {
+        "const": "natural causes",
+        "description": "Cause of death attributable to the progression of a disease or pre-existing condition, and not attributable to any outside action or force",
+        "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0277610"
+      },
+      {
+        "const": "suicide",
+        "description": "Cause of death attributable to intentionally inflicted self harm",
+        "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0038661"
+      },
+      {
+        "const": "undetermined",
+        "description": "Cause of death cannot be determined",
+        "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=CL502663"
+      }
+    ]
+}
