@@ -1,21 +1,9 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-clinical.CERAD-0.0.1",
+    "type": "integer",
+    "minimum": 1,
+    "maximum": 4,
     "description": "A semiquantitative measure of neuritic plaques",
-    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3266529/",
-    "anyOf": [
-        {
-            "const": 1
-        },
-        {
-            "const": 2
-        },
-        {
-            "const": 3
-        },
-	{
-            "const": 4
-        }
-    ]
+    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3266529/"
 }
-
