@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.5",
+    "$id": "sage.annotations-neuro.study-0.0.6",
     "description": "",
     "anyOf": [
         {
@@ -519,8 +519,8 @@
             "source": "https://www.synapse.org/#!Synapse:syn23633760"
         },
         {
-            "const": "scRNA-seq_wild_AD_mic",
-            "description": "Microglia of wild-derived Alzheimer's mouse study (scRNA-seq_wild_AD_mic)",
+            "const": "scRNAseq_microglia_wild_ADmice",
+            "description": "Microglia of wild-derived Alzheimer's mouse study (scRNAseq_microglia_wild_ADmice)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
         },
         {
