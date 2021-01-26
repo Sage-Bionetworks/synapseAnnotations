@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.familyHistory-0.0.1",
+    "type": "boolean",
+    "description": "Is there a family history of the disorder/disease"
+}

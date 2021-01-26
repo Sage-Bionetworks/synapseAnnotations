@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.BMI-0.0.1",
+    "type": "number",
+    "description": "Body Mass Index"
+}
