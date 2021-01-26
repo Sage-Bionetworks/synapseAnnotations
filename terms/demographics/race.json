@@ -1,33 +1,33 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "sage.annotations-demographics.race-0.0.1",
-  "type": "string",
-  "description": "Race",
-  "anyOf": [
-    {
-      "const": "American Indian or Alaska Native",
-      "description": "A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment",
-      "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41259"
-    },
-    {
-      "const": "Asian",
-      "description": "A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam",
-      "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41260"
-    },
-    {
-      "const": "Black or African American",
-      "description": "A person having origins in any of the Black racial groups of Africa. Terms such as 'Haitian' or 'Negro' can be used in addition to 'Black or African American'",
-      "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C16352"
-    },
-    {
-      "const": "Native Hawaiian or Other Pacific Islander",
-      "description": "A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands",
-      "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41219"
-    },
-    {
-      "const": "White",
-      "description": "A person having origins in any of the original peoples of Europe, the Middle East, or North Africa",
-      "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41261"
-    }
-  ]
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-demographics.race-0.0.1",
+    "type": "string",
+    "description": "Race",
+    "anyOf": [
+        {
+            "const": "American Indian or Alaska Native",
+            "description": "A person having origins in any of the original peoples of North and South America (including Central America), and who maintains tribal affiliation or community attachment",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41259"
+        },
+        {
+            "const": "Asian",
+            "description": "A person having origins in any of the original peoples of the Far East, Southeast Asia, or the Indian subcontinent, including for example, Cambodia, China, India, Japan, Korea, Malaysia, Pakistan, the Philippine Islands, Thailand, and Vietnam",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41260"
+        },
+        {
+            "const": "Black or African American",
+            "description": "A person having origins in any of the Black racial groups of Africa. Terms such as 'Haitian' or 'Negro' can be used in addition to 'Black or African American'",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C16352"
+        },
+        {
+            "const": "Native Hawaiian or Other Pacific Islander",
+            "description": "A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41219"
+        },
+        {
+            "const": "White",
+            "description": "A person having origins in any of the original peoples of Europe, the Middle East, or North Africa",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41261"
+        }
+    ]
 }

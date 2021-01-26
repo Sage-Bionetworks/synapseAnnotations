@@ -1,6 +1,6 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "sage.annotations-demographics.dateOfBirth-0.0.1",
-  "type": "string",
-  "description": "Individual date of birth"
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-demographics.dateOfBirth-0.0.1",
+    "type": "string",
+    "description": "Individual date of birth"
 }
