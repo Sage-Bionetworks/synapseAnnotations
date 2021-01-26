@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.matingID-0.0.1",
+    "type": "string",
+    "description": "Identifies the animals that were mated to produce the animal in question"
+}

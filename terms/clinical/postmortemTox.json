@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-clinical.postmortemTox-0.0.1",
+    "type": "boolean",
+    "description": "Were toxicology tests performed on post mortem tissue"
+}
