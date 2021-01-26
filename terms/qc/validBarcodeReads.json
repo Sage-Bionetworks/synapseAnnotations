@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-qc.validBarcodeReads-0.0.1",
+    "type": "number",
+    "description": "Fraction of reads with cell barcodes that match the whitelist",
+    "source": "https://support.10xgenomics.com/single-cell-gene-expression/software/pipelines/latest/output/gex-metrics"
+}

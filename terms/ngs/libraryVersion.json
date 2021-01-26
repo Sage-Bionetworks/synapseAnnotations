@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-ngs.libraryVersion-0.0.1",
+    "type": "string",
+    "description": "Library Version: for example, rnaSeq 10x library version"
+}

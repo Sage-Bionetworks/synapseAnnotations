@@ -1,0 +1,162 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.metaboliteType-0.0.1",
+    "description": "Class of metabolite.",
+    "anyOf": [
+        {
+            "const": "amino acids",
+            "description": "Organic compounds that generally contain an amino (-NH2) and a carboxyl (-COOH) group. Twenty alpha-amino acids are the subunits which are polymerized to form proteins.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D000596"
+        },
+        {
+            "const": "biogenic amines",
+            "description": "A group of naturally occurring amines derived by enzymatic decarboxylation of the natural amino acids. Many have powerful physiological effects (e.g., histamine, serotonin, epinephrine, tyramine). Those derived from aromatic amino acids, and also their synthetic analogs (e.g., amphetamine), are of use in pharmacology.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D001679"
+        },
+        {
+            "const": "bile acids",
+            "description": "Any member of a group of hydroxy-5beta-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_3098"
+        },
+        {
+            "const": "cholesterol",
+            "description": "A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3beta-hydroxy group.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_16113"
+        },
+        {
+            "const": "fatty acids",
+            "description": "Organic, monobasic acids derived from hydrocarbons by the equivalent of oxidation of a methyl group to an alcohol, aldehyde, and then acid. Fatty acids are saturated and unsaturated (FATTY ACIDS, UNSATURATED). (Grant & Hackh's Chemical Dictionary, 5th ed)",
+            "source": "http://purl.bioontology.org/ontology/MESH/D005227"
+        },
+        {
+            "const": "glycerides",
+            "description": "GLYCEROL esterified with FATTY ACIDS.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D005989"
+        },
+        {
+            "const": "ketones",
+            "description": "Organic compounds containing a carbonyl group =C=O bonded to two hydrocarbon groups.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D007659"
+        },
+        {
+            "const": "lipoproteins",
+            "description": "Lipid-protein complexes involved in the transportation and metabolism of lipids in the body. They are spherical particles consisting of a hydrophobic core of TRIGLYCERIDES and CHOLESTEROL ESTERS surrounded by a layer of hydrophilic free CHOLESTEROL; PHOSPHOLIPIDS; and APOLIPOPROTEINS.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D008074"
+        },
+        {
+            "const": "lysophosphatidylcholine",
+            "description": "An acylglycerophosphocholine resulting from partial hydrolysis of a phosphatidylcholine, which removes one of the fatty acyl groups. The structure is depicted in the image where R1 = acyl, R2 = H or where R1 = H, R2 = acyl.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_60479"
+        },
+        {
+            "const": "phosphatidylcholine",
+            "description": "A glycerophosphocholine that is glycero-3-phosphocholine bearing two acyl substituents at positions 1 and 2.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_64482"
+        },
+        {
+            "const": "phosphatidylethonalamines",
+            "description": "Phosphatidylethanolamines (PE) are a class of phospholipids found in biological membranes.[1] They are synthesized by the addition of cytidine diphosphate-ethanolamine to diglycerides, releasing cytidine monophosphate.",
+            "source": "http://purl.bioontology.org/ontology/MESH/C483858"
+        },
+        {
+            "const": "phospholipids",
+            "description": "Lipids containing one or more phosphate groups, particularly those derived from either glycerol (phosphoglycerides see GLYCEROPHOSPHOLIPIDS) or sphingosine (SPHINGOLIPIDS).",
+            "source": "http://purl.bioontology.org/ontology/MESH/D010743"
+        },
+        {
+            "const": "sphingolipids",
+            "description": "A class of membrane lipids that have a polar head and two nonpolar tails. They are composed of one molecule of the long-chain amino alcohol sphingosine (4-sphingenine) or one of its derivatives, one molecule of a long-chain acid, a polar head alcohol and sometimes phosphoric acid in diester linkage at the polar head group. (Lehninger et al, Principles of Biochemistry, 2nd ed)",
+            "source": "http://purl.bioontology.org/ontology/MESH/D013107"
+        },
+        {
+            "const": "lipids",
+            "description": "A generic term for fats and lipoids, the alcohol-ether-soluble constituents of protoplasm, which are insoluble in water. They comprise the fats, fatty oils, essential oils, waxes, phospholipids, glycolipids, sulfolipids, aminolipids, chromolipids (lipochromes), and fatty acids. (Grant & Hackh's Chemical Dictionary, 5th ed)",
+            "source": "http://purl.bioontology.org/ontology/MESH/D008055"
+        },
+        {
+            "const": "nucleotides",
+            "description": "The monomeric units from which DNA or RNA polymers are constructed. They consist of a purine or pyrimidine base, a pentose sugar, and a phosphate group.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D009711"
+        },
+        {
+            "const": "sugars",
+            "description": "Short chain carbohydrate molecules that have hydroxyl groups attached to each carbon atom unit with the exception of one carbon that has a doubly-bond aldehyde or ketone oxygen.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D000073893"
+        },
+        {
+            "const": "TCA cycle metabolites",
+            "description": "TCA cycle metabolites",
+            "source": "http://www.semanticweb.org/ADMO#TCACycle"
+        },
+        {
+            "const": "carbohydrates",
+            "description": "A class of organic compounds composed of carbon, hydrogen, and oxygen in a ratio of Cn(H2O)n.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D002241"
+        },
+        {
+            "const": "acylcarnitines",
+            "description": "acylcarnitine",
+            "source": "http://purl.bioontology.org/ontology/MESH/C116917"
+        },
+        {
+            "const": "ceramides",
+            "description": "Members of the class of neutral glycosphingolipids. They are the basic units of SPHINGOLIPIDS.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D002518"
+        },
+        {
+            "const": "plasmalogens",
+            "description": "GLYCEROPHOSPHOLIPIDS in which one of the two acyl chains is attached to glycerol with an ether alkenyl linkage instead of an ester as with the other glycerophospholipids.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D010955"
+        },
+        {
+            "const": "acylglycerols",
+            "description": "Glycerides, more correctly known as acylglycerols, are esters formed from glycerol and fatty acids that are very hydrophobic. ",
+            "source": "http://purl.bioontology.org/ontology/MESH/D005989"
+        },
+        {
+            "const": "steriods",
+            "description": "A group of polycyclic compounds closely related biochemically to TERPENES. They include cholesterol, numerous hormones, precursors of certain vitamins, bile acids, alcohols (STEROLS), and certain natural drugs and poisons.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D013256"
+        },
+        {
+            "const": "sterols",
+            "description": "Steroids with a hydroxyl group at C-3 and most of the skeleton of cholestane. Additional carbon atoms may be present in the side chain.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D013261"
+        },
+        {
+            "const": "endocannabinoids",
+            "description": "Fatty acid derivatives that have specificity for CANNABINOID RECEPTORS. They are structurally distinct from CANNABINOIDS and were originally discovered as a group of endogenous CANNABINOID RECEPTOR AGONISTS.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D063388"
+        },
+        {
+            "const": "oxylipins",
+            "description": "Eighteen-carbon cyclopentyl polyunsaturated fatty acids derived from ALPHA-LINOLENIC ACID via an oxidative pathway analogous to the EICOSANOIDS in animals.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D054883"
+        },
+        {
+            "const": "eicosanoids",
+            "description": "A class of compounds named after and generally derived from C20 fatty acids (EICOSANOIC ACIDS) that includes PROSTAGLANDINS; LEUKOTRIENES; THROMBOXANES, and HYDROXYEICOSATETRAENOIC ACIDS.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D015777"
+        },
+        {
+            "const": "peptides",
+            "description": "Members of the class of compounds composed of AMINO ACIDS joined together by peptide bonds between adjacent amino acids into linear, branched or cyclical structures.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D010455"
+        },
+        {
+            "const": "cofactors and vitamins",
+            "description": "Those reactions involved in the synthesis, utilization and/or degradation of cofactors, vitamins and other nutrients.",
+            "source": "http://bioportal.bioontology.org/ontologies/PW/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPW_0000135"
+        },
+        {
+            "const": "xenobiotics",
+            "description": "Chemical substances that are foreign to the biological system. They include naturally occurring compounds, drugs, environmental agents, carcinogens, insecticides, etc.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D015262"
+        },
+        {
+            "const": "drugs",
+            "description": "The pharmacokinetics and the pharmacodynamics pathway elicited by the administration of specific drugs.",
+            "source": "http://bioportal.bioontology.org/ontologies/PW/?p=classes&conceptid=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPW_0000754"
+        }
+    ]
+}

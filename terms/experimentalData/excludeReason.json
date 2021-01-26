@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.excludeReason-0.0.1",
+    "description": "Reason why a sample should be excluded from analysis",
+    "type": "string"
+}
