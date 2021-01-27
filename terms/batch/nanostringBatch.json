@@ -2,5 +2,5 @@
     "$schema": "http://json-schema.org/draft-07/schema",
     "$id": "sage.annotations-batch.nanostringBatch-0.0.1",
     "type": "string",
-    "description": "The batch on the nanostring panel the samples were run on. Twelve samples can be processed together at once on a machine."
+    "description": "The batch of samples run on a nanostring panel. Twelve samples can be processed together at once on a machine."
 }
