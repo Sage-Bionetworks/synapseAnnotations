@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.cellType-0.0.2",
+    "$id": "sage.annotations-experimentalData.cellType-0.0.3",
     "description": "A cell type is a distinct morphological or functional form of cell.",
     "anyOf": [
         {
@@ -187,6 +187,11 @@
             "const": "lymphoblastoid cell line",
             "description": "Human cell line from tissue infected with Epstein-Barr virus, resembling a lymphoblast",
             "source": "http://purl.obolibrary.org/obo/BTO_0000773"
+        },
+        {
+            "const": "immune cell",
+            "description": "A cell in the immune system that is involved in host defense. This category may include lymphocytes, monocytes, macrophages, neutrophils, eosinophils, basophils, mast cells, and thrombocytes. Precursor cells in these lineages may also be included.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C132890"
         }
     ]
 }
