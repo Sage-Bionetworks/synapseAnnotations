@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-qc.organRIN-0.0.1",
+    "type": "number",
+    "description": "A general quality metric of the organ or tissue, not necessarily a direct RIN measure of the sample used in data generation"
+}
