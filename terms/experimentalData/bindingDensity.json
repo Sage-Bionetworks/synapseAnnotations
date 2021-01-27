@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "sage.annotations-experimentalData.bindingDensity-0.0.1",
+  "type": "string",
+  "description": "The number of optical features per square micron for each lane. (Definition is from https://www.nanostring.com/wp-content/uploads/2020/12/Gene_Expression_Data_Analysis_Guidelines.pdf)"
+}
