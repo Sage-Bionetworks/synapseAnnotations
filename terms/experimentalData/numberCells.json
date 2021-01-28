@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-experimentalData.numberCells-0.0.1",
+    "type": "integer",
+    "description": "Number of cells or nuclei sequenced"
+}

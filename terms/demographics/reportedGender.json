@@ -1,0 +1,23 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-demographics.reportedGender-0.0.1",
+    "type": "string",
+    "description": "Gender as reported by the tissue bank",
+    "anyOf": [
+        {
+            "const": "female",
+            "description": "Female",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0015780"
+        },
+        {
+            "const": "male",
+            "description": "Male",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0086582"
+        },
+        {
+            "const": "unknown",
+            "description": "Gender is not reported by the tissue bank",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0439673"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-experimentalData.visitNumber-0.0.1",
+    "type": "number",
+    "description": "For clinical trials or longitudinal studies, the visit number when the sample was collected"
+}

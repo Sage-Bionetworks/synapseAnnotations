@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "sage.annotations-demographics.ethnicity-0.0.1",
+    "type": "string",
+    "description": "Ethnicity of the donor"
+}
