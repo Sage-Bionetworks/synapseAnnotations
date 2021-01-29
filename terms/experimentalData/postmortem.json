@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-clinical.postmortem-0.0.1",
+    "$id": "sage.annotations-experimentalData.postmortem-0.0.1",
     "type": "boolean",
     "description": "Was the tissue biopsied or sampled after death (true/false)"
 }
