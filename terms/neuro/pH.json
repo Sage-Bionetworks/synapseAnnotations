@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-neuro.pH-0.0.1",
-    "description": "",
+    "description": "A scale used to specify the acidity or basicity of an aqueous or other liquid solution",
     "type": "string"
 }
 
