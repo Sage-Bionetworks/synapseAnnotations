@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-demographics.familialRelationship-0.0.1",
+    "type": "string",
+    "description": "Family relationship between individuals in the study",
+    "anyOf": [
+        {
+            "const": "daughter",
+            "description": "A female human offspring",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0337552"
+        },
+        {
+            "const": "father",
+            "description": "A male parent",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0015671"
+        },
+        {
+            "const": "mother",
+            "description": "A female parent",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0026591"
+        },
+        {
+            "const": "offspring",
+            "description": "A first-generation, biological descendant of any age",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0680063"
+        },
+        {
+            "const": "parent",
+            "description": "A mother or father; an immediate progenitor",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0030551"
+        },
+        {
+            "const": "son",
+            "description": "A male human offspring",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0037683"
+        }
+    ]
+}
