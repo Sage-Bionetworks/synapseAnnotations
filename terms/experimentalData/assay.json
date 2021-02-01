@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.4",
+    "$id": "sage.annotations-experimentalData.assay-0.0.5",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -462,6 +462,16 @@
             "const": "16SrRNAseq",
             "description": "An amplicon sequencing assay in which the amplicon is derived from universal primers used to amplify the 16S ribosomal RNA gene from isolate bacterial genomic DNA or metagenomic DNA from a microbioal community. Resulting sequences are compared to reference 16S sequence databases to identify or classify bacteria present within a given sample.",
             "source": "http://www.ontobee.org/ontology/OBI?iri=http://purl.obolibrary.org/obo/OBI_0002763"
+        },
+        {
+            "const": "proximity extension assay",
+            "description": "An immunoassay based on pairs of antibodies that are linked to oligonucleotides having slight affinity to one another (proximity extension assay (PEA) probes). Upon target binding the probes are brought in proximity, and the two oligonucleotides are extended by a DNA polymerase forming a new sequence that now acts as a unique surrogate marker for the specific antigen. This sequence is typically quantified by quantitative real-time PCR (qPCR), where the number of PCR templates formed is proportional to the initial concentration of antigen in the sample.",
+            "source": "https://doi.org/10.1371/journal.pone.0095192"
+        },
+        {
+            "const": "SiMoA",
+            "description": "A type of enzyme-linked immunoassay in which single molecules can be detected through the use of femtomolar-sized reaction chambers and an excess of fluorescently labeled antibody-bound beads. [def-source: NCI]",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C161406"
         }
     ]
 }
