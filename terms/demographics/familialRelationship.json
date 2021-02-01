@@ -5,9 +5,19 @@
     "description": "Family relationship between individuals in the study",
     "anyOf": [
         {
+            "const": "daughter",
+            "description": "A female human offspring",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0337552"
+        },
+        {
             "const": "father",
             "description": "A male parent",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0015671"
+        },
+        {
+            "const": "mother",
+            "description": "A female parent",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0026591"
         },
         {
             "const": "son",
