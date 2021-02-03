@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-ngs.libraryPrep-0.0.3",
+    "$id": "sage.annotations-ngs.libraryPrep-0.0.4",
     "description": "The general strategy by which the library was prepared",
     "anyOf": [
         {
@@ -52,6 +52,16 @@
             "const": "amplicon",
             "description": "A region amplified by a PCR reaction",
             "source": "http://purl.obolibrary.org/obo/SO_0000006"
+        },
+        {
+            "const": "SureCell",
+            "description": "SureCell WTA 3' Library Prep Kit",
+            "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/surecell/surecell-wta3-library-prep-reference-guide-1000000021452-01.pdf"
+        },
+        {
+            "const": "SPLITseq",
+            "description": "split-seq library preparation",
+            "source": "http://www.parsebiosciences.com/products"
         }
     ]
 }
