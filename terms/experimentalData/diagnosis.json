@@ -155,12 +155,12 @@
         },
         {
             "const": "Parkinson's disease",
-            "description": "A synucleinopathy that has_material_basis_in degeneration of the central nervous system that often impairs motor skills, speech, and other functions.",
+            "description": "A synucleinopathy that has material basis in degeneration of the central nervous system that often impairs motor skills, speech, and other functions.",
             "source": "http://purl.obolibrary.org/obo/DOID_14330"
         },
         {
             "const": "obesity",
-            "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has_material_basis_in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
+            "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has material basis in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
             "source": "http://purl.obolibrary.org/obo/DOID_9970"
         },
         {
