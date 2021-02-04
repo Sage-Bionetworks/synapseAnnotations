@@ -182,6 +182,11 @@
             "const": "vascular dementia",
             "description": "A dementia that involves impairments in cognitive function caused by problems in blood vessels that feed the brain.",
             "source": "http://purl.obolibrary.org/obo/DOID_8725"
+        },
+        {
+            "const": "traumatic brain injury",
+            "description": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+            "source": "http://purl.obolibrary.org/obo/OAE_0002392"
         }
     ]
 }
