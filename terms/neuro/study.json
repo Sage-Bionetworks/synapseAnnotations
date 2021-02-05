@@ -525,7 +525,7 @@
         },
         {
             "const": "ADMC_ADNI_NightingaleNMR",
-            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer’s Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
             "source": "https://www.synapse.org/#!Synapse:syn23557831"
         },        
         {
