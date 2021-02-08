@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.3",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.4",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
         {
@@ -147,6 +147,46 @@
             "const": "pathological aging",
             "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
             "source": "https://doi.org/10.1186/alzrt254"
+        },
+        {
+            "const": "dementia",
+            "description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
+            "source": "http://purl.obolibrary.org/obo/DOID_1307"
+        },
+        {
+            "const": "Parkinson's disease",
+            "description": "A synucleinopathy that has material basis in degeneration of the central nervous system that often impairs motor skills, speech, and other functions.",
+            "source": "http://purl.obolibrary.org/obo/DOID_14330"
+        },
+        {
+            "const": "obesity",
+            "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has material basis in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
+            "source": "http://purl.obolibrary.org/obo/DOID_9970"
+        },
+        {
+            "const": "anxiety",
+            "description": "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill.",
+            "source": "http://purl.obolibrary.org/obo/SYMP_0000412"
+        },
+        {
+            "const": "hypoxia",
+            "description": "A decrease in the amount of oxygen in the body. Symptoms range from mild (impaired judgment, memory loss, impaired motor coordination) to severe (seizures and coma).",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3890"
+        },
+        {
+            "const": "Lewy body disease",
+            "description": "A dementia that is characterized by the development of abnormal proteinaceous (alpha-synuclein) cytoplasmic inclusions, called Lewy bodies, throughout the brain that results in progressive decline in mental abilities.",
+            "source": "http://www.ontobee.org/ontology/DOID?iri=http://purl.obolibrary.org/obo/DOID_12217"
+        },
+        {
+            "const": "vascular dementia",
+            "description": "A dementia that involves impairments in cognitive function caused by problems in blood vessels that feed the brain.",
+            "source": "http://purl.obolibrary.org/obo/DOID_8725"
+        },
+        {
+            "const": "traumatic brain injury",
+            "description": "A form of acquired brain injury which occurs when a sudden trauma causes damage to the brain.",
+            "source": "http://purl.obolibrary.org/obo/OAE_0002392"
         }
     ]
 }
