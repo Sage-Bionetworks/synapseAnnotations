@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-analysis.analysisType-0.0.3",
+    "$id": "sage.annotations-analysis.analysisType-0.0.4",
     "description": "",
     "anyOf": [
         {
@@ -202,6 +202,11 @@
             "const": "manifold learning",
             "description": "Application of any class of non-linear dimensionality reduction methods to produce low dimensional representations of noisy high dimensional data",
             "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Mendelian randomization analysis",
+            "description": "The use of the genetic variation of known functions or phenotypes to correlate the causal effects of those functions or phenotypes with a disease outcome.",
+            "source": " http://purl.bioontology.org/ontology/MESH/D057182"
         },
         {
             "const": "genome-wide pleiotropy",
