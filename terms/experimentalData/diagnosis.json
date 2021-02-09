@@ -189,11 +189,6 @@
             "source": "http://purl.obolibrary.org/obo/OAE_0002392"
         },
         {
-            "const": "lewy body dementia",
-            "description": "A progressive form of dementia characterized by the presence of protein deposits called Lewy bodies in the midbrain and cerebral cortex, and loss of cholinergic and dopaminergic neurons. The signs and symptoms overlap with Alzheimer's and Parkinson's disease.",
-            "source": "http://purl.obolibrary.org/obo/MONDO_0007488"
-        },
-        {
             "const": "corticobasal degeneration disorder",
             "description": "A progressive neurodegenerative condition affecting the cerebral cortex and basal ganglia. The disorder is characterized by varying degrees of cognitive and motor impairment.",
             "source": "http://purl.obolibrary.org/obo/MONDO_0022308"
