@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.6",
+    "$id": "sage.annotations-neuro.study-0.0.7",
     "description": "",
     "anyOf": [
         {
@@ -523,6 +523,11 @@
             "description": "Microglia of wild-derived Alzheimer's mouse study (scRNAseq_microglia_wild_ADmice)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
         },
+        {
+            "const": "ADMC_ADNI_NightingaleNMR",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn23557831"
+        },        
         {
             "const": "HBI_scRNAseq",
             "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
