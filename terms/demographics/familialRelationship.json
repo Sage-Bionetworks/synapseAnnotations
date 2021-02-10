@@ -30,6 +30,12 @@
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0030551"
         },
         {
+            "const": "sibling",
+            "description": "Persons or animals having at least one parent in common",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0037047"
+        },
+        {
+        {
             "const": "son",
             "description": "A male human offspring",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0037683"
