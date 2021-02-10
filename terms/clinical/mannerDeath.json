@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-clinical.mannerOfDeath-0.0.1",
+    "$id": "sage.annotations-clinical.mannerDeath-0.0.1",
     "type": "string",
     "description": "The determination of how the injury or disease lead to death",
     "anyOf": [
