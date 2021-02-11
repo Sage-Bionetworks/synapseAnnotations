@@ -15,7 +15,7 @@
         },
         {
             "const": "ADNI",
-            "description:" "Alzheimer's Disease Neuroimaging Initiative",
+            "description": "Alzheimer's Disease Neuroimaging Initiative",
             "source": "http://adni.loni.usc.edu/"
         },
         {
