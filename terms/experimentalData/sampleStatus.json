@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.sampleStatus-0.0.1",
+    "description": "Conditions under which sample is kept",
+    "anyOf": [
+        {
+            "const": "formalin-fixed",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=CL365916"
+        },
+        {
+            "const": "fresh",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C2827486"
+        },
+        {
+            "const": "frozen",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C1548793"
+        },
+        {
+            "const": "paxgene",
+            "source": ""
+        }
+    ]
+}
+
