@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-sageCommunity.consortium-0.0.2",
+    "$id": "sage.annotations-sageCommunity.consortium-0.0.3",
     "description": "The name of the consortium",
     "anyOf": [
         {
@@ -67,6 +67,11 @@
             "const": "CDCP",
             "description": "Community Data Contribution Program",
             "source": "https://adknowledgeportal.synapse.org/"
+        },
+        {
+            "const": "Psych-AD",
+            "description": "Neuropsychiatric Symptoms in Alzheimer's Disease",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Programs/DetailsPage?Program=Psych-AD"
         },
         {
             "const": "Not Applicable",
