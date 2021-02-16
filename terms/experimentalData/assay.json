@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.5",
+    "$id": "sage.annotations-experimentalData.assay-0.0.6",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -472,6 +472,11 @@
             "const": "SiMoA",
             "description": "A type of enzyme-linked immunoassay in which single molecules can be detected through the use of femtomolar-sized reaction chambers and an excess of fluorescently labeled antibody-bound beads. [def-source: NCI]",
             "source": "http://purl.obolibrary.org/obo/NCIT_C161406"
+        },
+        {
+            "const": "CITEseq",
+            "description": "CITE-seq is a method that combines highly multiplexed antibody-based detection of protein markers together with unbiased transcriptome profiling for thousands of single cells in parallel.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5669064/"
         }
     ]
 }
