@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-demographics.ageDeathUnits-0.0.1",
+    "$id": "sage.annotations-demographics.ageDeathUnits-0.0.2",
     "type": "string",
     "description": "The death age unit of measure",
     "anyOf": [
@@ -13,6 +13,11 @@
             "const": "months",
             "description": "Used for animal models",
             "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C29846"
+        },
+        {
+            "const": "PCW",
+            "description": "Post-Conception Weeks",
+            "source": "https://embryology.med.unsw.edu.au/embryology/index.php/Timeline_human_development"
         },
         {
             "const": "gestational weeks",
