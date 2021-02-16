@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-demographics.familialRelationship-0.0.1",
+    "$id": "sage.annotations-demographics.familialRelationship-0.0.2",
     "type": "string",
     "description": "Family relationship between individuals in the study",
     "anyOf": [
@@ -28,6 +28,11 @@
             "const": "parent",
             "description": "A mother or father; an immediate progenitor",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0030551"
+        },
+        {
+            "const": "sibling",
+            "description": "Persons or animals having at least one parent in common",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0037047"
         },
         {
             "const": "son",
