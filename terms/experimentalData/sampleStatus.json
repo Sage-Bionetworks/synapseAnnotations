@@ -5,19 +5,23 @@
     "anyOf": [
         {
             "const": "formalin-fixed",
+            "description": "Sample was formalin-fixed",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=CL365916"
         },
         {
             "const": "fresh",
+            "description": "Sample was fresh",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C2827486"
         },
         {
             "const": "frozen",
+            "description": "Sample was frozen",
             "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C1548793"
         },
         {
             "const": "paxgene",
-            "source": ""
+            "description": "Sample was PAXgene fixed",
+            "source": "http://www.ontobee.org/ontology/OBIB?iri=http://purl.obolibrary.org/obo/OBIB_0000212"
         }
     ]
 }
