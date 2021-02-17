@@ -1,0 +1,124 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id":"sysbio.PECSpecific-annotations.grant-0.0.1",
+    "description": "Grant number the data is being submitted for",
+    "type": "string",
+    "anyOf": [
+        {
+            "const": "R01MH109677",
+            "description": "Risk Genetic Variants and CIS Regulation of Gene Expression in Bipolar Disorder"
+        },
+        {
+            "const": "R01MH109715",
+            "description": "Mapping the Role of Long Noncoding RNAs in Gene Regulatory Networks in Schizophrenia"
+        },
+        {
+            "const": "R01MH110472",
+            "description": "Transcription Factor Function in Healthy and Psychiatric Disorder-Affected Brains"
+        },
+        {
+            "const": "R01MH110905",
+            "description": "2/2 Measuring Translational Dynamics and the Proteome to Identify Potential Brain Biomarkers for Psychiatric Disease"
+        },
+        {
+            "const": "R01MH110920",
+            "description": "1/2 Measuring Translational Dynamics and the Proteome to Identify Potential Brain Biomarkers for Psychiatric Disease"
+        },
+        {
+            "const": "R01MH110921",
+            "description": "Molecular Profiling of Schizophrenia"
+        },
+        {
+            "const": "R01MH110926",
+            "description": "1/3 Integrative Genomic Analysis of Human Brain Development and Autism"
+        },
+        {
+            "const": "R01MH110927",
+            "description": "2/3 Integrative Genomic Analysis of Human Brain Development and Autism"
+        },
+        {
+            "const": "R01MH110928",
+            "description": "3/3 Integrative Genomic Analysis of Human Brain Development and Autism"
+        },
+        {
+            "const": "R01MH111721",
+            "description": "Integrative Genomics of the Corticolimbic Circuit in Major Depressive Disorder"
+        },
+        {
+            "const": "R01MH112751",
+            "description": "Functional Methylomics Approaches for Schizophrenia in the Frontal Cortex and Hippocampus"
+        },
+        {
+            "const": "R01MH117291",
+            "description": "2/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics"
+        },
+        {
+            "const": "R01MH117292",
+            "description": "3/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics"
+        },
+        {
+            "const": "R01MH117293",
+            "description": "1/3 Understanding PTSD Through Postmortem Targeted Brain Multi-Omics"
+        },
+        {
+            "const": "R21MH105853",
+            "description": ""
+        },
+        {
+            "const": "R56MH114899",
+            "description": "2/3 Chromatin Regulation During Brain Development and in ASD"
+        },
+        {
+            "const": "R56MH114901",
+            "description": "3/3 Chromatin Regulation During Brain Development and in ASD"
+        },
+        {
+            "const": "R56MH114911",
+            "description": "1/3 Chromatin Regulation During Brain Development and in ASD"
+        },
+        {
+            "const": "U01DA048279",
+            "description": "Functional Genomic Resource and Integrative Model of Dopaminergic Circuitry Associated with Psychiatric Disease"
+        },
+        {
+            "const": "U01MH103339",
+            "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism"
+        },
+        {
+            "const": "U01MH103340",
+            "description": "Genetic Variants Affect Brain Gene Expression and Risks of Psychiatric Disorders"
+        },
+        {
+            "const": "U01MH116438",
+            "description": "Massively Parallel Characterization of Psychiatric Disease Associated Regulatory Elements in Defined Cell Types"
+        },
+        {
+            "const": "U01MH116441",
+            "description": "Dynamic RNA Modifications in Human Brain Development and Autism"
+        },
+        {
+            "const": "U01MH116442",
+            "description": "The 3D Genome in Transcriptional Regulation Across the Postnatal Life Span, with Implications for Schizophrenia and Bipolar Disorder"
+        },
+        {
+            "const": "U01MH116487",
+            "description": "2/2 Cell Type and Region-Specific Regulatory Networks in Human Brain Development and Disorders"
+        },
+        {
+            "const": "U01MH116488",
+            "description": "1/2 Cell Type and Region-Specific Regulatory Networks in Human Brain Development and Disorders"
+        },
+        {
+            "const": "U01MH116489",
+            "description": "2/2 Discovery and Validation of Neuronal Enhancers Associated with the Development of Psychiatric Disorders"
+        },
+        {
+            "const": "U01MH116529",
+            "description": "Integrated, Cell Type Specific Functional Genomics Analyses of Regulatory Sequence Elements and Their Dynamic Interaction Networks in Neuropsychiatric Brain Tissues"
+        },
+        {
+            "const": "U01MH119509",
+            "description": "Single Cell Transcriptional and Epigenomic Dissection of Schizophrenia and Bipolar Disease"
+        }
+    ]
+}

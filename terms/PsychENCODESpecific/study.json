@@ -1,0 +1,125 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id":"sysbio.PECSPecific-annotations.study-0.0.1",
+    "description": "Study",
+    "type": "string",
+    "anyOf": [
+        {
+          "const": "3Dchromatin"
+        },
+        {
+          "const": "ASD-lncRNA"
+        },
+        {
+          "const": "BipSeq"
+        },
+        {
+          "const": "BrainGVEX"
+        },
+        {
+          "const": "BrainSpan"
+        },
+        {
+          "const": "BrainTF"
+        },
+        {
+          "const": "BrainVar"
+        },
+        {
+          "const": "CMC"
+        },
+        {
+          "const": "CNON"
+        },
+        {
+          "const": "DevBrain-snRNAseq"
+        },
+        {
+          "const": "DopaModel"
+        },
+        {
+          "const": "EpiDiff"
+        },
+        {
+          "const": "EpiGABA"
+        },
+        {
+          "const": "EpiMap"
+        },
+        {
+          "const": "HumanFC"
+        },
+        {
+          "const": "lncRNA Pilot"
+        },
+        {
+          "const": "iPSC"
+        },
+        {
+          "const": "iPSC-ASD"
+        },
+        {
+          "const": "iPSC-HiC"
+        },
+        {
+          "const": "iPSCNeuroDiff"
+        },
+        {
+          "const": "IsoHuB"
+        },
+        {
+          "const": "LIBD-WGBS"
+        },
+        {
+          "const": "LIBD-WGBS-SCZD"
+        },
+        {
+          "const": "MDDseq"
+        },
+        {
+          "const": "Midbrain Genomics"
+        },
+        {
+          "const": "MouseHAL"
+        },
+        {
+          "const": "NeuEnhancer"
+        },
+        {
+          "const": "NeuREs"
+        },
+        {
+          "const": "NHP-Chimpanzee"
+        },
+        {
+          "const": "NHP-Macaque"
+        },
+        {
+          "const": "referenceBrain"
+        },
+        {
+          "const": "SCZ-IncRNA"
+        },
+        {
+          "const": "scOrganomics"
+        },
+        {
+          "const": "SingleCellRNAseq"
+        },
+        {
+          "const": "SZBDMulti-Seq"
+        },
+        {
+          "const": "TS-RNAseq"
+        },
+        {
+          "const": "UCLA-ASD"
+        },
+        {
+          "const": "WGBS Pilot"
+        },
+        {
+          "const": "Yale-ASD"
+        }
+    ]
+}
