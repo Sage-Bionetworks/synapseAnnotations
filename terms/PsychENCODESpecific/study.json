@@ -5,121 +5,124 @@
     "type": "string",
     "anyOf": [
         {
-          "const": "3Dchromatin"
+            "const": "3Dchromatin"
         },
         {
-          "const": "ASD-lncRNA"
+            "const": "ASD-lncRNA"
         },
         {
-          "const": "BipSeq"
+            "const": "BipSeq"
         },
         {
-          "const": "BrainGVEX"
+            "const": "BrainGVEX"
         },
         {
-          "const": "BrainSpan"
+            "const": "BrainSpan"
         },
         {
-          "const": "BrainTF"
+            "const": "BrainTF"
         },
         {
-          "const": "BrainVar"
+            "const": "BrainVar"
         },
         {
-          "const": "CMC"
+            "const": "CMC"
         },
         {
-          "const": "CNON"
+            "const": "CNON"
         },
         {
-          "const": "DevBrain-snRNAseq"
+            "const": "DevBrain-snRNAseq"
         },
         {
-          "const": "DopaModel"
+            "const": "DopaModel"
         },
         {
-          "const": "EpiDiff"
+            "const": "EpiDiff"
         },
         {
-          "const": "EpiGABA"
+            "const": "EpiGABA"
         },
         {
-          "const": "EpiMap"
+            "const": "EpiMap"
         },
         {
-          "const": "HumanFC"
+            "const": "HumanFC"
         },
         {
-          "const": "lncRNA Pilot"
+            "const": "lncRNA Pilot"
         },
         {
-          "const": "iPSC"
+            "const": "iPSC"
         },
         {
-          "const": "iPSC-ASD"
+            "const": "iPSC-ASD"
         },
         {
-          "const": "iPSC-HiC"
+            "const": "iPSC-HiC"
         },
         {
-          "const": "iPSCNeuroDiff"
+            "const": "iPSCNeuroDiff"
         },
         {
-          "const": "IsoHuB"
+            "const": "IsoHuB"
         },
         {
-          "const": "LIBD-WGBS"
+            "const": "LIBD_szControl"
         },
         {
-          "const": "LIBD-WGBS-SCZD"
+            "const": "LIBD-WGBS"
         },
         {
-          "const": "MDDseq"
+            "const": "LIBD-WGBS-SCZD"
         },
         {
-          "const": "Midbrain Genomics"
+            "const": "MDDseq"
         },
         {
-          "const": "MouseHAL"
+            "const": "Midbrain Genomics"
         },
         {
-          "const": "NeuEnhancer"
+            "const": "MouseHAL"
         },
         {
-          "const": "NeuREs"
+            "const": "NeuEnhancer"
         },
         {
-          "const": "NHP-Chimpanzee"
+            "const": "NeuREs"
         },
         {
-          "const": "NHP-Macaque"
+            "const": "NHP-Chimpanzee"
         },
         {
-          "const": "referenceBrain"
+            "const": "NHP-Macaque"
         },
         {
-          "const": "SCZ-IncRNA"
+            "const": "referenceBrain"
         },
         {
-          "const": "scOrganomics"
+            "const": "SCZ-IncRNA"
         },
         {
-          "const": "SingleCellRNAseq"
+            "const": "scOrganomics"
         },
         {
-          "const": "SZBDMulti-Seq"
+            "const": "SingleCellRNAseq"
         },
         {
-          "const": "TS-RNAseq"
+            "const": "SZBDMulti-Seq"
         },
         {
-          "const": "UCLA-ASD"
+            "const": "TS-RNAseq"
         },
         {
-          "const": "WGBS Pilot"
+            "const": "UCLA-ASD"
         },
         {
-          "const": "Yale-ASD"
+            "const": "WGBS Pilot"
+        },
+        {
+            "const": "Yale-ASD"
         }
     ]
 }
