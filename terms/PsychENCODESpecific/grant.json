@@ -5,6 +5,10 @@
     "type": "string",
     "anyOf": [
         {
+            "const": "R01MH106056",
+            "description": "Higher Order Chromatin and Genetic Risk for Schizophrenia"
+        },
+        {
             "const": "R01MH109677",
             "description": "Risk Genetic Variants and CIS Regulation of Gene Expression in Bipolar Disorder"
         },
@@ -113,12 +117,32 @@
             "description": "2/2 Discovery and Validation of Neuronal Enhancers Associated with the Development of Psychiatric Disorders"
         },
         {
+            "const": "U01MH116492",
+            "description": "1/2 Discovery and Validation of Neuronal Enhancers Associated with the Development of Psychiatric Disorders"
+        },
+        {
             "const": "U01MH116529",
             "description": "Integrated, Cell Type Specific Functional Genomics Analyses of Regulatory Sequence Elements and Their Dynamic Interaction Networks in Neuropsychiatric Brain Tissues"
         },
         {
             "const": "U01MH119509",
             "description": "Single Cell Transcriptional and Epigenomic Dissection of Schizophrenia and Bipolar Disease"
+        },
+        {
+            "const": "U01MH122590",
+            "description": "2/3 High-Resolution Mapping of Cell Type-Specific DNA (hydroxy)methylation in Human Brain During Postnatal Development and in Psychiatric disease"
+        },
+        {
+            "const": "U01MH122591",
+            "description": "1/3 High-Resolution Mapping of Cell Type-Specific DNA (hydroxy)methylation in Human Brain During Postnatal Development and in Psychiatric disease"
+        },
+        {
+            "const": "U01MH122592",
+            "description": "3/3 High-Resolution Mapping of Cell Type-Specific DNA (hydroxy)methylation in Human Brain During Postnatal Development and in Psychiatric disease"
+        },
+        {
+            "const": "U01MH122849",
+            "description": "Spatial Registration of Gene Expression in the Human Brain"
         }
     ]
 }
