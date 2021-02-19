@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.SentrixID-0.0.1",
+    "description": "BeadChip ID in Illumina array-based assay",
+    "type": "string"
+}
+
