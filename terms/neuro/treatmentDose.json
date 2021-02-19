@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-neuro.treatmentDose-0.0.1",
+    "description": "Dose of treatment used, including units and timeframe",
+    "type": "string"
+}
+
