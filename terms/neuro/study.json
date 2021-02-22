@@ -464,8 +464,8 @@
             "source": "https://www.synapse.org/#!Synapse:syn22391827"
         },
         {
-            "const": "ROSMAP_SynapticResilience",
-            "description": "The ROSMAP_SynapticResilience study",
+            "const": "ROSMAP_CognitiveResilience",
+            "description": "The ROSMAP_CognitiveResilience study",
             "source": "https://www.synapse.org/#!Synapse:syn22695346"
         },
         {

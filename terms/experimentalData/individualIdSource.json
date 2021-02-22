@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.4",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.5",
     "description": "Database or repository to which individual ID maps",
     "anyOf": [
         {
@@ -142,6 +142,11 @@
             "const": "Yale",
             "description": "Yale School of Medicine",
             "source": "https://medicine.yale.edu/"
+        },
+        {
+            "const": "IU",
+            "description": "Indiana University",
+            "source": "https://www.indiana.edu/"
         }
     ]
 }
