@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id":"sage.annotations-PsychENCODESpecific.grant-0.0.1",
-    "description": "Grant number the data is being submitted for",
+    "description": "Grant number including activity code, institute code, and serial number (e.g. U01MH103392)",
     "type": "string",
     "anyOf": [
         {
