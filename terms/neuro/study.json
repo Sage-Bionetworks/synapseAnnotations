@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-neuro.study-0.0.8",
-    "description": "",
+    "description": "Study",
     "anyOf": [
         {
             "const": "3Dchromatin",
