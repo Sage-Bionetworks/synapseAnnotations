@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.7",
-    "description": "",
+    "$id": "sage.annotations-neuro.study-0.0.8",
+    "description": "Study",
     "anyOf": [
         {
             "const": "3Dchromatin",
@@ -464,8 +464,8 @@
             "source": "https://www.synapse.org/#!Synapse:syn22391827"
         },
         {
-            "const": "ROSMAP_SynapticResilience",
-            "description": "The ROSMAP_SynapticResilience study",
+            "const": "ROSMAP_CognitiveResilience",
+            "description": "The ROSMAP_CognitiveResilience study",
             "source": "https://www.synapse.org/#!Synapse:syn22695346"
         },
         {

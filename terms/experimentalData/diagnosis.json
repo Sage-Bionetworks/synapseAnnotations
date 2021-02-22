@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.5",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.6",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
         {
@@ -212,6 +212,11 @@
         	"const": "amyotrophic lateral sclerosis",
         	"description": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive muscular paralysis reflecting degeneration of motor neurons in the primary motor cortex, corticospinal tracts, brainstem and spinal cord.",
         	"source": "http://purl.obolibrary.org/obo/MONDO_0004976" 
+        },
+        {
+            "const": "gliosis",
+            "description": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+            "source": "https://hpo.jax.org/app/browse/term/HP:0002171" 
         }
     ]
 }

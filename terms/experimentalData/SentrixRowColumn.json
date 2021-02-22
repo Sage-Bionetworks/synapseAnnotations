@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-experimentalData.SentrixRowColumn-0.0.1",
+    "description": "Position of sample on BeadChip in Illumina array-based assay",
+    "type": "string"
+}
+
