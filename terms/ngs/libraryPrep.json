@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-ngs.libraryPrep-0.0.4",
+    "$id": "sage.annotations-ngs.libraryPrep-0.0.5",
     "description": "The general strategy by which the library was prepared",
     "anyOf": [
         {
