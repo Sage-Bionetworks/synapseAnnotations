@@ -5,124 +5,209 @@
     "type": "string",
     "anyOf": [
         {
-            "const": "3Dchromatin"
+            "const": "3Dchromatin",
+            "description": "3Dchromatin",
+	    "source": "https://www.synapse.org/#!Synapse:syn21754060"
         },
         {
-            "const": "ASD-lncRNA"
+            "const": "ASD-lncRNA",
+            "description": "ASD-lncRNA",
+	    "source": "https://www.synapse.org/#!Synapse:syn5889194"
         },
         {
-            "const": "BipSeq"
+            "const": "BipSeq",
+            "description": "BipSeq",
+	    "source": "https://www.synapse.org/#!Synapse:syn5844980"
         },
         {
-            "const": "BrainGVEX"
+            "const": "BrainGVEX",
+            "description": "BrainGVEX",
+	    "source": "https://www.synapse.org/#!Synapse:syn4590909"
         },
         {
-            "const": "BrainSpan"
+            "const": "BrainSpan",
+            "description": "BrainSpan",
+	    "source": "https://www.synapse.org/#!Synapse:syn22334435"
         },
         {
-            "const": "BrainTF"
+            "const": "BrainTF",
+            "description": "BrainTF",
+	    "source": "https://www.synapse.org/#!Synapse:syn22220642"
         },
         {
-            "const": "BrainVar"
+            "const": "BrainVar",
+            "description": "BrainVar",
+	    "source": "https://www.synapse.org/#!Synapse:syn21557948"
         },
         {
-            "const": "CMC"
+            "const": "CMC",
+            "description": "CMC",
+	    "source": "https://www.synapse.org/#!Synapse:syn22344686"
         },
         {
-            "const": "CNON"
+            "const": "CNON",
+            "description": "CNON",
+	    "source": "https://www.synapse.org/#!Synapse:syn4590897"
         },
         {
-            "const": "DevBrain-snRNAseq"
+            "const": "DevBrain-snRNAseq",
+            "description": "DevBrain-snRNAseq",
+	    "source": "https://www.synapse.org/#!Synapse:syn22271968"
         },
         {
-            "const": "DopaModel"
+            "const": "DopaModel",
+            "description": "DopaModel",
+	    "source": "https://www.synapse.org/#!Synapse:syn20833047"
         },
         {
-            "const": "EpiDiff"
+            "const": "EpiDiff",
+            "description": "EpiDiff",
+	    "source": "https://www.synapse.org/#!Synapse:syn12207422"
         },
         {
-            "const": "EpiGABA"
+            "const": "EpiGABA",
+            "description": "EpiGABA",
+	    "source": "https://www.synapse.org/#!Synapse:syn4588488"
         },
         {
-            "const": "EpiMap"
+            "const": "EpiMap",
+            "description": "EpiMap",
+	    "source": "https://www.synapse.org/#!Synapse:syn4566010"
         },
         {
-            "const": "HumanFC"
+            "const": "HumanFC",
+            "description": "HumanFC",
+	    "source": "https://www.synapse.org/#!Synapse:syn5321694"
         },
         {
-            "const": "lncRNA Pilot"
+            "const": "iPSC",
+            "description": "iPSC",
+	    "source": "https://www.synapse.org/#!Synapse:syn4590910"
         },
         {
-            "const": "iPSC"
+            "const": "iPSC-ASD",
+            "description": "iPSC-ASD",
+	    "source": "https://www.synapse.org/#!Synapse:syn20716027"
         },
         {
-            "const": "iPSC-ASD"
+            "const": "iPSC-HiC",
+            "description": "iPSC-HiC",
+	    "source": "https://www.synapse.org/#!Synapse:syn12979149"
         },
         {
-            "const": "iPSC-HiC"
+            "const": "iPSCNeuroDiff",
+            "description": "iPSCNeuroDiff",
+	    "source": "https://www.synapse.org/#!Synapse:syn19049935"
         },
         {
-            "const": "iPSCNeuroDiff"
+            "const": "IsoHuB",
+            "description": "IsoHuB",
+	    "source": "https://www.synapse.org/#!Synapse:syn22266684"
         },
         {
-            "const": "IsoHuB"
+            "const": "LIBD_szControl",
+            "description": "LIBD_szControl",
+	    "source": "https://www.synapse.org/#!Synapse:syn22344107"
         },
         {
-            "const": "LIBD_szControl"
+            "const": "LIBD-WGBS",
+            "description": "LIBD-WGBS",
+	    "source": "https://www.synapse.org/#!Synapse:syn5842535"
         },
         {
-            "const": "LIBD-WGBS"
+            "const": "LIBD-WGBS-SCZD",
+            "description": "LIBD-WGBS-SCZD",
+	    "source": "https://www.synapse.org/#!Synapse:syn23318163"
         },
         {
-            "const": "LIBD-WGBS-SCZD"
+            "const": "lncRNA Pilot",
+            "description": "lncRNA Pilot",
+	    "source": "https://www.synapse.org/#!Synapse:syn4588462"
         },
         {
-            "const": "MDDseq"
+            "const": "MDDseq",
+            "description": "MDDseq",
+	    "source": "https://www.synapse.org/#!Synapse:syn22276064"
         },
         {
-            "const": "Midbrain Genomics"
+            "const": "Midbrain Genomics",
+            "description": "Midbrain Genomics",
+	    "source": "https://www.synapse.org/#!Synapse:syn24183978"
         },
         {
-            "const": "MouseHAL"
+            "const": "MouseHAL",
+            "description": "MouseHAL",
+	    "source": "https://www.synapse.org/#!Synapse:syn4590850"
         },
         {
-            "const": "NeuEnhancer"
+            "const": "NeuEnhancer",
+            "description": "NeuEnhancer",
+	    "source": "https://www.synapse.org/#!Synapse:syn20818959"
         },
         {
-            "const": "NeuREs"
+            "const": "NeuREs",
+            "description": "NeuREs",
+	    "source": "https://www.synapse.org/#!Synapse:syn21392931"
         },
         {
-            "const": "NHP-Chimpanzee"
+            "const": "NHP-Chimpanzee",
+            "description": "NHP-Chimpanzee",
+	    "source": "https://www.synapse.org/#!Synapse:syn7067053"
         },
         {
-            "const": "NHP-Macaque"
+            "const": "NHP-Macaque",
+            "description": "NHP-Macaque",
+	    "source": "https://www.synapse.org/#!Synapse:syn4566132"
         },
         {
-            "const": "referenceBrain"
+            "const": "referenceBrain",
+            "description": "referenceBrain",
+	    "source": "https://www.synapse.org/#!Synapse:syn22344132"
         },
         {
-            "const": "SCZ-IncRNA"
+            "const": "SCZ-IncRNA",
+            "description": "SCZ-IncRNA",
+	    "source": "https://www.synapse.org/#!Synapse:syn17020498"
         },
         {
-            "const": "scOrganomics"
+            "const": "scOrganomics",
+            "description": "scOrganomics",
+	    "source": "https://www.synapse.org/#!Synapse:syn23229178"
         },
         {
-            "const": "SingleCellRNAseq"
+            "const": "SingleCellRNAseq",
+            "description": "SingleCellRNAseq",
+	    "source": "https://www.synapse.org/#!Synapse:syn7067037"
         },
         {
-            "const": "SZBDMulti-Seq"
+            "const": "snMultiRegionDevelopmentalTranscriptomics",
+            "description": "snMultiRegionDevelopmentalTranscriptomics",
+	    "source": "https://www.synapse.org/#!Synapse:syn24984263"
         },
         {
-            "const": "TS-RNAseq"
+            "const": "SZBDMulti-Seq",
+            "description": "SZBDMulti-Seq",
+	    "source": "https://www.synapse.org/#!Synapse:syn23318163"
         },
         {
-            "const": "UCLA-ASD"
+            "const": "TS-RNAseq",
+            "description": "TS-RNAseq",
+	    "source": "Sage Bionetworks"
         },
         {
-            "const": "WGBS Pilot"
+            "const": "UCLA-ASD",
+            "description": "UCLA-ASD",
+	    "source": "https://www.synapse.org/#!Synapse:syn4587609"
         },
         {
-            "const": "Yale-ASD"
+            "const": "WGBS Pilot",
+            "description": "WGBS Pilot",
+	    "source": "https://www.synapse.org/#!Synapse:syn4586517"
+        },
+        {
+            "const": "Yale-ASD",
+            "description": "Yale-ASD",
+	    "source": "https://www.synapse.org/#!Synapse:syn4566141"
         }
     ]
 }
