@@ -1,12 +1,37 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.6",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.7",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
         {
-            "const": "Williams Syndrome",
-            "description": "A genetic syndrome caused by mulitple gene deletions from a region of chromosome 7, and characterized by distinctive facial appearance, mild-to-moderate developmental delay, cheerfulness, cardiovascular abnormalities, and infantile hypercalcemia",
-            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0175702"
+            "const": "Affective Disorder",
+            "description": "Change in mood is the main underlying feature of these disorders.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Alzheimer Disease",
+            "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
+        },
+        {
+            "const": "amyotrophic lateral sclerosis",
+            "description": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive muscular paralysis reflecting degeneration of motor neurons in the primary motor cortex, corticospinal tracts, brainstem and spinal cord.",
+            "source": "http://purl.obolibrary.org/obo/MONDO_0004976" 
+        },
+        {
+            "const": "anxiety",
+            "description": "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill.",
+            "source": "http://purl.obolibrary.org/obo/SYMP_0000412"
+        },
+        {
+            "const": "Autism Spectrum Disorder",
+            "description": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756"
+        },
+        {
+            "const": "Bipolar Disorder",
+            "description": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258"
         },
         {
             "const": "Bladder Cancer",
@@ -14,14 +39,94 @@
             "source": "http://identifiers.org/omim/109800"
         },
         {
+            "const": "Brain Cancer",
+            "description": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319"
+        },
+        {
+            "const": "Breast Cancer",
+            "description": "(BC) - A common malignancy originating from breast epithelial tissue.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480"
+        },
+        {
+            "const": "Cervical Cancer",
+            "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
+            "source": "http://identifiers.org/omim/603956"
+        },
+        {
+            "const": "Colon Cancer",
+            "description": "A colorectal cancer that is located_in the colon.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219"
+        },
+        {
+            "const": "control",
+            "description": "An individual used as a standard of comparison.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "corticobasal degeneration disorder",
+            "description": "A progressive neurodegenerative condition affecting the cerebral cortex and basal ganglia. The disorder is characterized by varying degrees of cognitive and motor impairment.",
+            "source": "http://purl.obolibrary.org/obo/MONDO_0022308"
+        },
+        {
+            "const": "dementia",
+            "description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
+            "source": "http://purl.obolibrary.org/obo/DOID_1307"
+        },
+        {
+            "const": "Fibrocystic Breast Disease",
+            "description": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014"
+        },
+        {
+            "const": "frontotemporal dementia",
+            "description": "Frontotemporal dementia (FTD) comprises a group of neurodegenerative disorders, characterized by progressive changes in behavior, executive dysfunction and language impairment, as a result of degeneration of the medial prefrontal and frontoinsular cortices. Four clinical subtypes have been identified: semantic dementia, progressive non-fluent aphasia, behavioral variant FTD and right temporal lobar atrophy.",
+            "source": "http://purl.obolibrary.org/obo/MONDO_0017276"
+        },
+        {
+            "const": "gliosis",
+            "description": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
+            "source": "https://hpo.jax.org/app/browse/term/HP:0002171" 
+        },
+        {
+            "const": "hypoxia",
+            "description": "A decrease in the amount of oxygen in the body. Symptoms range from mild (impaired judgment, memory loss, impaired motor coordination) to severe (seizures and coma).",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3890"
+        },
+        {
+            "const": "Juvenile Myelomonocytic Leukemia",
+            "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
+        },
+        {
             "const": "Leukemia",
             "description": "A malignant (clonal) hematologic disorder, involving hematopoietic stem cells and characterized by the presence of primitive or atypical myeloid or lymphoid cells in the bone marrow and the blood. Leukemias are classified as acute or chronic based on the degree of cellular differentiation and the predominant cell type present. Leukemia is usually associated with anemia, fever, hemorrhagic episodes, and splenomegaly.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C3161"
         },
         {
-            "const": "Tourette Syndrome",
-            "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
-            "source": "http://identifiers.org/omim/137580"
+            "const": "Lewy body disease",
+            "description": "A dementia that is characterized by the development of abnormal proteinaceous (alpha-synuclein) cytoplasmic inclusions, called Lewy bodies, throughout the brain that results in progressive decline in mental abilities.",
+            "source": "http://www.ontobee.org/ontology/DOID?iri=http://purl.obolibrary.org/obo/DOID_12217"
+        },
+        {
+            "const": "Lung Cancer",
+            "description": "A respiratory system cancer that is located_in the lung.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324"
+        },
+        {
+            "const": "Major Depressive Disorder",
+            "description": "An endogenous depression that is characterized by an all-encompassing low mood accompanied by low self-esteem, and by loss of interest or pleasure in normally enjoyable activies.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1470"
+        },
+        {
+            "const": "mild cognitive impairment",
+            "description": "Diminished or impaired mental and/or intellectual function.",
+            "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
+        },
+        {
+            "const": "multiple system atrophy",
+            "description": "Multiple system atrophy (MSA) is a neurodegenerative disorder characterized by autonomic failure (cardiovascular and/or urinary), parkinsonism, cerebellar impairment and corticospinal signs with a median survival of 6-9 years.",
+            "source": "http://purl.obolibrary.org/obo/MONDO_0007803"
         },
         {
             "const": "Neurofibromatosis 1",
@@ -34,78 +139,8 @@
             "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F101000"
         },
         {
-            "const": "Bipolar Disorder",
-            "description": "A mood disorder formerly characterised by alternating periods of mania and depression (and in some cases rapid cycling, mixed states, and psychotic symptoms).",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/nbo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FNBO_0000258"
-        },
-        {
-            "const": "Alzheimer Disease",
-            "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
-        },
-        {
-            "const": "Schizophrenia",
-            "description": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692"
-        },
-        {
-            "const": "Major Depressive Disorder",
-            "description": "An endogenous depression that is characterized by an all-encompassing low mood accompanied by low self-esteem, and by loss of interest or pleasure in normally enjoyable activies.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1470"
-        },
-        {
-            "const": "Autism Spectrum Disorder",
-            "description": "Wide continuum of associated cognitive and neurobehavioral disorders, including, but not limited to, three core-defining features: impairments in socialization, impairments in verbal and nonverbal communication, and restricted and repetitive patterns of behaviors.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003756"
-        },
-        {
-            "const": "Fibrocystic Breast Disease",
-            "description": "breast fibrocystic disease is a benign mammary displasia characterised by breast discomfort and 'lumpiness'.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0003014"
-        },
-        {
-            "const": "Breast Cancer",
-            "description": "(BC) - A common malignancy originating from breast epithelial tissue.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F114480"
-        },
-        {
-            "const": "Colon Cancer",
-            "description": "A colorectal cancer that is located_in the colon.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_219"
-        },
-        {
-            "const": "Lung Cancer",
-            "description": "A respiratory system cancer that is located_in the lung.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1324"
-        },
-        {
-            "const": "Prostate Cancer",
-            "description": "A male reproductive organ cancer that is located_in the prostate.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
-        },
-        {
-            "const": "Pancreatic Cancer",
-            "description": "An endocrine gland cancer located_in the pancreas.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
-        },
-        {
-            "const": "Skin Cancer",
-            "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
-        },
-        {
-            "const": "Brain Cancer",
-            "description": "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1319"
-        },
-        {
-            "const": "Ovary Cancer",
-            "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
-            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
-        },
-        {
-            "const": "Affective Disorder",
-            "description": "Change in mood is the main underlying feature of these disorders.",
+            "const": "no cognitive impairment",
+            "description": "No known mental and/or intellectual dysfunction.",
             "source": "Sage Bionetworks"
         },
         {
@@ -114,44 +149,19 @@
             "source": ""
         },
         {
-            "const": "Cervical Cancer",
-            "description": " A malignant neoplasm of the cervix, typically originating from a dysplastic or premalignant lesion previously present at the active squamocolumnar junction. The transformation from mild dysplastic to invasive carcinoma generally occurs slowly within several years, although the rate of this process varies widely.",
-            "source": "http://identifiers.org/omim/603956"
+            "const": "obesity",
+            "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has material basis in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
+            "source": "http://purl.obolibrary.org/obo/DOID_9970"
         },
         {
-            "const": "Juvenile Myelomonocytic Leukemia",
-            "description": "A myelodysplastic/myeloproliferative neoplasm of childhood that is characterized by proliferation principally of the granulocytic and monocytic lineages. Myelomonocytic proliferation is seen in the bone marrow and the blood. The leukemic cells may infiltrate any tissue, however liver, spleen, lymph nodes, skin, and respiratory tract are the most common sites of involvement.",
-            "source": "http://purl.obolibrary.org/obo/NCIT_C9233"
+            "const": "Ovary Cancer",
+            "description": "An ovarian cancer that is derives_from ovarian surface epithelium.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_2152"
         },
         {
-            "const": "progressive supranuclear palsy",
-            "description": "A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",
-            "source": "http://purl.obolibrary.org/obo/DOID_678"
-        },
-        {
-            "const": "mild cognitive impairment",
-            "description": "Diminished or impaired mental and/or intellectual function.",
-            "source": "http://purl.obolibrary.org/obo/OMIT_0027843"
-        },
-        {
-            "const": "no cognitive impairment",
-            "description": "No known mental and/or intellectual dysfunction.",
-            "source": "Sage Bionetworks"
-        },
-        {
-            "const": "control",
-            "description": "An individual used as a standard of comparison.",
-            "source": "Sage Bionetworks"
-        },
-        {
-            "const": "pathological aging",
-            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
-            "source": "https://doi.org/10.1186/alzrt254"
-        },
-        {
-            "const": "dementia",
-            "description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
-            "source": "http://purl.obolibrary.org/obo/DOID_1307"
+            "const": "Pancreatic Cancer",
+            "description": "An endocrine gland cancer located_in the pancreas.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1793"
         },
         {
             "const": "Parkinson's disease",
@@ -159,29 +169,34 @@
             "source": "http://purl.obolibrary.org/obo/DOID_14330"
         },
         {
-            "const": "obesity",
-            "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has material basis in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
-            "source": "http://purl.obolibrary.org/obo/DOID_9970"
+            "const": "pathological aging",
+            "description": "A form of cerebral amyloidosis in older people, with widespread extracellular amyloid-beta senile plaque deposits in the setting of limited neurofibrillary tau pathology.",
+            "source": "https://doi.org/10.1186/alzrt254"
         },
         {
-            "const": "anxiety",
-            "description": "Anxiety is a neurological and physiological symptom characterized by a painful or apprehensive uneasiness of mind usually over an impending or anticipated ill.",
-            "source": "http://purl.obolibrary.org/obo/SYMP_0000412"
+            "const": "progressive supranuclear palsy",
+            "description": "A movement disease that is characterized by serious and progressive problems with control of gait and balance, along with complex eye movement and thinking problems. It involves gradual deterioration and death of specific volumes of the brain.",
+            "source": "http://purl.obolibrary.org/obo/DOID_678"
         },
         {
-            "const": "hypoxia",
-            "description": "A decrease in the amount of oxygen in the body. Symptoms range from mild (impaired judgment, memory loss, impaired motor coordination) to severe (seizures and coma).",
-            "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C3890"
+            "const": "Prostate Cancer",
+            "description": "A male reproductive organ cancer that is located_in the prostate.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_10283"
         },
         {
-            "const": "Lewy body disease",
-            "description": "A dementia that is characterized by the development of abnormal proteinaceous (alpha-synuclein) cytoplasmic inclusions, called Lewy bodies, throughout the brain that results in progressive decline in mental abilities.",
-            "source": "http://www.ontobee.org/ontology/DOID?iri=http://purl.obolibrary.org/obo/DOID_12217"
+            "const": "Schizophrenia",
+            "description": "A severe emotional disorder of psychotic depth characteristically marked by a retreat from reality with delusion formation, HALLUCINATIONS, emotional disharmony, and regressive behavior.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000692"
         },
         {
-            "const": "vascular dementia",
-            "description": "A dementia that involves impairments in cognitive function caused by problems in blood vessels that feed the brain.",
-            "source": "http://purl.obolibrary.org/obo/DOID_8725"
+            "const": "Skin Cancer",
+            "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
+        },
+        {
+            "const": "Tourette Syndrome",
+            "description": "Neurologic disorder manifested particularly by motor and vocal tics and associated with behavioral abnormalities. ",
+            "source": "http://identifiers.org/omim/137580"
         },
         {
             "const": "traumatic brain injury",
@@ -189,34 +204,19 @@
             "source": "http://purl.obolibrary.org/obo/OAE_0002392"
         },
         {
-            "const": "corticobasal degeneration disorder",
-            "description": "A progressive neurodegenerative condition affecting the cerebral cortex and basal ganglia. The disorder is characterized by varying degrees of cognitive and motor impairment.",
-            "source": "http://purl.obolibrary.org/obo/MONDO_0022308"
+            "const": "type 2 diabetes mellitus",
+            "description": "A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.",
+           "source": "http://purl.obolibrary.org/obo/MONDO_0005148"
         },
         {
-            "const": "frontotemporal dementia",
-            "description": "Frontotemporal dementia (FTD) comprises a group of neurodegenerative disorders, characterized by progressive changes in behavior, executive dysfunction and language impairment, as a result of degeneration of the medial prefrontal and frontoinsular cortices. Four clinical subtypes have been identified: semantic dementia, progressive non-fluent aphasia, behavioral variant FTD and right temporal lobar atrophy.",
-            "source": "http://purl.obolibrary.org/obo/MONDO_0017276"
+            "const": "vascular dementia",
+            "description": "A dementia that involves impairments in cognitive function caused by problems in blood vessels that feed the brain.",
+            "source": "http://purl.obolibrary.org/obo/DOID_8725"
         },
         {
-        	"const": "multiple system atrophy",
-        	"description": "Multiple system atrophy (MSA) is a neurodegenerative disorder characterized by autonomic failure (cardiovascular and/or urinary), parkinsonism, cerebellar impairment and corticospinal signs with a median survival of 6-9 years.",
-        	"source": "http://purl.obolibrary.org/obo/MONDO_0007803"
-        },
-        {
-        	"const": "type 2 diabetes mellitus",
-        	"description": "A type of diabetes mellitus that is characterized by insulin resistance or desensitization and increased blood glucose levels. This is a chronic disease that can develop gradually over the life of a patient and can be linked to both environmental factors and heredity.",
-        	"source": "http://purl.obolibrary.org/obo/MONDO_0005148"
-        },
-        {
-        	"const": "amyotrophic lateral sclerosis",
-        	"description": "Amyotrophic lateral sclerosis (ALS) is a neurodegenerative disease characterized by progressive muscular paralysis reflecting degeneration of motor neurons in the primary motor cortex, corticospinal tracts, brainstem and spinal cord.",
-        	"source": "http://purl.obolibrary.org/obo/MONDO_0004976" 
-        },
-        {
-            "const": "gliosis",
-            "description": "The production of a dense fibrous network of neuroglia; includes astrocytosis, which is a proliferation of astrocytes in the area of a degenerative lesion.",
-            "source": "https://hpo.jax.org/app/browse/term/HP:0002171" 
+            "const": "Williams Syndrome",
+            "description": "A genetic syndrome caused by mulitple gene deletions from a region of chromosome 7, and characterized by distinctive facial appearance, mild-to-moderate developmental delay, cheerfulness, cardiovascular abnormalities, and infantile hypercalcemia",
+            "source": "https://ncim.nci.nih.gov/ncimbrowser/ConceptReport.jsp?dictionary=NCI%20Metathesaurus&code=C0175702"
         }
     ]
 }
