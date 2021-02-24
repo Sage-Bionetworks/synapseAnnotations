@@ -19,6 +19,11 @@
             "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?short_form=EFO_0010172"
         },
         {
+            "const": "EndItDNAEndRepairKit",
+            "description": "End-It DNA End-Repair Kit",
+            "source": "https://www.lucigen.com/End-It-DNA-End-Repair-Kit/"
+        },
+        {
             "const": "KapaHyperPrep",
             "description": "Kapa HyperPrep Kit",
             "source": "https://sequencing.roche.com/en/products-solutions/products/sample-preparation/dna-reagents/library-preparation/kapa-hyperprep.html"
