@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.6",
+    "$id": "sage.annotations-experimentalData.assay-0.0.7",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
