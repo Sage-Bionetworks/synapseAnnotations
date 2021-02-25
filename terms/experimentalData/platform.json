@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.7",
+    "$id": "sage.annotations-experimentalData.platform-0.0.8",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -272,6 +272,11 @@
             "const": "Biograph mCT",
             "description": "Wide-bore PET/CT scanner from Siemens",
             "source": "https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000005821165/f2ace6ce4141/siemens-healthineers_mi_pet-ct_biograph-mct_product_brochure_1800000005821165.pdf"
+        },
+        {
+            "const": "Simoa HD-1 Analyzer",
+            "description": "A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.",
+            "source": "https://doi.org/10.1177/2211068215589580"
         }
     ]
 }
