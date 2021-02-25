@@ -474,7 +474,7 @@
             "source": "http://purl.obolibrary.org/obo/NCIT_C161406"
         },
         {
-            "const": "CITEseq",
+            "const": "CITESeq",
             "description": "CITE-seq is a method that combines highly multiplexed antibody-based detection of protein markers together with unbiased transcriptome profiling for thousands of single cells in parallel.",
             "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5669064/"
         }
