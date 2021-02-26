@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.8",
+    "$id": "sage.annotations-neuro.study-0.0.9",
     "description": "Study",
     "anyOf": [
         {
@@ -532,6 +532,11 @@
             "const": "HBI_scRNAseq",
             "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
             "source": "https://www.synapse.org/#!Synapse:syn24168322"
+        },
+        {
+            "const": "ADMC_ADNI_BakerLipidomics",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Baker Heart Targeted Lipidomics (ADMC_ADNI_BakerLipidomics) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn24989039"
         }
     ]
 }
