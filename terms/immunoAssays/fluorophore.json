@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-immunoAssays.fluorophore-0.0.1",
-    "description": " A fluorophore is a component of a molecule which causes a molecule to be fluorescent. It is a functional group in a molecule which will absorb energy of a specific wavelength and re-emit energy at a different (but equally specific) wavelength. The amount and wavelength of the emitted energy depend on both the fluorophore and the chemical environment of the fluorophore.",
+    "$id": "sage.annotations-immunoAssays.fluorophore-0.0.2",
+    "description": "A fluorophore is a component of a molecule which causes a molecule to be fluorescent.",
     "type": "string"
 }
 
