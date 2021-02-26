@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-immunoAssays.elisaType-0.0.1",
+    "description": "Type of ELISA assay",
+    "anyOf": [
+        {
+            "const": "direct",
+            "description": "A single, primary detection antibody was bound to the protein of interest.",
+            "source": "https://www.ncbi.nlm.nih.gov/books/NBK555922/"
+        },
+        {
+            "const": "indirect",
+            "description": "Detection was done via two antibodies. A secondary enzyme-linked antibody bound to the primary detection antibody, which is bound to the protein of interest.",
+            "source": "https://www.ncbi.nlm.nih.gov/books/NBK555922/"
+        },
+        {
+            "const": "sandwich",
+            "description": "The antigen of interest is bound between two antibodies, a capture and a detection antibody.",
+            "source": "https://www.ncbi.nlm.nih.gov/books/NBK555922/"
+        },
+        {
+            "const": "competitive",
+            "description": "Two antibodies are used, an enzyme-conjugated antibody and an antibody that is present in the serum, if the serum is positive. The two antibodies compete to bind to the antigen of interest",
+            "source": "https://www.ncbi.nlm.nih.gov/books/NBK555922/"
+        }
+    ]
+}
+
