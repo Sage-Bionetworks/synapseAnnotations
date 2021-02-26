@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
     "$id": "sage.annotations-immunoAssays.fluorophore-0.0.2",
-    "description": " A fluorophore is a component of a molecule which causes a molecule to be fluorescent.",
+    "description": "A fluorophore is a component of a molecule which causes a molecule to be fluorescent.",
     "type": "string"
 }
 
