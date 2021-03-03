@@ -6,6 +6,6 @@
         "reprogrammedCellType": {
             "$ref": "sage.annotations-experimentalData.cellType"
         }
-   	}
+    }
 }
 
