@@ -3,9 +3,9 @@
     "$id": "sage.annotations-experimentalData.reprogrammedCellType",
     "description": "Cell type the specimen is modeling",
     "properties": {
-   		"reprogrammedCellType": {
-     		"$ref": "sage.annotations-experimentalData.cellType"
-    	}
+        "reprogrammedCellType": {
+            "$ref": "sage.annotations-experimentalData.cellType"
+        }
    	}
 }
 
