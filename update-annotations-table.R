@@ -67,10 +67,13 @@ add_enumerated_values <- function(data_table, json_list) {
 
 #' Create table row(s) for a term
 #'
-#' @param file Path to the JSON Schema file containing a term
+#' @param file Path to the JSON Schema file containing a term. For terms that
+#' reference enumerated values of a different term, the referenced term
+#' should exist as a file in the current set. The referenced term cannot be
+#' extended.
 #' @return
 create_rows <- function(file) {
-dat <- fromJSON(file)
+  dat <- fromJSON(file)
   ## Information about the key
   return_df <- tibble::tibble(
     key = get_info(dat$`$id`, "key"),
@@ -82,8 +85,9 @@ dat <- fromJSON(file)
   ## If term has enumerated values in anyOf, fromJSON will create a handy data
   ## frame of those. We use that in combination with return_df to create a row
   ## for each value.
-  ## If term references the enumerated values of another term, grab those
-  ## File referenced should exist in current set
+  ## If term references the enumerated values of another term, grab those. Term
+  ## cannot extend the values in a referenced schema. Schema referenced should
+  ## exist in current set of.
   if ("anyOf" %in% names(dat)) {
     return_df <- add_enumerated_values(data_table = return_df, json_list = dat)
   } else if ("properties" %in% names(dat)) {
