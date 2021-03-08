@@ -83,7 +83,7 @@ create_rows <- function(file) {
   ## for each value.
   ## If term references the enumerated values of another term, grab those. Term
   ## cannot extend the values in a referenced schema. Schema referenced should
-  ## exist in current set of.
+  ## exist in current set of schema files.
   if ("anyOf" %in% names(dat)) {
     return_df <- add_enumerated_values(data_table = return_df, json_list = dat)
   } else if ("properties" %in% names(dat)) {
