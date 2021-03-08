@@ -4,9 +4,244 @@
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
+            "const": "Affy5.0",
+            "description": "Affymetrix Genome-Wide Human SNP 5.0 Array",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
+        },
+        {
+            "const": "Affy6.0",
+            "description": "Affymetrix Genome-Wide Human SNP 6.0 Array",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
+        },
+        {
+            "const": "Affymetrix Human Gene 1.0 ST Array",
+            "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
+        },
+        {
+            "const": "AffymetrixU133AB",
+            "description": "Affymetrix U133 AB",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "AffymetrixU133Plus2",
+            "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
+        },
+        {
+            "const": "Agilent44Karray",
+            "description": "Agilent 44k Microarray",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "BGISEQ-500",
+            "description": "BGISEQ-500 human whole genome sequencing",
+            "source": "https://www.bgi.com/global/wp-content/uploads/sites/3/2017/04/10.-BGISEQ-500-WGS-Technical-Note-Flyer_20180225-3Mb.pdf"
+        },
+        {
+            "const": "Biocrates p180",
+            "description": "Biocrates AbsoluteIDQ P180 metabolomics kit",
+            "source": "https://biocrates.com/absoluteidq-p180-kit/"
+        },
+        {
+            "const": "Biograph mCT",
+            "description": "Wide-bore PET/CT scanner from Siemens",
+            "source": "https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000005821165/f2ace6ce4141/siemens-healthineers_mi_pet-ct_biograph-mct_product_brochure_1800000005821165.pdf"
+        },
+        {
+            "const": "Bionano Irys",
+            "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
+            "source": "https://bionanogenomics.com/products/irys/"
+        },
+        {
+            "const": "confocalImaging",
+            "description": "Confocal Imaging",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "DNBSEQ",
             "description": "BGI DNBseq",
             "source": "https://www.bgi.com/us/dnbseq-ngs-technology/"
+        },
+        {
+            "const": "GAIIx",
+            "description": "Illumina GAIIx",
+            "source": "https://support.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_genome_analyzeriix.pdf"
+        },
+        {
+            "const": "HiSeq1000",
+            "description": "Illumina HiSeq 1000",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433"
+        },
+        {
+            "const": "HiSeq2000",
+            "description": "Illumina HiSeq 2000",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
+        },
+        {
+            "const": "HiSeq2500",
+            "description": "Illumina HiSeq 2500",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
+        },
+        {
+            "const": "HiSeq3000",
+            "description": "Illumina HiSeq 3000",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
+        },
+        {
+            "const": "HiSeq4000",
+            "description": "Illumina HiSeq 4000",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
+        },
+        {
+            "const": "HiSeqX",
+            "description": "Illumina HiSeq X Platform for whole-genome sequencing",
+            "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
+        },
+        {
+            "const": "Illumina_1M",
+            "description": "Illumina 1M",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina_h650",
+            "description": "Illumina H650",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina_HumanOmni1-Quadv1.0",
+            "description": "Illumina HumanOmni1 Quad v1.0",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina MouseWG-6 v2.0 expression beadchip",
+            "description": "Whole-genome expression profiling in the mouse",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
+        },
+        {
+            "const": "Illumina_Omni2pt5M",
+            "description": "Illumina Omni2.5",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina_Omni5M",
+            "description": "Illumina Omni5",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IlluminaHumanHap300",
+            "description": "Illumina Hap300",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IlluminaHumanHT-12_V3_0_R1",
+            "description": "Illumina HT-12 V3",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IlluminaHumanMethylation450",
+            "description": "Illumina HumanMethylation450 BeadChip ",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
+        },
+        {
+            "const": "Illumina_Infinium-HumanMethylation450-BeadChip",
+            "description": "Illumina Infinium HumanMethylation450 Bead Chip",
+            "source": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet_humanmethylation450.pdf"
+        },
+        {
+            "const": "IlluminaMiSeq",
+            "description": "A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002003"
+        },
+        {
+            "const": "Illumina NovaSeq 6000",
+            "description": "High-throughput sequencing",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
+        },
+        {
+            "const": "IlluminaNovaseq6000",
+            "description": "Illumina Novaseq 6000, high-throughput sequencing",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
+        },
+        {
+            "const": "IlluminaWholeGenomeDASL",
+            "description": "Illumina Human Whole-Genome DASL HT",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
+        },
+        {
+            "const": "Infinium HumanOmniExpressExome",
+            "description": "Infinium HumanOmniExpressExome BeadChip",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
+        },
+        {
+            "const": "Infinium Omni2.5Exome-8 v1.3",
+            "description": "Infinium Omni2.5Exome-8 v1.3",
+            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
+        },
+        {
+            "const": "LTQOrbitrapXL",
+            "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
+            "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
+        },
+        {
+            "const": "MiSeq",
+            "description": "Illumina MiSeq",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
+        },
+        {
+            "const": "NanostringnCounter",
+            "description": "Nanostring nCounter",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "NanostringnCounter_MouseADPanel",
+            "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
+            "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
+        },
+        {
+            "const": "NextSeq500",
+            "description": "Illumina NextSeq 500",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
+        },
+        {
+            "const": "Olink Target 96",
+            "description": "Platform used for proximity extension assays",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27151"
+        },
+        {
+            "const": "orbitrap",
+            "description": "An ion trapping device that consists of an outer barrel-like electrode and a coaxial inner spindle-like electrode that form an electrostatic field with quadro-logarithmic potential distribution. The frequency of harmonic oscillations of the orbitally trapped ions along the axis of the electrostatic field is independent of the ion velocity and is inversely proportional to the square root of m/z so that the trap can be used as a mass analyzer.",
+            "source": "http://purl.obolibrary.org/obo/MS_1000484"
+        },
+        {
+            "const": "OrbiTrap Fusion",
+            "description": "Thermo Scientific Orbitrap Fusion",
+            "source": "http://purl.obolibrary.org/obo/MS_1002416"
+        },
+        {
+            "const": "Orbitrap Fusion Lumos",
+            "description": "A tribrid mass spectrometer manufactured by ThermoFisher Scientific",
+            "source": "http://purl.obolibrary.org/obo/MS_1002732"
+        },
+        {
+            "const": "PacBioRSII",
+            "description": "PacBio RS II",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
+        },
+        {
+            "const": "Perlegen300Karray",
+            "description": "Perlegen 300K array",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "PsychChip",
+            "description": "PsychChip",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Q Exactive",
+            "description": "Thermo Scientific Q Exactive.",
+            "source": "http://purl.obolibrary.org/obo/MS_1001911"
         },
         {
             "const": "Q Exactive HF",
@@ -19,209 +254,19 @@
             "source": "http://purl.obolibrary.org/obo/MS_1002634"
         },
         {
-            "const": "IlluminaNovaseq6000",
-            "description": "Illumina Novaseq 6000, high-throughput sequencing",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27644."
-        },
-        {
-            "const": "OrbiTrap Fusion",
-            "description": "Thermo Scientific Orbitrap Fusion",
-            "source": "http://purl.obolibrary.org/obo/MS_1002416"
-        },
-        {
-            "const": "NanostringnCounter_MouseADPanel",
-            "description": "770 standardized genes covering 30 clinically derived AD-associated modules discovered in the AMP-AD consortium study of human brain tissue.",
-            "source": "https://www.nanostring.com/products/gene-expression-panels/gene-expression-panels-overview/ncounter-ad-panels"
-        },
-        {
-            "const": "HiSeq1000",
-            "description": "Illumina HiSeq 1000",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15433"
-        },
-        {
-            "const": "HiSeq3000",
-            "description": "Illumina HiSeq 3000",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21290"
-        },
-        {
-            "const": "HiSeq2500",
-            "description": "Illumina HiSeq 2500",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL16791"
-        },
-        {
-            "const": "HiSeq4000",
-            "description": "Illumina HiSeq 4000",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL20301"
-        },
-        {
-            "const": "NextSeq500",
-            "description": "Illumina NextSeq 500",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
-        },
-        {
-            "const": "HiSeq2000",
-            "description": "Illumina HiSeq 2000",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL11154"
-        },
-        {
-            "const": "MiSeq",
-            "description": "Illumina MiSeq",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL15520"
-        },
-        {
-            "const": "PsychChip",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Affy5.0",
-            "description": "Affymetrix Genome-Wide Human SNP 5.0 Array",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6804"
-        },
-        {
-            "const": "Affy6.0",
-            "description": "Affymetrix Genome-Wide Human SNP 6.0 Array",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6801"
-        },
-        {
-            "const": "PacBioRSII",
-            "description": "PacBio RS II",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
-        },
-        {
-            "const": "GAIIx",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina_HumanOmni1-Quadv1.0",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina_1M",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina_h650",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina_Omni2pt5M",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina_Omni5M",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Illumina MouseWG-6 v2.0 expression beadchip",
-            "description": "Whole-genome expression profiling in the mouse",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
-        },
-        {
-            "const": "Perlegen300Karray",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Agilent44Karray",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "IlluminaWholeGenomeDASL",
-            "description": "Illumina Human Whole-Genome DASL HT",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
-        },
-        {
-            "const": "IlluminaHumanHap300",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "NanostringnCounter",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "LTQOrbitrapXL",
-            "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
-            "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
-        },
-        {
-            "const": "IlluminaHumanMethylation450",
-            "description": "Illumina HumanMethylation450 BeadChip ",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13534"
-        },
-        {
-            "const": "AffymetrixU133AB",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Affymetrix Human Gene 1.0 ST Array",
-            "description": "Affymetrix Human Gene 1.0 ST Array [transcript (gene) version] in situ oligonucleotide",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6244"
-        },
-        {
-            "const": "AffymetrixU133Plus2",
-            "description": "Affymetrix Human Genome U133 Plus 2.0 Array",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL570"
-        },
-        {
-            "const": "confocalImaging",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "IlluminaHumanHT-12_V3_0_R1",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "SequenomMultiplex",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "HiSeqX",
-            "description": "Illumina HiSeq X Platform for whole-genome sequencing",
-            "source": "https://www.illumina.com/systems/sequencing-platforms/hiseq-x.html"
-        },
-        {
-            "const": "Bionano Irys",
-            "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
-            "source": "https://bionanogenomics.com/products/irys/"
-        },
-        {
-            "const": "Infinium HumanOmniExpressExome",
-            "description": "Infinium HumanOmniExpressExome BeadChip",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
-        },
-        {
-            "const": "Illumina NovaSeq 6000",
-            "description": "High-throughput sequencing",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL24676"
-        },
-        {
-            "const": "Infinium Omni2.5Exome-8 v1.3",
-            "description": "Infinium Omni2.5Exome-8 v1.3",
-            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
-        },
-        {
-            "const": "triple quadrupole",
-            "description": "A piece of apparatus that consists of an ion source, a mass-to-charge analyser, a detector and a vacuum system and is used to measure mass spectra. The detector is a linear sequence of three quadrupole mass-to-charge analysers, which hold the ions in a stable orbit by an electric field generated by four parallel electrodes.",
-            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
-        },
-        {
             "const": "quadrupole time-of-flight",
             "description": "Mass spectrometry that uses a system with a quadrupole mass-to-charge analyser connected to a time-of-flight mass-to-charge analyser.",
             "source": "http://purl.obolibrary.org/obo/CHMO_0002719"
+        },
+        {
+            "const": "SequenomMultiplex",
+            "description": "Sequenom Multiplex",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Simoa HD-1 Analyzer",
+            "description": "A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.",
+            "source": "https://doi.org/10.1177/2211068215589580"
         },
         {
             "const": "time-of-flight",
@@ -229,54 +274,14 @@
             "source": "http://purl.obolibrary.org/obo/MS_1000084"
         },
         {
-            "const": "orbitrap",
-            "description": "An ion trapping device that consists of an outer barrel-like electrode and a coaxial inner spindle-like electrode that form an electrostatic field with quadro-logarithmic potential distribution. The frequency of harmonic oscillations of the orbitally trapped ions along the axis of the electrostatic field is independent of the ion velocity and is inversely proportional to the square root of m/z so that the trap can be used as a mass analyzer.",
-            "source": "http://purl.obolibrary.org/obo/MS_1000484"
-        },
-        {
-            "const": "Q Exactive",
-            "description": "Thermo Scientific Q Exactive.",
-            "source": "http://purl.obolibrary.org/obo/MS_1001911"
-        },
-        {
-            "const": "Biocrates p180",
-            "description": "Biocrates AbsoluteIDQ P180 metabolomics kit",
-            "source": "https://biocrates.com/absoluteidq-p180-kit/"
-        },
-        {
-            "const": "BGISEQ-500",
-            "description": "BGISEQ-500 human whole genome sequencing",
-            "source": "https://www.bgi.com/global/wp-content/uploads/sites/3/2017/04/10.-BGISEQ-500-WGS-Technical-Note-Flyer_20180225-3Mb.pdf"
-        },
-        {
-            "const": "Orbitrap Fusion Lumos",
-            "description": "A tribrid mass spectrometer manufactured by ThermoFisher Scientific",
-            "source": "http://purl.obolibrary.org/obo/MS_1002732"
-        },
-        {
-            "const": "IlluminaMiSeq",
-            "description": "A DNA sequencer which is manufactured by the Illumina corporation. Built upon sequencing by synthesis technology, the machine provides an end-to-end solution (cluster generation, amplification, sequencing, and data analysis) in a single machine.",
-            "source": "http://purl.obolibrary.org/obo/OBI_0002003"
+            "const": "triple quadrupole",
+            "description": "A piece of apparatus that consists of an ion source, a mass-to-charge analyser, a detector and a vacuum system and is used to measure mass spectra. The detector is a linear sequence of three quadrupole mass-to-charge analysers, which hold the ions in a stable orbit by an electric field generated by four parallel electrodes.",
+            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
         },
         {
             "const": "Xevo TQ-S",
             "description": "Waters quadrupole based Xevo TQ-S. [database_cross_reference: PSI:MS]",
             "source": "http://purl.obolibrary.org/obo/MS_1001792"
-        },
-        {
-            "const": "Olink Target 96",
-            "description": "Platform used for proximity extension assays",
-            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL27151"
-        },
-        {
-            "const": "Biograph mCT",
-            "description": "Wide-bore PET/CT scanner from Siemens",
-            "source": "https://cdn0.scrvt.com/39b415fb07de4d9656c7b516d8e2d907/1800000005821165/f2ace6ce4141/siemens-healthineers_mi_pet-ct_biograph-mct_product_brochure_1800000005821165.pdf"
-        },
-        {
-            "const": "Simoa HD-1 Analyzer",
-            "description": "A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.",
-            "source": "https://doi.org/10.1177/2211068215589580"
         }
     ]
 }
