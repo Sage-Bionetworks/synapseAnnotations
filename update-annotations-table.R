@@ -54,7 +54,7 @@ add_enumerated_values <- function(data_table, json_list) {
       mutate(value = as.character(value))
   return_df <- full_join(data_table, enum_df, by = character())
   ## If no value had a source, then need to add this column
-  if (!("source" %in% names(dat))) {
+  if (!("source" %in% names(return_df))) {
     return_df <- return_df %>%
       add_column(source = NA)
   }
