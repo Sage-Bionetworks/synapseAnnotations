@@ -20,11 +20,7 @@ library("here")
 #' @return The module or key name
 get_info <- function(id, info = c("module", "key")) {
   info <- match.arg(info)
-  if (grepl("-[0-9\\.]+", id)) {
-    pattern <- "^[^-]+-([[:alnum:]]+)\\.([[:alnum:]]+)-[0-9\\.]+"
-  } else {
-    pattern <- "^[^-]+-([[:alnum:]]+)\\.([[:alnum:]]+)"
-  }
+  pattern <- "^[^-]+-([[:alnum:]]+)\\.([[:alnum:]]+)-[0-9\\.]+"
   switch(
     info,
     module = gsub(pattern, "\\1", id),
