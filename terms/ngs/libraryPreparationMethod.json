@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.2",
+    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.3",
     "description": "Method by which library was prepared",
     "anyOf": [
         {
@@ -19,26 +19,6 @@
             "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
         },
         {
-            "const": "Smart-seq2",
-            "description": "Smart-seq 2 library preparation",
-            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-        },
-        {
-            "const": "TruSeq",
-            "description": "TruSeq library preparation",
-            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
-        },
-        {
-            "const": "Smart-seq4",
-            "description": "Smart-seq4 library preparation",
-            "source": "https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
-        },
-        {
-            "const": "Omni-ATAC",
-            "description": "Omni-ATAC-seq library preparation",
-            "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
-        },
-        {
             "const": "NEBNext",
             "description": "NEBNext library preparation",
             "source": "https://www.neb-online.fr/en/neb-en/next-generation-sequencing/nebnext-kits-for-illumina/"
@@ -47,6 +27,26 @@
             "const": "NexteraXT",
             "description": "Nextera XT DNA library preparation kit",
             "source": "https://doi.org/10.1038/nmeth.f.269"
+        },
+        {
+            "const": "Omni-ATAC",
+            "description": "Omni-ATAC-seq library preparation",
+            "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
+        },
+        {
+            "const": "Smart-seq2",
+            "description": "Smart-seq 2 library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "Smart-seq4",
+            "description": "Smart-seq4 library preparation",
+            "source": "https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
+        },
+        {
+            "const": "TruSeq",
+            "description": "TruSeq library preparation",
+            "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
         }
     ]
 }
