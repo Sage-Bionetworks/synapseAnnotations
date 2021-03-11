@@ -9,6 +9,11 @@
             "source": "https://doi.org/10.1101/2020.05.19.105197"
         },
         {
+            "const": "GoldenWest",
+            "description": "Golden West reference pool",
+            "source": "https://doi.org/10.1038/sdata.2017.140"
+        },
+        {
             "const": "NIST SRM 1950",
             "description": "Human reference plasma from the National Institute of Standards and Technology.",
             "source": "https://www-s.nist.gov/srmors/view_detail.cfm?srm=1950"
