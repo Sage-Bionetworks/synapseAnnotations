@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.tissue-0.0.4",
+    "$id": "sage.annotations-experimentalData.tissue-0.0.5",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "anyOf": [
         {
