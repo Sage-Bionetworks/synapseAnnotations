@@ -28,9 +28,45 @@ get_info <- function(id, info = c("module", "key")) {
   )
 }
 
+#' Extract file path from referenced id
+#'
+#' @param id string containing the schema `$id`
+#' @return The local file path to the schema for the `$id`
+get_ref_path <- function(id) {
+  module <- get_info(id, "module")
+  key <- get_info(id, "key")
+  glue::glue("{here('terms')}/{module}/{key}.json")
+}
+
+#' Append enumerated values for a term
+#'
+#' @param data_table Table with columns key, description, columnType, module,
+#' maximumSize for adding the enumerated values of the key to
+#' @param json_list List of json data from the file
+#' @return Table with columns key, description, columnType, module, maximumSize,
+#' value, valueDescription, source, with one row per enumerated value
+add_enumerated_values <- function(data_table, json_list) {
+  enum_df <- json_list[["anyOf"]] %>%
+    rename(
+      value = const,
+      valueDescription = description
+    ) %>%
+      mutate(value = as.character(value))
+  return_df <- full_join(data_table, enum_df, by = character())
+  ## If no value had a source, then need to add this column
+  if (!("source" %in% names(return_df))) {
+    return_df <- return_df %>%
+      add_column(source = NA)
+  }
+  return(return_df)
+}
+
 #' Create table row(s) for a term
 #'
-#' @param file Path to the JSON Schema file containing a term
+#' @param file Path to the JSON Schema file containing a term. For terms that
+#' reference enumerated values of a different term, the referenced term
+#' should exist as a file in the current set. The referenced term cannot be
+#' extended.
 #' @return
 create_rows <- function(file) {
   dat <- fromJSON(file)
@@ -45,23 +81,23 @@ create_rows <- function(file) {
   ## If term has enumerated values in anyOf, fromJSON will create a handy data
   ## frame of those. We use that in combination with return_df to create a row
   ## for each value.
+  ## If term references the enumerated values of another term, grab those. Term
+  ## cannot extend the values in a referenced schema. Schema referenced should
+  ## exist in current set of schema files.
   if ("anyOf" %in% names(dat)) {
-    enum_df <- dat[["anyOf"]] %>%
-      rename(
-        value = const,
-        valueDescription = description
-      ) %>%
-      mutate(value = as.character(value))
-    return_df <- full_join(return_df, enum_df, by = character())
-    ## If no value had a source, then need to add this column
-    if (!("source" %in% names(return_df))) {
-      return_df <- return_df %>%
-        add_column(source = NA)
-    }
+    return_df <- add_enumerated_values(data_table = return_df, json_list = dat)
+  } else if ("properties" %in% names(dat)) {
+    # Assume will be a reference to existing file with enumerated values
+    alias_dat <- fromJSON(get_ref_path(dat$properties[[return_df$key]]$`$ref`))
+    return_df <- add_enumerated_values(
+      data_table = return_df,
+      json_list = alias_dat
+    )
   } else {
     return_df <- return_df %>%
-      add_column(value = NA, valueDescription = NA, source = NA)
+    add_column(value = NA, valueDescription = NA, source = NA)
   }
+
   ## Select columns in order that matches the table schema
   select(
     return_df,
