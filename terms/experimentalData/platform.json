@@ -264,6 +264,11 @@
             "source": "Sage Bionetworks"
         },
         {
+            "const": "Signa Premier AIR 3T",
+            "description": "Wide-bore 3T MRI scanner from GE Healthcare",
+            "source": "https://www.gehealthcare.com/products/magnetic-resonance-imaging/3-0t/signa-premier"
+        },
+        {
             "const": "Simoa HD-1 Analyzer",
             "description": "A laboratory instrument that provides full automation of single-molecular array (Simoa) technology for digital immunoassays.",
             "source": "https://doi.org/10.1177/2211068215589580"
