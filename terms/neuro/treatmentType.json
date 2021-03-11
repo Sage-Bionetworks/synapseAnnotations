@@ -25,7 +25,7 @@
         },
         {
             "const": "control",
-            "description": "A group used as a standard of comparison in a control experiment."
+            "description": "A group used as a standard of comparison in a control experiment.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C28143"
         },
         {
