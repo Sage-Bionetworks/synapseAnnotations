@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.treatmentType-0.0.1",
+    "$id": "sage.annotations-neuro.treatmentType-0.0.2",
     "description": "",
     "anyOf": [
         {
@@ -22,6 +22,21 @@
             "const": "clozapine",
             "description": "A second generation antipsychotic used in the treatment of psychiatric disorders like schizophrenia.",
             "source": "http://purl.obolibrary.org/obo/CHEBI_3766"
+        },
+        {
+            "const": "control",
+            "description": "A group used as a standard of comparison in a control experiment."
+            "source": "http://purl.obolibrary.org/obo/NCIT_C28143"
+        },
+        {
+            "const": "Abeta42 oligomer",
+            "description": "The stable oligomeric preparation of an amyloid beta peptide that corresponds to residues 1-42 of C99.",
+            "source": "https://doi.org/10.1074/jbc.m201750200"
+        },
+        {
+            "const": "Abeta42 fibril",
+            "description": "The fibrillar preparation of an amyloid beta peptide that corresponds to residues 1-42 of C99.",
+            "source": "https://doi.org/10.1074/jbc.m201750200"
         }
     ]
 }
