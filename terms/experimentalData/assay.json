@@ -219,6 +219,11 @@
             "source": "http://purl.obolibrary.org/obo/CHMO_0000701"
         },
         {
+            "const": "LC-SRM",
+            "description": "Liquid chromatography-selected reaction monitoring. A mass spectrometry assay for the targeted quantitation of protein/peptide abundances in biological samples.",
+            "source": "https://pubs.acs.org/doi/10.1021/ac5020996"
+        },
+        {
             "const": "LFP",
             "description": "An extracellular electrophysiology assay where a microelectrode is placed in the extracellular space of brain tissue to measure action potential and compared to an electrode either outside or inside that tissue.",
             "source": "http://purl.obolibrary.org/obo/OBI_0002189"
@@ -262,6 +267,11 @@
             "const": "MIB/MS",
             "description": "Kinomics assay using multiplexed kinase inhibitor beads and mass spectrometry (MIB/MS)",
             "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3328787/"
+        },
+        {
+            "const": "microRNAcounts",
+            "description": "A microRNA profiling assay using digital molecular barcoding technology to quantify target microRNA molecules without the need for amplification.",
+            "source": "source: http://purl.obolibrary.org/obo/OBI_0002142"
         },
         {
             "const": "mirnaArray",
