@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.cellType-0.0.4",
+    "$id": "sage.annotations-experimentalData.cellType-0.0.5",
     "description": "A cell type is a distinct morphological or functional form of cell.",
     "anyOf": [
         {
@@ -142,6 +142,11 @@
             "const": "monocyte-derived microglia",
             "description": "",
             "source": "Sage Bionetworks"
+        },
+        {
+            "const": "NCX NES",
+            "description": "Neocortical neuroepithelial stem cells",
+            "source": "https://encyclopedia.pub/2351"
         },
         {
             "const": "NeuN-",
