@@ -204,6 +204,11 @@
             "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0002771"
         },
         {
+            "const": "NCX NES",
+            "description": "Neocortical neuroepithelial stem cells",
+            "source": "https://encyclopedia.pub/2351"
+        },
+        {
             "const": "nerve tissue",
             "description": "Portion of tissue in the nervous system which consists of neurons and glial cells, and may also contain parts of the vasculature.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0003714"
