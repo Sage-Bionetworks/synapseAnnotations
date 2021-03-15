@@ -1,8 +1,18 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.modelSystemName-0.0.2",
+    "$id": "sage.annotations-neuro.modelSystemName-0.0.3",
     "description": "",
     "anyOf": [
+        {
+            "const": "3xTg-AD",
+            "description": "Triple mutant strain with mutations in APP Swedish, MAPT P301L, and PSEN1 M146V exhibiting plaque and tangle pathology associated with synaptic dysfunction",
+            "source": "https://www.jax.org/strain/004807"
+        },
+        {
+            "const": "5XFAD",
+            "description": "transgenic mice overexpressing three human APP mutations and two human PS1 FAD mutations",
+            "source": "https://www.jax.org/strain/008730"
+        },
         {
             "const": "Abca7A1527GAPOE4Trem2R47H",
             "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2",
@@ -39,6 +49,11 @@
             "source": "https://www.jax.org/strain/028709"
         },
         {
+        	"const": "ApoEKO",
+        	"description": "Mice homozygous for the Apoetm1Unc mutation show a marked increase in total plasma cholesterol levels that are unaffected by age or gender.",
+        	"source": "https://www.jax.org/strain/2052"
+        },
+        {
             "const": "APPE693Q",
             "description": "",
             "source": ""
@@ -69,9 +84,29 @@
             "source": "https://www.jax.org/strain/005864"
         },
         {
+        	"const": "B6.Clu",
+        	"description": "These Clu (also referred to as apoJ/clusterinJ) mice contain a targeted mutation of a glycoprotein associated with Alzheimer's disease and exhibit less neuroprotective properties after permanent focal cerebral ischemia.",
+        	"source": "https://www.jax.org/strain/005642"
+        },
+        {
+            "const": "B6.Gfap-APOE4",
+        	"description": "TThese transgenic mice express the human apolipoprotein E4 isoform (APOE4) under the direction of the human glial fibrillary acidic protein (GFAP) promoter and do not express endogenous mouse apolipoprotein E (APOE).",
+        	"source": "https://www.jax.org/strain/4631"
+        },
+        {
+        	"const": "Bin1.B6",
+        	"description": "This floxed-Bin1 strain may be useful for studying the cellular and mechanical role of Bin1 in Alzheimer's disease and the attenuation of cancer.",
+        	"source": "https://www.jax.org/strain/021145"
+        },
+        {
             "const": "BRI2-AB42",
             "description": "BRI-Abeta42 transgenic mice harbor a mouse prion promoter-driven BRI-Abeta42 fusion construct (containing a human type 2 transmembrane protein fused in-frame with a 'wildtype APP695' cDNA sequence encoding amyloid-beta42 at the furin-like cleavage site)",
             "source": "https://www.jax.org/strain/007182"
+        },
+        {
+        	"const": "Cd2ap.B6",
+        	"description": "Homozygous Cd2ap, CD2-associated protein targeted mutant mice die at approximately 6 weeks of age. Cardiac hypertrophy, splenic and thymic atrophy, and ascites may be found upon postmortem examination. Proteinuria can be detected as early as 2 weeks of age, indicating kidney dysfunction.",
+        	"source": "https://www.jax.org/strain/008907"
         },
         {
             "const": "Ceacam1KO",
@@ -94,14 +129,19 @@
             "source": "https://www.jax.org/strain/000664"
         },
         {
-            "const": "hAbeta KI",
-            "description": "triple mutant strain with humanized ApoE knock-in, a mutant App gene, and an R47H point mutation of Trem2",
-            "source": "https://www.jax.org/strain/030670"
+            "const": "hAbetaKI",
+            "description": "humanized App knock-in strain, in which 3 point mutations were introduced into exon 14 of the mouse App gene",
+            "source": "https://www.jax.org/strain/032013"
         },
         {
             "const": "hAPPAPOE4Trem2R47H",
             "description": "triple mutant strain with a humanized ApoE knock-in mutation, G601R, F606Y, and R609H mutations of the App gene, and a R47H point mutation of Trem2",
             "source": "https://www.jax.org/strain/030670"
+        },
+        {
+        	"const": "hCR1KIAPOE4Trem2",
+        	"description": "This mutant strain carries a knock-in knock-out Cr2 allele containing the human CR1 gene, the human CR2 gene and the intergenic region between the 2 genes; a humanized ApoE knock-in mutation (sequence coding for isoform E4); and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+        	"source": "https://www.jax.org/strain/31668"
         },
         {
             "const": "hTau",
@@ -129,9 +169,19 @@
             "source": ""
         },
         {
+        	"const": "Meox2KOHET",
+        	"description": "This B6J-APOE4/Trem2*R47H/Meox2-cre triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a Cre recombinase knock-in/knock-out allele of the Meox2 gene, and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+        	"source": "https://www.jax.org/strain/33770"
+        },
+        {
             "const": "MthfrC677TSNP",
             "description": "triple mutant strain carrying a humanized ApoE knock-in mutation; an R47H point mutation of Trem2; and a mutant of the Mthfr gene carrying a point mutation that models the human C677T polymorphism",
             "source": "https://www.jax.org/strain/030922"
+        },
+        {
+        	"const": "Mtmr4V297GSNP",
+        	"description": "The B6J-APOE4/Trem2*R47H/Mtmr4*V297G SNP triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/cas9-generated knock-in V297G point mutation of the Mtmr4 gene and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+        	"source": "https://www.jax.org/strain/31950"
         },
         {
             "const": "Plcg2KO",

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.tissue-0.0.4",
+    "$id": "sage.annotations-experimentalData.tissue-0.0.5",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "anyOf": [
         {
@@ -152,6 +152,11 @@
             "const": "insular cortex",
             "description": "insular cortex",
             "source": "http://purl.obolibrary.org/obo/UBERON_0034891"
+        },
+        {
+            "const": "left cerebral hemisphere",
+            "description": "One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter.",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0001869"
         },
         {
             "const": "liver",
@@ -312,6 +317,11 @@
             "const": "putamen",
             "description": "Subcortical nucleus of telencephalic , which together with the caudate nucleus, forms the striatum.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0001874"
+        },
+        {
+            "const": "right cerebral hemisphere",
+            "description": "One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter.",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0001869"
         },
         {
             "const": "serum",
