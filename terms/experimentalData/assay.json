@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.9",
+    "$id": "sage.annotations-experimentalData.assay-0.0.10",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -437,6 +437,11 @@
             "const": "spontaneous alternation",
             "description": "The spontaneous alternation protocol is used to assess spatial working memory in mice.",
             "source": "https://doi.org/10.1002/cpmo.45"
+        },
+        {
+            "const": "STARRSeq",
+            "description": "An RNA-seq assay that identifies the sequences that act as transcriptional enhancers in a direct, quantitative, and genome-wide manner from sheared genomic DNA",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002041"
         },
         {
             "const": "TMT quantitation",
