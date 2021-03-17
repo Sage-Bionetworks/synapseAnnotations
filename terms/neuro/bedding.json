@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.bedding-0.0.1",
+    "$id": "sage.annotations-neuro.bedding-0.0.2",
     "description": "Rodent bedding material",
     "anyOf": [
 		{
@@ -27,6 +27,11 @@
             "const": "sanichip",
             "description": "Rodent bedding made from hardwoods",
             "source": "https://insights.envigo.com/hubfs/resources/data-sheets/7090A-Sani-Chip-Bedding-US-2017.pdf"
+        },
+	    {
+            "const": "aspen sanichip",
+            "description": "Rodent bedding made of corase certified aspen sanichip",
+            "source": "Sage Bionetworks"
         }
     ]
 }
