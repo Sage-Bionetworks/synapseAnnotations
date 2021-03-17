@@ -3,19 +3,24 @@
     "$id": "sage.annotations-neuro.bedding-0.0.2",
     "description": "Rodent bedding material",
     "anyOf": [
-		{
+        {
             "const": "Alpha-dri",
             "description": "Rodent bedding made from alpha cellulose",
             "source": "https://www.labsupplytx.com/rodent/bedding/paper-bedding"
         },
         {
-            "const": "corn cob",
-            "description": "Rodent bedding made from corn cobs",
+            "const": "aspen",
+            "description": "Rodent bedding made from Aspen",
             "source": "Sage Bionetworks"
         },
         {
-            "const": "aspen",
-            "description": "Rodent bedding made from Aspen",
+            "const": "aspen sanichip",
+            "description": "Rodent bedding made of corase certified aspen sanichip",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "corn cob",
+            "description": "Rodent bedding made from corn cobs",
             "source": "Sage Bionetworks"
         },
         {
@@ -27,11 +32,6 @@
             "const": "sanichip",
             "description": "Rodent bedding made from hardwoods",
             "source": "https://insights.envigo.com/hubfs/resources/data-sheets/7090A-Sani-Chip-Bedding-US-2017.pdf"
-        },
-	    {
-            "const": "aspen sanichip",
-            "description": "Rodent bedding made of corase certified aspen sanichip",
-            "source": "Sage Bionetworks"
         }
     ]
 }
