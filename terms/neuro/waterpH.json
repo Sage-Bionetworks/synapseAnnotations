@@ -1,8 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-neuro.waterpH-0.0.1",
-  "description": "pH of water fed to the animal",
-  "type": "number",
-  "minimum": 0,
-  "maximum": 14
+  "$id": "sage.annotations-neuro.waterpH-0.0.2",
+  "description": "The pH of the water fed to the animal. Should be a number from 0-14 or a string specifying 'acidic', 'neutral', or 'basic'.",
+  "type": "string"
 }
