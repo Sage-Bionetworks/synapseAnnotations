@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.9",
+    "$id": "sage.annotations-neuro.study-0.0.10",
     "description": "Study",
     "anyOf": [
         {
@@ -537,6 +537,26 @@
             "const": "ADMC_ADNI_BakerLipidomics",
             "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Baker Heart Targeted Lipidomics (ADMC_ADNI_BakerLipidomics) Study",
             "source": "https://www.synapse.org/#!Synapse:syn24989039"
-        }
+        },
+        {
+            "const": "UCI_TREM2",
+            "description": "The UCI_TREM2 Study (UCI_TREM2)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316486"
+        },
+        {
+            "const": "UCI_ABCA7",
+            "description": "The UCI_ABCA7 Study (UCI_ABCA7)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316706"
+        },
+        {
+            "const": "UCI_ABi3",
+            "description": "The UCI_ABi3 Study (UCI_ABi3)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316776"
+        },
+        {
+            "const": "UCI_BIN1",
+            "description": "The UCI_BIN1 Study (UCI_BIN1)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316846"
+        }           
     ]
 }
