@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-ngs.libraryType-0.0.1",
+  "description": "The type of library, in assays where samples are barcoded or hashed for multiplexing and each sample has multiple libraries amplified separately before pooled sequencing.",
+  "anyOf": [
+    {
+      "const": "cDNA",
+      "description": "cDNA or complementary DNA is complementary in sequence to a particular messenger RNA (mRNA). It is synthesized from mRNA in a reverse transcription reaction by reverse transcriptase enzyme.",
+      "source": "http://www.ebi.ac.uk/efo/EFO_0008481"
+    },
+    {
+      "const": "HTO",
+      "description": "Hashtag oligonucelotide; oligo-tagged antibodies against ubiquitously expressed surface proteins with different barcodes are used to uniquely label cells from distinct samples.",
+      "source": "https://doi.org/10.1186/s13059-018-1603-1"
+    },
+    {
+      "const": "ADT",
+      "description": "Antibody-derived tag; oligonucleotide-labeled antibodies are used to integrate cellular protein and transcriptome measurements into an efficient, single-cell readout.",
+      "source": "https://doi.org/10.1038/nmeth.4380"
+    },
+    {
+      "const": "LMO",
+      "description": "Lipid-modified oligonucleotide sample barcode anchor.",
+      "source": "https://doi.org/10.1038/s41592-019-0433-8"
+    },
+    {
+      "const": "CMO",
+      "description": "Cholesterol-modified oligonucleotide sample barcode anchor.",
+      "source": "https://doi.org/10.1038/s41592-019-0433-8"
+    }
+  ]
+}
