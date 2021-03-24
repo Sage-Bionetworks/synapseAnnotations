@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.spectrometerFrequency-0.0.1",
+  "description": "The frequency at which a spectrometer causes hydrogen atoms to resonate (in MHz).",
+  "type": "number"
+}

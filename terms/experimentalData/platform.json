@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.9",
+    "$id": "sage.annotations-experimentalData.platform-0.0.10",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -52,6 +52,11 @@
             "const": "Bionano Irys",
             "description": "Performs whole genome mapping in a nanoscale fluidic environment enabling the structure of the genome to be imaged and then analyzed at the single molecule level",
             "source": "https://bionanogenomics.com/products/irys/"
+        },
+        {
+            "const": "Bruker Avance III",
+            "description": "Nuclear magnetic resonance (NMR) spectrometer manufactured by Bruker",
+            "source": "http://www2.chem.uic.edu/nmr/downloads/bruker/en-US/pdf/z31839.pdf"
         },
         {
             "const": "confocalImaging",
