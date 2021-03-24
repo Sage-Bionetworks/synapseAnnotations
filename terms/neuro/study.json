@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.10",
+    "$id": "sage.annotations-neuro.study-0.0.11",
     "description": "Study",
     "anyOf": [
         {
@@ -557,6 +557,11 @@
             "const": "UCI_BIN1",
             "description": "The UCI_BIN1 Study (UCI_BIN1)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316846"
-        }           
+        },
+        {
+            "const": "MindPhenomeKB",
+            "description": "A Phenotypic Knowledge Base to Study Genetic Links Between AD and Neuropsychatric Symptoms (MindPhenomeKB)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25326405"
+        }
     ]
 }
