@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.10",
+    "$id": "sage.annotations-experimentalData.platform-0.0.11",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -182,6 +182,11 @@
             "const": "Infinium Omni2.5Exome-8 v1.3",
             "description": "Infinium Omni2.5Exome-8 v1.3",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
+        },
+        {
+            "const": "Infinium Omni2.5Exome-8 v1.4",
+            "description": "Infinium Omni2.5Exome-8 v1.4",
+            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-4-product-files.html"
         },
         {
             "const": "LTQOrbitrapXL",
