@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-experimentalData.chromosome.json-0.0.1",
+  "$id": "sage.annotations-experimentalData.chromosome-0.0.2",
   "description": "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information; number or designation of the particular chromosome that the data is associated with.",
   "anyOf": [
     {
