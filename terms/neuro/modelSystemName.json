@@ -14,6 +14,11 @@
             "source": "https://www.jax.org/strain/008730"
         },
         {
+            "const": "AB42",
+            "description": "",
+            "source": ""
+        },
+        {
             "const": "Abca7A1527GAPOE4Trem2R47H",
             "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a rs3752246 SNP knock-in mutation of the Abca7 gene, and a R47H point mutation of Trem2",
             "source": "https://www.jax.org/strain/030283"
@@ -23,10 +28,15 @@
             "description": "triple mutant strain that carries a humanized ApoE knock-in mutation, a knock-out mutation of the Abca7 gene, and an R47H point mutation of Trem2",
             "source": ""
         },
+    	{
+            "const": "Abca7V1599M_rs117187003",
+            "description": "CRISPR/Cas9-generated mutant of the ATP-binding cassette, sub-family A (ABC1), member 7 (Abca7) gene carrying the V1613M mutation that corresponds to the human V1599M SNP associated with increased risk of sporadic Alzheimer's disease.",
+            "source": "https://www.jax.org/strain/035316"
+        },
         {
-            "const": "AB42",
-            "description": "",
-            "source": ""
+            "const": "Abi3S209F_Aduci",
+            "description": "CRISPR/Cas9-generated mutant of the ABI family member 3 (Abi3) gene carrying the S212F mutation that corresponds to the human S209F SNP associated with increased risk of sporadic Alzheimer's disease.",
+            "source": "https://www.jax.org/strain/035871"
         },
         {
             "const": "APOE2KI",
@@ -97,6 +107,11 @@
         	"const": "Bin1.B6",
         	"description": "This floxed-Bin1 strain may be useful for studying the cellular and mechanical role of Bin1 in Alzheimer's disease and the attenuation of cancer.",
         	"source": "https://www.jax.org/strain/021145"
+        },
+    	{
+        	"const": "Bin1K358R_Aduci",
+        	"description": " CRISPR/Cas9-generated mutant of the bridging integrator 1 (Bin1) gene carrying the K426R mutation that corresponds to the human K358R SNP associated with increased risk of sporadic Alzheimer's disease.",
+        	"source": "https://www.jax.org/strain/035872"
         },
         {
             "const": "BRI2-AB42",
@@ -184,6 +199,11 @@
         	"source": "https://www.jax.org/strain/31950"
         },
         {
+        	"const": "PicalmH458R_Aduci",
+        	"description": "CRISPR/Cas9 generated mutant of the phosphatidylinositol binding clathrin assembly protein gene carrying the H465R mutation that corresponds to the human H458R mutation associated with Alzheimer's Disease (AD).",
+        	"source": "https://www.jax.org/strain/034037"
+        },
+        {
             "const": "Plcg2KO",
             "description": "mutant of the Plcg2 gene carries a knock-out mutation",
             "source": "https://www.jax.org/strain/029910"
@@ -227,6 +247,11 @@
             "const": "Trem2R47H",
             "description": "mutant with an R47H point mutation of Trem2",
             "source": "https://www.jax.org/strain/027918"
+        },
+        {
+            "const": "Trem2R47H_em1_Aduci",
+            "description": "CRISPR/Cas9-generated mutant of the triggering receptor expressed on myeloid cells 2 (Trem2) gene carrying the R47H mutation that corresponds to the human R47H mutation associated with late-onset Alzheimer's Disease (AD). ",
+            "source": "https://www.jax.org/strain/034036"
         },
         {
             "const": "Trem2Y38C",
