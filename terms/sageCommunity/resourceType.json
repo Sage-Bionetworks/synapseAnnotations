@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-sageCommunity.resourceType-0.0.1",
+    "$id": "sage.annotations-sageCommunity.resourceType-0.0.2",
     "description": "The type of resource being stored and annotated",
     "anyOf": [
         {
@@ -22,6 +22,11 @@
             "const": "tool",
             "description": "Any file or link that represents a tool, model, or algorithm; the tool annotations could be applied",
             "source": "Sage Bionetworks"
+        },
+        {
+            "const": "metadata",
+            "description": "Any file that contains information about how data was collected, generated, or processed; information that describes another set of data.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C52095"
         },
         {
             "const": "report",
