@@ -1,0 +1,127 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.chromosome-0.0.2",
+  "description": "A structure composed of a very long molecule of DNA and associated proteins (e.g. histones) that carries hereditary information; number or designation of the particular chromosome that the data is associated with.",
+  "anyOf": [
+    {
+      "const": "1",
+      "description": "Chromosome 1",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "2",
+      "description": "Chromosome 2",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "3",
+      "description": "Chromosome 3",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "4",
+      "description": "Chromosome 4",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "5",
+      "description": "Chromosome 5",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "6",
+      "description": "Chromosome 6",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "7",
+      "description": "Chromosome 7",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "8",
+      "description": "Chromosome 8",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "9",
+      "description": "Chromosome 9",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "10",
+      "description": "Chromosome 10",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "11",
+      "description": "Chromosome 11",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "12",
+      "description": "Chromosome 12",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "13",
+      "description": "Chromosome 13",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "14",
+      "description": "Chromosome 14",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "15",
+      "description": "Chromosome 15",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "16",
+      "description": "Chromosome 16",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "17",
+      "description": "Chromosome 17",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "18",
+      "description": "Chromosome 18",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "19",
+      "description": "Chromosome 19",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "20",
+      "description": "Chromosome 20",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "21",
+      "description": "Chromosome 21",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "22",
+      "description": "Chromosome 22",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "X",
+      "description": "Chromosome X",
+      "source": "Sage Bionetworks"
+    },
+    {
+      "const": "Y",
+      "description": "Chromosome Y",
+      "source": "Sage Bionetworks"
+    }
+  ]
+}

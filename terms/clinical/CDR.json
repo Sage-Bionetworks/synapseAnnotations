@@ -1,33 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-clinical.CDR-0.0.1",
+    "$id": "sage.annotations-clinical.CDR-0.0.2",
     "type": "number",
-    "description": "Clinical Dementia Rating",
-    "anyOf": [
-        {
-          "const": 0,
-          "description": "None",
-          "source": "https://doi.org/10.1017/S1041610297004870"
-        },
-        {
-          "const": 0.5,
-          "description": "Very mild",
-          "source": "https://doi.org/10.1017/S1041610297004870"
-        },
-        {
-          "const": 1,
-          "description": "Mild",
-          "source": "https://doi.org/10.1017/S1041610297004870"
-        },
-        {
-          "const": 2,
-          "description": "Moderate",
-          "source": "https://doi.org/10.1017/S1041610297004870"
-        },
-        {
-          "const": 3,
-          "description": "Severe",
-          "source": "https://doi.org/10.1017/S1041610297004870"
-        }
-    ]
+    "description": "Clinical Dementia Rating"
 }
