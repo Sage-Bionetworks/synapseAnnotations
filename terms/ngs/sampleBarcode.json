@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-ngs.sampleBarcode-0.0.1",
+  "description": "The nucleotide sequence of the sample barcode used to identify cells from a single sample in cell hashing or multiplexing assays.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}
