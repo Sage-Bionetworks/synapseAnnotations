@@ -409,11 +409,6 @@
             "source": "https://www.synapse.org/#!Synapse:syn5550419"
         },
         {
-            "const": "RNAseq_SampleSwap",
-            "description": "RNAseq from sapmples swapped between 3 groups",
-            "source": "https://www.synapse.org/#!Synapse:syn5550419"
-        },
-        {
             "const": "RR_APOE4",
             "description": "The ROSMAP Resilience APOE4 study",
             "source": "https://www.synapse.org/#!Synapse:syn23633750"
