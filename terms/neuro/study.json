@@ -252,7 +252,7 @@
             "const": "MindPhenomeKB",
             "description": "A Phenotypic Knowledge Base to Study Genetic Links Between AD and Neuropsychatric Symptoms (MindPhenomeKB)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25326405"
-        }
+        },
         {
             "const": "miR155",
             "description": "miR155 regulation of behavior, neuropathology, and cortical transcriptomics in Alzheimer Disease",
