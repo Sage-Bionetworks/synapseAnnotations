@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.modelSystemName-0.0.4",
+    "$id": "sage.annotations-neuro.modelSystemName-0.0.5",
     "description": "",
     "anyOf": [
         {
@@ -199,7 +199,7 @@
         	"source": "https://www.jax.org/strain/31950"
         },
         {
-        	"const": "PicalmH458R_Aduci",
+        	"const": "Picalm*H458R",
         	"description": "CRISPR/Cas9 generated mutant of the phosphatidylinositol binding clathrin assembly protein gene carrying the H465R mutation that corresponds to the human H458R mutation associated with Alzheimer's Disease (AD).",
         	"source": "https://www.jax.org/strain/034037"
         },
@@ -227,6 +227,11 @@
             "const": "Sorl1A528TSNP",
             "description": "triple mutant strain carrying a humanized ApoE knock-in mutation, an A528T point mutation of the Sorl1 gene. and an R47H point mutantion of Trem2",
             "source": "https://www.jax.org/strain/031940"
+        },
+        {
+            "const": "Spi1*rs1377416",
+            "description": "CRISPR/Cas9-generated mutant of the spleen focus forming virus (SFFV) proviral integration oncogene (Spi1) gene carrying a missense mutation that corresponds to the human SNP rs1377416 found in human SPI1 that has been found to be a functional variant that is active in human myeloid cells and in the brain of a mouse model of Alzheimer's disease (AD).",
+            "source": "https://www.jax.org/strain/035873"
         },
         {
             "const": "TREM2",
