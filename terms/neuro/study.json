@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.11",
+    "$id": "sage.annotations-neuro.study-0.0.12",
     "description": "Study",
     "anyOf": [
         {
@@ -557,6 +557,16 @@
             "const": "UCI_BIN1",
             "description": "The UCI_BIN1 Study (UCI_BIN1)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316846"
+        },
+        {
+            "const": "UCI_PICALM",
+            "description": "The UCI_PICALM Study (UCI_PICALM)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442263"
+        },
+        {
+            "const": "UCI_SPI1",
+            "description": "The UCI_SPI1 Study (UCI_SPI1)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442231"
         },
         {
             "const": "MindPhenomeKB",
