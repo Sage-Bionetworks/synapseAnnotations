@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.11",
+    "$id": "sage.annotations-neuro.study-0.0.12",
     "description": "Study",
     "anyOf": [
         {
@@ -9,314 +9,14 @@
             "source": "https://www.synapse.org/#!Synapse:syn21754060"
         },
         {
-            "const": "CMC-PEC",
-            "description": "Data from the CMC cohorts funded through PsychENCODE grants",
-            "source": "https://www.synapse.org/#!Synapse:syn21961394"
-        },
-        {
-            "const": "TS-RNAseq",
-            "description": "Transcriptional Analysis of the Human Striatum in Tourette Syndrome",
-            "source": "https://www.synapse.org/#!Synapse:syn3158906"
-        },
-        {
             "const": "ACOM",
             "description": "The apoE effects in iPSC-derived Alzheimer's disease cerebral organoid model study",
             "source": "https://www.synapse.org/#!Synapse:syn21680862"
         },
         {
-            "const": "VMC",
-            "description": "The Vascular Mural Cell -derived ApoE Study",
-            "source": "https://www.synapse.org/#!Synapse:syn21624490"
-        },
-        {
-            "const": "snRNAseqAD_TREM2",
-            "description": "The TREM2-impact in Alzheimer's Disease Study",
-            "source": "https://www.synapse.org/#!Synapse:syn21125841/wiki/597278"
-        },
-        {
-            "const": "StJude_BannerSun",
-            "description": "The collaborative Banner Sun - St. Jude Alzheimer's disease and related dementias (StJude_BannerSun) study",
-            "source": "https://www.synapse.org/#!Synapse:syn21592732"
-        },
-        {
-            "const": "Jax.IU.Pitt_StrainValidation",
-            "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21595255"
-        },
-        {
-            "const": "UCI_StrainValidation",
-            "description": "Strain validation data from the UCI MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21595257"
-        },
-        {
-            "const": "Jax.IU.Pitt_PrimaryScreen",
-            "description": "Primary screen data from the Jax.IU.Pitt MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21595258"
-        },
-        {
-            "const": "UCI_PrimaryScreen",
-            "description": "Primary screen data from the UCI MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21595261"
-        },
-        {
-            "const": "iPSCAstrocytes",
-            "description": "The MSSM iPSCAstrocytes study",
-            "source": "https://www.synapse.org/#!Synapse:syn10344967"
-        },
-        {
-            "const": "TyrobpKO_AppPs1",
-            "description": "TyrobpKO mice crossed with APP/PS1 tg",
-            "source": "https://www.synapse.org/#!Synapse:syn10378730"
-        },
-        {
-            "const": "CMC",
-            "description": "CommonMind Consortium",
-            "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
-        },
-        {
-            "const": "DiCAD",
-            "description": "Interdisciplinary Research to Understand the Interplay of Diabetes, Cerebrovascular disease and Alzheimer's disease",
-            "source": "https://www.synapse.org/#!Synapse:syn9944859"
-        },
-        {
-            "const": "EpiMap",
-            "description": "Epigenetic Map in neuropsychiatric control tissue",
-            "source": "https://www.synapse.org/#!Synapse:syn4566010"
-        },
-        {
-            "const": "CNON",
-            "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium",
-            "source": "https://www.synapse.org/#!Synapse:syn4590897"
-        },
-        {
-            "const": "MouseHAL",
-            "description": "Chronic Haloperidol Effects on Gene Expression and Chromatin Accessibility in Mouse Brain",
-            "source": "https://www.synapse.org/#!Synapse:syn4590850"
-        },
-        {
-            "const": "WGBS Pilot",
-            "description": "Whole Genome Bisulfite Sequencing pilot",
-            "source": "https://www.synapse.org/#!Synapse:syn4586517"
-        },
-        {
-            "const": "lncRNA Pilot",
-            "description": "long non-coding RNA pilot",
-            "source": "https://www.synapse.org/#!Synapse:syn4588462"
-        },
-        {
-            "const": "BrainGVEX",
-            "description": "Genetic Variants effect on Brain Gene eXpression",
-            "source": "https://www.synapse.org/#!Synapse:syn4590909"
-        },
-        {
-            "const": "UCLA-ASD",
-            "description": "A study of samples from the Autism Tissue Program",
-            "source": "https://www.synapse.org/#!Synapse:syn4587609"
-        },
-        {
-            "const": "iPSC",
-            "description": "Gene regulatory elements and transcriptome in iPSCs and postmortem human cortex ",
-            "source": "https://www.synapse.org/#!Synapse:syn4590910"
-        },
-        {
-            "const": "HumanFC",
-            "description": "Decoding schizophrenia-From GWAS to functional regulatory variants",
-            "source": "https://www.synapse.org/#!Synapse:syn5321694"
-        },
-        {
-            "const": "EpiGABA",
-            "description": "GABA Epigenomes in Autism",
-            "source": "https://www.synapse.org/#!Synapse:syn4588488"
-        },
-        {
-            "const": "NHP-Macaque",
-            "description": "A transcription atlas of the rhesus monkey brain",
-            "source": ""
-        },
-        {
-            "const": "NHP-Chimpanzee",
-            "description": "Chimpanzee data",
-            "source": "https://www.synapse.org/#!Synapse:syn7067053"
-        },
-        {
-            "const": "Yale-ASD",
-            "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism-",
-            "source": "https://www.synapse.org/#!Synapse:syn4566141"
-        },
-        {
-            "const": "BipSeq",
-            "description": "RNA Sequencing of the limbic system in bipolar disorder",
-            "source": "https://www.synapse.org/#!Synapse:syn5844980"
-        },
-        {
             "const": "ACT",
             "description": "Adult Changes in Thought ",
             "source": "https://www.synapse.org/#!Synapse:syn5759376"
-        },
-        {
-            "const": "BLSA",
-            "description": "Baltimore Longitudinal Study on Aging",
-            "source": "https://www.synapse.org/#!Synapse:syn3606086"
-        },
-        {
-            "const": "HBTRC",
-            "description": "Harvard Brain Tissue Resource Center",
-            "source": "https://www.synapse.org/#!Synapse:syn3159435"
-        },
-        {
-            "const": "MSBB",
-            "description": "Mount Sinai Brain Bank AD Cohort",
-            "source": "https://www.synapse.org/#!Synapse:syn3159438"
-        },
-        {
-            "const": "ROSMAP",
-            "description": "Religious Orders Study and Memory and Aging Project",
-            "source": "https://www.synapse.org/#!Synapse:syn3219045"
-        },
-        {
-            "const": "MayoLOADGWAS",
-            "description": "Mayo Clinic LOAD genome-wide association and brain gene expression studies",
-            "source": "https://www.synapse.org/#!Synapse:syn2910256"
-        },
-        {
-            "const": "MayoeGWAS",
-            "description": "Gene expression from the Illumina Whole Genome DASL array",
-            "source": "https://www.synapse.org/#!Synapse:syn3157225"
-        },
-        {
-            "const": "MayoPilotRNAseq",
-            "description": "RNAseq on a subset of MayoEGWAS",
-            "source": "https://www.synapse.org/#!Synapse:syn3157268"
-        },
-        {
-            "const": "IL10_APPmouse",
-            "description": "IL10 overexpression in APP mouse",
-            "source": "https://www.synapse.org/#!Synapse:syn3157175"
-        },
-        {
-            "const": "Emory_ADRC",
-            "description": "Emory Alzheimer's Disease Research Center",
-            "source": "https://www.synapse.org/#!Synapse:syn3218563"
-        },
-        {
-            "const": "TAUAPPms",
-            "description": "Tau and APP mouse model",
-            "source": "https://www.synapse.org/#!Synapse:syn3157182"
-        },
-        {
-            "const": "RNAseq_SampleSwap",
-            "description": "RNAseq from sapmples swapped between 3 groups",
-            "source": "https://www.synapse.org/#!Synapse:syn5550419"
-        },
-        {
-            "const": "MayoRNAseq",
-            "description": "Mayo RNAseq study",
-            "source": "https://www.synapse.org/#!Synapse:syn5550404"
-        },
-        {
-            "const": "BroadMDMi",
-            "description": "A novel human in vitro microglia-like model",
-            "source": "https://www.synapse.org/#!Synapse:syn3607404"
-        },
-        {
-            "const": "BroadiPSC",
-            "description": "iPSC derived forebrain neurons",
-            "source": "https://www.synapse.org/#!Synapse:syn3607401"
-        },
-        {
-            "const": "MSDM",
-            "description": "Mount Sinai Drosophila Melanogaster",
-            "source": "https://www.synapse.org/#!Synapse:syn4587607"
-        },
-        {
-            "const": "OFMM",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "LillyMicroglia",
-            "description": "Microglia gene profiling in the rTg4510 tauopathy mouse model",
-            "source": "https://www.synapse.org/#!Synapse:syn5478323"
-        },
-        {
-            "const": "UPenn",
-            "description": "Center for Neurodegenerative Disease Research at the Perelman School of Medicine of the University of Pennsylvania",
-            "source": "https://www.synapse.org/#!Synapse:syn5477237"
-        },
-        {
-            "const": "SY5Y_REST",
-            "description": "LiCl treated SH-SY5Y cells",
-            "source": "https://www.synapse.org/#!Synapse:syn5987497"
-        },
-        {
-            "const": "MSSMiPSC",
-            "description": "iPSC derived hiPSC forebrain neurons and NPCs",
-            "source": "https://www.synapse.org/#!Synapse:syn5986884"
-        },
-        {
-            "const": "TyrobpKO",
-            "description": "Mouse Tyrobp KO model",
-            "source": "https://www.synapse.org/#!Synapse:syn7123287"
-        },
-        {
-            "const": "iPSCMicroglia",
-            "description": "iPSC derived microglia",
-            "source": "https://www.synapse.org/#!Synapse:syn7203233"
-        },
-        {
-            "const": "BroadAstrom109",
-            "description": "Primary astrocytes and iPSC derived neurons",
-            "source": "https://www.synapse.org/#!Synapse:syn7204912"
-        },
-        {
-            "const": "Banner",
-            "description": "Banner Sun Health Research Institute's Brain and Body Donation Program",
-            "source": "https://www.synapse.org/#!Synapse:syn7170616"
-        },
-        {
-            "const": "EmoryDrosophilaTau",
-            "description": "Emory Drosophila Tau model ",
-            "source": "https://www.synapse.org/#!Synapse:syn7274101"
-        },
-        {
-            "const": "HDAC1-cKOBrain",
-            "description": "HDAC1 expression in the brain",
-            "source": "https://www.synapse.org/#!Synapse:syn5987310"
-        },
-        {
-            "const": "U1-70_PrimaryCellCulture",
-            "description": "APP.PS1 and U1-70 transduced neurons",
-            "source": "https://www.synapse.org/#!Synapse:syn5820226"
-        },
-        {
-            "const": "MSMM",
-            "description": "Mount Sinai Mouse Models",
-            "source": "https://www.synapse.org/#!Synapse:syn5477220"
-        },
-        {
-            "const": "TauD35",
-            "description": "Mouse tauopathy model",
-            "source": "https://www.synapse.org/#!Synapse:syn5714308"
-        },
-        {
-            "const": "APOE-TR",
-            "description": "APOE Targeted Replacement",
-            "source": "https://www.synapse.org/#!Synapse:syn8391648"
-        },
-        {
-            "const": "SY5Y_Emory",
-            "description": "APP/TAU transduced SY5Y cells",
-            "source": "https://www.synapse.org/#!Synapse:syn8513284"
-        },
-        {
-            "const": "WallOfTargets",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "CMC_HBCC",
-            "description": "The CommonMind Consortium Human Brain Collection Core Cohort",
-            "source": ""
         },
         {
             "const": "ADMC_ADNI1",
@@ -329,9 +29,59 @@
             "source": "https://www.synapse.org/#!Synapse:syn9705278"
         },
         {
+            "const": "ADMC_ADNI_BakerLipidomics",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Baker Heart Targeted Lipidomics (ADMC_ADNI_BakerLipidomics) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn24989039"
+        },
+        {
+            "const": "ADMC_ADNI_NightingaleNMR",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn23557831"
+        },    
+        {
             "const": "ADMC_UPenn",
             "description": "Metabolomics on AD",
             "source": "https://www.synapse.org/#!Synapse:syn9705311"
+        },
+        {
+            "const": "APOE-TR",
+            "description": "APOE Targeted Replacement",
+            "source": "https://www.synapse.org/#!Synapse:syn8391648"
+        },
+        {
+            "const": "Banner",
+            "description": "Banner Sun Health Research Institute's Brain and Body Donation Program",
+            "source": "https://www.synapse.org/#!Synapse:syn7170616"
+        },
+        {
+            "const": "BipSeq",
+            "description": "RNA Sequencing of the limbic system in bipolar disorder",
+            "source": "https://www.synapse.org/#!Synapse:syn5844980"
+        },
+        {
+            "const": "BLSA",
+            "description": "Baltimore Longitudinal Study on Aging",
+            "source": "https://www.synapse.org/#!Synapse:syn3606086"
+        },
+        {
+            "const": "BrainGVEX",
+            "description": "Genetic Variants effect on Brain Gene eXpression",
+            "source": "https://www.synapse.org/#!Synapse:syn4590909"
+        },
+        {
+            "const": "BroadAstrom109",
+            "description": "Primary astrocytes and iPSC derived neurons",
+            "source": "https://www.synapse.org/#!Synapse:syn7204912"
+        },
+        {
+            "const": "BroadiPSC",
+            "description": "iPSC derived forebrain neurons",
+            "source": "https://www.synapse.org/#!Synapse:syn3607401"
+        },
+        {
+            "const": "BroadMDMi",
+            "description": "A novel human in vitro microglia-like model",
+            "source": "https://www.synapse.org/#!Synapse:syn3607404"
         },
         {
             "const": "CHDWB",
@@ -339,9 +89,159 @@
             "source": "https://www.synapse.org/#!Synapse:syn8272982"
         },
         {
-            "const": "MSBB_ArrayTissuePanel",
-            "description": "Expression array and coexpression networks on 19 brain regions",
-            "source": "https://www.synapse.org/#!Synapse:syn3157699"
+            "const": "CMC",
+            "description": "CommonMind Consortium",
+            "source": "https://www.synapse.org/#!Synapse:syn2759792/wiki/69613"
+        },
+        {
+            "const": "CMC_HBCC",
+            "description": "The CommonMind Consortium Human Brain Collection Core Cohort",
+            "source": ""
+        },
+        {
+            "const": "CMC-PEC",
+            "description": "Data from the CMC cohorts funded through PsychENCODE grants",
+            "source": "https://www.synapse.org/#!Synapse:syn21961394"
+        },
+        {
+            "const": "CNON",
+            "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium",
+            "source": "https://www.synapse.org/#!Synapse:syn4590897"
+        },
+        {
+            "const": "DiCAD",
+            "description": "Interdisciplinary Research to Understand the Interplay of Diabetes, Cerebrovascular disease and Alzheimer's disease",
+            "source": "https://www.synapse.org/#!Synapse:syn9944859"
+        },
+        {
+            "const": "diseasePseudotime",
+            "description": "The diseasePseudotime study",
+            "source": "https://www.synapse.org/#!Synapse:syn22822673"
+        },
+        {
+            "const": "DukeAD_PTSD",
+            "description": "The Duke Study of Shared Genetic, Epigenetic, and Transcriptomic Profiles Between AD and PTSD study",
+            "source": "https://www.synapse.org/#!Synapse:syn23585917"
+        },
+        {
+            "const": "Emory_ADRC",
+            "description": "Emory Alzheimer's Disease Research Center",
+            "source": "https://www.synapse.org/#!Synapse:syn3218563"
+        },
+        {
+            "const": "EmoryDrosophilaTau",
+            "description": "Emory Drosophila Tau model ",
+            "source": "https://www.synapse.org/#!Synapse:syn7274101"
+        },
+        {
+            "const": "EpiGABA",
+            "description": "GABA Epigenomes in Autism",
+            "source": "https://www.synapse.org/#!Synapse:syn4588488"
+        },
+        {
+            "const": "EpiMap",
+            "description": "Epigenetic Map in neuropsychiatric control tissue",
+            "source": "https://www.synapse.org/#!Synapse:syn4566010"
+        },
+        {
+            "const": "HBI_scRNAseq",
+            "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
+            "source": "https://www.synapse.org/#!Synapse:syn24168322"
+        },
+        {
+            "const": "HBTRC",
+            "description": "Harvard Brain Tissue Resource Center",
+            "source": "https://www.synapse.org/#!Synapse:syn3159435"
+        },
+        {
+            "const": "HDAC1-cKOBrain",
+            "description": "HDAC1 expression in the brain",
+            "source": "https://www.synapse.org/#!Synapse:syn5987310"
+        },
+    	{
+            "const": "HumanFC",
+            "description": "Decoding schizophrenia-From GWAS to functional regulatory variants",
+            "source": "https://www.synapse.org/#!Synapse:syn5321694"
+        },
+        {
+            "const": "IL10_APPmouse",
+            "description": "IL10 overexpression in APP mouse",
+            "source": "https://www.synapse.org/#!Synapse:syn3157175"
+        },
+        {
+            "const": "iPSC",
+            "description": "Gene regulatory elements and transcriptome in iPSCs and postmortem human cortex ",
+            "source": "https://www.synapse.org/#!Synapse:syn4590910"
+        },
+        {
+            "const": "iPSCAstrocytes",
+            "description": "The MSSM iPSCAstrocytes study",
+            "source": "https://www.synapse.org/#!Synapse:syn10344967"
+        },
+        {
+            "const": "iPSC-HiC",
+            "description": "Human induced pluripotent stem cells (hiPSCs).",
+            "source": "https://www.synapse.org/#!Synapse:syn12979149"
+        },
+        {
+            "const": "iPSCMicroglia",
+            "description": "iPSC derived microglia",
+            "source": "https://www.synapse.org/#!Synapse:syn7203233"
+        },
+        {
+            "const": "Jax.IU.Pitt_APP.PS1",
+            "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD_APPPS1 and JAX_APPPS1",
+            "source": "https://www.synapse.org/#!Synapse:syn9850001"
+        },
+        {
+            "const": "Jax.IU.Pitt_MicrobiomePilot",
+            "description": "Jax.IU.Pitt_MicrobiomePilot",
+            "source": "https://www.synapse.org/#!Synapse:syn22341543"
+        },
+        {
+            "const": "Jax.IU.Pitt_PrimaryScreen",
+            "description": "Primary screen data from the Jax.IU.Pitt MODEL-AD grant",
+            "source": "https://www.synapse.org/#!Synapse:syn21595258"
+        },
+        {
+            "const": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
+            "description": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
+            "source": "https://www.synapse.org/#!Synapse:syn22313528"
+        },
+        {
+            "const": "Jax.IU.Pitt_StrainValidation",
+            "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
+            "source": "https://www.synapse.org/#!Synapse:syn21595255"
+        },
+        {
+            "const": "LillyMicroglia",
+            "description": "Microglia gene profiling in the rTg4510 tauopathy mouse model",
+            "source": "https://www.synapse.org/#!Synapse:syn5478323"
+        },
+        {
+            "const": "lncRNA Pilot",
+            "description": "long non-coding RNA pilot",
+            "source": "https://www.synapse.org/#!Synapse:syn4588462"
+        },
+        {
+            "const": "MayoeGWAS",
+            "description": "Gene expression from the Illumina Whole Genome DASL array",
+            "source": "https://www.synapse.org/#!Synapse:syn3157225"
+        },
+        {
+            "const": "MayoLOADGWAS",
+            "description": "Mayo Clinic LOAD genome-wide association and brain gene expression studies",
+            "source": "https://www.synapse.org/#!Synapse:syn2910256"
+        },
+        {
+            "const": "MayoPilotRNAseq",
+            "description": "RNAseq on a subset of MayoEGWAS",
+            "source": "https://www.synapse.org/#!Synapse:syn3157268"
+        },
+        {
+            "const": "MayoRNAseq",
+            "description": "Mayo RNAseq study",
+            "source": "https://www.synapse.org/#!Synapse:syn5550404"
         },
         {
             "const": "MC-CAA",
@@ -349,29 +249,19 @@
             "source": "https://www.synapse.org/#!Synapse:syn9779506"
         },
         {
-            "const": "rnaSeqReprocessing",
-            "description": "Re-aligned reads from the ROSMAP, MSBB, and MayoRNAseq studies",
-            "source": "https://www.synapse.org/#!Synapse:syn9702085"
+            "const": "MindPhenomeKB",
+            "description": "A Phenotypic Knowledge Base to Study Genetic Links Between AD and Neuropsychatric Symptoms (MindPhenomeKB)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25326405"
         },
         {
-            "const": "rnaSeqSampleSwap",
-            "description": "RNAseq samples sequenced at multiple sites",
-            "source": "https://www.synapse.org/#!Synapse:syn5550419"
+            "const": "miR155",
+            "description": "miR155 regulation of behavior, neuropathology, and cortical transcriptomics in Alzheimer Disease",
+            "source": "https://www.synapse.org/#!Synapse:syn22238772"
         },
         {
-            "const": "SUNYStrokeModel",
-            "description": "Mouse behavioral assays on stroke and AD models",
-            "source": "https://www.synapse.org/#!Synapse:syn7181520"
-        },
-        {
-            "const": "TASTPM",
-            "description": "A double transgenic mouse model",
-            "source": "https://www.synapse.org/#!Synapse:syn5714307"
-        },
-        {
-            "const": "iPSC-HiC",
-            "description": "Human induced pluripotent stem cells (hiPSCs).",
-            "source": "https://www.synapse.org/#!Synapse:syn12979149"
+            "const": "MOA-PAD",
+            "description": "Multi-omic analyses of psychosis in Alzheimer's disease",
+            "source": "https://www.synapse.org/#!Synapse:syn23538600"
         },
         {
             "const": "MODEL-AD_5XFAD",
@@ -434,84 +324,34 @@
             "source": "https://www.synapse.org/#!Synapse:syn18634477"
         },
         {
-            "const": "SMIB-AD",
-            "description": "The Somatic Mutations in Brains of Alzheimer's Disease (SMIB-AD) Study",
-            "source": "https://www.synapse.org/#!Synapse:syn22278344"
+            "const": "MouseHAL",
+            "description": "Chronic Haloperidol Effects on Gene Expression and Chromatin Accessibility in Mouse Brain",
+            "source": "https://www.synapse.org/#!Synapse:syn4590850"
         },
         {
-            "const": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
-            "description": "Jax.IU.Pitt.Proteomics_Metabolomics_Pilot",
-            "source": "https://www.synapse.org/#!Synapse:syn22313528"
+            "const": "MSBB",
+            "description": "Mount Sinai Brain Bank AD Cohort",
+            "source": "https://www.synapse.org/#!Synapse:syn3159438"
         },
         {
-            "const": "TWAS",
-            "description": "Transcriptome-Wide Association Study (TWAS) in Alzheimer's Disease",
-            "source": "https://www.synapse.org/#!Synapse:syn22313785"
+            "const": "MSBB_ArrayTissuePanel",
+            "description": "Expression array and coexpression networks on 19 brain regions",
+            "source": "https://www.synapse.org/#!Synapse:syn3157699"
         },
         {
-            "const": "UCI_Microbiome",
-            "description": "UCI_Microbiome",
-            "source": "https://www.synapse.org/#!Synapse:syn22341542"
+            "const": "MSDM",
+            "description": "Mount Sinai Drosophila Melanogaster",
+            "source": "https://www.synapse.org/#!Synapse:syn4587607"
         },
         {
-            "const": "Jax.IU.Pitt_MicrobiomePilot",
-            "description": "Jax.IU.Pitt_MicrobiomePilot",
-            "source": "https://www.synapse.org/#!Synapse:syn22341543"
+            "const": "MSMM",
+            "description": "Mount Sinai Mouse Models",
+            "source": "https://www.synapse.org/#!Synapse:syn5477220"
         },
         {
-            "const": "ROSMAP_nucleus_hashing",
-            "description": "The ROSMAP nucleus hashing study",
-            "source": "https://www.synapse.org/#!Synapse:syn22391827"
-        },
-        {
-            "const": "ROSMAP_CognitiveResilience",
-            "description": "The ROSMAP_CognitiveResilience study",
-            "source": "https://www.synapse.org/#!Synapse:syn22695346"
-        },
-        {
-            "const": "UCI_3xTg-AD",
-            "description": "The UCI_3xTg-AD study",
-            "source": "https://www.synapse.org/#!Synapse:syn22964685"
-        },
-        {
-            "const": "diseasePseudotime",
-            "description": "The diseasePseudotime study",
-            "source": "https://www.synapse.org/#!Synapse:syn22822673"
-        },
-        {
-            "const": "MOA-PAD",
-            "description": "Multi-omic analyses of psychosis in Alzheimer's disease",
-            "source": "https://www.synapse.org/#!Synapse:syn23538600"
-        },
-        {
-            "const": "RADEL",
-            "description": "The Resilience to Alzheimer Disease in Humans with Exceptional Longevity (RADEL) Study",
-            "source": "https://www.synapse.org/#!Synapse:syn23540132"
-        },
-        {
-            "const": "ROSMAP-IN",
-            "description": "The ROSMAP-iPSC derived induced neurons (ROSMAP-IN) genomic data study",
-            "source": "https://www.synapse.org/#!Synapse:syn23564891"
-        },
-        {
-            "const": "DukeAD_PTSD",
-            "description": "The Duke Study of Shared Genetic, Epigenetic, and Transcriptomic Profiles Between AD and PTSD study",
-            "source": "https://www.synapse.org/#!Synapse:syn23585917"
-        },
-        {
-            "const": "miR155",
-            "description": "miR155 regulation of behavior, neuropathology, and cortical transcriptomics in Alzheimer Disease",
-            "source": "https://www.synapse.org/#!Synapse:syn22238772"
-        },
-        {
-            "const": "Jax.IU.Pitt_APP.PS1",
-            "description": "Jax.IU.Pitt_APP.PS1 study -- previously referred to as MODEL-AD_APPPS1 and JAX_APPPS1",
-            "source": "https://www.synapse.org/#!Synapse:syn9850001"
-        },
-        {
-            "const": "RR_APOE4",
-            "description": "The ROSMAP Resilience APOE4 study",
-            "source": "https://www.synapse.org/#!Synapse:syn23633750"
+            "const": "MSSMiPSC",
+            "description": "iPSC derived hiPSC forebrain neurons and NPCs",
+            "source": "https://www.synapse.org/#!Synapse:syn5986884"
         },
         {
             "const": "NAPS",
@@ -519,29 +359,139 @@
             "source": "https://www.synapse.org/#!Synapse:syn23633760"
         },
         {
+            "const": "NHP-Macaque",
+            "description": "A transcription atlas of the rhesus monkey brain",
+            "source": ""
+        },
+        {
+            "const": "NHP-Chimpanzee",
+            "description": "Chimpanzee data",
+            "source": "https://www.synapse.org/#!Synapse:syn7067053"
+        },
+        {
+            "const": "OFMM",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "RADEL",
+            "description": "The Resilience to Alzheimer Disease in Humans with Exceptional Longevity (RADEL) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn23540132"
+        },
+        {
+            "const": "ROSMAP",
+            "description": "Religious Orders Study and Memory and Aging Project",
+            "source": "https://www.synapse.org/#!Synapse:syn3219045"
+        },
+        {
+            "const": "ROSMAP_CognitiveResilience",
+            "description": "The ROSMAP_CognitiveResilience study",
+            "source": "https://www.synapse.org/#!Synapse:syn22695346"
+        },
+        {
+            "const": "ROSMAP-IN",
+            "description": "The ROSMAP-iPSC derived induced neurons (ROSMAP-IN) genomic data study",
+            "source": "https://www.synapse.org/#!Synapse:syn23564891"
+        },
+        {
+            "const": "ROSMAP_nucleus_hashing",
+            "description": "The ROSMAP nucleus hashing study",
+            "source": "https://www.synapse.org/#!Synapse:syn22391827"
+        },
+        {
+            "const": "rnaSeqReprocessing",
+            "description": "Re-aligned reads from the ROSMAP, MSBB, and MayoRNAseq studies",
+            "source": "https://www.synapse.org/#!Synapse:syn9702085"
+        },
+        {
+            "const": "rnaSeqSampleSwap",
+            "description": "RNAseq samples sequenced at multiple sites",
+            "source": "https://www.synapse.org/#!Synapse:syn5550419"
+        },
+        {
+            "const": "RR_APOE4",
+            "description": "The ROSMAP Resilience APOE4 study",
+            "source": "https://www.synapse.org/#!Synapse:syn23633750"
+        },
+        {
             "const": "scRNAseq_microglia_wild_ADmice",
             "description": "Microglia of wild-derived Alzheimer's mouse study (scRNAseq_microglia_wild_ADmice)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
         },
         {
-            "const": "ADMC_ADNI_NightingaleNMR",
-            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
-            "source": "https://www.synapse.org/#!Synapse:syn23557831"
-        },        
-        {
-            "const": "HBI_scRNAseq",
-            "description": "The human brain immunity scRNAseq study (HBI_scRNAseq)",
-            "source": "https://www.synapse.org/#!Synapse:syn24168322"
+            "const": "SMIB-AD",
+            "description": "The Somatic Mutations in Brains of Alzheimer's Disease (SMIB-AD) Study",
+            "source": "https://www.synapse.org/#!Synapse:syn22278344"
         },
         {
-            "const": "ADMC_ADNI_BakerLipidomics",
-            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Baker Heart Targeted Lipidomics (ADMC_ADNI_BakerLipidomics) Study",
-            "source": "https://www.synapse.org/#!Synapse:syn24989039"
+            "const": "snRNAseqAD_TREM2",
+            "description": "The TREM2-impact in Alzheimer's Disease Study",
+            "source": "https://www.synapse.org/#!Synapse:syn21125841/wiki/597278"
         },
         {
-            "const": "UCI_TREM2",
-            "description": "The UCI_TREM2 Study (UCI_TREM2)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316486"
+            "const": "StJude_BannerSun",
+            "description": "The collaborative Banner Sun - St. Jude Alzheimer's disease and related dementias (StJude_BannerSun) study",
+            "source": "https://www.synapse.org/#!Synapse:syn21592732"
+        },
+        {
+            "const": "SUNYStrokeModel",
+            "description": "Mouse behavioral assays on stroke and AD models",
+            "source": "https://www.synapse.org/#!Synapse:syn7181520"
+        },
+        {
+            "const": "SY5Y_Emory",
+            "description": "APP/TAU transduced SY5Y cells",
+            "source": "https://www.synapse.org/#!Synapse:syn8513284"
+        },
+        {
+            "const": "SY5Y_REST",
+            "description": "LiCl treated SH-SY5Y cells",
+            "source": "https://www.synapse.org/#!Synapse:syn5987497"
+        },
+        {
+            "const": "TASTPM",
+            "description": "A double transgenic mouse model",
+            "source": "https://www.synapse.org/#!Synapse:syn5714307"
+        },
+        {
+            "const": "TauD35",
+            "description": "Mouse tauopathy model",
+            "source": "https://www.synapse.org/#!Synapse:syn5714308"
+        },
+        {
+            "const": "TAUAPPms",
+            "description": "Tau and APP mouse model",
+            "source": "https://www.synapse.org/#!Synapse:syn3157182"
+        },
+        {
+            "const": "TS-RNAseq",
+            "description": "Transcriptional Analysis of the Human Striatum in Tourette Syndrome",
+            "source": "https://www.synapse.org/#!Synapse:syn3158906"
+        },
+        {
+            "const": "TWAS",
+            "description": "Transcriptome-Wide Association Study (TWAS) in Alzheimer's Disease",
+            "source": "https://www.synapse.org/#!Synapse:syn22313785"
+        },
+        {
+            "const": "TyrobpKO",
+            "description": "Mouse Tyrobp KO model",
+            "source": "https://www.synapse.org/#!Synapse:syn7123287"
+        },
+        {
+            "const": "TyrobpKO_AppPs1",
+            "description": "TyrobpKO mice crossed with APP/PS1 tg",
+            "source": "https://www.synapse.org/#!Synapse:syn10378730"
+        },
+        {
+            "const": "U1-70_PrimaryCellCulture",
+            "description": "APP.PS1 and U1-70 transduced neurons",
+            "source": "https://www.synapse.org/#!Synapse:syn5820226"
+        },
+        {
+            "const": "UCI_3xTg-AD",
+            "description": "The UCI_3xTg-AD study",
+            "source": "https://www.synapse.org/#!Synapse:syn22964685"
         },
         {
             "const": "UCI_ABCA7",
@@ -559,9 +509,64 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316846"
         },
         {
-            "const": "MindPhenomeKB",
-            "description": "A Phenotypic Knowledge Base to Study Genetic Links Between AD and Neuropsychatric Symptoms (MindPhenomeKB)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25326405"
+            "const": "UCI_PICALM",
+            "description": "The UCI_PICALM Study (UCI_PICALM)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442263"
+        },
+        {
+            "const": "UCI_Microbiome",
+            "description": "UCI_Microbiome",
+            "source": "https://www.synapse.org/#!Synapse:syn22341542"
+        },
+        {
+            "const": "UCI_PrimaryScreen",
+            "description": "Primary screen data from the UCI MODEL-AD grant",
+            "source": "https://www.synapse.org/#!Synapse:syn21595261"
+        },
+        {
+            "const": "UCI_SPI1",
+            "description": "The UCI_SPI1 Study (UCI_SPI1)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442231"
+        },
+        {
+            "const": "UCI_StrainValidation",
+            "description": "Strain validation data from the UCI MODEL-AD grant",
+            "source": "https://www.synapse.org/#!Synapse:syn21595257"
+        },
+        {
+            "const": "UCI_TREM2",
+            "description": "The UCI_TREM2 Study (UCI_TREM2)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316486"
+        },
+        {
+            "const": "UCLA-ASD",
+            "description": "A study of samples from the Autism Tissue Program",
+            "source": "https://www.synapse.org/#!Synapse:syn4587609"
+        },
+        {
+            "const": "UPenn",
+            "description": "Center for Neurodegenerative Disease Research at the Perelman School of Medicine of the University of Pennsylvania",
+            "source": "https://www.synapse.org/#!Synapse:syn5477237"
+        },
+        {
+            "const": "VMC",
+            "description": "The Vascular Mural Cell -derived ApoE Study",
+            "source": "https://www.synapse.org/#!Synapse:syn21624490"
+        },
+        {
+            "const": "WallOfTargets",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "WGBS Pilot",
+            "description": "Whole Genome Bisulfite Sequencing pilot",
+            "source": "https://www.synapse.org/#!Synapse:syn4586517"
+        },
+        {
+            "const": "Yale-ASD",
+            "description": "Transcriptional and Epigenetic Signatures of Human Brain Development and Autism-",
+            "source": "https://www.synapse.org/#!Synapse:syn4566141"
         }
     ]
 }
