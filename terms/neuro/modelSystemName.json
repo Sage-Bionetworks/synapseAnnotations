@@ -199,7 +199,7 @@
         	"source": "https://www.jax.org/strain/31950"
         },
         {
-        	"const": "Picalm*H458R",
+        	"const": "PicalmH458R",
         	"description": "CRISPR/Cas9 generated mutant of the phosphatidylinositol binding clathrin assembly protein gene carrying the H465R mutation that corresponds to the human H458R mutation associated with Alzheimer's Disease (AD).",
         	"source": "https://www.jax.org/strain/034037"
         },
@@ -229,7 +229,7 @@
             "source": "https://www.jax.org/strain/031940"
         },
         {
-            "const": "Spi1*rs1377416",
+            "const": "Spi1rs1377416",
             "description": "CRISPR/Cas9-generated mutant of the spleen focus forming virus (SFFV) proviral integration oncogene (Spi1) gene carrying a missense mutation that corresponds to the human SNP rs1377416 found in human SPI1 that has been found to be a functional variant that is active in human myeloid cells and in the brain of a mouse model of Alzheimer's disease (AD).",
             "source": "https://www.jax.org/strain/035873"
         },
