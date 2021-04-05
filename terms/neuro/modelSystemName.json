@@ -282,16 +282,6 @@
             "const": "TYROBP_WT.KO",
             "description": "",
             "source": ""
-        },
-        {
-            "const": "3xTg-AD",
-            "description": "Triple mutant strain with mutations in APP Swedish, MAPT P301L, and PSEN1 M146V exhibiting plaque and tangle pathology associated with synaptic dysfunction",
-            "source": "https://www.jax.org/strain/004807"
-        },
-        {
-            "const": "5XFAD",
-            "description": "transgenic mice overexpressing three human APP mutations and two human PS1 FAD mutations",
-            "source": "https://www.jax.org/strain/008730"
         }
     ]
 }
