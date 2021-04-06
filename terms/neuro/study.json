@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.12",
+    "$id": "sage.annotations-neuro.study-0.0.13",
     "description": "Study",
     "anyOf": [
         {
@@ -494,24 +494,9 @@
             "source": "https://www.synapse.org/#!Synapse:syn22964685"
         },
         {
-            "const": "UCI_ABCA7",
-            "description": "The UCI_ABCA7 Study (UCI_ABCA7)",
+            "const": "UCI_PrimaryScreen",
+            "description": "The UCI Primary Screen Study (UCI_PrimaryScreen)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316706"
-        },
-        {
-            "const": "UCI_ABi3",
-            "description": "The UCI_ABi3 Study (UCI_ABi3)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316776"
-        },
-        {
-            "const": "UCI_BIN1",
-            "description": "The UCI_BIN1 Study (UCI_BIN1)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316846"
-        },
-        {
-            "const": "UCI_PICALM",
-            "description": "The UCI_PICALM Study (UCI_PICALM)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442263"
         },
         {
             "const": "UCI_Microbiome",
@@ -524,19 +509,9 @@
             "source": "https://www.synapse.org/#!Synapse:syn21595261"
         },
         {
-            "const": "UCI_SPI1",
-            "description": "The UCI_SPI1 Study (UCI_SPI1)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25442231"
-        },
-        {
             "const": "UCI_StrainValidation",
             "description": "Strain validation data from the UCI MODEL-AD grant",
             "source": "https://www.synapse.org/#!Synapse:syn21595257"
-        },
-        {
-            "const": "UCI_TREM2",
-            "description": "The UCI_TREM2 Study (UCI_TREM2)",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316486"
         },
         {
             "const": "UCLA-ASD",
