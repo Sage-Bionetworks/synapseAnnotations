@@ -495,18 +495,13 @@
         },
         {
             "const": "UCI_PrimaryScreen",
-            "description": "The UCI Primary Screen Study (UCI_PrimaryScreen)",
+            "description": "Primary screen data from the UCI MODEL-AD grant (UCI_PrimaryScreen)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316706"
         },
         {
             "const": "UCI_Microbiome",
             "description": "UCI_Microbiome",
             "source": "https://www.synapse.org/#!Synapse:syn22341542"
-        },
-        {
-            "const": "UCI_PrimaryScreen",
-            "description": "Primary screen data from the UCI MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21595261"
         },
         {
             "const": "UCI_StrainValidation",
