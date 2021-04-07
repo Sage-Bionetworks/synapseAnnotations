@@ -1,12 +1,42 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.organ-0.0.2",
+    "$id": "sage.annotations-experimentalData.organ-0.0.3",
     "description": "A unique macroscopic (gross) anatomic structure that performs specific functions. It is composed of various tissues. An organ is part of an anatomic system or a body region.",
     "anyOf": [
         {
-            "const": "lymph node",
-            "description": "A bean-shaped organ surrounded by a connective tissue capsule.",
-            "source": "http://purl.obolibrary.org/obo/NCIT_C12745"
+            "const": "blood",
+            "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000089"
+        },
+        {
+            "const": "bone marrow",
+            "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000141"
+        },
+        {
+            "const": "brain",
+            "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000142"
+        },
+        {
+            "const": "breast",
+            "description": "The fore or ventral part of the body between the neck and the abdomen.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000149"
+        },
+        {
+            "const": "Bursa Of Fabricius",
+            "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
+        },
+        {
+            "const": "cerebrospinal fluid",
+            "description": "The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000237"
+        },
+        {
+            "const": "colon",
+            "description": "The part of the large intestine that extends from the cecum to the rectum.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000269"
         },
         {
             "const": "kidney",
@@ -14,9 +44,24 @@
             "source": "http://purl.obolibrary.org/obo/NCIT_C12415"
         },
         {
-            "const": "skin",
-            "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0001253"
+            "const": "large intestine",
+            "description": "The more terminal division of the vertebrate intestine that is wider and shorter than the small intestine, typically divided into cecum, colon, and rectum, and concerned especially with the resorption of water and the formation of feces",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000706"
+        },
+        {
+            "const": "liver",
+            "description": "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0002107"
+        },
+        {
+            "const": "lung",
+            "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000763"
+        },
+        {
+            "const": "lymph node",
+            "description": "A bean-shaped organ surrounded by a connective tissue capsule.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12745"
         },
         {
             "const": "mammary gland",
@@ -29,39 +74,9 @@
             "source": "http://purl.obolibrary.org/obo/BTO_0000925"
         },
         {
-            "const": "brain",
-            "description": "The portion of the vertebrate central nervous system that constitutes the organ of thought and neural coordination.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000142"
-        },
-        {
-            "const": "blood",
-            "description": "The fluid that circulates in the heart, arteries, capillaries, and veins of a vertebrate animal carrying nourishment and oxygen to and bringing away waste products from all parts of the body.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000089"
-        },
-        {
-            "const": "breast",
-            "description": "The fore or ventral part of the body between the neck and the abdomen.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000149"
-        },
-        {
-            "const": "colon",
-            "description": "The part of the large intestine that extends from the cecum to the rectum.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000269"
-        },
-        {
-            "const": "lung",
-            "description": "One of the usually paired compound saccular thoracic organs that constitute the basic respiratory organ of air-breathing vertebrates.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000763"
-        },
-        {
-            "const": "prostate",
-            "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.",
-            "source": "http://purl.obolibrary.org/obo/FMA_9600"
-        },
-        {
-            "const": "pancreas",
-            "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000988"
+            "const": "nose",
+            "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
         },
         {
             "const": "ovary",
@@ -69,39 +84,24 @@
             "source": "http://purl.obolibrary.org/obo/BTO_0000975"
         },
         {
+            "const": "pancreas",
+            "description": "A large lobulated gland of vertebrates that secretes digestive enzymes and the hormones insulin and glucagon.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000988"
+        },
+        {
+            "const": "prostate",
+            "description": "Lobular organ the parenchyma of which has as its parts glandular acini which are continuous with the prostatic part of the urethra.",
+            "source": "http://purl.obolibrary.org/obo/FMA_9600"
+        },
+        {
+            "const": "skin",
+            "description": "The integument of an animal (as a fur-bearing mammal or a bird) separated from the body usually with its hair or feathers.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0001253"
+        },
+        {
             "const": "spleen",
             "description": "A highly vascular ductless organ that is located in the left abdominal region near the stomach or intestine of most vertebrates and is concerned with final destruction of red blood cells, filtration and storage of blood, and production of lymphocytes.",
             "source": "http://purl.obolibrary.org/obo/BTO_0001281"
-        },
-        {
-            "const": "bone marrow",
-            "description": "The soft, fatty, vascular tissue that fills most bone cavities and is the source of red blood cells and many white blood cells.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000141"
-        },
-        {
-            "const": "Bursa Of Fabricius",
-            "description": "An epithelial outgrowth of lymphoid tissue in the cloaca of young birds, responsible for B-lymphocyte maturation. It undergoes atrophy and involution at six months of age.",
-            "source": "http://purl.obolibrary.org/obo/NCIT_C111141"
-        },
-        {
-            "const": "nose",
-            "description": "A structure of special sense serving as an organ of the sense of smell and as an entrance to the respiratory tract.",
-            "source": "http://purl.obolibrary.org/obo/NCIT_C12756"
-        },
-        {
-            "const": "cerebrospinal fluid",
-            "description": "The serumlike fluid that circulates through the ventricles of the brain, the cavity of the spinal cord, and the subarachnoid space, functioning in shock absorption. A liquid that is comparable to serum but contains less dissolved material, that is secreted from the blood into the lateral ventricles of the brain by the choroid plexus, circulates through the ventricles to the spaces between the meninges about the brain and spinal cord, and is resorbed into the blood through the subarachnoid sinuses, and that serves chiefly to maintain uniform pressure within the brain and spinal cord.",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000237"
-        },
-        {
-            "const": "liver",
-            "description": "An exocrine gland which secretes bile and functions in metabolism of protein and carbohydrate and fat, synthesizes substances involved in the clotting of the blood, synthesizes vitamin A, detoxifies poisonous substances, stores glycogen, and breaks down worn-out erythrocytes",
-            "source": "http://purl.obolibrary.org/obo/UBERON_0002107"
-        },
-        {
-            "const": "large intestine",
-            "description": "The more terminal division of the vertebrate intestine that is wider and shorter than the small intestine, typically divided into cecum, colon, and rectum, and concerned especially with the resorption of water and the formation of feces",
-            "source": "http://purl.obolibrary.org/obo/BTO_0000706"
         }
     ]
 }
