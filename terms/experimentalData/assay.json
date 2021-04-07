@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.10",
+    "$id": "sage.annotations-experimentalData.assay-0.0.11",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -304,9 +304,9 @@
             "source": "http://purl.obolibrary.org/obo/NCIT_C130177"
         },
         {
-            "const": "Nightingale",
-            "description": "Nightingale's NMR-based blood analysis platform that enables simultaneous quantification of numerous groups of biomarkers, for instance, routine lipids, lipoprotein subclass profiling (with lipid concentrations within 14 subclasses), fatty acid composition and various low-molecular metabolites.",
-            "source": "https://nightingalehealth.com/research/blood-biomarker-analysis"
+            "const": "Nightingale NMR",
+            "description": "Nuclear Magnetic Resonance (NMR) spectroscopy is a quantitative analytical tool commonly utilized for metabolomics analysis. Quantitative NMR (qNMR) is a field of NMR spectroscopy dedicated to the measurement of analytes through signal intensity and its linear relationship with analyte concentration. The Nightingale Health NMR platform uses this tool for their metabolomics assay.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7662776/"
         },
         {
             "const": "NOMe-Seq",
