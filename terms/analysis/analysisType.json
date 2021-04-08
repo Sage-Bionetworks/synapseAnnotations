@@ -44,6 +44,11 @@
             "source": "http://purl.obolibrary.org/obo/OBCS_0000040"
         },
         {
+        	"const": "data mining",
+        	"description": "Use of sophisticated analysis tools to sort through, organize, examine, and combine large sets of information",
+        	"source": "http://id.nlm.nih.gov/mesh/D057225"
+        },
+        {
             "const": "data normalization",
             "description": "",
             "source": "https://www.ebi.ac.uk/ols/ontologies/swo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fswo%2Fobjective%2FSWO_7000015"
