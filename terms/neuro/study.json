@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.13",
+    "$id": "sage.annotations-neuro.study-0.0.14",
     "description": "Study",
     "anyOf": [
         {
@@ -167,6 +167,11 @@
             "const": "IL10_APPmouse",
             "description": "IL10 overexpression in APP mouse",
             "source": "https://www.synapse.org/#!Synapse:syn3157175"
+        },
+        {
+            "const": "IntegrativePathwayAnalysis",
+            "description": "The Integrative Metabolomics-Genomics Pathway Analysis Study (IntegrativePathwayAnalysis)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25474536"
         },
         {
             "const": "iPSC",
