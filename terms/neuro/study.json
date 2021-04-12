@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.14",
+    "$id": "sage.annotations-neuro.study-0.0.15",
     "description": "Study",
     "anyOf": [
         {
@@ -142,6 +142,11 @@
             "const": "EpiMap",
             "description": "Epigenetic Map in neuropsychiatric control tissue",
             "source": "https://www.synapse.org/#!Synapse:syn4566010"
+        },
+        {
+            "const": "eQTLmetaAnalysis",
+            "description": "The eQTL Meta-Analysis Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25398075"
         },
         {
             "const": "HBI_scRNAseq",
