@@ -114,7 +114,7 @@
             "source": "http://purl.bioontology.org/ontology/MESH/D005989"
         },
         {
-            "const": "steriods",
+            "const": "steroids",
             "description": "A group of polycyclic compounds closely related biochemically to TERPENES. They include cholesterol, numerous hormones, precursors of certain vitamins, bile acids, alcohols (STEROLS), and certain natural drugs and poisons.",
             "source": "http://purl.bioontology.org/ontology/MESH/D013256"
         },
