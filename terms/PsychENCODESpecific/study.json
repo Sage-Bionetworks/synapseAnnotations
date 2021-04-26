@@ -160,6 +160,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn4566132"
         },
         {
+            "const": "PsychiPSCNeurons",
+            "description": "PsychiPSCNeurons",
+            "source": "https://www.synapse.org/#!Synapse:syn25606126"
+        },
+        {
             "const": "referenceBrain",
             "description": "referenceBrain",
             "source": "https://www.synapse.org/#!Synapse:syn22344132"
