@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"sage.annotations-PsychENCODESpecific.study-0.0.2",
+    "$id":"sage.annotations-PsychENCODESpecific.study-0.0.3",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -163,6 +163,11 @@
             "const": "PsychiPSCNeurons",
             "description": "PsychiPSCNeurons",
             "source": "https://www.synapse.org/#!Synapse:syn25606126"
+        },
+        {
+            "const": "PTSDBrainomics",
+            "description": "PTSDBrainomics",
+            "source": "https://www.synapse.org/#!Synapse:syn25611941"
         },
         {
             "const": "referenceBrain",
