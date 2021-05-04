@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.16",
+    "$id": "sage.annotations-neuro.study-0.0.17",
     "description": "Study",
     "anyOf": [
         {
@@ -147,6 +147,11 @@
             "const": "eQTLmetaAnalysis",
             "description": "The eQTL Meta-Analysis Study",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25398075"
+        },
+        {
+            "const": "FreshMicro",
+            "description": "The Fresh Microglia Regulome Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25671134"
         },
         {
             "const": "HBI_scRNAseq",
