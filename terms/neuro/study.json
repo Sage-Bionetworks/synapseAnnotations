@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.17",
+    "$id": "sage.annotations-neuro.study-0.0.18",
     "description": "Study",
     "anyOf": [
         {
@@ -457,6 +457,11 @@
             "const": "SUNYStrokeModel",
             "description": "Mouse behavioral assays on stroke and AD models",
             "source": "https://www.synapse.org/#!Synapse:syn7181520"
+        },
+        {
+            "const": "SuperAgerEpiMap",
+            "description": "The Super Ager EpiMap Study (SuperAgerEpiMap)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25672226"
         },
         {
             "const": "SY5Y_Emory",
