@@ -13,7 +13,7 @@
             "const": "gestational weeks",
             "description": "Gestational age (written with both weeks and days, e.g. 39 weeks and 0 days) is calculated using the best obstetrical estimated due date (EDD) based on the following formula: Gestational Age = (280 - (EDD - Reference Date))/ 7. Note: Reference Date is the date on which you are trying to determine gestational age.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C81253"
-        }
+        },
         {
             "const": "months",
             "description": "Age measured in calendar months (approximately 30 days or 4 weeks).",
