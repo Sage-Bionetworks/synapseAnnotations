@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.samplingAgeUnits-0.0.1",
+  "description": "Age at sampling units.",
+  "anyOf": [
+    {
+            "const": "days",
+            "description": "Age measured in days, a period of 24 hours.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C25301"
+        },
+        {
+            "const": "gestational weeks",
+            "description": "Gestational age (written with both weeks and days, e.g. 39 weeks and 0 days) is calculated using the best obstetrical estimated due date (EDD) based on the following formula: Gestational Age = (280 - (EDD - Reference Date))/ 7. Note: Reference Date is the date on which you are trying to determine gestational age.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C81253"
+        }
+        {
+            "const": "months",
+            "description": "Age measured in calendar months (approximately 30 days or 4 weeks).",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C29846"
+        },
+        {
+            "const": "PCW",
+            "description": "Post-Conception Weeks",
+            "source": "https://embryology.med.unsw.edu.au/embryology/index.php/Timeline_human_development"
+        },
+        {
+            "const": "weeks",
+            "description": "Age measured in weeks, a period of 7 consecutive days.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C29844"
+        },
+        {
+            "const": "years",
+            "description": "Age measured in years (approximately 365 days).",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C29848"
+        }
+    ]
+}
