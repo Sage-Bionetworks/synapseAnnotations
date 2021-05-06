@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-analysis.analysisType-0.0.6",
+    "$id": "sage.annotations-analysis.analysisType-0.0.7",
     "description": "",
     "anyOf": [
         {
