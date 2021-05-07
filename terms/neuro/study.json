@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.18",
+    "$id": "sage.annotations-neuro.study-0.0.19",
     "description": "Study",
     "anyOf": [
         {
@@ -537,6 +537,11 @@
             "const": "UCLA-ASD",
             "description": "A study of samples from the Autism Tissue Program",
             "source": "https://www.synapse.org/#!Synapse:syn4587609"
+        },
+        {
+            "const": "UCSF_MAC",
+            "description": "The UCSF Memory and Aging Center Study (UCSF_MAC)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25686496"
         },
         {
             "const": "UPenn",
