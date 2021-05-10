@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.3",
+    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.4",
     "description": "Method by which library was prepared",
     "anyOf": [
         {
@@ -32,6 +32,11 @@
             "const": "Omni-ATAC",
             "description": "Omni-ATAC-seq library preparation",
             "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
+        },
+        {
+            "const": "Smart-seq1",
+            "description": "Switch mechanism at the 5' end of RNA templates; Smart-seq 1 library preparation",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0008930"
         },
         {
             "const": "Smart-seq2",
