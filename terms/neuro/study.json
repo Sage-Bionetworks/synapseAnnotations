@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.19",
+    "$id": "sage.annotations-neuro.study-0.0.20",
     "description": "Study",
     "anyOf": [
         {
@@ -367,6 +367,11 @@
             "const": "MSSMiPSC",
             "description": "iPSC derived hiPSC forebrain neurons and NPCs",
             "source": "https://www.synapse.org/#!Synapse:syn5986884"
+        },
+        {
+            "const": "mtDNA_AD",
+            "description": "The Mitochondrial DNA in Aging and AD (mtDNA_AD) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25705287"
         },
         {
             "const": "NAPS",
