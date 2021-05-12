@@ -124,6 +124,11 @@
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
         },
         {
+            "const": "Illumina_Omni2.5-8_v1.3",
+            "description": "Illumina Omni2.5-8_v1.3",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "Illumina_Omni2pt5M",
             "description": "Illumina Omni2.5",
             "source": "Sage Bionetworks"
@@ -131,6 +136,11 @@
         {
             "const": "Illumina_Omni5M",
             "description": "Illumina Omni5",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina_Omni5-Quad",
+            "description": "Illumina Omni5-Quad",
             "source": "Sage Bionetworks"
         },
         {
@@ -189,6 +199,11 @@
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
         },
         {
+            "const": "Infinium Omni2.5Exome-8 v1.1",
+            "description": "Infinium Omni2.5Exome-8 v1.1",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "Infinium Omni2.5Exome-8 v1.3",
             "description": "Infinium Omni2.5Exome-8 v1.3",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
@@ -197,6 +212,11 @@
             "const": "Infinium Omni2.5Exome-8 v1.4",
             "description": "Infinium Omni2.5Exome-8 v1.4",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-4-product-files.html"
+        },
+        {
+            "const": "Infinium Omni2.5Exome-8 v1.5",
+            "description": "Infinium Omni2.5Exome-8 v1.5",
+            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-5-support-files.html"
         },
         {
             "const": "LTQOrbitrapXL",
