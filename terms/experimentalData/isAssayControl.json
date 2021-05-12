@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.isAssayControl-0.0.1",
+  "description": "Boolean flag indicating whether or not a specimen is a technical or assay control. Examples include study pools or reference pools, blanks, or internal standards.",
+  "type": "boolean"
+}

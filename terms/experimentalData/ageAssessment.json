@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.ageAssessment-0.0.1",
+  "description": "Age of clinical or behavioral assessment.",
+  "type": "number"
+}
