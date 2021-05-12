@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.12",
+    "$id": "sage.annotations-experimentalData.platform-0.0.13",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -136,6 +136,11 @@
         {
             "const": "IlluminaHumanHap300",
             "description": "Illumina Hap300",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IlluminaHumanHap650Yv3_A",
+            "description": "Illumina Hap650Yv3_A",
             "source": "Sage Bionetworks"
         },
         {
