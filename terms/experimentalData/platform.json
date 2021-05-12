@@ -124,6 +124,11 @@
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
         },
         {
+            "const": "Illumina_Omni2.5-8_v1.1",
+            "description": "Illumina Omni2.5-8_v1.1",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "Illumina_Omni2.5-8_v1.3",
             "description": "Illumina Omni2.5-8_v1.3",
             "source": "Sage Bionetworks"
