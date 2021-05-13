@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.platform-0.0.12",
+    "$id": "sage.annotations-experimentalData.platform-0.0.13",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "anyOf": [
         {
@@ -124,6 +124,16 @@
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
         },
         {
+            "const": "Illumina_Omni2.5-8_v1.1",
+            "description": "Illumina Omni2.5-8_v1.1",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "Illumina_Omni2.5-8_v1.3",
+            "description": "Illumina Omni2.5-8_v1.3",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "Illumina_Omni2pt5M",
             "description": "Illumina Omni2.5",
             "source": "Sage Bionetworks"
@@ -134,8 +144,18 @@
             "source": "Sage Bionetworks"
         },
         {
+            "const": "Illumina_Omni5-Quad",
+            "description": "Illumina Omni5-Quad",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "IlluminaHumanHap300",
             "description": "Illumina Hap300",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "IlluminaHumanHap650Yv3_A",
+            "description": "Illumina Hap650Yv3_A",
             "source": "Sage Bionetworks"
         },
         {
@@ -184,6 +204,11 @@
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18224"
         },
         {
+            "const": "Infinium Omni2.5Exome-8 v1.1",
+            "description": "Infinium Omni2.5Exome-8 v1.1",
+            "source": "Sage Bionetworks"
+        },
+        {
             "const": "Infinium Omni2.5Exome-8 v1.3",
             "description": "Infinium Omni2.5Exome-8 v1.3",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-3-product-files.html"
@@ -192,6 +217,11 @@
             "const": "Infinium Omni2.5Exome-8 v1.4",
             "description": "Infinium Omni2.5Exome-8 v1.4",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-4-product-files.html"
+        },
+        {
+            "const": "Infinium Omni2.5Exome-8 v1.5",
+            "description": "Infinium Omni2.5Exome-8 v1.5",
+            "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-5-support-files.html"
         },
         {
             "const": "LTQOrbitrapXL",
