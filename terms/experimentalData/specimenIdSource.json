@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.specimenIdSource-0.0.1",
-    "description": "",
+    "$id": "sage.annotations-experimentalData.specimenIdSource-0.0.2",
+    "description": "The repository or database to which a specimenID maps; or, the group or lab that generated the specimen. For cell culture studies, the commercial source or lab that generated the cells.",
     "type": "string"
 }
 
