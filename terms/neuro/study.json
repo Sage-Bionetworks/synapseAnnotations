@@ -1,12 +1,17 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.21",
+    "$id": "sage.annotations-neuro.study-0.0.22",
     "description": "Study",
     "anyOf": [
         {
             "const": "3Dchromatin",
             "description": "The neuronal and glial 3D chromatin architecture study",
             "source": "https://www.synapse.org/#!Synapse:syn21754060"
+        },
+        {
+            "const": "Abeta_microglia",
+            "description": "The differential transcriptomic responses of microglia to Ab peptide aggregates (Abeta_microglia) study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn24828089"
         },
         {
             "const": "ACOM",
