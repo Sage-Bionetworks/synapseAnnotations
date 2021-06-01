@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.11",
+    "$id": "sage.annotations-experimentalData.assay-0.0.12",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -457,6 +457,11 @@
             "const": "UPLC-MSMS",
             "description": "Ultra performance liquid chromatography - tandem mass spectrometer.",
             "source": "https://www.wur.nl/en/show/Ultra-performance-liquid-chromatography-tandem-mass-spectrometer-UPLCMSMS.htm"
+        },
+        {
+            "const": "UPLC-ESI-QTOF-MS",
+            "description": "Ultra-Performance Liquid Chromatography Electro-Spray Ionization-Quadrupole-Time of Flight-Mass Spectrometry",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5360460/"
         },
         {
             "const": "Vernier Caliper",

@@ -1,8 +1,13 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.diagnosis-0.0.7",
+    "$id": "sage.annotations-experimentalData.diagnosis-0.0.8",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "anyOf": [
+        {
+            "const": "AD-DS",
+            "description": "Alzheimer's disease in Down Syndrome",
+            "source": "https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/dad2.12044"
+        },
         {
             "const": "Affective Disorder",
             "description": "Change in mood is the main underlying feature of these disorders.",
@@ -69,6 +74,11 @@
             "source": "http://purl.obolibrary.org/obo/MONDO_0022308"
         },
         {
+            "const": "CS-DS",
+            "description": "Cognitively stable in Down Syndrome",
+            "source": "https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/dad2.12044"
+        },
+        {
             "const": "dementia",
             "description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
             "source": "http://purl.obolibrary.org/obo/DOID_1307"
@@ -117,6 +127,11 @@
             "const": "Major Depressive Disorder",
             "description": "An endogenous depression that is characterized by an all-encompassing low mood accompanied by low self-esteem, and by loss of interest or pleasure in normally enjoyable activies.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_1470"
+        },
+        {
+            "const": "MCI-DS",
+            "description": "Mild cognitive impairment in Down Syndrome",
+            "source": "https://alz-journals.onlinelibrary.wiley.com/doi/full/10.1002/dad2.12044"
         },
         {
             "const": "mild cognitive impairment",
