@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.6",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.7",
     "description": "Database or repository to which individual ID maps",
     "anyOf": [
         {
@@ -69,6 +69,11 @@
             "source": "https://www.ncl.ac.uk/"
         },
         {
+            "const": "NICHD",
+            "description": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+            "source": "https://www.nichd.nih.gov/"
+        },
+        {
             "const": "NIMH-HBCC",
             "description": "The NIH Human Brain Collection Core",
             "source": "https://www.nimh.nih.gov/labs-at-nimh/research-areas/research-support-services/hbcc/human-brain-collection-core-hbcc.shtml"
@@ -77,6 +82,11 @@
             "const": "Novogenix",
             "description": "Novogenix Laboratories",
             "source": ""
+        },
+        {
+            "const": "Oxford",
+            "description": "University of Oxford",
+            "source": "https://www.ox.ac.uk/"
         },
         {
             "const": "Penn",
