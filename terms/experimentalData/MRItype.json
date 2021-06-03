@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.MRItype-0.0.1",
+  "description": "The type of MRI assay performed.",
+  "anyOf": [
+    {
+      "const": "DTI",
+      "description": "Diffusion tensor imaging; a type of diffusion-weighted magnetic resonance imaging (DW-MRI) that maps the diffusion of water in three dimensions, the principal purpose of which is to image the white matter of the brain, specifically measuring the anisotropy, location, and orientation of the neural tracts, which can demonstrate microstructural changes or differences with neuropathology and treatment. [ NCI ]",
+      "source": "http://purl.obolibrary.org/obo/NCIT_C64862"
+    },
+    {
+      "const": "functional",
+      "description": "A magnetic resonance imaging technique that measures brain activity by detecting associated changes in blood flow. The procedure is similar to MRI but uses the change in magnetization between oxygen-rich and oxygen-poor blood as its basic measure.",
+      "source": "http://purl.obolibrary.org/obo/ERO_0002178"
+    },
+    {
+      "const": "structural",
+      "description": "Structural magnetic resonance imaging (MRI) is a non-invasive technique for examining the anatomy and pathology of the brain (as opposed to using functional magnetic resonance imaging [fMRI] to examine brain activity. This produces images which can be used for clinical radiological reporting as well as for detailed analysis.",
+      "source": "https://www.ed.ac.uk/clinical-sciences/edinburgh-imaging/research/themes-and-topics/medical-physics/imaging-techniques/structural-mri#:~:text=Structural%20magnetic%20resonance%20imaging%20(MRI,fMRI%5D%20to%20examine%20brain%20activity"
+    }
+  ]
+}
