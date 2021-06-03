@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-analysis.analysisType-0.0.7",
+    "$id": "sage.annotations-analysis.analysisType-0.0.8",
     "description": "",
     "anyOf": [
         {
@@ -83,6 +83,11 @@
             "description": "Over-representation analysis.",
             "source": "http://edamontology.org/operation_3501"
         },
+        {
+            "const": "EWAS",
+            "description": "epigenome-wide association study",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508712/"
+        }
         {
             "const": "expression quantitative trait loci detection",
             "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein.",
