@@ -87,7 +87,7 @@
             "const": "EWAS",
             "description": "epigenome-wide association study",
             "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3508712/"
-        }
+        },
         {
             "const": "expression quantitative trait loci detection",
             "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein.",
