@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.22",
+    "$id": "sage.annotations-neuro.study-0.0.23",
     "description": "Study",
     "anyOf": [
         {
@@ -412,6 +412,11 @@
             "const": "ROSMAP",
             "description": "Religious Orders Study and Memory and Aging Project",
             "source": "https://www.synapse.org/#!Synapse:syn3219045"
+        },
+        {
+            "const": "ROSMAP_bsSeq",
+            "description": "Targeted BS-seq on 150 randomly selected ROSMAP samples (ROSMAP_bsSeq)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25832093"
         },
         {
             "const": "ROSMAP_CognitiveResilience",

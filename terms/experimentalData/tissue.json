@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.tissue-0.0.6",
+    "$id": "sage.annotations-experimentalData.tissue-0.0.7",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "anyOf": [
         {
@@ -129,7 +129,7 @@
             "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000601"
         },
         {
-            "const": "Head of caudate nucleus",
+            "const": "head of caudate nucleus",
             "description": "",
             "source": "http://purl.obolibrary.org/obo/FMA_61852"
         },
