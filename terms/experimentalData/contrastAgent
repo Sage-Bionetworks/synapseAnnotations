@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.contrastAgent-0.0.1",
+  "description": "Substance administered during an imaging procedure that allows delineation of internal structures.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}
