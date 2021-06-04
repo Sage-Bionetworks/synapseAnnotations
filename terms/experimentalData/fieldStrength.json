@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.fieldStrength-0.0.1",
+  "description": "The intensity of an electric, magnetic, or other field. Value should include unit of measurement.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}

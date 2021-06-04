@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.scanID-0.0.1",
+  "description": "The ID of a sample, specimen, or individual in a scan or imaging file.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}
