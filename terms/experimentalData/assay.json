@@ -417,7 +417,7 @@
             "const": "scirnaSeq",
             "description": "The sci-RNA-seq uses the combinatorial indexing to identify single cells without single cell isolation. Two-level indexing (RT barcode + PCR barcodes (i5 + i7)) or three-level indexing (RT barcode + PCR barcodes (i5 + i7) + Tn5 barcodes) can be used. Three-level indexing is a bit more difficult since you need to assemble many indexed Tn5 transposomes.",
             "source": "http://www.ebi.ac.uk/efo/EFO_0010550"
-        }.
+        },
         {
             "const": "scrnaSeq",
             "description": "Single cell sequencing examines the sequence information from individual cells with optimized next generation sequencing (NGS) technologies, providing a higher resolution of cellular differences and a better understanding of the function of an individual cell in the context of its microenvironment.",
