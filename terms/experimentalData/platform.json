@@ -64,6 +64,11 @@
             "source": "Sage Bionetworks"
         },
         {
+            "const": "ddSEQ Single-Cell Isolator",
+            "description": "The ddSEQ Single-Cell Isolator works with the Illumina Bio-Rad SureCell WTA 3' Library Prep Kit for the ddSEQ System. This technology utilizes disposable microfluidic cartridges to coencapsulate single cells and barcodes into subnanoliter droplets, where cell lysis and barcoding occur. RNA-Seq libraries are subsequently prepared and sequenced. Analysis is conducted via BaseSpace.",
+            "source": "https://www.bio-rad.com/en-us/product/ddseq-single-cell-isolator?ID=OKNWBSE8Z"
+        },
+        {
             "const": "DNBSEQ",
             "description": "BGI DNBseq",
             "source": "https://www.bgi.com/us/dnbseq-ngs-technology/"
