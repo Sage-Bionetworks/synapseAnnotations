@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-sageCommunity.fileFormat-0.0.3",
+    "$id": "sage.annotations-sageCommunity.fileFormat-0.0.4",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "anyOf": [
         {
@@ -217,6 +217,11 @@
             "const": "gtf",
             "description": "Gene transfer format (GTF) is a file format used to hold information about gene structure",
             "source": "https://en.wikipedia.org/wiki/Gene_transfer_format"
+        },
+        {
+            "const": "hdf5",
+            "description": "HDF® supports n-dimensional datasets and each element in the dataset may itself be a complex object",
+            "source": "https://www.hdfgroup.org/solutions/hdf5/"
         },
         {
             "const": "raw",
