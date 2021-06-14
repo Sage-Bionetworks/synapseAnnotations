@@ -223,6 +223,10 @@
             "description": "A window covering the number one (V1) through three (V3) variable regions of the 16S rRNA gene",
             "source": "https://doi.org/10.1038/nature11209"
         },
+        {   "const": "IgG",
+            "description": "An immunoglobulin isotype (subclass) that characterizes secondary immune responses.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C568"
+        },
         {
             "const": "input",
             "description": "",
