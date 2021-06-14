@@ -204,6 +204,11 @@
             "source": ""
         },
         {
+            "const": "H3K9me2",
+            "description": "",
+            "source": ""
+        },
+        {
             "const": "H3K9me3",
             "description": "",
             "source": ""
@@ -247,6 +252,11 @@
             "const": "KLF5",
             "description": "",
             "source": ""
+        },
+         {
+            "const": "LaminB",
+            "description": "A family of class V intermediate filaments that interact with nuclear membrane-associated proteins to form the nuclear lamina. This family of lamins has two members (Lamin-B1 and -B2), are present in all cells and play a role in the disintegration and reformation of the nuclear envelop during mitosis. [ NCI ]",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C111790"
         },
         {
             "const": "MAZ",
@@ -394,9 +404,14 @@
             "source": ""
         },
         {
-            "const": "SOX8",
+            "const": "SMC3",
             "description": "",
             "source": ""
+        },
+        {
+            "const": "SON",
+            "description": "",
+            "source": "http://purl.obolibrary.org/obo/OMIT_0035384"
         },
         {
             "const": "SP1",
