@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assayTarget-0.0.2",
+    "$id": "sage.annotations-experimentalData.assayTarget-0.0.3",
     "description": "",
     "anyOf": [
         {
@@ -222,6 +222,10 @@
             "const": "IE_V1-V3",
             "description": "A window covering the number one (V1) through three (V3) variable regions of the 16S rRNA gene",
             "source": "https://doi.org/10.1038/nature11209"
+        },
+        {   "const": "IgG",
+            "description": "An immunoglobulin isotype (subclass) that characterizes secondary immune responses.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C568"
         },
         {
             "const": "input",
