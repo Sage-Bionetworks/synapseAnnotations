@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.23",
+    "$id": "sage.annotations-neuro.study-0.0.24",
     "description": "Study",
     "anyOf": [
         {
@@ -267,6 +267,11 @@
             "const": "MC-CAA",
             "description": "RNAseq data on cerebral amyloid angiopathy (CAA) pathology",
             "source": "https://www.synapse.org/#!Synapse:syn9779506"
+        },
+        {
+            "const": "MCMPS",
+            "description": "The Mayo Clinic Microglial Profiling Study (MCMPS)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25879171"
         },
         {
             "const": "MindPhenomeKB",
