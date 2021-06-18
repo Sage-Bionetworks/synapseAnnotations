@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.24",
+    "$id": "sage.annotations-neuro.study-0.0.25",
     "description": "Study",
     "anyOf": [
         {
@@ -317,6 +317,11 @@
             "const": "MODEL-AD_hAbeta_KI",
             "description": "MODEL-AD hAbeta KI Study",
             "source": "https://www.synapse.org/#!Synapse:syn18634479"
+        },
+        {
+            "const": "MODEL-AD_Harmonization",
+            "description": "MODEL-AD Harmonization Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25882591"
         },
         {
             "const": "MODEL-AD_hCR1_KI_on_APOE4_Trem2",
