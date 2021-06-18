@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.tissue-0.0.7",
+    "$id": "sage.annotations-experimentalData.tissue-0.0.8",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "anyOf": [
         {
@@ -154,6 +154,11 @@
             "source": "Sage Bionetworks"
         },
         {
+            "const": "insula",
+            "description": "The insula is the one of five lobes of the cerebral hemisphere. It lies in the depths of the lateral fissure and is covered by portions of the frontal, parietal and temporal lobes.",
+            "source": "http://purl.obolibrary.org/obo/FMA_67329"
+        },    
+        {
             "const": "insular cortex",
             "description": "insular cortex",
             "source": "http://purl.obolibrary.org/obo/UBERON_0034891"
@@ -257,6 +262,11 @@
             "const": "parietal cortex",
             "description": "Gray matter of the parietal region of the neocortex, located in the parietal lobe of gyrencephalic animals",
             "source": "http://purl.obolibrary.org/obo/UBERON_0016530"
+        },
+        {
+            "const": "parietal lobe",
+            "description": "One of the lobes of the cerebral hemisphere located superiorly to the occipital lobe and posteriorly to the frontal lobe.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12354"
         },
         {
             "const": "plasma",
@@ -367,6 +377,11 @@
             "const": "temporal cortex",
             "description": "Gray matter of the temporal region of the neocortex, located in the temporal lobe in gyrencephalic animals.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/uberon/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FUBERON_0016538"
+        },
+        {
+            "const": "temporal lobe",
+            "description": "One of the cerebral lobes. It is located inferior to the frontal and parietal lobes and anterior to the occipital lobe.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12353"
         },
         {
             "const": "temporal pole",
