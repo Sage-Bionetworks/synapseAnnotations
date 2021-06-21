@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.12",
+    "$id": "sage.annotations-experimentalData.assay-0.0.13",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -412,6 +412,11 @@
             "const": "scCGIseq",
             "description": "A method for genome-wide CpG island (CGI) methylation sequencing for single cells (scCGI-seq), combining methylation-sensitive restriction enzyme digestion and multiple displacement amplification for selective detection of methylated CGIs",
             "source": "https://www.ncbi.nlm.nih.gov/pubmed/28126923"
+        },
+        {
+            "const": "scirnaSeq",
+            "description": "The sci-RNA-seq uses the combinatorial indexing to identify single cells without single cell isolation. Two-level indexing (RT barcode + PCR barcodes (i5 + i7)) or three-level indexing (RT barcode + PCR barcodes (i5 + i7) + Tn5 barcodes) can be used. Three-level indexing is a bit more difficult since you need to assemble many indexed Tn5 transposomes.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0010550"
         },
         {
             "const": "scrnaSeq",
