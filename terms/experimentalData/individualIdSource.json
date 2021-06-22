@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.7",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.8",
     "description": "Database or repository to which individual ID maps",
     "anyOf": [
         {
@@ -52,6 +52,11 @@
             "const": "MayoBrainBank",
             "description": "Mayo Clinic Brain Bank",
             "source": "https://www.mayo.edu/research/departments-divisions/department-neuroscience-florida/brain-bank"
+        },
+        {
+            "const": "Mayo Clinic",
+            "description": "Mayo Clinic",
+            "source": "https://www.mayo.edu/research/departments-divisions/department-neuroscience-florida"
         },
         {
             "const": "MSSM",
