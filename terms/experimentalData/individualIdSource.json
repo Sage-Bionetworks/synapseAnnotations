@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.8",
+    "$id": "sage.annotations-experimentalData.individualIdSource-0.0.9",
     "description": "Database or repository to which individual ID maps",
     "anyOf": [
         {
@@ -97,6 +97,11 @@
             "const": "Penn",
             "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
             "source": "http://www.med.upenn.edu/cndr/biosamples-brainbank.html"
+        },
+        {
+            "const": "PGP",
+            "description": "Personal Genome Project at Harvard",
+            "source": "https://pgp.med.harvard.edu/"
         },
         {
             "const": "Pitt",
