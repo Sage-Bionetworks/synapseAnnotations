@@ -278,7 +278,7 @@
             "description": "The Mayo Clinic Microglial Profiling Study (MCMPS)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25879171"
         },
-    	{
+        {
             "const": "MEF2_Resilience",
             "description": "The MEF2 Neurodegenerative Resilience Study (MEF2_Resilience)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25945732"
@@ -593,7 +593,7 @@
             "description": "Virus Resilience, Banner cohort",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25927764"
         },
-    	{
+        {
             "const": "VirusResilience_iPSC",
             "description": "Virus Resilience, iPSC",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25927676"
@@ -603,7 +603,7 @@
             "description": "Virus Resilience, LCL",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25927416"
         },
-    	{
+        {
             "const": "VirusResilience_Mayo.MSBB.ROSMAP",
             "description": "Brain Viral Profiling in the Mayo, MSBB, and ROSMAP Cohorts",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25927532"
