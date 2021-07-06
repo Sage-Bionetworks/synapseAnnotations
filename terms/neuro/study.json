@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.25",
+    "$id": "sage.annotations-neuro.study-0.0.26",
     "description": "Study",
     "anyOf": [
         {
@@ -47,6 +47,11 @@
             "const": "ADMC_UPenn",
             "description": "Metabolomics on AD",
             "source": "https://www.synapse.org/#!Synapse:syn9705311"
+        },
+        {
+            "const": "APOEPSC",
+            "description": "The impact of APOE on aging-related conditions in human iPSC models (APOEPSC) study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25914209"
         },
         {
             "const": "APOE-TR",
