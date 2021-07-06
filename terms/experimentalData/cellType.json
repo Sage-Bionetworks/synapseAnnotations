@@ -161,7 +161,7 @@
         {
             "const": "neural progenitor cell",
             "description": "Neural progenitor cells (NPCs) are the progenitor cells of the CNS that give rise to many, if not all, of the glial and neuronal cell types that populate the CNS.",
-            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6291443/"
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6291443"
         },
         {
             "const": "oligodendrocyte",
