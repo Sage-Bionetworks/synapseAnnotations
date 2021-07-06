@@ -49,6 +49,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn9705311"
         },
         {
+            "const": "APOEPSC",
+            "description": "The impact of APOE on aging-related conditions in human iPSC models (APOEPSC) study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25914209"
+        },
+        {
             "const": "APOE-TR",
             "description": "APOE Targeted Replacement",
             "source": "https://www.synapse.org/#!Synapse:syn8391648"
