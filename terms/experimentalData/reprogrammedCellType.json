@@ -4,7 +4,7 @@
     "description": "Cell type the specimen is modeling",
     "properties": {
         "reprogrammedCellType": {
-            "$ref": "sage.annotations-experimentalData.cellType-0.0.5"
+            "$ref": "sage.annotations-experimentalData.cellType-0.0.6"
         }
     }
 }
