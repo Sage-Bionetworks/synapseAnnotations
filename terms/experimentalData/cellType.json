@@ -1,7 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.cellType-0.0.7",
-    "description": "The distinct morphological or functional form of cell from which data is generated.",
+    "$id": "sage.annotations-experimentalData.cellType-0.0.6",
+    "description": "A cell type is a distinct morphological or functional form of cell.",
     "anyOf": [
         {
             "const": "A549",
