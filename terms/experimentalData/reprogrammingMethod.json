@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.reprogrammingMethod-0.0.1",
+  "description": "The method by which source cells were reprogrammed into pluripotent stem cells.",
+  "anyOf": [
+        {
+            "const": "CytoTune iPS 2.0 Sendai Reprogramming Kit",
+            "description": "Integration-free reprogramming of somatic cells into induced pluripotent stem cells manufactured by ThermoFisher Scientific."
+            "source": "https://tools.thermofisher.com/content/sfs/manuals/cytotune_ips_2_0_sendai_reprog_kit_man.pdf"
+        },
+        {
+            "const": "episomal vectors",
+            "description": "Non-integrative episomal vector methods used to reprogram somatic cells into induced pluripotent stem cells."
+            "source": "https://doi.org/10.1177/0963689719886534"
+        },
+        {
+            "const": "Sendai virus",
+            "description": "A pluripotency induction technique that employs Sendai virus vectors to force expression of a combination of genes sufficient to induce pluripotency without integration or alteration of the cellular genome."
+            "source": "http://purl.obolibrary.org/obo/ERO_0002163"
+        }
+        
+    ]
+}
