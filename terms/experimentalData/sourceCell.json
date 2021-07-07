@@ -12,7 +12,7 @@
             "const": "cord blood stem cells",
             "description": "Blood from the placenta and umbilical cord that are left over after birth is one source of adult stem cells.",
             "source": "http://purl.obolibrary.org/obo/BTO_0002667"        
-        }
+        },
         {
             "const": "embryonic stem cells",
             "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
