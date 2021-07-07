@@ -5,12 +5,12 @@
   "anyOf": [
         {
             "const": "directed differentiation",
-            "description": "Cell differentiation via the addition of growth factors and small molecules that modulate developmental signaling pathways."
+            "description": "Cell differentiation via the addition of growth factors and small molecules that modulate developmental signaling pathways.",
             "source": "https://doi.org/10.1016/j.ymeth.2015.11.019"
         },
         {
             "const": "Ngn2 induction",
-            "description": "Neuronal induction via overexpression of Neurogenin2"
+            "description": "Neuronal induction via overexpression of Neurogenin2",
             "source": "https://doi.org/10.1016/j.ymeth.2015.11.019"
         }
     ]
