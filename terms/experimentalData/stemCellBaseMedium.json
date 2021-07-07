@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.stemCellBaseMedium-0.0.1",
+  "description": "Culture medium that stem cells are grown in during differentiation.",
+  "type": "string",
+  "minLength": 1,
+  "maxLength": 50
+}
