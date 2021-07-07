@@ -32,6 +32,6 @@
             "const": "primary cell culture",
             "description": "The cells taken from a tissue source, and their progeny, grown in culture before subdivision and transfer to a sub culture.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C19315"
-        },
+        }
     ]
 }
