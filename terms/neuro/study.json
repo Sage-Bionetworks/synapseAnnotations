@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.28",
+    "$id": "sage.annotations-neuro.study-0.0.29",
     "description": "Study",
     "anyOf": [
         {
@@ -622,6 +622,11 @@
             "const": "WallOfTargets",
             "description": "",
             "source": ""
+        },
+        {
+            "const": "WGS_Harmonization",
+            "description": "The Whole Genome Sequence Harmonization Study (WGS_Harmonization)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn22264775"
         },
         {
             "const": "WGBS Pilot",
