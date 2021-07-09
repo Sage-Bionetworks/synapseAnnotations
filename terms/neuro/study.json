@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.study-0.0.27",
+    "$id": "sage.annotations-neuro.study-0.0.28",
     "description": "Study",
     "anyOf": [
         {
@@ -22,6 +22,11 @@
             "const": "ACT",
             "description": "Adult Changes in Thought ",
             "source": "https://www.synapse.org/#!Synapse:syn5759376"
+        },
+        {
+            "const": "AD-BXD",
+            "description": "The AD-BXD study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn17016211"
         },
         {
             "const": "ADMC_ADNI1",
