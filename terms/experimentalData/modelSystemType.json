@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.modelSystemType-0.0.1",
+  "description": "Type of model system.",
+  "anyOf": [
+        {
+            "const": "animal",
+            "description": "An animal that is amenable to experimentation and whose physiological or pathologic mechanisms are sufficiently similar to those of a human for the animal to serve as a model.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C71164"
+        },
+        {
+            "const": "cerebral organoid",
+            "description": "hPSC-derived three-dimensional in vitro culture systems that recapitulate the developmental processes and organization of the developing human brain.",
+            "source": "https://www.stemcell.com/technical-resources/area-of-interest/organoid-research/neural-organoids/overview.html"
+        },
+        {
+            "const": "immortalized cell line",
+            "description": "A biosample consisting of cells isolated from animal tissue that have acquired the ability to proliferate indefinitely.",
+            "source": "http://purl.obolibrary.org/obo/FBcv_0003049"
+        },
+        {
+            "const": "iPSC",
+            "description": "Induced pluripotent stem cells; adult cells that have been genetically reprogrammed to an embryonic stem cell-like state by the expression of genes and factors important for maintaining the defining properties of embryonic stem cells.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C124144"
+        },
+        {
+            "const": "organoid",
+            "description": "A three dimensional mass comprised of a cultured cell or tissue sample that resembles an in vivo tissue or organ. Organoids are grown in vitro from a combination of cells or tissue fragments cultured in medium containing a variety of biochemical factors.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C172259"
+        },
+        {
+            "const": "primary cell culture",
+            "description": "The cells taken from a tissue source, and their progeny, grown in culture before subdivision and transfer to a sub culture.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C19315"
+        }
+    ]
+}

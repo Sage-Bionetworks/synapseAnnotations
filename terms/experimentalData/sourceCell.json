@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-experimentalData.sourceCell-0.0.1",
+  "description": "Initial cell type the target cell was derived from, before reprogramming or differentiation.",
+  "anyOf": [
+        {
+            "const": "astrocytes",
+            "description": "Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127"
+        },
+        {
+            "const": "cord blood stem cells",
+            "description": "Blood from the placenta and umbilical cord that are left over after birth is one source of adult stem cells.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0002667"        
+        },
+        {
+            "const": "embryonic stem cells",
+            "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12935"
+        },
+        {
+            "const": "fibroblast",
+            "description": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000057"
+        },
+        {
+            "const": "iPSC",
+            "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
+        },
+        {
+            "const": "lymphoblast",
+            "description": "Often referred to as a blast cell. Unlike other usages of the suffix -blast a lymphoblast is a further differentiation of a lymphocyte, T- or B-, occasioned by an antigenic stimulus. The lymphoblast usually develops by enlargement of a lymphocyte, active re-entry to the S phase of the cell cycle, mitogenesis and production of much m-RNA and ribosomes.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000772"
+        },
+        {
+            "const": "peripheral blood mononuclear cell",
+            "description": "A leukocyte with a single non-segmented nucleus in the mature form found in the circulatory pool of blood",
+            "source": "http://www.ontobee.org/ontology/CL?iri=http://purl.obolibrary.org/obo/CL_2000001"
+        } 
+    ]
+}
