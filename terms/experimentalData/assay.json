@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assay-0.0.13",
+    "$id": "sage.annotations-experimentalData.assay-0.0.14",
     "description": "The technology used to generate the data in this file",
     "anyOf": [
         {
@@ -437,6 +437,11 @@
             "const": "snpArray",
             "description": "SNP measurements captured by array technology",
             "source": "http://purl.obolibrary.org/obo/OBI_0001204"
+        },
+        {
+            "const": "snrnaSeq",
+            "description": "Single nucleus RNA sequencing examines the sequence information from individual nuclei with optimized next generation sequencing (NGS) technologies. This allows the RNA-seq profiling of cell types that are more vulnerable to the tissue dissociation process, and that are therefore underrepresented in the final data set in single cell sequencing.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0009809"
         },
         {
             "const": "spontaneous alternation",
