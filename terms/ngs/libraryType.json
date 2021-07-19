@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "sage.annotations-ngs.libraryType-0.0.1",
-  "description": "The type of library, in assays where samples are barcoded or hashed for multiplexing and each sample has multiple libraries amplified separately before pooled sequencing.",
+  "description": "The type of library, in assays where samples are barcoded or hashed for multiplexing or each sample has multiple libraries amplified separately before pooled sequencing.",
   "anyOf": [
     {
       "const": "ADT",
@@ -27,6 +27,11 @@
       "const": "LMO",
       "description": "Lipid-modified oligonucleotide sample barcode anchor.",
       "source": "https://doi.org/10.1038/s41592-019-0433-8"
+    },
+    {
+      "const": "plasmid DNA",
+      "description": "A small cellular inclusion consisting of a ring of DNA that is not in a chromosome but is capable of autonomous replication.",
+      "source": "http://purl.obolibrary.org/obo/NCIT_C754"
     }
   ]
 }
