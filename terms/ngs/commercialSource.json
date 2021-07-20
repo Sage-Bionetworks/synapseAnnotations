@@ -1,0 +1,13 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "sage.annotations-ngs.commercialSource-0.0.1",
+    "description": "Nucleic or amino acids characterized that originate from a commercial source.",
+    "anyOf": [
+        {
+            "const": "Promega G1471",
+            "description": "Commercially available human genomic DNA distributed by Promega.",
+            "source": "https://www.promega.com/products/biochemicals-and-labware/nucleic-acids/human-genomic-dna/?catNum=G1521"
+        }
+    ]
+}
+
