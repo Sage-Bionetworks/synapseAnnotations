@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.metaboliteType-0.0.2",
+    "$id": "sage.annotations-experimentalData.metaboliteType-0.0.3",
     "description": "Class of metabolite.",
     "anyOf": [
         {
@@ -72,6 +72,16 @@
             "const": "glycerides",
             "description": "GLYCEROL esterified with FATTY ACIDS.",
             "source": "http://purl.bioontology.org/ontology/MESH/D005989"
+        },
+        {
+            "const": "glycerolipid",
+            "description": "Any member of the group of lipids containing a common glycerol backbone to which at least one fatty acid-derived group is attached.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_35741"
+        },
+        {
+            "const": "glycerophospholipid",
+            "description": "Any glycerolipid having a phosphate group ester-linked to a terminal carbon of the glycerol backbone.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_37739"
         },
         {
             "const": "ketones",
