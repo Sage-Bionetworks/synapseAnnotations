@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"sage.annotations-PsychENCODESpecific.study-0.0.3",
+    "$id":"sage.annotations-PsychENCODESpecific.study-0.0.4",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -100,6 +100,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn19049935"
         },
         {
+            "const": "iPSC-RNA-ATAC",
+            "description": "iPSC-RNA-ATAC",
+            "source": "https://www.synapse.org/#!Synapse:syn26007805"
+        },
+        {
             "const": "IsoHuB",
             "description": "IsoHuB",
             "source": "https://www.synapse.org/#!Synapse:syn22266684"
@@ -143,6 +148,11 @@
             "const": "NeuEnhancer",
             "description": "NeuEnhancer",
             "source": "https://www.synapse.org/#!Synapse:syn20818959"
+        },
+        {
+            "const": "NeuralRloops",
+            "description": "NeuralRloops",
+            "source": "https://www.synapse.org/#!Synapse:syn26004570"
         },
         {
             "const": "NeuREs",
