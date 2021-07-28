@@ -34,6 +34,11 @@
             "source": "https://www.emory.edu/"
         },
         {
+            "const": "Geschwind",
+            "description": "The Geschwind Lab",
+            "source": "https://geschwindlab.dgsom.ucla.edu/pages/"
+        },
+        {
             "const": "HBTRC",
             "description": "Harvard Brain Tissue Resource Center",
             "source": "https://hbtrc.mclean.harvard.edu/"
