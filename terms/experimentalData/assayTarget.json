@@ -348,6 +348,11 @@
             "source": ""
         },
         {
+            "const": "R-loops",
+            "description": "R-loops are three-stranded non-B DNA structures composed of an RNA-DNA hybrid and a single strand of DNA.",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/31053798/"
+        },
+        {
             "const": "RAD21",
             "description": "",
             "source": ""
@@ -551,11 +556,6 @@
             "const": "ZSCAN29",
             "description": "",
             "source": ""
-        },
-        {
-            "const": "R-loops",
-            "description": "R-loops are three-stranded non-B DNA structures composed of an RNA-DNA hybrid and a single strand of DNA.",
-            "source": "https://pubmed.ncbi.nlm.nih.gov/31053798/"
         }
     ]
 }
