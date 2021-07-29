@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.assayTarget-0.0.4",
+    "$id": "sage.annotations-experimentalData.assayTarget-0.0.5",
     "description": "",
     "anyOf": [
         {
@@ -348,6 +348,11 @@
             "source": ""
         },
         {
+            "const": "R-loops",
+            "description": "R-loops are three-stranded non-B DNA structures composed of an RNA-DNA hybrid and a single strand of DNA.",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/31053798/"
+        },
+        {
             "const": "RAD21",
             "description": "",
             "source": ""
@@ -551,11 +556,6 @@
             "const": "ZSCAN29",
             "description": "",
             "source": ""
-        },
-        {
-            "const": "R-loops",
-            "description": "R-loops are three-stranded non-B DNA structures composed of an RNA-DNA hybrid and a single strand of DNA.",
-            "source": "https://pubmed.ncbi.nlm.nih.gov/31053798/"
         }
     ]
 }
