@@ -19,18 +19,13 @@
             "source": "Sage Bionetworks"
         },
         {
-            "const": "individual",
-            "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
-            "source": "Sage Bionetworks"
-        },
-        {
-            "const": "biospecimen",
-            "description": "Metadata describing properties of specimens collected and/or analyzed in the study.",
-            "source": "Sage Bionetworks"
-        },
-        {
             "const": "data dictionary",
             "description": "Metadata describing terms or variables that appear in another file.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "individual",
+            "description": "Metadata describing properties of individuals (human or animal) represented in the study.",
             "source": "Sage Bionetworks"
         },
         {
