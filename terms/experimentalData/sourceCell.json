@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.sourceCell-0.0.2",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.sourceCell-0.0.3",
   "description": "Initial cell type the target cell was derived from, before reprogramming or differentiation.",
   "type": "string",
   "anyOf": [
@@ -8,6 +8,11 @@
             "const": "astrocytes",
             "description": "Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127"
+        },
+        {
+            "const": "B-lymphocytes",
+            "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
         },
         {
             "const": "cord blood stem cells",
