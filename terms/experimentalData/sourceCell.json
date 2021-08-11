@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "sage.annotations-experimentalData.sourceCell-0.0.1",
   "description": "Initial cell type the target cell was derived from, before reprogramming or differentiation.",
+  "type": "string",
   "anyOf": [
         {
             "const": "astrocytes",

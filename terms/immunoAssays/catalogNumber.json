@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-immunoAssays.catalogNumber-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-immunoAssays.catalogNumber-0.0.2",
     "description": "The identifier assigned to a product, usually in the list of products published by a reseller or manufacturer",
     "type": "string"
 }

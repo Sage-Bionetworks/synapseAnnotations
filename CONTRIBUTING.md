@@ -14,7 +14,7 @@ examples, but the general format for a new term should be like this:
 ```json
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-<MODULENAME>.<KEY>-0.0.1",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-<MODULENAME>.<KEY>-0.0.1",
   "description": "<DESCRIPTION OF THE KEY>",
   "anyOf": [
     {

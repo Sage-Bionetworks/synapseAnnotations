@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-manifestKeys.parent-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-manifestKeys.parent-0.0.2",
     "type": "string",
     "description": "Synapse ID of the folder that data will be uploaded to"
 }
