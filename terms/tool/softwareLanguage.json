@@ -1,15 +1,11 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-tool.softwareLanguage-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-tool.softwareLanguage-0.0.2",
     "description": "",
+    "type": "string",
     "anyOf": [
         {
-            "const": "R",
-            "description": "",
-            "source": ""
-        },
-        {
-            "const": "Python",
+            "const": "Java",
             "description": "",
             "source": ""
         },
@@ -19,12 +15,17 @@
             "source": ""
         },
         {
-            "const": "Shell",
+            "const": "Python",
             "description": "",
             "source": ""
         },
         {
-            "const": "Java",
+            "const": "R",
+            "description": "",
+            "source": ""
+        },
+        {
+            "const": "Shell",
             "description": "",
             "source": ""
         }

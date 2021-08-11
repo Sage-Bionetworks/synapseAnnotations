@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-experimentalData.ligand-0.0.1",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.ligand-0.0.2",
   "description": "An ion, molecule or molecular group that binds to a substance to form a larger complex.",
   "type": "string",
   "minLength": 1,

@@ -1,7 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-sageCommunity.fileFormat-0.0.3",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.4",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
+    "type": "string",
     "anyOf": [
         {
             "const": "Synapse Table",
