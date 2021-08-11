@@ -1,7 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-ngs.libraryPreparationMethod-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.5",
     "description": "Method by which library was prepared",
+    "type": "string",
     "anyOf": [
         {
             "const": "10x",

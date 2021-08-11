@@ -1,7 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-experimentalData.reprogrammingMethod-0.0.1",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.reprogrammingMethod-0.0.2",
   "description": "The method by which source cells were reprogrammed into pluripotent stem cells.",
+  "type": "string",
   "anyOf": [
         {
             "const": "CytoTune iPS 2.0 Sendai Reprogramming Kit",

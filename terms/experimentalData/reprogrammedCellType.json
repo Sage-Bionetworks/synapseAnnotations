@@ -1,10 +1,10 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "sage.annotations-experimentalData.reprogrammedCellType-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.reprogrammedCellType-0.0.5",
     "description": "Cell type the specimen is modeling",
     "properties": {
         "reprogrammedCellType": {
-            "$ref": "sage.annotations-experimentalData.cellType-0.0.7"
+            "$ref": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.cellType-0.0.8"
         }
     }
 }

@@ -1,7 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-curatedData.curatedDataType-0.0.1",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-curatedData.curatedDataType-0.0.2",
     "description": "The type of information being curated.",
+    "type": "string",
     "anyOf": [
         {
             "const": "reference sequence",
