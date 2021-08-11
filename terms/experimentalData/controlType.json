@@ -1,7 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-experimentalData.controlType-0.0.3",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.controlType-0.0.4",
     "description": "Control samples suitable for normalization and batch correction",
+    "type": "string",
     "anyOf": [
         {
             "const": "AIBL pool",

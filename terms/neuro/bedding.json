@@ -1,7 +1,8 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "sage.annotations-neuro.bedding-0.0.2",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.bedding-0.0.3",
     "description": "Rodent bedding material",
+    "type": "string",
     "anyOf": [
         {
             "const": "Alpha-dri",
