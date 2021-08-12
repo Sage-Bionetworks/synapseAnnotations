@@ -209,7 +209,7 @@
             "description": "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_4159"
         },
-         {
+        {
             "const": "Substance Related Disorder",
             "description": "A category of psychiatric disorders which include disorders related to the taking of a drug of abuse (including alcohol, prescribed medications and recreational drugs).",
             "source": "http://purl.obolibrary.org/obo/NCIT_C92203"
