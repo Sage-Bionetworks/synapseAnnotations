@@ -16,15 +16,22 @@ library("here")
 #' Extract module or annotation key name from $id field
 #'
 #' @param id string containing the schema `$id`
-#' @param info one of "module" or "key"
-#' @return The module or key name
-get_info <- function(id, info = c("module", "key")) {
+#' @param info one of "id" (organization-module.key), "module", "key",
+#' or "version"
+#' @param absolute_path string containing the absolute path prefix to remove
+#' @return The id, module, key, or version
+get_info <- function(id, info = c("id", "module", "key", "version"),
+                     absolute_path = "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/") {
+  ## Remove absolute path for simpler regex; we know the format for Sage schemas
+  id <- gsub(absolute_path, "", id)
   info <- match.arg(info)
-  pattern <- "^[^-]+-([[:alnum:]]+)\\.([[:alnum:]]+)-[0-9\\.]+"
+  pattern <- "^[^-]+-([[:alnum:]]+)\\.([[:alnum:]]+)-([0-9\\.]+)"
   switch(
     info,
+    id = gsub("-[0-9\\.]+$", "", id),
     module = gsub(pattern, "\\1", id),
-    key = gsub(pattern, "\\2", id)
+    key = gsub(pattern, "\\2", id),
+    version = gsub(pattern, "\\3", id)
   )
 }
 
@@ -68,7 +75,7 @@ add_enumerated_values <- function(data_table, json_list) {
 #' should exist as a file in the current set. The referenced term cannot be
 #' extended.
 #' @return
-create_rows <- function(file) {
+create_rows_dict <- function(file) {
   dat <- fromJSON(file)
   ## Information about the key
   return_df <- tibble::tibble(
@@ -112,6 +119,20 @@ create_rows <- function(file) {
   )
 }
 
+#' Create table row for tracking schema versions
+#'
+#' @param file Path to the JSON Schema file.
+#' @return
+create_rows_schema <- function(file) {
+  dat <- fromJSON(file)
+  ## Grab information from the full id
+  tibble::tibble(
+    key = get_info(dat$`$id`, "key"),
+    latestVersion = get_info(dat$`$id`, "version"),
+    schema = get_info(dat$`$id`, "id")
+  )
+}
+
 ## Log in to synapse
 synapse <- import("synapseclient")
 syn <- synapse$Synapse()
@@ -125,7 +146,8 @@ files <- list.files(
   recursive = TRUE
 )
 
-dat <- map_dfr(files, create_rows)
+## Dictionary table
+dat_dict <- map_dfr(files, create_rows_dict)
 
 ## Delete old table rows
 annots_table <- "syn10242922"
@@ -134,9 +156,26 @@ syn$delete(current) # delete current rows
 
 ## Update table rows
 temp <- tempfile()
-write_csv(dat, temp, na = "")
+write_csv(dat_dict, temp, na = "")
 new <- synapse$Table(annots_table, temp)
 syn$store(new)
 
 ## Query to force table index to rebuild
-syn$tableQuery(glue("SELECT ROW_ID FROM {annots_table} LIMIT 1"))
+syn$tableQuery(glue("SELECT ROW_ID FROM {annots_table}"))
+
+## Schema version table
+dat_schema <- map_dfr(files, create_rows_schema)
+
+## Delete old table rows
+schema_table <- "syn26050066"
+current_schema <- syn$tableQuery(glue("SELECT * FROM {schema_table}"))
+syn$delete(current_schema) # delete current rows
+
+## Update table rows
+temp_schema <- tempfile()
+write_csv(dat_schema, temp_schema, na = "")
+new_schema <- synapse$Table(schema_table, temp_schema)
+syn$store(new_schema)
+
+## Query to force table index to rebuild
+syn$tableQuery(glue("SELECT ROW_ID FROM {schema_table}"))
