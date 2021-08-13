@@ -1,11 +1,214 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.reprogrammedCellType-0.0.6",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.reprogrammedCellType-0.0.7",
     "description": "Cell type the specimen is modeling",
-    "properties": {
-        "reprogrammedCellType": {
-            "$ref": "sage.annotations-experimentalData.cellType-0.0.8"
+    "type": "string",
+    "anyOf": [
+        {
+            "const": "A549",
+            "description": "An adenocarcinoma cell line established by D.J. Giard in 1972 from lung carcinoma tissue removed from a 58-year-old Caucasian male.",
+            "source": "http://www.ontobee.org/ontology/NCIT?iri=http://purl.obolibrary.org/obo/NCIT_C117127"
+        },
+        {
+            "const": "arachnoid",
+            "description": "An arachnoid mater is a delicate membrane that encloses the spinal cord and brain and lies between the pia mater and dura mater.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001636"
+        },
+        {
+            "const": "astrocytes",
+            "description": "Astrocytes (from 'star' cells) are irregularly shaped with many long processes, including those with end-feet which form the glial (limiting) membrane and directly and indirectly contribute to the blood-brain barrier.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000127"
+        },
+        {
+            "const": "B-lymphocytes",
+            "description": "A lymphocyte of B lineage with the phenotype CD19-positive and surface immunoglobulin-positive.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000236"
+        },
+        {
+            "const": "CD138+",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "CD8+ T-Cells",
+            "description": " Is a T lymphocyte (a type of white blood cell) that kills cancer cells, cells that are infected (particularly with viruses), or cells that are damaged in other ways.",
+            "source": "https://en.wikipedia.org/wiki/Cytotoxic_T_cell"
+        },
+        {
+            "const": "CNON",
+            "description": "Cultured Neuronal cells derived from Olfactory Neuroepithelium",
+            "source": "https://www.synapse.org/#!Synapse:syn4590897"
+        },
+        {
+            "const": "dopaminergic neurons",
+            "description": "A neuron that releases dopamine from its synapses.",
+            "source": "http://www.ontobee.org/ontology/BTO?iri=http://purl.obolibrary.org/obo/BTO_0004032"
+        },
+        {
+            "const": "Embryonic stem cells",
+            "description": "Embryonic stem (ES) cells are cells derived from the inner cell mass of the early embryo that can be propagated indefinitely in the primitive undifferentiated state while remaining pluripotent.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12935"
+        },
+        {
+            "const": "epithelial",
+            "description": "Somatic cells that cover the surface of the body and line its cavities.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000066"
+        },
+        {
+            "const": "epithelial-like",
+            "description": "In cell morphology, epithelial-like cells are polygonal in shape with more regular dimensions, and grow attached to a substrate in discrete patches.",
+            "source": "https://www.thermofisher.com/us/en/home/references/gibco-cell-culture-basics/cell-morphology.html"
+        },
+        {
+            "const": "fibroblast",
+            "description": "A connective tissue cell which secretes an extracellular matrix rich in collagen and other macromolecules. Flattened and irregular in outline with branching processes; appear fusiform or spindle-shaped.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000057"
+        },
+        {
+            "const": "GABAergic neurons",
+            "description": "A neuron that uses GABA as a vesicular neurotransmitter.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/zfa/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FZFA_0009276"
+        },
+        {
+            "const": "GLUtamatergic neurons",
+            "description": "Have Glutamate receptors, which are synaptic receptors located primarily on the membranes of neuronal cells. Glutamate (the conjugate base of glutamic acid) is abundant in the human body, but particularly in the nervous system and especially prominent in the human brain.",
+            "source": "https://en.wikipedia.org/wiki/Glutamate_receptor"
+        },
+        {
+            "const": "immune cell",
+            "description": "A cell in the immune system that is involved in host defense. This category may include lymphocytes, monocytes, macrophages, neutrophils, eosinophils, basophils, mast cells, and thrombocytes. Precursor cells in these lineages may also be included.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C132890"
+        },
+        {
+            "const": "iPSC",
+            "description": "Induced pluripotent stem cells (iPS cells or iPSCs) are a type of pluripotent stem cell artificially derived from a non-pluripotent cell.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0004905"
+        },
+        {
+            "const": "iPSC-derived astrocytes",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "iPSC-derived glia",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "iPSC-derived neuron",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "iPSC-derived neuronal progenitor cell",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "iPSC-derived telencephalic organoids",
+            "description": "three-dimensional neural cultures (organoids) derived from induced pluripotent stem cells.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4519016/"
+        },
+        {
+            "const": "lymphoblast",
+            "description": "Often referred to as a blast cell. Unlike other usages of the suffix -blast a lymphoblast is a further differentiation of a lymphocyte, T- or B-, occasioned by an antigenic stimulus. The lymphoblast usually develops by enlargement of a lymphocyte, active re-entry to the S phase of the cell cycle, mitogenesis and production of much m-RNA and ribosomes.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000772"
+        },
+        {
+            "const": "lymphoblastoid cell line",
+            "description": "Human cell line from tissue infected with Epstein-Barr virus, resembling a lymphoblast",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000773"
+        },
+        {
+            "const": "macrophages",
+            "description": "A mononuclear phagocyte present in variety of tissues, typically differentiated from monocytes, capable of phagocytosing a variety of extracellular particulate material, including immune complexes, microorganisms, and dead cells.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cl/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000235"
+        },
+        {
+            "const": "meningioma",
+            "description": "A central nervous system cancer tissue that are manifested in the central nervous system and arise from the arachnoid 'cap' cells of the arachnoid villi in the meninges.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/doid/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDOID_3565"
+        },
+        {
+            "const": "microglia",
+            "description": "The small, non-neural, interstitial cells of mesodermal origin that form part of the supporting structure of the central nervous system.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000078"
+        },
+        {
+            "const": "monocytes",
+            "description": "Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FCL_0000576"
+        },
+        {
+            "const": "monocyte-derived microglia",
+            "description": "",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "NCX NES",
+            "description": "Neocortical neuroepithelial stem cells",
+            "source": "https://encyclopedia.pub/2351"
+        },
+        {
+            "const": "NeuN-",
+            "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+            "source": "https://en.wikipedia.org/wiki/NeuN"
+        },
+        {
+            "const": "NeuN+",
+            "description": "Is a neuronal nuclear antigen that is commonly used as a biomarker for neurons and NeuN immunoreactivity has been widely used to identify neurons in tissue culture to measure the neuron(positive)/glia(negative) ratio in brain regions.",
+            "source": "https://en.wikipedia.org/wiki/NeuN"
+        },
+        {
+            "const": "neural progenitor cell",
+            "description": "Neural progenitor cells (NPCs) are the progenitor cells of the CNS that give rise to many, if not all, of the glial and neuronal cell types that populate the CNS.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6291443"
+        },
+        {
+            "const": "neuron",
+            "description": "Any of the conducting cells of the nervous system.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C12623"
+        },
+        {
+            "const": "oligodendrocyte",
+            "description": "A class of large neuroglial (macroglial) cells in the central nervous system. Form the insulating myelin sheath of axons in the central nervous system.",
+            "source": "http://purl.obolibrary.org/obo/CL_0000128"
+        },
+        {
+            "const": "peripheral blood mononuclear cell",
+            "description": "A leukocyte with a single non-segmented nucleus in the mature form found in the circulatory pool of blood",
+            "source": "http://www.ontobee.org/ontology/CL?iri=http://purl.obolibrary.org/obo/CL_2000001"
+        },
+        {
+            "const": "polygonal",
+            "description": "A polygonal face is a polygon bounded by a circuit of polygon edges, and includes the flat (plane) region inside the boundary.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/sio/terms?iri=http%3A%2F%2Fsemanticscience.org%2Fresource%2FSIO_000503"
+        },
+        {
+            "const": "round",
+            "description": "A phenotype observation at the level of the cell shape where the cell is round",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/cmpo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fcmpo%2FCMPO_0000118"
+        },
+        {
+            "const": "schwann",
+            "description": "Schwann cells are a variety of glial cell that keep peripheral nerve fibres (both myelinated and unmyelinated) alive.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0001220"
+        },
+        {
+            "const": "Schwann cell precusor",
+            "description": "A giioblast cell that develops from a migratory neural crest cell. The SCP is embedded among neurons (axons) with minimal extracellular spaces separating them from nerve cell membranes and has no basal lamina. In rodents SCPs are the only cells in the Schwann cell linage that expresses Cdh19.",
+            "source": "http://purl.obolibrary.org/obo/CL_0002375"
+        },
+        {
+            "const": "schwannoma",
+            "description": "A neoplasm that arises from SCHWANN CELLS of the cranial, peripheral, and autonomic nerves.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/efo/terms?iri=http%3A%2F%2Fwww.ebi.ac.uk%2Fefo%2FEFO_0000693"
+        },
+        {
+            "const": "SH-SY5Y",
+            "description": "Human neuroblastoma clonal subline of the neuroepithelioma cell line SK-N-SH that had been established in 1970 from the bone marrow biopsy of a 4-year-old girl with metastatic neuroblastoma.",
+            "source": "https://www.ebi.ac.uk/ols/ontologies/bto/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FBTO_0000793"
         }
-    }
+    ]
 }
 
