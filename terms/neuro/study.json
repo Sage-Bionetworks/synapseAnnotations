@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.31",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.32",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -138,6 +138,11 @@
             "const": "DukeAD_PTSD",
             "description": "The Duke Study of Shared Genetic, Epigenetic, and Transcriptomic Profiles Between AD and PTSD study",
             "source": "https://www.synapse.org/#!Synapse:syn23585917"
+        },
+        {
+            "const": "ELPSCRNA",
+            "description": "Single cell transcriptomic analysis of PBMCs in Extreme Longevity",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26067509"
         },
         {
             "const": "Emory_ADRC",
