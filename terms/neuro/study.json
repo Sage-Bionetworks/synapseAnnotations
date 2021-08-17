@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.30",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.31",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -373,6 +373,11 @@
             "const": "MouseHAL",
             "description": "Chronic Haloperidol Effects on Gene Expression and Chromatin Accessibility in Mouse Brain",
             "source": "https://www.synapse.org/#!Synapse:syn4590850"
+        },
+        {
+            "const": "MRGWAS",
+            "description": "Mendelian randomization of human longevity using genetically-predicted exposures from the GWAS catalog",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26066886"
         },
         {
             "const": "MSBB",
