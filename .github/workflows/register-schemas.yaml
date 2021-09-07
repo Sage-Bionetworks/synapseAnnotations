@@ -2,7 +2,7 @@ on:
   push:
     branches: master
 
-name: Register schemas
+name: Register schemas & update table
 
 env:
   RENV_PATHS_ROOT: ~/.local/share/renv
@@ -49,7 +49,11 @@ jobs:
         with:
           output: ','
 
-      - name: Attempt to register schemas in Synapse
+      - name: Register schemas in Synapse
         run: |
           files="${{ steps.get_file_changes.outputs.files_added }},${{ steps.get_file_changes.outputs.files_modified }}"
           echo $files | tr ',' '\n' | grep -Z '^terms.*\.json$' | xargs ./register-schemas.R
+
+      - name: Update Synapse table
+        run: |
+          ./update-annotations-table.R
