@@ -53,8 +53,8 @@ jobs:
 
       - name: Update Synapse key-value table
         run: |
-          ./update-annotations-table.R
+          Rscript ./update-annotations-table.R
 
       - name: Update Synapse schema versions table
         run: |
-          ./update-schema-version-table.R
+          Rscript ./update-schema-version-table.R
