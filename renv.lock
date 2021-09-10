@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.0.3",
+    "Version": "3.6.3",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -43,10 +43,10 @@
     },
     "PythonEmbedInR": {
       "Package": "PythonEmbedInR",
-      "Version": "0.6.76",
+      "Version": "0.8.4",
       "Source": "Repository",
       "Repository": null,
-      "Hash": "193b9cbc3c24053c945d453e86912e07"
+      "Hash": "9a489905fb7363c0c2980453131586c6"
     },
     "R6": {
       "Package": "R6",
@@ -496,13 +496,6 @@
       "Repository": "CRAN",
       "Hash": "97def703420c8ab10d8f0e6c72101e02"
     },
-    "rappdirs": {
-      "Package": "rappdirs",
-      "Version": "0.3.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "8c8298583adbbe76f3c2220eef71bebc"
-    },
     "readr": {
       "Package": "readr",
       "Version": "1.4.0",
@@ -542,13 +535,6 @@
       "RemoteRef": "HEAD",
       "RemoteSha": "d3fc4b8bedeb9622b9941faa073ee65b3ebd7dbb",
       "Hash": "f82a60f2042a9493f6c9315dca2261fc"
-    },
-    "reticulate": {
-      "Package": "reticulate",
-      "Version": "1.18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "fbd35cac6ae7554d0e4f440bca1adf3a"
     },
     "rjson": {
       "Package": "rjson",
@@ -622,10 +608,10 @@
     },
     "synapser": {
       "Package": "synapser",
-      "Version": "0.9.77",
+      "Version": "0.11.7",
       "Source": "Repository",
       "Repository": null,
-      "Hash": "431f1fa3e6c1327c849858c451175836"
+      "Hash": "799a9fb65ed0003716e629c97e9c152c"
     },
     "sys": {
       "Package": "sys",
