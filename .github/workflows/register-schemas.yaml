@@ -8,7 +8,7 @@ env:
   RENV_PATHS_ROOT: ~/.local/share/renv
 
 jobs:
-  register-schemas-dryrun:
+  register-and-update:
     runs-on: macos-10.15
     steps:
       - uses: actions/checkout@v2

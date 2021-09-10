@@ -1,4 +1,4 @@
-#!/usr/bin/Rscript
+#!/usr/local/bin/Rscript
 ###############################################################
 ####  Update the Synapse Annotations Schema Version table  ####
 ###############################################################
