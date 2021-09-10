@@ -54,7 +54,8 @@ create_rows_schema <- function(file) {
     key = get_info(dat$`$id`, "key"),
     latestVersion = get_info(dat$`$id`, "version"),
     schema = get_info(dat$`$id`, "id"),
-    module = get_info(dat$`$id`, "module")
+    module = get_info(dat$`$id`, "module"),
+    alias = glue("{get_info(dat$`$id`, 'module')}_{get_info(dat$`$id`, 'key')}")
   )
 }
 
