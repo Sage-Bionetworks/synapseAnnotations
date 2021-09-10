@@ -5,7 +5,7 @@
 
 library("jsonlite")
 library("tidyverse")
-library("reticulate")
+library("synapser")
 library("glue")
 library("here")
 
@@ -61,9 +61,7 @@ create_rows_schema <- function(file) {
 ## -----------------------------------------------------------------------------
 
 ## Log in to synapse
-synapse <- import("synapseclient")
-syn <- synapse$Synapse()
-syn$login()
+synLogin()
 
 ## JSON files
 files <- list.files(
@@ -79,14 +77,14 @@ dat_schema <- map_dfr(files, create_rows_schema)
 
 ## Delete old table rows
 schema_table <- "syn26050066"
-current_schema <- syn$tableQuery(glue("SELECT * FROM {schema_table}"))
-syn$delete(current_schema) # delete current rows
+current_schema <- synTableQuery(glue("SELECT * FROM {schema_table}"))
+synDelete(current_schema) # delete current rows
 
 ## Update table rows
 temp_schema <- tempfile()
 write_csv(dat_schema, temp_schema, na = "")
-new_schema <- synapse$Table(schema_table, temp_schema)
-syn$store(new_schema)
+new_schema <- Table(schema_table, temp_schema)
+synStore(new_schema)
 
 ## Query to force table index to rebuild
-syn$tableQuery(glue("SELECT ROW_ID FROM {schema_table}"))
+synTableQuery(glue("SELECT ROW_ID FROM {schema_table}"))
