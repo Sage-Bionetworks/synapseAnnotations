@@ -1,6 +1,8 @@
-on: [pull_request]
+on:
+  push:
+    branches: master
 
-name: Register schemas (dry run)
+name: Register schemas & update tables
 
 env:
   RENV_PATHS_ROOT: ~/.local/share/renv
@@ -44,7 +46,15 @@ jobs:
         with:
           output: ','
 
-      - name: Attempt to register schemas with dryRun = true
+      - name: Register schemas in Synapse
         run: |
           files="${{ steps.get_file_changes.outputs.files_added }},${{ steps.get_file_changes.outputs.files_modified }}"
-          echo $files | tr ',' '\n' | grep -Z '^terms.*\.json$' | xargs ./register-schemas.R --dryRun
+          echo $files | tr ',' '\n' | grep -Z '^terms.*\.json$' | xargs ./register-schemas.R
+
+      - name: Update Synapse key-value table
+        run: |
+          ./update-annotations-table.R
+
+      - name: Update Synapse schema versions table
+        run: |
+          ./update-schema-version-table.R
