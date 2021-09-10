@@ -4,6 +4,7 @@ name: Register schemas (dry run)
 
 env:
   RENV_PATHS_ROOT: ~/.local/share/renv
+  SYNAPSE_AUTH_TOKEN: ${{ secrets.SYNAPSE_PAT }}
 
 jobs:
   register-schemas-dryrun:
