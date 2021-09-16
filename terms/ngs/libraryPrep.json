@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.7",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.8",
     "description": "The general strategy by which the library was prepared",
     "type": "string",
     "anyOf": [
@@ -55,6 +55,11 @@
             "source": "Sage Bionetworks"
         },
         {
+            "const": "proximity ligation",
+            "descirption": "Upon binding of two proximity probes (usually antibodies conjugated to DNA) to the same target protein complex, the oligonucleotides on the proximity probes are brought close together. These antibody-conjugated oligonucleotides hybridize to two connector oligonucleotides that are ligated to form a circular DNA molecule. This newly formed DNA-molecule can be amplified by rolling circle amplification.",
+            "source": "http://purl.obolibrary.org/obo/MI_0813"
+        },
+        {
             "const": "rRNAdepletion",
             "description": "Total RNA library with ribosomal RNA depleted.",
             "source": "Sage Bionetworks"
@@ -73,6 +78,11 @@
             "const": "SureCell",
             "description": "SureCell WTA 3' Library Prep Kit",
             "source": "https://support.illumina.com/content/dam/illumina-support/documents/documentation/chemistry_documentation/surecell/surecell-wta3-library-prep-reference-guide-1000000021452-01.pdf"
+        },
+        {
+            "const": "totalRNA",
+            "description": "A biological sample comprised of all of the RNA collected from an experimental subject.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C163995"
         }
     ]
 }
