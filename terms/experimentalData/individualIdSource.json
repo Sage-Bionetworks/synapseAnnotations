@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.12",
     "description": "Database or repository to which individual ID maps",
     "type": "string",
     "anyOf": [
@@ -23,6 +23,11 @@
             "const": "BannerSun",
             "description": "Banner Sun Health Research Institute",
             "source": "https://www.bannerhealth.com/locations/sun-city/banner-sun-health-research-institute-santa-fe"
+        },
+        {
+            "const": "Clotomics_PAIKEA_MSSM",
+            "description": "",
+            "source": ""
         },
         {
             "const": "Einstein",
@@ -53,6 +58,11 @@
             "const": "LIBD",
             "description": "Lieber Institute for Brain Development",
             "source": "https://www.libd.org"
+        },
+        {
+            "const": "LivingBrainProject_MSSM",
+            "description": "The Living Brain Project at the Icahn School of Medicine",
+            "source": "https://labs.icahn.mssm.edu/charneylab/"
         },
         {
             "const": "MayoBrainBank",
