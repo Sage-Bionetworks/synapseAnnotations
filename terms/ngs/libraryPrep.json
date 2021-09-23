@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.8",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.9",
     "description": "The general strategy by which the library was prepared",
     "type": "string",
     "anyOf": [
@@ -56,8 +56,8 @@
         },
         {
             "const": "proximity ligation",
-            "description": "Upon binding of two proximity probes (usually antibodies conjugated to DNA) to the same target protein complex, the oligonucleotides on the proximity probes are brought close together. These antibody-conjugated oligonucleotides hybridize to two connector oligonucleotides that are ligated to form a circular DNA molecule. This newly formed DNA-molecule can be amplified by rolling circle amplification.",
-            "source": "http://purl.obolibrary.org/obo/MI_0813"
+            "description": "Proximity ligation technologies are based on the ability to crosslink two genomic loci that are in close physical proximity to each other in the nuclear space. The crosslinked chromatin is then subjected to restriction enzyme digestion, which fragments the genomic DNA. The digested chromatin is re-ligated so that regions that are crosslinked together (intra-molecular re-ligation) are attached to each other. This process produces libraries of chimeric DNA products, including adjacent restriction fragments, which are normally found at different positions along the linear genome.",
+            "source": "https://journals.biologists.com/dev/article/144/20/3646/48125/The-three-dimensional-genome-regulating-gene"
         },
         {
             "const": "rRNAdepletion",
