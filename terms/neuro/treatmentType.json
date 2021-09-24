@@ -41,7 +41,7 @@
         },
         {
             "const": "verubecestat",
-            "description": "Verubecestat is under investigation for the treatment of Alzheimer's Disease, Prodromal Alzheimer's disease, and Amnestic Mild Cognitive Impairment. Verubecestat is Merck’s investigational oral beta-site amyloid precursor protein cleaving enzyme (BACE1 or beta secretase) inhibitor.",
+            "description": "Investigational oral beta-site amyloid precursor protein cleaving enzyme (BACE1 or beta secretase) inhibitor",
             "source": "https://pubchem.ncbi.nlm.nih.gov/compound/Verubecestat"
         }
     ]
