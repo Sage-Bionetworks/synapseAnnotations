@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.treatmentType-0.0.3",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.treatmentType-0.0.4",
     "description": "",
     "type": "string",
     "anyOf": [
@@ -38,6 +38,11 @@
             "const": "Abeta42 fibril",
             "description": "The fibrillar preparation of an amyloid beta peptide that corresponds to residues 1-42 of C99.",
             "source": "https://doi.org/10.1074/jbc.m201750200"
+        },
+        {
+            "const": "verubecestat",
+            "description": "Verubecestat is under investigation for the treatment of Alzheimer's Disease, Prodromal Alzheimer's disease, and Amnestic Mild Cognitive Impairment. Verubecestat is Merck’s investigational oral β-site amyloid precursor protein cleaving enzyme (BACE1 or β secretase) inhibitor.",
+            "source": "https://pubchem.ncbi.nlm.nih.gov/compound/Verubecestat"
         }
     ]
 }
