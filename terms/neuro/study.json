@@ -260,6 +260,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn5478323"
         },
         {
+            "const": "LLFS",
+            "description": "The Long Life Family Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26229161"
+        },
+        {
             "const": "lncRNA Pilot",
             "description": "long non-coding RNA pilot",
             "source": "https://www.synapse.org/#!Synapse:syn4588462"
