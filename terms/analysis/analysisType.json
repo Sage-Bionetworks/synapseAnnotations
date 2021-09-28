@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.9",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.10",
     "description": "Type of analysis",
     "type": "string",
     "anyOf": [
@@ -18,6 +18,11 @@
             "const": "batch effect correction",
             "description": "Adjustment of variable of interest for batch effects.",
             "source": "https://www.ncbi.nlm.nih.gov/pubmed/16632515"
+        },
+        {
+            "const": "caQTL",
+            "description": "Chromatin accessible quantitative trait locus analysis. Also abbreviated chQTL.",
+            "source": "https://www.cell.com/cell/pdf/S0092-8674(17)31253-9.pdf"
         },
         {
             "const": "Clustering",

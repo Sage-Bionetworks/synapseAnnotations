@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.32",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.33",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -78,6 +78,11 @@
             "const": "BLSA",
             "description": "Baltimore Longitudinal Study on Aging",
             "source": "https://www.synapse.org/#!Synapse:syn3606086"
+        },
+        {
+            "const": "BPSD_AD_AnimalStudy_NU",
+            "description": "Molecular mechanisms underlying behavioral and psychological symptoms in Alzheimer's disease (BPSD_AD_AnimalStudy_NU)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26234114"
         },
         {
             "const": "BrainGVEX",
@@ -253,6 +258,11 @@
             "const": "LillyMicroglia",
             "description": "Microglia gene profiling in the rTg4510 tauopathy mouse model",
             "source": "https://www.synapse.org/#!Synapse:syn5478323"
+        },
+        {
+            "const": "LLFS",
+            "description": "The Long Life Family Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26229161"
         },
         {
             "const": "lncRNA Pilot",
