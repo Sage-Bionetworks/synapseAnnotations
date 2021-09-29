@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.16",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.17",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -233,6 +233,11 @@
             "const": "Infinium Omni2.5Exome-8 v1.5",
             "description": "Infinium Omni2.5Exome-8 v1.5",
             "source": "https://support.illumina.com/downloads/infinium-omni25exome-8-v1-5-support-files.html"
+        },
+        {
+            "const": "InfiniumPsychArrayBeadChip",
+            "description": "Illumina array developed for large-scale genetic studies focused on psychiatricpredisposition and risk ",
+            "source": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet-infinium-psych-array.pdf"
         },
         {
             "const": "LTQOrbitrapXL",
