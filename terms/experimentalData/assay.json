@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.15",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.16",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -148,6 +148,11 @@
             "const": "HI-C",
             "description": "Chromatin interactions detected by HI-C protocol",
             "source": "http://www.ebi.ac.uk/efo/EFO_0007693"
+        },
+         {
+            "const": "HiChIPseq",
+            "description": "Proximity Ligation-Assisted ChIP-seq (PLAC-seq), in which proximity ligation is conducted in nuclei prior to chromatin shearing and immunoprecipitationproximity ligation is conducted in nuclei prior to chromatin shearing and immunoprecipitation.",
+            "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5143423/"
         },
         {
             "const": "high content screen",
