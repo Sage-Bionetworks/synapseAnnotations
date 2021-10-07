@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.5",
+    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.6",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -18,6 +18,11 @@
             "const": "BipSeq",
             "description": "BipSeq",
             "source": "https://www.synapse.org/#!Synapse:syn5844980"
+        },
+        {
+            "const": "BrainDev3D",
+            "description": "BrainDev3D",
+            "source": "https://www.synapse.org/#!Synapse:syn26148119"
         },
         {
             "const": "BrainGVEX",
@@ -73,6 +78,11 @@
             "const": "EpiMap",
             "description": "EpiMap",
             "source": "https://www.synapse.org/#!Synapse:syn4566010"
+        },
+        {
+            "const": "flowRNA_WGBS",
+            "description": "flowRNA_WGBS",
+            "source": "https://www.synapse.org/#!Synapse:syn26295319"
         },
         {
             "const": "HumanFC",
