@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.6",
+    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.7",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -158,6 +158,11 @@
             "const": "NeuEnhancer",
             "description": "NeuEnhancer",
             "source": "https://www.synapse.org/#!Synapse:syn20818959"
+        },
+        {
+            "const": "NeuMet",
+            "description": "NeuMet",
+            "source": "https://www.synapse.org/#!Synapse:syn26383430"
         },
         {
             "const": "NeuralRloops",
