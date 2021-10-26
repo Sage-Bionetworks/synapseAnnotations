@@ -160,6 +160,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn20818959"
         },
         {
+            "const": "NeuMet",
+            "description": "NeuMet",
+            "source": "https://www.synapse.org/#!Synapse:syn26383430"
+        },
+        {
             "const": "NeuralRloops",
             "description": "NeuralRloops",
             "source": "https://www.synapse.org/#!Synapse:syn26004570"
