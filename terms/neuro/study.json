@@ -257,7 +257,7 @@
         {
             "const": "Jax.IU.Pitt_Verubecestat_5XFAD",
             "description": "Data from 5XFAD mice treated with verubecestat from the Jax.IU.Pitt MODEL-AD grant",
-            "source": "https://www.synapse.org/#!Synapse:syn21863375"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn21863375"
         },
         {
             "const": "LBP",
