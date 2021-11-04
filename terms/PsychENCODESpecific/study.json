@@ -155,6 +155,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn4590850"
         },
         {
+            "const": "m6A-seqAutism",
+            "description": "m6A-seqAutism",
+            "source": "https://www.synapse.org/#!Synapse:syn26436207"
+        },
+        {
             "const": "NeuEnhancer",
             "description": "NeuEnhancer",
             "source": "https://www.synapse.org/#!Synapse:syn20818959"
