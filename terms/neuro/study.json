@@ -460,6 +460,11 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25533707"
         },
         {
+            "const": "Plxnb1_KO",
+            "description": "The Plxnb1 Knockout Study (Plxnb1_KO)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26453791"
+        },
+        {
             "const": "RADEL",
             "description": "The Resilience to Alzheimer Disease in Humans with Exceptional Longevity (RADEL) Study",
             "source": "https://www.synapse.org/#!Synapse:syn23540132"
