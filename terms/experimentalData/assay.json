@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.16",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.17",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -253,6 +253,11 @@
             "const": "LTP",
             "description": "Any measurable or observable characteristic related to the persistent robust synaptic response induced by synchronous stimulation of pre- and postsynaptic cells.",
             "source": "http://purl.obolibrary.org/obo/VT_0002207"
+        },
+        {
+            "const": "MDMS-SL",
+            "description": "Multidimensional mass spectrometry-based shotgun lipidomics.",
+            "source": "https://doi.org/10.1007/978-1-4939-1258-2_13"
         },
         {
             "const": "memory behavior",
