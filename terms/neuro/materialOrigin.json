@@ -23,7 +23,7 @@
             "const": "UCI_TMF",
             "description": "University of California, Irvine Transgenic Mouse Facility",
             "source": "https://www.research.uci.edu/facilities-services/tmf/index.html"
-        },
+        }
 
     ]
 }
