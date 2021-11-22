@@ -7,27 +7,27 @@
         {
             "const": "4% standard",
             "description": "Standard chow with 4% fat",
-            "source": ""
+            "source": "https://www.labdiet.com"
         },
         {
             "const": "6% standard",
             "description": "Standard chow with 6% fat",
-            "source": ""
+            "source": "https://www.labdiet.com"
         },
         {
             "const": "7% standard",
             "description": "Standard chow with 7% fat",
-            "source": ""
+            "source": "https://www.labdiet.com"
         },
         {
             "const": "45% high-fat diet",
             "description": "Standard chow with 45% fat",
-            "source": ""
+            "source": "https://www.labdiet.com"
         },
         {
             "const": "5W80 western diet",
             "description": "Chow with high fat and fructose content",
-            "source": ""
+            "source": "https://www.labdiet.com"
         },
     ]
 }
