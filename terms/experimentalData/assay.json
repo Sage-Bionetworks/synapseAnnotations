@@ -306,7 +306,7 @@
         },
         {
             "const": "m6A-rnaSeq",
-            "description": "An assay that detects m6A modifications",
+            "description": "An assay that detects m6A modifications in RNA",
             "source": "https://doi.org/10.1186/S13059-020-02249-Z"
         },
         {
