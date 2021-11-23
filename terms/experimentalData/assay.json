@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.16",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.17",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -303,6 +303,11 @@
             "const": "MudPIT",
             "description": "MudPIT is a method for rapid and large-scale protein identification by multidimensional liquid chromatography associated with tandem mass spectrometry",
             "source": "http://purl.obolibrary.org/obo/MI_0658"
+        },
+        {
+            "const": "m6A-rnaSeq",
+            "description": "An assay that detects m6A modifications in RNA",
+            "source": "https://doi.org/10.1186/S13059-020-02249-Z"
         },
         {
             "const": "nextGenerationTargetedSequencing",

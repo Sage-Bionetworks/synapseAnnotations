@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.17",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.18",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -128,6 +128,11 @@
             "const": "Illumina MouseWG-6 v2.0 expression beadchip",
             "description": "Whole-genome expression profiling in the mouse",
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6887"
+        },
+        {
+            "const": "Illumina_Omni2.5-8",
+            "description": "A kit featuring 8-sample arrays with high throughput and optimized tag SNP content, including full support of copy number variation applications, designed to be highly customizable and maximally informative for studying diverse world populations.",
+            "source": "https://www.illumina.com/products/by-type/microarray-kits/infinium-omni25-8.html"
         },
         {
             "const": "Illumina_Omni2.5-8_v1.1",
