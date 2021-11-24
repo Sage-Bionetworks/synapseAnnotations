@@ -255,6 +255,11 @@
             "source": "http://purl.obolibrary.org/obo/VT_0002207"
         },
         {
+            "const": "MDMS-SL",
+            "description": "Multidimensional mass spectrometry-based shotgun lipidomics.",
+            "source": "https://doi.org/10.1007/978-1-4939-1258-2_13"
+        },
+        {
             "const": "memory behavior",
             "description": "Behavior related with the ability of an organism's ability to store, retain, and recall information and experiences.",
             "source": "http://purl.obolibrary.org/obo/NBO_0000170"
