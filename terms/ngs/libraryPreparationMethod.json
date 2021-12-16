@@ -40,6 +40,11 @@
             "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
         },
         {
+            "const": "sac-seq",
+            "description": "TBA - contributor about to publish method",
+            "source": "TBA"
+        },
+        {
             "const": "Smart-seq1",
             "description": "Switch mechanism at the 5' end of RNA templates; Smart-seq 1 library preparation",
             "source": "http://www.ebi.ac.uk/efo/EFO_0008930"
