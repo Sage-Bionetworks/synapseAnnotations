@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-clinical.postmortemToxDetails-0.0.1",
+    "type": "string",
+    "description": "Detailed explainations on how toxicology tests were performed on post mortem tissue"
+}
