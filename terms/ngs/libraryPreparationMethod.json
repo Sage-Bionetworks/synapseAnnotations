@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.6",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.7",
     "description": "Method by which library was prepared",
     "type": "string",
     "anyOf": [
@@ -38,6 +38,11 @@
             "const": "Omni-ATAC",
             "description": "Omni-ATAC-seq library preparation",
             "source": "https://protocolexchange.researchsquare.com/article/nprot-6107/v1"
+        },
+        {
+            "const": "sac-seq",
+            "description": "TBA - contributor about to publish method",
+            "source": "TBA"
         },
         {
             "const": "Smart-seq1",
