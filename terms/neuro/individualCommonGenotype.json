@@ -1,0 +1,69 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sage.annotations-neuro.individualCommonGenotype-0.0.1",
+  "description": "Genotype of animal that includes LOAD1 or LOAD2 terminology. LOAD1=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS. LOAD2=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS; ABETA_HOMOZYGOUS",
+  "anyOf": [
+    {
+      "const": "5XFAD",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "https://www.jax.org/strain/008730"
+    },
+    {
+      "const": "APOE4",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1.ABCA7A1527G",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1.CEACAM1KO",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1.Clasp2L163P",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1.CRllong",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },
+    {
+      "const": "LOAD1.IllrapExon2KO",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },    
+    {
+      "const": "LOAD1.MthfrC677T",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },    
+    {
+      "const": "LOAD1.Snx1D465N",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "<URL OF VALUE'S SOURCE>"
+    },  
+    {
+      "const": "Trem247H",
+      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "source": "https://www.jax.org/strain/027918"
+    }    
+  ]
+}
+
+
+
+
+
+
+

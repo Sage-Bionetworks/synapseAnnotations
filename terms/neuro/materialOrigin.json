@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.materialOrigin-0.0.1",
+    "description": "Facility where sample was collected",
+    "type": "string",
+    "anyOf": [
+        {
+            "const": "IU",
+            "description": "Indiana University",
+            "source": "https://www.indiana.edu/"
+        },
+        {
+            "const": "JAX",
+            "description": "The Jackson Laboratory",
+            "source": "https://www.jax.org"
+        },
+        {
+            "const": "Pitt",
+            "description": "The University of Pittsburgh NIH NeuroBioBank Brain and Tissue Repository",
+            "source": "https://neurobiobank.nih.gov/"
+        },
+        {
+            "const": "UCI_TMF",
+            "description": "University of California, Irvine Transgenic Mouse Facility",
+            "source": "https://www.research.uci.edu/facilities-services/tmf/index.html"
+        }
+    ]
+}
