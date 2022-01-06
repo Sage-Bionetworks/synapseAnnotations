@@ -1,69 +1,77 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-neuro.individualCommonGenotype-0.0.1",
+  "$id": "sage.annotations-neuro.individualCommonGenotype-0.0.2",
   "description": "Genotype of animal that includes LOAD1 or LOAD2 terminology. LOAD1=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS. LOAD2=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS; ABETA_HOMOZYGOUS",
   "anyOf": [
     {
-      "const": "5XFAD",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "https://www.jax.org/strain/008730"
-    },
-    {
-      "const": "APOE4",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
-    },
-    {
       "const": "LOAD1",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "This double mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4) and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/028709"
     },
+    {
+      "const": "LOAD2",
+      "description": "hAbeta/APOE4/Trem2*R47H is a triple mutant strain carrying a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/Cas9-generated App allele with a humanized Abeta1-42 region (G601R, F606Y, R609H in the mouse gene, corresponding to amino acid positions 676, 681, 684 in the human APP locus) and a CRISPR/Cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/030670"
+    },  
     {
       "const": "LOAD1.ABCA7A1527G",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/cas9-generated rs3752246 SNP knock-in mutation of the Abca7 gene (alanine to glycine at position 1527 in exon 33) and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/030283"
     },
     {
       "const": "LOAD1.CEACAM1KO",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/cas9-generated knock-out mutation, deletion of exon 1, of the Ceacam1 gene and a CRISPR/cas9-generated R47H point mutantion of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/030673"
     },
     {
       "const": "LOAD1.Clasp2L163P",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/cas9-generated L163P point mutation of the Clasp2 (CLIP associating protein 2) gene and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/031944"
     },
     {
-      "const": "LOAD1.CRllong",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "const": "LOAD1.CR1long",
+      "description": "This mutant strain carries a knock-in/knock-out Cr2 allele containing the human CR1 gene, the human CR2 gene and the intergenic region between the 2 genes; a humanized ApoE knock-in mutation (sequence coding for isoform E4); and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/031668"
     },
     {
-      "const": "LOAD1.IllrapExon2KO",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "const": "LOAD1.Il1rapExon2KO",
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/Cas9-generated 387bp deletion in the first coding exon knock-out mutation of the Il1rapgene and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
       "source": "<URL OF VALUE'S SOURCE>"
     },    
     {
       "const": "LOAD1.MthfrC677T",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "Mthfr677C>T/APOE4/Trem2*R47H is a triple mutant strain carrying a CRISPR/Cas9-generated A262V point mutation of the methylenetetrahydrofolate reductase gene that models the human C677T polymorphism linked to risk of Alzheimer's disease, a humanized ApoE knock-in mutation (sequence coding for isoform E4) and a CRISPR/Cas9-generated R47H point mutation of the Trem2gene.",
+      "source": "https://www.jax.org/strain/030674"
     },    
     {
+      "const": "LOAD1.Plcg2M28L",
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), CRISPR/Cas9 generated mutant of the Plcg2 gene with the M28L mutation, and a CRISPR/cas9-generated R47H point mutation of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/030674"
+    },
+    {
       "const": "LOAD1.Snx1D465N",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
-      "source": "<URL OF VALUE'S SOURCE>"
+      "description": "This triple mutant strain carries a humanized ApoE knock-in mutation (sequence coding for isoform E4), a CRISPR/cas9-generated D465N point mutation of the Snx1 (sorting nexin 1) gene and a CRISPR/cas9-generated R47H point mutantion of the Trem2 gene.",
+      "source": "https://www.jax.org/strain/31942"
     },  
     {
+      "const": "5XFAD",
+      "description": "5XFAD transgenic mice overexpress both mutant human amyloid beta (A4) precursor protein 695 (APP)) with the Swedish (K670N, M671L), Florida (I716V), and London (V717I) Familial Alzheimer's Disease (FAD) mutations and human PS1 harboring two FAD mutations, M146L and L286V.",
+      "source": "https://www.jax.org/strain/008730"
+    },
+    {
+      "const": "APOE4",
+      "description": "This mutant of the Apoe gene carries a humanized ApoE knock-in mutation (sequence coding for isoform E4).",
+      "source": "https://www.jax.org/strain/027894"
+    },
+    {
       "const": "Trem247H",
-      "description": "<DESCRIPTION OF ALLOWABLE VALUE>",
+      "description": "This CRISPR/Cas9-generated mutant of the Trem2 gene carries a R47H point mutation which has been shown to increase Alzheimer's disease risk.",
       "source": "https://www.jax.org/strain/027918"
+    },
+    {
+      "const": "C57BL6J",
+      "description": "C57BL/6 is the most widely used inbred strain. It is commonly used as a general purpose strain and background strain for the generation of congenics carrying both spontaneous and induced mutations.",
+      "source": "https://www.jax.org/strain/000664"
     }    
-  ]
+  ]    
 }
-
-
-
-
-
-
-
