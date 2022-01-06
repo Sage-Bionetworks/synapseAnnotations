@@ -626,7 +626,7 @@
         },
         {
             "const": "UCI_Multiomics",
-            "description": "The UCI ADRC Multiomics Study,
+            "description": "The UCI ADRC Multiomics Study",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26670419"
         },
         {
