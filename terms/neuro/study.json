@@ -60,6 +60,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn9705311"
         },
         {
+            "const": "Aging-PheWAS",
+            "description": "Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
+            "source": "https://www.synapse.org/#!Synapse:syn26720399"
+        },
+        {
             "const": "APOEPSC",
             "description": "The impact of APOE on aging-related conditions in human iPSC models (APOEPSC) study",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25914209"
