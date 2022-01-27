@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.7",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.8",
     "description": "Method by which library was prepared",
     "type": "string",
     "anyOf": [
@@ -58,6 +58,11 @@
             "const": "Smart-seq4",
             "description": "Smart-seq4 library preparation",
             "source": "https://www.takarabio.com/products/next-generation-sequencing/single-cell-rna-and-dna-seq/smart-seq-v4-for-mrna-seq"
+        },
+        {
+            "const": "SMRTbell",
+            "description": "A SMRTbell template is a double-stranded DNA template capped by hairpin loops at both ends. The SMRTbell template preparation method creates a circularized template for use in SMRT Sequencing and can accommodate insert lengths from 250bp to > 20,000 bp",
+            "source": "http://files.pacb.com/Training/IntroductiontoSMRTbellTemplatePreparation/story_content/external_files/Introduction%20to%20SMRTbell%E2%84%A2%20Template%20Preparation.pdf"
         },
         {
             "const": "TruSeq",

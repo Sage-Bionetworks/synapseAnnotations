@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.13",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.14",
     "description": "Database or repository to which individual ID maps",
     "type": "string",
     "anyOf": [
@@ -108,6 +108,11 @@
             "const": "Novogenix",
             "description": "Novogenix Laboratories",
             "source": ""
+        },
+        {
+            "const": "NYBB",
+            "description": "New York Brain Bank at Columbia University",
+            "source": "http://www.columbianeuroresearch.org/taub/res-investigation.html#NewYork"
         },
         {
             "const": "Oxford",

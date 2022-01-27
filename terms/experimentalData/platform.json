@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.18",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.19",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -293,6 +293,11 @@
             "const": "PacBioRSII",
             "description": "PacBio RS II",
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL21311"
+        },
+        {
+            "const": "PacBio Sequel II",
+            "description": "A DNA sequencer built upon single molecule real-time sequencing technology, optimized for generation of highly accurate long reads, and which is manufactured by the Pacific Biosciences corporation.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002633"
         },
         {
             "const": "Perlegen300Karray",
