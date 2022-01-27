@@ -61,7 +61,7 @@
         },
         {
             "const": "SMRTbell",
-            "description": "A SMRTbell™ template is a double-stranded DNA template capped by hairpin loops at both ends. The SMRTbell template preparation method creates a circularized template for use in SMRT® Sequencing and can accommodate insert lengths from 250bp to > 20,000 bp",
+            "description": "A SMRTbell template is a double-stranded DNA template capped by hairpin loops at both ends. The SMRTbell template preparation method creates a circularized template for use in SMRT Sequencing and can accommodate insert lengths from 250bp to > 20,000 bp",
             "source": "http://files.pacb.com/Training/IntroductiontoSMRTbellTemplatePreparation/story_content/external_files/Introduction%20to%20SMRTbell%E2%84%A2%20Template%20Preparation.pdf"
         },
         {
