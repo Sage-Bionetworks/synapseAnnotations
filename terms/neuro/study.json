@@ -470,6 +470,11 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25533707"
         },
         {
+            "const": "Organoid_scRNAseq",
+            "description": "The AD cerebral organoid single-cell transcriptome study",
+            "source": "https://www.synapse.org/#!Synapse:syn26865580"
+        },
+        {
             "const": "Plxnb1_KO",
             "description": "The Plxnb1 Knockout Study (Plxnb1_KO)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26453791"
