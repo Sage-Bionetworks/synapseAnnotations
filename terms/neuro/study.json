@@ -472,7 +472,7 @@
         {
             "const": "Organoid_scRNAseq",
             "description": "The AD cerebral organoid single-cell transcriptome study",
-            "source": "https://www.synapse.org/#!Synapse:syn26865580"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26865580"
         },
         {
             "const": "Plxnb1_KO",
@@ -487,7 +487,7 @@
         {
             "const": "ROSMAP",
             "description": "Religious Orders Study and Memory and Aging Project",
-            "source": "https://www.synapse.org/#!Synapse:syn3219045"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn3219045"
         },
         {
             "const": "ROSMAP_bsSeq",
