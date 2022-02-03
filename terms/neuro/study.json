@@ -62,7 +62,7 @@
         {
             "const": "Aging-PheWAS",
             "description": "Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
-            "source": "https://www.synapse.org/#!Synapse:syn26720399"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26720399"
         },
         {
             "const": "APOEPSC",
@@ -487,7 +487,7 @@
         {
             "const": "ROSMAP",
             "description": "Religious Orders Study and Memory and Aging Project",
-            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn3219045"
+            "source": "https://www.synapse.org/#!Synapse:syn3219045"
         },
         {
             "const": "ROSMAP_bsSeq",
