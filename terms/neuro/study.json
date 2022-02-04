@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.40",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.41",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -62,7 +62,7 @@
         {
             "const": "Aging-PheWAS",
             "description": "Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
-            "source": "https://www.synapse.org/#!Synapse:syn26720399"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26720399"
         },
         {
             "const": "APOEPSC",
@@ -468,6 +468,11 @@
             "const": "omicsADDS",
             "description": "Multiomic Studies of Alzheimer's Disease in Adults with Down Syndrome (omicsADDS)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25533707"
+        },
+        {
+            "const": "Organoid_scRNAseq",
+            "description": "The AD cerebral organoid single-cell transcriptome study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26865580"
         },
         {
             "const": "Plxnb1_KO",
