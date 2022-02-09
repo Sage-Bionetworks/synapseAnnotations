@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.19",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.20",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -268,6 +268,11 @@
             "const": "NextSeq500",
             "description": "Illumina NextSeq 500",
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL18573"
+        },
+        {
+            "const": "NextSeq2000",
+            "description": "Illumina NextSeq 2000",
+            "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL30173"
         },
         {
             "const": "Olink Target 96",
