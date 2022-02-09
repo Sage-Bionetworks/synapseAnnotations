@@ -20,6 +20,11 @@
             "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/"
         },
         {
+            "const": "GRCm38",
+            "description": "Genome Reference Consortium Mouse Build 38",
+            "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001635.20/"
+        },
+        {
             "const": "MMUL1.0",
             "description": "Ensembl preliminary assembly Macaca mulatta",
             "source": "https://jul2016.archive.ensembl.org/Macaca_mulatta/Info/Index"
