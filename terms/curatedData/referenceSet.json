@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-curatedData.referenceSet-0.0.3",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-curatedData.referenceSet-0.0.4",
     "description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
     "type": "string",
     "anyOf": [
@@ -19,6 +19,11 @@
             "description": "Genome Reference Consortium Human Build 37",
             "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.13/"
         },
+        {
+            "const": "GRCm38",
+            "description": "Genome Reference Consortium Mouse Build 38",
+            "source": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001635.20/"
+        },        
         {
             "const": "MMUL1.0",
             "description": "Ensembl preliminary assembly Macaca mulatta",
