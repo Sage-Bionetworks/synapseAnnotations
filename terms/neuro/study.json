@@ -25,6 +25,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn5759376"
         },
         {
+            "const": "ADAMTS7",
+            "description": "The Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26969078"
+        },
+        {
             "const": "AD-BXD",
             "description": "The AD-BXD study",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn17016211"
