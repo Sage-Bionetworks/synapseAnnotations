@@ -20,6 +20,11 @@
             "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C16352"
         },
         {
+            "const": "Multiracial",
+            "description": "Having ancestors of several or various races.",
+            "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C67109"
+        },
+        {
             "const": "Native Hawaiian or Other Pacific Islander",
             "description": "A person having origins in any of the original peoples of Hawaii, Guam, Samoa, or other Pacific Islands",
             "source": "https://ncit.nci.nih.gov/ncitbrowser/pages/concept_details.jsf?dictionary=NCI%20Thesaurus&code=C41219"
