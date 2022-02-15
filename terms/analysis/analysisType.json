@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.10",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.11",
     "description": "Type of analysis",
     "type": "string",
     "anyOf": [
@@ -208,6 +208,11 @@
             "const": "statistical network reconstruction",
             "description": "Learning network relationships between genes based on their coexpression patterns.",
             "source": "http://bioontology.org/ontologies/BiomedicalResourceOntology.owl#Signaling_Network_Reconstruction"
+        },
+        {
+            "const": "structural variation detection",
+            "description": "Detection of large regions in a genome subject to copy-number variation or other structural variations.",
+            "source": "http://edamontology.org/operation_3228"
         },
         {
             "const": "Supervised Machine Learning",
