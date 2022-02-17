@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.42",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.43",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -668,6 +668,11 @@
             "const": "UCSF_MAC",
             "description": "The UCSF Memory and Aging Center Study (UCSF_MAC)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25686496"
+        },
+        {
+            "const": "UFLOR_ABI3_GNGT2",
+            "description": "Abi3/Gngt2 deletion influences amyloid B and tau pathologies (UFLOR_ABI3_GNGT2 Study)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn27056180"
         },
         {
             "const": "UPenn",
