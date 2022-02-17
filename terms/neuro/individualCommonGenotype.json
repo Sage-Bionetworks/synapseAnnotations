@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "sage.annotations-neuro.individualCommonGenotype-0.0.2",
+  "$id": "sage.annotations-neuro.individualCommonGenotype-0.0.3",
   "description": "Genotype of animal that includes LOAD1 or LOAD2 terminology. LOAD1=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS. LOAD2=APOE4_HOMOZYGOUS; TREM2R47H_HOMOZYGOUS; ABETA_HOMOZYGOUS",
   "anyOf": [
     {
@@ -72,6 +72,16 @@
       "const": "C57BL6J",
       "description": "C57BL/6 is the most widely used inbred strain. It is commonly used as a general purpose strain and background strain for the generation of congenics carrying both spontaneous and induced mutations.",
       "source": "https://www.jax.org/strain/000664"
+    },
+    {
+      "const": "Trem2-R47H_NSS",
+      "description": "The value represents Trem2-R47H_NSS_homozygous on C57BL/6J coisogenic background. The Trem2-R467H_NSS is carrying the R47H mutation and expresses at a level similar to the wild-type Trem2 allele, with no evidence of cryptic splicing products from the mutant allele.",
+      "source": "https://www.jax.org/strain/034036"
+    },
+    {
+      "const": "5XFADTrem2-R47H_NSS",
+      "description": "The value represents double mutant genotype of 5XFAD_Carrier; Trem2-R47H_NSS_homozygous. This genotype group was created by crossing 5XFAD (034848-JAX) and Trem2-R47H_NSS (034036). This line is on C57BL/6J coisogenic background.",
+      "source": ""
     }    
   ]    
 }
