@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.20",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.21",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -123,6 +123,11 @@
             "const": "Illumina_HumanOmni1-Quadv1.0",
             "description": "Illumina HumanOmni1 Quad v1.0",
             "source": "Sage Bionetworks"
+        },
+        {
+            "const": "llumina Infinium General Screening Array 24-Kit v3.0",
+            "description": "Illumina Infinium General Screening Array 24-Kit v3.0",
+            "source": "https://www.illumina.com/products/by-type/microarray-kits/infinium-global-screening.html"
         },
         {
             "const": "Illumina MouseWG-6 v2.0 expression beadchip",
