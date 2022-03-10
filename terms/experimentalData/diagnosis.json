@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.diagnosis-0.0.10",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.diagnosis-0.0.11",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "type": "string",
     "anyOf": [
@@ -83,6 +83,16 @@
             "const": "dementia",
             "description": "An acquired organic mental disorder with loss of intellectual abilities of sufficient severity to interfere with social or occupational functioning. The dysfunction is multifaceted and involves memory, behavior, personality, judgment, attention, spatial relations, language, abstract thought, and other executive functions. The intellectual decline is usually progressive, and initially spares the level of consciousness.",
             "source": "http://purl.obolibrary.org/obo/DOID_1307"
+        },
+        {
+            "const": "dystonia",
+            "description": "A movement disease that is characterized by involuntary muscle contractions causing repetitive or twisting movements.",
+            "source": "http://purl.obolibrary.org/obo/DOID_543"
+        },
+        {
+            "const": "essential tremor",
+            "description": "A movement disorder characterized by a fairly specific pattern of tremors which are most prominent in the upper extremities and neck, inducing titubations of the head. The tremor is usually mild, but when severe may be disabling.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0003108"
         },
         {
             "const": "Fibrocystic Breast Disease",
@@ -168,6 +178,11 @@
             "const": "obesity",
             "description": "An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has material basis in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.",
             "source": "http://purl.obolibrary.org/obo/DOID_9970"
+        },
+        {
+            "const": "obsessive compulsive disorder",
+            "description": "A disorder characterized by the presence of persistent and recurrent irrational thoughts (obsessions), resulting in marked anxiety and repetitive excessive behaviors (compulsions) as a way to try to decrease that anxiety. Abbreviation OCD.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C88411"
         },
         {
             "const": "Ovary Cancer",

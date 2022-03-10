@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.38",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.43",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -24,6 +24,11 @@
             "description": "Adult Changes in Thought ",
             "source": "https://www.synapse.org/#!Synapse:syn5759376"
         },
+        {
+            "const": "ADAMTS7",
+            "description": "The Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26969078"
+        },        
         {
             "const": "AD-BXD",
             "description": "The AD-BXD study",
@@ -58,6 +63,11 @@
             "const": "ADMC_UPenn",
             "description": "Metabolomics on AD",
             "source": "https://www.synapse.org/#!Synapse:syn9705311"
+        },
+        {
+            "const": "Aging-PheWAS",
+            "description": "Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26720399"
         },
         {
             "const": "APOEPSC",
@@ -465,6 +475,11 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25533707"
         },
         {
+            "const": "Organoid_scRNAseq",
+            "description": "The AD cerebral organoid single-cell transcriptome study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26865580"
+        },
+        {
             "const": "Plxnb1_KO",
             "description": "The Plxnb1 Knockout Study (Plxnb1_KO)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26453791"
@@ -555,6 +570,11 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25672226"
         },
         {
+            "const": "SV_xQTL",
+            "description": "The Structural Variation xQTL Study (SV_xQTL)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26865111"
+        },
+        {
             "const": "SWS",
             "description": "Arivale-Providence Feasibility Study of Scientific Wellness (Scientific Wellness Study - SWS)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25807950"
@@ -625,9 +645,19 @@
             "source": "https://www.synapse.org/#!Synapse:syn22341542"
         },
         {
+            "const": "UCI_Multiomics",
+            "description": "The UCI ADRC Multiomics Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26670419"
+        },
+        {
             "const": "UCI_StrainValidation",
             "description": "Strain validation data from the UCI MODEL-AD grant",
             "source": "https://www.synapse.org/#!Synapse:syn21595257"
+        },
+        {
+            "const": "UCI_Trem2-R47H_NSS",
+            "description": "The UCI_Trem2-R47H_NSS Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26943950"
         },
         {
             "const": "UCLA-ASD",
@@ -638,6 +668,11 @@
             "const": "UCSF_MAC",
             "description": "The UCSF Memory and Aging Center Study (UCSF_MAC)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25686496"
+        },
+        {
+            "const": "UFLOR_ABI3_GNGT2",
+            "description": "Abi3/Gngt2 deletion influences amyloid B and tau pathologies (UFLOR_ABI3_GNGT2 Study)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn27056180"
         },
         {
             "const": "UPenn",
