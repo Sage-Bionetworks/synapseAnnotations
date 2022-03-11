@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.12",
     "description": "Type of analysis",
     "type": "string",
     "anyOf": [
@@ -68,6 +68,11 @@
             "const": "differential expression",
             "description": "Genes or isoforms that are differentially expressed between two conditions.",
             "source": "http://uri.neuinfo.org/nif/nifstd/nlx_qual_100810"
+        },
+        {
+            "const": "differential methylation",
+            "description": "Differences in methylation between a test sample and a normal comparison sample.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C123883"
         },
         {
             "const": "differential network anaysis",
