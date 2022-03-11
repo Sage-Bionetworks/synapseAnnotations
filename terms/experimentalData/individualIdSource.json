@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.14",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.15",
     "description": "Database or repository to which individual ID maps",
     "type": "string",
     "anyOf": [
@@ -33,6 +33,11 @@
             "const": "Clotomics_PAIKEA_MSSM",
             "description": "",
             "source": "https://icahn.mssm.edu/"
+        },
+        {
+            "const": "DongLab",
+            "description": "Laboratory of Translational Neurobiology led by Principal Investigator Dr. Hongxin Dong MD PhD at Northwestern University.",
+            "source": "https://sites.northwestern.edu/donglab/"
         },
         {
             "const": "Einstein",
