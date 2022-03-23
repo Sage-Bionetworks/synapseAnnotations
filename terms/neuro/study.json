@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.43",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.44",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -543,6 +543,11 @@
             "const": "scRNAseq_microglia_wild_ADmice",
             "description": "Microglia of wild-derived Alzheimer's mouse study (scRNAseq_microglia_wild_ADmice)",
             "source": "https://www.synapse.org/#!Synapse:syn23763501"
+        },
+        {
+            "const": "SEA-AD",
+            "description": "The Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26223298"
         },
         {
             "const": "SMIB-AD",
