@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.consortium-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.consortium-0.0.5",
     "description": "The name of the consortium",
     "type": "string",
     "anyOf": [
@@ -73,6 +73,11 @@
             "const": "Psych-AD",
             "description": "Neuropsychiatric Symptoms in Alzheimer's Disease",
             "source": "https://adknowledgeportal.synapse.org/Explore/Programs/DetailsPage?Program=Psych-AD"
+        },
+        {
+            "const": "ELITE",
+            "description": "Exceptional Longevity Translational Resources",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Programs/DetailsPage?Program=ELITE"
         },
         {
             "const": "Not Applicable",
