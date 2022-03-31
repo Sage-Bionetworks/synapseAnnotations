@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.12",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.13",
     "description": "Type of analysis",
     "type": "string",
     "anyOf": [
@@ -20,8 +20,8 @@
             "source": "https://www.ncbi.nlm.nih.gov/pubmed/16632515"
         },
         {
-            "const": "caQTL",
-            "description": "Chromatin accessible quantitative trait locus analysis. Also abbreviated chQTL.",
+            "const": "chromatin accessible quantitative trait loci detection",
+            "description": "Chromatin accessible quantitative trait locus analysis. Also abbreviated caQTL or chQTL.",
             "source": "https://www.cell.com/cell/pdf/S0092-8674(17)31253-9.pdf"
         },
         {
@@ -101,7 +101,7 @@
         },
         {
             "const": "expression quantitative trait loci detection",
-            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein.",
+            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the expression of a specific mRNA or protein. Abbreviated eQTL.",
             "source": "https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C113415"
         },
         {
@@ -146,7 +146,7 @@
         },
         {
             "const": "methylation quantitative trait loci detection",
-            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA.",
+            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate the methylation of DNA. Abbreviated mQTL or meQTL.",
             "source": "https://doi.org/10.1186/gb-2011-12-1-r10"
         },
         {
@@ -181,7 +181,7 @@
         },
         {
             "const": "protein quantitative trait loci detection",
-            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate protein expression.",
+            "description": "A stretch of DNA at a particular chromosomal location that is able to regulate protein expression. Abbreviated pQTL.",
             "source": "https://doi.org/10.1371/journal.pgen.1000072"
         },
         {
