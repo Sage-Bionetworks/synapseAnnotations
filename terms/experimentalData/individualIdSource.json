@@ -55,6 +55,11 @@
             "source": "https://geschwindlab.dgsom.ucla.edu/pages/"
         },
         {
+            "const": "HBSFRC",
+            "description": "Located at UCSF, The Human Brain and Spinal Fluid Resource Center (HBSFRC) is a brain bank for neuroscientists. The Center collects, stores, and distributes the highest quality of pre- and post-mortem tissues, including brain, spinal cord, cerebrospinal fluid (CSF), serum, blood cells and urine, to be use by scientific investigators of neurological and psychiatric diseases.",
+            "source": "http://brainbank.ucla.edu/"
+        },
+        {
             "const": "HBTRC",
             "description": "Harvard Brain Tissue Resource Center",
             "source": "https://hbtrc.mclean.harvard.edu/"
