@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.15",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.16",
     "description": "Database or repository to which individual ID maps",
     "type": "string",
     "anyOf": [
@@ -53,6 +53,11 @@
             "const": "Geschwind",
             "description": "The Geschwind Lab",
             "source": "https://geschwindlab.dgsom.ucla.edu/pages/"
+        },
+        {
+            "const": "HBSFRC",
+            "description": "Located at UCSF, The Human Brain and Spinal Fluid Resource Center (HBSFRC) is a brain bank for neuroscientists. The Center collects, stores, and distributes the highest quality of pre- and post-mortem tissues, including brain, spinal cord, cerebrospinal fluid (CSF), serum, blood cells and urine, to be use by scientific investigators of neurological and psychiatric diseases.",
+            "source": "http://brainbank.ucla.edu/"
         },
         {
             "const": "HBTRC",
