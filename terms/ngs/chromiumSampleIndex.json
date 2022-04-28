@@ -1,0 +1,8 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.chromiumSampleIndex-0.0.1",
+    "type": "string",
+    "description": "Chromium sample indexes each comprise four oligonucleotides. When analyzing Chromium sequencing data for a given sample, you must combine the reads associated with all four of the oligonucleotides in the sample index.",
+    "source": "https://support.10xgenomics.com/single-cell-atac/sequencing/doc/specifications-sample-index-sets-for-single-cell-atac"
+  }
+  

@@ -1,0 +1,7 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-qc.Q30BasesinRead2-0.0.1",
+    "type": "number",
+    "description": "The Q30 value provides the percentage of bases sequenced with a Phred score of at least 30, corresponding to an error rate of 0.1%.",
+    "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7826284/"
+}
