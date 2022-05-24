@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.tissue-0.0.9",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.tissue-0.0.10",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "type": "string",
     "anyOf": [
@@ -68,6 +68,11 @@
             "const": "cortical plate",
             "description": "The outer neural tube region in which post-mitotic neuroblasts migrate along radial glia to form the adult cortical layers",
             "source": "http://purl.obolibrary.org/obo/UBERON_0005343"
+        },
+        {
+            "const": "dorsal anterior cingulate cortex",
+            "description": "Dorsal anterior cingulate cortex (dACC) is a brain region that subserves cognition and motor control, but the mechanisms of these functions remain unknown.",
+            "source": "https://www.pnas.org/doi/10.1073/pnas.012470999"
         },
         {
             "const": "dorsal pallium",
