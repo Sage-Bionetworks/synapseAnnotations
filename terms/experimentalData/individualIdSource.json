@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.16",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.individualIdSource-0.0.17",
     "description": "Database or repository to which individual ID maps",
     "type": "string",
     "anyOf": [
@@ -18,6 +18,11 @@
             "const": "ADNI",
             "description": "Alzheimer's Disease Neuroimaging Initiative",
             "source": "http://adni.loni.usc.edu/"
+        },
+        {
+            "const": "AIBS",
+            "description": "Allen Institute for Brain Science",
+            "source": "https://alleninstitute.org/what-we-do/brain-science/research/allen-institute-brain-science/"
         },
         {
             "const": "BannerSun",
