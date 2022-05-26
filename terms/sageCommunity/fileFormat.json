@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.5",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.6",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -433,6 +433,11 @@
             "const": "xml",
             "description": "eXtensible Markup Language (XML) format.",
             "source": "http://edamontology.org/format_2332"
+        },
+        {
+            "const": "yaml",
+            "description": "YAML (YAML Ain't Markup Language) format.",
+            "source": "http://edamontology.org/format_3750"
         },
         {
             "const": "zip",
