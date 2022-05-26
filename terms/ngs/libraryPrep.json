@@ -47,7 +47,7 @@
 	{
             "const": "mulitome",
             "description": "10x Chromium Single Cell Multiome ATAC + Gene Expression workflow to simultaneously profile gene expression and open chromatin from the same cell.",
-            "source": "https://pages.10xgenomics.com/rs/446-PBO-704/images/10x_LIT099_Product-Sheet_Chromium-Single-Cell-Multiome-ATAC-Gene-Expression_Letter_digital.pdf"
+            "source": "http://www.ebi.ac.uk/efo/EFO_0030059"
 	},
         {
             "const": "MULTIseq",
