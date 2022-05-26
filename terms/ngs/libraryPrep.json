@@ -45,7 +45,7 @@
             "source": "Sage Bionetworks"
         },
 	{
-            "const": "mulitome",
+            "const": "multiome",
             "description": "10x Chromium Single Cell Multiome ATAC + Gene Expression workflow to simultaneously profile gene expression and open chromatin from the same cell.",
             "source": "http://www.ebi.ac.uk/efo/EFO_0030059"
 	},
