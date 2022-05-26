@@ -5,13 +5,23 @@
     "type": "string",
     "anyOf": [
         {
+            "const": "dataMatrix",
+            "description": "A file of data containing multiple values for multiple samples.",
+            "source": ""
+        },
+        {
+            "const": "metadata",
+            "description": "A file of clinical, technical, or other parameters that describe a dataset.",
+            "source": ""
+        },
+        {
             "const": "normalized",
             "description": "A data set that is produced as the output of a normalization data transformation.",
             "source": "http://purl.obolibrary.org/obo/OBI_0000451"
         },
         {
-            "const": "dataMatrix",
-            "description": "A file of data containing multiple values for multiple samples.",
+            "const": "processed",
+            "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
             "source": ""
         },
         {
@@ -23,16 +33,6 @@
             "const": "residualized",
             "description": "A data file which is the output of an error estimate or model fitting process and which is an observable estimate of the unobservable error.",
             "source": "http://purl.obolibrary.org/obo/STATO_0000234"
-        },
-        {
-            "const": "processed",
-            "description": "A file of data generated from running one or more bioinformatics methods on a raw file.",
-            "source": ""
-        },
-        {
-            "const": "metadata",
-            "description": "A file of clinical, technical, or other parameters that describe a dataset.",
-            "source": ""
         }
     ]
 }
