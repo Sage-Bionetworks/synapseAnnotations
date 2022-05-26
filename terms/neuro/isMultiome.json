@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.isMultiome-0.0.1",
+  "description": "Boolean flag indicating whether the data file was generated as a result of the 10x Multiome single cell ATACseq and gene expression profiling method.",
+  "type": "boolean"
+}
