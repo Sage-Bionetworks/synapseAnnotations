@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.18",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.19",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -88,6 +88,11 @@
             "const": "contextual conditioning behavior",
             "description": "",
             "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+        },
+        {
+            "const": "DIA",
+            "description": "Data-independent acquisition (DIA) is a method for collecting tandem mass spectrometry data where the m/z values for all the ions are fragmented and analyzed during the second stage of spectrometry.",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C161786"
         },
         {
             "const": "DNA optical mapping",
@@ -423,6 +428,11 @@
             "const": "scale",
             "description": "An instrument or machine for weighing.",
             "source": "http://purl.obolibrary.org/obo/MMO_0000217"
+        },
+        {
+            "const": "scATACSeq",
+            "description": "A method for detecting the accessible chromatin in individual cells by transposase-accessible chromatin sequencing assay.",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0010891"
         },
         {
             "const": "scCGIseq",
