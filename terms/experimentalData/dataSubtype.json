@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.dataSubtype-0.0.2",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.dataSubtype-0.0.3",
     "description": "Further qualification of dataType, which may be used to indicate the state of processing of the data, aggregation of the data, or presence of metadata.",
     "type": "string",
     "anyOf": [
@@ -18,6 +18,11 @@
             "const": "raw",
             "description": "A data file produced by an instrument, or one with very little subsequent processing.",
             "source": ""
+        },
+        {
+            "const": "residualized",
+            "description": "A data file which is the output of an error estimate or model fitting process and which is an observable estimate of the unobservable error.",
+            "source": "http://purl.obolibrary.org/obo/STATO_0000234"
         },
         {
             "const": "processed",
