@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.modelSystemName-0.0.6",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.modelSystemName-0.0.7",
     "description": "",
     "type": "string",
     "anyOf": [
@@ -93,6 +93,11 @@
             "const": "APPPS1",
             "description": "double transgenic mice expressing a chimeric mouse/human amyloid precursor protein (Mo/HuAPP695swe) and a mutant human presenilin 1 (PS1-dE9)",
             "source": "https://www.jax.org/strain/005864"
+        },
+        {
+            "const": "APPS1_Plexin-B1-KO",
+            "description": "Plexin-B1 KO line Plxnb1tm1Matl crossed with APP/PS1 transgenic mice, MGI allele MGI:3765917; this KO line carries a lacZ-IRES-PLAP reporter inserted into the Plxnb1 locus (Friedel et al., 2005).",
+            "source": "http://labs.neuroscience.mssm.edu/project/friedel-lab/"
         },
         {
         	"const": "B6.Clu",
@@ -215,6 +220,11 @@
             "source": "https://www.jax.org/strain/030674"
         },
         {
+            "const": "Plexin-B1-KO",
+            "description": "Plexin-B1 KO line Plxnb1tm1Matl, MGI allele MGI:3765917; this KO line carries a lacZ-IRES-PLAP reporter inserted into the Plxnb1 locus (Friedel et al., 2005).",
+            "source": "http://labs.neuroscience.mssm.edu/project/friedel-lab/"
+        },
+        {
             "const": "rTg4510",
             "description": "",
             "source": ""
@@ -233,6 +243,16 @@
             "const": "Spi1rs1377416",
             "description": "CRISPR/Cas9-generated mutant of the spleen focus forming virus (SFFV) proviral integration oncogene (Spi1) gene carrying a missense mutation that corresponds to the human SNP rs1377416 found in human SPI1 that has been found to be a functional variant that is active in human myeloid cells and in the brain of a mouse model of Alzheimer's disease (AD).",
             "source": "https://www.jax.org/strain/035873"
+        },
+        {
+            "const": "TAUPS19",
+            "description": "The PS19 mouse model harbors the T34 isoform of microtubule-associated protein tau with one N-terminal insert and four microtubule binding repeats (1N4R) encoding the human P301S mutation, all driven by the mouse prion protein promoter.",
+            "source": "https://www.jax.org/strain/008169"
+        },
+        {
+            "const": "TAUPS19_Plexin-B1-KO",
+            "description": "Plexin-B1 KO line Plxnb1tm1Matl crossed with TAU-PS19 transgenic mice, MGI allele MGI:3765917; this KO line carries a lacZ-IRES-PLAP reporter inserted into the Plxnb1 locus (Friedel et al., 2005).",
+            "source": "http://labs.neuroscience.mssm.edu/project/friedel-lab/"
         },
         {
             "const": "TREM2",

@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.13",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-analysis.analysisType-0.0.14",
     "description": "Type of analysis",
     "type": "string",
     "anyOf": [
@@ -75,7 +75,7 @@
             "source": "http://purl.obolibrary.org/obo/NCIT_C123883"
         },
         {
-            "const": "differential network anaysis",
+            "const": "differential network analysis",
             "description": "Identification of changes in coexpression patterns between two conditions.",
             "source": "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000616"
         },
