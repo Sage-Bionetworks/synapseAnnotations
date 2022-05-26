@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.10",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.11",
     "description": "The general strategy by which the library was prepared",
     "type": "string",
     "anyOf": [
@@ -44,6 +44,11 @@
             "description": "RNA library with size selection for microRNAs",
             "source": "Sage Bionetworks"
         },
+	{
+            "const": "mulitome",
+            "description": "10x Chromium Single Cell Multiome ATAC + Gene Expression workflow to simultaneously profile gene expression and open chromatin from the same cell.",
+            "source": "https://pages.10xgenomics.com/rs/446-PBO-704/images/10x_LIT099_Product-Sheet_Chromium-Single-Cell-Multiome-ATAC-Gene-Expression_Letter_digital.pdf"
+	},
         {
             "const": "MULTIseq",
             "description": "MULTI-seq is a method that uses lipid tagged barcode oligos to label cells prior to processing using 10x Genomics",
