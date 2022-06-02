@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.44",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.45",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -58,7 +58,12 @@
             "const": "ADMC_ADNI_NightingaleNMR",
             "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
             "source": "https://www.synapse.org/#!Synapse:syn23557831"
-        },    
+        },
+        {
+            "const": "ADMC_ADNI_UHawaiiGutMetabolites",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative University of Hawaii Gut Metabolites (ADMC_ADNI_UHawaiiGutMetabolites) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn31513378"
+        }, 
         {
             "const": "ADMC_UPenn",
             "description": "Metabolomics on AD",
@@ -318,6 +323,11 @@
             "const": "MC-CAA",
             "description": "RNAseq data on cerebral amyloid angiopathy (CAA) pathology",
             "source": "https://www.synapse.org/#!Synapse:syn9779506"
+        },
+        {
+            "const": "MC_snRNA",
+            "description": "The Mayo Clinic Single Nucleus RNAseq Study (MC_snRNA)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn31511672"
         },
         {
             "const": "MCMPS",
