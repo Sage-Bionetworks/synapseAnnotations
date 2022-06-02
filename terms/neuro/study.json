@@ -58,7 +58,12 @@
             "const": "ADMC_ADNI_NightingaleNMR",
             "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative Nightingale NMR (ADMC_ADNI_NightingaleNMR) Study",
             "source": "https://www.synapse.org/#!Synapse:syn23557831"
-        },    
+        },
+        {
+            "const": "ADMC_ADNI_UHawaiiGutMetabolites",
+            "description": "The Alzheimer's Disease Metabolomics Consortium Alzheimer's Disease Neuroimaging Initiative University of Hawaii Gut Metabolites (ADMC_ADNI_UHawaiiGutMetabolites) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn31513378"
+        }, 
         {
             "const": "ADMC_UPenn",
             "description": "Metabolomics on AD",
