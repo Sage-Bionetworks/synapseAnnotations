@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.9",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPreparationMethod-0.0.10",
     "description": "Method by which library was prepared",
     "type": "string",
     "anyOf": [
@@ -73,6 +73,11 @@
             "const": "TruSeq",
             "description": "TruSeq library preparation",
             "source": "https://github.com/HumanCellAtlas/metadata-schema/blob/master/json_schema/type/process/sequencing/library_preparation_process.json"
+        },
+        {
+            "const": "Ultralow Methyl-Seq",
+            "description": "The Ultralow Methyl-Seq library preparation kit produces libraries used in conjunction with bisulfite sequencing to analyze DNA methylation. With input levels as low as 10 ng, the kit enables methylation studies for a broad range of sample types and can be completed within 6 hours.",
+            "source": "https://lifesciences.tecan.com/ultralow-methyl-seq-truemethyl-oxbs"
         }
     ]
 }
