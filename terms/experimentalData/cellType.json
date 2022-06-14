@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.cellType-0.0.8",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.cellType-0.0.9",
     "description": "A cell type is a distinct morphological or functional form of cell.",
     "type": "string",
     "anyOf": [
@@ -68,6 +68,11 @@
             "const": "GABAergic neurons",
             "description": "A neuron that uses GABA as a vesicular neurotransmitter.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/zfa/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FZFA_0009276"
+        },
+        {
+            "const": "glia",
+            "description": "The delicate network of branched cells and fibers that supports the tissue of the central nervous system.",
+            "source": "http://purl.obolibrary.org/obo/BTO_0000524"
         },
         {
             "const": "GLUtamatergic neurons",
