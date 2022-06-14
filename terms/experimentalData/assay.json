@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.19",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.20",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -88,6 +88,11 @@
             "const": "contextual conditioning behavior",
             "description": "",
             "source": "http://purl.obolibrary.org/obo/NBO_0000223"
+        },
+        {
+            "const": "CUT&Tag",
+            "description": "In CUT&Tag, a chromatin protein is bound in situ by a specific antibody, which then tethers a protein A-Tn5 transposase fusion protein. Activation of the transposase efficiently generates fragment libraries with high resolution and exceptionally low background.",
+            "source": "https://www.nature.com/articles/s41467-019-09982-5"
         },
         {
             "const": "DIA",
