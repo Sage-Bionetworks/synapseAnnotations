@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.45",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.46",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -303,6 +303,11 @@
             "const": "MayoeGWAS",
             "description": "Gene expression from the Illumina Whole Genome DASL array",
             "source": "https://www.synapse.org/#!Synapse:syn3157225"
+        },
+        {
+            "const": "MayoHippocampus",
+            "description": "The Mayo Clinic Hippocampal Vulnerability Study (MayoHippocampus)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn32141161"
         },
         {
             "const": "MayoLOADGWAS",
