@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.20",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.21",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -468,6 +468,11 @@
             "const": "snpArray",
             "description": "SNP measurements captured by array technology",
             "source": "http://purl.obolibrary.org/obo/OBI_0001204"
+        },
+        {
+            "const": "snATACSeq",
+            "description": "An ATAC-seq assay in which single nuclei are isolated from frozen tissue samples, through a protocol designed to maximally preserve nucleus integrity during sample processing and optimize transposase-mediated fragmentation of chromatin in individual nuclei.",
+            "source": "http://purl.obolibrary.org/obo/OBI_0002762"
         },
         {
             "const": "snrnaSeq",
