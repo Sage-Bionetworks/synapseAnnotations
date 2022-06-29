@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.6",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.7",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -98,6 +98,11 @@
             "const": "chp",
             "description": "CHP file contains probe set analysis results generated from Affymetrix software",
             "source": ""
+        },
+        {
+            "const": "cram",
+            "description": "Reference-based compression of alignment format",
+            "source": "http://edamontology.org/format_3462"
         },
         {
             "const": "csv",
@@ -398,6 +403,11 @@
             "const": "tar",
             "description": "tape archive",
             "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
+        },
+        {
+            "const": "tbi",
+            "description": "A tab-delimited file that contains an index for the genome positions in a compressed (zipped) variant call format file (synonym: tabix).",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C184806"
         },
         {
             "const": "tif",
