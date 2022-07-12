@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.7",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.8",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -235,6 +235,11 @@
             "source": "http://edamontology.org/format_3008"
         },
         {
+            "const": "mat",
+            "description": "Files with the .mat extension are files that are in the binary data container format that the MATLAB program uses.",
+            "source": "https://www.reviversoft.com/en/file-extensions/mat"
+        },
+        {
             "const": "md",
             "description": "Markdown (MD) is a lightweight markup language with plain text formatting syntax",
             "source": "https://en.wikipedia.org/wiki/Markdown"
@@ -253,6 +258,11 @@
             "const": "mtx",
             "description": "Matrix Market Exchange Format",
             "source": "https://math.nist.gov/MatrixMarket/formats.html#MMformat"
+        },
+        {
+            "const": "nirs",
+            "description": "The .nirs file format, popularized by the Homer2 analysis toolbox, is a holistic NIRS data file in that includes time series, trigger and montage information that represent a single fNIRS recording. It is a MATLAB-based file, like a .mat file, a .nirs file can be loaded directly into and have its data accessed from a MATLAB workspace.",
+            "source": "https://nirx.net/file-formats"
         },
         {
             "const": "pdf",
