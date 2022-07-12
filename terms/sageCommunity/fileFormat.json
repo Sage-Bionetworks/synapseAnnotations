@@ -261,7 +261,7 @@
         },
         {
             "const": "nirs",
-            "description": "The .nirs file format, popularized by the Homer2 analysis toolbox, is a holistic NIRS data file in that includes time series, trigger and montage information that represent a single fNIRS recording. It is a MATLAB-based file – like a .mat file, a .nirs file can be loaded directly into and have its data accessed from a MATLAB workspace.",
+            "description": "The .nirs file format, popularized by the Homer2 analysis toolbox, is a holistic NIRS data file in that includes time series, trigger and montage information that represent a single fNIRS recording. It is a MATLAB-based file, like a .mat file, a .nirs file can be loaded directly into and have its data accessed from a MATLAB workspace.",
             "source": "https://nirx.net/file-formats"
         },
         {
