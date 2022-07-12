@@ -100,6 +100,11 @@
             "source": ""
         },
         {
+            "const": "cram",
+            "description": "Reference-based compression of alignment format",
+            "source": "http://edamontology.org/format_3462"
+        },
+        {
             "const": "csv",
             "description": "Tabular data represented as comma-separated values in a text file",
             "source": "http://edamontology.org/format_3752"
@@ -408,6 +413,11 @@
             "const": "tar",
             "description": "tape archive",
             "source": "https://en.wikipedia.org/wiki/Tar_(computing)"
+        },
+        {
+            "const": "tbi",
+            "description": "A tab-delimited file that contains an index for the genome positions in a compressed (zipped) variant call format file (synonym: tabix).",
+            "source": "http://purl.obolibrary.org/obo/NCIT_C184806"
         },
         {
             "const": "tif",
