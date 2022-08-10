@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.diagnosis-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.diagnosis-0.0.12",
     "description": "A diagnosis is the result of a medical investigation to identify a disorder from its signs and symptoms.",
     "type": "string",
     "anyOf": [
@@ -18,6 +18,11 @@
             "const": "Alzheimer Disease",
             "description": "(AD) - Alzheimer disease is a neurodegenerative disorder characterized by progressive dementia, loss of cognitive abilities, and deposition of fibrillar amyloid proteins as intraneuronal neurofibrillary tangles, extracellular amyloid plaques and vascular amyloid deposits.",
             "source": "https://www.ebi.ac.uk/ols/ontologies/cco/terms?iri=http%3A%2F%2Fidentifiers.org%2Fomim%2F104300"
+        },
+        {
+            "const": "Alzheimer disease with psychosis",
+            "description": "An Alzheimer's disease phenotype that includes the presence of persistent hallucinations or delusions throughout the course of dementia.",
+            "source": "https://doi.org/10.1038%2Fs41380-021-01152-8"
         },
         {
             "const": "amyotrophic lateral sclerosis",
