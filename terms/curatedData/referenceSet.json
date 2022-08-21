@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-curatedData.referenceSet-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-curatedData.referenceSet-0.0.5",
     "description": "A set of references (e.g., canonical assembled contigs) which defines a common coordinate space for comparing reference-aligned experimental data.",
     "type": "string",
     "anyOf": [
@@ -8,6 +8,11 @@
             "const": "1000 Genomes phase 3",
             "description": "ISGR 1000 Genomes Project Phase 3",
             "source": "https://genome.sph.umich.edu/wiki/Minimac4#Reference_Panels_for_Download"
+        },
+        {
+            "const": "dmel_r6.06",
+            "description": "BDGP Release 6 of the D. melanogaster genome assembly, annotation set .06",
+            "source": "http://ftp.flybase.net/releases/FB2015_03/dmel_r6.06/"
         },
         {
             "const": "GRCh38",
