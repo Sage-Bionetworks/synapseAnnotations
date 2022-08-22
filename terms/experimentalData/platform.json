@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.21",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.22",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -218,6 +218,11 @@
             "const": "IlluminaWholeGenomeDASL",
             "description": "Illumina Human Whole-Genome DASL HT",
             "source": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL13369"
+        },
+        {
+            "const": "Infinium Global Diversity Array-8",
+            "description": "Illumina 8-sample BeadChip microarray kit. built on a high-density single nucleotide polymorphism (SNP) global backbone optimized for cross-population imputation coverage of the genome.",
+            "source": "https://www.illumina.com/products/by-type/microarray-kits/infinium-global-diversity.html"
         },
         {
             "const": "Infinium HumanOmniExpressExome",
