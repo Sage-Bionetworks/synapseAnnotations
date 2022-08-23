@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.12",
     "description": "The general strategy by which the library was prepared",
     "type": "string",
     "anyOf": [
@@ -13,6 +13,11 @@
             "const": "cellHashing",
             "description": "Cell Hashing uses oligo-tagged antibodies against highly expressed surface proteins to place a 'sample barcode' on each single cell, enabling different samples to be multiplexed together and run in a single experiment",
             "source": "https://cite-seq.com/cell-hashing/"
+        },
+        {
+            "const": "Chromium Single Cell 3'",
+            "description": "10x 3' v3 is the third version of the 10x sequencing technology that sequences from the 3' end of nucleic acid molecules. In the 3' assay, the polyd(T) sequence is part of the gel bead oligo (which also contains the 10x barcode, UMI, and partial Illuma Read 1 sequence), with the template switch oligo (TSO) supplied in the RT Primer.",
+            "source": "http://purl.obolibrary.org/obo/PCL_0016452"
         },
         {
             "const": "DNALibraryConstruction",
