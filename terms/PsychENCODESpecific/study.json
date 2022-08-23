@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.9",
+    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.10",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -123,6 +123,11 @@
             "const": "LIBD_szControl",
             "description": "LIBD_szControl",
             "source": "https://www.synapse.org/#!Synapse:syn22344107"
+        },
+        {
+            "const": "LIBD_U01_DLPFC",
+            "description": "LIBD_U01_DLPFC",
+            "source": "https://www.synapse.org/#!Synapse:syn32383299"
         },
         {
             "const": "LIBD-WGBS",
