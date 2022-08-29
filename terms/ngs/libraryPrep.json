@@ -17,7 +17,7 @@
         {
             "const": "Chromium Single Cell 3'",
             "description": "10x 3' v3 is the third version of the 10x sequencing technology that sequences from the 3' end of nucleic acid molecules. In the 3' assay, the polyd(T) sequence is part of the gel bead oligo (which also contains the 10x barcode, UMI, and partial Illuma Read 1 sequence), with the template switch oligo (TSO) supplied in the RT Primer.",
-            "source": "http://purl.obolibrary.org/obo/PCL_0016452"
+            "source": "https://www.ebi.ac.uk/ols/ontologies/pcl/individuals?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FPCL_0016452"
         },
         {
             "const": "DNALibraryConstruction",
