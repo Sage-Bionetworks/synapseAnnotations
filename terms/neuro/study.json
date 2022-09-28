@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.47",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.48",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -8,6 +8,11 @@
             "const": "3Dchromatin",
             "description": "The neuronal and glial 3D chromatin architecture study",
             "source": "https://www.synapse.org/#!Synapse:syn21754060"
+        },
+        {
+            "const": "ABC-DS",
+            "description": "The Alzheimer's Biomarkers Consortium — Down Syndrome (ABC-DS) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn38190930"
         },
         {
             "const": "Abeta_microglia",
@@ -28,7 +33,12 @@
             "const": "ADAMTS7",
             "description": "The Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26969078"
-        },        
+        }, 
+        {
+            "const": "ADAtlas_Archive",
+            "description": "The Integrated Molecular Atlas of Alzheimer's Disease Archive (ADAtlas_Archive)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn38188085"
+        },
         {
             "const": "AD-BXD",
             "description": "The AD-BXD study",
