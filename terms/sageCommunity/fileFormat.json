@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.8",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.9",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -403,6 +403,11 @@
             "const": "Synapse Table",
             "description": "Table hosted at synapse.org",
             "source": "https://docs.synapse.org/articles/tables.html"
+        },
+        {
+            "const": "tab",
+            "description": "Text file that contains a table of data in which columns are separated by tabs; can be imported by most spreadsheet programs, which will format the data into cells.",
+            "source": "https://fileinfo.com/extension/tab"
         },
         {
             "const": "tagAlign",
