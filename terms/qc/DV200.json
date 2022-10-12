@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-qc.DV200-0.0.1",
+  "description": "A method to determine the quality of RNA obtained from a sample. DV200 evaluates the percentage of fragments of greater than 200 nucleotides.",
+  "type": "number"
+}
