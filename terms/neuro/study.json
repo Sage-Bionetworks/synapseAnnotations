@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.48",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.49",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -527,6 +527,11 @@
         {
             "const": "ROSMAP_bsSeq",
             "description": "Targeted BS-seq on 150 randomly selected ROSMAP samples (ROSMAP_bsSeq)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25832093"
+        },
+        {
+            "const": "ROSMAP_CellTypeSpecificHA",
+            "description": "The ROSMAP Cell-type Specific Histone Acetylation Study (ROSMAP_CellTypeSpecificHA)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25832093"
         },
         {
