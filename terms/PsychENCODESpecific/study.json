@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.10",
+    "$id":"https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-PsychENCODESpecific.study-0.0.11",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -83,6 +83,11 @@
             "const": "flowRNA_WGBS",
             "description": "flowRNA_WGBS",
             "source": "https://www.synapse.org/#!Synapse:syn26295319"
+        },
+        {
+            "const": "HBCC_snRNAseq_sgACC-DLPFC",
+            "description": "HBCC_snRNAseq_sgACC-DLPFC",
+            "source": "https://www.synapse.org/#!Synapse:syn34361744"
         },
         {
             "const": "HumanFC",
