@@ -85,6 +85,11 @@
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26720399"
         },
         {
+            "const": "APOE4_Myelination",
+            "description": "The APOE4 Myelination (APOE4_Myelination) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn44424170"
+        },
+        {
             "const": "APOEPSC",
             "description": "The impact of APOE on aging-related conditions in human iPSC models (APOEPSC) study",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25914209"
