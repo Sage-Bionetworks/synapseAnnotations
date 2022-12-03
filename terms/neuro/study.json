@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.49",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.50",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -83,6 +83,11 @@
             "const": "Aging-PheWAS",
             "description": "Characterization of gene associations with aging-related traits with a genetically-predicted transcriptome-wide association study (TWAS)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn26720399"
+        },
+        {
+            "const": "APOE4_Myelination",
+            "description": "The APOE4 Myelination (APOE4_Myelination) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn44424170"
         },
         {
             "const": "APOEPSC",
@@ -270,6 +275,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn9850001"
         },
         {
+            "const": "Jax.IU.Pitt_Levetiracetam-5XFAD",
+            "description": "The Jax.IU.Pitt_Levetiracetam-5XFAD Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage/StudyDetails?Study=syn21784897"
+        },
+        {
             "const": "Jax.IU.Pitt_MicrobiomePilot",
             "description": "Jax.IU.Pitt_MicrobiomePilot",
             "source": "https://www.synapse.org/#!Synapse:syn22341543"
@@ -288,6 +298,11 @@
             "const": "Jax.IU.Pitt_StrainValidation",
             "description": "Strain validation data from the Jax.IU.Pitt MODEL-AD grant",
             "source": "https://www.synapse.org/#!Synapse:syn21595255"
+        },
+        {
+            "const": "Jax.IU.Pitt_APOE4.Trem2.R47H",
+            "description": "The Jax.IU.Pitt_APOE4.Trem2.R47H Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn17095980"
         },
         {
             "const": "Jax.IU.Pitt_Verubecestat_5XFAD",
