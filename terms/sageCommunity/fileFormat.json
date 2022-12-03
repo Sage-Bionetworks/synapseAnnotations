@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.10",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.11",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -247,6 +247,11 @@
         {
             "const": "mov",
             "description": "A video file format with the .mov extension",
+            "source": "Sage Bioenetworks"
+        },
+        {
+            "const": "mp4",
+            "description": "A video file format with the .mp4 extension",
             "source": "Sage Bioenetworks"
         },
         {
