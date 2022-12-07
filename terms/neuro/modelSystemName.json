@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.modelSystemName-0.0.7",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.modelSystemName-0.0.8",
     "description": "",
     "type": "string",
     "anyOf": [
@@ -275,7 +275,7 @@
             "source": "https://www.jax.org/strain/027918"
         },
         {
-            "const": "Trem2R47H_em1_Aduci",
+            "const": "Trem2R47H_NSS",
             "description": "CRISPR/Cas9-generated mutant of the triggering receptor expressed on myeloid cells 2 (Trem2) gene carrying the R47H mutation that corresponds to the human R47H mutation associated with late-onset Alzheimer's Disease (AD). ",
             "source": "https://www.jax.org/strain/034036"
         },
