@@ -1,6 +1,7 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-qc.GQN-0.0.2",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-qc.GQN-0.0.3",
     "type": "number",
-    "description": "Illumina gDNA quality score"
+    "description": "Illumina Genomic Quality Number (gDNA quality score)",
+    "source": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/appnotes/library-qc-fragment-analyzer-application-note-770-2017-002.pdf"
 }
