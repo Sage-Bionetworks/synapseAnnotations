@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.52",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.53",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -695,6 +695,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn22964685"
         },
         {
+            "const": "UCI_BIN1",
+            "description": "The UCI_BIN1 Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn50944316"
+        },
+        {
             "const": "UCI_PrimaryScreen",
             "description": "Primary screen data from the UCI MODEL-AD grant (UCI_PrimaryScreen)",
             "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn25316706"
@@ -717,7 +722,7 @@
         {
             "const": "UCI_Trem2_Cuprizone",
             "description": "The UCI_Trem2_Cuprizone Study",
-            "source": "https://www.synapse.org/#!Synapse:syn50670633"
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn50670633"
         },
         {
             "const": "UCI_Trem2-R47H_NSS",
