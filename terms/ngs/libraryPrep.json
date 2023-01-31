@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.12",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.libraryPrep-0.0.13",
     "description": "The general strategy by which the library was prepared",
     "type": "string",
     "anyOf": [
@@ -77,6 +77,11 @@
         {
             "const": "rRNAdepletion",
             "description": "Total RNA library with ribosomal RNA depleted.",
+            "source": "Sage Bionetworks"
+        },
+        {
+            "const": "snIsoSeq",
+            "description": "Long-read single-nuclei full-length isoform sequencing",
             "source": "Sage Bionetworks"
         },
         {
