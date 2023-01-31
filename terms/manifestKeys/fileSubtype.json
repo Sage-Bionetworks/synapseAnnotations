@@ -1,0 +1,18 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileSubtype-0.0.1",
+    "description": "Additional information about the file, which may be used to indicate the type of data or content in the file.",
+    "type": "string",
+    "anyOf": [
+        {
+            "const": "CCS",
+            "description": "The circular consensus sequencing (CCS) file that is produced by PacBio long-read systems.",
+            "source": "https://www.pacb.com/technology/hifi-sequencing/"
+        },
+        {
+            "const": "HiFi",
+            "description": "The highly accurate long-read sequencing or HiFi sequencing file that is produced using circular consensus sequencing (CCS) mode on PacBio long-read systems.",
+            "source": "https://www.pacb.com/technology/hifi-sequencing/"
+        }
+    ]
+}

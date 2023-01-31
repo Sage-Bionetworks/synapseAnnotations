@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.23",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.24",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -313,6 +313,11 @@
             "const": "PacBio Sequel II",
             "description": "A DNA sequencer built upon single molecule real-time sequencing technology, optimized for generation of highly accurate long reads, and which is manufactured by the Pacific Biosciences corporation.",
             "source": "http://purl.obolibrary.org/obo/OBI_0002633"
+        },
+        {
+            "const": "PacBio Sequel IIe",
+            "description": "Sequel IIe is the latest platform from Pacific Biosciences (PacBio) that generates high throughput and highly accurate long-read sequencing.",
+            "source": "https://www.pacb.com/technology/hifi-sequencing/sequel-system/latest-system-release/"
         },
         {
             "const": "Perlegen300Karray",

@@ -1,0 +1,6 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-ngs.isResequenced-0.0.1",
+    "description": "Whether or not the same library is resequenced for more reads.",
+    "type": "boolean"
+}
