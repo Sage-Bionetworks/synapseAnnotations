@@ -30,6 +30,11 @@
             "source": "http://purl.obolibrary.org/obo/NCIT_C28143"
         },
         {
+            "const": "cuprizone",
+            "description": "Cuprizon is an organooxygen compound and an organonitrogen compound. It is functionally related to an alpha-amino acid. Copper chelator that inhibits monoamine oxidase and causes liver and brain damage.",
+            "source": "https://pubchem.ncbi.nlm.nih.gov/compound/Cuprizone"
+        },
+        {
             "const": "Abeta42 oligomer",
             "description": "The stable oligomeric preparation of an amyloid beta peptide that corresponds to residues 1-42 of C99.",
             "source": "https://doi.org/10.1074/jbc.m201750200"
