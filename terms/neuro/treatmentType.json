@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.treatmentType-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.treatmentType-0.0.5",
     "description": "",
     "type": "string",
     "anyOf": [
@@ -28,6 +28,11 @@
             "const": "control",
             "description": "A group used as a standard of comparison in a control experiment.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C28143"
+        },
+        {
+            "const": "cuprizone",
+            "description": "Cuprizon is an organooxygen compound and an organonitrogen compound. It is functionally related to an alpha-amino acid. Copper chelator that inhibits monoamine oxidase and causes liver and brain damage.",
+            "source": "https://pubchem.ncbi.nlm.nih.gov/compound/Cuprizone"
         },
         {
             "const": "Abeta42 oligomer",
