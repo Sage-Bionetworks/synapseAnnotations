@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-sageCommunity.fileFormat-0.0.12",
     "description": "Defined format of the data file, typically corresponding to extension, but sometimes indicating more general group of files produced by the same tool or software",
     "type": "string",
     "anyOf": [
@@ -88,6 +88,11 @@
             "const": "bpm",
             "description": "A beaded pool manifest. Describe the SNP or probe content on a BeadChip or in an assay pool.",
             "source": "https://support.illumina.com/datafiles.html"
+        },
+        {
+            "const": "bsc",
+            "description": "A project file generated from the Illumina GenomeStudio software suite.",
+            "source": "https://www.illumina.com/content/dam/illumina-support/documents/documentation/software_documentation/genomestudio/genomestudio-2011-1/genomestudio-gt-module-v1-0-user-guide-11319113-a.pdf"
         },
         {
             "const": "cel",
