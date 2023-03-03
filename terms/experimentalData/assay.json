@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.22",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.23",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -238,6 +238,11 @@
             "const": "LC-SRM",
             "description": "Liquid chromatography-selected reaction monitoring. A mass spectrometry assay for the targeted quantitation of protein/peptide abundances in biological samples.",
             "source": "https://pubs.acs.org/doi/10.1021/ac5020996"
+        },
+        {
+            "const": "lentiMPRA",
+            "description": "The Lentivirus-based MPRA (lentiMPRA) produces 'in-genome' readouts and enables the use of this technique in hard-to-transfect cells.",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/32641802/#:~:text=Lentivirus%2Dbased%20MPRA%20(lentiMPRA),activity%20from%20different%20MPRA%20designs"
         },
         {
             "const": "LFP",
