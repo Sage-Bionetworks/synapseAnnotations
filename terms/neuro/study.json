@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.53",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.54",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -508,6 +508,11 @@
             "const": "NHP-Chimpanzee",
             "description": "Chimpanzee data",
             "source": "https://www.synapse.org/#!Synapse:syn7067053"
+        },
+        {
+            "const": "NPS-AD",
+            "description": "The Molecular Mechanisms of Neuropsychiatric Symptoms in Alzheimer Disease (NPS-AD) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage/StudyDetails?Study=syn51197189"
         },
         {
             "const": "OFMM",
