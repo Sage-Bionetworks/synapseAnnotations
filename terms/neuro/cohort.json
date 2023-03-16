@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.cohort-0.0.1",
-  "description": "cohort",
+  "description": "A study group population where the members are human beings which meet inclusion criteria.",
   "type": "string",
   "anyOf": [
       {
