@@ -2,6 +2,7 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.cohort-0.0.1",
   "description": "Cohort",
+  "type": "string",
   "anyOf": [
       {
           "cohort": "ABC-DS",
@@ -153,5 +154,5 @@
           "description": "University of Washington Alzheimer's Disease Research Center",
           "source": "http://depts.washington.edu/mbwc/adrc"
       }
-  ]
+   ]
 }
