@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.cohort-0.0.1",
+  "description": "A study group population where the members are human beings which meet inclusion criteria.",
+  "type": "string",
+  "anyOf": [
+      {
+          "const": "ABC-DS",
+          "description": "Alzheimer's Biomarkers Consortium - Down Syndrome",
+          "source": "https://www.abcds.pitt.edu/"
+      },
+      {
+          "const": "ACT",
+          "description": "Adult Changes in Thought - Kaiser Permanente Washington Health Research Institute",
+          "source": "https://actagingresearch.org/about"
+      },
+      {
+          "const": "ADNI",
+          "description": "Alzheimer's Disease Neuroimaging Initative",
+          "source": "https://adni.loni.usc.edu/"
+      },
+      {
+          "const": "Banner",
+          "description": "Banner Sun Health Research Institute's Brain and Body Donation Program.",
+          "source": "https://www.bannerhealth.com/research/locations/sun-health-institute/programs/body-donation"
+      },
+      {
+          "const": "BEB-Miller",
+          "description": "University of Miami Miller School of Medicine Brain Endowment Bank",
+          "source": "https://med.miami.edu/programs/brain-endowment-bank"
+      },
+      {
+          "const": "BLSA",
+          "description": "NIA's Baltimore Longitudinal Study of Aging",
+          "source": "https://www.blsa.nih.gov/"
+      },
+      {
+          "const": "CHDWB",
+          "description": "Center for Health Discovery and Well Being cohort as part of the Emory University/Georgia Tech Predictive Health Institute",
+          "source": "https://med.emory.edu/departments/medicine/research/centers-institutes/predictive-health/chd.html"
+      },
+      {
+          "const": "DiCAD",
+          "description": "Diabetes, Cerebrovascular Disease, and Alzheimer's Disease human cohort; longitudinal cohort of 200 late middle-aged community-dwelling hispanics from Northern Manhattan",
+          "source": ""
+      },
+      {
+          "const": "EHBS",
+          "description": "Emory Healthy Brain Study",
+          "source": "https://healthyaging.emory.edu/ehbs/"
+      },
+      {
+          "const": "Emory ADRC",
+          "description": "Emory Alzheimer's Disease Research Center Brain Bank",
+          "source": "https://alzheimers.emory.edu/research/for-researchers/tissue_biospecimen_banking_facility.html"
+      },
+      {
+          "const": "Framingham",
+          "description": "Framingham Heart Study",
+          "source": "https://www.framinghamheartstudy.org/"
+      },
+      {
+          "const": "HBTRC",
+          "description": "Harvard Brain Tissue Research Center",
+          "source": "https://hbtrc.mclean.harvard.edu/"
+      },
+      {
+          "const": "HPGP",
+          "description": "Harvard Personal Genome Project",
+          "source": "https://pgp.med.harvard.edu/"
+      },
+      {
+          "const": "HUP",
+          "description": "Hospital of the University of Pennsylvania autopsy service",
+          "source": "https://pathology.med.upenn.edu/clinical-services/anatomic-pathology/medical-pathology"
+      },
+      {
+          "const": "LBP",
+          "description": "Living Brain Project",
+          "source": "https://labs.icahn.mssm.edu/minervalab/resources/data-ark/lbp/"
+      },
+      {
+          "const": "MARS",
+          "description": "The Minority Aging Research Study",
+          "source": "https://www.rushu.rush.edu/research/departmental-research/minority-aging-research-study"
+      },
+      {
+          "const": "MAYO",
+          "description": "Mayo Clinic Brain Bank",
+          "source": "https://www.mayo.edu/research/departments-divisions/department-neuroscience-florida/biorepositories/mayo-clinic-brain-bank"
+      },
+      {
+          "const": "MC",
+          "description": "Mayo Clinic (NOT brain bank, living)",
+          "source": "https://www.mayo.edu/research/clinical-trials/cls-20308924#participating"
+      },
+      {
+          "const": "MCJ",
+          "description": "Mayo Clinic Jacksonville",
+          "source": "https://www.mayo.edu/research/florida"
+      },
+      {
+          "const": "MCR",
+          "description": "Mayo Clinic Rochester",
+          "source": "https://www.mayo.edu/research/minnesota"
+      },
+      {
+          "const": "MSBB",
+          "description": "Mount Sinai/JJ Peters VA Medical Center Brain Bank",
+          "source": "https://icahn.mssm.edu/research/nih-brain-tissue-repository"
+      },
+      {
+          "const": "NYBB",
+          "description": "New York Brain Bank at Columbia University",
+          "source": "http://www.columbianeuroresearch.org/taub/res-investigation.html"
+      },
+      {
+          "const": "Pitt ADRC",
+          "description": "University of PIttsburgh Alzheimer's Disease Research Center",
+          "source": "https://www.adrc.pitt.edu/"
+      },
+      {
+          "const": "RADC",
+          "description": "Rush Alzheimer's Disease Center",
+          "source": "https://www.rushu.rush.edu/research/departmental-research/rush-alzheimers-disease-center"
+      },
+      {
+          "const": "ROSMAP",
+          "description": "Religious Orders Study/Memory and Aging Project from Rush University ",
+          "source": "https://www.rushu.rush.edu/research/departmental-research/religious-orders-study, https://www.rushu.rush.edu/research/departmental-research/memory-and-aging-project"
+      },
+      {
+          "const": "SMRI",
+          "description": "Stanley Medical Research Institute",
+          "source": "https://www.stanleyresearch.org/"
+      },
+      {
+          "const": "UK Biobank",
+          "description": "UK Biobank",
+          "source": "https://www.ukbiobank.ac.uk/"
+      },
+      {
+          "const": "UPBB",
+          "description": "University of Pennsylvania School of Medicine Brain Bank",
+          "source": "https://www.med.upenn.edu/adrc/datasharing.html"
+      },
+      {
+          "const": "UPenn",
+          "description": "The University of Pennsylvania Alzheimer's Disease Core Center (ADCC), Penn Udall Center and the Center for Neurodegenerative Disease Research (CNDR)",
+          "source": "https://pathology.med.upenn.edu/research/centers-and-institutes/udall-center-for-parkinsons-research, https://www.med.upenn.edu/cndr/"
+      },
+      {
+          "const": "UW ADRC",
+          "description": "University of Washington Alzheimer's Disease Research Center",
+          "source": "http://depts.washington.edu/mbwc/adrc"
+      }
+   ]
+}
