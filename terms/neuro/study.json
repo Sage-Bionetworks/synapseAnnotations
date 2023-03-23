@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.54",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.55",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -693,6 +693,11 @@
             "const": "U1-70_PrimaryCellCulture",
             "description": "APP.PS1 and U1-70 transduced neurons",
             "source": "https://www.synapse.org/#!Synapse:syn5820226"
+        },
+        {
+            "const": "UAB_ADRC",
+            "description": "The University of Alabama Birmingham Alzheimer’s Disease Research Center (UAB_ADRC) Study",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage/StudyDetails?Study=syn51226075"
         },
         {
             "const": "UCI_3xTg-AD",
