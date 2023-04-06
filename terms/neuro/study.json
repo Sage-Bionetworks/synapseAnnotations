@@ -355,6 +355,11 @@
             "source": "https://www.synapse.org/#!Synapse:syn5550404"
         },
         {
+            "const": "MC-BrAD",
+            "description": "Mayo Clinic Brain Molecular Signatures of Resilience to Alzheimer's Disease",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage?Study=syn51298412"
+        },
+        {
             "const": "MC-CAA",
             "description": "RNAseq data on cerebral amyloid angiopathy (CAA) pathology",
             "source": "https://www.synapse.org/#!Synapse:syn9779506"
