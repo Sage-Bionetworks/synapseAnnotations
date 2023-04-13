@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.cohort-0.0.1",
+  "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.cohort-0.0.2",
   "description": "A study group population where the members are human beings which meet inclusion criteria.",
   "type": "string",
   "anyOf": [
@@ -38,6 +38,11 @@
           "const": "CHDWB",
           "description": "Center for Health Discovery and Well Being cohort as part of the Emory University/Georgia Tech Predictive Health Institute",
           "source": "https://med.emory.edu/departments/medicine/research/centers-institutes/predictive-health/chd.html"
+      },
+      {
+          "const": "CLINCOR",
+          "description": "The Rush Alzheimer Disease Center Clinical Core study; a longitudinal, epidemiologic clinical-pathologic cohort study of the transition from normal aging to mild cognitive impairment (MCI) to the earliest stages of dementia",
+          "source": "https://www.radc.rush.edu/docs/parentStudyDesigns.htm"  
       },
       {
           "const": "DiCAD",
