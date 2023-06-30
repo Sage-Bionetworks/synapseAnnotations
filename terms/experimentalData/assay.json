@@ -1,9 +1,14 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.24",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.25",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
+        {
+            "const": "10x multiome",
+            "description": "Simultaneous profiling of gene expression and open chromatin from the same cell. (EFO:0030059)",
+            "source": "http://www.ebi.ac.uk/efo/EFO_0030059"
+        }
         {
             "const": "16SrRNAseq",
             "description": "An amplicon sequencing assay in which the amplicon is derived from universal primers used to amplify the 16S ribosomal RNA gene from isolate bacterial genomic DNA or metagenomic DNA from a microbioal community. Resulting sequences are compared to reference 16S sequence databases to identify or classify bacteria present within a given sample.",
