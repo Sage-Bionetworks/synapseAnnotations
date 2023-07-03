@@ -5,7 +5,7 @@
     "type": "string",
     "anyOf": [
         {
-            "const": “10x multiome"
+            "const": “10x multiome",
             "description": "Simultaneous profiling of gene expression and open chromatin from the same cell.",
             "source": "http://www.ebi.ac.uk/efo/EFO_0030059"
         },
