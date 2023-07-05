@@ -29,6 +29,8 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           renv::restore()
+          renv::install("blob")
+          renv::snapshot()
 
       - name: Set up Synapse config file for testing
         run: |
