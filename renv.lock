@@ -41,13 +41,6 @@
       "Repository": "CRAN",
       "Hash": "08588806cba69f04797dab50627428ed"
     },
-    "PythonEmbedInR": {
-      "Package": "PythonEmbedInR",
-      "Version": "0.8.4",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "9a489905fb7363c0c2980453131586c6"
-    },
     "R6": {
       "Package": "R6",
       "Version": "2.5.0",
@@ -519,10 +512,10 @@
     },
     "renv": {
       "Package": "renv",
-      "Version": "0.12.0",
+      "Version": "0.13.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "7340c71f46a0fd16506cfa804e224e44"
+      "Hash": "079cb1f03ff972b30401ed05623cbe92"
     },
     "reprex": {
       "Package": "reprex",
@@ -535,6 +528,13 @@
       "RemoteRef": "HEAD",
       "RemoteSha": "d3fc4b8bedeb9622b9941faa073ee65b3ebd7dbb",
       "Hash": "f82a60f2042a9493f6c9315dca2261fc"
+    },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fbd35cac6ae7554d0e4f440bca1adf3a"
     },
     "rjson": {
       "Package": "rjson",
@@ -594,10 +594,10 @@
     },
     "stringi": {
       "Package": "stringi",
-      "Version": "1.5.3",
+      "Version": "1.7.12",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "a063ebea753c92910a4cca7b18bc1f05"
+      "Hash": "ca8bd84263c77310739d2cf64d84d7c9"
     },
     "stringr": {
       "Package": "stringr",
