@@ -374,7 +374,6 @@
       "Package": "mgcv",
       "Version": "1.8-42",
       "Source": "Repository",
-      "Repository": "CRAN",
       "Hash": "3460beba7ccc8946249ba35327ba902a"
     },
     "mime": {
