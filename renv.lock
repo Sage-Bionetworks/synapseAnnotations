@@ -92,10 +92,10 @@
     },
     "blob": {
       "Package": "blob",
-      "Version": "1.2.4",
+      "Version": "1.2.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "40415719b5a479b87949f3aa0aee737c"
+      "Hash": "10d231579bc9c06ab1c320618808d4ff"
     },
     "broom": {
       "Package": "broom",
