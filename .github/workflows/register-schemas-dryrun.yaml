@@ -28,6 +28,7 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv", repos = "https://cloud.r-project.org/")
+          source("renv/activate.R")
           renv::restore()
 
       - name: Set up Synapse config file for testing
