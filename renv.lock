@@ -372,10 +372,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-42",
+      "Version": "1.8-33",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "3460beba7ccc8946249ba35327ba902a"
+      "Hash": "eb7b6439bc6d812eed2cddba5edc6be3"
     },
     "mime": {
       "Package": "mime",
@@ -411,13 +411,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "a399e4773075fc2375b71f45fca186c4"
-    },
-    "pack": {
-      "Package": "pack",
-      "Version": "0.1-1",
-      "Source": "Repository",
-      "Repository": null,
-      "Hash": "c4f814b30334e8bc6124647794781a09"
     },
     "pillar": {
       "Package": "pillar",
@@ -529,20 +522,6 @@
       "RemoteSha": "d3fc4b8bedeb9622b9941faa073ee65b3ebd7dbb",
       "Hash": "f82a60f2042a9493f6c9315dca2261fc"
     },
-    "reticulate": {
-      "Package": "reticulate",
-      "Version": "1.18",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "fbd35cac6ae7554d0e4f440bca1adf3a"
-    },
-    "rjson": {
-      "Package": "rjson",
-      "Version": "0.2.20",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "7d597f982ee6263716b6a2f28efd29fa"
-    },
     "rlang": {
       "Package": "rlang",
       "Version": "0.4.9",
@@ -610,7 +589,7 @@
       "Package": "synapser",
       "Version": "0.11.7",
       "Source": "Repository",
-      "Repository": null,
+      "Repository": "Sage",
       "Hash": "799a9fb65ed0003716e629c97e9c152c"
     },
     "sys": {
