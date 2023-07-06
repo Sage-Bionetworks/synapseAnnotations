@@ -372,9 +372,10 @@
     },
     "mgcv": {
       "Package": "mgcv",
-      "Version": "1.8-42",
+      "Version": "1.8-33",
       "Source": "Repository",
-      "Hash": "3460beba7ccc8946249ba35327ba902a"
+      "Repository": "CRAN",
+      "Hash": "eb7b6439bc6d812eed2cddba5edc6be3"
     },
     "mime": {
       "Package": "mime",
