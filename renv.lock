@@ -405,6 +405,13 @@
       "Repository": "CRAN",
       "Hash": "a399e4773075fc2375b71f45fca186c4"
     },
+    "pack": {
+      "Package": "pack",
+      "Version": "0.1-1",
+      "Source": "Repository",
+      "Repository": null,
+      "Hash": "c4f814b30334e8bc6124647794781a09"
+    },
     "pillar": {
       "Package": "pillar",
       "Version": "1.4.7",
