@@ -522,6 +522,13 @@
       "RemoteSha": "d3fc4b8bedeb9622b9941faa073ee65b3ebd7dbb",
       "Hash": "f82a60f2042a9493f6c9315dca2261fc"
     },
+    "reticulate": {
+      "Package": "reticulate",
+      "Version": "1.18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "fbd35cac6ae7554d0e4f440bca1adf3a"
+    },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.1",
