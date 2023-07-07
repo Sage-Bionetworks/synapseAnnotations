@@ -28,7 +28,6 @@ jobs:
         shell: Rscript {0}
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
-          install.packages("sys")
           renv::restore()
 
       - name: Set up Synapse config file for testing
