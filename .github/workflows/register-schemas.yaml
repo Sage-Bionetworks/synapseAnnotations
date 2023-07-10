@@ -31,6 +31,7 @@ jobs:
         run: |
           if (!requireNamespace("renv", quietly = TRUE)) install.packages("renv")
           install.packages("sys")
+          install.packages("pkgload")
           renv::restore()
 
       - name: Set up Synapse config file for testing
