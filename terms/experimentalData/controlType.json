@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.controlType-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.controlType-0.0.5",
     "description": "Control samples suitable for normalization and batch correction",
     "type": "string",
     "anyOf": [
@@ -13,6 +13,11 @@
             "const": "Baker pool",
             "description": "The Baker Institute Metabolomics Laboratory reference pool.",
             "source": "https://baker.edu.au/research/laboratories/metabolomics"
+        },
+        {
+            "const": "blank injection",
+            "description": "blank injection",
+            "source": "-"
         },
         {
             "const": "GIS",
@@ -28,6 +33,16 @@
             "const": "NIST SRM 1950",
             "description": "Human reference plasma from the National Institute of Standards and Technology.",
             "source": "https://www-s.nist.gov/srmors/view_detail.cfm?srm=1950"
+        },
+        {
+            "const": "qc mix",
+            "description": "QC Mix",
+            "source": "-"
+        },
+        {
+            "const": "Replicate",
+            "description": "Replicate Sample",
+            "source": "-"
         },
         {
             "const": "study pool",
