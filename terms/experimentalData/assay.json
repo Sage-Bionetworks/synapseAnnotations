@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.25",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.assay-0.0.26",
     "description": "The technology used to generate the data in this file",
     "type": "string",
     "anyOf": [
@@ -405,6 +405,11 @@
             "source": "http://purl.obolibrary.org/obo/OBI_0001000"
         },
         {
+            "const": "Rader Lipidomics",
+            "description": "The total cholesterol and total triglyceride assays are manufactured by Roche Diagnostics and utilize an enzymatic colorimetric method.  The HDL C assay is also manufactured by Roche but utilizes a homogeneous enzymatic-colorimetric method. The ApoA1 assay from Roche employs an immunoturbidimetric method, as does the ApoE assay from Kamiya Biomedical.",
+            "source": "https://diagnostics.roche.com/"
+        },
+        {
             "const": "Real Time PCR",
             "description": "An application of PCR that measures the products generated during each cycle of the polymerase chain reaction process in order to determine the starting amount of template in the reaction.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C51962"
@@ -525,6 +530,16 @@
             "source": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5360460/"
         },
         {
+            "const": "UC Davis GCTOF",
+            "description": "Gas Chromatography Time of Flight Mass Spectrometry",
+            "source": "https://www.metabolomics.ucdavis.edu/"
+        },
+        {
+            "const": "UCSD Untargeted Metabolomics",
+            "description": "Untargeted metabolomics performed at the Pieter Dorrestein lab, UCSD.",
+            "source": "https://dorresteinlab.ucsd.edu/in-the-news"
+        },
+        {
             "const": "Vernier Caliper",
             "description": "A medical device that is a combination of ruler and caliper that can measure the distance between two points. The configuration of this device permits the measurement of internal dimensions.",
             "source": "http://purl.obolibrary.org/obo/NCIT_C81184"
@@ -553,6 +568,16 @@
             "const": "wholeGenomeSeq",
             "description": "Laboratory technique to sequence the complete DNA sequence of an organism's genome at a single time",
             "source": "http://edamontology.org/topic_3673"
+        },
+        {
+            "const": "Wishart Catecholamines",
+            "description": "High-throughput LC MS based targeted quantitative assay developed to measure catecholamines",
+            "source": "https://www.wishartlab.com/projects/the-metabolomics-innovation-center"
+        },
+        {
+            "const": "Wishart High Value Metabolites",
+            "description": "UHPLC MS assay to detect high value high abundance metabolites and low abundance metabolites (High-value and one-carbon metabolites)",
+            "source": "https://www.wishartlab.com/projects/the-metabolomics-innovation-center"
         },
         {
             "const": "Zeno Electronic Walkway",
