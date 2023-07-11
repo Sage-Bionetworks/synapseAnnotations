@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.25",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.platform-0.0.26",
     "description": "The specific version (manufacturer, model, etc.) of a technology that is used to carry out a laboratory or computational experiment.",
     "type": "string",
     "anyOf": [
@@ -255,6 +255,11 @@
             "source": "https://www.illumina.com/content/dam/illumina-marketing/documents/products/datasheets/datasheet-infinium-psych-array.pdf"
         },
         {
+            "const": "Leco Pegasus IV",
+            "description": "Gas Chromatography Mass Spectrometers",
+            "source": "https://www.leco.com/pegasus"
+        },
+        {
             "const": "LTQOrbitrapXL",
             "description": "LTQ Orbitrap XL Hybrid Ion Trap-Orbitrap Mass Spectrometer",
             "source": "https://www.thermofisher.com/order/catalog/product/IQLAAEGAAPFADBMAOK"
@@ -354,6 +359,11 @@
             "description": "Mass spectrometry that uses a system with a quadrupole mass-to-charge analyser connected to a time-of-flight mass-to-charge analyser.",
             "source": "http://purl.obolibrary.org/obo/CHMO_0002719"
         },
+        {
+            "const": "Roche Cobas",
+            "description": "The cobas c 311 analyzer is a stand alone system that offers consolidated testing from a broad menu of clinical chemistry applications.",
+            "source": "https://diagnostics.roche.com/global/en/products/instruments/cobas-c-311-ins-2043.html"
+        }
         {
             "const": "SequenomMultiplex",
             "description": "Sequenom Multiplex",
