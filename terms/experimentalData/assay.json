@@ -406,7 +406,7 @@
         },
         {
             "const": "Rader Lipidomics",
-            "description": "The total cholesterol and total triglyceride assays are manufactured by Roche Diagnostics and utilize an enzymatic colorimetric method.  The HDL-C assay is also manufactured by Roche but utilizes a homogeneous enzymatic-colorimetric method. The ApoA1 assay from Roche employs an immunoturbidimetric method, as does the ApoE assay from Kamiya Biomedical.",
+            "description": "The total cholesterol and total triglyceride assays are manufactured by Roche Diagnostics and utilize an enzymatic colorimetric method.  The HDL C assay is also manufactured by Roche but utilizes a homogeneous enzymatic-colorimetric method. The ApoA1 assay from Roche employs an immunoturbidimetric method, as does the ApoE assay from Kamiya Biomedical.",
             "source": "https://diagnostics.roche.com/"
         },
         {
@@ -531,7 +531,7 @@
         },
         {
             "const": "UC Davis GCTOF",
-            "description": "Gas Chromatography–Time-of-Flight Mass Spectrometry",
+            "description": "Gas Chromatography Time of Flight Mass Spectrometry",
             "source": "https://www.metabolomics.ucdavis.edu/"
         },
         {
@@ -571,12 +571,12 @@
         },
         {
             "const": "Wishart Catecholamines",
-            "description": "High-throughput LC-MS based targeted quantitative assay developed to measure catecholamines",
+            "description": "High-throughput LC MS based targeted quantitative assay developed to measure catecholamines",
             "source": "https://www.wishartlab.com/projects/the-metabolomics-innovation-center"
         },
         {
             "const": "Wishart High Value Metabolites",
-            "description": "UHPLC-MS assay to detect high value high abundance metabolites and low abundance metabolites (High-value + one-carbon metabolites)",
+            "description": "UHPLC MS assay to detect high value high abundance metabolites and low abundance metabolites (High-value and one-carbon metabolites)",
             "source": "https://www.wishartlab.com/projects/the-metabolomics-innovation-center"
         },
         {
