@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.metaboliteType-0.0.4",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.metaboliteType-0.0.5",
     "description": "Class of metabolite.",
     "type": "string",
     "anyOf": [
@@ -20,6 +20,16 @@
             "source": "http://purl.bioontology.org/ontology/MESH/D000596"
         },
         {
+            "const": "ApoA1",
+            "description": "apolipoprotein A-I",
+            "source": "http://purl.obolibrary.org/obo/OGG_3000000335"
+        },
+        {
+            "const": "ApoE",
+            "description": "The protein-coding gene APOE (apolipoprotein E) located on the chromosome 19 mapped at 19q13.2.",
+            "source": "http://identifiers.org/ncbigene/348"
+        },
+        {
             "const": "bile acids",
             "description": "Any member of a group of hydroxy-5beta-cholanic acids occuring in bile, where they are present as the sodium salts of their amides with glycine or taurine. In mammals bile acids almost invariably have 5beta-configuration.",
             "source": "http://purl.obolibrary.org/obo/CHEBI_3098"
@@ -33,6 +43,11 @@
             "const": "carbohydrates",
             "description": "A class of organic compounds composed of carbon, hydrogen, and oxygen in a ratio of Cn(H2O)n.",
             "source": "http://purl.bioontology.org/ontology/MESH/D002241"
+        },
+        {
+            "const": "catecholamine",
+            "description": "4-(2-Aminoethyl)pyrocatechol [4-(2-aminoethyl)benzene-1,2-diol] and derivatives formed by substitution.",
+            "source": "http://purl.obolibrary.org/obo/CHEBI_33567"
         },
         {
             "const": "ceramides",
@@ -163,6 +178,16 @@
             "const": "TCA cycle metabolites",
             "description": "TCA cycle metabolites",
             "source": "http://www.semanticweb.org/ADMO#TCACycle"
+        },
+        {
+            "const": "triglycerides",
+            "description": "A triglyceride is an ester derived from glycerol and three fatty acids.",
+            "source": "http://purl.bioontology.org/ontology/MESH/D014280"
+        },
+        {
+            "const": "untargeted metabolomics",
+            "description": "An untargeted metabolomics experiment registers all ions within a certain mass range, including ions belonging to structurally novel metabolites.",
+            "source": "https://pubmed.ncbi.nlm.nih.gov/20373502/"
         },
         {
             "const": "xenobiotics",
