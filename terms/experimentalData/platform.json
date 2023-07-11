@@ -363,7 +363,7 @@
             "const": "Roche Cobas",
             "description": "The cobas c 311 analyzer is a stand alone system that offers consolidated testing from a broad menu of clinical chemistry applications.",
             "source": "https://diagnostics.roche.com/global/en/products/instruments/cobas-c-311-ins-2043.html"
-        }
+        },
         {
             "const": "SequenomMultiplex",
             "description": "Sequenom Multiplex",
