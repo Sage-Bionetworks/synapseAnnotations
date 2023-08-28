@@ -172,7 +172,7 @@
         {
             "const": "lateral entorhinal cortex",
             "description": "One of two subdivisions of the entorhinal cortex, located laterally.",
-            "source": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007225"
+            "source": "http://purl.obolibrary.org/obo/UBERON_0007225"
         },
         {
             "const": "left cerebral hemisphere",
@@ -197,7 +197,7 @@
         {
             "const": "medial entorhinal cortex",
             "description": "One of two subdivisions of the entorhinal cortex, located medially.",
-            "source": "https://www.ebi.ac.uk/ols4/ontologies/uberon/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0007224"
+            "source": "http://purl.obolibrary.org/obo/UBERON_0007224"
         },
         {
             "const": "medial frontal cortex",
