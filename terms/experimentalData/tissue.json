@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.tissue-0.0.11",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-experimentalData.tissue-0.0.12",
     "description": "A tissue is a mereologically maximal collection of cells that together perform physiological function.",
     "type": "string",
     "anyOf": [
@@ -170,6 +170,11 @@
             "source": "http://purl.obolibrary.org/obo/UBERON_0034891"
         },
         {
+            "const": "lateral entorhinal cortex",
+            "description": "One of two subdivisions of the entorhinal cortex, located laterally.",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0007225"
+        },
+        {
             "const": "left cerebral hemisphere",
             "description": "One of two bilateral, largely symmetrical organ subdivisions within the telencephalon which contain the cerebral cortex and cerebral white matter.",
             "source": "http://purl.obolibrary.org/obo/UBERON_0001869"
@@ -188,6 +193,11 @@
             "const": "medial dorsal nucleus of thalamus",
             "description": "A large nucleus in the thalamus. It receives inputs from the Pre-Frontal Cortex and the Limbic System and in turn relays them to the Pre-Frontal Association Cortex. ",
             "source": "http://purl.obolibrary.org/obo/UBERON_0002739"
+        },
+        {
+            "const": "medial entorhinal cortex",
+            "description": "One of two subdivisions of the entorhinal cortex, located medially.",
+            "source": "http://purl.obolibrary.org/obo/UBERON_0007224"
         },
         {
             "const": "medial frontal cortex",
