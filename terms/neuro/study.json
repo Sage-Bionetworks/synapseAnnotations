@@ -1,6 +1,6 @@
 {
     "$schema": "http://json-schema.org/draft-07/schema#",
-    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.57",
+    "$id": "https://repo-prod.prod.sagebase.org/repo/v1/schema/type/registered/sage.annotations-neuro.study-0.0.58",
     "description": "Study",
     "type": "string",
     "anyOf": [
@@ -568,6 +568,11 @@
             "const": "ROSMAP_CognitiveResilience",
             "description": "The ROSMAP_CognitiveResilience study",
             "source": "https://www.synapse.org/#!Synapse:syn22695346"
+        },
+        {
+            "const": "ROSMAP-IA",
+            "description": "The ROSMAP iPSC-derived Astrocyte Study (ROSMAP-IA)",
+            "source": "https://adknowledgeportal.synapse.org/Explore/Studies/DetailsPage/StudyDetails?Study=syn52383678"
         },
         {
             "const": "ROSMAP-IN",
